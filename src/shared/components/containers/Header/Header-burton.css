@@ -1,0 +1,29 @@
+/** @define HeaderBurton; weak */
+
+.HeaderBurton {
+  &-content {
+    opacity: 1;
+  }
+  
+  &.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    background-color: $white;
+    z-index: 2;
+
+    & .HeaderBurton-brand, & .HeaderBurton-content {
+      display: none;
+    }
+
+    & .HeaderBurton-navigation {
+      width: 100%;
+      max-width: $laptop-end-width;
+      height: 50px;
+      padding: 8px 10px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+/** @define MiniBagConfirm */
+
+.MiniBagConfirm {
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  pointer-events: none;
+  transition: all 1s ease-in;
+
+  &.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &-content {
+    padding: 20px 10px 10px;
+  }
+
+  &-closeIcon {
+    &:before {
+      content: '×'
+    }
+  }
+
+  &-products {
+    margin: 0;
+    padding: 0;
+  }
+
+  &-goToCheckout {
+    width: 100%;
+  }
+
+  &-viewBag {
+    width: 100%;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,21 @@
+pipeline {
+  agent any
+
+  options {
+    // discard old builds: 30 days / 200 builds
+    buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '20'))
+
+    // abort if stuck: 90 minutes
+    timeout(time: 5, unit: 'MINUTES')
+
+    timestamps()
+  }
+
+  stages {
+    stage("Url Swap") {
+      steps {
+        sh 'scripts/swap_json_urls_prod.sh'
+      }
+    }
+  }
+}

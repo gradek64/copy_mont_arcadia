@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryDetailsElement /> @renders in default state 1`] = `
+<div
+  className="OrderHistoryDetailsElement"
+>
+  <Connect(Image)
+    className="OrderHistoryDetailsElement-image"
+  />
+  <div
+    className="OrderHistoryDetailsElement-table"
+  >
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col1"
+    />
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col2"
+    />
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col3"
+    />
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col4"
+    />
+  </div>
+</div>
+`;
+
+exports[`<OrderHistoryDetailsElement /> @renders with imageUrl and productName 1`] = `
+<Connect(Image)
+  alt="Green top"
+  className="OrderHistoryDetailsElement-image"
+  src="some/url.jpg"
+/>
+`;
+
+exports[`<OrderHistoryDetailsElement /> @renders with price 1`] = `
+<div
+  className="OrderHistoryDetailsElement"
+>
+  <Connect(Image)
+    className="OrderHistoryDetailsElement-image"
+  />
+  <div
+    className="OrderHistoryDetailsElement-table"
+  >
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col1"
+    />
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col2"
+    />
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col3"
+    >
+      <span
+        className="OrderHistoryDetailsElement-content OrderHistoryDetailsElement-content--price"
+      >
+        Price
+        : 
+        <Price
+          className=""
+          price="50.00"
+          privacyProtected={true}
+        />
+      </span>
+    </div>
+    <div
+      className="OrderHistoryDetailsElement-col OrderHistoryDetailsElement-col4"
+    />
+  </div>
+</div>
+`;

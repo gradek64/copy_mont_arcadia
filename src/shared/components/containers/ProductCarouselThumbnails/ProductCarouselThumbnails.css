@@ -1,0 +1,69 @@
+/** @define ProductCarouselThumbnails; weak;*/
+
+.ProductCarouselThumbnails {
+  display: none;
+  flex-direction: column;
+  width: 14%;
+  margin: 0 40px 0 0;
+
+  &-thumb {
+    width: 100%;
+    margin-bottom: 30px;
+    border: $carousel-thumbnails-thumb-border;
+    height: $carousel-thumbnails-thumb-height;
+    flex-shrink: 0; /* Fixes an IE bug image scaling bug. It is 1 by default on IE. */
+    &--fullCarousel {
+      margin-bottom: 0;
+    }
+  }
+
+  &-thumbList {
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 2px;
+
+      &--fullCarousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* IE hack to deal with product carousel thumbnail issue relating to justify-content: space-between */
+        @media $min-laptop and screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          display: inline-block;
+        }
+      }
+  }
+
+  &-navContainer {
+    height: $carousel-thumbnails-nav-container-height;
+  }
+
+  &-navButton {
+    transform: rotate(90deg);
+    height: $carousel-arrow-height;
+    width: $carousel-arrow-width;
+
+    &--previous {
+      background: url("public/$brand/images/carousel-arrow-left.svg") no-repeat 0% 50%;
+    }
+
+    &--next {
+      background: url("public/$brand/images/carousel-arrow-right.svg") no-repeat 100% 50%;
+      margin-top: -2px;
+    }
+  }
+}
+@media $min-laptop {
+  .ProductCarouselThumbnails {
+    display: flex;
+  }
+}
+
+/* IE hack to deal with product carousel thumbnail issue relating to justify-content: space-between */
+@media $min-laptop and screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ProductCarouselThumbnails-thumbList--fullCarousel .ProductCarouselThumbnails-thumbList--item {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+/** @define DeliveryCTAProceed; */
+
+
+.DeliveryCTAProceed {
+  &-nextButtonContainer {
+    &--hasError {
+      border: 1px solid $colorError;
+      padding: 15px 15px 0;
+    }
+  }
+  &-nextButton--desktop {
+    width: auto;
+    min-width: $cta-primary-width-desktop;
+    padding: 0 20px;
+  }
+}

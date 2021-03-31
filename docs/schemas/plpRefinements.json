@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "label":{
+      "type": "string",
+      "example":"Category"
+  },
+    "refinementOptions": {
+     "type": "array",
+     "items": {
+       "type":"object",
+       "properties": {
+         "type": {
+           "type": "string",
+           "example": "VALUE"
+         },
+         "label": {
+           "type": "string",
+           "example": "Clothing"
+         },
+         "value": {
+           "type": "string",
+           "example": "Clothing"
+         },
+         "count": {
+           "type": "number",
+           "example": 11
+         },
+         "seoUrl": {
+           "type": "string",
+           "example": "/"
+         }
+       }
+     }
+    }
+  }
+}
+

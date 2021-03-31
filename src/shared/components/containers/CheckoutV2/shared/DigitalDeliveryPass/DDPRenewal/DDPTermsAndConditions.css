@@ -1,0 +1,7 @@
+/** @define DDPTermsAndConditions */
+
+.DDPTermsAndConditions {
+  &-button {
+    text-decoration: underline;
+  }
+}

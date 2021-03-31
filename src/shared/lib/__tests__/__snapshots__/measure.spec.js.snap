@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Measure/> @renders children 1`] = `
+<div
+  className="Measure--container"
+>
+  <object
+    aria-hidden={true}
+    aria-label="measure"
+    className="Measure"
+    onLoad={[Function]}
+    tabIndex={-1}
+    type="text/html"
+  />
+  <div>
+    Mock
+  </div>
+</div>
+`;
+
+exports[`<Measure/> @renders throws for invalid children (non-function) 1`] = `"You have to pass one and only one function to <Measure/>"`;

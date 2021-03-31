@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Actions changePwdRequest sets form state 1`] = `
+Array [
+  "changePassword",
+  Object {
+    "message": "Your password has been successfully changed.",
+    "type": "confirm",
+  },
+]
+`;
+
+exports[`Account Actions changeShortProfileRequest sets form state 1`] = `
+Array [
+  "customerShortProfile",
+  Object {
+    "message": "Your profile details have been successfully updated.",
+    "type": "confirm",
+  },
+]
+`;
+
+exports[`Account Actions resetPasswordLinkIsInvalid should return the action resetPasswordLinkIsInvalid 1`] = `
+Object {
+  "type": "RESET_PASSWORD_LINK_INVALID",
+}
+`;
+
+exports[`Account Actions resetPasswordLinkIsValid should return the action resetPasswordLinkIsValid 1`] = `
+Object {
+  "type": "RESET_PASSWORD_LINK_VALID",
+}
+`;
+
+exports[`Account Actions setForgetPassword should return an action with the passed value set in payload 1`] = `
+Object {
+  "type": "TOGGLE_FORGET_PASSWORD",
+  "value": "test",
+}
+`;
+
+exports[`Account Actions setOrderHistoryDetails should return an action with the correct type and payload 1`] = `
+Object {
+  "orderDetails": Object {
+    "orderLinesSortedByTracking": Object {},
+    "test": true,
+  },
+  "type": "SET_ORDER_HISTORY_DETAILS",
+}
+`;
+
+exports[`Account Actions setOrderHistoryOrders should return an action with the correct type and payload 1`] = `
+Object {
+  "orders": Array [
+    Object {
+      "test": true,
+    },
+  ],
+  "type": "SET_ORDER_HISTORY_ORDERS",
+}
+`;
+
+exports[`Account Actions setReturnHistoryDetails returns an action with the correct type and payload 1`] = `
+Object {
+  "returnDetails": Object {
+    "test": true,
+  },
+  "type": "SET_RETURN_HISTORY_DETAILS",
+}
+`;
+
+exports[`Account Actions setReturnHistoryReturns returns an action with the correct type and payload 1`] = `
+Object {
+  "returns": Array [
+    Object {
+      "test": true,
+    },
+  ],
+  "type": "SET_RETURN_HISTORY_RETURNS",
+}
+`;
+
+exports[`Account Actions toggleForgetPassword should return an action with the correct type 1`] = `
+Object {
+  "type": "TOGGLE_FORGET_PASSWORD",
+}
+`;
+
+exports[`Account Actions userAccount should return an action with user in payload 1`] = `
+Object {
+  "type": "USER_ACCOUNT",
+  "user": Object {
+    "name": "test",
+  },
+}
+`;

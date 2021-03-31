@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressTracker /> @renders in default state 1`] = `
+<ul
+  className="ProgressTracker"
+>
+  <li
+    className="ProgressTracker-item ProgressTracker-item1 ProgressTracker-item--complete"
+    key="Delivery"
+  >
+    <span
+      className="ProgressTracker-number"
+    >
+      1
+    </span>
+    <span
+      className="ProgressTracker-label"
+    >
+      Delivery
+    </span>
+  </li>
+  <li
+    className="ProgressTracker-item ProgressTracker-item2 ProgressTracker-item--active"
+    key="Payment"
+  >
+    <span
+      className="ProgressTracker-number"
+    >
+      2
+    </span>
+    <span
+      className="ProgressTracker-label"
+    >
+      Payment
+    </span>
+  </li>
+  <li
+    className="ProgressTracker-item ProgressTracker-item3"
+    key="Thank You"
+  >
+    <span
+      className="ProgressTracker-number"
+    >
+      3
+    </span>
+    <span
+      className="ProgressTracker-label"
+    >
+      Thank You
+    </span>
+  </li>
+</ul>
+`;

@@ -1,0 +1,111 @@
+/** @define HistoryDetailsContainer */
+
+.HistoryDetailsContainer {
+  &-header {
+    margin: 14px 0;
+    display: flex;
+  }
+  &-headerCol {
+    display: flex;
+    flex-direction: column;
+  }
+  &-orderNumberLabel {
+    line-height: 1.75;
+    margin: 0 40px 0 10px;
+    width: 108px;
+    white-space: nowrap;
+  }
+  &-orderNumber {
+    line-height: 1.75;
+    margin: 0;
+  }
+  &-orderId {
+    font-weight: $myorder-details-order-id-font-weight;
+  }
+  &-statusText {
+    font-weight: $myorder-details-order-id-font-weight;
+  }
+  &-orderStatusLabel {
+    line-height: 1.75;
+    margin: 0 10px 0 10px;
+    width: 108px;
+  }
+  &-orderStatus {
+    line-height: 1.75;
+    margin: 0;
+  }
+  &-notFound {
+    text-align: center;
+    padding: 1em $page-padding;
+  }
+  &-orderDeliveryLabel {
+     margin: 0 40px 0 0;
+     line-height: 1.75;
+     width: 108px;
+     white-space: nowrap;
+  }
+  &-list {
+     display: flex;
+     flex-direction: column;
+     border-collapse: collapse;
+     width: 100%;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.HistoryDetailsContainer-list .order-items-ddp {
+  order: -1;
+}
+/* postcss-bem-linter: ignore */
+.HistoryDetailsContainer-list .order-items-tracking {
+  order: 0;
+}
+/* postcss-bem-linter: ignore */
+.HistoryDetailsContainer-list .order-items-no-tracking {
+  order: 1;
+}
+
+/* postcss-bem-linter: ignore */
+.HistoryDetailsContainer .Button--trackOrder {
+  margin: 20px 0 15px;
+}
+
+@media $min-tablet {
+  .HistoryDetailsContainer {
+    &-returns {
+      width: 280px;
+    }
+    &-header {
+      border-bottom: none;
+    }
+
+    &-orderNumberLabel {
+      width: auto;
+      margin: 0 20px 0 0;
+    }
+    &-orderStatusLabel {
+       margin: 0 20px 0 0;
+    }
+    &-orderDeliveryLabel {
+      margin: 0 20px 0 0;
+    }
+  }
+
+  /* postcss-bem-linter: ignore */
+  .HistoryDetailsContainer .Button--trackOrder {
+    width: 282px;
+    margin: 20px 0;
+  }
+
+}
+
+@media $mobile {
+  .HistoryDetailsContainer {
+    &-list {
+      padding: 0 10px;
+    }
+    &-returns {
+       padding: 10px $page-padding 15px;
+    }
+  }
+}

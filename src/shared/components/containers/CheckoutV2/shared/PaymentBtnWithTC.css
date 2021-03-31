@@ -1,0 +1,13 @@
+/** @define PaymentBtnWithTC; weak */
+
+.PaymentBtnWithTC-termsConditionPayBtnWrapper {
+  margin-top: 24px;
+  padding: 15px 20px 20px;
+  background-color: $checkout-bag-side-simple-total-background-color;
+
+  .SimpleTotals {
+    /* On paper this should be 0; but the large full width button throws the
+    eye */
+    padding: 0 2px;
+  }
+}

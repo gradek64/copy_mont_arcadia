@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider/> @constructor sets handle press event handlers 1`] = `
+Object {
+  "maxHandle": Object {
+    "onMouseDown": [Function],
+    "onTouchStart": [Function],
+  },
+  "minHandle": Object {
+    "onMouseDown": [Function],
+    "onTouchStart": [Function],
+  },
+}
+`;
+
+exports[`<Slider/> @constructor sets initial slider properties 1`] = `
+Object {
+  "handlerStartOffset": 0,
+  "height": 0,
+  "iconWidth": 0,
+  "left": 0,
+  "offsetAllowance": 0,
+  "slider": null,
+  "width": 0,
+}
+`;
+
+exports[`<Slider/> @constructor sets initial state 1`] = `
+Object {
+  "activeHandle": null,
+  "maxHandle": Object {
+    "left": 0,
+    "value": 100,
+  },
+  "minHandle": Object {
+    "left": 0,
+    "value": 0,
+  },
+}
+`;
+
+exports[`<Slider/> @elements .Slider updates instance and state on ref 1`] = `
+Object {
+  "after": Object {
+    "handlerStartOffset": 0,
+    "height": 4,
+    "iconWidth": 10,
+    "left": 0,
+    "offsetAllowance": 102,
+    "slider": Object {
+      "getBoundingClientRect": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {
+              "height": 4,
+              "left": 0,
+              "top": 0,
+              "width": 1000,
+            },
+          },
+        ],
+      },
+    },
+    "state": Object {
+      "activeHandle": null,
+      "maxHandle": Object {
+        "left": 990,
+        "value": 100,
+      },
+      "minHandle": Object {
+        "left": 0,
+        "value": 0,
+      },
+    },
+    "width": 1000,
+  },
+  "before": Object {
+    "handlerStartOffset": 0,
+    "height": 0,
+    "iconWidth": 0,
+    "left": 0,
+    "offsetAllowance": 0,
+    "slider": null,
+    "state": Object {
+      "activeHandle": null,
+      "maxHandle": Object {
+        "left": 0,
+        "value": 100,
+      },
+      "minHandle": Object {
+        "left": 0,
+        "value": 0,
+      },
+    },
+    "width": 0,
+  },
+}
+`;
+
+exports[`<Slider/> @lifecycle on componentWillRecieveProps updates all .Slider-handle styles on getBoundingClientRect changes 1`] = `
+Object {
+  "after": Array [
+    Object {
+      "transform": "translateX(0px)",
+    },
+    Object {
+      "transform": "translateX(75px)",
+    },
+  ],
+  "before": Array [
+    Object {
+      "transform": "translateX(0px)",
+    },
+    Object {
+      "transform": "translateX(975px)",
+    },
+  ],
+}
+`;
+
+exports[`<Slider/> @lifecycle on componentWillRecieveProps updates only .Slider-label--maxHandle renders on maxValue changes 1`] = `
+Object {
+  "after": Array [
+    <span
+      className="Slider-label Slider-label--minHandle"
+    >
+      £0.00
+    </span>,
+    <span
+      className="Slider-label Slider-label--maxHandle"
+    >
+      £50.00
+    </span>,
+  ],
+  "before": Array [
+    <span
+      className="Slider-label Slider-label--minHandle"
+    >
+      £0.00
+    </span>,
+    <span
+      className="Slider-label Slider-label--maxHandle"
+    >
+      £100.00
+    </span>,
+  ],
+}
+`;
+
+exports[`<Slider/> @lifecycle on componentWillRecieveProps updates only .Slider-label--minHandle renders on minValue changes 1`] = `
+Object {
+  "after": Array [
+    <span
+      className="Slider-label Slider-label--minHandle"
+    >
+      £10.00
+    </span>,
+    <span
+      className="Slider-label Slider-label--maxHandle"
+    >
+      £100.00
+    </span>,
+  ],
+  "before": Array [
+    <span
+      className="Slider-label Slider-label--minHandle"
+    >
+      £0.00
+    </span>,
+    <span
+      className="Slider-label Slider-label--maxHandle"
+    >
+      £100.00
+    </span>,
+  ],
+}
+`;
+
+exports[`<Slider/> @renders in default state 1`] = `
+<div
+  className="Slider"
+>
+  <span
+    className="Slider-label Slider-label--minHandle"
+  >
+    £0.00
+  </span>
+  <span
+    className="Slider-label Slider-label--maxHandle"
+  >
+    £100.00
+  </span>
+  <button
+    className="Slider-handle Slider-handle--minHandle "
+    onMouseDown={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "transform": "translateX(0px)",
+      }
+    }
+  >
+    <span
+      className="Slider-icon"
+    />
+  </button>
+  <button
+    className="Slider-handle Slider-handle--maxHandle "
+    onMouseDown={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "transform": "translateX(0px)",
+      }
+    }
+  >
+    <span
+      className="Slider-icon"
+    />
+  </button>
+  <div
+    className="Slider-bar"
+    style={
+      Object {
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+      }
+    }
+  />
+</div>
+`;

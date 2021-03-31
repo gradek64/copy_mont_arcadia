@@ -1,0 +1,15 @@
+/** @define OOSProductDescription; weak */
+
+.OOSProductDescription {
+    margin-top: 25px;
+    
+    .Accordion-header {
+        padding: 20px 0;
+      }
+      
+    .Accordion-content.is-padded {
+        padding: 15px 10px;
+    }
+  }
+  
+  

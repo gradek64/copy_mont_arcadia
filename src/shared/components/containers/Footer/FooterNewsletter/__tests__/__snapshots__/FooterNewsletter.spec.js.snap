@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterNewsletter /> @renders in default state 1`] = `
+<Form
+  className="FooterNewsletter"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <label
+    className="FooterNewsletter-label"
+    htmlFor="email"
+  >
+    Sign up and get 20% off
+  </label>
+  <div
+    className="FooterNewsletter-inputWrapper"
+  >
+    <Connect(Input)
+      className="FooterNewsletter-input"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "danny.pule@arcadiagroup.co.uk",
+        }
+      }
+      name="email"
+      placeholder="Enter your email address"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="FooterNewsletter-button"
+      type="submit"
+    >
+      Sign Up
+    </Button>
+  </div>
+</Form>
+`;

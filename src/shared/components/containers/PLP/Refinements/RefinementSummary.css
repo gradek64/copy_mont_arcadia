@@ -1,0 +1,131 @@
+/** @define RefinementSummary */
+.RefinementSummary {
+  display: block;
+  padding-bottom: 15px;
+
+  &-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: $refinements-summary-header-border-bottom;
+    height: $plp-filters-height;
+    padding: $plp-filters-spacing-vertical 0;
+    padding-top: $plp-filters-padding-top;
+    box-sizing: content-box;
+  }
+  &-headerTitle {
+    display: inline-block;
+    font-size: $refinements-summary-header-size;
+    color: $refinements-summary-header-color;
+    margin-bottom: $plp-filters-spacing-vertical;
+    margin-top: $plp-filters-spacing-vertical;
+    font-weight: $refinements-summary-header-font-weight;
+  }
+  &-clearRefinementsButton {
+    position: relative;
+    font-size: $refinements-summary-item-size;
+    text-decoration: $clearall-text-decoration;
+
+    &:disabled {
+      color: $colorFaded;
+      cursor: default;
+    }
+  }
+  &-categoryItem {
+    margin-top: $refinements-summary-category-item-margin-top;
+    text-transform: capitalize;
+  }
+  &-item {
+    margin-top: $refinements-summary-item-margin-top;
+    text-transform: capitalize;
+  }
+  &-itemTitle {
+    margin-bottom: $refinements-summary-item-title-margin-bottom;
+    font-size: $refinements-summary-item-title-size;
+    font-weight: $refinements-summary-item-title-font-weight;
+    display: block;
+    color: $refinements-summary-item-title-color;
+  }
+  &-valuesContainer {
+    display: flex;
+    flex-flow: row wrap;
+  }
+   /* Deprecated temporary (replaced by removeTextValue, to fix I11 shape not supported DES-3000) */
+  &-removeValue {
+    width: $refinements-summary-item-remove-icon-size;
+    height: $refinements-summary-item-remove-icon-size;
+    min-height: $refinements-summary-item-remove-icon-size;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: $refinements-summary-item-color;
+    mask: url("public/$brand/images/close-icon.svg") no-repeat center;
+    mask-size: $refinements-summary-item-remove-icon-size;
+  }
+  &-removeTextValue {
+     margin-left: 5px;
+     cursor: pointer;
+     color: $refinements-summary-item-color;
+   }
+  &-value {
+    font-size: $refinements-summary-item-size;
+    background-color: $refinements-summary-item-background-color;
+    padding: $refinements-summary-item-padding;
+    color: $refinements-summary-item-color;
+    border: $refinements-summary-item-border;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  &-refinementValue {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.RefinementSummary-removeTextValue:hover {
+  color: $refinements-summary-item-remove-icon-hover;
+}
+/* Deprecated temporary (replaced by removeTextValue, to fix I11 shape not supported DES-3000) */
+/* postcss-bem-linter: ignore */
+.no-touch .RefinementSummary-removeValue:enabled:hover {
+  background-color: $refinements-summary-item-remove-icon-hover;
+}
+
+@media $min-tablet {
+  .RefinementSummary {
+    &-header{
+      height: $plp-filters-height-tablet;
+    }
+    &-valuesContainer {
+      flex-flow: column wrap;
+    }
+    &-value {
+      margin-right: 0;
+      position: relative;
+      padding-bottom: $refinements-summary-value-padding-bottom-desktop;
+    }
+    &-refinementValue {
+      padding-right: $refinements-summary-value-padding-right-desktop;
+      display: inline-block;
+    }
+    &-valueInner {
+      height: $refinements-summary-item-height-desktop;
+    }
+    &-removeValue {
+      position: absolute;
+      top: $refinements-summary-item-top-desktop;
+      bottom: 0;
+      right: $refinements-summary-item-right-desktop;
+      margin: auto 0;
+    }
+  }
+}
+
+@media $min-laptop {
+  .RefinementSummary {
+    &-header{
+      height: $plp-filters-height;
+    }
+  }
+}

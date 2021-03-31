@@ -1,0 +1,609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReturnHistoryList /> @render has no orders 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Track your current returns and view your return history",
+              ],
+            ],
+            Array [
+              Array [
+                "Back to My Account",
+              ],
+            ],
+            Array [
+              Array [
+                "My returns",
+              ],
+            ],
+            Array [
+              Array [
+                "Displaying your last 20 returns.",
+              ],
+            ],
+            Array [
+              Array [
+                "Need your full return history?",
+              ],
+            ],
+            Array [
+              Array [
+                " Contact customer service on",
+              ],
+            ],
+            Array [
+              Array [
+                "There are no returns found",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Track your current returns and view your return history",
+            },
+            Object {
+              "type": "return",
+              "value": "Back to My Account",
+            },
+            Object {
+              "type": "return",
+              "value": "My returns",
+            },
+            Object {
+              "type": "return",
+              "value": "Displaying your last 20 returns.",
+            },
+            Object {
+              "type": "return",
+              "value": "Need your full return history?",
+            },
+            Object {
+              "type": "return",
+              "value": " Contact customer service on",
+            },
+            Object {
+              "type": "return",
+              "value": "There are no returns found",
+            },
+          ],
+        }
+      }
+      label="Back to My Account"
+      link="/my-account"
+      title="My returns"
+      type="return"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 returns."
+      historyRequest="Need your full return history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current returns and view your return history"
+    />
+  }
+  className="ReturnHistoryList"
+  notFoundMessage="There are no returns found"
+  orders={Array []}
+  type="return"
+/>
+`;
+
+exports[`<ReturnHistoryList /> @render has return limits message and the brand code is NOT in the numbers and region is NOT EU 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Track your current returns and view your return history",
+              ],
+            ],
+            Array [
+              Array [
+                "Back to My Account",
+              ],
+            ],
+            Array [
+              Array [
+                "My returns",
+              ],
+            ],
+            Array [
+              Array [
+                "Displaying your last 20 returns.",
+              ],
+            ],
+            Array [
+              Array [
+                "Need your full return history?",
+              ],
+            ],
+            Array [
+              Array [
+                " Contact customer service on",
+              ],
+            ],
+            Array [
+              Array [
+                "There are no returns found",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Track your current returns and view your return history",
+            },
+            Object {
+              "type": "return",
+              "value": "Back to My Account",
+            },
+            Object {
+              "type": "return",
+              "value": "My returns",
+            },
+            Object {
+              "type": "return",
+              "value": "Displaying your last 20 returns.",
+            },
+            Object {
+              "type": "return",
+              "value": "Need your full return history?",
+            },
+            Object {
+              "type": "return",
+              "value": " Contact customer service on",
+            },
+            Object {
+              "type": "return",
+              "value": "There are no returns found",
+            },
+          ],
+        }
+      }
+      label="Back to My Account"
+      link="/my-account"
+      title="My returns"
+      type="return"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 returns."
+      historyRequest="Need your full return history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current returns and view your return history"
+    />
+  }
+  className="ReturnHistoryList"
+  notFoundMessage="There are no returns found"
+  orders={
+    Array [
+      Object {
+        "date": "05 December 2016",
+        "orderId": 314234546,
+        "rmaId": "014395193",
+        "status": "Fully refunded",
+        "statusCode": "r",
+        "total": "£40.00",
+      },
+      Object {
+        "date": "02 December 2016",
+        "orderId": 314396194,
+        "rmaId": "014395191",
+        "status": "Fully Refunded",
+        "statusCode": "r",
+        "total": "£39.50",
+      },
+      Object {
+        "date": "01 December 2016",
+        "orderId": 314396185,
+        "rmaId": "014395192",
+        "status": "Refund pending",
+        "statusCode": "r",
+        "total": "£90.00",
+      },
+    ]
+  }
+  type="return"
+/>
+`;
+
+exports[`<ReturnHistoryList /> @render has return limits message and the brand code is NOT in the numbers but region is EU 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Track your current returns and view your return history",
+              ],
+            ],
+            Array [
+              Array [
+                "Back to My Account",
+              ],
+            ],
+            Array [
+              Array [
+                "My returns",
+              ],
+            ],
+            Array [
+              Array [
+                "Displaying your last 20 returns.",
+              ],
+            ],
+            Array [
+              Array [
+                "Need your full return history?",
+              ],
+            ],
+            Array [
+              Array [
+                " Contact customer service on",
+              ],
+            ],
+            Array [
+              Array [
+                "There are no returns found",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Track your current returns and view your return history",
+            },
+            Object {
+              "type": "return",
+              "value": "Back to My Account",
+            },
+            Object {
+              "type": "return",
+              "value": "My returns",
+            },
+            Object {
+              "type": "return",
+              "value": "Displaying your last 20 returns.",
+            },
+            Object {
+              "type": "return",
+              "value": "Need your full return history?",
+            },
+            Object {
+              "type": "return",
+              "value": " Contact customer service on",
+            },
+            Object {
+              "type": "return",
+              "value": "There are no returns found",
+            },
+          ],
+        }
+      }
+      label="Back to My Account"
+      link="/my-account"
+      title="My returns"
+      type="return"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 returns."
+      historyRequest="Need your full return history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current returns and view your return history"
+    />
+  }
+  className="ReturnHistoryList"
+  notFoundMessage="There are no returns found"
+  orders={
+    Array [
+      Object {
+        "date": "05 December 2016",
+        "orderId": 314234546,
+        "rmaId": "014395193",
+        "status": "Fully refunded",
+        "statusCode": "r",
+        "total": "£40.00",
+      },
+      Object {
+        "date": "02 December 2016",
+        "orderId": 314396194,
+        "rmaId": "014395191",
+        "status": "Fully Refunded",
+        "statusCode": "r",
+        "total": "£39.50",
+      },
+      Object {
+        "date": "01 December 2016",
+        "orderId": 314396185,
+        "rmaId": "014395192",
+        "status": "Refund pending",
+        "statusCode": "r",
+        "total": "£90.00",
+      },
+    ]
+  }
+  type="return"
+/>
+`;
+
+exports[`<ReturnHistoryList /> @render has return limits message and the brand code is in the numbers 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Track your current returns and view your return history",
+              ],
+            ],
+            Array [
+              Array [
+                "Back to My Account",
+              ],
+            ],
+            Array [
+              Array [
+                "My returns",
+              ],
+            ],
+            Array [
+              Array [
+                "Displaying your last 20 returns.",
+              ],
+            ],
+            Array [
+              Array [
+                "Need your full return history?",
+              ],
+            ],
+            Array [
+              Array [
+                " Contact customer service on",
+              ],
+            ],
+            Array [
+              Array [
+                "There are no returns found",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Track your current returns and view your return history",
+            },
+            Object {
+              "type": "return",
+              "value": "Back to My Account",
+            },
+            Object {
+              "type": "return",
+              "value": "My returns",
+            },
+            Object {
+              "type": "return",
+              "value": "Displaying your last 20 returns.",
+            },
+            Object {
+              "type": "return",
+              "value": "Need your full return history?",
+            },
+            Object {
+              "type": "return",
+              "value": " Contact customer service on",
+            },
+            Object {
+              "type": "return",
+              "value": "There are no returns found",
+            },
+          ],
+        }
+      }
+      label="Back to My Account"
+      link="/my-account"
+      title="My returns"
+      type="return"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 returns."
+      historyRequest="Need your full return history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current returns and view your return history"
+    />
+  }
+  className="ReturnHistoryList"
+  notFoundMessage="There are no returns found"
+  orders={
+    Array [
+      Object {
+        "date": "05 December 2016",
+        "orderId": 314234546,
+        "rmaId": "014395193",
+        "status": "Fully refunded",
+        "statusCode": "r",
+        "total": "£40.00",
+      },
+      Object {
+        "date": "02 December 2016",
+        "orderId": 314396194,
+        "rmaId": "014395191",
+        "status": "Fully Refunded",
+        "statusCode": "r",
+        "total": "£39.50",
+      },
+      Object {
+        "date": "01 December 2016",
+        "orderId": 314396185,
+        "rmaId": "014395192",
+        "status": "Refund pending",
+        "statusCode": "r",
+        "total": "£90.00",
+      },
+    ]
+  }
+  type="return"
+/>
+`;
+
+exports[`<ReturnHistoryList /> @render in default state 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Track your current returns and view your return history",
+              ],
+            ],
+            Array [
+              Array [
+                "Back to My Account",
+              ],
+            ],
+            Array [
+              Array [
+                "My returns",
+              ],
+            ],
+            Array [
+              Array [
+                "Displaying your last 20 returns.",
+              ],
+            ],
+            Array [
+              Array [
+                "Need your full return history?",
+              ],
+            ],
+            Array [
+              Array [
+                " Contact customer service on",
+              ],
+            ],
+            Array [
+              Array [
+                "There are no returns found",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Track your current returns and view your return history",
+            },
+            Object {
+              "type": "return",
+              "value": "Back to My Account",
+            },
+            Object {
+              "type": "return",
+              "value": "My returns",
+            },
+            Object {
+              "type": "return",
+              "value": "Displaying your last 20 returns.",
+            },
+            Object {
+              "type": "return",
+              "value": "Need your full return history?",
+            },
+            Object {
+              "type": "return",
+              "value": " Contact customer service on",
+            },
+            Object {
+              "type": "return",
+              "value": "There are no returns found",
+            },
+          ],
+        }
+      }
+      label="Back to My Account"
+      link="/my-account"
+      title="My returns"
+      type="return"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 returns."
+      historyRequest="Need your full return history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current returns and view your return history"
+    />
+  }
+  className="ReturnHistoryList"
+  notFoundMessage="There are no returns found"
+  orders={
+    Array [
+      Object {
+        "date": "05 December 2016",
+        "orderId": 314234546,
+        "rmaId": "014395193",
+        "status": "Fully refunded",
+        "statusCode": "r",
+        "total": "£40.00",
+      },
+      Object {
+        "date": "02 December 2016",
+        "orderId": 314396194,
+        "rmaId": "014395191",
+        "status": "Fully Refunded",
+        "statusCode": "r",
+        "total": "£39.50",
+      },
+      Object {
+        "date": "01 December 2016",
+        "orderId": 314396185,
+        "rmaId": "014395192",
+        "status": "Refund pending",
+        "statusCode": "r",
+        "total": "£90.00",
+      },
+    ]
+  }
+  type="return"
+/>
+`;

@@ -1,0 +1,11 @@
+/* postcss-bem-linter: ignore */
+@media (max-width: 590px) {
+  /* postcss-bem-linter: ignore */
+ .BVRRFieldContainer.BVRRFieldContainerReviewTitle input {
+   width: 95%;
+ }
+ /* postcss-bem-linter: ignore */
+ .BVRRFieldContainer.BVRRFieldContainerReviewReviewtext textarea {
+   width: 95%;
+ }
+}

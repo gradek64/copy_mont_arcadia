@@ -1,0 +1,26 @@
+/** @define SignInMessage; weak */
+
+.SignInMessage {
+  margin: 20px 0 0;
+  padding: 0 10px;
+
+  &--center {
+    text-align: center;
+  }
+
+  &-header {
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  &-body {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+@media $min-tablet {
+  .SignInMessage {
+    margin: 20px 20px 0;
+  }
+}

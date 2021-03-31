@@ -1,0 +1,63 @@
+/** @define SocialProofProductOverlay; weak */
+
+.SocialProofProductOverlay {
+  text-align: center;
+  margin-bottom: 7px;
+
+  &--badgeContainer {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    max-width: 85%;
+  }
+
+  &--badgeContainer ::before, &--badgeContainer ::after{
+    content: '';
+    position: absolute;
+    border-color: transparent #1b7ead;
+    top: 0;
+    height: 0;
+    width: 0;
+  }
+
+  &--badgeContainer ::before {
+    border-style: solid;
+    border-width: 11px 12px 12px 0;
+    height: 0;
+    width: 0;
+    left: -12px
+  }
+
+  &--badgeContainer ::after {
+    border-style: solid;
+    border-width: 11px 0 12px 12px;
+    right: -12px;
+  }
+
+  &--badgeText {
+    font-size: $max-font;
+    background-color: #1b7ead;
+    color: #ffffff;
+    padding: 0 6px;
+    letter-spacing: 0.4px;
+    line-height: 23px;
+
+    @media (max-width: $desktop-maxwidth){
+      font-size: calc( $min-font + ($max-font-val - $min-font-val) * ( $viewport-width / $desktop-maxwidth-val ));
+    }
+
+    @media (min-width: $tablet-minwidth) and (max-width: $tablet-maxwidth){
+      font-size: $tablet-viewport-width;
+    }
+
+    @media (max-width: $mobile-maxwidth){
+      font-size: calc( $min-font + ($max-font-val - $min-font-val) * ( $mobile-viewport-width / $mobile-maxwidth-val ));
+    }
+
+    @media (max-width: 360px){
+      padding: 0;
+      letter-spacing: normal;
+      line-height: 24px;
+    }
+  }
+}

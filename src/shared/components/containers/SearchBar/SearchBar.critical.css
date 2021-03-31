@@ -1,0 +1,28 @@
+/** @define SearchBar */
+@lost flexbox flex;
+@lost cycle none;
+@lost gutter 0;
+
+.SearchBar {
+  position: absolute;
+  lost-flex-container: row;
+  top: 0;
+  width: 100%;
+  background: $searchbar-background-color;
+  height: $searchbar-height;
+  transition: top 0.3s;
+  z-index: 1;
+  font-size: $searchbar-font-size;
+  box-sizing: border-box;
+  border-bottom: $header-border-bottom;
+  overflow: hidden;
+
+  &-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: $header-height;
+    background-color: $searchbar-form-background-color;
+  }
+
+}

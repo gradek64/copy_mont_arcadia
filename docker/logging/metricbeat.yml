@@ -1,0 +1,31 @@
+logging.level: warning
+metricbeat.modules:
+- module: system
+  metricsets:
+    - cpu
+    - load
+    - memory
+    - network
+    - process
+  enabled: true
+  period: 60s
+  processes: ['.*']
+# In order to capture short lived connections, use a shorter period for system/sockets.
+- module: system
+  metricsets: [socket]
+  period: 60s
+  socket.reverse_lookup.enabled: true
+- module: system
+  period: 60s
+  metricsets: [filesystem, fsstat]
+  filters:
+    - drop_event.when.regexp.mount_point: '^(/hostfs)?/(sys|cgroup|proc|dev|etc|host|var/lib/docker)($|/)'
+- module: docker
+  metricsets: ["container", "cpu", "diskio", "healthcheck", "info", "memory", "network"]
+  hosts: ["unix:///var/run/docker.sock"]
+  enabled: true
+  period: 60s
+processors:
+- add_cloud_metadata:
+output.console:
+  pretty: false

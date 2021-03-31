@@ -1,0 +1,60 @@
+{
+  "orderId": 9507090,
+  "subTotal": "42.00",
+  "statusCode": "C",
+  "status": "Your order is currently being packed by our warehouse.",
+  "returnPossible": false,
+  "returnRequested": false,
+  "deliveryMethod": "UK Standard up to 5 days",
+  "deliveryType": "H",
+  "deliveryDate": "Tuesday 2 July 2019",
+  "deliveryCost": "3.95",
+  "deliveryCarrier": "Standard",
+  "deliveryPrice": "3.95",
+  "isDDPOrder": false,
+  "totalOrderPrice": "45.95",
+  "totalOrdersDiscount": "",
+  "totalOrdersDiscountLabel": "Discounts",
+  "billingAddress": {
+    "name": "Mr name1 name2",
+    "address1": "Flat 3, 24 Grove Crescent Road",
+    "address2": "",
+    "address3": "LONDON",
+    "address4": "E15 1AG",
+    "country": "United Kingdom"
+  },
+  "deliveryAddress": {
+    "name": "Mr name1 name2",
+    "address1": "Flat 3, 24 Grove Crescent Road",
+    "address2": "",
+    "address3": "LONDON",
+    "address4": "E15 1AG",
+    "country": "United Kingdom"
+  },
+  "orderLines": [
+    {
+      "lineNo": "05J54NLIL",
+      "name": "Lilac Denim Hacked Jacket",
+      "size": "6",
+      "isDDPProduct": false,
+      "colour": "LILAC",
+      "baseImageUrl": "https://images.topshop.com/i/TopShop/TS05J54NLIL_M_1",
+      "imageUrl": "https://images.topshop.com/i/TopShop/TS05J54NLIL_M_1.jpg?$Small$",
+      "quantity": 1,
+      "unitPrice": "42.00",
+      "total": "42.00",
+      "nonRefundable": false,
+      "discount": "",
+      "retailStoreTrackingUrl": "http://www.google.co.uk",
+      "trackingAvailable": false
+    }
+  ],
+  "paymentDetails": [
+    {
+      "paymentMethod": "Visa",
+      "cardNumberStar": "************1111",
+      "totalCost": "£45.95"
+    }
+  ],
+  "smsNumber": ""
+}

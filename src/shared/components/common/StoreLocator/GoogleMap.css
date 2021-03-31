@@ -1,0 +1,27 @@
+/** @define GoogleMap */
+.GoogleMap {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  &-map {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &--staticMap {
+    cursor: pointer;
+   }
+  &-error {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 100%;
+     text-align: center;
+   }
+  &--borderless {
+    border-bottom: none;
+  }
+}

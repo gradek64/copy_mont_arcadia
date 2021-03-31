@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`</FindInStoreButton> @renders desktop button 1`] = `
+<button
+  className="FindInStoreButton-desktop"
+  onClick={[MockFunction]}
+>
+  <span
+    className="FindInStoreButton-desktopWrapper"
+  >
+    Find in store
+  </span>
+</button>
+`;
+
+exports[`</FindInStoreButton> @renders mobile button 1`] = `
+<Button
+  className="FindInStoreButton Button Button--secondary"
+  clickHandler={[MockFunction]}
+>
+  Find in store
+</Button>
+`;
+
+exports[`</FindInStoreButton> @renders nothing if region is not uk 1`] = `""`;

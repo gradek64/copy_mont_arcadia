@@ -1,0 +1,47 @@
+/** @define ReturnHistoryList **/
+
+.ReturnHistoryList {
+  &-orderLimitMessage {
+    border-bottom: 1px solid $myaccount-border-color;
+    padding: 10px $page-padding;
+    margin: 0;
+  }
+}
+
+@media $min-tablet {
+  .ReturnHistoryList {
+  /* postcss-bem-linter: ignore */
+    .AccountHeader {
+      /* postcss-bem-linter: ignore */
+      &-row {
+        align-items: baseline;
+         position: relative;
+       }
+      /* postcss-bem-linter: ignore */
+      &-title{
+        float: left;
+        max-width: 30%;
+        padding: 0 18px;
+       }
+       /* postcss-bem-linter: ignore */
+       &-action {
+        top: 0;
+        width: 600px;
+        position: absolute;
+        right: 0px;
+          /* postcss-bem-linter: ignore */
+          p {
+            display: block;
+            text-align: right;
+            width: 40%;
+          }
+          /* postcss-bem-linter: ignore */
+          button {
+            width: 340px;
+            position: absolute;
+            right: 10px;
+          }
+        }
+    }
+  }
+}

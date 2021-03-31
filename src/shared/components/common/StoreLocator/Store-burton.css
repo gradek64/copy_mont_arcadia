@@ -1,0 +1,19 @@
+/** @define Store; weak */
+
+.Store {
+  &-iconDistance {
+     text-align: center;
+  }
+}
+
+@media $min-tablet {
+  .Store {
+    &-leftIcon {
+      &--withHeight {
+        height: auto;
+        width: 30px;
+        margin-top: -5px;
+      }
+    }
+  }
+}

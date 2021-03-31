@@ -1,0 +1,129 @@
+[
+    {
+        "storeId": "S12419",
+        "brandPrimaryEStoreId": 14000,
+        "brandName": "Hermes",
+        "name": "Co-Op",
+        "distance": 0.09,
+        "latitude": 51.508392,
+        "longitude": -0.126372,
+        "address": {
+            "line1": "456-459 Strand",
+            "line2": "",
+            "city": "Greater London",
+            "postcode": "WC2R 0RG",
+            "country": "United Kingdom"
+        },
+        "openingHours": {
+            "monday": "00:00-23:59",
+            "tuesday": "00:00-23:59",
+            "wednesday": "00:00-23:59",
+            "thursday": "00:00-23:59",
+            "friday": "00:00-23:59",
+            "saturday": "00:00-23:59",
+            "sunday": "00:00-23:59"
+        },
+        "telephoneNumber": "020 7839 4570",
+        "collectFromStore": {
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2019-04-16 15:30:00",
+                        "collectFrom": "2019-04-17"
+                    },
+                    {
+                        "availableUntil": "2019-04-17 15:30:00",
+                        "collectFrom": "2019-04-18"
+                    },
+                    {
+                        "availableUntil": "2019-04-18 15:30:00",
+                        "collectFrom": "2019-04-19"
+                    }
+                ],
+                "price": 4
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "",
+        "stockList": [
+            {
+                "sku": "602017001142497",
+                "stock": 0,
+                "stockSymbol": "O",
+                "isBlocked": false
+            },
+            {
+                "sku": "100000012",
+                "stock": 0,
+                "stockSymbol": "O",
+                "isBlocked": false
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "S15011",
+        "brandPrimaryEStoreId": 14000,
+        "brandName": "Hermes",
+        "name": "Miranas Food & Wine",
+        "distance": 0.54,
+        "latitude": 51.515034,
+        "longitude": -0.125104,
+        "address": {
+            "line1": "28 - 30 Endell Street",
+            "line2": "",
+            "city": "London",
+            "postcode": "WC2H 9AG",
+            "country": "United Kingdom"
+        },
+        "openingHours": {
+            "monday": "00:00-23:59",
+            "tuesday": "00:00-23:59",
+            "wednesday": "00:00-23:59",
+            "thursday": "00:00-23:59",
+            "friday": "00:00-23:59",
+            "saturday": "00:00-23:59",
+            "sunday": "00:00-23:59"
+        },
+        "telephoneNumber": "020 7240 1624",
+        "collectFromStore": {
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2019-04-16 15:30:00",
+                        "collectFrom": "2019-04-17"
+                    },
+                    {
+                        "availableUntil": "2019-04-17 15:30:00",
+                        "collectFrom": "2019-04-18"
+                    },
+                    {
+                        "availableUntil": "2019-04-18 15:30:00",
+                        "collectFrom": "2019-04-19"
+                    }
+                ],
+                "price": 4
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "",
+        "stockList": [
+            {
+                "sku": "602017001142497",
+                "stock": 0,
+                "stockSymbol": "O",
+                "isBlocked": false
+            },
+            {
+                "sku": "100000012",
+                "stock": 0,
+                "stockSymbol": "O",
+                "isBlocked": false
+            }
+        ],
+        "basketInStock": false
+    }
+
+]

@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Burton message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/burton/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Premier Delivery has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Dorothy Perkins message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/dorothyperkins/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Premier Delivery has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Evans message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/evans/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Unlimited delivery has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Miss Selfridge message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/missselfridge/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Miss S Unlimited has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Topman message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/topman/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Topman Unlimited has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Topshop fallback message if ddpProductName is missing 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/topshop/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! DDP Subscription has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Topshop message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/topshop/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Topshop Unlimited 12 Months has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;
+
+exports[`<DDPAppliedToOrderMsg /> @render should render the Wallis message when DDP is added to the basket 1`] = `
+<div
+  className="DDPAppliedToOrderMsg"
+>
+  <div
+    className="DDPAppliedToOrderMsg-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="DDPAppliedToOrderMsg-img"
+      src="/assets/wallis/images/ddp-icon.svg"
+    />
+    <h3
+      className="DDPAppliedToOrderMsg-title"
+    >
+      Great news! Unlimited delivery has been applied to your order.
+    </h3>
+  </div>
+  <span
+    className="DDPAppliedToOrderMsg-message"
+  >
+    Take advantage of your delivery perks right away!
+  </span>
+</div>
+`;

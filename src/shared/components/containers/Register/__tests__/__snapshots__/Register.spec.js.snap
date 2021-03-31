@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Register /> @renders Guest Checkout should not display the email field if rendered in the Thank you page 1`] = `
+<section
+  className="Register "
+>
+  <Form
+    className="Register-form"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Password1",
+        }
+      }
+      id="Register-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <PasswordCriteriaIndicator
+      isTouched={false}
+      password="Password1"
+    />
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": true,
+        }
+      }
+      className="Checkbox-remember-me"
+      name="rememberMeRegister"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": true,
+        }
+      }
+      className="Checkbox-subscription"
+      name="subscribe"
+      onChange={[Function]}
+    >
+      Please sign me up for emails
+    </Connect(Checkbox)>
+    <Connect(PrivacyNotice) />
+    <Button
+      className="Register-saveChanges"
+      isActive={true}
+      isDisabled={false}
+      type="submit"
+    >
+      CREATE AN ACCOUNT
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+  </Form>
+</section>
+`;
+
+exports[`<Register /> @renders in default state 1`] = `
+<section
+  className="Register "
+>
+  <h3
+    className="Register-header"
+  >
+    New Customer?
+  </h3>
+  <Form
+    className="Register-form"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "elroy@arcadia.com",
+        }
+      }
+      id="Register-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Password1",
+        }
+      }
+      id="Register-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <PasswordCriteriaIndicator
+      isTouched={false}
+      password="Password1"
+    />
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": true,
+        }
+      }
+      className="Checkbox-remember-me"
+      name="rememberMeRegister"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": true,
+        }
+      }
+      className="Checkbox-subscription"
+      name="subscribe"
+      onChange={[Function]}
+    >
+      Please sign me up for emails
+    </Connect(Checkbox)>
+    <Connect(PrivacyNotice) />
+    <Button
+      className="Register-saveChanges"
+      isActive={true}
+      isDisabled={false}
+      type="submit"
+    >
+      CREATE AN ACCOUNT
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+  </Form>
+</section>
+`;
+
+exports[`<Register /> @renders in error state 1`] = `
+<section
+  className="Register "
+>
+  <h3
+    className="Register-header"
+  >
+    New Customer?
+  </h3>
+  <Form
+    className="Register-form"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "password": "Check password criteria.",
+        }
+      }
+      field={Object {}}
+      id="Register-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "password": "Check password criteria.",
+        }
+      }
+      field={Object {}}
+      id="Register-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <PasswordCriteriaIndicator
+      isTouched={false}
+      password=""
+    />
+    <Connect(Checkbox)
+      className="Checkbox-remember-me"
+      name="rememberMeRegister"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Connect(Checkbox)
+      checked={Object {}}
+      className="Checkbox-subscription"
+      name="subscribe"
+      onChange={[Function]}
+    >
+      Please sign me up for emails
+    </Connect(Checkbox)>
+    <Connect(PrivacyNotice) />
+    <Button
+      className="Register-saveChanges"
+      isActive={false}
+      isDisabled={true}
+      type="submit"
+    >
+      CREATE AN ACCOUNT
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+  </Form>
+</section>
+`;
+
+exports[`<Register /> @renders with registrationForm having message 1`] = `
+<section
+  className="Register "
+>
+  <h3
+    className="Register-header"
+  >
+    New Customer?
+  </h3>
+  <Form
+    className="Register-form"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "elroy@arcadia.com",
+        }
+      }
+      id="Register-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Password1",
+        }
+      }
+      id="Register-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <PasswordCriteriaIndicator
+      isTouched={false}
+      password="Password1"
+    />
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": true,
+        }
+      }
+      className="Checkbox-remember-me"
+      name="rememberMeRegister"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": true,
+        }
+      }
+      className="Checkbox-subscription"
+      name="subscribe"
+      onChange={[Function]}
+    >
+      Please sign me up for emails
+    </Connect(Checkbox)>
+    <Connect(PrivacyNotice) />
+    <Button
+      className="Register-saveChanges"
+      isActive={true}
+      isDisabled={false}
+      type="submit"
+    >
+      CREATE AN ACCOUNT
+    </Button>
+    <Message
+      isCompact={false}
+      message="this is a fake Message"
+      type="error"
+    />
+  </Form>
+</section>
+`;

@@ -1,0 +1,159 @@
+def job_folder = env.JOB_NAME.replaceAll(/\/monty\/.*$/, '')
+def git
+
+pipeline {
+    agent {
+        label 'spot'
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '50'))
+        timestamps()
+        skipDefaultCheckout()
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
+    }
+
+    parameters {
+        booleanParam(name: 'RUN_UNIT_TESTS', defaultValue: false, description: 'run unit tests')
+        booleanParam(name: 'RUN_INTEGRATION_TESTS', defaultValue: false, description: 'run integration tests')
+        booleanParam(name: 'RUN_FUNCTIONAL_TESTS', defaultValue: false, description: 'run functional cypress tests')
+        booleanParam(name: 'RUN_E2E_TESTS', defaultValue: false, description: 'run end to end tests')
+    }
+
+    stages {
+        stage("Checkout things") {
+            environment {
+                DOCKERHUB = credentials('DOCKER-HUB-Arcadia')
+            }
+
+            steps {
+                githubNotify context: 'full-monty/build', description: 'Started full-monty pipeline job',
+                    status: 'PENDING', targetUrl: env.BUILD_URL
+                script {
+                    git = checkout scm
+                    println("GIT=" + git)
+                }
+                sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
+                sh 'mkdir -p packages/monty-feature-flags'
+                dir('packages/monty-feature-flags') {
+                    checkout resolveScm(source: [
+                        $class: 'GitSCMSource',
+                        credentialsId: 'feature-config-deployment',
+                        remote: 'git@github.com:ag-digital/monty-feature-flags.git',
+                        traits: [
+                            [$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'],
+                            [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']
+                        ]
+                    ], targets: [git.GIT_BRANCH, 'develop'])
+                }
+            }
+        }
+
+        stage("Build and push monty") {
+            steps {
+                // we should have a monty with feature flags all checked out by now
+                withCredentials([string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                    sh "scripts/build_and_push_ecr.sh monty"
+                }
+            }
+        }
+
+        stage("update integration environment") {
+            when { branch 'develop' }
+            steps {
+                build job: "${job_folder}/monty deploy", wait: false,
+                    parameters: [
+                        string(name: 'EB_ENVIRONMENT_NAME', value: 'integration'),
+                        string(name: 'DEPLOY_BRANCH_OR_TAG_OR_HASH', value: git.GIT_COMMIT),
+                        string(name: 'FEATURE_FLAG_BRANCH', value: 'develop')
+                    ]
+            }
+        }
+
+        // unlike ECR build/push step, tests are not run on branch commits by default
+        // on the other hand, PRs will force all tests
+        stage("Parallel Tests") {
+            parallel {
+                stage("SonarQube Scanning") {
+                    when {
+                        changeRequest() // if its a pull request
+                    }
+                    steps {
+                        build job: "SonarQube/full-monty-sonar-scan-github",
+                        wait: true, parameters: [ string(name: 'ECR_TAG', value: git.GIT_COMMIT) ]
+                    }
+                }
+
+                stage("Unit Tests") {
+                    when {
+                        anyOf {
+                            branch 'develop'
+                            changeRequest() // if its a pull request
+                            expression { params.RUN_UNIT_TESTS == true }
+                        }
+                        beforeAgent true
+                    }
+                    steps {
+                        build job: "${job_folder}/monty_tests-unit/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+                            wait: true, parameters: [ string(name: 'ECR_TAG', value: git.GIT_COMMIT) ]
+                    }
+                }
+
+                stage("Functional Tests") {
+                    when {
+                        anyOf {
+                            branch 'develop'
+                            changeRequest()
+                            expression { params.RUN_FUNCTIONAL_TESTS == true }
+                        }
+                        beforeAgent true
+                    }
+                    steps {
+                        build job: "${job_folder}/monty_tests-functional/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+                            wait: true, parameters: [ string(name: 'ECR_TAG', value: git.GIT_COMMIT) ]
+                    }
+                }
+
+                stage("CoreAPI Integration Tests") {
+                    when {
+                        anyOf {
+                            branch 'develop'
+                            changeRequest() // if its a pull request
+                            expression { params.RUN_INTEGRATION_TESTS == true }
+                        }
+                        beforeAgent true
+                    }
+                    steps {
+                        build job: "${job_folder}/monty_tests-coreapi/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+                            wait: true, parameters: [ string(name: 'ECR_TAG', value: git.GIT_COMMIT) ]
+                    }
+                }
+
+                stage("E2E tests") {
+                    when {
+                        anyOf {
+                            branch 'develop'
+                            changeRequest()
+                            expression { params.RUN_E2E_TESTS == true }
+                        }
+                        beforeAgent true
+                    }
+                    steps {
+                        build job: "${job_folder}/monty_tests-e2ev2/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+                            wait: true, parameters: [ string(name: 'ECR_TAG', value: git.GIT_COMMIT) ]
+                    }
+                }
+            }
+        }
+    }
+    post {
+        success {
+            githubNotify context: 'full-monty/build', description: 'Finished full-monty pipeline job',
+                status: 'SUCCESS', targetUrl: env.BUILD_URL
+        }
+        failure {
+            githubNotify context: 'full-monty/build', description: 'Failed full-monty pipeline job',
+                status: 'FAILURE', targetUrl: env.BUILD_URL
+        }
+    }
+}

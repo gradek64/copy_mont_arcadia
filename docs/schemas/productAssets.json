@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "assetType": {
+      "type": "string",
+      "enum": [
+        "IMAGE_SMALL",
+        "IMAGE_ZOOM",
+        "IMAGE_THUMB",
+        "IMAGE_NORMAL",
+        "IMAGE_LARGE",
+        "IMAGE_PRODUCT_ICON"
+      ],
+      "example": "IMAGE_SMALL"
+    },
+    "index": {
+      "type": "number",
+      "example": 1
+    },
+    "url": {
+      "type": "string",
+      "example": "http://media.topshop.com/wcsstore/TopShop/images/catalog/32F04ITAN_thumb.jpg"
+    }
+  }
+}

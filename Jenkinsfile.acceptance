@@ -1,0 +1,256 @@
+// to avoid all the funky %2F in the BUILD_TAG strings we do this. yay.
+def NICE_TAG = env.JOB_BASE_NAME.replaceAll("%2F", "-") + "-" + env.BUILD_ID
+
+pipeline {
+    agent {
+        label 'spot'
+    }
+
+    parameters {
+        string(name: 'ECR_TAG', defaultValue: 'develop', description: 'Tag of monty docker image from ECR')
+        booleanParam(name: 'RUN_TESTS', defaultValue: true, description: 'run some tests')
+        choice(name: 'WCS_ENVIRONMENT', choices: 'tst1\nacc1\nperf1\nprd1live\nprd1stage\nprod\ntst1live\ntst1stage', description: 'WCS environment to be used by the local monty run')
+        choice(name: 'CYPRESS_BROWSER', choices: 'electron\nchrome', description: 'Browser used by cypress. Chrome is unable to record videos but seem to be more stable')
+    }
+
+    options {
+        buildDiscarder(logRotator(daysToKeepStr: '5', numToKeepStr: '20', artifactDaysToKeepStr: '5', artifactNumToKeepStr: '20'))
+        timestamps()
+        // disableConcurrentBuilds()
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
+    }
+
+    stages {
+        stage('Build functional tests image') {
+            environment {
+                DOCKERHUB = credentials('DOCKER-HUB-Arcadia')
+                NPM_TOKEN = credentials('devops-bot-npm-auth-token')
+            }
+            steps {
+                githubNotify context: 'full-monty/tests/functional', description: 'Running functional tests...', status: 'PENDING', targetUrl: env.BUILD_URL
+                echo "cleanup a bit of space hopefully"
+                sh 'docker image prune -f'
+                sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
+                echo "Get latest from ECR to use as the build cache"
+                sh 'set +x; $(aws ecr get-login --no-include-email --region eu-west-1)'
+                //sh "docker pull ${ECR_URL}/monty-functional:latest"
+                //echo "building docker image from ECR cache"
+                //sh "docker build --build-arg NPM_TOKEN=${NPM_TOKEN} --cache-from=${ECR_URL}/monty-functional:latest -t monty_functional:${NICE_TAG} -t ${ECR_URL}/monty-functional:${env.GIT_COMMIT} -f docker/functional/Dockerfile ."
+                echo "building functional tests docker image"
+                sh "docker build --build-arg NPM_TOKEN=${NPM_TOKEN} -t monty_functional:${NICE_TAG} -t ${ECR_URL}/monty-functional:${env.GIT_COMMIT} -f docker/functional/Dockerfile ."
+                // we want a custom docker network so things a sexier
+                echo "Creating docker network named monty_functional${NICE_TAG}"
+                sh "docker network create net_monty_functional_${NICE_TAG}"
+            }
+        }
+
+        stage('Prep and start Monty') {
+            options { skipDefaultCheckout() }
+
+            when {
+                anyOf {
+                    changeRequest(); // if its a pull request
+                    expression { params.RUN_TESTS == true } // or we explicitly ask for it
+                }
+                beforeAgent true
+            }
+
+            environment {
+                WCS_ENVIRONMENT = "${params.WCS_ENVIRONMENT}"
+                NODE_ENV = 'production'
+                REDIS_URL='tcp://monty_cache:6379'
+                REDIS_HOST_FOR_SESSION_STORE='monty_cache'
+                REDIS_PORT_FOR_SESSION_STORE=6379
+                USE_NEW_HANDLER='true'
+                BASIC_AUTH_ENABLED='false'
+                QUBIT_DISABLED='true'
+                FUNCTIONAL_TESTS='true'
+                CMS_TEST_MODE='true'
+                FETCH_WCS_CONFIGS='true'
+
+
+                CORE_API_HOST='local.mock-server'
+                CORE_API_PORT=4000
+            }
+
+            stages {
+                stage('Pull monty from ECR') {
+                    // when {
+                    //     environment name: 'MONTY_BRANCH', value: ''
+                    //     beforeAgent true
+                    // }
+
+                    steps {
+                        echo 'Pulling latest develop monty'
+                        sh "docker pull ${ECR_URL}/monty:${params.ECR_TAG}"
+                        sh "docker tag ${ECR_URL}/monty:${params.ECR_TAG} arcadiagroup/full-monty:monty-functional-${NICE_TAG}"
+                    }
+                }
+
+                // stage('Build monty branch') {
+                //     environment { NPM_TOKEN = credentials('devops-bot-npm-auth-token') }
+                //     when {
+                //         not {environment name: 'MONTY_BRANCH', value: ''} // we only want to pull+build custom monty when asked so
+                //         beforeAgent true
+                //     }
+
+                //     steps {
+                //         echo "Building and starting custom monty for ${params.ECR_TAG}"
+                //         dir('monty_checkout') {
+                //             checkout changelog: false, poll: false, scm: [
+                //                 $class: 'GitSCM',
+                //                 branches: [[name: params.MONTY_BRANCH ]],
+                //                 userRemoteConfigs: [[credentialsId: 'f506003b-6e51-4827-aaea-6ede67ba7a66', url: 'git@github.com:ag-digital/full-monty.git']]
+                //             ]
+
+                //             dir('packages/monty-feature-flags') {
+                //                 checkout resolveScm(source: [
+                //                     $class: 'GitSCMSource', credentialsId: 'feature-config-deployment', remote: 'git@github.com:ag-digital/monty-feature-flags.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait']]
+                //                 ], targets: [params.FEATURE_FLAG_BRANCH, params.MONTY_BRANCH, 'develop'])
+                //             }
+
+                //             sh "docker build --cache-from=${ECR_URL}/monty:${ECR_TAG} --build-arg NPM_TOKEN=${env.NPM_TOKEN} -t arcadiagroup/full-monty:monty-functional-${NICE_TAG} -f Dockerfile.branches ."
+                //         }
+                //     }
+                // }
+
+                stage('Start monty container') {
+                    options { skipDefaultCheckout() }
+                    steps {
+                        script {
+                            echo "Starting up redis named redis_monty_functional_${NICE_TAG}"
+                            def redis = docker.image('redis:3-alpine').run("--name redis_monty_functional_${NICE_TAG} --network net_monty_functional_${NICE_TAG} --network-alias monty_cache")
+                            //fire up full-monty with relevant environment variables
+                            echo "Starting up full-monty named monty-functional-${NICE_TAG}"
+                            def monty = docker.image("arcadiagroup/full-monty:monty-functional-${NICE_TAG}")
+                                    .run("--rm --name monty_functional_${NICE_TAG} --network net_monty_functional_${NICE_TAG} --network-alias local.m.topshop.com --env-file=docker/functional/monty-env --shm-size=1g")
+                        }
+                        // wait till the node app is ready. using wget since there is no curl in the container
+                        echo 'waiting for monty be be available'
+                        sh "docker exec monty_functional_${NICE_TAG} sh -c 'while [[ \"\$(wget -qO- localhost:3000/health )\" != \"Ok\" ]]; do sleep 5; done'"
+                    }
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            when {
+                anyOf {
+                    changeRequest(); // if its a pull request
+                    expression { params.RUN_TESTS == true } // or we explicitly ask for it
+                }
+                beforeAgent true
+            }
+            options {
+                skipDefaultCheckout()
+                timeout(time: 60, unit: 'MINUTES')
+            }
+
+            environment {
+                CYPRESS_BROWSER = "${params.CYPRESS_BROWSER}"
+                NODE_ENV = 'production'
+                MONTY_PORT = 3000
+            }
+
+            stages {
+                  stage('Test Desktop') {
+                    agent {
+                      docker {
+                        image "monty_functional:${NICE_TAG}"
+                        reuseNode true
+                        label 'spot'
+                        args "--shm-size=1500m --network net_monty_functional_${NICE_TAG} --network-alias local.mock-server"
+                      }
+                    }
+                    environment {
+                      BREAKPOINT = 'desktop'
+                    }
+
+                    steps {
+                      echo 'running desktop tests'
+                      sh 'LOW_MEMORY=true NO_COLOR=1 $(which cypress) run --browser=${CYPRESS_BROWSER} --project=/monty/test/functional --reporter=junit --reporter-options="mochaFile=$(pwd)/test/functional/output/desktop/test-results.[hash].xml" --config screenshotsFolder=$(pwd)/test/functional/screenshots/desktop,videosFolder=$(pwd)/test/functional/videos/desktop,reportFolder=$(pwd)/test/functional/mochawesome-report/assets'
+                    }
+
+                    post {
+                      always {
+                        sh 'cp -R /monty/node_modules/mochawesome-merge/tests/mochawesome-report ./mochawesome-report'
+                        sh 'cp /monty/mock-server/output.log ./mock-server-desktop-output.log'
+                        archiveArtifacts artifacts: 'mock-server-desktop-output.log', allowEmptyArchive: true
+                        archiveArtifacts artifacts: 'test/functional/screenshots/desktop/**/*.png', allowEmptyArchive: true
+                        archiveArtifacts artifacts: 'test/functional/videos/desktop/**/*.mp4', allowEmptyArchive: true
+                        archiveArtifacts artifacts: 'mochawesome-report/**', allowEmptyArchive: true
+                        junit 'test/functional/output/desktop/**/*.xml'
+                      }
+                    }
+                  }
+
+                  stage('Test Mobile') {
+                    agent {
+                      docker {
+                        image "monty_functional:${NICE_TAG}"
+                        reuseNode true
+                        label 'spot'
+                        args "--shm-size=1500m --network net_monty_functional_${NICE_TAG} --network-alias local.mock-server"
+                      }
+                    }
+                    environment {
+                      BREAKPOINT = 'mobile'
+                    }
+                    steps {
+                      echo 'running mobile tests'
+                      sh 'LOW_MEMORY=true NO_COLOR=1 $(which cypress) run --browser=${CYPRESS_BROWSER} --project=/monty/test/functional --reporter=junit --reporter-options="mochaFile=$(pwd)/test/functional/output/mobile/test-results.[hash].xml" --config screenshotsFolder=$(pwd)test/functional/screenshots/mobile,videosFolder=$(pwd)/test/functional/videos/mobile'
+                    }
+                    post {
+                      always {
+                        sh 'cp /monty/mock-server/output.log ./mock-server-mobile-output.log'
+                        archiveArtifacts artifacts: 'mock-server-mobile-output.log', allowEmptyArchive: true
+                        archiveArtifacts artifacts: 'test/functional/screenshots/mobile/**/*.png', allowEmptyArchive: true
+                        archiveArtifacts artifacts: 'test/functional/videos/mobile/**/*.mp4', allowEmptyArchive: true
+                        junit 'test/functional/output/mobile/**/*.xml'
+                      }
+                    }
+                  }
+            }
+        }
+
+        stage('Deploy') {
+            when {
+                branch 'master';
+                expression { params.ECR_TAG == 'develop'}
+                // anyOf {
+                //    branch 'master';
+                //    environment name: 'RUN_DEPLOY', value: 'true'
+                // }
+                beforeAgent true
+            }
+
+            steps {
+                echo 'pushing it to ECR'
+                script {
+                    docker.withRegistry("https://${ECR_URL}/monty-functional") {
+                        def cypress_ecr = docker.image("${ECR_URL}/monty-functional:${env.GIT_COMMIT}")
+                        cypress_ecr.push()
+                        cypress_ecr.push('latest')
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            githubNotify context: 'full-monty/tests/functional', description: 'Functional tests passed!', status: 'SUCCESS', targetUrl: env.BUILD_URL
+        }
+        failure {
+            githubNotify context: 'full-monty/tests/functional', description: 'Functional tests failed.', status: 'FAILURE', targetUrl: env.BUILD_URL
+        }
+        cleanup {
+            echo "Stopping and removing all containters related to monty_functional_${NICE_TAG}"
+            sh "docker container ls --all --filter name=monty_functional_${NICE_TAG} -q | xargs --no-run-if-empty docker container rm -fv"
+            echo "Removing custom network related to monty_functional_${NICE_TAG}"
+            sh "docker network ls --filter name=net_monty_functional_${NICE_TAG} -q | xargs --no-run-if-empty docker network rm"
+            echo "prune all that"
+            sh "docker volume prune -f"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+/** @define SocialProofProductOverlay; weak */
+
+.SocialProofProductOverlay {
+    max-width: 45%;
+
+    &--badgeImage {
+      float: left;
+    }
+}

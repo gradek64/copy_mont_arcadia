@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickLinks /> @renders in default state - rating number 1`] = `
+<nav
+  className="QuickLinks"
+>
+  <a
+    className="QuickLinks-link"
+    href="#Main-content"
+  >
+    Skip to content
+  </a>
+</nav>
+`;

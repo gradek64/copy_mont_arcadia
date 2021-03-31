@@ -1,0 +1,874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentContainer /> @renders CheckoutPaymentDetails component renders billingCardDetails.isShown is true 1`] = `
+<section
+  className="PaymentContainer PaymentContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Billing Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Billing Options",
+            ],
+          ],
+          Array [
+            Array [
+              "Billing address",
+            ],
+          ],
+          Array [
+            Array [
+              "Same as delivery address",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Billing Options",
+          },
+          Object {
+            "type": "return",
+            "value": "Billing address",
+          },
+          Object {
+            "type": "return",
+            "value": "Same as delivery address",
+          },
+        ],
+      }
+    }
+    totalCost="£52.00"
+  />
+  <div
+    className="PaymentContainer-content"
+  >
+    <TotalCost
+      totalCost="£52.00"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+      key="PromotionCode"
+    />
+    <CheckoutTitle
+      separator={true}
+    >
+      Billing address
+    </CheckoutTitle>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="PaymentContainer-checkbox"
+      name="deliveryAsBilling"
+      onChange={[Function]}
+    >
+      Same as delivery address
+    </Connect(Checkbox)>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <div>
+        <BillingDetailsForm />
+        <BillingAddressForm />
+      </div>
+      <Connect(Espot)
+        identifier="checkoutDiscountIntroEspot"
+      />
+    </div>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <Connect(GiftCards)
+        showTotal={true}
+      />
+    </div>
+    <Connect(Espot)
+      identifier="toBeDefined"
+    />
+    <Connect(PaymentDetailsContainer) />
+    <Connect(SavePaymentDetailsCheckboxContainer) />
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={
+          Array [
+            "billingDetails",
+            "billingAddress",
+            "billingFindAddress",
+            "giftCard",
+            "billingCardDetails",
+            "order",
+          ]
+        }
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={true}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "52.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME",
+            "estimatedDelivery": Array [
+              "No later than Friday 22 July 2016",
+            ],
+            "label": "",
+            "shipModeId": 0,
+          }
+        }
+      />
+    </div>
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</section>
+`;
+
+exports[`<PaymentContainer /> @renders CheckoutPaymentDetails component renders no orderSummary.creditCard 1`] = `
+<section
+  className="PaymentContainer PaymentContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Billing Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Billing Options",
+            ],
+          ],
+          Array [
+            Array [
+              "Billing address",
+            ],
+          ],
+          Array [
+            Array [
+              "Same as delivery address",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Billing Options",
+          },
+          Object {
+            "type": "return",
+            "value": "Billing address",
+          },
+          Object {
+            "type": "return",
+            "value": "Same as delivery address",
+          },
+        ],
+      }
+    }
+    totalCost="£52.00"
+  />
+  <div
+    className="PaymentContainer-content"
+  >
+    <TotalCost
+      totalCost="£52.00"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+      key="PromotionCode"
+    />
+    <CheckoutTitle
+      separator={true}
+    >
+      Billing address
+    </CheckoutTitle>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="PaymentContainer-checkbox"
+      name="deliveryAsBilling"
+      onChange={[Function]}
+    >
+      Same as delivery address
+    </Connect(Checkbox)>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <div>
+        <BillingDetailsForm />
+        <BillingAddressForm />
+      </div>
+      <Connect(Espot)
+        identifier="checkoutDiscountIntroEspot"
+      />
+    </div>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <Connect(GiftCards)
+        showTotal={true}
+      />
+    </div>
+    <Connect(Espot)
+      identifier="toBeDefined"
+    />
+    <Connect(PaymentDetailsContainer) />
+    <Connect(SavePaymentDetailsCheckboxContainer) />
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={
+          Array [
+            "billingDetails",
+            "billingAddress",
+            "billingFindAddress",
+            "giftCard",
+            "billingCardDetails",
+            "order",
+          ]
+        }
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={true}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "52.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME",
+            "estimatedDelivery": Array [
+              "No later than Friday 22 July 2016",
+            ],
+            "label": "",
+            "shipModeId": 0,
+          }
+        }
+      />
+    </div>
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</section>
+`;
+
+exports[`<PaymentContainer /> @renders in default state 1`] = `
+<section
+  className="PaymentContainer PaymentContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Billing Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Billing Options",
+            ],
+          ],
+          Array [
+            Array [
+              "Billing address",
+            ],
+          ],
+          Array [
+            Array [
+              "Same as delivery address",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Billing Options",
+          },
+          Object {
+            "type": "return",
+            "value": "Billing address",
+          },
+          Object {
+            "type": "return",
+            "value": "Same as delivery address",
+          },
+        ],
+      }
+    }
+    totalCost="£52.00"
+  />
+  <div
+    className="PaymentContainer-content"
+  >
+    <TotalCost
+      totalCost="£52.00"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+      key="PromotionCode"
+    />
+    <CheckoutTitle
+      separator={true}
+    >
+      Billing address
+    </CheckoutTitle>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="PaymentContainer-checkbox"
+      name="deliveryAsBilling"
+      onChange={[Function]}
+    >
+      Same as delivery address
+    </Connect(Checkbox)>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <div>
+        <BillingDetailsForm />
+        <BillingAddressForm />
+      </div>
+      <Connect(Espot)
+        identifier="checkoutDiscountIntroEspot"
+      />
+    </div>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <Connect(GiftCards)
+        showTotal={true}
+      />
+    </div>
+    <Connect(Espot)
+      identifier="toBeDefined"
+    />
+    <Connect(SavePaymentDetailsCheckboxContainer) />
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={
+          Array [
+            "billingDetails",
+            "billingAddress",
+            "billingFindAddress",
+            "giftCard",
+            "billingCardDetails",
+            "order",
+          ]
+        }
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={true}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "52.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME",
+            "estimatedDelivery": Array [
+              "No later than Friday 22 July 2016",
+            ],
+            "label": "",
+            "shipModeId": 0,
+          }
+        }
+      />
+    </div>
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</section>
+`;
+
+exports[`<PaymentContainer /> @renders returns null when orderSummary is empty 1`] = `""`;
+
+exports[`<PaymentContainer /> @renders should not render the save payment details checkout box if in guest checkout 1`] = `
+<section
+  className="PaymentContainer PaymentContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Billing Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Billing Options",
+            ],
+          ],
+          Array [
+            Array [
+              "Billing address",
+            ],
+          ],
+          Array [
+            Array [
+              "Same as delivery address",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Billing Options",
+          },
+          Object {
+            "type": "return",
+            "value": "Billing address",
+          },
+          Object {
+            "type": "return",
+            "value": "Same as delivery address",
+          },
+        ],
+      }
+    }
+    totalCost="£52.00"
+  />
+  <div
+    className="PaymentContainer-content"
+  >
+    <TotalCost
+      totalCost="£52.00"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+      key="PromotionCode"
+    />
+    <CheckoutTitle
+      separator={true}
+    >
+      Billing address
+    </CheckoutTitle>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="PaymentContainer-checkbox"
+      name="deliveryAsBilling"
+      onChange={[Function]}
+    >
+      Same as delivery address
+    </Connect(Checkbox)>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <div>
+        <BillingDetailsForm />
+        <BillingAddressForm />
+      </div>
+      <Connect(Espot)
+        identifier="checkoutDiscountIntroEspot"
+      />
+    </div>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <Connect(GiftCards)
+        showTotal={true}
+      />
+    </div>
+    <Connect(Espot)
+      identifier="toBeDefined"
+    />
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={
+          Array [
+            "billingDetails",
+            "billingAddress",
+            "billingFindAddress",
+            "giftCard",
+            "billingCardDetails",
+            "order",
+          ]
+        }
+        isDDPStandaloneOrder={false}
+        isGuestOrder={true}
+        isGuestRecaptchaEnabled={false}
+        isMobile={true}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "52.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME",
+            "estimatedDelivery": Array [
+              "No later than Friday 22 July 2016",
+            ],
+            "label": "",
+            "shipModeId": 0,
+          }
+        }
+      />
+    </div>
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</section>
+`;
+
+exports[`<PaymentContainer /> @renders with findAddressState.address as false 1`] = `
+<section
+  className="PaymentContainer PaymentContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Billing Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Billing Options",
+            ],
+          ],
+          Array [
+            Array [
+              "Billing address",
+            ],
+          ],
+          Array [
+            Array [
+              "Same as delivery address",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Billing Options",
+          },
+          Object {
+            "type": "return",
+            "value": "Billing address",
+          },
+          Object {
+            "type": "return",
+            "value": "Same as delivery address",
+          },
+        ],
+      }
+    }
+    totalCost="£52.00"
+  />
+  <div
+    className="PaymentContainer-content"
+  >
+    <TotalCost
+      totalCost="£52.00"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+      key="PromotionCode"
+    />
+    <CheckoutTitle
+      separator={true}
+    >
+      Billing address
+    </CheckoutTitle>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="PaymentContainer-checkbox"
+      name="deliveryAsBilling"
+      onChange={[Function]}
+    >
+      Same as delivery address
+    </Connect(Checkbox)>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <div>
+        <BillingDetailsForm />
+        <BillingAddressForm />
+      </div>
+      <Connect(Espot)
+        identifier="checkoutDiscountIntroEspot"
+      />
+    </div>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <Connect(GiftCards)
+        showTotal={true}
+      />
+    </div>
+    <Connect(Espot)
+      identifier="toBeDefined"
+    />
+    <Connect(SavePaymentDetailsCheckboxContainer) />
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={
+          Array [
+            "billingDetails",
+            "billingAddress",
+            "billingFindAddress",
+            "giftCard",
+            "billingCardDetails",
+            "order",
+          ]
+        }
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={true}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "52.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME",
+            "estimatedDelivery": Array [
+              "No later than Friday 22 July 2016",
+            ],
+            "label": "",
+            "shipModeId": 0,
+          }
+        }
+      />
+    </div>
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</section>
+`;
+
+exports[`<PaymentContainer /> @renders with storeDetails 1`] = `
+<section
+  className="PaymentContainer PaymentContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Billing Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Billing Options",
+            ],
+          ],
+          Array [
+            Array [
+              "Billing address",
+            ],
+          ],
+          Array [
+            Array [
+              "Same as delivery address",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Billing Options",
+          },
+          Object {
+            "type": "return",
+            "value": "Billing address",
+          },
+          Object {
+            "type": "return",
+            "value": "Same as delivery address",
+          },
+        ],
+      }
+    }
+    totalCost="£52.00"
+  />
+  <div
+    className="PaymentContainer-content"
+  >
+    <TotalCost
+      totalCost="£52.00"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+      key="PromotionCode"
+    />
+    <CheckoutTitle
+      separator={true}
+    >
+      Billing address
+    </CheckoutTitle>
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="PaymentContainer-checkbox"
+      name="deliveryAsBilling"
+      onChange={[Function]}
+    >
+      Same as delivery address
+    </Connect(Checkbox)>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <div>
+        <BillingDetailsForm />
+        <BillingAddressForm />
+      </div>
+      <Connect(Espot)
+        identifier="checkoutDiscountIntroEspot"
+      />
+    </div>
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <Connect(GiftCards)
+        showTotal={true}
+      />
+    </div>
+    <Connect(Espot)
+      identifier="toBeDefined"
+    />
+    <Connect(SavePaymentDetailsCheckboxContainer) />
+    <div
+      className="PaymentContainer-sectionWrapper"
+    >
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={
+          Array [
+            "billingDetails",
+            "billingAddress",
+            "billingFindAddress",
+            "giftCard",
+            "billingCardDetails",
+            "order",
+          ]
+        }
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={true}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "52.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME",
+            "estimatedDelivery": Array [
+              "No later than Friday 22 July 2016",
+            ],
+            "label": "",
+            "shipModeId": 0,
+          }
+        }
+      />
+    </div>
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</section>
+`;

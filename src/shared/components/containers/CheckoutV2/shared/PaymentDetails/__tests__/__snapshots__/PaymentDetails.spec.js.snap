@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentDetails/> @renders should render billing AddressPreview if on delivery payment page and state is default 1`] = `
+<div
+  className="PaymentDetails"
+>
+  <CheckoutTitle
+    separator={true}
+  >
+    Payment details
+  </CheckoutTitle>
+  <div
+    className="PaymentDetails-wrapper"
+  >
+    <AddressPreview
+      address={
+        Object {
+          "address1": "123 Fake St",
+          "country": "United Kingdom",
+        }
+      }
+      details={Object {}}
+      heading={true}
+      onClickChangeButton={[Function]}
+      rightAlignedButton={true}
+    />
+  </div>
+  <CheckoutTitle
+    subheader={true}
+  >
+    Payment type
+  </CheckoutTitle>
+  <Connect(PaymentMethodsOptions)
+    loginNotice={[Function]}
+    savePaymentMethod={[Function]}
+  />
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders should render billing address forms if on delivery payment page and showAddressPreview state is false 1`] = `
+<div
+  className="PaymentDetails"
+>
+  <CheckoutTitle
+    separator={true}
+  >
+    Payment details
+  </CheckoutTitle>
+  <div
+    className="PaymentDetails-wrapper"
+  >
+    <BillingDetailsForm
+      renderTelephone={false}
+    />
+    <BillingAddressForm
+      renderTelephone={true}
+    />
+  </div>
+  <CheckoutTitle
+    subheader={true}
+  >
+    Payment type
+  </CheckoutTitle>
+  <Connect(PaymentMethodsOptions)
+    loginNotice={[Function]}
+    savePaymentMethod={[Function]}
+  />
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders should render default state correctly 1`] = `
+<div
+  className="PaymentDetails"
+>
+  <CheckoutTitle
+    separator={false}
+  >
+    Payment details
+  </CheckoutTitle>
+  <CheckoutTitle
+    subheader={true}
+  >
+    Payment type
+  </CheckoutTitle>
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders should render payment method options 1`] = `
+<div
+  className="PaymentDetails"
+>
+  <CheckoutTitle
+    separator={false}
+  >
+    Payment details
+  </CheckoutTitle>
+  <CheckoutTitle
+    subheader={true}
+  >
+    Payment type
+  </CheckoutTitle>
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders should render ‘card’ payment preview, is current payment method is \`ACCNT\` 1`] = `
+<div>
+  <p
+    className="PaymentDetails-preview"
+  >
+    Ending in
+    :
+     
+    1111
+  </p>
+  <p
+    className="PaymentDetails-preview"
+  >
+    Expires on
+    : 
+    08
+    /
+    2026
+  </p>
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders should render ‘card’ payment preview, is current payment method is \`CARD\` 1`] = `
+<div>
+  <p
+    className="PaymentDetails-preview"
+  >
+    Ending in
+    :
+     
+    1111
+  </p>
+  <p
+    className="PaymentDetails-preview"
+  >
+    Expires on
+    : 
+    08
+    /
+    2026
+  </p>
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders should render ‘non-card’ payment preview, is current payment method is \`PYPAL\` 1`] = `
+<div>
+  <p
+    className="PaymentDetails-preview"
+  >
+    Paypal
+  </p>
+  <p
+    className="PaymentDetails-preview"
+  />
+</div>
+`;
+
+exports[`<PaymentDetails/> @renders when there are current payment details and method should render preview 1`] = `
+<PaymentMethodPreview
+  closePaymentMethods={[Function]}
+  onChange={[Function]}
+  shoppingBagTotalItems={1}
+  type="CARD"
+  value="CARD"
+>
+  <div>
+    <p
+      className="PaymentDetails-preview"
+    >
+      Ending in
+      :
+       
+      1111
+    </p>
+    <p
+      className="PaymentDetails-preview"
+    >
+      Expires on
+      : 
+      08
+      /
+      2026
+    </p>
+  </div>
+</PaymentMethodPreview>
+`;

@@ -1,0 +1,58 @@
+{
+  "exists": true,
+  "email": "test01928374@reiki.com",
+  "title": "",
+  "firstName": "",
+  "lastName": "",
+  "userTrackingId": 4763958,
+  "subscriptionId": "",
+  "basketItemCount": 1,
+  "creditCard": {
+    "type": "",
+    "cardNumberHash": "",
+    "cardNumberStar": "",
+    "expiryMonth": "",
+    "expiryYear": ""
+  },
+  "deliveryDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "lastName": "",
+      "telephone": "",
+      "title": "",
+      "firstName": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "billingDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "lastName": "",
+      "telephone": "",
+      "title": "",
+      "firstName": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "version": "1.6",
+  "isDDPUser": false,
+  "isDDPRenewable": false,
+  "ddpStartDate": null,
+  "ddpEndDate": null,
+  "expId1": "36e9fa3765f103d52675c6638b61c0f2e3c2a65ec1801f5ab4edcec18d7229a1",
+  "expId2": "4fb614fa2aa18a9556d67a68dc79677243292ae98cdf3e20eb90585013b256fa"
+}

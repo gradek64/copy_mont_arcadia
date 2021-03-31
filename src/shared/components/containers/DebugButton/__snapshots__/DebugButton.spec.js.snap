@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connect render is hidden when "debugButtonVisible" is false 1`] = `""`;
+
+exports[`Connect render is visible when "debugButtonVisible" is true 1`] = `
+<div
+  className="DebugButton"
+  onClick={[MockFunction]}
+>
+  <Connect(Image)
+    className="DebugButton-icon"
+    src="/assets/common/images/debug-icon.png"
+  />
+  <a
+    className="DebugButton-label"
+  >
+    Debug
+  </a>
+</div>
+`;

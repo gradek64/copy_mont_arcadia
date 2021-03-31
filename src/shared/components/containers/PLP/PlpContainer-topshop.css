@@ -1,0 +1,7 @@
+/** @define PlpContainer; weak */
+
+.PlpContainer {
+  & .ProductsBreadCrumbs {
+    margin-left: 20px;
+  }
+}

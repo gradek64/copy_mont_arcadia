@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderCompleteButton /> @render There are errors should display \`Go to Checkout\` wording 1`] = `
+<div
+  className="OrderCompleteButton"
+>
+  <Button
+    className="OrderCompleteButton-button"
+    clickHandler={[MockFunction]}
+  >
+    Go to Checkout
+  </Button>
+</div>
+`;
+
+exports[`<OrderCompleteButton /> @render There are no errors should display \`Continue Shopping\` wording 1`] = `
+<div
+  className="OrderCompleteButton"
+>
+  <Button
+    className="OrderCompleteButton-button"
+    clickHandler={[MockFunction]}
+  >
+    Continue Shopping
+  </Button>
+</div>
+`;
+
+exports[`<OrderCompleteButton /> @render isDiscoverMoreEnabled is enabled should display the espot 1`] = `
+<div
+  className="OrderCompleteButton"
+>
+  <Button
+    className="OrderCompleteButton-button"
+    clickHandler={[MockFunction]}
+  >
+    Continue Shopping
+  </Button>
+  <div
+    className="OrderCompleteButton-discoverMore"
+  >
+    <Connect(Espot)
+      identifier="CONFIRMATION_DISCOVER_MORE"
+      isResponsive={true}
+    />
+  </div>
+</div>
+`;

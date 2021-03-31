@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardPaymentMethod/> @renders should render default state correctly 1`] = `
+<div
+  className="CardPaymentMethod"
+>
+  <Component
+    id="qubit-credit-card-field"
+  >
+    <Connect(Input)
+      className="CardPaymentMethod-cardNumber"
+      errors={
+        Object {
+          "cardNumber": "",
+        }
+      }
+      field={Object {}}
+      isRequired={true}
+      label="Card Number"
+      messagePosition="bottom"
+      name="cardNumber"
+      onBlur={[Function]}
+      placeholder="Card Number"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </Component>
+  <div
+    className="CardPaymentMethod-container"
+  >
+    <div
+      className="CardPaymentMethod-expiryDate-container"
+    >
+      <Component
+        handleDateBlur={[Function]}
+        id="qubit-expiry-date"
+        setExpiryMonth={[Function]}
+        setExpiryYear={[Function]}
+      >
+        <Connect(Input)
+          className="CardPaymentMethod-expiryDate"
+          errors={
+            Object {
+              "expiryDate": "",
+            }
+          }
+          field={Object {}}
+          isRequired={true}
+          label="Expiry Date"
+          messagePosition="bottom"
+          name="expiryDate"
+          onBlur={[Function]}
+          placeholder="MM/YY"
+          setField={[Function]}
+          touchedField={[Function]}
+          type="text"
+        />
+      </Component>
+    </div>
+  </div>
+  <div
+    className="CardPaymentMethod-cvvFieldContainer"
+  >
+    <Component
+      id="qubit-security-code-field"
+    >
+      <CVVField
+        className=""
+        error=""
+        field={Object {}}
+        isMobile={false}
+        label="Security Code"
+        messagePosition="bottom"
+        paymentType=""
+        placeholder="CVV*"
+        setField={[Function]}
+        showModal={[MockFunction]}
+        touchedField={[Function]}
+      />
+    </Component>
+  </div>
+</div>
+`;

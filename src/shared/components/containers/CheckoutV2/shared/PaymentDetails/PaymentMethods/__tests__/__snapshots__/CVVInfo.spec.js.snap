@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CVVInfo/> @renders should render default state correctly 1`] = `
+<article
+  className="CVVInfo"
+>
+  <div
+    className="CVVInfo-cellOne CVVInfo-section"
+  >
+    <h1
+      className="CVVInfo-sectionHeading"
+    >
+      How to find your security number
+    </h1>
+    <p>
+      The security number (CVV) is the number that can be found at the back of your card next to the signature.
+    </p>
+    <p>
+      For American Express card holders it can be found on the front.
+    </p>
+  </div>
+  <div
+    className="CVVInfo-cellTwo"
+  >
+    <div>
+      <img
+        alt=""
+        src="/assets/common/images/cvv.svg"
+      />
+    </div>
+    <div
+      className="CVVInfo-section CVVInfo-securityNumberInfo"
+    >
+      <h2
+        className="CVVInfo-sectionHeading"
+      >
+        Can't read your security number?
+      </h2>
+      <p>
+        If you can't read your security number, please contact your card issuer
+      </p>
+    </div>
+  </div>
+</article>
+`;

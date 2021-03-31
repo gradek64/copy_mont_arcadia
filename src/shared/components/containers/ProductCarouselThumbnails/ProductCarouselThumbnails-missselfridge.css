@@ -1,0 +1,11 @@
+/** @define ProductCarouselThumbnails */
+
+@media $min-laptop {
+  .ProductCarouselThumbnails {
+    &-navButton {
+      &--previous {
+        margin-top: -20px
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterContainer /> @renders bottomContentSection instance method should render correct content 1`] = `
+Array [
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/visa.svg"
+    />
+  </span>,
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/mastercard.svg"
+    />
+  </span>,
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/maestro.svg"
+    />
+  </span>,
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/dorothyperkinsmastercard.svg"
+    />
+  </span>,
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/paypal.svg"
+    />
+  </span>,
+]
+`;
+
+exports[`<FooterContainer /> @renders bottomContentSection instance method should render correct content 2`] = `
+Array [
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/verified-by-visa.svg"
+    />
+  </span>,
+  <span
+    className="FooterContainer-bottomContentImage"
+  >
+    <Connect(Image)
+      lazyLoad={true}
+      src="/assets/topshop/images/footer/mastercardsecurecode.svg"
+    />
+  </span>,
+]
+`;
+
+exports[`<FooterContainer /> @renders in default state 1`] = `
+<footer
+  className="FooterContainer"
+>
+  <div
+    className="FooterContainer-inner"
+  >
+    <div
+      className="FooterContainer-topSection FooterContainer-topSectionCentered"
+    >
+      <div
+        className="FooterContainer-newsletter FooterContainer-newsletterTopCentered"
+      >
+        <Connect(FooterNewsletter) />
+      </div>
+    </div>
+    <hr
+      className="FooterContainer-horizontalLine"
+    />
+    <div
+      className="FooterContainer-navigation"
+    >
+      <FooterNavigation />
+    </div>
+    <hr
+      className="FooterContainer-horizontalLine"
+    />
+    <div
+      className="FooterContainer-bottomContent"
+    >
+      <div
+        className="FooterContainer-bottomContentLeft"
+      >
+        <span
+          className="FooterContainer-bottomContentText"
+          key="Followus"
+        >
+          Follow us
+        </span>
+        <FooterSocialLinks
+          brandName="topshop"
+          socialLinks={
+            Object {
+              "isVisible": true,
+              "links": Array [
+                Object {
+                  "fileName": "instagram.svg",
+                  "linkUrl": "https://www.instagram.com/topshop/",
+                },
+                Object {
+                  "fileName": "facebook.svg",
+                  "linkUrl": "http://www.facebook.com/Topshop",
+                },
+                Object {
+                  "fileName": "twitter.svg",
+                  "linkUrl": "http://www.twitter.com/topshop",
+                },
+                Object {
+                  "fileName": "pinterest.svg",
+                  "linkUrl": "http://pinterest.com/topshop/",
+                },
+                Object {
+                  "fileName": "snapchat.svg",
+                  "linkUrl": "https://www.snapchat.com/add/topshop",
+                },
+              ],
+              "location": "BOTTOM_LEFT",
+            }
+          }
+        />
+      </div>
+      <div
+        className="FooterContainer-bottomContentRight"
+      >
+        <a
+          className="FooterContainer-bottomContentImage FooterContainer-clickable"
+          href="https://www.topman.com"
+          key="shop_for_him_uk.svg"
+          target="_blank"
+        >
+          <Connect(Image)
+            key="shop_for_him_uk.svg"
+            lazyLoad={true}
+            src="/assets/topshop/images/footer/shop_for_him_uk.svg"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

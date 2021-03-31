@@ -1,0 +1,52 @@
+/** @define MyAccount */
+
+.MyAccount {
+  &-list {
+     padding: 0;
+     margin: 0;
+  }
+
+  &-linkChange {
+     cursor: pointer;
+     text-align: right;
+     text-decoration: underline;
+     padding: 5px;
+   }
+
+  &-form {
+    padding: 0 $page-padding;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media $min-tablet {
+  .MyAccount {
+    display: flex;
+    justify-content: center;
+
+    &-wrapper {
+       padding: 0 $page-padding;
+     }
+
+    &-inner {
+      width: 90%;
+    }
+
+    &-list {
+      width: 48%;
+     }
+
+    &-listleft {
+      float: left;
+     }
+
+    &-listright {
+       float: right;
+    }
+    &-form {
+       max-width: 400px;
+     }
+
+  }
+}

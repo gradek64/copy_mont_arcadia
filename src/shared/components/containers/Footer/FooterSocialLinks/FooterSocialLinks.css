@@ -1,0 +1,70 @@
+
+/** @define FooterSocialLinks */
+
+.FooterSocialLinks {
+  align-content: $footer-social-links-align-content;
+  align-items: $footer-social-links-align-items;
+  align-self: $footer-social-links-align-self;
+  position: $footer-social-links-position;
+  top: $footer-social-links-top;
+  right: $footer-social-links-right;
+  bottom: $footer-social-links-bottom;
+  left: $footer-social-links-left;
+  display: $footer-social-links-display;
+  flex: $footer-social-links-flex;
+  flex-direction: $footer-social-links-flex-direction;
+  flex-wrap: $footer-social-links-flex-wrap;
+  order: $footer-social-links-order;
+  justify-content: $footer-social-links-justify-content;
+  margin: $footer-social-links-margin;
+  padding: $footer-social-links-padding;
+  width: $footer-social-links-width;
+  height: $footer-social-links-height;
+  max-width: $footer-social-links-max-width;
+  max-height: $footer-social-links-max-height;
+  border: $footer-social-links-border;
+  border-top: $footer-social-links-border-top;
+  border-right: $footer-social-links-border-right;
+  border-bottom: $footer-social-links-border-bottom;
+  border-left: $footer-social-links-border-left;
+  font-size: $footer-social-links-font-size;
+  box-sizing: $footer-social-links-box-sizing;
+
+  &-icon {
+    border-radius: $footer-social-links-icon-border-radius;
+    cursor: $footer-social-links-icon-cursor;
+    opacity: $footer-social-links-icon-opacity;
+    transition: $footer-social-links-icon-transition;
+    max-width: $footer-social-links-icon-max-width;
+    max-height: $footer-social-links-icon-max-height;
+    position: $footer-social-links-icon-position;
+    top: $footer-social-links-icon-top;
+    right: $footer-social-links-icon-right;
+    bottom: $footer-social-links-icon-bottom;
+    left: $footer-social-links-icon-left;
+    display: $footer-social-links-icon-display;
+    margin: $footer-social-links-icon-margin;
+    padding: $footer-social-links-icon-padding;
+    align-self: $footer-social-links-icon-align-self;
+    flex: $footer-social-links-icon-flex;
+    order: $footer-social-links-icon-order;
+    border: $footer-social-links-icon-border;
+    border-top: $footer-social-links-icon-border-top;
+    border-right: $footer-social-links-icon-border-right;
+    border-bottom: $footer-social-links-icon-border-bottom;
+    border-left: $footer-social-links-icon-border-left;
+    font-size: $footer-social-links-icon-font-size;
+    box-sizing: $footer-social-links-icon-box-sizing;
+    opacity: $footer-social-links-icon-opacity;
+  }
+
+  &-icon:hover {
+    opacity: $footer-social-links-icon-hover-opacity;
+    transition: $footer-social-links-icon-hover-transition;
+  }
+
+  &-image {
+    width: $footer-social-links-image-width;
+    height: $footer-social-links-image-height;
+  }
+}

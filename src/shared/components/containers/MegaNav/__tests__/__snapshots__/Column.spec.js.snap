@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Column /> should render default state 1`] = `
+<div
+  className="MegaNav-column MegaNav-lastColumn"
+  style={
+    Object {
+      "width": "50%",
+    }
+  }
+>
+  <Content
+    arraySubcategories={
+      Array [
+        Object {
+          "image": Object {
+            "span": 2,
+          },
+        },
+      ]
+    }
+    blockName=""
+    hideMegaNav={[Function]}
+    key="content_0"
+  />
+</div>
+`;

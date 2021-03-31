@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox/> @renders in default state 1`] = `
+<label
+  className="FormComponent-CheckboxTest Checkbox CheckboxName-CheckboxTest"
+  htmlFor="CheckboxTest-checkbox"
+>
+  <span
+    className="Checkbox-checkboxContainer"
+  >
+    <input
+      aria-checked={false}
+      aria-labelledby="CheckboxTest-label"
+      checked={false}
+      className="Checkbox-field"
+      id="CheckboxTest-checkbox"
+      name="CheckboxTest"
+      onBlur={[Function]}
+      onChange={[MockFunction]}
+      role="checkbox"
+      type="checkbox"
+    />
+    <span
+      className="Checkbox-check"
+    />
+  </span>
+  <span
+    aria-label="CheckboxTest"
+    className="Checkbox-label "
+    htmlFor="CheckboxTest"
+    id="CheckboxTest-label"
+  />
+</label>
+`;
+
+exports[`<Checkbox/> @renders with children 1`] = `
+<label
+  className="FormComponent-CheckboxTest Checkbox CheckboxName-CheckboxTest"
+  htmlFor="CheckboxTest-checkbox"
+>
+  <span
+    className="Checkbox-checkboxContainer"
+  >
+    <input
+      aria-checked={false}
+      aria-labelledby="CheckboxTest-label"
+      checked={false}
+      className="Checkbox-field"
+      id="CheckboxTest-checkbox"
+      name="CheckboxTest"
+      onBlur={[Function]}
+      onChange={[MockFunction]}
+      role="checkbox"
+      type="checkbox"
+    />
+    <span
+      className="Checkbox-check"
+    />
+  </span>
+  <span
+    aria-label="CheckboxTest"
+    className="Checkbox-label "
+    htmlFor="CheckboxTest"
+    id="CheckboxTest-label"
+  >
+    &lt;div&gt;test child node&lt;/div&gt;
+  </span>
+</label>
+`;

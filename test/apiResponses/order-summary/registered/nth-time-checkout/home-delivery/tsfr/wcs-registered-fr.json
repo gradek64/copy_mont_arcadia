@@ -1,0 +1,363 @@
+{
+  "orderSummary": {
+    "deliveryIntroContent": "",
+    "deliveryAddressLabel": "Adresse de livraison",
+    "deliveryaddressform": {
+      "formName": "deliveryaddressform",
+      "pageAction": "ProcessDeliveryDetails",
+      "formMethod": "post",
+      "shipping_email1": "gcgp882@gmail.com",
+      "proceed": "",
+      "registerType": "R",
+      "returnPage": "ShoppingBag",
+      "isoCode": "",
+      "shippingIsoCode": "FRA",
+      "storeId": 13057,
+      "catalogId": 34056,
+      "orderId": 2074705,
+      "langId": -2,
+      "page": "account",
+      "editRegistration": "Y",
+      "editSection": "NA",
+      "outOrderItemName": "",
+      "actionType": "updateCountryAndOrderItems",
+      "sourcePage": "DeliveryPage",
+      "deliveryOptionType": "H",
+      "shipping_errorViewName": "UserRegistrationForm",
+      "shipping_nickName": "Default_Shipping_13057",
+      "titleLabelText": "Civilité",
+      "defaultTitleSelectText": "Veuillez sélectionner un titre",
+      "personTitles": ["M.", "Mme", "Mlle", "Dr"],
+      "shippingPersonTitle": "",
+      "shippingFirstNameLabelText": "Prénom",
+      "shippingFirstName": "",
+      "shippingSurNameLabelText": "Nom",
+      "shippingLastName": "",
+      "shippingMobileLabelText": "Le téléphone principal pour votre adresse",
+      "shippingMobileNumber": "",
+      "shippingCountryLabelText": "Pays",
+      "shippingCountries": [
+        "Andorra",
+        "Austria",
+        "Belgium",
+        "Estonia",
+        "Finland",
+        "France",
+        "Germany",
+        "Greece",
+        "Holy See",
+        "Italy",
+        "Liechtenstein",
+        "Luxembourg",
+        "Monaco",
+        "Montenegro",
+        "Netherlands",
+        "Portugal",
+        "San Marino",
+        "Slovakia",
+        "Spain",
+        "Switzerland"
+      ],
+      "shippingCountry": "France",
+      "shippingHouseNameLabelText": "Numéro ou nom de la rue",
+      "lookupHouseNumber": "",
+      "shippingPostCodeLabelText": "Code postal",
+      "lookupPostcode": "",
+      "findShippingAddressLabelText": "Trouver l'adresse",
+      "findShippingAddressButtonText": "Trouver l'adresse",
+      "selectShippingAddressLabelText": "Sélectionnez votre adresse.",
+      "shippingPostCodeNotFoundLabelText":
+        "Nous sommes désolés mais nous n'avons pas pu trouver d'adresse correspondant au code postal que vous avez saisi. Veuillez saisir un code postal différent ou bien saisir votre adresse complète ci-dessous.",
+      "shippingPostCodeLookUpFailLabelText":
+        "Nous sommes désolés mais la recherche du code postal a échoué. Veuillez saisir votre adresse ci-dessous.",
+      "shippingPostCodeLookUpOverflowLabelText":
+        "Nous sommes désolés mais le code postal que vous avez saisi correspond à un trop grand nombre d'adresses. Veuillez saisir le nom de votre rue pour affiner la recherche.",
+      "shippingState": "",
+      "shippingAddress1LabelText": "Adresse ligne 1",
+      "shippingAddress1": "",
+      "shippingAddress2LabelText": "Adresse ligne 2",
+      "shippingAddress2": "",
+      "shippingCity": "",
+      "shippingStateLabelText": "État",
+      "shippingStates": [
+        "Alberta",
+        "British Columbia",
+        "Manitoba",
+        "New Brunswick",
+        "Newfoundland",
+        "Nova Scotia",
+        "Northwest Territory",
+        "Nunavut",
+        "Ontario",
+        "Prince Edward Island",
+        "Quebec",
+        "Saskatchewan",
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "Californie",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "District de Columbia",
+        "Floride",
+        "Géorgie",
+        "Hawaï",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiane",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "Nouveau-Mexique",
+        "New York",
+        "Caroline du Nord",
+        "Dakota du Nord",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvanie",
+        "Rhode Island",
+        "Caroline du Sud",
+        "Dakota du Sud",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginie",
+        "Washington",
+        "Virginie-Occidentale",
+        "Wisconsin",
+        "Wyoming"
+      ],
+      "shippingZipCode": "",
+      "shippingAddressManualLabelText": "Saisissez votre adresse complète.",
+      "shippingChangeAddressLabelText": "Réinitialiser le formulaire"
+    },
+    "deliveryDetailText": "Informations sur la livraison",
+    "nominatedDateValue": "",
+    "orderId": 2074705,
+    "deliveryoptionsform": {
+      "pageAction": "ProcessDeliveryDetails",
+      "formMethod": "post",
+      "formName": "deliveryoptionsform",
+      "storeId": 13057,
+      "catalogId": 34056,
+      "langId": -2,
+      "orderId": 2074705,
+      "status": "P",
+      "errorViewName": "UserRegistrationForm",
+      "outOrderItemName": "",
+      "nominatedDate": "",
+      "actionType": "updateOrderItemsOnly",
+      "sourcePage": "DeliveryPage",
+      "deliveryOptionType": "H",
+      "deliveryMethods": [
+        {
+          "Country": "France",
+          "shipModeId": "33124",
+          "storeId": 13057,
+          "enabled": true,
+          "shipCode": "S",
+          "label": "Livraison standard",
+          "selected": true,
+          "price": 5.0,
+          "additionalDescription": "jusqu'à 5 jours ouvrés"
+        },
+        {
+          "Country": "France",
+          "shipModeId": "42042",
+          "storeId": 13057,
+          "enabled": true,
+          "shipCode": "E",
+          "label": "Livraison Express 3",
+          "selected": false,
+          "price": 10.0,
+          "additionalDescription": "3 Jours"
+        }
+      ],
+      "AllshipModeIdList": "33124,42042,",
+      "supportsSpecialDeliveryInstructions": "N",
+      "supportsSMSAlerts": "",
+      "smsAlerts": "",
+      "orderItemShipMode": "33124",
+      "orderItemShipCode": "S",
+      "trackingType": "Y-N-N"
+    },
+    "deliveryDetailsFooterContent": "",
+    "deliverySubmitContent": "",
+    "deliveryProceedText": "Procéder au paiement",
+    "myBagText": "Mon panier",
+    "MiniBagForm": {
+      "formMethod": "post",
+      "storeId": 13057,
+      "langId": -2,
+      "orderId": 2074705,
+      "catalogId": 34056,
+      "page": "",
+      "URL":
+        "OrderCalculate?updatePrices=1&amp;calculationUsageId=-1&amp;orderItemId*=&amp;quantity*=&amp;URL=BillingAddressView",
+      "returnPage": "LogonForm",
+      "outOrderItemName": "",
+      "Basket": {
+        "products": {
+          "Product": [
+            {
+              "partNumber": "602017001140885",
+              "hasExcludedProducts": false,
+              "lineNumber": "35B32MBLK",
+              "name": "Robe plongeante en velours à fleurs",
+              "productId": "29352874",
+              "catEntryId": "29352899",
+              "imageUrl":
+                "https%3A%2F%2Ffr.topshop.com.arcadiagroup.co.uk%2Fwcsstore%2FTopShopFR%2Fimages%2Fcatalog%2FTS35B32MBLK_Small_F_1.jpg",
+              "sourceUrl":
+                "http%3A%2F%2Ffr.topshop.com.arcadiagroup.co.uk%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductDisplay%3FlangId%3D-2%26storeId%3D13057%26catalogId%3D34056%26productId%3D29352874%26categoryId%3D345716%26parent_category_rn%3D345707",
+              "productName": "Robe plongeante en velours à fleurs",
+              "unitPrice": 68.0,
+              "outOfStock": false,
+              "size": "32",
+              "quantity": 1,
+              "shipModeId": "33124",
+              "orderItemId": "9060420",
+              "changeDetailLinkText": "Modifier",
+              "changeDetailURL":
+                "http://fr.topshop.com.arcadiagroup.co.uk/webapp/wcs/stores/servlet/ChangeDetailsDisplayAjaxView?orderItemId=9060420&orderId=2074705&langId=-2&storeId=13057&catalogId=34056&productId=29352874&catEntryId=29352899&offerPrice=68.00&size=32&quantity=1&sourcePage=DeliveryPage&pageName=miniBag",
+              "orderItemDeleteLinkText": "Supprimer",
+              "orderItemDeleteURL":
+                "http://fr.topshop.com.arcadiagroup.co.uk/webapp/wcs/stores/servlet/OrderItemDelete?orderItemId=9060420&orderId=2074705&updatePrices=1&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&langId=-2&storeId=13057&catalogId=34056&productId=29352874&statusv=1&sourcePage=DeliveryPage&URL=OrderCalculate%3fURL%3dRemoveMiniBagAjaxView",
+              "color": "NOIR",
+              "freeItem": false
+            }
+          ]
+        },
+        "productDataQuantity": {
+          "item_1": {
+            "partNumber": "602017001140885",
+            "catentryId": 29352899,
+            "inventorys": [
+              {
+                "cutofftime": "2100",
+                "quantity": 44.0,
+                "ffmcenterId": 13057,
+                "expressdates": ["2018-01-18", "2018-01-19"]
+              }
+            ],
+            "invavls": null
+          }
+        },
+        "orderId": 2074705,
+        "sourcePage": "DeliveryPage",
+        "addAddress": "",
+        "isBasketDisplay": true,
+        "isBasketResponse": true,
+        "showDeliveryAddress": "false",
+        "showDeliveryDate": "true",
+        "storeSelected": "N",
+        "estimatedDeliveryWhenText": "Quand:",
+        "estimatedDelivery": "Pas plus tard que&nbsp;mercredi 24 janvier 2018",
+        "nominatedDeliveryDate": "mercredi 24 janvier 2018",
+        "selectedCountry": "France",
+        "countrySetInAddress": true,
+        "productSubTotalTxt": "Sous-total avant livraison",
+        "totalBeforeDiscount": 68.0,
+        "deliverySectionLabel": "DeliveryCostSection",
+        "deliveryOptions": {
+          "BasketDeliveryOption": [
+            {
+              "selected": true,
+              "enabled": true,
+              "deliveryOptionId": 33124,
+              "deliveryOptionPrice": 5.0,
+              "deliveryShipCode": "S",
+              "label": " Livraison standard"
+            },
+            {
+              "selected": false,
+              "enabled": true,
+              "deliveryOptionId": 42042,
+              "deliveryOptionPrice": 10.0,
+              "deliveryShipCode": "E",
+              "label": " Livraison Express 3"
+            }
+          ]
+        },
+        "shoppingBagOrderSummary": {
+          "pageAction": "ProcessShoppingBagSummaryDeliverySelection",
+          "formMethod": "POST",
+          "storeId": 13057,
+          "catalogId": 34056,
+          "langId": -2,
+          "orderId": "2074705",
+          "sourcePage": "DeliveryPage",
+          "selectedNominatedDate": "",
+          "selectedDeliveryOption": 42042
+        },
+        "changeDeliveryCntryTxt":
+          "Vous pouvez modifier votre pays de livraison au moment du paiement",
+        "giftCardApplyStatus": "",
+        "productTotalTxt": "Total TTC",
+        "total": 73.0,
+        "qubitBasket": {
+          "window.universal_variable": {
+            "version": "1.2.0",
+            "page": { "type": "Checkout" },
+            "user": { "user_id": 2636069, "email": "gcgp882@gmail.com" },
+            "basket": {
+              "id": 2074705,
+              "currency": "EUR",
+              "subtotal": 68.0,
+              "total": 73.0,
+              "line_items": [
+                {
+                  "product": {
+                    "id": "35B32MBLK",
+                    "name": "Robe plongeante en velours à fleurs",
+                    "sku_code": "602017001140885",
+                    "image_url":
+                      "https%3A%2F%2Ffr.topshop.com.arcadiagroup.co.uk%2Fwcsstore%2FTopShopFR%2Fimages%2Fcatalog%2FTS35B32MBLK_Small_F_1.jpg",
+                    "category": "Vêtements",
+                    "currency": "EUR",
+                    "unit_sale_price": 68.0,
+                    "unit_price": 68.0
+                  },
+                  "quantity": 1,
+                  "subtotal": 68.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pageSubmissionForm": {
+      "pageAction": "UserRegistrationUpdate",
+      "formMethod": "post",
+      "URL": "ProcessDeliveryDetails?actionType=updateDeliveryDetails"
+    },
+    "omnitureEnabled": "Y",
+    "omnitureItems": {
+      "s.pageName": "TS:Your Details",
+      "s.channel": "TS:Checkout",
+      "s.prop3": "TS:Your Details",
+      "s.prop4": "logged-in",
+      "s.events": "event11",
+      "s.eVar6": "2636069",
+      "s.eVar7": "gcgp882@gmail.com"
+    }
+  }
+}

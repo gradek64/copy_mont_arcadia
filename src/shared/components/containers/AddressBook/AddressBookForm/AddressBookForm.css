@@ -1,0 +1,35 @@
+/** @define AddressBookForm */
+
+.AddressBookForm {
+  &-close {
+    float: right;
+     font-size: 12px;
+     letter-spacing: 1.5px;
+     border-bottom: 1px solid #363636;
+     padding-bottom: 4px;
+     height: 23px;
+     text-decoration: none;
+  }
+
+  &-primary {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+@media $min-tablet {
+  .AddressBookForm {
+    &-primary {
+      display: inline-block;
+      width:auto;
+      min-width:320px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .AddressBookForm {
+    width:60%;
+  }
+}
+

@@ -1,0 +1,72 @@
+/** @define ProductDescription; weak */
+
+.ProductDescription {
+  margin-top: 30px;
+  font-family: $pdp-product-detail-font-family;
+  line-height: $pdp-product-detail-line-height;
+
+  text-align: left;
+
+  &-title {
+    display: none;
+    font-weight: $pdp-product-detail-title-font-weight;
+    letter-spacing: $pdp-product-detail-title-letter-spacing;
+
+    &--seeMore {
+     display: block;
+    }
+  }
+
+  &-list {
+    margin: 0;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  &-content {
+    strong {
+      font-weight: $pdp-product-detail-sub-title;
+    }
+    p {
+      line-height: $pdp-product-detail-content-line-height;
+    }
+  }
+
+  & ul {
+    margin-left: 2px;
+    padding-left: 15px;
+  }
+
+  & li {
+    padding-left: 5px;
+  }
+}
+
+@media $min-tablet {
+  .ProductDescription {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    &--bundle {
+      margin-top: 10px;
+    }
+
+    &-productDetails {
+      width: 100%;
+    }
+
+    &-productDetailText {
+      max-width: $pdp-product-detail-max-width;
+    }
+
+    &-title {
+      display: block;
+    }
+
+    &-seeMore {
+      width: 40%;
+      margin-left: 20px;
+    }
+  }
+}

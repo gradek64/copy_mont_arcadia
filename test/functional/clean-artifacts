@@ -1,0 +1,13 @@
+#!/bin/bash
+
+rm -r ./cypress/screenshots/* 2> /dev/null
+rm -r ./cypress/screenshots/.* 2> /dev/null
+rm -r ./cypress/videos/* 2> /dev/null
+rm -r ./cypress/videos/.* 2> /dev/null
+rm -r ./cypress/output/*.xml 2> /dev/null
+rm -r ./cypress/output/*.json 2> /dev/null
+rm -r ./cypress/output/.* 2> /dev/null
+rm -r ./cypress/output/allure/* 2> /dev/null
+rm -r ./cypress/output/allure/.* 2> /dev/null
+
+exit 0

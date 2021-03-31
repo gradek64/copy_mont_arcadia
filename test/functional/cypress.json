@@ -1,0 +1,18 @@
+{
+  "ignoreTestFiles": [
+    "**/gtm_LEGACYPORT/helpers/*.js",
+    "**/gtm_LEGACYPORT/page-objects/*.js"
+  ],
+  "watchForFileChanges": false,
+  "reporter": "../../node_modules/mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/output",
+    "overwrite": false
+  },
+  "fileServerFolder": "cypress",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.js",
+  "videoUploadOnPasses": false
+}

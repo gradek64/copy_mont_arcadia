@@ -1,0 +1,62 @@
+{
+  "exists": true,
+  "email": "abc@123.com",
+  "title": "",
+  "firstName": "",
+  "lastName": "",
+  "userTrackingId": 4172832,
+  "subscriptionId": "",
+  "basketItemCount": 1,
+  "creditCard": {
+    "type": "",
+    "cardNumberHash": "",
+    "cardNumberStar": "",
+    "expiryMonth": "",
+    "expiryYear": ""
+  },
+  "deliveryDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "lastName": "",
+      "telephone": "",
+      "title": "",
+      "firstName": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "billingDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "lastName": "",
+      "telephone": "",
+      "title": "",
+      "firstName": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "version": "1.6",
+  "isDDPUser": false,
+  "isDDPRenewable": false,
+  "ddpStartDate": null,
+  "ddpEndDate": null,
+  "expId1": "554af54faaffcf49cff75934b00726ea8240f3557021080b2a897d17cae758bd",
+  "expId2": "19d052292e71cc23814a289fb1e9d6e90d63318e330632ac346c8bc45651a3c1",
+  "hasCardNumberHash": false,
+  "hasPayPal": false,
+  "hasDeliveryDetails": false,
+  "hasBillingDetails": false
+}

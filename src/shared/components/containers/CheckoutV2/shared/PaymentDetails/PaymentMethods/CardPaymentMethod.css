@@ -1,0 +1,76 @@
+/** @define CardPaymentMethod; weak */
+
+.CardPaymentMethod {
+  display: flex;
+    flex-wrap: wrap;
+
+  &-cardNumber {
+    width: 100%;
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  &-container {
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+  &-cvvFieldContainer {
+    width: 50%;
+    flex-basis: 50%;
+  }
+  
+  &-expiryDate {
+    display: block;
+    flex-basis: 100%;
+    padding-right: 10px;
+    margin:0; 
+  }
+
+  &-expiryMonth,
+  &-expiryYear {
+    flex: 1;
+    margin: 0;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+
+  &-link {
+    text-decoration: underline;
+  }
+
+  &-expiryValidationMessage {
+    flex-basis: 100%;
+  }
+
+  &-expiryValidationMessage.is-shown {
+    margin-top: calc($input-margin-vertical / 2);
+  }
+}
+
+@media $min-laptop {
+  .CardPaymentMethod {
+
+    &-cardNumber {
+      width: 50%;
+      flex-basis: 50%;
+      margin-right: 50%;
+      min-width: 390px;
+    }
+
+    &-container {
+      width: 25%;
+      flex-basis: 25%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      min-width: 194px;
+    }
+
+    &-cvvFieldContainer {
+      width: 25%;
+      flex-basis: 25%;
+      min-width: 194px;
+   }
+  }
+}

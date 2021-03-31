@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Bar Actions closeProductsSearchBar() should return the correct action 1`] = `
+Object {
+  "type": "CLOSE_PRODUCTS_SEARCH_BAR",
+}
+`;
+
+exports[`Search Bar Actions toggleSearchBar() should return the correct action 1`] = `
+Object {
+  "type": "TOGGLE_PRODUCTS_SEARCH_BAR",
+}
+`;
+
+exports[`Search Bar Actions trackSearchBarSelected() should return the correct action 1`] = `
+Object {
+  "payload": Object {
+    "action": "searchbar",
+    "category": "searchSelected",
+  },
+  "type": "MONTY/ANALYTICS.SEND_CLICK_EVENT",
+}
+`;

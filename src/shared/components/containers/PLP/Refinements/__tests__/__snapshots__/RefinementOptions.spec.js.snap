@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RefinementOptions/> @renders in default state 1`] = `""`;
+
+exports[`<RefinementOptions/> @renders with \`RANGE\` type 1`] = `
+<div
+  className="RefinementOptions"
+>
+  <Connect(RangeOption)
+    options={Array []}
+    refinement="price"
+  />
+</div>
+`;
+
+exports[`<RefinementOptions/> @renders with \`RATING\` type 1`] = `
+<div
+  className="RefinementOptions"
+>
+  <Connect(RatingOption)
+    options={Array []}
+    refinement="rating"
+  />
+</div>
+`;
+
+exports[`<RefinementOptions/> @renders with \`SIZE\` type 1`] = `
+<div
+  className="RefinementOptions"
+>
+  <Connect(ValueOption)
+    options={Array []}
+    refinement="size"
+    relNoFollow={null}
+    type="valueType"
+  />
+</div>
+`;
+
+exports[`<RefinementOptions/> @renders with className 1`] = `""`;
+
+exports[`<RefinementOptions/> @renders with onChange function 1`] = `""`;
+
+exports[`<RefinementOptions/> @renders with options 1`] = `
+<div
+  className="RefinementOptions"
+>
+  <Connect(ValueOption)
+    options={
+      Array [
+        Object {
+          "count": 1,
+          "label": "colour",
+          "value": "black",
+        },
+      ]
+    }
+    refinement="colour"
+    relNoFollow={null}
+    type="valueType"
+  />
+</div>
+`;
+
+exports[`<RefinementOptions/> @renders with type and label 1`] = `
+<div
+  className="RefinementOptions"
+>
+  <Connect(ValueOption)
+    options={Array []}
+    refinement="colour"
+    relNoFollow={null}
+    type="valueType"
+  />
+</div>
+`;

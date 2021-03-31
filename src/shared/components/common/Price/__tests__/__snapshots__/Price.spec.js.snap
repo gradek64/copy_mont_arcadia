@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Price /> @renders in default state 1`] = `
+<PrivacyGuard
+  noProtection={true}
+>
+  <span
+    className="Price  notranslate"
+  >
+    £5.40
+  </span>
+</PrivacyGuard>
+`;
+
+exports[`<Price /> @renders when no number is free 1`] = `
+<PrivacyGuard
+  noProtection={true}
+>
+  <span
+    className="Price  notranslate"
+  >
+    Free
+  </span>
+</PrivacyGuard>
+`;
+
+exports[`<Price /> @renders when price is 0 1`] = `
+<PrivacyGuard
+  noProtection={true}
+>
+  <span
+    className="Price  notranslate"
+  >
+    £0.00
+  </span>
+</PrivacyGuard>
+`;
+
+exports[`<Price /> @renders when price is a number 1`] = `
+<PrivacyGuard
+  noProtection={true}
+>
+  <span
+    className="Price  notranslate"
+  >
+    £8.30
+  </span>
+</PrivacyGuard>
+`;
+
+exports[`<Price /> @renders when price symbol is after the value 1`] = `
+<PrivacyGuard
+  noProtection={true}
+>
+  <span
+    className="Price  notranslate"
+  >
+    5.40 €
+  </span>
+</PrivacyGuard>
+`;
+
+exports[`<Price /> @renders when privacyProtected is true 1`] = `
+<PrivacyGuard
+  noProtection={false}
+>
+  <span
+    className="Price  notranslate"
+  >
+    £5.40
+  </span>
+</PrivacyGuard>
+`;
+
+exports[`<Price /> @renders with className 1`] = `
+<PrivacyGuard
+  noProtection={true}
+>
+  <span
+    className="Price Price--default notranslate"
+  >
+    £5.40
+  </span>
+</PrivacyGuard>
+`;

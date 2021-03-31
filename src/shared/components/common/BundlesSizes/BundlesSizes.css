@@ -1,0 +1,31 @@
+/** @define BundlesSizes */
+@lost flexbox flex;
+
+.BundlesSizes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 15px;
+
+  &-size {
+    margin: 0 0 20px;
+  }
+
+  &-error {
+    font-size: 0.85em;
+    color: $error-color;
+  }
+}
+
+@media $min-tablet {
+  .BundlesSizes {
+    margin-bottom: 0; 
+
+    &-size {
+      margin-bottom: 10px;
+    }
+    &-error {
+      margin-top: 0;
+    }
+  }
+}

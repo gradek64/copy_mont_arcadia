@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@Routing Selectors [getVisited selector] extract brandName from config 1`] = `
+Array [
+  "/login",
+  "/my-account",
+  "/my-account/details",
+]
+`;

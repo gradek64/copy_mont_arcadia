@@ -1,0 +1,251 @@
+/** @define Accordion */
+
+.Accordion {
+  text-align: left;
+  transition: height $accordion-anim-time ease-in-out;
+  border-width: $accordion-border-width;
+  border-style: solid;
+  border-color: $accordion-border-color;
+
+  &-withoutBorders {
+    border:none
+  }
+
+  &-header {
+    display: flex;
+    align-items: $accordion-header-align-items;
+    position: relative;
+    padding: $accordion-header-padding 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    color: $accordion-header-font-color;
+    background-color: $accordion-header-background-color;
+    transition: background-color $accordion-anim-time linear;
+
+    &.is-padded {
+      padding-left: $page-padding;
+      padding-right: $page-padding;
+    }
+  }
+
+  &-title {
+    flex: 1;
+    overflow: hidden;
+    user-select: none;
+    min-height: inherit;
+    text-transform: $accordion-title-text-transform;
+  }
+
+  &-icon {
+    position: relative;
+    align-self: center;
+    transition: transform $accordion-anim-time ease-in-out;
+    background: none no-repeat center/contain transparent;
+
+    &--hidden {
+      visibility: hidden;
+    }
+
+    &--left {
+      margin-right: 10px;
+    }
+
+    &--right {
+      order: 1;
+      margin-left: 10px;
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      display: none;
+      width: 100%;
+      top: 50%;
+      margin-top: calc(($accordion-icon-primary-plus-thickness / 2) * -1);
+      transition: transform $accordion-anim-time ease-in-out;
+    }
+
+    &::before {
+      transform: rotate(-180deg);
+    }
+
+    &::after {
+      transform: rotate(-90deg);
+    }
+
+    &--primary {
+      height: $accordion-icon-primary-size;
+      flex: 0 0 $accordion-icon-primary-size;
+
+      @if $accordion-icon-primary-is-plus {
+        background: $accordion-icon-primary-plus-background-color;
+        border-radius: 50%;
+
+        &::before,
+        &::after {
+          display: block;
+          height: $accordion-icon-primary-plus-thickness;
+          background: $accordion-icon-primary-plus-color;
+
+          @if $accordion-icon-primary-plus-background-color != null {
+            left: 25%;
+            width: 50%;
+            margin-top: calc(($accordion-icon-primary-plus-thickness / 2) * -1);
+          }
+        }
+      } @else {
+        background-image: url('public/$brand/images/accordion-icon-primary-down.svg');
+        transform: rotate($accordion-icon-primary-rotation-collapsed);
+      }
+    }
+
+    &--secondary {
+      height: $accordion-icon-secondary-size;
+      flex: 0 0 $accordion-icon-secondary-size;
+
+      @if $accordion-icon-secondary-is-plus {
+        background: $accordion-icon-secondary-plus-background-color;
+        border-radius: 50%;
+
+        &::before,
+        &::after {
+          display: block;
+          height: $accordion-icon-secondary-plus-thickness;
+          background: $accordion-icon-secondary-plus-color;
+
+          @if $accordion-icon-secondary-plus-background-color != null {
+            left: 25%;
+            width: 50%;
+            margin-top: calc(($accordion-icon-primary-plus-thickness / 2) * -1);
+          }
+        }
+      } @else {
+        background-image: url('public/$brand/images/accordion-icon-secondary-down.svg');
+        transform: rotate($accordion-icon-secondary-rotation-collapsed);
+      }
+    }
+  }
+
+  &-statusIndicatorText {
+    position: relative;
+    order: 1;
+    margin-left: 10px;
+
+    &--hidden {
+      visibility: hidden;
+    }
+  }
+
+  &-wrapper {
+    transition: max-height $accordion-anim-time;
+    overflow: hidden;
+  }
+
+  &.is-expanded .Accordion-header--noExpandedBackground {
+    background-color: $accordion-header-background-color;
+  }
+
+  &--noBorders {
+    border: none;
+  }
+
+  &--swatches {
+    margin: 0;
+    border: none;
+    &.is-expanded {
+      & .Accordion-header {
+        background-color: $accordion-header-background-color;
+      }
+    }
+    & > .Accordion-wrapper {
+      margin-top: -15px;
+      & > .Accordion-content {
+        border: none;
+        &.is-padded {
+          padding: 0 $accordion-header-padding;
+        }
+      }
+    }
+  }
+
+  /* Members of an accordion group do not get a bottom border to avoid double borders */
+  &-groupMember:not(:last-child) {
+    border-bottom-width: 0;
+  }
+
+  &--storeLocator {
+    background-color: $store-locator-accordion-background-color;
+    border-width: $store-locator-accordion-border-width;
+    &.is-expanded {
+      & > .Accordion-header {
+        background-color: $store-locator-accordion-background-color;
+      }
+      & > .Accordion-wrapper {
+        & > .Accordion-content {
+          border-top: $store-locator-accordion-wrapper-border-top;
+        }
+      }
+    }
+  }
+
+  &--checkoutDeliveryTypeAccordion {
+    background-color: $checkout-delivery-type-accordion-background;
+    &.is-expanded {
+      & > .Accordion-header {
+        background-color: unset;
+        & > .Accordion-icon {
+          display: none;
+        }
+      }
+    }
+    & > .Accordion-header {
+      display: block;
+      padding-top: 0;
+      & > .Accordion-statusIndicatorText {
+        position: absolute;
+        right: 0;
+        font-size: $delivery-type-statusIndicatorText-font-size;
+        letter-spacing: $delivery-type-statusIndicatorText-letter-spacing;
+        border-bottom: $delivery-type-statusIndicatorText-border-bottom;
+        padding-bottom: $delivery-type-statusIndicatorText-padding-bottom;
+        height: $delivery-type-statusIndicatorText-height;
+        /* postcss-bem-linter: ignore */
+        a {
+          text-decoration: none;
+        }
+      }
+      & > .Accordion-title {
+        /* postcss-bem-linter: ignore */
+        & div {
+          line-height: $checkout-delivery-type-title-line-height;
+          margin-bottom: $checkout-delivery-type-title-margin-bottom;
+        }
+      }
+
+      & > .Accordion-subTitle {
+        display: block;
+      }
+    }
+  }
+
+  &--deliveryInstructions {
+    border: 0;
+
+   & .Accordion-header {
+        padding-bottom: 3px;
+     }
+
+    & .Accordion-title {
+      font-size: 16px;
+      line-height: 20px;
+      flex: initial;
+    }
+
+    & .Accordion-content {
+      padding-top: 10px;
+      border: 0;
+    }
+  }
+}
+

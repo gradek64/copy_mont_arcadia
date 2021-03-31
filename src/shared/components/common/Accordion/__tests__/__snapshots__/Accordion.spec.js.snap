@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion/> @renders in children state 1`] = `
+<article
+  className="Accordion"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  >
+    <div
+      className="Accordion-content is-padded is-visible Accordion-content--borderTop"
+    >
+      <TestComponent
+        hidden={true}
+        key=".0"
+      />
+    </div>
+  </div>
+</article>
+`;
+
+exports[`<Accordion/> @renders in contracted state 1`] = `
+<article
+  className="Accordion"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders in default state 1`] = `
+<article
+  className="Accordion"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders in expanded state 1`] = `
+<article
+  className="Accordion is-expanded"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={true}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders in expanded state with expandedHeight updated 1`] = `
+<article
+  className="Accordion is-expanded"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={true}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 50,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders in noHeaderPadding state 1`] = `
+<article
+  className="Accordion"
+>
+  <div
+    className="Accordion-header"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders should render a subHeader if one is provided 1`] = `
+<article
+  className="Accordion"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+    <span
+      className="Accordion-subTitle"
+    >
+      This is a sub header
+    </span>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders with analytics action on toggle 1`] = `
+<article
+  className="Accordion"
+>
+  <div
+    className="Accordion-header is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;
+
+exports[`<Accordion/> @renders with className 1`] = `
+<article
+  className="Accordion myBeautifulAccordion"
+>
+  <div
+    className="Accordion-header myBeautifulAccordion-headerContainer is-padded"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    style={
+      Object {
+        "cursor": "auto",
+      }
+    }
+  >
+    <div
+      className="Accordion-icon Accordion-icon--primary Accordion-icon--left Accordion-icon--hidden"
+    />
+    <header
+      aria-pressed={false}
+      className="Accordion-title"
+      role="button"
+      tabIndex="0"
+    >
+      &lt;div&gt;Mock Header&lt;/div&gt;
+    </header>
+  </div>
+  <div
+    className="Accordion-wrapper"
+    onTransitionEnd={[Function]}
+    style={
+      Object {
+        "maxHeight": 0,
+      }
+    }
+  />
+</article>
+`;

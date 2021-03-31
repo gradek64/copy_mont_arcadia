@@ -1,0 +1,22 @@
+/** @define MyAccountSubcategory */
+
+.MyAccountSubcategory {
+  max-width: 1199px;
+  margin: 0 auto;
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  .MyAccountSubcategory {
+    .ReturnHistoryList,
+    .OrderHistoryList {
+      .AccountHeader {
+        &-action,
+        &-title {
+           border-bottom: none;
+        }
+
+      }
+    }
+  }
+}

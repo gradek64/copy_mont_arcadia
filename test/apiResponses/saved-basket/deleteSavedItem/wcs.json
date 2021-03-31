@@ -1,0 +1,12 @@
+{
+  "sourcePage": "OrderItemDisplay",
+  "bHasWishList": "false",
+  "savedProducts": {
+      "Product": []
+  },
+  "success": "true",
+  "action": "remove",
+  "message": "Your Save for Later bag has been updated",
+  "rows": "3",
+  "total": "102.00000"
+}

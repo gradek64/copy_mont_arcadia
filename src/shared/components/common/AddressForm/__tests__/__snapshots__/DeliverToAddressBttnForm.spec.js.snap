@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeliverToAddressBttnForm @render should render DeliverToAddressBttnForm 1`] = `
+<FormButton
+  className="Button Button--primary"
+  customClass="AddressBookForm-primary"
+  error="Please confirm this new address or cancel to continue"
+  isDisabled={false}
+  name="deliverToAddress"
+  onClick={[MockFunction]}
+  touched={false}
+  type="submit"
+>
+  Deliver to this address
+</FormButton>
+`;

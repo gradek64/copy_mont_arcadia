@@ -1,0 +1,40 @@
+{
+	"BreadCrumbHomeUrl": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TopCategoriesDisplay?catalogId=33057&storeId=12556&langId=-1",
+
+	"personalDetailsUpdateForm": {
+		"formName": "personal_details",
+		"pageAction": "UserRegistrationUpdate",
+		"formMethod": "post",
+		"storeId": "12556",
+		"catalogId": "33057",
+		"personalizedCatalog": true,
+		"URL": "UserRegistrationForm",
+		"page": "account",
+		"registerType": "R",
+		"editRegistration": "Y",
+		"editSection": "CP",
+		"returnPage": "",
+		"errorViewName": "UserRegistrationForm",
+		"ChangePasswordFlag": "Y",
+		"ChangeLogonIDFlag": "N",
+		"tmpLogonId": "12556monty@desktop.com",
+		"logonId": "12556monty@desktop.com",
+		"tempEmail1": "",
+		"billing_email1": "",
+		"shipping_email1": "",
+		"currentPasswordText": "Current password:",
+		"newPasswordText": "New password:",
+		"confirmPasswordText": "Confirm password:",
+		"preferredLanguage": "",
+		"preferredCurrency": "",
+		"myAccountSupplementalMessage": "Passwords should be at least 6 characters long and include 1 number.",
+		"myAccountUpdateSuccessMessage": "Your password has been successfully updated"
+	},
+
+	"omnitureItems": {
+		"s.pageName": "TS:Change A/C Details",
+		"s.channel": "TS:Account",
+		"s.prop3": "TS:Change A/C Details",
+		"s.prop4": "logged-in"
+	}
+}

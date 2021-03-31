@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryDetailsComponents DeliveryDetailsHeader match snapshot 1`] = `
+<section
+  className="HistoryDetailsContainer-header"
+>
+  <div
+    className="HistoryDetailsContainer-headerCol"
+  />
+  <div
+    className="HistoryDetailsContainer-headerCol"
+  >
+    <p
+      className="HistoryDetailsContainer-orderStatus"
+    />
+  </div>
+</section>
+`;
+
+exports[`HistoryDetailsComponents NotYetDispatchedButton match snapshot 1`] = `
+<Link
+  className="Button Button--linkButton Button--trackOrder Button--isDisabled"
+  isExternal={true}
+  rel="noopener noreferrer"
+/>
+`;
+
+exports[`HistoryDetailsComponents OrderItem match snapshot 1`] = `
+<OrderHistoryDetailsElement
+  colour="BLACK"
+  imageUrl="http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS02J50LBLK_Small_F_1.jpg"
+  key="1"
+  price="52.00"
+  productCode="02J50LBLK"
+  productName="MOTO Hook & Eye Joni Jeans"
+  quantity={1}
+  size="W2430"
+  total="52.00"
+/>
+`;
+
+exports[`HistoryDetailsComponents StartAReturnButton match snapshot 1`] = `
+<Link
+  className="Button Button--secondary Button--linkButton Button--startReturn"
+  isExternal={true}
+  rel="noopener noreferrer"
+  target="_blank"
+  to="http://www.startareturn.co.uk"
+>
+  Start a return
+</Link>
+`;
+
+exports[`HistoryDetailsComponents TrackMyOrderButton Render button disabled 1`] = `
+<Link
+  className="Button Button--linkButton Button--trackOrder Button--isDisabled"
+  isExternal={true}
+  rel="noopener noreferrer"
+  target="_blank"
+/>
+`;
+
+exports[`HistoryDetailsComponents TrackMyOrderButton Render button enabled 1`] = `
+<Link
+  className="Button Button--linkButton Button--trackOrder Button--isDisabled"
+  isExternal={true}
+  rel="noopener noreferrer"
+  target="_blank"
+/>
+`;

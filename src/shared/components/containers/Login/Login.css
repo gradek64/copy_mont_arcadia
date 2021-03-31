@@ -1,0 +1,32 @@
+/** @define Login */
+
+.Login {
+  box-sizing: border-box;
+  margin-top: 28px;
+  padding: 0 $page-padding;
+}
+
+@media $min-tablet {
+  .Login {
+    &--signin {
+      & .Login {
+        &-header {
+          border-bottom: 1px solid $signin-title-border-color;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media $min-laptop {
+  .Login {
+    &--signin {
+      & .Login {
+        &-form {
+          width: 60%;
+        }
+      }
+    }
+  }
+}

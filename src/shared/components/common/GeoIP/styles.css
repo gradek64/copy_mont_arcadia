@@ -1,0 +1,44 @@
+/** @define GeoIP */
+.GeoIP {
+  font-size: 16px;
+  color: #000000;
+
+  &-title {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 0;
+  }
+
+  &-info {
+    margin-bottom: 20px;
+  }
+  &-flag{
+    margin-right: 8px;
+  }
+  &-optionBtn {
+    padding: 13px 20px;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0 0 20px;
+    font-weight: lighter;
+  }
+  &-footnote {
+    color: #9b9b9b;
+  }
+}
+
+@media $min-tablet {
+  .GeoIP {
+    &-title {
+      text-align: left;
+    }
+
+    &-info {
+      text-align: left;
+    }
+
+    &-footnote {
+      text-align: left;
+    }
+  }
+}

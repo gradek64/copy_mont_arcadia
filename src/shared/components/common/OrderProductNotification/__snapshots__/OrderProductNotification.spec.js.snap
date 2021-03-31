@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderProductNotification/> @renders a bold message 1`] = `
+<div
+  className="OrderProductNotification"
+>
+  <div
+    className="OrderProductNotification-content"
+  >
+    <span
+      className="OrderProductNotification-icon"
+    />
+    <p
+      className="OrderProductNotification-message"
+    >
+      <span
+        className="OrderProductNotification-bold"
+      >
+        another bold messsage
+      </span>
+       
+      test error message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<OrderProductNotification/> @renders in default state 1`] = `
+<div
+  className="OrderProductNotification"
+>
+  <div
+    className="OrderProductNotification-content"
+  >
+    <span
+      className="OrderProductNotification-icon"
+    />
+    <p
+      className="OrderProductNotification-message"
+    >
+       
+      test message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<OrderProductNotification/> @renders in error state 1`] = `
+<div
+  className="OrderProductNotification"
+>
+  <div
+    className="OrderProductNotification-content"
+  >
+    <span
+      className="OrderProductNotification-icon OrderProductNotification-icon--hasError"
+    />
+    <p
+      className="OrderProductNotification-message OrderProductNotification-message--hasError"
+    >
+       
+      test error message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<OrderProductNotification/> @renders no message or icon 1`] = `""`;

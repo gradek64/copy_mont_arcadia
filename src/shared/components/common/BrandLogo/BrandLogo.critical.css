@@ -1,0 +1,33 @@
+/** @define BrandLogo */
+@lost flexbox flex;
+
+.BrandLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 20px;
+  &-img {
+    height: 100%;
+    width: $brand-logo-img-width;
+    max-width: $brand-logo-img-max-width;
+  }
+}
+
+@media $min-tablet {
+  .BrandLogo {
+    &-img {
+      min-height: 100%; /* fixes missing logo in IE */
+      width: $brand-logo-img-width-tablet;
+    }
+  }
+}
+
+@media $min-laptop {
+  .BrandLogo {
+    &-img {
+      min-height: 100%; /* fixes missing logo in IE */
+      width: $brand-logo-img-width-laptop;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+/** @define FooterNewsletter */
+
+.FooterNewsletter {
+  margin: $footer-newsletter-margin;
+  padding: $footer-newsletter-padding;
+  width: $footer-newsletter-width;
+  display: $footer-newsletter-display;
+  justify-content: center;
+
+  &-label {
+    color: $footer-newsletter-label-color;
+    display: $footer-newsletter-label-display;
+    font-size: $footer-newsletter-label-font-size;
+    font-weight: $footer-newsletter-label-font-weight;
+    margin: $footer-newsletter-label-margin;
+    padding: $footer-newsletter-label-padding;
+    text-align: $footer-newsletter-label-text-align;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: $footer-newsletter-label-line-height;
+  }
+
+  &-label::before {
+    background: $footer-newsletter-label-before-background;
+    background-size: $footer-newsletter-label-before-background-size;
+    content: $footer-newsletter-label-before-content;
+    display: $footer-newsletter-label-before-display;
+    height: $footer-newsletter-label-before-height;
+    margin: $footer-newsletter-label-before-margin;
+    width: $footer-newsletter-label-before-width;
+  }
+
+  &-inputWrapper {
+    display: flex;
+    flex-direction: row;
+    width: $footer-newsletter-input-wrapper-width;
+  }
+
+  &-input {
+    &:last-of-type {
+      margin: $footer-newsletter-input-last-of-type-margin;
+    }
+  }
+
+  &-button {
+    align-self: $footer-newsletter-button-align-self;
+    background: $footer-newsletter-button-background;
+    color: $footer-newsletter-button-color;
+    font-size: $footer-newsletter-button-font-size;
+    font-weight: $footer-newsletter-button-font-weight;
+    border: $footer-newsletter-button-border;
+    border-top: $footer-newsletter-button-border-top;
+    border-right: $footer-newsletter-button-border-right;
+    border-bottom: $footer-newsletter-button-border-bottom;
+    border-left: $footer-newsletter-button-border-left;
+    order: $footer-newsletter-button-order;
+    padding: $footer-newsletter-button-padding;
+    min-height: $footer-newsletter-button-min-height;
+    width: $footer-newsletter-button-width;
+    white-space: $footer-newsletter-button-white-space;
+    /* postcss-bem-linter: ignore */
+    &:hover {
+      background: $footer-newsletter-button-background;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-head {
+  height: $footer-newsletter-input-head-height;
+  order: $footer-newsletter-input-head-order;
+  display: $footer-newsletter-input-head-display;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-row {
+  order: $footer-newsletter-input-row-order;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-field {
+  background: $footer-newsletter-input-field-background;
+  border: $footer-newsletter-input-field-border;
+  color: $footer-newsletter-input-field-color;
+  font-size: $footer-newsletter-input-field-font-size;
+  font-weight: $footer-newsletter-input-field-font-weight;
+  height: $footer-newsletter-input-field-height;
+  padding: $footer-newsletter-input-field-padding;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-field::-webkit-input-placeholder {
+  font-size: $footer-newsletter-input-field-placeholder-font-size;
+  font-weight: $footer-newsletter-input-field-placeholder-font-weight;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-field::-moz-placeholder {
+  font-size: $footer-newsletter-input-field-placeholder-font-size;
+  font-weight: $footer-newsletter-input-field-placeholder-font-weight;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-field:-ms-input-placeholder {
+  font-size: $footer-newsletter-input-field-placeholder-font-size;
+  font-weight: $footer-newsletter-input-field-placeholder-font-weight;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-field:-moz-placeholder {
+  font-size: $footer-newsletter-input-field-placeholder-font-size;
+  font-weight: $footer-newsletter-input-field-placeholder-font-weight;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input.is-touched .Input-field {
+  border: $footer-newsletter-input-field-border-touched;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-field:focus {
+  border: $footer-newsletter-input-field-border-focus;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input.is-erroring .Input-field {
+  border: $footer-newsletter-input-field-border-error;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-validateIcon {
+  display: $footer-newsletter-input-validate-icon-display;
+  top: $footer-newsletter-input-validate-icon-top;
+  width: $footer-newsletter-input-validate-icon-width;
+}
+
+/* postcss-bem-linter: ignore */
+.FooterNewsletter .Input-validationMessage {
+  color: $footer-newsletter-input-validation-message-color;
+  font-size: $footer-newsletter-input-validation-message-font-size;
+  font-weight: $footer-newsletter-input-validation-message-font-weight;
+  margin: $footer-newsletter-input-validation-message-margin;
+  order: $footer-newsletter-input-validation-message-order;
+  padding: $footer-newsletter-input-validation-message-padding;
+  text-align: $footer-newsletter-input-validation-message-text-align;
+}

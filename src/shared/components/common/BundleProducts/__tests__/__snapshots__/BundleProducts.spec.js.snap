@@ -1,0 +1,942 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BundleProducts/> @renders should render default state 1`] = `
+<Component
+  id="qubit-pdp-BundleProducts"
+>
+  <div
+    className="BundleProducts"
+  >
+    <div
+      className="BundleProducts-dividingLineAboveHeading"
+    />
+    <div
+      className="BundleProducts-dividingLineUnderHeading"
+    />
+    <div
+      className="BundleProducts-item"
+      key="BI0"
+    >
+      <Connect(Carousel)
+        assets={
+          Array [
+            <Connect(MiniProduct)
+              ageVerificationRequired={false}
+              assets={
+                Array [
+                  Object {
+                    "assetType": "IMAGE_SMALL",
+                    "index": 1,
+                    "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Thumb_F_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_THUMB",
+                    "index": 1,
+                    "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Small_F_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_NORMAL",
+                    "index": 1,
+                    "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_2col_F_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_LARGE",
+                    "index": 1,
+                    "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Zoom_F_1.jpg",
+                  },
+                ]
+              }
+              attributes={
+                Object {
+                  "BundleType": "Flexible",
+                  "CE3BThumbnailSuffixes": "",
+                  "CEThumbnailSuffixes": "",
+                  "COLOUR_CODE": "",
+                  "Department": "",
+                  "ECMC_PROD_COLOUR_1": "",
+                  "ECMC_PROD_SIZE_GUIDE_1": "SuitsAndTailoring",
+                  "EmailBackInStock": "N",
+                  "IFSeason": "SS16",
+                  "NotifyMe": "N",
+                  "ProductDefaultCopy": "",
+                  "STORE_DELIVERY": "true",
+                  "STYLE_CODE": "",
+                  "SearchKeywords": "",
+                  "SizeFit": "",
+                  "StyleCode": "0",
+                  "ThresholdMessage": "",
+                  "b_has360": "N",
+                  "b_hasImage": "N",
+                  "b_hasVideo": "N",
+                  "countryExclusion": "",
+                  "has360": "N",
+                  "hasVideo": "N",
+                  "shopTheOutfitBundleCode": "",
+                  "thumbnailImageSuffixes": "_",
+                }
+              }
+              bundleProducts={Array []}
+              bundleSlots={Array []}
+              className=""
+              colourSwatches={Array []}
+              description=""
+              grouping="BR02T01GBLK"
+              isBundleOrOutfit={true}
+              items={
+                Array [
+                  Object {
+                    "quantity": 51,
+                    "selected": false,
+                    "size": "40S",
+                    "sku": "152015000263214",
+                  },
+                  Object {
+                    "quantity": 50,
+                    "selected": false,
+                    "size": "42S",
+                    "sku": "152015000263215",
+                  },
+                  Object {
+                    "quantity": 4,
+                    "selected": false,
+                    "size": "34S",
+                    "sku": "152015000263211",
+                  },
+                  Object {
+                    "quantity": 18,
+                    "selected": false,
+                    "size": "36S",
+                    "sku": "152015000263212",
+                  },
+                  Object {
+                    "quantity": 44,
+                    "selected": false,
+                    "size": "38S",
+                    "sku": "152015000263213",
+                  },
+                  Object {
+                    "quantity": 12,
+                    "selected": false,
+                    "size": "44S",
+                    "sku": "152015000263216",
+                  },
+                  Object {
+                    "quantity": 60,
+                    "selected": false,
+                    "size": "40R",
+                    "sku": "152015000263220",
+                  },
+                  Object {
+                    "quantity": 49,
+                    "selected": false,
+                    "size": "38R",
+                    "sku": "152015000263219",
+                  },
+                  Object {
+                    "quantity": 29,
+                    "selected": false,
+                    "size": "36R",
+                    "sku": "152015000263218",
+                  },
+                  Object {
+                    "quantity": 5,
+                    "selected": false,
+                    "size": "34R",
+                    "sku": "152015000263217",
+                  },
+                  Object {
+                    "quantity": 1,
+                    "selected": false,
+                    "size": "36L",
+                    "sku": "152015000263226",
+                  },
+                  Object {
+                    "quantity": 14,
+                    "selected": false,
+                    "size": "38L",
+                    "sku": "152015000263227",
+                  },
+                  Object {
+                    "quantity": 27,
+                    "selected": false,
+                    "size": "40L",
+                    "sku": "152015000263228",
+                  },
+                  Object {
+                    "quantity": 50,
+                    "selected": false,
+                    "size": "42L",
+                    "sku": "152015000263229",
+                  },
+                  Object {
+                    "quantity": 2,
+                    "selected": false,
+                    "size": "46L",
+                    "sku": "152015000263231",
+                  },
+                  Object {
+                    "quantity": 36,
+                    "selected": false,
+                    "size": "44L",
+                    "sku": "152015000263230",
+                  },
+                  Object {
+                    "quantity": 1,
+                    "selected": false,
+                    "size": "48L",
+                    "sku": "152015000263232",
+                  },
+                  Object {
+                    "quantity": 79,
+                    "selected": false,
+                    "size": "42R",
+                    "sku": "152015000263221",
+                  },
+                  Object {
+                    "quantity": 99,
+                    "selected": false,
+                    "size": "44R",
+                    "sku": "152015000263222",
+                  },
+                  Object {
+                    "quantity": 100,
+                    "selected": false,
+                    "size": "46R",
+                    "sku": "152015000263223",
+                  },
+                  Object {
+                    "quantity": 19,
+                    "selected": false,
+                    "size": "48R",
+                    "sku": "152015000263224",
+                  },
+                  Object {
+                    "quantity": 2,
+                    "selected": false,
+                    "size": "50R",
+                    "sku": "152015000263225",
+                  },
+                ]
+              }
+              lineNumber="02T01GBLK"
+              modalMode="plpQuickview"
+              name="Black Essential Tailored Fit Suit Jacket"
+              productId={19411969}
+              stockEmail={false}
+              stockThreshold={10}
+              storeDelivery={false}
+              tpmLinks={Array []}
+              unitPrice="49.00"
+              wcsColourKey="92524472"
+              wcsSizeKey="92524473"
+            />,
+            <Connect(MiniProduct)
+              ageVerificationRequired={false}
+              assets={
+                Array [
+                  Object {
+                    "assetType": "IMAGE_SMALL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871652022_Thumb_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_THUMB",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871652022_Small_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_NORMAL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871652022_2col_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_LARGE",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871652022_Zoom_P_1.jpg",
+                  },
+                ]
+              }
+              attributes={
+                Object {
+                  "BundleType": "Flexible",
+                  "CE3BThumbnailSuffixes": "",
+                  "CEThumbnailSuffixes": "",
+                  "COLOUR_CODE": "",
+                  "Department": "",
+                  "ECMC_PROD_COLOUR_1": "",
+                  "ECMC_PROD_SIZE_GUIDE_1": "Riviera",
+                  "EmailBackInStock": "N",
+                  "IFSeason": "SS16",
+                  "NotifyMe": "N",
+                  "ProductDefaultCopy": "",
+                  "STORE_DELIVERY": "true",
+                  "STYLE_CODE": "",
+                  "SearchKeywords": "",
+                  "SizeFit": "",
+                  "StyleCode": "0",
+                  "ThresholdMessage": "",
+                  "b_has360": "N",
+                  "b_hasImage": "N",
+                  "b_hasVideo": "N",
+                  "countryExclusion": "",
+                  "has360": "N",
+                  "hasVideo": "N",
+                  "shopTheOutfitBundleCode": "",
+                  "thumbnailImageSuffixes": "_",
+                }
+              }
+              bundleProducts={Array []}
+              bundleSlots={Array []}
+              className=""
+              colourSwatches={Array []}
+              description=""
+              grouping="WL871652022"
+              isBundleOrOutfit={true}
+              items={
+                Array [
+                  Object {
+                    "quantity": 8,
+                    "selected": false,
+                    "size": "20",
+                    "sku": "562015000168361",
+                  },
+                  Object {
+                    "quantity": 10,
+                    "selected": false,
+                    "size": "16",
+                    "sku": "562015000168359",
+                  },
+                  Object {
+                    "quantity": 7,
+                    "selected": false,
+                    "size": "08",
+                    "sku": "562015000168355",
+                  },
+                ]
+              }
+              lineNumber="871652022"
+              modalMode="plpQuickview"
+              name="Blue Paisley Bikini Top"
+              productId={19485483}
+              stockEmail={false}
+              stockThreshold={10}
+              storeDelivery={false}
+              tpmLinks={Array []}
+              unitPrice="4.50"
+              wasWasPrice="12.00"
+              wcsColourKey="92852449"
+              wcsSizeKey="92852450"
+            />,
+            <Connect(MiniProduct)
+              ageVerificationRequired={false}
+              assets={
+                Array [
+                  Object {
+                    "assetType": "IMAGE_SMALL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871732022_Thumb_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_THUMB",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871732022_Small_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_NORMAL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871732022_2col_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_LARGE",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871732022_Zoom_P_1.jpg",
+                  },
+                ]
+              }
+              attributes={
+                Object {
+                  "BundleType": "Flexible",
+                  "CE3BThumbnailSuffixes": "",
+                  "CEThumbnailSuffixes": "",
+                  "COLOUR_CODE": "",
+                  "Department": "",
+                  "ECMC_PROD_COLOUR_1": "",
+                  "ECMC_PROD_SIZE_GUIDE_1": "Riviera",
+                  "EmailBackInStock": "N",
+                  "IFSeason": "SS16",
+                  "NotifyMe": "N",
+                  "ProductDefaultCopy": "",
+                  "STORE_DELIVERY": "true",
+                  "STYLE_CODE": "",
+                  "SearchKeywords": "",
+                  "SizeFit": "",
+                  "StyleCode": "0",
+                  "ThresholdMessage": "",
+                  "b_has360": "N",
+                  "b_hasImage": "N",
+                  "b_hasVideo": "N",
+                  "countryExclusion": "",
+                  "has360": "N",
+                  "hasVideo": "N",
+                  "shopTheOutfitBundleCode": "",
+                  "thumbnailImageSuffixes": "_",
+                }
+              }
+              bundleProducts={Array []}
+              bundleSlots={Array []}
+              className=""
+              colourSwatches={Array []}
+              description=""
+              grouping="WL871732022"
+              isBundleOrOutfit={true}
+              items={
+                Array [
+                  Object {
+                    "quantity": 3,
+                    "selected": false,
+                    "size": "14",
+                    "sku": "562015000168407",
+                  },
+                  Object {
+                    "quantity": 1,
+                    "selected": false,
+                    "size": "16",
+                    "sku": "562015000168408",
+                  },
+                ]
+              }
+              lineNumber="871732022"
+              modalMode="plpQuickview"
+              name="Blue Spot Bikini Bottom"
+              productId={19485693}
+              stockEmail={false}
+              stockThreshold={10}
+              storeDelivery={false}
+              tpmLinks={Array []}
+              unitPrice="2.50"
+              wasWasPrice="7.00"
+              wcsColourKey="92853554"
+              wcsSizeKey="92853557"
+            />,
+            <Connect(MiniProduct)
+              ageVerificationRequired={false}
+              assets={
+                Array [
+                  Object {
+                    "assetType": "IMAGE_SMALL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871712022_Thumb_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_THUMB",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871712022_Small_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_NORMAL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871712022_2col_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_LARGE",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL871712022_Zoom_P_1.jpg",
+                  },
+                ]
+              }
+              attributes={
+                Object {
+                  "BundleType": "Flexible",
+                  "CE3BThumbnailSuffixes": "",
+                  "CEThumbnailSuffixes": "",
+                  "COLOUR_CODE": "",
+                  "Department": "",
+                  "ECMC_PROD_COLOUR_1": "",
+                  "ECMC_PROD_SIZE_GUIDE_1": "Riviera",
+                  "EmailBackInStock": "N",
+                  "IFSeason": "SS16",
+                  "NotifyMe": "N",
+                  "ProductDefaultCopy": "",
+                  "STORE_DELIVERY": "true",
+                  "STYLE_CODE": "",
+                  "SearchKeywords": "",
+                  "SizeFit": "",
+                  "StyleCode": "0",
+                  "ThresholdMessage": "",
+                  "b_has360": "N",
+                  "b_hasImage": "N",
+                  "b_hasVideo": "N",
+                  "countryExclusion": "",
+                  "has360": "N",
+                  "hasVideo": "N",
+                  "shopTheOutfitBundleCode": "",
+                  "thumbnailImageSuffixes": "_",
+                }
+              }
+              bundleProducts={Array []}
+              bundleSlots={Array []}
+              className=""
+              colourSwatches={Array []}
+              description=""
+              grouping="WL871712022"
+              isBundleOrOutfit={true}
+              items={
+                Array [
+                  Object {
+                    "quantity": 10,
+                    "selected": false,
+                    "size": "08",
+                    "sku": "562015000168397",
+                  },
+                ]
+              }
+              lineNumber="871712022"
+              modalMode="plpQuickview"
+              name="Blue Spot Bikini Top"
+              productId={19485661}
+              stockEmail={false}
+              stockThreshold={10}
+              storeDelivery={false}
+              tpmLinks={Array []}
+              unitPrice="4.50"
+              wasWasPrice="12.00"
+              wcsColourKey="92853388"
+              wcsSizeKey="92853389"
+            />,
+            <Connect(MiniProduct)
+              ageVerificationRequired={false}
+              assets={
+                Array [
+                  Object {
+                    "assetType": "IMAGE_SMALL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL877621001_Thumb_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_THUMB",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL877621001_Small_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_NORMAL",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL877621001_2col_P_1.jpg",
+                  },
+                  Object {
+                    "assetType": "IMAGE_LARGE",
+                    "index": 1,
+                    "url": "http://media.wallis.co.uk/wcsstore/Wallis/images/catalog/WL877621001_Zoom_P_1.jpg",
+                  },
+                ]
+              }
+              attributes={
+                Object {
+                  "BundleType": "Flexible",
+                  "CE3BThumbnailSuffixes": "",
+                  "CEThumbnailSuffixes": "",
+                  "COLOUR_CODE": "",
+                  "Department": "",
+                  "ECMC_PROD_COLOUR_1": "",
+                  "ECMC_PROD_SIZE_GUIDE_1": "Riviera",
+                  "EmailBackInStock": "N",
+                  "IFSeason": "SS16",
+                  "NotifyMe": "N",
+                  "ProductDefaultCopy": "",
+                  "STORE_DELIVERY": "true",
+                  "STYLE_CODE": "",
+                  "SearchKeywords": "",
+                  "SizeFit": "",
+                  "StyleCode": "0",
+                  "ThresholdMessage": "",
+                  "b_has360": "N",
+                  "b_hasImage": "N",
+                  "b_hasVideo": "N",
+                  "countryExclusion": "",
+                  "has360": "N",
+                  "hasVideo": "N",
+                  "shopTheOutfitBundleCode": "",
+                  "thumbnailImageSuffixes": "_",
+                }
+              }
+              bundleProducts={Array []}
+              bundleSlots={Array []}
+              className=""
+              colourSwatches={Array []}
+              description=""
+              grouping="WL877621001"
+              isBundleOrOutfit={true}
+              items={
+                Array [
+                  Object {
+                    "quantity": 24,
+                    "selected": false,
+                    "size": "10",
+                    "sku": "562014000156184",
+                  },
+                  Object {
+                    "quantity": 16,
+                    "selected": false,
+                    "size": "08",
+                    "sku": "562014000156183",
+                  },
+                ]
+              }
+              lineNumber="877621001"
+              modalMode="plpQuickview"
+              name="Black Plain Tankini"
+              productId={16499316}
+              stockEmail={false}
+              stockThreshold={10}
+              storeDelivery={false}
+              tpmLinks={Array []}
+              unitPrice="3.50"
+              wasWasPrice="10.00"
+              wcsColourKey="78894454"
+              wcsSizeKey="78894456"
+            />,
+          ]
+        }
+        currentItemReferencePath={[Function]}
+        mode="panel"
+        name="miniProductCarousel0"
+      />
+      <div
+        className="BundleProducts-dividingLineBetweenItems"
+      />
+    </div>
+    <div
+      className="BundleProducts-item"
+      key="BI1"
+    >
+      <Connect(MiniProduct)
+        ageVerificationRequired={false}
+        assets={
+          Array [
+            Object {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T02GBLK_Thumb_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T02GBLK_Small_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T02GBLK_2col_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T02GBLK_Zoom_F_1.jpg",
+            },
+          ]
+        }
+        attributes={
+          Object {
+            "BundleType": "Flexible",
+            "CE3BThumbnailSuffixes": "",
+            "CEThumbnailSuffixes": "",
+            "COLOUR_CODE": "",
+            "Department": "",
+            "ECMC_PROD_COLOUR_1": "",
+            "ECMC_PROD_SIZE_GUIDE_1": "SuitsAndTailoring",
+            "EmailBackInStock": "N",
+            "IFSeason": "SS16",
+            "NotifyMe": "N",
+            "ProductDefaultCopy": "",
+            "STORE_DELIVERY": "true",
+            "STYLE_CODE": "",
+            "SearchKeywords": "",
+            "SizeFit": "",
+            "StyleCode": "0",
+            "ThresholdMessage": "",
+            "b_has360": "N",
+            "b_hasImage": "N",
+            "b_hasVideo": "N",
+            "countryExclusion": "",
+            "has360": "N",
+            "hasVideo": "N",
+            "shopTheOutfitBundleCode": "",
+            "thumbnailImageSuffixes": "_",
+          }
+        }
+        bundleProducts={Array []}
+        bundleSlots={Array []}
+        className="BundleProducts-bundle"
+        colourSwatches={Array []}
+        description=""
+        grouping="BR02T02GBLK"
+        isBundleOrOutfit={true}
+        items={
+          Array [
+            Object {
+              "quantity": 79,
+              "selected": false,
+              "size": "38R",
+              "sku": "152015000263246",
+            },
+            Object {
+              "quantity": 40,
+              "selected": false,
+              "size": "40R",
+              "sku": "152015000263247",
+            },
+            Object {
+              "quantity": 20,
+              "selected": false,
+              "size": "42R",
+              "sku": "152015000263248",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "44R",
+              "sku": "152015000263249",
+            },
+            Object {
+              "quantity": 3,
+              "selected": false,
+              "size": "30L",
+              "sku": "152015000263250",
+            },
+            Object {
+              "quantity": 30,
+              "selected": false,
+              "size": "34L",
+              "sku": "152015000263252",
+            },
+            Object {
+              "quantity": 28,
+              "selected": false,
+              "size": "32L",
+              "sku": "152015000263251",
+            },
+            Object {
+              "quantity": 30,
+              "selected": false,
+              "size": "38L",
+              "sku": "152015000263254",
+            },
+            Object {
+              "quantity": 40,
+              "selected": false,
+              "size": "36L",
+              "sku": "152015000263253",
+            },
+            Object {
+              "quantity": 5,
+              "selected": false,
+              "size": "40L",
+              "sku": "152015000263255",
+            },
+            Object {
+              "quantity": 5,
+              "selected": false,
+              "size": "42L",
+              "sku": "152015000263256",
+            },
+            Object {
+              "quantity": 30,
+              "selected": false,
+              "size": "30S",
+              "sku": "152015000263234",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "28S",
+              "sku": "152015000263233",
+            },
+            Object {
+              "quantity": 20,
+              "selected": false,
+              "size": "32S",
+              "sku": "152015000263235",
+            },
+            Object {
+              "quantity": 30,
+              "selected": false,
+              "size": "36S",
+              "sku": "152015000263237",
+            },
+            Object {
+              "quantity": 21,
+              "selected": false,
+              "size": "38S",
+              "sku": "152015000263238",
+            },
+            Object {
+              "quantity": 44,
+              "selected": false,
+              "size": "34S",
+              "sku": "152015000263236",
+            },
+            Object {
+              "quantity": 70,
+              "selected": false,
+              "size": "34R",
+              "sku": "152015000263244",
+            },
+            Object {
+              "quantity": 60,
+              "selected": false,
+              "size": "32R",
+              "sku": "152015000263243",
+            },
+            Object {
+              "quantity": 40,
+              "selected": false,
+              "size": "30R",
+              "sku": "152015000263242",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "28R",
+              "sku": "152015000263241",
+            },
+            Object {
+              "quantity": 79,
+              "selected": false,
+              "size": "36R",
+              "sku": "152015000263245",
+            },
+          ]
+        }
+        key="19412014"
+        lineNumber="02T02GBLK"
+        modalMode="plpQuickview"
+        name="Black Essential Tailored Fit Suit Trousers"
+        productId={19412014}
+        stockEmail={false}
+        stockThreshold={10}
+        storeDelivery={false}
+        tpmLinks={Array []}
+        unitPrice="30.00"
+        wcsColourKey="92524599"
+        wcsSizeKey="92524600"
+      />
+      <div
+        className="BundleProducts-dividingLineBetweenItems"
+      />
+    </div>
+    <div
+      className="BundleProducts-item"
+      key="BI2"
+    >
+      <Connect(MiniProduct)
+        ageVerificationRequired={false}
+        assets={
+          Array [
+            Object {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02S03HBLK_Thumb_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02S03HBLK_Small_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02S03HBLK_2col_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02S03HBLK_Zoom_F_1.jpg",
+            },
+          ]
+        }
+        attributes={
+          Object {
+            "BundleType": "Flexible",
+            "CE3BThumbnailSuffixes": "",
+            "CEThumbnailSuffixes": "",
+            "COLOUR_CODE": "",
+            "Department": "",
+            "ECMC_PROD_COLOUR_1": "",
+            "ECMC_PROD_SIZE_GUIDE_1": "SuitsAndTailoring",
+            "EmailBackInStock": "N",
+            "IFSeason": "SS16",
+            "NotifyMe": "N",
+            "ProductDefaultCopy": "",
+            "STORE_DELIVERY": "true",
+            "STYLE_CODE": "",
+            "SearchKeywords": "",
+            "SizeFit": "",
+            "StyleCode": "0",
+            "ThresholdMessage": "",
+            "b_has360": "N",
+            "b_hasImage": "N",
+            "b_hasVideo": "N",
+            "countryExclusion": "",
+            "has360": "N",
+            "hasVideo": "N",
+            "shopTheOutfitBundleCode": "",
+            "thumbnailImageSuffixes": "_",
+          }
+        }
+        bundleProducts={Array []}
+        bundleSlots={Array []}
+        className="BundleProducts-bundle"
+        colourSwatches={Array []}
+        description=""
+        grouping="BR02S03HBLK"
+        isBundleOrOutfit={true}
+        items={
+          Array [
+            Object {
+              "quantity": 11,
+              "selected": false,
+              "size": "XS",
+              "sku": "152015000285153",
+            },
+            Object {
+              "quantity": 15,
+              "selected": false,
+              "size": "XL",
+              "sku": "152015000285157",
+            },
+            Object {
+              "quantity": 64,
+              "selected": false,
+              "size": "M",
+              "sku": "152015000285155",
+            },
+            Object {
+              "quantity": 52,
+              "selected": false,
+              "size": "S",
+              "sku": "152015000285154",
+            },
+            Object {
+              "quantity": 54,
+              "selected": false,
+              "size": "L",
+              "sku": "152015000285156",
+            },
+          ]
+        }
+        key="21603445"
+        lineNumber="02S03HBLK"
+        modalMode="plpQuickview"
+        name="Black Essential Waistcoat"
+        productId={21603445}
+        stockEmail={false}
+        stockThreshold={10}
+        storeDelivery={false}
+        tpmLinks={Array []}
+        unitPrice="28.00"
+        wcsColourKey="104519088"
+        wcsSizeKey="104519089"
+      />
+    </div>
+  </div>
+</Component>
+`;

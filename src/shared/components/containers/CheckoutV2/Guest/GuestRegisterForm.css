@@ -1,0 +1,37 @@
+/** @define GuestRegisterForm */
+
+.GuestRegisterForm {
+  display: $guest-register-form-display;
+  flex-direction: $guest-register-form-flex-direction;
+  flex: $guest-register-form-flex;
+  &-header {
+    display: $guest-register-form-header-display;
+    flex: $guest-register-form-header-flex;
+    margin-top: $guest-register-form-header-margin-top;
+    &--left {
+      flex: $guest-register-form-header-left-flex;
+      border-bottom: $guest-register-form-header-left-border-bottom;
+      padding-bottom: $guest-register-form-header-left-padding-bottom;
+    }
+  }
+  &-copy {
+    margin-top: $guest-register-form-copy-margin-top;
+    max-width: $guest-register-form-header-max-width;
+  }
+}
+
+@media $tablet {
+  .GuestRegisterForm {
+    &-header {
+      max-width: $guest-register-form-header-max-width;
+    }
+  }
+}
+
+@media $min-laptop {
+  .GuestRegisterForm {
+    &-header {
+      max-width: $guest-register-form-header-max-width;
+    }
+  }
+}

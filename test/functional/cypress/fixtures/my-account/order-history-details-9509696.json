@@ -1,0 +1,78 @@
+{
+  "orderId": 9509696,
+  "subTotal": "86.00",
+  "statusCode": "C",
+  "status": "Your order has been dispatched from our warehouse.",
+  "returnPossible": false,
+  "returnRequested": false,
+  "deliveryMethod": "UK Standard up to 5 days",
+  "deliveryType" : "H",
+  "deliveryDate": "Wednesday 3 July 2019",
+  "deliveryCost": "",
+  "deliveryCarrier": "Standard",
+  "deliveryPrice": "0.00",
+  "isDDPOrder": false,
+  "totalOrderPrice": "86.00",
+  "totalOrdersDiscount": "",
+  "totalOrdersDiscountLabel": "Discounts",
+  "billingAddress": {
+    "name": "Mr name1 name2",
+    "address1": "Flat 3, 24 Grove Crescent Road",
+    "address2": "",
+    "address3": "LONDON",
+    "address4": "E15 1AG",
+    "country": "United Kingdom"
+  },
+  "deliveryAddress": {
+    "name": "Mr name1 name2",
+    "address1": "Flat 3, 24 Grove Crescent Road",
+    "address2": "",
+    "address3": "LONDON",
+    "address4": "E15 1AG",
+    "country": "United Kingdom"
+  },
+  "orderLines": [
+    {
+      "lineNo": "30A40MBLK",
+      "name": "TALL Black Sidney Jeans",
+      "size": "W3236",
+      "isDDPProduct": false,
+      "colour": "BLACK",
+      "baseImageUrl": "https://images.topshop.com/i/TopShop/TS30A40MBLK_M_1",
+      "imageUrl": "https://images.topshop.com/i/TopShop/TS30A40MBLK_M_1.jpg?$Small$",
+      "quantity": 1,
+      "unitPrice": "40.00",
+      "total": "40.00",
+      "nonRefundable": false,
+      "discount": "",
+      "trackingNumber": "FLT095096961",
+      "retailStoreTrackingUrl": "https://topshop.narvar.com/tracking/topshop/narvar-speedee?tracking_numbers=1ZFLT095096961&order_number=-47-GSZ-43-Aay28cxaJd67xQ2XA-61--61-&locale=en_GB",
+      "trackingAvailable": true
+    },
+    {
+      "lineNo": "32N17NBLK",
+      "name": "Two Part Sandals",
+      "size": "37",
+      "isDDPProduct": false,
+      "colour": "BLACK",
+      "baseImageUrl": "https://images.topshop.com/i/TopShop/TS32N17NBLK_M_1",
+      "imageUrl": "https://images.topshop.com/i/TopShop/TS32N17NBLK_M_1.jpg?$Small$",
+      "quantity": 1,
+      "unitPrice": "46.00",
+      "total": "46.00",
+      "nonRefundable": false,
+      "discount": "",
+      "trackingNumber": "FLT095096961",
+      "retailStoreTrackingUrl": "https://topshop.narvar.com/tracking/topshop/narvar-speedee?tracking_numbers=1ZFLT095096961&order_number=-47-GSZ-43-Aay28cxaJd67xQ2XA-61--61-&locale=en_GB",
+      "trackingAvailable": true
+    }
+  ],
+  "paymentDetails": [
+    {
+      "paymentMethod": "Visa",
+      "cardNumberStar": "************1111",
+      "totalCost": "£86.00"
+    }
+  ],
+  "smsNumber": ""
+}

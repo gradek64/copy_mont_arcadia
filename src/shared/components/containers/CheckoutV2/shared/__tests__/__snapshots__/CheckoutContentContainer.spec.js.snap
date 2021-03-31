@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders the default rendering renders as expected 1`] = `
+<section
+  className="CheckoutContentContainer"
+>
+  <QuickViewOrderSummary
+    l={[MockFunction]}
+    totalCost="£NaN"
+  />
+  <div
+    className="CheckoutContentContainer-content"
+  />
+</section>
+`;

@@ -1,0 +1,25 @@
+/** @define NoSearchResults; weak */
+
+.NoSearchResults {
+  padding-top: 0;
+  &-title {
+    margin-top: 0;
+  }
+  &-subtitle {
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    @media $min-tablet {
+      margin-bottom: 20px;
+    }
+  }
+  & .Recommendations {
+    margin-top: 0;
+    @media $min-tablet {
+      margin-top: 60px;
+    }
+  }
+  & .SearchInput-form {
+    margin: 0 auto 20px;
+  }
+}

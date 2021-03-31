@@ -1,0 +1,11 @@
+.git/
+.gitignore/
+.github
+docs/
+infrastructure/
+!infrastructure/vp
+!infrastructure/5xx
+node_modules*
+.dockerignore
+.env
+.happypack

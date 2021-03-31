@@ -1,0 +1,2027 @@
+{
+  "breadcrumbs": [
+    { "label": "Home" },
+    { "label": "Shoes", "category": "1588568" },
+    { "label": "Mens Brogues", "category": "1588568,1589604" }
+  ],
+  "categoryRefinement": { "refinementOptions": [] },
+  "refinements": [
+    {
+      "label": "Price",
+      "refinementOptions": [{ "type": "RANGE", "minValue": "28", "maxValue": "85" }]
+    }
+  ],
+  "canonicalUrl": "http://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/category/shoes-6574209/mens-brogues-2675960",
+  "cmsPage": {
+    "pageId": 94859,
+    "pageName": "categoryheader-0000094859",
+    "baseline": "8",
+    "revision": "0",
+    "lastPublished": "2017-03-09 14:56:27.97968",
+    "contentPath": "cms/pages/categoryheader/categoryheader-0000094859/categoryheader-0000094859.html",
+    "seoUrl": "",
+    "mobileCMSUrl": ""
+  },
+  "version": "1.6",
+  "products": [
+    {
+      "productId": 30231365,
+      "lineNumber": "BR79B06JBRN",
+      "name": "Penguin Brown Suede Brogue Shoes*",
+      "unitPrice": "85.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/penguin-brown-suede-brogue-shoes-7169067",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B06JBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29936372,
+      "lineNumber": "BR79C13LBRN",
+      "name": "Tan Suede Look Brogue Shoes",
+      "unitPrice": "39.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/tan-suede-look-brogue-shoes-7076977",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29936279,
+      "lineNumber": "BR79C13LBLK",
+      "name": "Black Suede Look Brogue Shoes",
+      "unitPrice": "39.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/black-suede-look-brogue-shoes-7076619",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C13LBLK_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29772562,
+      "lineNumber": "BR79S76JBUR",
+      "name": "Burgundy Leather Look Shoes",
+      "unitPrice": "30.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/burgundy-leather-look-shoes-7049443",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79S76JBUR_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29772359,
+      "lineNumber": "BR79C88JBUR",
+      "name": "Burgundy Leather Hi Shine Brogues",
+      "unitPrice": "45.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/burgundy-leather-hi-shine-brogues-7061798",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C88JBUR_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29893593,
+      "lineNumber": "BR79C16LBLK",
+      "name": "Black Leather Look Brogue Shoes",
+      "unitPrice": "35.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/black-leather-look-brogue-shoes-7057758",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBLK_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "wasPrice": "39.00",
+      "productId": 29893231,
+      "lineNumber": "BR79C10LBLK",
+      "name": "Black Leather Look Brogue Shoes",
+      "unitPrice": "29.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/black-leather-look-brogue-shoes-7058297",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBLK_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29893629,
+      "lineNumber": "BR79C16LGRY",
+      "name": "Grey Suede Shoes",
+      "unitPrice": "35.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/grey-suede-shoes-7055733",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LGRY_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "wasPrice": "39.00",
+      "productId": 29893326,
+      "lineNumber": "BR79C10LBRN",
+      "name": "Brown Leather Look Brogue Shoes",
+      "unitPrice": "29.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/brown-leather-look-brogue-shoes-7058311",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C10LBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29893610,
+      "lineNumber": "BR79C16LBRN",
+      "name": "Brown Leather Look Brogue Shoes",
+      "unitPrice": "35.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/brown-leather-look-brogue-shoes-7057560",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C16LBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29650254,
+      "lineNumber": "BR79C79JBRN",
+      "name": "Tan Leather Brogue Shoes",
+      "unitPrice": "45.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/tan-leather-brogue-shoes-6985524",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29650271,
+      "lineNumber": "BR79C84JBLK",
+      "name": "Black Leather Brogue Monk Shoes",
+      "unitPrice": "45.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/black-leather-brogue-monk-shoes-6984998",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C84JBLK_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29346438,
+      "lineNumber": "BR79B01JBUR",
+      "name": "London Brogue Burgundy Leather Brogues*",
+      "unitPrice": "75.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/london-brogue-burgundy-leather-brogues-7019130",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JBUR_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29650239,
+      "lineNumber": "BR79C79JBLK",
+      "name": "Black Leather Brogues",
+      "unitPrice": "45.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/black-leather-brogues-6970485",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C79JBLK_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29410928,
+      "lineNumber": "BR79B01JNVY",
+      "name": "London Brogue Navy Leather Brogues*",
+      "unitPrice": "75.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/london-brogue-navy-leather-brogues-6923858",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B01JNVY_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29412906,
+      "lineNumber": "BR79B02JNVY",
+      "name": "London Brogue Navy Leather Oxford Shoes*",
+      "unitPrice": "75.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/london-brogue-navy-leather-oxford-shoes-6921822",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JNVY_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 29412806,
+      "lineNumber": "BR79B02JBRN",
+      "name": "London Brogue Tan Leather Shoes*",
+      "unitPrice": "75.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/london-brogue-tan-leather-shoes-6923588",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B02JBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "wasPrice": "65.00",
+      "productId": 29317365,
+      "lineNumber": "BR79C02KNAT",
+      "name": "Montague Burton Beige Suede Brogue Shoes",
+      "unitPrice": "48.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/montague-burton-beige-suede-brogue-shoes-6877908",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C02KNAT_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "wasPrice": "65.00",
+      "productId": 29317435,
+      "lineNumber": "BR79C70JBRN",
+      "name": "Montague Burton Tan Leather Brogue Shoes",
+      "unitPrice": "48.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/montague-burton-tan-leather-brogue-shoes-6877596",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79C70JBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    },
+    {
+      "productId": 28023741,
+      "lineNumber": "BR79B20KBRN",
+      "name": "London Brogues Tan Leather Monk Shoes*",
+      "unitPrice": "75.00",
+      "seoUrl": "https://www.burton.co.uk.arcadiagroup.co.uk/en/bruk/product/london-brogues-tan-leather-monk-shoes-6482703",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Zoom_F_1.jpg"
+        }
+      ],
+      "additionalAssets": [
+        {
+          "assetType": "IMAGE_ZOOM",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_2COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_3COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_4COL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_4col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Large_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_ZOOM",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_2COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_3COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_3col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_4COL",
+          "index": 2,
+          "url": "http://media.topshop.com/wcsstore/Burton/images/catalog/BR79B20KBRN_4col_F_1.jpg"
+        }
+      ],
+      "items": [],
+      "bundleProducts": [],
+      "attributes": {},
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": false
+    }
+  ],
+  "categoryTitle": "Mens Brogues",
+  "categoryDescription": "Browse all the men's brogues available to buy online at Burton. There are a range of styles available today with free returns.",
+  "totalProducts": 26,
+  "sortOptions": [
+    { "label": "Best Match", "value": "Relevance" },
+    { "label": "Newest", "value": "Newness" },
+    { "label": "Price - Low To High", "value": "Price Ascending" },
+    { "label": "Price - High To Low", "value": "Price Descending" },
+    { "label": "Rating - Descending", "value": "Rating Descending" }
+  ],
+  "plpContentSlot": { "records": [] },
+  "recordSpotlight": {},
+  "globalEspot": {},
+  "defaultImgType": "Product",
+  "jsessionid": "0000RBtK4XZXs9tvQp_IgNrJq1e"
+}

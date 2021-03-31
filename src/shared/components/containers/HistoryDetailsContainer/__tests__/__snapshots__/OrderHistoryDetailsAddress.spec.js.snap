@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryDetailsAddress /> @renders in default state 1`] = `
+<section
+  className="OrderHistoryDetailsAddress "
+>
+  <h3
+    className="OrderHistoryDetailsAddress-title"
+  >
+    Delivery Details
+  </h3>
+  <div
+    className="OrderHistoryDetailsAddress-body"
+  >
+    <Connect(Image)
+      className="OrderHistoryDetailsAddress-icon"
+      src="/assets/{brandName}/images/checkout-home.svg"
+    />
+    <p
+      className="OrderHistoryDetailsAddress-details"
+    >
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          Miss Kate
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address1
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address2
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address3
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address4
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          UK
+        </span>
+      </PrivacyGuard>
+    </p>
+  </div>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsAddress /> @renders with address and type billing 1`] = `
+<section
+  className="OrderHistoryDetailsAddress "
+>
+  <h3
+    className="OrderHistoryDetailsAddress-title"
+  >
+    Payment details
+  </h3>
+  <div
+    className="OrderHistoryDetailsAddress-body"
+  >
+    <Connect(Image)
+      className="OrderHistoryDetailsAddress-icon"
+      src="/assets/{brandName}/images/checkout-home.svg"
+    />
+    <p
+      className="OrderHistoryDetailsAddress-details"
+    >
+      <span
+        className="OrderHistoryDetailsAddress-line OrderHistoryDetailsAddress-label"
+      >
+        Billing address
+        :
+      </span>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          Miss Kate
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address1
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address2
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address3
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address4
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          UK
+        </span>
+      </PrivacyGuard>
+    </p>
+  </div>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsAddress /> @renders with address and type shipping and deliveryMethod is "Collect from store"  1`] = `
+<section
+  className="OrderHistoryDetailsAddress "
+>
+  <h3
+    className="OrderHistoryDetailsAddress-title"
+  >
+    Delivery Details
+  </h3>
+  <div
+    className="OrderHistoryDetailsAddress-body"
+  >
+    <Connect(Image)
+      className="OrderHistoryDetailsAddress-icon"
+      src="/assets/{brandName}/images/arcadia-store-icon.svg"
+    />
+    <p
+      className="OrderHistoryDetailsAddress-details"
+    >
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          Miss Kate
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address1
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address2
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address3
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address4
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          UK
+        </span>
+      </PrivacyGuard>
+    </p>
+  </div>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsAddress /> @renders with className 1`] = `
+<section
+  className="OrderHistoryDetailsAddress OrderHistoryDetailsAddress--delivery"
+>
+  <h3
+    className="OrderHistoryDetailsAddress-title"
+  >
+    Delivery Details
+  </h3>
+  <div
+    className="OrderHistoryDetailsAddress-body"
+  >
+    <Connect(Image)
+      className="OrderHistoryDetailsAddress-icon"
+      src="/assets/{brandName}/images/checkout-home.svg"
+    />
+    <p
+      className="OrderHistoryDetailsAddress-details"
+    >
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          Miss Kate
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address1
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address2
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address3
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          address4
+        </span>
+      </PrivacyGuard>
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsAddress-line"
+        >
+          UK
+        </span>
+      </PrivacyGuard>
+    </p>
+  </div>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsAddress /> @renders with no address 1`] = `""`;

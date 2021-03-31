@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@<CarouselPanel /> @renders in default state 1`] = `
+<div
+  className="Carousel Carousel--panel"
+>
+  <Hammer
+    direction="DIRECTION_HORIZONTAL"
+  >
+    <div
+      aria-hidden="true"
+      className="Carousel-items"
+    >
+      <ul
+        className="Carousel-list"
+        tabIndex="-1"
+      >
+        <li
+          className="Carousel-item foo-0 is-selected Carousel-initialItem"
+          key="iminiProductCarousel00"
+        >
+          <div>
+            <div />
+          </div>
+        </li>
+        <li
+          className="Carousel-item foo-1 is-inactive Carousel-rightItem"
+          key="iminiProductCarousel01"
+        >
+          <div>
+            <div />
+          </div>
+        </li>
+        <li
+          className="Carousel-item foo-2 is-inactive Carousel-rightItem"
+          key="iminiProductCarousel02"
+        >
+          <div>
+            <div />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </Hammer>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  />
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  />
+</div>
+`;
+
+exports[`@<CarouselPanel /> @renders should adjust the initial carousel image according to the initial index 1`] = `
+<div
+  className="Carousel Carousel--panel"
+>
+  <Hammer
+    direction="DIRECTION_HORIZONTAL"
+  >
+    <div
+      aria-hidden="true"
+      className="Carousel-items"
+    >
+      <ul
+        className="Carousel-list"
+        tabIndex="-1"
+      >
+        <li
+          className="Carousel-item foo-0 is-selected Carousel-rightItem"
+          key="iminiProductCarousel00"
+        >
+          <div>
+            <div />
+          </div>
+        </li>
+        <li
+          className="Carousel-item foo-1 is-inactive Carousel-rightItem"
+          key="iminiProductCarousel01"
+        >
+          <div>
+            <div />
+          </div>
+        </li>
+        <li
+          className="Carousel-item foo-2 is-inactive Carousel-initialItem"
+          key="iminiProductCarousel02"
+        >
+          <div>
+            <div />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </Hammer>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  />
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  />
+</div>
+`;

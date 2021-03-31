@@ -1,0 +1,92 @@
+/** @define HeaderBurton; weak */
+
+.HeaderBurton {
+  align-items: stretch;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  font-size: $font-size-p;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $laptop-end-width;
+  position: relative;
+
+  & .ShippingDestination {
+    height: 25px;
+  }
+
+  &-brand {
+    margin: 0;
+    position: relative;
+  }
+
+  &-brandLink {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    width: 141px;
+    z-index: 2;
+  }
+
+  & .BrandLogo-img {
+    display: block;
+    width: 100%;
+  }
+
+  &-content {
+    opacity: 0;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 22px;
+    left: 0;
+    margin: 11px auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &-shipping {
+    flex: 1;
+  }
+
+  &-navigation {
+    align-items: center;
+    display: flex;
+    height: 33px;
+    margin: 20px auto 0;
+    max-width: 991px;
+    position: relative;
+    width: 100%;
+  }
+
+  &-search {
+    width: 230px;
+
+    & .SearchBar--big {
+      width: auto;
+    }
+
+    & .SearchBar-queryInput {
+      color: #747474;
+      width: 150px;
+    }
+  }
+
+  &-searchBar {
+    margin: 0 0 0 15px;
+  }
+}
+
+@media $min-laptop {
+  .HeaderBurton {
+    &-brandLink {
+      width: 177px;
+    }
+
+    &-searchBar {
+      margin: 0 0 0 20px;
+    }
+  }
+}

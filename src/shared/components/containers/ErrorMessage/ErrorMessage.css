@@ -1,0 +1,13 @@
+/** @define ErrorMessage */
+
+.ErrorMessage {
+  padding: $page-padding;
+
+  &-stackTrace {
+    margin-top: 10px;
+    padding: 5px;
+    white-space: pre;
+    overflow: scroll;
+    background: $stack-error;
+  }
+}

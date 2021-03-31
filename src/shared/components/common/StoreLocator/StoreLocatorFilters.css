@@ -1,0 +1,66 @@
+/** @define StoreLocatorFilters */
+
+.StoreLocatorFilters {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &-list {
+    margin: 0 -$page-padding;
+    list-style: none;
+    padding: 0;
+  }
+
+  &-listItem {
+    border-width: $accordion-border-width;
+    border-style: solid;
+    border-color: $accordion-border-color;
+  }
+
+  &-listItem:first-child {
+    padding-left: 20px;
+  }
+
+  &-listItem:not(:last-child) {
+    border-bottom-width: 0;
+  }
+
+  &-header {
+    text-align: center;
+    margin: $refinements-title-margin-top 0;
+    font-size: $refinements-title-font-size;
+    font-weight: $refinements-title-font-weight;
+    color: $refinements-title-color;
+  }
+
+  &-applyButton {
+    margin-top: auto;
+  }
+
+  &-checkbox {
+    margin: 0;
+    padding: $input-margin-vertical 15px;
+  }
+  &-error {
+    color: $error-color;
+  }
+}
+
+@media $min-tablet {
+  .StoreLocatorFilters {
+    &-applyButton {
+      display: none;
+    }
+    &-header {
+      display: none;
+    }
+    &-list {
+      display: flex;
+      justify-content: space-around;
+    }
+    &-listItem {
+      border: none;
+      flex: 1;
+    }
+  }
+}

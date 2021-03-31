@@ -1,0 +1,10 @@
+/** @define DeliveryDetailsForm */
+
+.DeliveryDetailsForm {
+  &-link {
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 14px;
+    align-self: flex-start;
+  }
+}

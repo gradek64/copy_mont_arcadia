@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`forceTimeout returns feedback to acknowledge successful request 1`] = `
+Object {
+  "message": "Timeout is armed for abc123",
+  "success": true,
+}
+`;
+
+exports[`forceTimeout returns feedback to notify of a bad request 1`] = `
+Object {
+  "error": "Bad Request",
+  "message": "You must provide the jsessionid of the session in which you wish to run this simulation.",
+  "statusCode": 400,
+}
+`;

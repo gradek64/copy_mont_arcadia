@@ -1,0 +1,15 @@
+/** @define FixedHeightPage */
+.FixedHeightPage {
+  position: absolute;
+  height: calc(100% - $header-height);
+  width: 100%;
+}
+
+@media $min-tablet {
+  .FixedHeightPage {
+    position: static;
+    height: calc(100% - $header-height-tablet);
+    max-width: $laptop-end-width;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,61 @@
+/** @define BundleProducts */
+@lost flexbox flex;
+
+.BundleProducts {
+  &-dividingLineAboveHeading {
+    display: $bundles-products-dividing-line-above-heading-display;
+    border-top: $bundles-products-dividing-line-border-top-width solid $bundles-products-dividing-line-border-color;
+    border-bottom: $bundles-products-dividing-line-border-bottom-width solid $bundles-products-dividing-line-border-color;
+    color: $bundles-miniproduct-heading-font-color;
+    margin-bottom: $bundles-products-dividing-line-margin-bottom;
+  }
+
+  &-dividingLineBetweenItems {
+    display: $bundles-products-dividing-line-between-items-display;
+  }
+
+  &-dividingLineUnderHeading {
+    display: $bundles-products-dividing-line-under-heading-display;
+    border-top: $bundles-products-dividing-line-border-top-width solid $bundles-products-dividing-line-border-color;
+    border-bottom: $bundles-products-dividing-line-border-bottom-width solid $bundles-products-dividing-line-border-color;
+    color: $bundles-miniproduct-heading-font-color;
+    margin-top: $bundles-products-dividing-line-margin-bottom;
+  }
+
+  &-outfitHeading {
+    display: $bundles-products-outfit-heading-display;
+    padding: $bundles-products-outfit-heading-padding;
+    text-align: 'center';
+    color: $bundles-miniproduct-heading-font-color;
+    font-size: $font-size-h4;
+    text-transform: 'none';
+    font-weight: $bundles-miniproduct-heading-font-weight;
+    margin-bottom: $bundles-products-dividing-line-margin-bottom;
+  }
+
+  &-heading {
+    border-top: $bundles-miniproduct-heading-border-top-width solid $bundles-miniproduct-border-color;
+    border-bottom: $bundles-miniproduct-heading-border-bottom-width solid $bundles-miniproduct-border-color;
+    padding: $bundles-miniproduct-heading-padding;
+    text-align: $bundles-miniproduct-heading-text-align;
+    color: $bundles-miniproduct-heading-font-color;
+    font-weight: $bundles-miniproduct-heading-font-weight;
+    text-transform: $bundles-miniproduct-heading-text-transform;
+  }
+
+  &-bundle {
+    border-bottom: $bundles-miniproduct-border-width solid $bundles-miniproduct-border-color;
+  }
+
+  &-item:last-of-type {
+    & .BundleProducts-bundle {
+      border-bottom: none;
+    }
+  }
+
+  &-carousel {
+    font-size: $bundles-carousel-font-size;
+    font-family: $bundles-carousel-font-family;
+    font-weight: $bundles-carousel-font-weight;
+  }
+}

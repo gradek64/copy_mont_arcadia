@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeviceDataCollectionIFrame /> @buildForm should fill in the template form with the supplied parameters 1`] = `"<form id='test-form-id' method='post' action='test-url'><input type='hidden' name='Bin' value='test-bin'/><input type='hidden' name='JWT' value='test-jwt'/></form>"`;
+
+exports[`<DeviceDataCollectionIFrame /> @render should produce an invisible iframe 1`] = `
+<iframe
+  name="ddc-iframe"
+  sandbox="allow-forms allow-same-origin allow-scripts"
+  src="about:blank"
+  style={
+    Object {
+      "display": "none",
+      "height": 0,
+      "position": "absolute",
+      "width": 0,
+    }
+  }
+  tabIndex="-1"
+>
+  Iframes are not supported by this browser.
+</iframe>
+`;

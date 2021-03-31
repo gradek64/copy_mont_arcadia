@@ -1,0 +1,1082 @@
+[
+    {
+        "storeId": "TM8137",
+        "brandPrimaryEStoreId": 12555,
+        "brandName": "Topman",
+        "name": "Strand",
+        "distance": 0.25,
+        "latitude": 51.509599,
+        "longitude": -0.123095,
+        "address": {
+            "line1": "c/o Top Shop, 60/64 The Strand",
+            "line2": "",
+            "city": "Strand",
+            "postcode": "WC2N 5LR"
+        },
+        "openingHours": {
+            "monday": "09:00-20:00",
+            "tuesday": "09:00-20:00",
+            "wednesday": "09:00-20:00",
+            "thursday": "09:00-21:00",
+            "friday": "09:00-21:00",
+            "saturday": "09:00-21:00",
+            "sunday": "11:30-18:00"
+        },
+        "telephoneNumber": "020 7839 4144",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-16 11:30:00",
+                        "collectFrom": "2018-10-19"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS0032",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Strand",
+        "distance": 0.25,
+        "latitude": 51.509599,
+        "longitude": -0.123069,
+        "address": {
+            "line1": "60/64 The Strand",
+            "line2": "",
+            "city": "Strand",
+            "postcode": "WC2N 5LR"
+        },
+        "openingHours": {
+            "monday": "09:00-20:00",
+            "tuesday": "09:00-20:00",
+            "wednesday": "09:00-20:00",
+            "thursday": "09:00-21:00",
+            "friday": "09:00-21:00",
+            "saturday": "09:00-21:00",
+            "sunday": "11:30-18:00"
+        },
+        "telephoneNumber": "020 7839 4144",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-16 11:30:00",
+                        "collectFrom": "2018-10-19"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 4,
+                "stockSymbol": "I"
+            }
+        ],
+        "basketInStock": true
+    },
+    {
+        "storeId": "TS0001",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Oxford Circus",
+        "distance": 0.82,
+        "latitude": 51.5157,
+        "longitude": -0.141396,
+        "address": {
+            "line1": "214 Oxford Street",
+            "line2": "Oxford Circus",
+            "city": "West End",
+            "postcode": "W1W 8LG"
+        },
+        "openingHours": {
+            "monday": "09:30-21:00",
+            "tuesday": "09:30-21:00",
+            "wednesday": "09:30-22:00",
+            "thursday": "09:30-22:00",
+            "friday": "09:30-22:00",
+            "saturday": "09:00-22:00",
+            "sunday": "11:30-18:00"
+        },
+        "telephoneNumber": "03448 487487",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-15"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-16"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "00:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 7,
+                "stockSymbol": "I"
+            }
+        ],
+        "basketInStock": true
+    },
+    {
+        "storeId": "TS1319",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Marble Arch",
+        "distance": 1.35,
+        "latitude": 51.514043,
+        "longitude": -0.157231,
+        "address": {
+            "line1": "536-540 Oxford Street",
+            "line2": "",
+            "city": "West End",
+            "postcode": "W1C 1LS"
+        },
+        "openingHours": {
+            "monday": "09:30-21:00",
+            "tuesday": "09:30-21:00",
+            "wednesday": "09:30-21:00",
+            "thursday": "09:30-21:00",
+            "friday": "09:30-21:00",
+            "saturday": "09:30-21:00",
+            "sunday": "12:00-18:00"
+        },
+        "telephoneNumber": "020 7499 3193",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-17"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS0873",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Cheapside",
+        "distance": 1.41,
+        "latitude": 51.515085,
+        "longitude": -0.097355,
+        "address": {
+            "line1": "Unit Msu1",
+            "line2": "1 New Change",
+            "city": "City Of London",
+            "postcode": "EC2V 6AH"
+        },
+        "openingHours": {
+            "monday": "09:00-20:00",
+            "tuesday": "09:00-20:00",
+            "wednesday": "09:00-20:00",
+            "thursday": "09:00-20:00",
+            "friday": "09:00-20:00",
+            "saturday": "10:00-19:00",
+            "sunday": "12:00-18:00"
+        },
+        "telephoneNumber": "020 7248 0180",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-17"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS1054",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Knightsbridge",
+        "distance": 1.63,
+        "latitude": 51.499783,
+        "longitude": -0.163677,
+        "address": {
+            "line1": "70 Brompton Road",
+            "line2": "",
+            "city": "Knightsbridge",
+            "postcode": "SW3 1ER"
+        },
+        "openingHours": {
+            "monday": "10:00-21:00",
+            "tuesday": "10:00-21:00",
+            "wednesday": "10:00-21:00",
+            "thursday": "10:00-21:00",
+            "friday": "10:00-21:00",
+            "saturday": "09:00-20:00",
+            "sunday": "13:00-19:00"
+        },
+        "telephoneNumber": "020 7581 6467",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-15"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-17"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 2,
+                "stockSymbol": "I"
+            }
+        ],
+        "basketInStock": true
+    },
+    {
+        "storeId": "TM7782",
+        "brandPrimaryEStoreId": 12555,
+        "brandName": "Topman",
+        "name": "Shoreditch",
+        "distance": 2.46,
+        "latitude": 51.519912,
+        "longitude": -0.07421,
+        "address": {
+            "line1": "98 Commercial Street",
+            "line2": "",
+            "city": "Shoreditch",
+            "postcode": "E1 6LZ"
+        },
+        "openingHours": {
+            "monday": "10:30-19:00",
+            "tuesday": "10:30-19:00",
+            "wednesday": "10:30-19:00",
+            "thursday": "10:30-19:00",
+            "friday": "10:30-19:00",
+            "saturday": "10:30-19:00",
+            "sunday": "10:30-18:00"
+        },
+        "telephoneNumber": "020 7377 2671",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-17"
+                    },
+                    {
+                        "availableUntil": "2018-10-16 11:30:00",
+                        "collectFrom": "2018-10-19"
+                    },
+                    {
+                        "availableUntil": "2018-10-21 05:30:00",
+                        "collectFrom": "2018-10-24"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS0377",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Brixton Morleys",
+        "distance": 3.15,
+        "latitude": 51.462357,
+        "longitude": -0.115579,
+        "address": {
+            "line1": "c/o Morley's Stores Ltd, 472/488 Brixton Road",
+            "line2": "",
+            "city": "Brixton",
+            "postcode": "SW9 8EH"
+        },
+        "openingHours": {
+            "monday": "09:00-17:30",
+            "tuesday": "09:00-17:30",
+            "wednesday": "09:00-17:30",
+            "thursday": "09:00-17:30",
+            "friday": "09:00-17:30",
+            "saturday": "09:00-17:30",
+            "sunday": "10:00-16:00"
+        },
+        "telephoneNumber": "020 7095 8392",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-18 11:30:00",
+                        "collectFrom": "2018-10-23"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "00:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS0874",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "White City",
+        "distance": 4.11,
+        "latitude": 51.507202,
+        "longitude": -0.223218,
+        "address": {
+            "line1": "2039-2041",
+            "line2": "Westfield",
+            "city": "White City",
+            "postcode": "W12 7GE"
+        },
+        "openingHours": {
+            "monday": "10:00-22:00",
+            "tuesday": "10:00-22:00",
+            "wednesday": "10:00-22:00",
+            "thursday": "10:00-22:00",
+            "friday": "10:00-22:00",
+            "saturday": "10:00-22:00",
+            "sunday": "12:00-18:00"
+        },
+        "telephoneNumber": "020 8834 4688",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-14"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-17"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 5,
+                "stockSymbol": "I"
+            }
+        ],
+        "basketInStock": true
+    },
+    {
+        "storeId": "TS1081",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Wandsworth",
+        "distance": 4.59,
+        "latitude": 51.455401,
+        "longitude": -0.194168,
+        "address": {
+            "line1": "Unit 42/44, High Street",
+            "line2": "Southside Shopping Centre",
+            "city": "Wandsworth",
+            "postcode": "SW18 4TF"
+        },
+        "openingHours": {
+            "monday": "09:30-18:00",
+            "tuesday": "09:30-17:30",
+            "wednesday": "09:30-17:30",
+            "thursday": "09:30-17:30",
+            "friday": "09:30-17:30",
+            "saturday": "09:30-17:30",
+            "sunday": "11:00-16:00"
+        },
+        "telephoneNumber": "020 8870 5814",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-18 11:30:00",
+                        "collectFrom": "2018-10-23"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS0309",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Canary Wharf",
+        "distance": 4.66,
+        "latitude": 51.504959,
+        "longitude": -0.019449,
+        "address": {
+            "line1": "Topshop Unit 3 Canada Square",
+            "line2": "",
+            "city": "Canary Wharf",
+            "postcode": "E14 5AB"
+        },
+        "openingHours": {
+            "monday": "09:00-20:00",
+            "tuesday": "09:00-20:00",
+            "wednesday": "09:00-20:00",
+            "thursday": "09:00-20:00",
+            "friday": "09:00-20:00",
+            "saturday": "10:00-19:00",
+            "sunday": "12:00-18:00"
+        },
+        "telephoneNumber": "020 7512 1996",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-16 11:30:00",
+                        "collectFrom": "2018-10-19"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS1090",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Stratford Westfield",
+        "distance": 5.81,
+        "latitude": 51.54434602,
+        "longitude": -0.0063594533,
+        "address": {
+            "line1": "Su 2016, 223-224 The Arcade",
+            "line2": "Westfield Stratford City",
+            "city": "Stratford",
+            "postcode": "E20 1EQ"
+        },
+        "openingHours": {
+            "monday": "10:00-21:00",
+            "tuesday": "10:00-21:00",
+            "wednesday": "10:00-21:00",
+            "thursday": "10:00-21:00",
+            "friday": "10:00-21:00",
+            "saturday": "09:00-21:00",
+            "sunday": "12:00-18:00"
+        },
+        "telephoneNumber": "020 8519 4845",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-14"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 05:30:00",
+                        "collectFrom": "2018-10-17"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "00:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 5,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": true
+    },
+    {
+        "storeId": "TS0003",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Brent Cross",
+        "distance": 6.32,
+        "latitude": 51.576176,
+        "longitude": -0.224498,
+        "address": {
+            "line1": "Unit 72, Brent Cross Shopping Centre",
+            "line2": "Hendon Way",
+            "city": "Brent Cross",
+            "postcode": "NW4 3FP"
+        },
+        "openingHours": {
+            "monday": "10:00-20:00",
+            "tuesday": "10:00-20:00",
+            "wednesday": "10:00-20:00",
+            "thursday": "10:00-20:00",
+            "friday": "10:00-20:00",
+            "saturday": "09:00-20:00",
+            "sunday": "11:30-18:00"
+        },
+        "telephoneNumber": "020 8202 2131",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-16 11:30:00",
+                        "collectFrom": "2018-10-19"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 3,
+                "stockSymbol": "I"
+            }
+        ],
+        "basketInStock": true
+    },
+    {
+        "storeId": "OU0119",
+        "brandPrimaryEStoreId": 13053,
+        "brandName": "Outfit",
+        "name": "Greenwich Outfit",
+        "distance": 6.67,
+        "latitude": 51.489014,
+        "longitude": 0.024569,
+        "address": {
+            "line1": "c/o Outfit, Unit 9-10, Greenwich Shopping Park",
+            "line2": "Bugsby Way",
+            "city": "Greenwich",
+            "postcode": "SE7 7SR"
+        },
+        "openingHours": {
+            "monday": "10:00-19:00",
+            "tuesday": "10:00-19:00",
+            "wednesday": "10:00-19:00",
+            "thursday": "10:00-19:30",
+            "friday": "10:00-19:30",
+            "saturday": "09:00-19:00",
+            "sunday": "11:00-17:00"
+        },
+        "telephoneNumber": "020 8293 9562",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-16 11:30:00",
+                        "collectFrom": "2018-10-19"
+                    },
+                    {
+                        "availableUntil": "2018-10-18 11:30:00",
+                        "collectFrom": "2018-10-23"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    },
+    {
+        "storeId": "TS0014",
+        "brandPrimaryEStoreId": 12556,
+        "brandName": "Topshop",
+        "name": "Richmond",
+        "distance": 8.25,
+        "latitude": 51.461076,
+        "longitude": -0.304416,
+        "address": {
+            "line1": "53/54 George Street",
+            "line2": "",
+            "city": "Richmond Upon Thames",
+            "postcode": "TW9 1HJ"
+        },
+        "openingHours": {
+            "monday": "09:30-18:00",
+            "tuesday": "09:00-17:30",
+            "wednesday": "09:00-17:30",
+            "thursday": "09:00-17:30",
+            "friday": "09:00-17:30",
+            "saturday": "09:00-17:30",
+            "sunday": "10:30-16:30"
+        },
+        "telephoneNumber": "020 8940 8841",
+        "collectFromStore": {
+            "standard": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-12 11:30:00",
+                        "collectFrom": "2018-10-16"
+                    },
+                    {
+                        "availableUntil": "2018-10-15 11:30:00",
+                        "collectFrom": "2018-10-18"
+                    },
+                    {
+                        "availableUntil": "2018-10-19 11:30:00",
+                        "collectFrom": "2018-10-23"
+                    }
+                ],
+                "price": 0
+            },
+            "express": {
+                "dates": [
+                    {
+                        "availableUntil": "2018-10-11 20:30:00",
+                        "collectFrom": "2018-10-12"
+                    },
+                    {
+                        "availableUntil": "2018-10-12 20:30:00",
+                        "collectFrom": "2018-10-13"
+                    },
+                    {
+                        "availableUntil": "2018-10-14 16:30:00",
+                        "collectFrom": "2018-10-15"
+                    }
+                ],
+                "price": 3
+            }
+        },
+        "cfsiAvailableOn": "",
+        "ffsAvailableOn": "",
+        "cfsiPickCutOffTime": "15:00:00",
+        "stockList": [
+            {
+                "sku": "602018001268037",
+                "stock": 0,
+                "stockSymbol": "O"
+            }
+        ],
+        "basketInStock": false
+    }
+]

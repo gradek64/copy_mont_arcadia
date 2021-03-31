@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopSection /> @renders should render the <TopSection /> component 1`] = `
+<div>
+  <Connect(StoreFinder)
+    locator="TopNavMenu"
+  />
+  <Connect(ShippingDestinationMobile) />
+</div>
+`;

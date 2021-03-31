@@ -1,0 +1,189 @@
+/** @define WishlistButton; weak */
+
+@define-mixin hoverAnimation $name: 'none', $duration: '0s', $count: '1', $timing: 'linear', $fill: 'none' {
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: $count;
+  animation-timing-function: $timing;
+  animation-fill-mode: $fill;
+}
+
+@keyframes enlargeIn {
+  /* postcss-bem-linter: ignore */
+  from {
+    transform: scale(1);
+  }
+  /* postcss-bem-linter: ignore */
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes enlargeOut {
+  /* postcss-bem-linter: ignore */
+  from {
+    transform: scale(1.1);
+  }
+  /* postcss-bem-linter: ignore */
+  to {
+    transform: scale(1);
+  }
+}
+
+@define-mixin pulseAnimation $speed: null, $duration: null {
+  animation-name: $speed;
+  animation-duration: $duration;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  /* postcss-bem-linter: ignore */
+  0% {
+    transform: scale(1.1);
+  }
+  /* postcss-bem-linter: ignore */
+  20% {
+    transform: scale(1);
+  }
+  /* postcss-bem-linter: ignore */
+  40% {
+    transform: scale(0.8);
+  }
+  /* postcss-bem-linter: ignore */
+  60% {
+    transform: scale(1);
+  }
+  /* postcss-bem-linter: ignore */
+  70% {
+    transform: scale(1.08);
+  }
+  /* postcss-bem-linter: ignore */
+  80% {
+    transform: scale(1);
+  }
+  /* postcss-bem-linter: ignore */
+  100% {
+    transform: scale(1);
+  }
+}
+
+.WishlistButton {
+  display: block;
+  flex-shrink: 0;
+  align-self: flex-start;
+  &>div {
+    display: flex;
+    align-items: center;
+  }
+  &-icon {
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &--minibag &-icon {
+    border: $wishlist-minibag-button-border;
+    background-color: $wishlist-minibag-button-background-color;
+    height: $wishlist-minibag-button-height;
+    width: $wishlist-minibag-button-width;
+    margin: $wishlist-minibag-button-icon-margin;
+    padding: $wishlist-minibag-button-icon-padding;
+  }
+  &--quickview {
+    margin: 0;
+  }
+  &--pdp &-icon,
+  &--quickview &-icon,
+  &--bundle &-icon {
+    border: $wishlist-pdp-button-border;
+    margin-left: 10px;
+    height: $wishlist-pdp-button-height;
+    width: $wishlist-pdp-button-width;
+  }
+  &--plp {
+    position: absolute;
+    top: $plp-product-link-padding-top;
+    right: 0;
+    padding: $wishlist-plp-touch-area-padding-large;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .WishlistButton--plp .WishListIcon {
+  background-image: $wishlist-plp-icon;
+  @mixin hoverAnimation $wishlist-icon-animation-hover-out-name, $wishlist-icon-animation-hover-duration, $wishlist-icon-animation-hover-iteration-count, $wishlist-icon-animation-hover-timing-function, $wishlist-icon-animation-hover-fill-mode;
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .WishlistButton--plp .WishListIcon.is-selected {
+  background-image: $wishlist-plp-icon-selected;
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .WishlistButton--pdp .WishListIcon,
+.no-touch .WishlistButton--bundle .WishListIcon,
+.no-touch .WishlistButton--quickview .WishListIcon,
+.no-touch .WishlistButton--minibag .WishlistButton-icon .WishListIcon {
+  @mixin hoverAnimation $wishlist-icon-animation-hover-out-name, $wishlist-icon-animation-hover-duration, $wishlist-icon-animation-hover-iteration-count, $wishlist-icon-animation-hover-timing-function, $wishlist-icon-animation-hover-fill-mode;
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .WishlistButton--plp:hover .WishListIcon,
+.no-touch .WishlistButton--pdp:hover .WishListIcon,
+.no-touch .WishlistButton--bundle:hover .WishListIcon,
+.no-touch .WishlistButton--quickview:hover .WishListIcon,
+.no-touch .WishlistButton--minibag:hover .WishlistButton-icon .WishListIcon {
+  @mixin hoverAnimation $wishlist-icon-animation-hover-in-name, $wishlist-icon-animation-hover-duration, $wishlist-icon-animation-hover-iteration-count, $wishlist-icon-animation-hover-timing-function, $wishlist-icon-animation-hover-fill-mode;
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .WishlistButton--plp .WishListIcon.is-adding,
+.no-touch .WishlistButton--pdp .WishListIcon.is-adding,
+.no-touch .WishlistButton--bundle .WishListIcon.is-adding,
+.no-touch .WishlistButton--quickview .WishListIcon.is-adding,
+.no-touch .WishlistButton--minibag .WishlistButton-icon .WishListIcon.is-adding {
+  @mixin pulseAnimation $wishlist-icon-animation-name, $wishlist-icon-animation-duration;
+}
+
+/* postcss-bem-linter: ignore */
+.Product--col1 .WishlistButton {
+  padding: $wishlist-plp-touch-area-padding-large;
+}
+
+/* postcss-bem-linter: ignore */
+.Product--col2 .WishlistButton {
+  padding: $wishlist-plp-touch-area-padding-medium;
+}
+
+/* postcss-bem-linter: ignore */
+.Product--col3 .WishlistButton {
+  padding: $wishlist-plp-touch-area-padding-medium;
+}
+
+@media $tablet {
+
+  /* postcss-bem-linter: ignore */
+  .Product--col2 .WishlistButton {
+    padding: $wishlist-plp-touch-area-padding-large;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .Product--col3 .WishlistButton,
+  .Product--col4 .WishlistButton {
+    padding: $wishlist-plp-touch-area-padding-medium;
+  }
+}
+
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */ 
+  .Product--col2 .WishlistButton {
+    padding: $wishlist-plp-touch-area-padding-mega;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .Product--col3 .WishlistButton,
+  .Product--col4 .WishlistButton {
+    padding: $wishlist-plp-touch-area-padding-large;
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "deliveryLocationType": {
+        "type": "string",
+        "description": "String representing the location of the delivery",
+        "example": "STORE"
+      },
+      "deliveryMethods": {
+        "type": "array",
+        "description": "Array of methods available for that delivery location (express, standard, etc.)",
+        "items": {
+          "type": "object",
+          "properties": {
+            "additionalDescription": {
+              "type": "string",
+              "description": "Extra information shown in the UI about the delivery",
+              "example": "2-4 business days"
+            },
+            "deliveryOptions": {
+              "type": "array",
+              "description": "Array of available options for that delivery method (e.g. different possible days for express delivery)",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "dateText": {
+                    "type": "string",
+                    "example": "26 Oct"
+                  },
+                  "dayText": {
+                    "type": "string",
+                    "example": "Thu"
+                  },
+                  "nominatedDate": {
+                    "type": "string",
+                    "example": "2017-10-26"
+                  },
+                  "price": {
+                    "type": "string",
+                    "example": "6.00"
+                  },
+                  "selected": {
+                    "type": "boolean",
+                    "example": false
+                  },
+                  "shipModeId": {
+                    "type": "number",
+                    "example": 28005
+                  }
+                }
+              }
+            },
+            "deliveryType": {
+              "type": "string",
+              "description": "String summarizing the type of delivery",
+              "example": "HOME_EXPRESS"
+            },
+            "label": {
+              "type": "string",
+              "description": "UI label for that delivery type",
+              "example": "Express / Nominated day delivery"
+            },
+            "selected": {
+              "type": "boolean",
+              "description": "Flag showing if the delivery method is currently selected"
+            },
+            "shipCode": {
+              "type": "string",
+              "description": "Internal code specific to that delivery method",
+              "example": "S"
+            },
+            "shipModeId": {
+              "type": "number",
+              "description": "Internal code specific to that delivery method, delivery type, and delivery location",
+              "example": 26504
+            }
+          }
+        }
+      },
+      "label": {
+        "type": "string",
+        "description": "UI label for the delivery location",
+        "example": "Home Delivery Standard (UK up to 4 days; worldwide varies)  Express (UK next or nominated day; worldwide varies)"
+      },
+      "selected": {
+        "type": "boolean",
+        "description": "Flag representing if that delivery location is selected",
+        "example": true
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RefinementContainer/> @renders in default state 1`] = `
+<div
+  className="RefinementContainer "
+>
+  <div
+    className="RefinementContainer-refinementListContainer"
+  >
+    <Connect(RefinementSummary) />
+    <Connect(RefinementList)
+      onAccordionToggle={[Function]}
+    />
+  </div>
+</div>
+`;

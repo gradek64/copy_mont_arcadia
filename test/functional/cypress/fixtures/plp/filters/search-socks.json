@@ -1,0 +1,3713 @@
+{
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "url": "/"
+      }
+    ],
+    "categoryRefinement": {
+      "refinementOptions": []
+    },
+    "refinements": [
+      {
+        "label": "Shoe Size",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "35",
+            "value": "35",
+            "count": 2,
+            "seoUrl": "/N-dx1Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "36",
+            "value": "36",
+            "count": 2,
+            "seoUrl": "/N-dx2Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "37",
+            "value": "37",
+            "count": 2,
+            "seoUrl": "/N-dx3Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "38",
+            "value": "38",
+            "count": 2,
+            "seoUrl": "/N-dx4Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "39",
+            "value": "39",
+            "count": 2,
+            "seoUrl": "/N-dx5Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "40",
+            "value": "40",
+            "count": 2,
+            "seoUrl": "/N-dx6Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "41",
+            "value": "41",
+            "count": 2,
+            "seoUrl": "/N-dx7Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "42",
+            "value": "42",
+            "count": 2,
+            "seoUrl": "/N-dx8Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Brands",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "adidas",
+            "value": "adidas",
+            "count": 2,
+            "seoUrl": "/N-21o4Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "calvin klein",
+            "value": "calvin klein",
+            "count": 11,
+            "seoUrl": "/N-21o6Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "glamorous",
+            "value": "glamorous",
+            "count": 1,
+            "seoUrl": "/N-21ofZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "ivy park",
+            "value": "ivy park",
+            "count": 1,
+            "seoUrl": "/N-21okZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "jonathan aston",
+            "value": "jonathan aston",
+            "count": 2,
+            "seoUrl": "/N-220nZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "topshop",
+            "value": "topshop",
+            "count": 3,
+            "seoUrl": "/N-21ayZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Product Type",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "dresses",
+            "value": "dresses",
+            "count": 4,
+            "seoUrl": "/N-qn9Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "jeans",
+            "value": "jeans",
+            "count": 1,
+            "seoUrl": "/N-qnhZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "shoes",
+            "value": "shoes",
+            "count": 2,
+            "seoUrl": "/N-qnpZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "accessories",
+            "value": "accessories",
+            "count": 1,
+            "seoUrl": "/N-1zcnZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "socks & tights",
+            "value": "socks & tights",
+            "count": 237,
+            "seoUrl": "/N-qnsZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Colour",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "black",
+            "value": "black",
+            "count": 52,
+            "seoUrl": "/N-deoZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "blue",
+            "value": "blue",
+            "count": 15,
+            "seoUrl": "/N-depZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "brown",
+            "value": "brown",
+            "count": 1,
+            "seoUrl": "/N-deqZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "camel",
+            "value": "camel",
+            "count": 1,
+            "seoUrl": "/N-derZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "cream",
+            "value": "cream",
+            "count": 7,
+            "seoUrl": "/N-desZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "green",
+            "value": "green",
+            "count": 8,
+            "seoUrl": "/N-detZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "grey",
+            "value": "grey",
+            "count": 35,
+            "seoUrl": "/N-deuZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "metallic",
+            "value": "metallic",
+            "count": 8,
+            "seoUrl": "/N-devZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "multi",
+            "value": "multi",
+            "count": 13,
+            "seoUrl": "/N-dewZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "nude",
+            "value": "nude",
+            "count": 10,
+            "seoUrl": "/N-dexZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "orange",
+            "value": "orange",
+            "count": 5,
+            "seoUrl": "/N-deyZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "pink",
+            "value": "pink",
+            "count": 21,
+            "seoUrl": "/N-dezZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "purple",
+            "value": "purple",
+            "count": 9,
+            "seoUrl": "/N-df0Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "red",
+            "value": "red",
+            "count": 14,
+            "seoUrl": "/N-df1Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "white",
+            "value": "white",
+            "count": 48,
+            "seoUrl": "/N-df2Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "yellow",
+            "value": "yellow",
+            "count": 1,
+            "seoUrl": "/N-df3Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Size",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "4",
+            "value": "4",
+            "count": 4,
+            "seoUrl": "/N-dosZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "6",
+            "value": "6",
+            "count": 4,
+            "seoUrl": "/N-dotZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "8",
+            "value": "8",
+            "count": 4,
+            "seoUrl": "/N-dovZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "10",
+            "value": "10",
+            "count": 4,
+            "seoUrl": "/N-dolZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "12",
+            "value": "12",
+            "count": 4,
+            "seoUrl": "/N-domZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "14",
+            "value": "14",
+            "count": 4,
+            "seoUrl": "/N-dooZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "16",
+            "value": "16",
+            "count": 4,
+            "seoUrl": "/N-dopZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "18",
+            "value": "18",
+            "count": 2,
+            "seoUrl": "/N-doqZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "xs",
+            "value": "xs",
+            "count": 1,
+            "seoUrl": "/N-dp3Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "s",
+            "value": "s",
+            "count": 1,
+            "seoUrl": "/N-dp0Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "m",
+            "value": "m",
+            "count": 1,
+            "seoUrl": "/N-doxZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "l",
+            "value": "l",
+            "count": 1,
+            "seoUrl": "/N-dowZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "one size",
+            "value": "one size",
+            "count": 1,
+            "seoUrl": "/N-dozZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Fit",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "regular",
+            "value": "regular",
+            "count": 241,
+            "seoUrl": "/N-pbpZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "petite",
+            "value": "petite",
+            "count": 2,
+            "seoUrl": "/N-dymZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Accessories",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "one size",
+            "value": "one size",
+            "count": 238,
+            "seoUrl": "/N-dfvZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Dress Style",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "bodycon dresses",
+            "value": "bodycon dresses",
+            "count": 2,
+            "seoUrl": "/N-r2xZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "t-shirt dresses",
+            "value": "t-shirt dresses",
+            "count": 1,
+            "seoUrl": "/N-r33Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "wrap dresses",
+            "value": "wrap dresses",
+            "count": 1,
+            "seoUrl": "/N-20tkZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Dress Type",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "day dresses",
+            "value": "day dresses",
+            "count": 1,
+            "seoUrl": "/N-1y60Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Dress Length",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "mini",
+            "value": "mini",
+            "count": 4,
+            "seoUrl": "/N-r7lZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Jeans Style",
+        "refinementOptions": []
+      },
+      {
+        "label": "Jeans Fit",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "flared",
+            "value": "flared",
+            "count": 1,
+            "seoUrl": "/N-r8rZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Shoe Style",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "sandals",
+            "value": "sandals",
+            "count": 1,
+            "seoUrl": "/N-qd8Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "trainers",
+            "value": "trainers",
+            "count": 1,
+            "seoUrl": "/N-qddZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Socks & Tights Style",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "ankle socks",
+            "value": "ankle socks",
+            "count": 215,
+            "seoUrl": "/N-qahZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "knee high socks",
+            "value": "knee high socks",
+            "count": 2,
+            "seoUrl": "/N-1xytZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "trainer socks",
+            "value": "trainer socks",
+            "count": 8,
+            "seoUrl": "/N-qajZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "trim socks",
+            "value": "trim socks",
+            "count": 13,
+            "seoUrl": "/N-22ykZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Promotions",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "3 for £8 socks",
+            "value": "3 for £8 socks",
+            "count": 184,
+            "seoUrl": "/N-rhsZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Multipacks",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "multipack socks",
+            "value": "multipack socks",
+            "count": 19,
+            "seoUrl": "/N-20jdZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Fabric",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "suede",
+            "value": "suede",
+            "count": 1,
+            "seoUrl": "/N-qy4Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Waist",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "mid rise",
+            "value": "mid rise",
+            "count": 1,
+            "seoUrl": "/N-qocZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Heel Height",
+        "refinementOptions": [
+          {
+            "type": "VALUE",
+            "label": "low heel",
+            "value": "low heel",
+            "count": 1,
+            "seoUrl": "/N-qeaZdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          },
+          {
+            "type": "VALUE",
+            "label": "flat",
+            "value": "flat",
+            "count": 1,
+            "seoUrl": "/N-qe8Zdgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+          }
+        ]
+      },
+      {
+        "label": "Price",
+        "refinementOptions": [
+          {
+            "type": "RANGE",
+            "minValue": "1",
+            "maxValue": "39"
+          }
+        ]
+      }
+    ],
+    "canonicalUrl": "",
+    "categoryBanner": {},
+    "cmsPage": {},
+    "products": [
+      {
+        "productId": 31951591,
+        "lineNumber": "TS08N64NBLK",
+        "name": "Embroidered Fem Tattoo Socks",
+        "unitPrice": "4.00",
+        "productUrl": "/en/tsuk/product/embroidered-fem-tattoo-socks-7749039?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/embroidered-fem-tattoo-socks-7749039",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N64NBLK_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08N64NBLK_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08N64NBLK_M_1"
+      },
+      {
+        "productId":35959394,
+        "lineNumber":"TS19U15PSGE",
+        "name":"Slinky Dobby Spot Socks",
+        "unitPrice":"3.50",
+        "productUrl":"/en/tsuk/product/slinky-dobby-spot-socks-9075821?Ntt=socks",
+        "seoUrl":"https://ts-prd1stage.prd.arcadiagroup.co.uk/en/tsuk/product/slinky-dobby-spot-socks-9075821",
+        "assets":[
+          {
+            "assetType":"IMAGE_SMALL",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType":"IMAGE_THUMB",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$Small$"
+          },
+          {
+            "assetType":"IMAGE_NORMAL",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$2col$"
+          },
+          {
+            "assetType":"IMAGE_LARGE",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets":[
+          {
+            "assetType":"IMAGE_ZOOM",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType":"IMAGE_2COL",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$2col$"
+          },
+          {
+            "assetType":"IMAGE_3COL",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$3col$"
+          },
+          {
+            "assetType":"IMAGE_4COL",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_F_1.jpg?$4col$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_SMALL",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_THUMB",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$Small$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_NORMAL",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$2col$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_LARGE",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$Large$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_ZOOM",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_2COL",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$2col$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_3COL",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$3col$"
+          },
+          {
+            "assetType":"IMAGE_OUTFIT_4COL",
+            "index":2,
+            "url":"http://media.topshop.com/wcsstore/TopShop/TS19U15PSGE_M_1.jpg?$4col$"
+          },
+          {
+            "assetType":"IMAGE_BANNER_SMALL",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000109335/images/Banner_Small_Socks_uk.png"
+          },
+          {
+            "assetType":"IMAGE_BANNER_MEDIUM",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000109335/images/Banner_Medium_Socks_uk.png"
+          },
+          {
+            "assetType":"IMAGE_BANNER_LARGE",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000109335/images/Banner_Large_Socks_uk.png"
+          },
+          {
+            "assetType":"IMAGE_BANNER_MOBILE",
+            "index":1,
+            "url":"http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000109335/images/Banner_Mobile_Socks_uk.png"
+          }
+        ],
+        "items":[
+
+        ],
+        "bundleProducts":[
+
+        ],
+        "attributes":{
+
+        },
+        "colourSwatches":[
+
+        ],
+        "tpmLinks":[
+
+        ],
+        "bundleSlots":[
+
+        ],
+        "ageVerificationRequired":false,
+        "isBundleOrOutfit":false,
+        "productBaseImageUrl":"https://images.topshop.com/i/TopShop/TS19U15PSGE_F_1",
+        "outfitBaseImageUrl":"https://images.topshop.com/i/TopShop/TS19U15PSGE_M_1"
+      },
+      {
+        "productId": 31879507,
+        "lineNumber": "TS19X76NLAC",
+        "name": "Pastel Rainbow Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/pastel-rainbow-tube-socks-7731039?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/pastel-rainbow-tube-socks-7731039",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NLAC_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X76NLAC_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X76NLAC_M_1"
+      },
+      {
+        "productId": 31879517,
+        "lineNumber": "TS19X76NWHT",
+        "name": "Pastel Rainbow Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/pastel-rainbow-tube-socks-7731202?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/pastel-rainbow-tube-socks-7731202",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X76NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X76NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X76NWHT_M_1"
+      },
+      {
+        "productId": 31879536,
+        "lineNumber": "TS19X67NPNK",
+        "name": "Embroidered Glitter Bee Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/embroidered-glitter-bee-socks-7730816?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/embroidered-glitter-bee-socks-7730816",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X67NPNK_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X67NPNK_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X67NPNK_M_1"
+      },
+      {
+        "productId": 31952263,
+        "lineNumber": "TS19X91NPPK",
+        "name": "Glitter Stripe Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/glitter-stripe-socks-7727800?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/glitter-stripe-socks-7727800",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X91NPPK_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X91NPPK_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X91NPPK_M_1"
+      },
+      {
+        "productId": 31879511,
+        "lineNumber": "TS19A01PGRN",
+        "name": "Glitter Cactus Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/glitter-cactus-socks-7730558?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/glitter-cactus-socks-7730558",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A01PGRN_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19A01PGRN_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19A01PGRN_M_1"
+      },
+      {
+        "productId": 31952258,
+        "lineNumber": "TS19X79NGYM",
+        "name": "Embroidered Daisy Ankle Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/embroidered-daisy-ankle-socks-7727794?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/embroidered-daisy-ankle-socks-7727794",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X79NGYM_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X79NGYM_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X79NGYM_M_1"
+      },
+      {
+        "productId": 31878469,
+        "lineNumber": "TS19X74NWHT",
+        "name": "Embroidered 'Maybe Baby' Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/embroidered-maybe-baby-socks-7730929?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/embroidered-maybe-baby-socks-7730929",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X74NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X74NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X74NWHT_M_1"
+      },
+      {
+        "productId": 31952187,
+        "lineNumber": "TS19X71NPPK",
+        "name": "Blue Black Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/blue-black-tube-socks-7730871?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/blue-black-tube-socks-7730871",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X71NPPK_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X71NPPK_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X71NPPK_M_1"
+      },
+      {
+        "productId": 31951843,
+        "lineNumber": "TS19X70NGRN",
+        "name": "Cactus Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/cactus-tube-socks-7730869?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/cactus-tube-socks-7730869",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NGRN_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X70NGRN_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X70NGRN_M_1"
+      },
+      {
+        "productId": 31878477,
+        "lineNumber": "TS19X77NWHT",
+        "name": "Striped Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/striped-tube-socks-7732643?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/striped-tube-socks-7732643",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X77NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X77NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X77NWHT_M_1"
+      },
+      {
+        "productId": 31879532,
+        "lineNumber": "TS19A05PBLK",
+        "name": "Embroidered Watermelon Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/embroidered-watermelon-socks-7730585?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/embroidered-watermelon-socks-7730585",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19A05PBLK_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19A05PBLK_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19A05PBLK_M_1"
+      },
+      {
+        "productId": 31951848,
+        "lineNumber": "TS19X70NPCH",
+        "name": "Cactus Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/cactus-tube-socks-7730870?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/cactus-tube-socks-7730870",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X70NPCH_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X70NPCH_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X70NPCH_M_1"
+      },
+      {
+        "productId": 31951567,
+        "lineNumber": "TS08N61NBLE",
+        "name": "Sloth and Floral Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/sloth-and-floral-socks-7731346?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/sloth-and-floral-socks-7731346",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N61NBLE_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08N61NBLE_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08N61NBLE_F_1"
+      },
+      {
+        "productId": 31951854,
+        "lineNumber": "TS19X72NWHT",
+        "name": "Yellow Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/yellow-tube-socks-7730903?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/yellow-tube-socks-7730903",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X72NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X72NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X72NWHT_M_1"
+      },
+      {
+        "productId": 31952198,
+        "lineNumber": "TS19X73NOGE",
+        "name": "White Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/white-tube-socks-7730790?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/white-tube-socks-7730790",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X73NOGE_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X73NOGE_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X73NOGE_M_1"
+      },
+      {
+        "productId": 31904538,
+        "lineNumber": "TS19X92XGRY",
+        "name": "Striped Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/striped-tube-socks-7701492?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/striped-tube-socks-7701492",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X92XGRY_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X92XGRY_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X92XGRY_M_1"
+      },
+      {
+        "productId": 31904526,
+        "lineNumber": "TS08T04NGRY",
+        "name": "Slinky Ribbed Ankle Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/slinky-ribbed-ankle-socks-7699846?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/slinky-ribbed-ankle-socks-7699846",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08T04NGRY_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08T04NGRY_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08T04NGRY_M_1"
+      },
+      {
+        "productId": 31904506,
+        "lineNumber": "TS19X99NWHT",
+        "name": "3 Pack Cotton Trainer Socks",
+        "unitPrice": "7.00",
+        "productUrl": "/en/tsuk/product/3-pack-cotton-trainer-socks-7702360?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/3-pack-cotton-trainer-socks-7702360",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X99NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X99NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X99NWHT_M_1"
+      },
+      {
+        "productId": 31904484,
+        "lineNumber": "TS19X88NWHT",
+        "name": "'Stay Sick' Slogan Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/stay-sick-slogan-tube-socks-7700155?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/stay-sick-slogan-tube-socks-7700155",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X88NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X88NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X88NWHT_M_1"
+      },
+      {
+        "productId": 31904489,
+        "lineNumber": "TS08M03NBLK",
+        "name": "3 Pack Trainer Socks",
+        "unitPrice": "7.00",
+        "productUrl": "/en/tsuk/product/3-pack-trainer-socks-7703083?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/3-pack-trainer-socks-7703083",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08M03NBLK_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08M03NBLK_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08M03NBLK_M_1"
+      },
+      {
+        "productId": 31904491,
+        "lineNumber": "TS08N62NGYM",
+        "name": "Embroidered Cat Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/embroidered-cat-tube-socks-7699836?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/embroidered-cat-tube-socks-7699836",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS08N62NGYM_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08N62NGYM_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS08N62NGYM_M_1"
+      },
+      {
+        "productId": 31904502,
+        "lineNumber": "TS19X89NRED",
+        "name": "Rainbow Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/rainbow-tube-socks-7700160?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/rainbow-tube-socks-7700160",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X89NRED_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X89NRED_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X89NRED_M_1"
+      },
+      {
+        "productId": 31904548,
+        "lineNumber": "TS19X93NWHT",
+        "name": "'Good Vibes' Tube Socks",
+        "unitPrice": "3.50",
+        "productUrl": "/en/tsuk/product/good-vibes-tube-socks-7701468?Ntt=socks",
+        "seoUrl": "https://ts-tst1.tst.digital.arcadiagroup.co.uk/en/tsuk/product/good-vibes-tube-socks-7701468",
+        "assets": [
+          {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$Zoom$"
+          }
+        ],
+        "additionalAssets": [
+          {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_F_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$Thumb$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$Small$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$Large$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$Zoom$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$2col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$3col$"
+          },
+          {
+            "assetType": "IMAGE_OUTFIT_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/TS19X93NWHT_M_1.jpg?$4col$"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_small.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_medium.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_large.png"
+          },
+          {
+            "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473133_mobile.png"
+          }
+        ],
+        "items": [],
+        "bundleProducts": [],
+        "attributes": {},
+        "colourSwatches": [],
+        "tpmLinks": [],
+        "bundleSlots": [],
+        "ageVerificationRequired": false,
+        "isBundleOrOutfit": false,
+        "productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X93NWHT_F_1",
+        "outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS19X93NWHT_M_1"
+      }
+    ],
+    "categoryTitle": "socks",
+    "categoryDescription": "",
+    "totalProducts": 248,
+    "sortOptions": [
+      {
+        "label": "Best Match",
+        "value": "Relevance",
+        "navigationState": "/N-dgl?Nrpp=24&Ntt=socks&seo=false&siteId=%2F12556"
+      },
+      {
+        "label": "Newest",
+        "value": "Newness",
+        "navigationState": "/N-dgl?Nrpp=24&Ns=product.freshnessRank%7C0&Ntt=socks&seo=false&siteId=%2F12556"
+      },
+      {
+        "label": "Price - Low To High",
+        "value": "Price Ascending",
+        "navigationState": "/N-dgl?Nrpp=24&Ns=promoPrice%7C0&Ntt=socks&seo=false&siteId=%2F12556"
+      },
+      {
+        "label": "Price - High To Low",
+        "value": "Price Descending",
+        "navigationState": "/N-dgl?Nrpp=24&Ns=promoPrice%7C1&Ntt=socks&seo=false&siteId=%2F12556"
+      }
+    ],
+    "searchTerm": "socks",
+    "plpContentSlot": {
+      "records": [
+        {
+          "productUrl": "?seo=false&siteId=%2F12556",
+          "contentForMonty": {
+            "members": {
+              "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000118276+baseline%3A+5+revision%3A+0+published%3A+2017-02-16+14%3A26%3A15.902668%3ALisa+Schneider+CMS+Temp+Version%3A+template-0000011825+baseline%3A+1+revision%3A+0+description%3A+Home+Page+Module+-+Basic+%28REF+0000011783%29+published%3A+2015-06-25+10%3A42%3A08.412652+--%3E+%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fbeauty-3326659%2Fthe-nudes-collection-6329491%3Fcat1%3D208495%26amp%3Bcat2%3D3452647%26amp%3Bintcmpid%3DPLP_content_beauty_nudes%22+title%3D%22The+Nudes+Collection+-+Shop+Now%22+target%3D%22_self%22%3E%3Cimg+src%3D%22https%3A%2F%2Fts-tst1.tst.digital.arcadiagroup.co.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Fpages%2Fstatic%2Fstatic-0000118276%2Fimages%2FPLP_Nudes.jpg%22+alt%3D%22The+Nudes+Collection+-+Shop+Now%22+width%3D%22241%22+height%3D%22438%22+%2F%3E%3C%2Fa%3E+%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000011783+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage10888+%3D+%7B+%22pageId%22%3A+10888%2C+%22pageName%22%3A+%22static-0000010888%22%2C+%22breadcrumb%22%3A+%22Terms+%26+Conditions%22%2C+%22baseline%22%3A+%22750%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222019-02-25+07%3A47%3A59.67068%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000010888%2Fstatic-0000010888.html%22%2C+%22seoUrl%22%3A+%22%2Fen%2Ftsuk%2Fcategory%2Fterms-conditions-19%2Fhome%22%2C+%22mobileCMSUrl%22%3A+%22%22%2C+%22responsiveCMSUrl%22%3A+%22cms%2Fpages%2Fjson%2Fjson-0000155955%2Fjson-0000155955.json%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+",
+              "cmsMobileContent": {
+                "seoUrl": "/en/tsuk/category/terms-conditions-19/home",
+                "breadcrumb": "Terms & Conditions",
+                "baseline": "750",
+                "lastPublished": "2019-02-25 07:47:59.67068",
+                "mobileCMSUrl": "",
+                "pageId": 10888,
+                "pageName": "static-0000010888",
+                "responsiveCMSUrl": "cms/pages/json/json-0000155955/json-0000155955.json",
+                "revision": "0",
+                "contentPath": "cms/pages/static/static-0000010888/static-0000010888.html"
+              }
+            }
+          },
+          "fromSearch": "N",
+          "fromIndicator": false,
+          "Position": "4",
+          "PageType": "PDP",
+          "id": "118276",
+          "name": "Nudes Collection",
+          "url": "cms/pages/static/static-0000118276/static-0000118276.html",
+          "isCurrent": false
+        }
+      ],
+      "@type": "PLPContentSlot"
+    },
+    "recordSpotlight": {},
+    "activeRefinements": [],
+    "removeAllRefinement": {
+      "navigationState": "?seo=false&siteId=%2F12556",
+      "contentPath": "/browse",
+      "siteRootPath": "/pages"
+    },
+    "globalEspot": {
+      "EspotContents": {
+        "cmsMobileContent": {
+          "pageId": 90624,
+          "pageName": "static-0000090624",
+          "breadcrumb": "New UK Tactical Message",
+          "baseline": "200",
+          "revision": "0",
+          "lastPublished": "2018-05-24 17:09:20.577068",
+          "contentPath": "cms/pages/static/static-0000090624/static-0000090624.html",
+          "seoUrl": "/en/tsuk/category/new-uk-tactical-message-4674354/home",
+          "mobileCMSUrl": "cms/pages/json/json-0000116708/json-0000116708.json",
+          "responsiveCMSUrl": ""
+        },
+        "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000090624+baseline%3A+200+revision%3A+0+published%3A+2018-05-24+17%3A09%3A20.577068%3AJake+Stewart+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage90624+%3D+%7B+%22pageId%22%3A+90624%2C+%22pageName%22%3A+%22static-0000090624%22%2C+%22breadcrumb%22%3A+%22New+UK+Tactical+Message%22%2C+%22baseline%22%3A+%22200%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222018-05-24+17%3A09%3A20.577068%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000090624%2Fstatic-0000090624.html%22%2C+%22seoUrl%22%3A+%22%2Fen%2Ftsuk%2Fcategory%2Fnew-uk-tactical-message-4674354%2Fhome%22%2C+%22mobileCMSUrl%22%3A+%22cms%2Fpages%2Fjson%2Fjson-0000116708%2Fjson-0000116708.json%22%2C+%22responsiveCMSUrl%22%3A+%22%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000011130+baseline%3A+2+revision%3A+0+description%3A+Cycle+Builder+%28MASTER%29+%28REF+0000011124%29+published%3A+2013-10-09+12%3A38%3A33.676962+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22https%3A%2F%2Fts-tst1.tst.digital.arcadiagroup.co.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000011130%2Fcss%2Fdefault.css%22+%2F%3E%3Cstyle+type%3D%22text%2Fcss%22%3E+%2F*%3C%21%5BCDATA%5B*%2F+%2F*%5D%5D%3E*%2F+%3C%2Fstyle%3E+%3Cstyle+type%3D%22text%2Fcss%22%3E+%2F*%3C%21%5BCDATA%5B*%2F+%2F*%5D%5D%3E*%2F+%3C%2Fstyle%3E+%3Cdiv+id%3D%22cycleBuilder90624%22+class%3D%22cycleBuilderContent+default%22%3E+%3Cul+class%3D%27cycleItemList%27%3E+%3Cli+class%3D%27cycleItem_1%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fuk-delivery-4043283%2Fhome%3FTS%3D1421171569402%26amp%3Bcat2%3D2141530%26amp%3Bintcmpid%3DTACTICAL_SHIPPING%22+title%3D%22FREE+DELIVERY*+FIND+OUT+MORE+%22+target%3D%22_self%22%3EFREE+DELIVERY*+FIND+OUT+MORE%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27cycleItem_2%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Ftopshop-students-student-discount-2316596%2Fhome%3FTS%3D1392132268317%26amp%3Bcat2%3D277560%26amp%3Bintcmpid%3DTACTICAL_STUDENT%22+title%3D%2210%25+STUDENT+DISCOUNT%21%22+target%3D%22_self%22%3E10%25+STUDENT+DISCOUNT%21%3C%2Fa%3E%3C%2Fli%3E+%3C%2Ful%3E+%3C%2Fdiv%3E%3Cscript+type%3D%27text%2Fjavascript%27+src%3D%27%2F%2Fwww.topshop.com%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fjs%2Fjquery.min.1.8.3.js%27%3E+%2F%2F%3C%21%5BCDATA%5B+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3Cscript+type%3D%27text%2Fjavascript%27+src%3D%27%2F%2Fwww.topshop.com%2Fjavascript%2F3.15.0.0%2Flib%2Fplugins%2Fjquery.cycle.core.js%27%3E+%2F%2F%3C%21%5BCDATA%5B+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3Cscript+type%3D%27text%2Fjavascript%27%3E+%2F%2F%3C%21%5BCDATA%5B+var+%24jQuery191+%3D+jQuery.noConflict%28%29%3B+%28function%28%24%29%7B+var+cycleItemNames+%3D+%5B%27FREE+DELIVERY*+FIND+OUT+MORE+%27%2C%2710%25+STUDENT+DISCOUNT%21%27%5D%3B+var+initialSlide+%3D+0%3B+var+locationHashVal+%3D+getHashVal%28document.location.hash%29%3B+var+sliderPos+%3D+1%3B+var+cycleWrapper+%3D+%24%28%27%23cycleBuilder90624%27%29%3B+if+%28locationHashVal+%21%3D+-1%29%7B+initialSlide+%3D+locationHashVal%3B+%7D+function+getHashVal%28hash%29%7B+if+%28hash.toLowerCase%28%29.match%28%27%23slide%27%29%29+%7B+hash+%3D+hash.replace%28%2F%23slide%2Fg%2C+%27%27%29%3B+hash+%3D+parseInt%28hash%29+-+1%3B+%7D+else+%7B+hash+%3D+-1%3B+%7D+return+hash%3B+%7D+cycleWrapper+.find%28%27.cycleItemList%27%29+.cycle%28%29%3B+cycleWrapper+.find%28%27area%5Bhref*%3D%5C%27%23slide%5C%27%5D%2C+a%5Bhref*%3D%5C%27%23slide%5C%27%5D%27%29+.bind%28%27click%27%2Cfunction%28%29+%7B+var+href+%3D+%24%28this%29.attr%28%27href%27%29%3B+locationHashVal+%3D+href.substr%28href.indexOf%28%27%23%27%29%2C+href.length%29%3B+locationHashVal+%3D+getHashVal%28locationHashVal%29%3B+if+%28locationHashVal+%21%3D+-1%29%7B+%24%28%27%23cycleBuilder90624+.cycleItemList%27%29.cycle%28locationHashVal%29%3B+%7D+%7D%29%3B+%7D%29%28%24jQuery191%29%3B+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000011124+--%3E+"
+      }
+    },
+    "defaultImgType": "Outfit",
+    "title": "socks",
+    "shouldIndex": true
+  }

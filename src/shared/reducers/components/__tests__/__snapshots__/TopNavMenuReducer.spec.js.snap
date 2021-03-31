@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNavMenuReducer Load initialState 1`] = `
+Object {
+  "open": false,
+  "scrollToTop": false,
+}
+`;

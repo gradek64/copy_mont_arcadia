@@ -1,0 +1,87 @@
+/** @define Espot; weak */
+
+@lost flexbox flex;
+@lost gutter $plp-product-gutter;
+
+.Espot {
+  display: none;
+  &-mockContent {
+    background: #FFC133;
+    padding: 30px;
+  }
+  
+  &-productList {
+    padding: $plp-espot-productlist-padding;
+  }
+  
+  &--placeholder {
+    display: none;
+  }
+
+}
+
+/* postcss-bem-linter: ignore */
+.Espot-globalEspot.Espot-topman {
+  margin-left: -10px;
+  margin-top: 3px;
+}
+
+/* postcss-bem-linter: ignore */
+.Espot-globalEspot.Espot-missselfridge {
+  width: 440px;
+}
+
+/* postcss-bem-linter: ignore */
+.Main-body.is-homePage .Espot-dorothyperkins.Espot-headerEspot {
+  display: none;
+}
+
+/* postcss-bem-linter: ignore */
+.Espot.Espot-shoppingBagTotalEspot {
+  display: none;
+}
+
+/* postcss-bem-linter: ignore */
+.Espot-topshop.Espot-globalEspot {
+  display: none;
+}
+
+/* postcss-bem-linter: ignore */
+.Espot.Espot-topman.Espot-globalEspot {
+  display: none;
+}
+
+/* postcss-bem-linter: ignore */
+.Espot.Espot-CEProductEspotCol2Pos1 {
+  margin-bottom: 20px;
+}
+
+/* Custom Css */
+
+/* postcss-bem-linter: ignore */
+.PlpEspot {
+  margin-bottom: 10px;
+}
+
+@media $min-tablet {
+  .Espot {
+    display: block;
+
+    &--placeholder {
+      white-space: nowrap;
+      text-align: center;
+      padding: 15px;
+      box-sizing: border-box;
+      background: #ffeb3b;
+    }
+
+    &-inner {
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  }
+}

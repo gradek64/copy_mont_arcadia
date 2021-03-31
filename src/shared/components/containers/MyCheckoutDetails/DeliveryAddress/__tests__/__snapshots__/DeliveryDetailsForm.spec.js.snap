@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryDetailsForm /> @renders in default state 1`] = `
+<Connect(Connect(AddressFormDetails))
+  addressType="deliveryMCD"
+  label="Delivery Details"
+/>
+`;

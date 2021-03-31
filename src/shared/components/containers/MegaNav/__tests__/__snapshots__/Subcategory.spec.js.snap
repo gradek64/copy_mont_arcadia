@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Subcategory /> @renders should render text content with <Link> tags 1`] = `
+<li
+  className="MegaNav-subcategoryItem"
+>
+  <Link
+    className="MegaNav-subcategoryItemLink"
+    isExternal={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    style={
+      Object {
+        "paddingTop": 20,
+      }
+    }
+    title="This is a label"
+    to="http://www.topman.com/category/jeans/blue-jeans.html"
+  >
+    <div
+      className="MegaNav-ItemContainer"
+    >
+      <span
+        className="MegaNav-subcategoryItemLabel"
+      >
+        This is a label
+      </span>
+    </div>
+  </Link>
+</li>
+`;
+
+exports[`<Subcategory /> @renders should render text content with <a> tags 1`] = `
+<li
+  className="MegaNav-subcategoryItem"
+>
+  <Link
+    className="MegaNav-subcategoryItemLink"
+    isExternal={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    style={
+      Object {
+        "paddingTop": 20,
+      }
+    }
+    title="This is a label"
+    to="/foo/bar"
+  >
+    <div
+      className="MegaNav-ItemContainer"
+    >
+      <span
+        className="MegaNav-subcategoryItemLabel"
+      >
+        This is a label
+      </span>
+    </div>
+  </Link>
+</li>
+`;

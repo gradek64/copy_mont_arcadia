@@ -1,0 +1,16 @@
+/** @define ProductList */
+
+.ProductList {
+  position: relative;
+  margin-bottom: 75px;
+  padding: 0 $plp-product-list-horizontal-padding;
+
+  &-products {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  &-loader {
+    margin: 20% 0;
+  }
+}

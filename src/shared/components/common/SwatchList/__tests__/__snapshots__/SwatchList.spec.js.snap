@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SwatchList/> @renders renders in default state 1`] = `
+<div
+  className="SwatchList"
+/>
+`;
+
+exports[`<SwatchList/> @renders should render 3 <Swatch/> components if 3 swatches have been passed in via \`swatches\` props 1`] = `
+<div
+  className="SwatchList"
+>
+  <Swatch
+    className=""
+    colourName="swatch0"
+    imageUrl="swatch0"
+    index={0}
+    key="0"
+    onSwatchClick={[Function]}
+    selected={true}
+    swatchProduct={
+      Object {
+        "productId": "swatch0",
+      }
+    }
+  />
+  <Swatch
+    className=""
+    colourName="swatch1"
+    imageUrl="swatch1"
+    index={1}
+    key="1"
+    onSwatchClick={[Function]}
+    selected={false}
+    swatchProduct={
+      Object {
+        "productId": "swatch1",
+      }
+    }
+  />
+  <Swatch
+    className=""
+    colourName="swatch2"
+    imageUrl="swatch2"
+    index={2}
+    key="2"
+    onSwatchClick={[Function]}
+    selected={false}
+    swatchProduct={
+      Object {
+        "productId": "swatch2",
+      }
+    }
+  />
+</div>
+`;

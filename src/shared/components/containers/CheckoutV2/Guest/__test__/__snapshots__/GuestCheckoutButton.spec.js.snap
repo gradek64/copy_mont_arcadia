@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@GuestCheckoutButton @renders in default state 1`] = `
+<section
+  className="LoginContainer-guestbutton"
+>
+  <Button
+    clickHandler={[MockFunction]}
+  >
+    CONTINUE AS GUEST
+  </Button>
+</section>
+`;

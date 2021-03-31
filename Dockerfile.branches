@@ -1,0 +1,32 @@
+# Built Node 12
+FROM node:12.14.1-alpine
+ARG NPM_TOKEN
+
+ENV NODE_ENV production
+ENV FETCH_WCS_CONFIGS true
+ENV COOKIE_MESSAGE true
+
+RUN apk update \
+  && apk add python build-base tzdata git py-pip curl \
+  && apk upgrade --no-cache \
+  && pip install awscli \
+  && rm -rf /var/cache/apk/*
+
+RUN cp /usr/share/zoneinfo/Europe/London /etc/localtime \
+  && echo "Europe/London" > /etc/timezone
+
+COPY ./package.json /monty/
+COPY ./package-lock.json /monty/
+
+WORKDIR /monty
+
+RUN echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc;
+RUN NODE_ENV=development npm install --no-optional
+
+COPY . /monty
+RUN npm run build
+RUN npm cache verify
+
+# start application
+ENTRYPOINT ["/monty/docker/entrypoint.sh"]
+CMD "node" "--harmony" "index.js"

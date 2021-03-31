@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoModal renders as expected 1`] = `
+<div
+  className="InfoModal-container"
+>
+  <p
+    data-modal-focus={true}
+    tabIndex="0"
+  />
+  <div
+    className="InfoModal-buttonContainer"
+  >
+    <Button
+      className="InfoModal-button InfoModal-white"
+      clickHandler={[MockFunction]}
+    />
+    <Button
+      className="InfoModal-button InfoModal-black"
+      clickHandler={[MockFunction]}
+    />
+  </div>
+</div>
+`;

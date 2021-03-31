@@ -1,0 +1,62 @@
+/** @define OrderList **/
+
+.OrderList {
+/* postcss-bem-linter: ignore */
+
+  &-tagline {
+    padding: $page-padding;
+     border-bottom: 1px solid $myaccount-border-color;
+   }
+   &-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &-customerMessage {
+     padding: $page-padding;
+
+      &-contact {
+        /* postcss-bem-linter: ignore */
+        a {
+          margin-left: 5px;
+          font-weight: bold;
+        }
+      }
+   }
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  .OrderList {
+    padding: 0 $page-padding;
+      &-tagline {
+         padding: $page-padding 0;
+         border-bottom: none;
+     }
+
+     &-customerMessage{
+        /* postcss-bem-linter: ignore */
+        padding: $page-padding 0;
+
+        /* postcss-bem-linter: ignore */
+        &-limit {
+           float: left;
+         }
+
+        /* postcss-bem-linter: ignore */
+        &-contact {
+           float: right;
+        /* postcss-bem-linter: ignore */
+         &-spacing {
+            width: 5px;
+            display: inline-block;
+          }
+          /* postcss-bem-linter: ignore */
+          &-break {
+             display: none;
+           }
+        }
+      }
+  }
+}

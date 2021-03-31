@@ -1,0 +1,59 @@
+/** @define Accordion */
+
+.Accordion {
+
+  &-wrapper {
+    transition: max-height $accordion-anim-time;
+    overflow: hidden;
+  }
+
+  &-content {
+    visibility: hidden;
+    transition: visibility 0s linear $accordion-anim-time;
+
+    &.is-padded {
+      padding: 0 $page-padding calc(5px + $page-padding) $page-padding;
+    }
+
+    &--borderTop {
+      border-top: $accordion-content-border-top;
+    }
+  }
+
+  /* Expanded state */
+  &.is-expanded {
+    & .Accordion {
+      &-icon {
+        &--primary {
+          @if $accordion-icon-primary-is-plus == false {
+            transform: rotate($accordion-icon-primary-rotation-expanded);
+          }
+        }
+
+        &--secondary {
+          @if $accordion-icon-secondary-is-plus == false {
+            transform: rotate($accordion-icon-secondary-rotation-expanded);
+          }
+        }
+
+        &::before,
+        &::after {
+          transform: rotate(0);
+        }
+      }
+
+      &-header {
+        color: $accordion-expanded-header-font-color;
+        background-color: $accordion-expanded-header-background-color;
+      }
+
+      &-content {
+        &.is-visible {
+          visibility: visible;
+        }
+        transition: visibility 0s linear 0s;
+      }
+    }
+  }
+
+}

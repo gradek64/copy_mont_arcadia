@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentButtonContainer /> @renders the rendered button renders with the right props 1`] = `
+<Button
+  className="Foo"
+  clickHandler={[Function]}
+  isActive={true}
+  isDisabled={false}
+  lang="en"
+  type="submit"
+>
+  <Component
+    id="qubit-payment-button-text"
+    paymentType="PAY"
+  >
+    Order and Pay Now
+  </Component>
+</Button>
+`;

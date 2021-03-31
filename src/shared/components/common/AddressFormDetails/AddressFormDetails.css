@@ -1,0 +1,94 @@
+/** @define AddressFormDetails */
+
+.AddressFormDetails {
+  border: none;
+  padding: 0;
+
+  &-header {
+    padding-bottom: 15px;
+  }
+
+  &-headerText {
+    margin: 0;
+  }
+
+  &--storeDelivery {
+    padding-top: 15px;
+  }
+
+  &-titleRow {
+    & .AddressFormDetails-col {
+      display: none;
+    }
+  }
+
+  &-telephoneCopy {
+    color: #BBBBBB;
+    text-align: left;
+    display: block;
+    margin: -10px 0 20px 15px;
+  }
+
+  &-telephoneCol {
+    display: none;
+  }
+
+  &-checkbox {
+     margin: 0 0 20px 0;
+  }
+}
+
+@media $min-laptop {
+  .AddressFormDetails {
+    &--multiColumn {
+      & .AddressFormDetails {
+        &-row {
+          display: flex;
+        }
+
+        &-firstName,
+        &-lastName,
+        &-telephone,
+        &-col {
+          flex: 1;
+        }
+
+
+        &--storeDelivery {
+          & .AddressFormDetails {
+            &-telephoneRow {
+              display: flex;
+            }
+
+            &-telephone {
+              display: block;
+            }
+          }
+        }
+
+        &-telephone,
+        &-firstName {
+          margin-right: $right-col-margin;
+        }
+
+        &-lastName,
+        &-col {
+          margin-left: $left-col-margin;
+        }
+      }
+    }
+
+    &-telephoneCopy {
+      flex: 1;
+    }
+
+    &-telephoneCol {
+      display: flex;
+      flex: 1;
+    }
+
+    &-smsMobileCheckbox {
+      margin-top: 0;
+    }
+  }
+}

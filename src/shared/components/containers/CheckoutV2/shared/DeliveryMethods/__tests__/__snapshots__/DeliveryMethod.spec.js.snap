@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryMethod /> @render should render default state 1`] = `
+<div
+  className="DeliveryMethod"
+>
+  <button
+    className="DeliveryMethod-deliveryMethodButton"
+    id="delivery-method-home_standard"
+    label="UK Standard up to 4 days"
+    name="deliveryMethod DeliveryMethod-radioButton"
+    onClick={[Function]}
+  >
+    <span
+      className="DeliveryMethod-contentContainer"
+    >
+      <span
+        className="DeliveryMethod-content"
+      >
+        <text
+          className="DeliveryMethod-label"
+        >
+          UK Standard up to 4 days
+        </text>
+      </span>
+    </span>
+  </button>
+</div>
+`;

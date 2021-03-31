@@ -1,0 +1,112 @@
+/** @define RadioButton */
+
+.RadioButton {
+  cursor: pointer;
+  display: flex;
+  margin: 10px 15px 5px 0;
+
+  &--noMargin {
+    margin: 0;
+  }
+
+  &-input {
+    position:absolute;
+    opacity:0;
+  }
+
+  &--fullWidth {
+    display: block;
+    margin-right: 0;
+  }
+
+  &-required {
+    color: $input-required-color;
+  }
+
+  &-content:empty {
+    padding-left: $radio-input-size;
+    padding-bottom: $radio-input-size;
+  }
+
+  &-content {
+    position: relative;
+    padding-left: calc($radio-input-size + $radio-input-size / 2);
+    font-weight: $radio-input-font-weight;
+    display: inline-block;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      box-sizing: border-box;
+      border-radius: 50%;
+      height: $radio-input-size;
+      width: $radio-input-size;
+      color: $radio-label-font-color;
+      text-transform: $radio-label-text-transform;
+      font-style: $radio-label-font-style;
+      font-weight: $radio-label-font-weight;
+    }
+
+    &::before {
+      border: $radio-input-border-width solid $radio-input-check-color;
+      background-color: $radio-input-background-color;
+    }
+
+    &::after {
+      transition: 0.1s;
+      background-clip: content-box;
+      background-color: $radio-input-check-color;
+      padding: calc(($radio-input-size / 2) - $radio-input-border-width);
+      border: $radio-input-border-width solid transparent;
+    }
+  }
+
+  &--fullWidth &-content {
+    display: block;
+  }
+
+  &-input + &-content::after {
+    padding: calc(($radio-input-size / 2) - $radio-input-border-width);
+    border-radius: $radio-input-content-border-radius;
+  }
+
+  &-input:checked ~ &-content::after {
+    padding: $radio-input-checked-padding;
+    background-color: $radio-input-checked-check-color;
+  }
+
+  &-input:checked ~ &-content::before {
+    border-color: $radio-input-checked-check-color;
+  }
+
+  &-input:checked ~ &-content {
+    font-weight: $radio-input-checked-font-weight;
+  }
+
+  &.is-disabled {
+    color: $radio-input-inactive-label-font-color;
+
+    & .RadioButton-content::before {
+      background-color: $radio-input-inactive-background-color;
+      border: $radio-input-border-width solid $radio-input-inactive-check-color;
+    }
+
+    & .RadioButton-content::after {
+      background-color: $radio-input-inactive-check-color;
+    }
+  }
+
+  &-cmsLabel {
+    margin: $input-margin-vertical 0;
+    display: inline-block;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+label + .RadioButton {
+  margin-left: 15px;
+}

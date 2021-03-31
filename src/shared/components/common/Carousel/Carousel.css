@@ -1,0 +1,653 @@
+/** @define Carousel */
+
+.Carousel {
+  position: relative;
+  padding: $carousel-padding;
+  z-index: 0;
+  user-select: none;
+  opacity: 1;
+  flex-direction: column;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+
+  &--hidden {
+    display: none;
+  }
+
+  &--invisible {
+    visibility: hidden;
+  }
+
+  &--productDetail {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+
+  &--panel {
+    padding: 0 40px;
+  }
+
+  &-container {
+    display: flex;
+    flex: 1;
+    justify-content: $carousel-main-image-alignment;
+    align-items: stretch;
+    margin: -$pdp-vertical-padding -15px 0;
+  }
+
+  &-images,
+  &-items {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  &-imageCarousel{
+    .Carousel-images{
+      overflow: visible;
+    }
+
+    .Carousel-list{
+      overflow: hidden;
+    }
+  }
+  
+  &-blogIcon {
+    width: 10%;
+  }
+
+  &-title {
+    text-transform: uppercase;
+    display: block;
+    font-size: 18px;
+  }
+
+  &-arrow {
+    position: absolute;
+    top: calc(50% - 40px);
+    width: 0;
+    height: 0;
+    padding: 0;
+    outline: none;
+    background: none;
+    border: none;
+    z-index: 2;
+    font-size: 0;
+
+    &--left, &--top {
+      left: 0;
+      background: url("public/$brand/images/carousel-arrow-left.svg") 50% no-repeat;
+      height: $carousel-arrow-height;
+      width: calc($carousel-arrow-width + $carousel-arrow-position);
+    }
+
+    &--right, &--bottom {
+      right: 0;
+      background: url("public/$brand/images/carousel-arrow-right.svg") 50% no-repeat;
+      height: $carousel-arrow-height;
+      width: calc($carousel-arrow-width + $carousel-arrow-position);
+      z-index: 1;
+    }
+
+    &--top, &--bottom {
+      transform: translateX(-50%) rotate(90deg);
+    }
+
+    &--socialRight {
+      top: 95%;
+      right: 30px;
+      background-size: contain;
+      background: url("/assets/common/images/right-arrow.svg") no-repeat center;
+      height: $carousel-arrow-height;
+      width: 42px;
+    }
+
+    &.is-hidden {
+      display: none;
+    }
+  }
+
+  &-list {
+    display: block;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-item {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    transition: none;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    opacity: $carousel-opacity-fade-start;
+    z-index: 0;
+
+    &--insta, &--tweet, &--snap, &--blogPost {
+      min-height: 255px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-right: solid;
+      border-width: 1px;
+      border-color: $md-gray;
+    }
+
+    &--blogPost {
+      width: 65%;
+      margin: 0 auto;
+      justify-content: initial;
+      border-right: none;
+    }
+
+    &--blog {
+      width: 50%;
+    }
+
+    &--arrow {
+      height: 14px;
+      vertical-align: middle;
+    }
+
+    &--readmore {
+      text-align: left;
+    }
+    &.is-inactive {
+      animation: none;
+      opacity: 0;
+    }
+  }
+  &-initialItem {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    transform: translateX(0);
+  }
+
+  &-rightItem {
+    &.is-selected {
+      position: relative;
+      transform: translateX(100%);
+      animation-name: Carousel-fadeIn;
+      z-index: 1;
+      opacity: 1;
+    }
+    &.is-previous {
+      transform: translateX(0);
+      opacity: 1;
+      animation-name: Carousel-fadeOutRight;
+    }
+  }
+
+  &-leftItem {
+    &.is-selected {
+      position: relative;
+      transform: translateX(-100%);
+      animation-name: Carousel-fadeIn;
+      z-index: 1;
+      opacity: 1;
+    }
+    &.is-previous {
+      transform: translateX(0);
+      opacity: 1;
+      animation-name: Carousel-fadeOutLeft;
+    }
+  }
+
+&-image, &-blogImage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  &-link {
+    text-decoration: none;
+  }
+
+  &-text {
+    &--social {
+      width: 75%;
+    }
+    &--blog {
+      color: $black;
+    }
+  }
+
+  &-socialIcon {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    vertical-align: bottom;
+  }
+
+  &-selectors {
+    display: $carousel-selector-display;
+    padding: $carousel-selector-padding;
+    margin: 0;
+    opacity: 1;
+    transition: all 0.3s ease;
+    text-align: center;
+    position: $carousel-selector-position;
+    bottom: $carousel-selector-bottom;
+    z-index: $carousel-selector-z-index;
+    width: $carousel-selector-width;
+    cursor: pointer;
+
+    &.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  &-selector {
+    position: relative;
+    display: inline-block;
+    width: $carousel-selector-size;
+    height: $carousel-selector-size;
+    margin: 0 $carousel-selector-vertical-margin;
+    padding: 0;
+    border-radius: 50%;
+    background-color: $carousel-selector-background-color;
+    border: 1px solid $carousel-selector-border-color;
+
+    &.is-selected {
+      background-color: $carousel-selector-selected-background-color;
+      border: 1px solid $carousel-selector-selected-border-color;
+    }
+  }
+
+  &-tapMessage {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: $carousel-tap-message-border-radius;
+    font-size: $font-size-tooltip;
+    font-family: $carousel-tap-message-font-family;
+    letter-spacing: $carousel-tap-message-letter-spacing;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    padding: 10px;
+    width: 100px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+
+    animation-name: Carousel-tapMessage;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  &--flat {
+    padding: $bundles-carousel-padding;
+    & .Carousel {
+      &-images {
+        height: auto;
+      }
+      &-list {
+        position: relative;
+      }
+      &-arrow {
+        top: calc(50% - 20px);
+        transform: scale(.7,.7);
+      }
+      &-item {
+        position: relative;
+        display: inline-block;
+        animation: none;
+        opacity: 1;
+        padding: 0.5%;
+        &.is-selected {
+          left: 0;
+        }
+      }
+      &-image {
+        border: $bundles-carousel-border-width solid transparent;
+        padding: $bundles-carousel-image-padding;
+
+        &.is-selected {
+          border-color: $bundles-carousel-border-color;
+        }
+      }
+      &-selectors, &-tapMessage {
+        display: none;
+      }
+    }
+  }
+
+  &--thumbnail {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+
+    & .Carousel {
+      &-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &-arrow {
+        left: 50%;
+        &--top {
+          top: 0;
+          width: $carousel-thumbnail-arrow-width;
+          height: $carousel-thumbnail-arrow-height;
+          background-position: 0 50%;
+        }
+        &--bottom {
+          bottom: 0;
+          top: auto;
+          width: $carousel-thumbnail-arrow-width;
+          height: $carousel-thumbnail-arrow-height;
+          background-position: 100% 50%;
+        }
+      }
+      &-item {
+        position: relative;
+        display: inline-block;
+        animation: none;
+        opacity: 1;
+        padding: 0.5%;
+        width: 100px;
+        height: calc($carousel-thumbnail-height / $carousel-thumbnail-visible-items);
+        max-height: calc((100vh - $modal-image-padding * 2) / $carousel-thumbnail-visible-items);
+        &.is-selected {
+          left: 0;
+        }
+      }
+      &-image {
+        max-height: 100%;
+
+        &.is-selected {
+          border-color: $bundles-carousel-border-color;
+        }
+      }
+      &-images {
+        height: 100%;
+
+        &--padding {
+          margin: 40px 0;
+        }
+      }
+      &-selectors, &-tapMessage {
+        display: none;
+      }
+    }
+  }
+
+  &--overlay {
+    flex: 1;
+    & .Carousel {
+      &-item, &-list {
+        width: 100%;
+        height: 100%;
+      }
+      &-images {
+        height: 100%;
+      }
+      &-image {
+        max-height: calc(100vh - $modal-image-padding * 2);
+        max-width: calc(100vw - 150px - $modal-image-padding * 2);
+        height: auto;
+        width: auto;
+      }
+    }
+  }
+
+  &--nodes {
+    padding: $bundles-carousel-padding;
+    & .Carousel {
+      &-images {
+        overflow: visible;
+        height: auto;
+      }
+      &-item {
+        display: inline-block;
+        pointer-events: none;
+        min-height: 230px;
+        &.is-selected {
+          pointer-events: auto;
+          position: relative;
+        }
+      }
+      &-arrow {
+        display: none;
+      }
+    }
+  }
+  &--cmsContent {
+    margin: 0;
+    padding: 0;
+
+    & .Carousel-tapMessage {
+      display: none;
+    }
+  }
+
+  &--social, &--blog {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+
+    & .Carousel {
+      &-list--social, &-list--blog {
+        display: flex;
+        align-items: center;
+      }
+
+      &-item--social, &-item--blog {
+        width: 60%;
+        transform: translateX(200%);
+      }
+
+      &-item--blog {
+        width: 50%;
+      }
+
+      &-text--blog {
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      &-leftItem {
+        transform: translateX(-100%);
+        &.is-selected {
+          animation-name: Carousel-slide;
+        }
+      }
+
+
+      &-leftItem.is-previous {
+        animation-name: Carousel-slideRight;
+
+        & + .Carousel-leftItem {
+          animation-name: Carousel-slideOutRight;
+        }
+
+      }
+
+      &-rightItem.is-selected {
+        transform: translateX(100%);
+        animation-name: Carousel-slide;
+
+        & + .Carousel-rightItem {
+          animation-name: Carousel-fadeInRight;
+        }
+
+      }
+
+      &-rightItem.is-previous {
+        transform: translateX(0);
+      }
+    }
+  }
+
+  &-socialType {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+
+  &-zoom {
+    display: none;
+  }
+}
+
+@keyframes Carousel-slideOutRight {
+  /* postcss-bem-linter: ignore */
+  from {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+  /* postcss-bem-linter: ignore */
+  to {
+    opacity: 0;
+    transform: translateX(200%);
+  }
+}
+
+@keyframes Carousel-fadeOutLeft {
+  /* postcss-bem-linter: ignore */
+  to {
+    opacity: $carousel-opacity-fade-start;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes Carousel-fadeOutRight {
+  /* postcss-bem-linter: ignore */
+  to {
+    opacity: $carousel-opacity-fade-start;
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes Carousel-fadeIn {
+  /* postcss-bem-linter: ignore */
+  from {
+    opacity: $carousel-opacity-fade-start;
+  }
+  /* postcss-bem-linter: ignore */
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes Carousel-fadeInRight {
+  /* postcss-bem-linter: ignore */
+  to {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes Carousel-slideRight {
+  /* postcss-bem-linter: ignore */
+  from {
+    transform: translateX(0);
+  }
+  /* postcss-bem-linter: ignore */
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes Carousel-slide {
+  /* postcss-bem-linter: ignore */
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes Carousel-tapMessage {
+  /* postcss-bem-linter: ignore */
+  0% {
+    opacity: 0;
+  }
+  /* postcss-bem-linter: ignore */
+  10% {
+    opacity: 1;
+  }
+  /* postcss-bem-linter: ignore */
+  90% {
+    opacity: 1;
+  }
+  /* postcss-bem-linter: ignore */
+  100% {
+    opacity: 0;
+  }
+}
+
+@media $min-tablet {
+  .Carousel {
+    height: 100%;
+
+    &--panel {
+      padding: 0 45px;
+    }
+
+    &-selectors {
+      display: none;
+    }
+
+    &-zoom {
+      display: block;
+      position: absolute;
+      right: $carousel-zoom-position-right;
+      bottom: $carousel-zoom-position-bottom;
+      z-index: 100;
+      padding: $carousel-zoom-padding;
+      cursor: pointer;
+      background: url("$carousel-zoom-icon") no-repeat center;
+      width: 18px;
+      height: 18px;
+    }
+
+    &-container {
+      margin: 0;
+      margin-bottom: 20px;
+      height: 100%;
+
+      &--thumbnailEnabled {
+        justify-content: flex-start;
+      }
+    }
+
+    &--overlay {
+      & .Carousel {
+        &-image {
+          max-height: calc(100vh - $modal-image-padding-desktop * 2);
+          max-width: calc(100vw - 150px - $modal-image-padding-desktop * 2);
+        }
+      }
+    }
+  }
+}
+
+@media $tablet {
+  .Carousel {
+    &-container {
+        display: block;
+        flex-grow: 0;
+    }
+
+    &--thumbnail {
+      display: none;
+    }
+  }
+}

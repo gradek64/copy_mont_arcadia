@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBookForm @render should show the newAddress form 1`] = `
+<div
+  className="AddressBookFormWrapper"
+>
+  <a
+    className="AddressBookForm-close"
+    href=""
+    onClick={[Function]}
+  >
+    CANCEL
+  </a>
+  <Form
+    className="AddressBookForm"
+    noValidate={true}
+  >
+    <Connect(AddressForm)
+      addressType="addressBook"
+    />
+    <Connect(AddressFormDetails)
+      addressType="addressBook"
+    />
+    <DeliverToAddressBttnForm
+      addressType="addressBook"
+      clearFormErrors={[Function]}
+      deliverToAddressErrorMsg="Please confirm this new address or cancel to continue"
+      forms={
+        Object {
+          "addressForm": Object {
+            "errors": Object {},
+            "fields": Object {
+              "address1": Object {
+                "value": "",
+              },
+              "address2": Object {
+                "value": null,
+              },
+              "city": Object {
+                "value": "",
+              },
+              "country": Object {
+                "value": "",
+              },
+              "postcode": Object {
+                "value": "",
+              },
+              "state": Object {
+                "value": "",
+              },
+            },
+          },
+          "deliverToAddressForm": undefined,
+          "detailsForm": Object {
+            "errors": Object {},
+            "fields": Object {
+              "firstName": Object {
+                "value": "",
+              },
+              "lastName": Object {
+                "value": "",
+              },
+              "telephone": Object {
+                "value": "",
+              },
+              "title": Object {
+                "value": "",
+              },
+            },
+          },
+          "findAddressForm": Object {
+            "errors": Object {},
+            "fields": Object {
+              "houseNumber": Object {
+                "value": "",
+              },
+              "postcode": Object {
+                "value": "",
+              },
+            },
+          },
+        }
+      }
+      onSubmitForm={[Function]}
+      resetForm={[Function]}
+      validateForm={[Function]}
+    />
+  </Form>
+</div>
+`;

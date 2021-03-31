@@ -1,0 +1,24 @@
+@font-face {
+  font-display: swap;
+  font-family: Poppins;
+  src: url('public/common/fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+       url('public/common/fonts/Poppins/Poppins-Regular.woff') format('woff'),
+       url('public/common/fonts/Poppins/Poppins-Regular.ttf') format('ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-family: Poppins;
+  src: url('public/common/fonts/Poppins/Poppins-Medium.woff2') format('woff2'),
+       url('public/common/fonts/Poppins/Poppins-Medium.woff') format('woff'),
+       url('public/common/fonts/Poppins/Poppins-Medium.ttf') format('ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-family: Poppins;
+  src: url('public/common/fonts/Poppins/Poppins-SemiBold.woff2') format('woff2'),
+       url('public/common/fonts/Poppins/Poppins-SemiBold.woff') format('woff'),
+       url('public/common/fonts/Poppins/Poppins-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+}

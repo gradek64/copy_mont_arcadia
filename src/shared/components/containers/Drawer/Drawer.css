@@ -1,0 +1,49 @@
+/** @define Drawer */
+
+.Drawer {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  /* fallback if doesnt support vw */
+
+  width: 80vw;
+  right: -100%;
+  height: 100%;
+  overflow: hidden;
+  background: $mini-bag-background-color;
+  border-left: $mini-bag-border-width solid $mini-bag-border-color;
+  transition: right 0.5s;
+  will-change: right;
+  z-index: 4;
+  box-sizing: border-box;
+
+  &.is-scrollable {
+    overflow-y: scroll;
+  }
+
+  &.is-open {
+    right: 0;
+    box-shadow: -6px 0 $mini-bag-shadow-strength $mini-bag-shadow-color;
+  }
+
+}
+
+@media $min-tablet {
+  .Drawer {
+    width: $mini-bag-width-min-tablet;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.Drawer.direction-bottom {
+  bottom: -100%;
+  background-color: transparent;
+  height: auto;
+  transition: bottom 0.5s;
+  width: 100%;
+}
+/* postcss-bem-linter: ignore */
+.Drawer.is-open.direction-bottom {
+  bottom: 0;
+}

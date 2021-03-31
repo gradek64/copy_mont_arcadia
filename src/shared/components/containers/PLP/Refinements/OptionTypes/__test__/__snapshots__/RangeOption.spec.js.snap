@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RangeOption /> @renders in default state 1`] = `
+<div
+  className="RangeOption"
+  key="false"
+>
+  <Connect(Slider)
+    maxValue={100}
+    minValue={0}
+    onChangeFinished={[Function]}
+  />
+</div>
+`;

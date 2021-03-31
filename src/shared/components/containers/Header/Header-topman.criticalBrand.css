@@ -1,0 +1,141 @@
+/** @define Header */
+
+@lost flexbox flex;
+
+.Header {
+  &-shoppingCartIcon {
+    background-image: url('/assets/topman/images/shopping-cart-icon-green.svg');
+
+    &.is-empty {
+      background-image: url('/assets/topman/images/shopping-cart-icon-white.svg');
+    }
+  }
+}
+
+/** @define HeaderTopman; weak */
+
+.HeaderTopman {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &-brand {
+    left: 0;
+    height: 38px;
+    margin: 0 auto;
+    max-width: $laptop-end-width;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &-brandLink {
+    display: block;
+    margin: 12px auto;
+    position: relative;
+    width: 160px;
+    z-index: 2;
+  }
+
+  & .BrandLogo-img {
+    display: block;
+    width: 100%;
+  }
+
+  &-content {
+    opacity: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+    margin: 0 auto;
+    max-width: $laptop-end-width;
+    padding: 0 10px;
+    position: relative;
+    width: 100%;
+  }
+
+  &-shippingInfo {
+    flex: 1;
+  }
+
+  &-search {
+    & .SearchBar--big {
+      top: 0;
+      left: 0;
+
+      & .SearchBar-icon {
+        height: 18px;
+        padding: 0 0 0 8px;
+        vertical-align: middle;
+      }
+
+      & .SearchBar-queryInput,
+      & .SearchBar-queryInput:focus {
+        width: 80px;
+      }
+    }
+  }
+
+  & .ShippingDestination {
+    margin: 0 0 0 15px;
+    min-width: auto;
+  }
+
+  &-separator {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin: 0;
+    width: 100%;
+  }
+
+  &-navigation {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: $laptop-end-width;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media $min-laptop {
+  .HeaderTopman {
+    &-content {
+      padding: 0 20px;
+    }
+
+    &-brand {
+      height: 50px;
+      right: 0;
+      top: 38px;
+    }
+
+    &-brandLink {
+      margin: 0;
+      height: 100%;
+      width: 180px;
+    }
+
+    &-search {
+      width: 25%;
+
+      & .SearchBar--big {
+        & .SearchBar-queryInput,
+        & .SearchBar-queryInput:focus {
+          width: auto;
+        }
+      }
+    }
+
+    & .ShippingDestination {
+      margin: 0 0 0 20px;
+    }
+
+    & .MegaNav {
+      flex: 1;
+      margin: 0 0 0 220px;
+    }
+  }
+}

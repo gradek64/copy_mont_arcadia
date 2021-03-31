@@ -1,0 +1,35 @@
+const colors = require('./default-colors')
+
+module.exports = {
+  'slider-margin': '50px 0 20px',
+  'slider-background-color': colors.black,
+  'slider-bar-background-color': colors.black,
+  'slider-bar-height': '5px',
+  'slider-label-font-weight': null,
+  'slider-label-font-size': null,
+  'slider-label-padding': '8px 5px',
+  'slider-label-bottom': '15px',
+  'slider-label-width': 'auto',
+  'slider-label-text-align': 'center',
+  'slider-label-background': colors.black,
+  'slider-label-color': colors.white,
+  'slider-icon-width': '25px',
+  'slider-icon-display': 'block',
+  'slider-icon-background-color': colors.black,
+  'slider-icon-active-background-color': colors['md-gray'],
+
+  // desktop
+  'slider-background-color-desktop': colors['lt-gray'],
+  'slider-margin-desktop': '30px 0 10px',
+  'slider-label-font-size-desktop': null,
+  'slider-label-font-weight-desktop': null,
+  'slider-icon-width-desktop': '10px',
+  'slider-label-bottom-desktop': '12px',
+  'slider-label-padding-desktop': '0',
+  'slider-bar-height-desktop': '2px',
+  'slider-bar-background-color-desktop': colors.black,
+  'slider-icon-background-color-desktop': colors.black,
+  'slider-icon-active-background-color-desktop': colors['md-dk-gray'],
+  'slider-label-color-desktop': null,
+  'slider-handle-width': '10px',
+}

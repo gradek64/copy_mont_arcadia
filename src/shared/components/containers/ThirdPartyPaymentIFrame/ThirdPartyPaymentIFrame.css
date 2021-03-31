@@ -1,0 +1,8 @@
+/** @define ThirdPartyPaymentIFrame */
+
+/* 400x390 is the standard dimension of a 3D Secure v1 challenge */
+.ThirdPartyPaymentIFrame {
+  width: 400px;
+  height: 390px;
+  border: 0;
+}

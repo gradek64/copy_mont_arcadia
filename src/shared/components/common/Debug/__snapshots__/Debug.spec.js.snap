@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Debug/> @renders in a default state 1`] = `
+<div
+  className="Debug"
+  onClick={[Function]}
+>
+  <div
+    className="Debug-content"
+  >
+    <header
+      className="Debug-header"
+    >
+      <h2
+        className="Debug-title"
+      >
+        Debug menu
+      </h2>
+      <button
+        className="Debug-close"
+      >
+        ×
+      </button>
+    </header>
+    <Accordion
+      accordionName="Build-info"
+      arrowPosition="left"
+      arrowStyle="primary"
+      className="Build-info"
+      expanded={false}
+      header="Build info"
+      isDisabled={false}
+      noContentBorderTop={false}
+      noExpandedHeaderBackground={false}
+      noMaxHeight={false}
+      onAccordionToggle={[Function]}
+      showLoader={false}
+      statusIndicatorText=""
+      subHeader=""
+      withoutBorders={false}
+    >
+      <ul>
+        <li>
+          API Environment: 
+          tst1
+        </li>
+        <li>
+          Build
+          <ul>
+            <li
+              key="info-0"
+            >
+              date
+              : 
+              Wed, 19 Feb 2020 13:14:39 +0000
+            </li>
+            <li
+              key="info-1"
+            >
+              hash
+              : 
+              468acb5251804b2912bd4804ec1c4b69ef7482e8
+            </li>
+            <li
+              key="info-2"
+            >
+              tag
+              : 
+              v3.96.3
+            </li>
+            <li
+              key="info-3"
+            >
+              version
+              : 
+              3.96.3 (package.json)
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </Accordion>
+    <Accordion
+      accordionName="Debug-features"
+      arrowPosition="left"
+      arrowStyle="primary"
+      className="Debug-features"
+      expanded={false}
+      header="Feature flags"
+      isDisabled={false}
+      noContentBorderTop={false}
+      noContentPadding={true}
+      noExpandedHeaderBackground={false}
+      noMaxHeight={false}
+      onAccordionToggle={[Function]}
+      showLoader={false}
+      statusIndicatorText=""
+      subHeader=""
+      withoutBorders={false}
+    >
+      <div>
+        <button
+          className="Debug-button Debug-feature"
+          id="reset-features-button"
+        >
+          Reset features
+        </button>
+      </div>
+      <div>
+        <button
+          className="Debug-button Debug-feature is-enabled"
+          key="feature-0"
+          onClick={[Function]}
+        >
+          Toggle 
+          FEATURE1
+           - 
+          enabled
+           
+        </button>
+        <button
+          className="Debug-button Debug-feature "
+          key="feature-1"
+          onClick={[Function]}
+        >
+          Toggle 
+          FEATURE2
+           - 
+          disabled
+           
+        </button>
+        <button
+          className="Debug-button Debug-feature is-enabled"
+          key="feature-2"
+          onClick={[Function]}
+        >
+          Toggle 
+          FEATURE3
+           - 
+          enabled
+           
+           - OVERRIDDEN
+        </button>
+        <button
+          className="Debug-button Debug-feature "
+          key="feature-3"
+          onClick={[Function]}
+        >
+          Toggle 
+          FEATURE4
+           - 
+          disabled
+           
+           - OVERRIDDEN
+        </button>
+      </div>
+    </Accordion>
+    <Accordion
+      accordionName="Debug-checkout"
+      arrowPosition="left"
+      arrowStyle="primary"
+      className="Debug-checkout"
+      expanded={false}
+      header="Checkout"
+      isDisabled={false}
+      noContentBorderTop={false}
+      noContentPadding={true}
+      noExpandedHeaderBackground={false}
+      noMaxHeight={false}
+      onAccordionToggle={[Function]}
+      showLoader={false}
+      statusIndicatorText=""
+      subHeader=""
+      withoutBorders={false}
+    >
+      <div>
+        <button
+          className="Debug-button"
+          onClick={[Function]}
+        >
+          Get mini bag
+        </button>
+        <button
+          className="Debug-button"
+          onClick={[Function]}
+        >
+          Get order summary bag
+        </button>
+        <button
+          className="Debug-button"
+          onClick={[Function]}
+        >
+          Add item to bag
+        </button>
+        <button
+          className="Debug-button"
+          onClick={[Function]}
+        >
+          Login go to checkout summary
+        </button>
+        <button
+          className="Debug-button"
+          onClick={[Function]}
+        >
+          Get multiple order summaries
+        </button>
+        <Link
+          className="Debug-button"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/checkout/summary"
+        >
+          Go to checkout summary
+        </Link>
+        <Link
+          className="Debug-button"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/checkout/delivery?isAnonymous=true"
+        >
+          Go to checkout anonymous
+        </Link>
+        <Link
+          className="Debug-button"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/checkout/klarna"
+        >
+          Klarna Test
+        </Link>
+        <button
+          className="Debug-button"
+          onClick={[Function]}
+        >
+          Fill in delivery page
+        </button>
+      </div>
+    </Accordion>
+  </div>
+</div>
+`;

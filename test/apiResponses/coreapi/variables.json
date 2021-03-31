@@ -1,0 +1,14 @@
+{
+  "acc1": {
+    "pdp": {
+      "ColourSwatches": "31245280",
+      "FixedBundleProduct": "31767642",
+      "FlexibleBundleProduct": "32000114"
+    }
+  },
+  "dev2": {
+    "cms": {
+      "wcsformSubmitUrl": "ts-dev2.dev.digital.arcadiagroup.co.uk"
+    }
+  }
+}

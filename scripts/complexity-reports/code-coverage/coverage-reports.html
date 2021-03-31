@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <title>Custom Coverage Report</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../common/style.css">
+</head>
+
+<body>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Code Coverage</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../cyclomatic-complexity/cyclomatic-complexity-reports.html">Cyclomatic Complexity</a>
+  </li>
+</ul>
+
+<main>
+  <h6 id="errorMessage"></h6>
+
+  <h6>Total Files:&#160;<span id="totalFilesCount"></span></h6>
+  <h6>Average Statements Coverage:&#160;<span id="averageStatementsCoverage"></span></h6>
+  <h6>Average Branches Coverage:&#160;<span id="averageBranchesCoverage"></span></h6>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('name')">
+        <div class="tableColumnTitleText">File Name</div>
+        <div id="nameSortOrder" class="sortOrderArrow">-</div>
+      </td>
+
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('changes')">
+        <div class="tableColumnTitleText">Git Changes</div>
+        <div id="changesSortOrder" class="sortOrderArrow">-</div>
+      </td>
+
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('highestStatements')">
+        <div class="tableColumnTitleText">Highest Statements</div>
+        <div id="highestStatementsSortOrder" class="sortOrderArrow">-</div>
+      </td>
+
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('highestBranches')">
+        <div class="tableColumnTitleText">Highest Branches</div>
+        <div id="highestBranchesSortOrder" class="sortOrderArrow">-</div>
+      </td>
+
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('statements')">
+        <div class="tableColumnTitleText">Statements (Jest)</div>
+        <div id="statementsSortOrder" class="sortOrderArrow">-</div>
+      </td>
+
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('branches')">
+        <div class="tableColumnTitleText">Branches (Jest)</div>
+        <div id="branchesSortOrder" class="sortOrderArrow">-</div>
+      </td>
+    </tr>
+    </thead>
+
+    <tbody id="coverageTable">
+    </tbody>
+  </table>
+</main>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../common/script.js"></script>
+<script src="coverage-processor.js"></script>
+</body>
+</html>

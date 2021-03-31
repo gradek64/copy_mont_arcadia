@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FitAttributes/> @renders in default state 1`] = `
+<Connect(FeatureCheck)
+  flag="FEATURE_SHOW_FIT_ATTRIBUTE_LINKS"
+>
+  <div
+    className="FitAttributes"
+  >
+    <Link
+      className="FitAttributes-link FitAttributes--stateActive"
+      key="20434610"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/en/tsuk/product/moto-star-stud-denim-borg-jacket-7196268"
+    >
+      Tall
+    </Link>
+    <Link
+      className="FitAttributes-link"
+      key="20906473"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/en/tsuk/product/moto-knot-tie-jumpsuit-7178618"
+    >
+      Petite
+    </Link>
+    <Link
+      className="FitAttributes-link"
+      key="20865068"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/en/tsuk/product/moto-side-striped-denim-skirt-7216592"
+    >
+      Maternity
+    </Link>
+  </div>
+</Connect(FeatureCheck)>
+`;

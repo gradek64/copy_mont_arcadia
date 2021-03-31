@@ -1,0 +1,6 @@
+/** @define RecentlyViewed; weak */
+.RecentlyViewed {
+  &-header {
+     font-weight: $recently-viewed-header-font-weight;
+   }
+}

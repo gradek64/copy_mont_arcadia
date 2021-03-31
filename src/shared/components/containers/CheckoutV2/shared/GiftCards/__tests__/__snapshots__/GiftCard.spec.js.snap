@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GiftCard /> @renders in default state 1`] = `
+<div
+  className="GiftCard"
+>
+  <div
+    className="GiftCard-row"
+  >
+    <span
+      className="GiftCard-number"
+    >
+      Gift card number: XXXX XXXX XXXX 7299
+    </span>
+    <span
+      className="GiftCard-amountUsed"
+    >
+      -
+      <Price
+        className=""
+        price="5.00"
+      />
+    </span>
+  </div>
+  <ButtonLink
+    className="GiftCard-remove"
+    clickHandler={[Function]}
+    isDisabled={false}
+    type="button"
+  >
+    Remove this gift card
+  </ButtonLink>
+</div>
+`;

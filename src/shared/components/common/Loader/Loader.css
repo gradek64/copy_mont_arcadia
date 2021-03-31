@@ -1,0 +1,98 @@
+/** @define Loader */
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 45px;
+
+  &.is-overlay {
+    /* half viewport height - half loader height */
+    margin-top: calc(50vh - 25px);
+  }
+
+  &-image {
+    width: 50px;
+    height: 50px;
+    &--button {
+      width: $font-size-button;
+      height: $font-size-button;
+    }
+  }
+
+  &-circle {
+    fill-opacity: 0.4;
+    animation-name: Loader-fadeIn;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  &-circle2 {
+    animation-delay: 0.2s;
+  }
+
+  &-circle3 {
+    animation-delay: 0.4s;
+  }
+
+  &-circle4 {
+    animation-delay: 0.6s;
+  }
+
+  &-circle5 {
+    animation-delay: 0.8s;
+  }
+
+  &-circle6 {
+    animation-delay: 1s;
+  }
+
+  &-circle7 {
+    animation-delay: 1.2s;
+  }
+
+  &-circle8 {
+    animation-delay: 1.4s;
+  }
+
+  &--button {
+    margin-top: 0;
+  }
+}
+
+@keyframes Loader-fadeIn {
+  /* postcss-bem-linter: ignore */
+  0%, 100% {
+    fill-opacity: 1;
+  }
+  /* postcss-bem-linter: ignore */
+  12.5% {
+    fill-opacity: 0.8;
+  }
+  /* postcss-bem-linter: ignore */
+  25% {
+    fill-opacity: 0.6;
+  }
+  /* postcss-bem-linter: ignore */
+  37.5% {
+    fill-opacity: 0.4;
+  }
+  /* postcss-bem-linter: ignore */
+  50% {
+    fill-opacity: 0.4;
+  }
+  /* postcss-bem-linter: ignore */
+  62.5% {
+    fill-opacity: 0.4;
+  }
+  /* postcss-bem-linter: ignore */
+  75% {
+    fill-opacity: 0.4;
+  }
+  /* postcss-bem-linter: ignore */
+  87.5% {
+    fill-opacity: 0.4;
+  }
+}

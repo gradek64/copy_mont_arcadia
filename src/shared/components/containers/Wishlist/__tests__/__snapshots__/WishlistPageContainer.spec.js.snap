@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WishlistPageContainer @renders on client when user has items in the wishlist renders <WishlistItemContainer /> CSSTransition 1`] = `
+<div
+  className="WishlistPageContainer"
+>
+  <h1
+    className="WishlistPageContainer-title"
+  >
+    My Wishlist
+  </h1>
+  <span
+    className="WishlistPageContainer-itemCount"
+  >
+    100 items
+  </span>
+  <CSSTransition
+    classNames="fade"
+    in={false}
+    timeout={
+      Object {
+        "enter": 400,
+        "exit": 0,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <EmptyWishlist
+      isUserAuthenticated={true}
+      onSignInHandler={[Function]}
+      visited={Array []}
+    />
+  </CSSTransition>
+  <WishlistLimitInfo
+    withMarginTop={true}
+  />
+  <CSSTransition
+    classNames="fade"
+    in={true}
+    timeout={400}
+    unmountOnExit={true}
+  >
+    <Connect(WishlistItemContainer)
+      grid={4}
+      items={
+        Array [
+          Object {
+            "catEntryId": "31621890",
+          },
+          Object {
+            "catEntryId": "31621847",
+          },
+        ]
+      }
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`WishlistPageContainer @renders on client when user is authenticated but has no wishlisted items renders <EmptyWishlist /> CSSTransition 1`] = `
+<div
+  className="WishlistPageContainer"
+>
+  <h1
+    className="WishlistPageContainer-title"
+  >
+    My Wishlist
+  </h1>
+  <CSSTransition
+    classNames="fade"
+    in={true}
+    timeout={
+      Object {
+        "enter": 400,
+        "exit": 0,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <EmptyWishlist
+      isUserAuthenticated={true}
+      onSignInHandler={[Function]}
+      visited={Array []}
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames="fade"
+    in={false}
+    timeout={400}
+    unmountOnExit={true}
+  >
+    <Connect(WishlistItemContainer)
+      grid={4}
+      items={Array []}
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`WishlistPageContainer @renders on client when user is not authenticated renders <EmptyWishlist /> CSSTransition 1`] = `
+<div
+  className="WishlistPageContainer"
+>
+  <h1
+    className="WishlistPageContainer-title"
+  >
+    My Wishlist
+  </h1>
+  <CSSTransition
+    classNames="fade"
+    in={true}
+    timeout={
+      Object {
+        "enter": 400,
+        "exit": 0,
+      }
+    }
+    unmountOnExit={true}
+  >
+    <EmptyWishlist
+      isUserAuthenticated={false}
+      onSignInHandler={[Function]}
+      visited={Array []}
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames="fade"
+    in={false}
+    timeout={400}
+    unmountOnExit={true}
+  >
+    <Connect(WishlistItemContainer)
+      grid={4}
+      items={null}
+    />
+  </CSSTransition>
+</div>
+`;

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Signin /> @renders should render a session expired message 1`] = `
+<section
+  className="SignIn"
+>
+  <SignInMessage
+    centerAlign={true}
+  />
+  <RegisterLogin
+    helmet={
+      Object {
+        "link": Array [
+          Object {
+            "href": "http://www.topshop.com/login",
+            "rel": "canonical",
+          },
+        ],
+        "title": "Sign In",
+      }
+    }
+    hideRegister={true}
+    loginFormName="login"
+    source="MYACCOUNT"
+    successCallback={[Function]}
+  />
+</section>
+`;
+
+exports[`<Signin /> @renders should render default state  1`] = `
+<section
+  className="SignIn"
+>
+  <Connect(ContactBanner) />
+  <RegisterLogin
+    getLoginNextRoute={[Function]}
+    getRegisterNextRoute={[Function]}
+    helmet={
+      Object {
+        "link": Array [
+          Object {
+            "href": "http://www.topshop.com/login",
+            "rel": "canonical",
+          },
+        ],
+        "title": "Sign In",
+      }
+    }
+    hideRegister={false}
+    loginFormName="login"
+    source="MYACCOUNT"
+  />
+</section>
+`;
+
+exports[`<Signin /> @renders should render the contact banner component 1`] = `
+<section
+  className="SignIn"
+>
+  <Connect(ContactBanner) />
+  <RegisterLogin
+    getLoginNextRoute={[Function]}
+    getRegisterNextRoute={[Function]}
+    helmet={
+      Object {
+        "link": Array [
+          Object {
+            "href": "http://www.topshop.com/login",
+            "rel": "canonical",
+          },
+        ],
+        "title": "Sign In",
+      }
+    }
+    hideRegister={false}
+    loginFormName="login"
+    source="MYACCOUNT"
+  />
+</section>
+`;
+
+exports[`<Signin /> @renders with search having return param 1`] = `
+<section
+  className="SignIn"
+>
+  <Connect(ContactBanner) />
+  <RegisterLogin
+    getLoginNextRoute={[Function]}
+    getRegisterNextRoute={[Function]}
+    helmet={
+      Object {
+        "link": Array [
+          Object {
+            "href": "http://www.topshop.com/login",
+            "rel": "canonical",
+          },
+        ],
+        "title": "Sign In",
+      }
+    }
+    hideRegister={false}
+    loginFormName="login"
+    source="MYACCOUNT"
+  />
+</section>
+`;

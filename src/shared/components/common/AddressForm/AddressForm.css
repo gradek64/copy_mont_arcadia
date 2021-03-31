@@ -1,0 +1,33 @@
+
+/** @define AddressForm */
+
+.AddressForm {
+  border: 0;
+
+  &-col {
+    display: none;
+  }
+} 
+
+@media $min-laptop {
+    .AddressForm {
+      &--multiColumn {
+         & .AddressForm {
+             &-row {
+              display: flex;
+            }
+
+            &-col {
+              display: flex;
+              flex: 1;
+              margin-left: $left-col-margin;
+            }
+
+            &-country {
+              flex: 1;
+            }
+                      
+          } 
+      }
+    }
+} 

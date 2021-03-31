@@ -1,0 +1,145 @@
+{
+  "Locale": "en_US",
+  "LangId": -1,
+  "storeName": "Topshop",
+  "userType": "R",
+  "strLogonId": "12556giancarlo.pecchia@arcadiagroup.co.uk",
+  "lastCmdName": "TopCategoriesDisplay",
+  "userField3": "",
+  "userIdCmd": "1309716",
+  "WCParam.catalogId": {
+    "catalogId": "33057",
+    "langId": "-1",
+    "storeId": "12556"
+  },
+  "storeImgDir": "/wcsstore/TopShop/",
+  "storeDir": "/TopShop/",
+  "jspStoreImgDir": "/wcsstore/ConsumerDirectStorefrontAssetStore/",
+  "jspStoreDir": "/ConsumerDirectStorefrontAssetStore/",
+  "headerIncludeFile": "/ConsumerDirectStorefrontAssetStore/Monty/include/styles/style1/CachedHeaderDisplay.jsp",
+  "sidebarIncludeFile": "/ConsumerDirectStorefrontAssetStore/include/styles/style1/CachedSidebarDisplay.jsp",
+  "footerIncludeFile": "/ConsumerDirectStorefrontAssetStore/Monty/include/styles/style1/CachedFooterDisplay.jsp",
+  "hostName": "http://ts.pplive.arcadiagroup.ltd.uk",
+  "storeDynamicText": "javax.servlet.jsp.jstl.fmt.LocalizationContext@73787378",
+  "orderitemField1": "",
+  "orderitemField2": "",
+  "contextpathURLOld": "/webapp/wcs/stores/servlet/",
+  "contextpathURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/",
+  "contextpathsearchURL": "//ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/",
+  "akamaiHost": "http://ts.pplive.arcadiagroup.ltd.uk",
+  "akamaiContextpathURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/",
+  "custExpNewCatalogId": "33057",
+  "useCatalogSwitcher": "N",
+  "css_version_var": "v3",
+  "css_version": "v3",
+  "vfileColor": "images/colors/color7/v3/",
+  "isStagingServer": "N",
+  "categoryDisplay": "",
+  "guidedNavEnabled": "true",
+  "ABPhoto": "",
+  "productPhotographyEnabled": "N",
+  "defaultDisplayPriceRuleName": "List price rule",
+  "attributeDictionaryEnabled": "N",
+  "dojolocale": "en-us",
+  "dojoDir": "dojo131",
+  "dojoFile": "dojo131/dojo/dojo.js",
+  "dojoConfigParams": "parseOnLoad: false, isDebug: false, useCommentedJson: true,locale: 'en-us' ",
+  "defaultDisplayDiscountedPriceRuleName": "Discounted price rule",
+  "skuLevelPricingEnabledFlag": "N",
+  "wasWasNowEnabledFlag": "Y",
+  "orderId": "",
+  "defaultShippingCountryForStore": "United Kingdom",
+  "dts_enabled": "true",
+  "delivery_icons": "true",
+  "jsAttributeArrayEnabled": "Y",
+  "geoLocaleChar": "???GEO_LOCALE_CHAR???",
+  "generateSEOUrls": "true",
+  "productIdentifierProperty": "product",
+  "categoryIdentifierProperty": "category",
+  "interstitialTokenProperty": "home",
+  "isHomePageEndecaEnabled": "false",
+  "globalEspot": {
+    "isJsonFormat": true,
+    "espotContents": {
+      "pageId": "116870",
+      "pageName": "Mobile PLP POS1 eSpot",
+      "baseline": "29",
+      "pageLastPublished": "2017-05-25 09:48:22.18484",
+      "pagePublishedBy": "Jake Stewart",
+      "contentPath": "/cms/pages/json/json-0000116870/json-0000116870.json",
+      "seoUrl": "",
+      "templateName": "Mobile Feature Page Data (REF 0000012221)",
+      "templatePublishDate": "2016-05-12 10:31:10.363931",
+      "site": "TSUK",
+      "type": "Page",
+      "version": "0",
+      "pageData": [
+        {
+          "type": "imagelist",
+          "data": {
+            "options": {},
+            "columns": 1,
+            "assets": [
+              {
+                "target": "",
+                "alt": "Shipping Upgrade",
+                "link": "/en/tsuk/category/uk-delivery-4043283/home?TS=1421171569402&amp;cat2=2141530&amp;intcmpid=mobile_PLP_Delivery",
+                "source": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/json/json-0000116870/images/Monty-PLP-UK.svg"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "homeEspot1": {
+    "isJsonFormat": true,
+    "espotContents": {
+      "pageId": "116870",
+      "pageName": "Mobile PLP POS1 eSpot",
+      "baseline": "29",
+      "pageLastPublished": "2017-05-25 09:48:22.18484",
+      "pagePublishedBy": "Jake Stewart",
+      "contentPath": "/cms/pages/json/json-0000116870/json-0000116870.json",
+      "seoUrl": "",
+      "templateName": "Mobile Feature Page Data (REF 0000012221)",
+      "templatePublishDate": "2016-05-12 10:31:10.363931",
+      "site": "TSUK",
+      "type": "Page",
+      "version": "0",
+      "pageData": [
+        {
+          "type": "imagelist",
+          "data": {
+            "options": {},
+            "columns": 1,
+            "assets": [
+              {
+                "target": "",
+                "alt": "Shipping Upgrade",
+                "link": "/en/tsuk/category/uk-delivery-4043283/home?TS=1421171569402&amp;cat2=2141530&amp;intcmpid=mobile_PLP_Delivery",
+                "source": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/json/json-0000116870/images/Monty-PLP-UK.svg"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "homeEspot2": {},
+  "homeEspot3": {},
+  "interstitialContents": {},
+  "interstitialLocation": "%2Fcontent%2FStores.war%2FTopShop%2Finterstitials%2Fcms%2Fpages%2Fstatic%2Fstatic-0000038170%2Fstatic-0000038170.html",
+  "homeEspot4": {},
+  "homeEspot5": {},
+  "homeEspot6": {},
+  "homeEspot7": {},
+  "homeEspot8": {},
+  "homeEspot9": {},
+  "omnitureTracking": {
+    "s.pageName": "TS:Home Page",
+    "s.channel": "TS:Home",
+    "s.prop3": "TS:Home Page",
+    "s.prop4": "logged-in"
+  }
+}

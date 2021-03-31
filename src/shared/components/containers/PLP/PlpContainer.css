@@ -1,0 +1,93 @@
+/** @define PlpContainer; weak */
+
+.PlpContainer {
+  width: 100%;
+  overflow-x: hidden;
+
+  &-pagination {
+    padding: 10px;
+    height: 50px;
+    margin-top: -30px;
+    display: none;
+  }
+
+  &-plpHeader {
+    margin-top: 45px;
+  }
+
+  &-paginationPrev {
+    display: none;
+    color: $black;
+    &.is-shown {
+      display: block;
+      float: left;
+    }
+  }
+
+  &-paginationNext {
+    display: none;
+    color: $black;
+    &.is-shown {
+      display: block;
+      float: right;
+    }
+  }
+
+  &-resultsSection {
+    display: flex;
+    &.is-loading {
+      min-height: 100vh;
+
+      &.is-stickyHeader {
+        min-height: calc(100vh - $mega-nav-height);
+      }
+    }
+  }
+
+  &-refinementListContainer {
+    display: none;
+    flex: 0 0 200px;
+    overflow: hidden;
+  }
+
+  &-productListContainer {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  &-refineByTitle {
+    margin: 15px;
+  }
+
+   & .CmsFrame {
+    margin-bottom: $plp-container-margin-bottom;
+  }
+
+  &-commaHidden {
+    visibility: hidden;
+  }
+}
+
+@media $min-tablet {
+  .PlpContainer {
+    max-width: $laptop-end-width;
+    margin: 0 auto;
+    &-refinementListContainer {
+      display: block;
+    }
+  }
+}
+
+@media $mobile {
+  .PlpContainer {
+    &-plpHeader {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.nojs .PlpContainer-pagination {
+  display: block;
+}

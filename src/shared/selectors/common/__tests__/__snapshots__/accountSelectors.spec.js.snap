@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@Account Selectors [get User Countries], extract billing country 1`] = `"United Kingdom"`;
+
+exports[`@Account Selectors [get User Countries], extract delivery country 1`] = `"United Kingdom"`;
+
+exports[`@Account Selectors [getUserAddress selector] extract user Address from billingDetails 1`] = `
+Object {
+  "address1": "7 Hannah Close",
+  "address2": "Llanishen",
+  "city": "CARDIFF",
+  "country": "United Kingdom",
+  "postcode": "hp3 9fs",
+  "state": "",
+}
+`;
+
+exports[`@Account Selectors [getUserAddress selector] extract user Address from deliveryDetails 1`] = `
+Object {
+  "address1": "7 Hannah Close",
+  "address2": "Llanishen",
+  "city": "CARDIFF",
+  "country": "United Kingdom",
+  "postcode": "se5 9hr",
+  "state": "",
+}
+`;
+
+exports[`@Account Selectors [getUserDetails selector] extract userDetails from user billingDetails 1`] = `
+Object {
+  "firstName": "new first name",
+  "lastName": "Williams",
+  "telephone": "07971134030",
+  "title": "Mrs",
+}
+`;
+
+exports[`@Account Selectors [getUserDetails selector] extract userDetails from user deliveryDetails 1`] = `
+Object {
+  "firstName": "new first name",
+  "lastName": "Williams",
+  "telephone": "07971134030",
+  "title": "Mrs",
+}
+`;
+
+exports[`@Account Selectors [isResetPasswordLinkValid selector return isResetPasswordLinkValid value 1`] = `false`;
+
+exports[`@Account Selectors [selectStoredPaymentDetails selector] should extract creditCard from user 1`] = `
+Object {
+  "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+  "cardNumberStar": "************1152",
+  "expiryMonth": "09",
+  "expiryYear": "2018",
+  "type": "PYPAL",
+}
+`;
+
+exports[`@Account Selectors getDeliveryDetails returns the delivery details 1`] = `
+Object {
+  "address": Object {
+    "address1": "7 Hannah Close",
+    "address2": "Llanishen",
+    "city": "CARDIFF",
+    "country": "United Kingdom",
+    "postcode": "se5 9hr",
+    "state": "",
+  },
+  "addressDetailsId": 2245363,
+  "nameAndPhone": Object {
+    "firstName": "new first name",
+    "lastName": "Williams",
+    "telephone": "07971134030",
+    "title": "Mrs",
+  },
+}
+`;

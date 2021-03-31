@@ -1,0 +1,15 @@
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRDisplayContentID #BVRRDisplayContentHeaderID {
+  position: static;
+  width: 200px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRRootElement .BVRROverallRatingContainer {
+  top: 0;
+  float: none !important;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRPrimarySummary .BVRRRatingSummaryLinks {
+  width: auto;
+  display: inline-block;
+}

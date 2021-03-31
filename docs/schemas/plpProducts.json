@@ -1,0 +1,193 @@
+{
+  "type": "object",
+  "properties": {
+    "productId": {
+      "type": "number",
+      "example": 21953026
+    },
+    "lineNumber": {
+      "type": "string",
+      "example": "TS32F04ITAN"
+    },
+    "name": {
+      "type": "string",
+      "example": "FAIRFAX Gladiator Fringe Sandals"
+    },
+    "unitPrice": {
+      "type": "string",
+      "example": "40.00"
+    },
+    "seoUrl": {
+      "type": "string",
+      "example": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/fairfax-gladiator-fringe-sandals-4899494"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/productAssets"
+      }
+    },
+    "additionalAssets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assetType": {
+            "type": "string",
+            "enum": [
+              "IMAGE_ZOOM",
+              "IMAGE_2COL",
+              "IMAGE_3COL",
+              "IMAGE_4COL",
+              "IMAGE_OUTFIT_SMALL",
+              "IMAGE_OUTFIT_THUMB",
+              "IMAGE_OUTFIT_LARGE",
+              "IMAGE_OUTFIT_NORMAL",
+              "IMAGE_OUTFIT_ZOOM",
+              "IMAGE_OUTFIT_2COL",
+              "IMAGE_OUTFIT_3COL",
+              "IMAGE_OUTFIT_4COL",
+              "IMAGE_BADGE_SMALL",
+              "IMAGE_BADGE_MEDIUM",
+              "IMAGE_BADGE_LARGE"
+            ],
+            "example": "IMAGE_ZOOM"
+          },
+          "index": {
+            "type": "number",
+            "example": 1
+          },
+          "url": {
+            "type": "string",
+            "example": "http://media.topshop.com/wcsstore/TopShop/images/catalog/32F04ITAN_thumb.jpg"
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {}
+    },
+    "bundleProducts": {
+      "type": "array",
+      "items": {}
+    },
+    "attributes": {
+      "type": "object",
+      "properties": {}
+    },
+    "colourSwatches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "colourName": {
+            "type": "string",
+            "example": ""
+          },
+          "imageUrl": {
+            "type": "string",
+            "example": "http://media.topshop.com/wcsstore/TopShop/images/catalog/swatch/001135.jpg"
+          },
+          "swatchProduct": {
+            "type": "object",
+            "properties": {
+              "productId": {
+                "type": "number",
+                "example": 21953026
+              },
+              "grouping": {
+                "type": "string",
+                "example": "TS32F04ITAN"
+              },
+              "lineNumber": {
+                "type": "string",
+                "example": "32F04ITAN"
+              },
+              "name": {
+                "type": "string",
+                "example": "FAIRFAX Gladiator Fringe Sandals"
+              },
+              "shortDescription": {
+                "type": "string",
+                "example": "FAIRFAX Gladiator Fringe Sandals"
+              },
+              "unitPrice": {
+                "type": "string",
+                "example": "40.00"
+              },
+              "wasPrice": {
+                "type": "string",
+                "example": ""
+              },
+              "productUrl": {
+                "type": "string",
+                "example": "/en/tsuk/product/fairfax-gladiator-fringe-sandals-4899494?bi=0&ps=20&Ntt=gladiator"
+              },
+              "rating": {
+                "type": "string",
+                "example": ""
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "assetType": {
+                      "type": "string",
+                      "example": "IMAGE_SMALL"
+                    },
+                    "index": {
+                      "type": "number",
+                      "example": 1
+                    },
+                    "url": {
+                      "type": "string",
+                      "example": "http://media.topshop.com/wcsstore/TopShop/images/catalog/32F04ITAN_thumb.jpg"
+                    }
+                  }
+                }
+              },
+              "additionalAssets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "assetType": {
+                      "type": "string",
+                      "example": "IMAGE_ZOOM"
+                    },
+                    "index": {
+                      "type": "number",
+                      "example": 1
+                    },
+                    "url": {
+                      "type": "string",
+                      "example": "http://media.topshop.com/wcsstore/TopShop/images/catalog/32F04ITAN_thumb.jpg"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tpmLinks": {
+      "type": "array",
+      "items": {}
+    },
+    "bundleSlots": {
+      "type": "array",
+      "items": {}
+    },
+    "ageVerificationRequired": {
+      "type": "boolean",
+      "example": false
+    },
+    "isBundleOrOutfit": {
+      "type": "boolean",
+      "example": false
+    }
+  }
+}

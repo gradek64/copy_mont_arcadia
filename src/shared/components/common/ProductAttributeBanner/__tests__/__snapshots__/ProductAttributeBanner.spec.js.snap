@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductAttributeBanner/> @renders in default state 1`] = `
+<Connect(Image)
+  className="ProductAttributeBanner"
+  onError={[Function]}
+  src="http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color8/cms/pages/static/static-0000109785/images/Banner_Small_Petite3.png"
+/>
+`;

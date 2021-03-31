@@ -1,0 +1,41 @@
+/** @define OrderProductNotification */
+
+.OrderProductNotification {
+  width: 100%;
+  &-content {
+    display: flex;
+  }
+  &-icon {
+    background-image: $icon-info;
+    width: 30px;
+    height: 18px;
+    background-repeat: no-repeat;
+    align-self: center;
+    &--hasError {
+      background-image: $icon-info-error;
+    }
+  }
+  &-bold {
+    font-weight: bold;
+  }
+  &-message {
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0;
+    width: 250px;
+    &--hasError {
+      color: $error-color;
+    }
+  }
+}
+
+@media $min-laptop {
+  .OrderProductNotification {
+    &-icon {
+      width: 24px;
+    }
+    &-message {
+      width: auto;
+    }
+  }
+}

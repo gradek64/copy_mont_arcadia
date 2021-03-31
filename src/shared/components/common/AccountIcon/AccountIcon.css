@@ -1,0 +1,126 @@
+/** @define AccountIcon */
+
+.AccountIcon {
+
+  &-label {
+    display: inline;
+    font-size: $account-icon-label-font-size-tablet;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+  }
+
+  /* Popover styles */
+
+  &-loggedInContainer:hover {
+    & .AccountIcon-icon--loggedIn {
+      &:before {
+        content: '';
+        position: absolute;
+        display: $account-icon-popover-arrow-display;
+        top: 100%;
+        left: 50%;
+        margin-left: -14px;
+        width: 28px;
+        height: 12px;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 12px solid $account-icon-popover-border-color;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        display: $account-icon-popover-arrow-display;
+        top: calc(100% + 2px);
+        left: 50%;
+        z-index: 11;
+        margin-left: -13px;
+        width: 26px;
+        height: 10px;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-bottom: 10px solid #fff;
+      }
+    }
+
+    & .AccountIcon-popover {
+      z-index: 10;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &-popover {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: $account-icon-popover-height;
+    width: $account-icon-popover-width;
+    padding: 25px 40px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: $account-icon-popover-shadow;
+    border: $account-icon-popover-border;
+    right: $account-icon-popover-right;
+    top: $account-icon-popover-top;
+  }
+
+  &-popoverVisible {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &-popoverButtonText {
+    font-size: $font-size-p;
+    font-weight: $font-weight-p;
+    color: $font-color-base;
+    line-height: $line-height-p;
+    margin-bottom: $account-icon-popover-text-margin-bottom;
+  }
+
+  &-popoverButtonEmail {
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: $account-icon-popover-email-display;
+  }
+
+  &-popoverButton {
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: $font-size-button;
+    font-weight: $font-weight-button;
+    font-family: $font-family-button;
+  }
+
+  &-popoverButtonMyAccount {
+    border-color: $cta-primary-border-color;
+    background-color: $cta-primary-background;
+    color: $cta-primary-font-color;
+    text-transform: $cta-primary-text-transform;
+
+    &:hover {
+      background-color: $cta-primary-hover-background;
+      color: $cta-primary-hover-font-color;
+      border-color: $cta-primary-hover-border-color;
+    }
+  }
+
+  &-popoverButtonSignOut {
+    border-color: $cta-secondary-border-color;
+    background-color: $cta-secondary-background;
+    color: $cta-secondary-font-color;
+    text-transform: $cta-secondary-text-transform;
+
+    &:hover {
+      background-color: $cta-secondary-hover-background;
+      color: $cta-secondary-hover-font-color;
+      border-color: $cta-secondary-hover-border-color;
+    }
+  }
+}

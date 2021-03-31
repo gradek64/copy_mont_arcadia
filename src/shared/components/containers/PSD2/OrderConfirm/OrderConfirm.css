@@ -1,0 +1,12 @@
+/** @define OrderConfirm */
+
+.OrderConfirm {
+  text-align: $order-confirm-text-align;
+  margin-top: $order-confirm-margin-top;
+  background-color: $order-confirm-background-color;
+  color: $order-confirm-text-color;
+  font-size: $order-confirm-font-size;
+  font-weight: $order-confirm-font-weight;
+  line-height: $order-confirm-line-height;
+  letter-spacing: $order-confirm-letter-spacing;
+}

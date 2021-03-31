@@ -1,0 +1,1225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductQuickview /> @renders in default state 1`] = `
+<div
+  className="ProductQuickview"
+  key="26942270"
+>
+  <AccessibleText
+    data-modal-focus={true}
+  >
+    This is the quick product view page for: Monochrome Crochet Lace Shift Dress
+  </AccessibleText>
+  <div
+    className="ProductQuickview-left"
+  >
+    <ProductMedia
+      amplienceAssets={
+        Object {
+          "images": Array [],
+          "video": "",
+        }
+      }
+      assets={
+        Array [
+          Object {
+            "assetType": "IMAGE_SMALL",
+          },
+          Object {
+            "assetType": "IMAGE_LARGE",
+          },
+        ]
+      }
+      className=""
+      enableImageOverlay={false}
+      enableVideo={true}
+      name="productQuickview"
+      productId={26942270}
+    />
+  </div>
+  <div
+    className="ProductQuickview-right"
+  >
+    <h1
+      className="ProductQuickview-title"
+    >
+      Monochrome Crochet Lace Shift Dress
+    </h1>
+    <HistoricalPrice
+      className="HistoricalPrice--quickview"
+      currency="£"
+      price="55.00"
+      shouldShowSaving={false}
+    />
+    <Swatches
+      maxSwatches={5}
+      name="Monochrome Crochet Lace Shift Dress"
+      onSelect={[Function]}
+      pageClass="pdp"
+      productId={26942270}
+      selectedId={26942270}
+      showAllColours={true}
+    />
+    <div
+      className="ProductQuickview-sizeAndQuantity"
+    >
+      <Connect(ProductSizes)
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className="ProductSizes--pdp ProductSizes--sizeGuideBox"
+        items={
+          Array [
+            Object {
+              "attrName": "226334388",
+              "attrValue": "XS",
+              "attrValueId": 300783716,
+              "catEntryId": 35567608,
+              "quantity": 10,
+              "selected": false,
+              "size": "XS",
+              "sizeMapping": "XS",
+              "sku": "602019001338810",
+              "stockText": "In stock",
+            },
+            Object {
+              "attrName": "226334388",
+              "attrValue": "M",
+              "attrValueId": 300783261,
+              "catEntryId": 35570700,
+              "quantity": 10,
+              "selected": false,
+              "size": "M",
+              "sizeMapping": "M",
+              "sku": "602019001338812",
+              "stockText": "In stock",
+            },
+          ]
+        }
+        key="product-sizes"
+        label="Select size"
+        notifyEmail={false}
+        onSelectSize={[MockFunction]}
+        productId={26942270}
+      />
+      <LowStock
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        isFeaturePdpQuantity={true}
+        stockThreshold={3}
+      />
+      <ProductQuantity
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className=""
+        key="product-quantity"
+        selectedQuantity={1}
+      />
+    </div>
+    <div
+      className="ProductQuickview-secondaryButtonGroup"
+    >
+      <Connect(AddToBag)
+        isDDPProduct={true}
+        key="add-to-bag"
+        partNumber="602016000925078"
+        product={
+          Object {
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+              },
+            ],
+            "attributes": Object {},
+            "colour": "Blk/Wht",
+            "description": "one description",
+            "grouping": "WL158836130",
+            "isDDPProduct": true,
+            "items": Array [
+              Object {
+                "attrName": "226334388",
+                "attrValue": "XS",
+                "attrValueId": 300783716,
+                "catEntryId": 35567608,
+                "quantity": 10,
+                "selected": false,
+                "size": "XS",
+                "sizeMapping": "XS",
+                "sku": "602019001338810",
+                "stockText": "In stock",
+              },
+              Object {
+                "attrName": "226334388",
+                "attrValue": "M",
+                "attrValueId": 300783261,
+                "catEntryId": 35570700,
+                "quantity": 10,
+                "selected": false,
+                "size": "M",
+                "sizeMapping": "M",
+                "sku": "602019001338812",
+                "stockText": "In stock",
+              },
+            ],
+            "lineNumber": "158836130",
+            "name": "Monochrome Crochet Lace Shift Dress",
+            "productId": 26942270,
+            "sourceUrl": "/product/monochrome",
+            "unitPrice": "55.00",
+          }
+        }
+        productId={26942270}
+        quantity={1}
+        shouldAddToBag={[Function]}
+        shouldShowInlineConfirm={true}
+        sku="602016000925078"
+        updateWishlist={null}
+      />
+    </div>
+    <div
+      className="ProductQuickview-productDescription"
+    >
+      <h4
+        className="ProductQuickview-productDescriptionTitle"
+      >
+        Product details
+      </h4>
+      <div
+        className="ProductQuickview-productDescriptionContent"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "one description",
+          }
+        }
+      />
+    </div>
+    <Button
+      className="ProductQuickview-link Button--secondary"
+      clickHandler={[Function]}
+    >
+      See full details
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<ProductQuickview /> @renders in loading state 1`] = `
+<div
+  aria-live="assertive"
+>
+  <AccessibleText
+    data-modal-focus={true}
+  >
+    Product information loading
+  </AccessibleText>
+  <Loader
+    className=""
+    fillColor="#000"
+    isButton={false}
+  />
+</div>
+`;
+
+exports[`<ProductQuickview /> @renders in ratingValue=3 state 1`] = `
+<div
+  className="ProductQuickview"
+  key="26942270"
+>
+  <AccessibleText
+    data-modal-focus={true}
+  >
+    This is the quick product view page for: Monochrome Crochet Lace Shift Dress
+  </AccessibleText>
+  <div
+    className="ProductQuickview-left"
+  >
+    <ProductMedia
+      amplienceAssets={
+        Object {
+          "images": Array [],
+          "video": "",
+        }
+      }
+      assets={
+        Array [
+          Object {
+            "assetType": "IMAGE_SMALL",
+          },
+          Object {
+            "assetType": "IMAGE_LARGE",
+          },
+        ]
+      }
+      className=""
+      enableImageOverlay={false}
+      enableVideo={true}
+      name="productQuickview"
+      productId={26942270}
+    />
+  </div>
+  <div
+    className="ProductQuickview-right"
+  >
+    <h1
+      className="ProductQuickview-title"
+    >
+      Monochrome Crochet Lace Shift Dress
+    </h1>
+    <HistoricalPrice
+      className="HistoricalPrice--quickview"
+      currency="£"
+      price="55.00"
+      shouldShowSaving={false}
+    />
+    <div
+      className="ProductQuickview-ratings"
+    >
+      <Connect(RatingImage)
+        className="ProductQuickview-ratingsImage"
+        rating={3}
+      />
+      <Link
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/product/monochrome#BVReviews"
+      >
+        Read reviews
+      </Link>
+    </div>
+    <Swatches
+      maxSwatches={5}
+      name="Monochrome Crochet Lace Shift Dress"
+      onSelect={[Function]}
+      pageClass="pdp"
+      productId={26942270}
+      selectedId={26942270}
+      showAllColours={true}
+    />
+    <div
+      className="ProductQuickview-sizeAndQuantity"
+    >
+      <Connect(ProductSizes)
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className="ProductSizes--pdp ProductSizes--sizeGuideBox"
+        items={
+          Array [
+            Object {
+              "attrName": "226334388",
+              "attrValue": "XS",
+              "attrValueId": 300783716,
+              "catEntryId": 35567608,
+              "quantity": 10,
+              "selected": false,
+              "size": "XS",
+              "sizeMapping": "XS",
+              "sku": "602019001338810",
+              "stockText": "In stock",
+            },
+            Object {
+              "attrName": "226334388",
+              "attrValue": "M",
+              "attrValueId": 300783261,
+              "catEntryId": 35570700,
+              "quantity": 10,
+              "selected": false,
+              "size": "M",
+              "sizeMapping": "M",
+              "sku": "602019001338812",
+              "stockText": "In stock",
+            },
+          ]
+        }
+        key="product-sizes"
+        label="Select size"
+        notifyEmail={false}
+        onSelectSize={[MockFunction]}
+        productId={26942270}
+      />
+      <LowStock
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        isFeaturePdpQuantity={true}
+        stockThreshold={3}
+      />
+      <ProductQuantity
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className=""
+        key="product-quantity"
+        selectedQuantity={1}
+      />
+    </div>
+    <div
+      className="ProductQuickview-secondaryButtonGroup"
+    >
+      <Connect(AddToBag)
+        isDDPProduct={true}
+        key="add-to-bag"
+        partNumber="602016000925078"
+        product={
+          Object {
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+              },
+            ],
+            "attributes": Object {},
+            "colour": "Blk/Wht",
+            "description": "one description",
+            "grouping": "WL158836130",
+            "isDDPProduct": true,
+            "items": Array [
+              Object {
+                "attrName": "226334388",
+                "attrValue": "XS",
+                "attrValueId": 300783716,
+                "catEntryId": 35567608,
+                "quantity": 10,
+                "selected": false,
+                "size": "XS",
+                "sizeMapping": "XS",
+                "sku": "602019001338810",
+                "stockText": "In stock",
+              },
+              Object {
+                "attrName": "226334388",
+                "attrValue": "M",
+                "attrValueId": 300783261,
+                "catEntryId": 35570700,
+                "quantity": 10,
+                "selected": false,
+                "size": "M",
+                "sizeMapping": "M",
+                "sku": "602019001338812",
+                "stockText": "In stock",
+              },
+            ],
+            "lineNumber": "158836130",
+            "name": "Monochrome Crochet Lace Shift Dress",
+            "productId": 26942270,
+            "ratingValue": 3,
+            "sourceUrl": "/product/monochrome",
+            "unitPrice": "55.00",
+          }
+        }
+        productId={26942270}
+        quantity={1}
+        shouldAddToBag={[Function]}
+        shouldShowInlineConfirm={true}
+        sku="602016000925078"
+        updateWishlist={null}
+      />
+    </div>
+    <div
+      className="ProductQuickview-productDescription"
+    >
+      <h4
+        className="ProductQuickview-productDescriptionTitle"
+      >
+        Product details
+      </h4>
+      <div
+        className="ProductQuickview-productDescriptionContent"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "one description",
+          }
+        }
+      />
+    </div>
+    <Button
+      className="ProductQuickview-link Button--secondary"
+      clickHandler={[Function]}
+    >
+      See full details
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<ProductQuickview /> @renders should render trimmed product description 1`] = `
+<div
+  className="ProductQuickview"
+  key="26942270"
+>
+  <AccessibleText
+    data-modal-focus={true}
+  >
+    This is the quick product view page for: Monochrome Crochet Lace Shift Dress
+  </AccessibleText>
+  <div
+    className="ProductQuickview-left"
+  >
+    <ProductMedia
+      amplienceAssets={
+        Object {
+          "images": Array [],
+          "video": "",
+        }
+      }
+      assets={
+        Array [
+          Object {
+            "assetType": "IMAGE_SMALL",
+          },
+          Object {
+            "assetType": "IMAGE_LARGE",
+          },
+        ]
+      }
+      className=""
+      enableImageOverlay={false}
+      enableVideo={true}
+      name="productQuickview"
+      productId={26942270}
+    />
+  </div>
+  <div
+    className="ProductQuickview-right"
+  >
+    <h1
+      className="ProductQuickview-title"
+    >
+      Monochrome Crochet Lace Shift Dress
+    </h1>
+    <HistoricalPrice
+      className="HistoricalPrice--quickview"
+      currency="£"
+      price="55.00"
+      shouldShowSaving={false}
+    />
+    <Swatches
+      maxSwatches={5}
+      name="Monochrome Crochet Lace Shift Dress"
+      onSelect={[Function]}
+      pageClass="pdp"
+      productId={26942270}
+      selectedId={26942270}
+      showAllColours={true}
+    />
+    <div
+      className="ProductQuickview-sizeAndQuantity"
+    >
+      <Connect(ProductSizes)
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className="ProductSizes--pdp ProductSizes--sizeGuideBox"
+        items={
+          Array [
+            Object {
+              "attrName": "226334388",
+              "attrValue": "XS",
+              "attrValueId": 300783716,
+              "catEntryId": 35567608,
+              "quantity": 10,
+              "selected": false,
+              "size": "XS",
+              "sizeMapping": "XS",
+              "sku": "602019001338810",
+              "stockText": "In stock",
+            },
+            Object {
+              "attrName": "226334388",
+              "attrValue": "M",
+              "attrValueId": 300783261,
+              "catEntryId": 35570700,
+              "quantity": 10,
+              "selected": false,
+              "size": "M",
+              "sizeMapping": "M",
+              "sku": "602019001338812",
+              "stockText": "In stock",
+            },
+          ]
+        }
+        key="product-sizes"
+        label="Select size"
+        notifyEmail={false}
+        onSelectSize={[MockFunction]}
+        productId={26942270}
+      />
+      <LowStock
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        isFeaturePdpQuantity={true}
+        stockThreshold={3}
+      />
+      <ProductQuantity
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className=""
+        key="product-quantity"
+        selectedQuantity={1}
+      />
+    </div>
+    <div
+      className="ProductQuickview-secondaryButtonGroup"
+    >
+      <Connect(AddToBag)
+        isDDPProduct={true}
+        key="add-to-bag"
+        partNumber="602016000925078"
+        product={
+          Object {
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+              },
+            ],
+            "attributes": Object {},
+            "colour": "Blk/Wht",
+            "description": "&lt;p&gt;This multi-coloured midi dress screams statement style. The perfect way to turn heads this summer, our cold shoulder frock has frilled trims and a clashing print throughout thats bound to get compliments. The perfect day-to-night choice, wear yours with flats or heels.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Cold shoulder style&lt;/li&gt; &lt;li&gt;Midi length&lt;/li&gt; &lt;li&gt;A-line fit&lt;/li&gt; &lt;li&gt;Elasticated waist&lt;/li&gt; &lt;li&gt;Wearing length: 95cm&lt;/li&gt; &lt;li&gt;Fabric: 100% viscose&lt;/li&gt; &lt;li&gt;Care: machine washable&lt;/li&gt; &lt;li&gt;Model is 5&#x27;9 (175.2cm) and wears a size 8&lt;/li&gt;&lt;/ul&gt;",
+            "grouping": "WL158836130",
+            "isDDPProduct": true,
+            "items": Array [
+              Object {
+                "attrName": "226334388",
+                "attrValue": "XS",
+                "attrValueId": 300783716,
+                "catEntryId": 35567608,
+                "quantity": 10,
+                "selected": false,
+                "size": "XS",
+                "sizeMapping": "XS",
+                "sku": "602019001338810",
+                "stockText": "In stock",
+              },
+              Object {
+                "attrName": "226334388",
+                "attrValue": "M",
+                "attrValueId": 300783261,
+                "catEntryId": 35570700,
+                "quantity": 10,
+                "selected": false,
+                "size": "M",
+                "sizeMapping": "M",
+                "sku": "602019001338812",
+                "stockText": "In stock",
+              },
+            ],
+            "lineNumber": "158836130",
+            "name": "Monochrome Crochet Lace Shift Dress",
+            "productId": 26942270,
+            "sourceUrl": "/product/monochrome",
+            "unitPrice": "55.00",
+          }
+        }
+        productId={26942270}
+        quantity={1}
+        shouldAddToBag={[Function]}
+        shouldShowInlineConfirm={true}
+        sku="602016000925078"
+        updateWishlist={null}
+      />
+    </div>
+    <div
+      className="ProductQuickview-productDescription"
+    >
+      <h4
+        className="ProductQuickview-productDescriptionTitle"
+      >
+        Product details
+      </h4>
+      <div
+        className="ProductQuickview-productDescriptionContent"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>This multi-coloured midi dress screams statement style. The perfect way to turn heads this summer, our cold shoulder frock has frilled trims and a clashing print throughout thats bound to get compliments. The perfect day-to-night choice, wear yours with flats or heels.</p> ",
+          }
+        }
+      />
+    </div>
+    <Button
+      className="ProductQuickview-link Button--secondary"
+      clickHandler={[Function]}
+    >
+      See full details
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<ProductQuickview /> @renders with no items/outOfStock 1`] = `
+<div
+  className="ProductQuickview"
+  key="26942270"
+>
+  <AccessibleText
+    data-modal-focus={true}
+  >
+    This is the quick product view page for: Monochrome Crochet Lace Shift Dress
+  </AccessibleText>
+  <div
+    className="ProductQuickview-left"
+  >
+    <ProductMedia
+      amplienceAssets={
+        Object {
+          "images": Array [],
+          "video": "",
+        }
+      }
+      assets={
+        Array [
+          Object {
+            "assetType": "IMAGE_SMALL",
+          },
+          Object {
+            "assetType": "IMAGE_LARGE",
+          },
+        ]
+      }
+      className=""
+      enableImageOverlay={false}
+      enableVideo={true}
+      name="productQuickview"
+      productId={26942270}
+    />
+  </div>
+  <div
+    className="ProductQuickview-right"
+  >
+    <h1
+      className="ProductQuickview-title"
+    >
+      Monochrome Crochet Lace Shift Dress
+    </h1>
+    <HistoricalPrice
+      className="HistoricalPrice--quickview"
+      currency="£"
+      price="55.00"
+      shouldShowSaving={false}
+    />
+    <Swatches
+      maxSwatches={5}
+      name="Monochrome Crochet Lace Shift Dress"
+      onSelect={[Function]}
+      pageClass="pdp"
+      productId={26942270}
+      selectedId={26942270}
+      showAllColours={true}
+    />
+    <div
+      className="ProductQuickview-sizeAndQuantity"
+    >
+      <Connect(ProductSizes)
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className="ProductSizes--pdp ProductSizes--sizeGuideBox"
+        items={
+          Array [
+            Object {
+              "attrName": "226334388",
+              "attrValue": "XS",
+              "attrValueId": 300783716,
+              "catEntryId": 35567608,
+              "quantity": 10,
+              "selected": false,
+              "size": "XS",
+              "sizeMapping": "XS",
+              "sku": "602019001338810",
+              "stockText": "In stock",
+            },
+            Object {
+              "attrName": "226334388",
+              "attrValue": "M",
+              "attrValueId": 300783261,
+              "catEntryId": 35570700,
+              "quantity": 10,
+              "selected": false,
+              "size": "M",
+              "sizeMapping": "M",
+              "sku": "602019001338812",
+              "stockText": "In stock",
+            },
+          ]
+        }
+        key="product-sizes"
+        label="Select size"
+        notifyEmail={false}
+        onSelectSize={[MockFunction]}
+        productId={26942270}
+      />
+      <LowStock
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        isFeaturePdpQuantity={true}
+        stockThreshold={3}
+      />
+      <ProductQuantity
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className=""
+        key="product-quantity"
+        selectedQuantity={1}
+      />
+    </div>
+    <div
+      className="ProductQuickview-secondaryButtonGroup"
+    >
+      <Connect(AddToBag)
+        isDDPProduct={true}
+        key="add-to-bag"
+        partNumber="602016000925078"
+        product={
+          Object {
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+              },
+            ],
+            "attributes": Object {
+              "notifyMe": "Y",
+            },
+            "colour": "Blk/Wht",
+            "description": "one description",
+            "grouping": "WL158836130",
+            "isDDPProduct": true,
+            "items": Array [
+              Object {
+                "attrName": "226334388",
+                "attrValue": "XS",
+                "attrValueId": 300783716,
+                "catEntryId": 35567608,
+                "quantity": 10,
+                "selected": false,
+                "size": "XS",
+                "sizeMapping": "XS",
+                "sku": "602019001338810",
+                "stockText": "In stock",
+              },
+              Object {
+                "attrName": "226334388",
+                "attrValue": "M",
+                "attrValueId": 300783261,
+                "catEntryId": 35570700,
+                "quantity": 10,
+                "selected": false,
+                "size": "M",
+                "sizeMapping": "M",
+                "sku": "602019001338812",
+                "stockText": "In stock",
+              },
+            ],
+            "lineNumber": "158836130",
+            "name": "Monochrome Crochet Lace Shift Dress",
+            "productId": 26942270,
+            "sourceUrl": "/product/monochrome",
+            "unitPrice": "55.00",
+          }
+        }
+        productId={26942270}
+        quantity={1}
+        shouldAddToBag={[Function]}
+        shouldShowInlineConfirm={true}
+        sku="602016000925078"
+        updateWishlist={null}
+      />
+    </div>
+    <div
+      className="ProductQuickview-productDescription"
+    >
+      <h4
+        className="ProductQuickview-productDescriptionTitle"
+      >
+        Product details
+      </h4>
+      <div
+        className="ProductQuickview-productDescriptionContent"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "one description",
+          }
+        }
+      />
+    </div>
+    <Button
+      className="ProductQuickview-link Button--secondary"
+      clickHandler={[Function]}
+    >
+      See full details
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<ProductQuickview /> @renders with select size error 1`] = `
+<div
+  className="ProductQuickview"
+  key="26942270"
+>
+  <AccessibleText
+    data-modal-focus={true}
+  >
+    This is the quick product view page for: Monochrome Crochet Lace Shift Dress
+  </AccessibleText>
+  <div
+    className="ProductQuickview-left"
+  >
+    <ProductMedia
+      amplienceAssets={
+        Object {
+          "images": Array [],
+          "video": "",
+        }
+      }
+      assets={
+        Array [
+          Object {
+            "assetType": "IMAGE_SMALL",
+          },
+          Object {
+            "assetType": "IMAGE_LARGE",
+          },
+        ]
+      }
+      className=""
+      enableImageOverlay={false}
+      enableVideo={true}
+      name="productQuickview"
+      productId={26942270}
+    />
+  </div>
+  <div
+    className="ProductQuickview-right"
+  >
+    <h1
+      className="ProductQuickview-title"
+    >
+      Monochrome Crochet Lace Shift Dress
+    </h1>
+    <HistoricalPrice
+      className="HistoricalPrice--quickview"
+      currency="£"
+      price="55.00"
+      shouldShowSaving={false}
+    />
+    <Swatches
+      maxSwatches={5}
+      name="Monochrome Crochet Lace Shift Dress"
+      onSelect={[Function]}
+      pageClass="pdp"
+      productId={26942270}
+      selectedId={26942270}
+      showAllColours={true}
+    />
+    <div
+      className="ProductQuickview-sizeAndQuantity"
+    >
+      <Connect(ProductSizes)
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className="ProductSizes--pdp ProductSizes--sizeGuideBox"
+        items={
+          Array [
+            Object {
+              "quantity": 0,
+              "selected": false,
+              "size": "4",
+              "sku": "602016000925078",
+              "wcsSizeADValueId": "4",
+            },
+            Object {
+              "quantity": 8,
+              "selected": false,
+              "size": "6",
+              "sku": "602016000925079",
+              "wcsSizeADValueId": "6",
+            },
+            Object {
+              "quantity": 10,
+              "selected": false,
+              "size": "8",
+              "sku": "602016000925080",
+              "wcsSizeADValueId": "8",
+            },
+            Object {
+              "quantity": 10,
+              "selected": false,
+              "size": "10",
+              "sku": "602016000925081",
+              "wcsSizeADValueId": "10",
+            },
+            Object {
+              "quantity": 10,
+              "selected": false,
+              "size": "12",
+              "sku": "602016000925082",
+              "wcsSizeADValueId": "12",
+            },
+            Object {
+              "quantity": 9,
+              "selected": false,
+              "size": "14",
+              "sku": "602016000925083",
+              "wcsSizeADValueId": "14",
+            },
+            Object {
+              "quantity": 7,
+              "selected": false,
+              "size": "16",
+              "sku": "602016000925084",
+              "wcsSizeADValueId": "16",
+            },
+          ]
+        }
+        key="product-sizes"
+        label="Select size"
+        notifyEmail={false}
+        onSelectSize={[MockFunction]}
+        productId={26942270}
+      />
+      <LowStock
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        isFeaturePdpQuantity={true}
+        stockThreshold={3}
+      />
+      <ProductQuantity
+        activeItem={
+          Object {
+            "quantity": 0,
+            "selected": false,
+            "size": "4",
+            "sku": "602016000925078",
+            "wcsSizeADValueId": "4",
+          }
+        }
+        className=""
+        key="product-quantity"
+        selectedQuantity={1}
+      />
+    </div>
+    <Message
+      isCompact={false}
+      key="error-message"
+      message="Please select your size to continue"
+      type="error"
+    />
+    <div
+      className="ProductQuickview-secondaryButtonGroup"
+    >
+      <Connect(AddToBag)
+        isDDPProduct={true}
+        key="add-to-bag"
+        partNumber="602016000925078"
+        product={
+          Object {
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+              },
+            ],
+            "attributes": Object {
+              "notifyMe": "Y",
+            },
+            "colour": "Blk/Wht",
+            "description": "one description",
+            "grouping": "WL158836130",
+            "isDDPProduct": true,
+            "items": Array [
+              Object {
+                "quantity": 0,
+                "selected": false,
+                "size": "4",
+                "sku": "602016000925078",
+                "wcsSizeADValueId": "4",
+              },
+              Object {
+                "quantity": 8,
+                "selected": false,
+                "size": "6",
+                "sku": "602016000925079",
+                "wcsSizeADValueId": "6",
+              },
+              Object {
+                "quantity": 10,
+                "selected": false,
+                "size": "8",
+                "sku": "602016000925080",
+                "wcsSizeADValueId": "8",
+              },
+              Object {
+                "quantity": 10,
+                "selected": false,
+                "size": "10",
+                "sku": "602016000925081",
+                "wcsSizeADValueId": "10",
+              },
+              Object {
+                "quantity": 10,
+                "selected": false,
+                "size": "12",
+                "sku": "602016000925082",
+                "wcsSizeADValueId": "12",
+              },
+              Object {
+                "quantity": 9,
+                "selected": false,
+                "size": "14",
+                "sku": "602016000925083",
+                "wcsSizeADValueId": "14",
+              },
+              Object {
+                "quantity": 7,
+                "selected": false,
+                "size": "16",
+                "sku": "602016000925084",
+                "wcsSizeADValueId": "16",
+              },
+            ],
+            "lineNumber": "158836130",
+            "name": "Monochrome Crochet Lace Shift Dress",
+            "productId": 26942270,
+            "sourceUrl": "/product/monochrome",
+            "unitPrice": "55.00",
+          }
+        }
+        productId={26942270}
+        quantity={1}
+        shouldAddToBag={[Function]}
+        shouldShowInlineConfirm={true}
+        sku="602016000925078"
+        updateWishlist={null}
+      />
+    </div>
+    <div
+      className="ProductQuickview-productDescription"
+    >
+      <h4
+        className="ProductQuickview-productDescriptionTitle"
+      >
+        Product details
+      </h4>
+      <div
+        className="ProductQuickview-productDescriptionContent"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "one description",
+          }
+        }
+      />
+    </div>
+    <Button
+      className="ProductQuickview-link Button--secondary"
+      clickHandler={[Function]}
+    >
+      See full details
+    </Button>
+  </div>
+</div>
+`;

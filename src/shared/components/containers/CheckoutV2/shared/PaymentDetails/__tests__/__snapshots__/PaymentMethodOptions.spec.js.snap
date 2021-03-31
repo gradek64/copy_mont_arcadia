@@ -1,0 +1,1381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentMethodsOptions/> @render should not render payment method options with APPLEPAY option selected if isApplePayAvailable is false 1`] = `
+Array [
+  <div
+    className="PaymentDetails-method"
+    key="CARD"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Enter card details",
+          "label": "Debit and Credit Card",
+          "type": "CARD",
+          "value": "CARD",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Enter card details"
+        isChecked={false}
+        label="Debit and Credit Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={true}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="CARD"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="ACCNT"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use your account card",
+          "label": "Account Card",
+          "type": "OTHER_CARD",
+          "value": "ACCNT",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use your account card"
+        isChecked={false}
+        label="Account Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={false}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="ACCNT"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="PYPAL"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use paypal"
+        isChecked={false}
+        label="Paypal"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="PYPAL"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="MPASS"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Masterpass accepted",
+          "label": "Masterpass",
+          "type": "OTHER",
+          "value": "MPASS",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Masterpass accepted"
+        isChecked={false}
+        label="Masterpass"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="MPASS"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="KLRNA"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 30 days or 3 monthly instalments, interest free",
+          "label": "Pay in 30 days or 3 monthly instalments, interest free",
+          "type": "OTHER",
+          "value": "KLRNA",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 30 days or 3 monthly instalments, interest free"
+        isChecked={false}
+        label="Pay in 30 days or 3 monthly instalments, interest free"
+        renderPaymentMethod={<Connect(KlarnaForm) />}
+        savePaymentMethod={[MockFunction]}
+        value="KLRNA"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="CLRPY"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 4 fortnightly instalments, interest free",
+          "label": "Pay in 4 fortnightly instalments, interest free",
+          "type": "OTHER",
+          "value": "CLRPY",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 4 fortnightly instalments, interest free"
+        isChecked={false}
+        label="Pay in 4 fortnightly instalments, interest free"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="CLRPY"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="APPLE"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use apple pay from your device",
+          "label": "Apple Pay",
+          "type": "OTHER",
+          "value": "APPLE",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use apple pay from your device"
+        isChecked={false}
+        label="Apple Pay"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="APPLE"
+      />
+    </Component>
+  </div>,
+]
+`;
+
+exports[`<PaymentMethodsOptions/> @render should render payment method options with ACCOUNT CARD option selected 1`] = `
+Array [
+  <div
+    className="PaymentDetails-method"
+    key="CARD"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Enter card details",
+          "label": "Debit and Credit Card",
+          "type": "CARD",
+          "value": "CARD",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Enter card details"
+        isChecked={false}
+        label="Debit and Credit Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={true}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="CARD"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="ACCNT"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use your account card",
+          "label": "Account Card",
+          "type": "OTHER_CARD",
+          "value": "ACCNT",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use your account card"
+        isChecked={false}
+        label="Account Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={false}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="ACCNT"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="PYPAL"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use paypal"
+        isChecked={false}
+        label="Paypal"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="PYPAL"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="MPASS"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Masterpass accepted",
+          "label": "Masterpass",
+          "type": "OTHER",
+          "value": "MPASS",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Masterpass accepted"
+        isChecked={false}
+        label="Masterpass"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="MPASS"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="KLRNA"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 30 days or 3 monthly instalments, interest free",
+          "label": "Pay in 30 days or 3 monthly instalments, interest free",
+          "type": "OTHER",
+          "value": "KLRNA",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 30 days or 3 monthly instalments, interest free"
+        isChecked={false}
+        label="Pay in 30 days or 3 monthly instalments, interest free"
+        renderPaymentMethod={<Connect(KlarnaForm) />}
+        savePaymentMethod={[MockFunction]}
+        value="KLRNA"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="CLRPY"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 4 fortnightly instalments, interest free",
+          "label": "Pay in 4 fortnightly instalments, interest free",
+          "type": "OTHER",
+          "value": "CLRPY",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 4 fortnightly instalments, interest free"
+        isChecked={false}
+        label="Pay in 4 fortnightly instalments, interest free"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="CLRPY"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="APPLE"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use apple pay from your device",
+          "label": "Apple Pay",
+          "type": "OTHER",
+          "value": "APPLE",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use apple pay from your device"
+        isChecked={false}
+        label="Apple Pay"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="APPLE"
+      />
+    </Component>
+  </div>,
+]
+`;
+
+exports[`<PaymentMethodsOptions/> @render should render payment method options with APPLEPAY option selected if isApplePayAvailable is true 1`] = `
+Array [
+  <div
+    className="PaymentDetails-method"
+    key="CARD"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Enter card details",
+          "label": "Debit and Credit Card",
+          "type": "CARD",
+          "value": "CARD",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Enter card details"
+        isChecked={false}
+        label="Debit and Credit Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={true}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="CARD"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="ACCNT"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use your account card",
+          "label": "Account Card",
+          "type": "OTHER_CARD",
+          "value": "ACCNT",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use your account card"
+        isChecked={false}
+        label="Account Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={false}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="ACCNT"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="PYPAL"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use paypal"
+        isChecked={false}
+        label="Paypal"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="PYPAL"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="MPASS"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Masterpass accepted",
+          "label": "Masterpass",
+          "type": "OTHER",
+          "value": "MPASS",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Masterpass accepted"
+        isChecked={false}
+        label="Masterpass"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="MPASS"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="KLRNA"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 30 days or 3 monthly instalments, interest free",
+          "label": "Pay in 30 days or 3 monthly instalments, interest free",
+          "type": "OTHER",
+          "value": "KLRNA",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 30 days or 3 monthly instalments, interest free"
+        isChecked={false}
+        label="Pay in 30 days or 3 monthly instalments, interest free"
+        renderPaymentMethod={<Connect(KlarnaForm) />}
+        savePaymentMethod={[MockFunction]}
+        value="KLRNA"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="CLRPY"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 4 fortnightly instalments, interest free",
+          "label": "Pay in 4 fortnightly instalments, interest free",
+          "type": "OTHER",
+          "value": "CLRPY",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 4 fortnightly instalments, interest free"
+        isChecked={false}
+        label="Pay in 4 fortnightly instalments, interest free"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="CLRPY"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="APPLE"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use apple pay from your device",
+          "label": "Apple Pay",
+          "type": "OTHER",
+          "value": "APPLE",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use apple pay from your device"
+        isChecked={false}
+        label="Apple Pay"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="APPLE"
+      />
+    </Component>
+  </div>,
+]
+`;
+
+exports[`<PaymentMethodsOptions/> @render should render payment method options with CARD option selected 1`] = `
+Array [
+  <div
+    className="PaymentDetails-method"
+    key="CARD"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Enter card details",
+          "label": "Debit and Credit Card",
+          "type": "CARD",
+          "value": "CARD",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Enter card details"
+        isChecked={false}
+        label="Debit and Credit Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={true}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="CARD"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="ACCNT"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use your account card",
+          "label": "Account Card",
+          "type": "OTHER_CARD",
+          "value": "ACCNT",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use your account card"
+        isChecked={false}
+        label="Account Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={false}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="ACCNT"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="PYPAL"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use paypal"
+        isChecked={false}
+        label="Paypal"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="PYPAL"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="MPASS"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Masterpass accepted",
+          "label": "Masterpass",
+          "type": "OTHER",
+          "value": "MPASS",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Masterpass accepted"
+        isChecked={false}
+        label="Masterpass"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="MPASS"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="KLRNA"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 30 days or 3 monthly instalments, interest free",
+          "label": "Pay in 30 days or 3 monthly instalments, interest free",
+          "type": "OTHER",
+          "value": "KLRNA",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 30 days or 3 monthly instalments, interest free"
+        isChecked={false}
+        label="Pay in 30 days or 3 monthly instalments, interest free"
+        renderPaymentMethod={<Connect(KlarnaForm) />}
+        savePaymentMethod={[MockFunction]}
+        value="KLRNA"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="CLRPY"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 4 fortnightly instalments, interest free",
+          "label": "Pay in 4 fortnightly instalments, interest free",
+          "type": "OTHER",
+          "value": "CLRPY",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 4 fortnightly instalments, interest free"
+        isChecked={false}
+        label="Pay in 4 fortnightly instalments, interest free"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="CLRPY"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="APPLE"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use apple pay from your device",
+          "label": "Apple Pay",
+          "type": "OTHER",
+          "value": "APPLE",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use apple pay from your device"
+        isChecked={false}
+        label="Apple Pay"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="APPLE"
+      />
+    </Component>
+  </div>,
+]
+`;
+
+exports[`<PaymentMethodsOptions/> @render should render payment method options with KLARNA option selected 1`] = `
+Array [
+  <div
+    className="PaymentDetails-method"
+    key="CARD"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Enter card details",
+          "label": "Debit and Credit Card",
+          "type": "CARD",
+          "value": "CARD",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Enter card details"
+        isChecked={false}
+        label="Debit and Credit Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={true}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="CARD"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="ACCNT"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use your account card",
+          "label": "Account Card",
+          "type": "OTHER_CARD",
+          "value": "ACCNT",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use your account card"
+        isChecked={false}
+        label="Account Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={false}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="ACCNT"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="PYPAL"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use paypal"
+        isChecked={false}
+        label="Paypal"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="PYPAL"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="MPASS"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Masterpass accepted",
+          "label": "Masterpass",
+          "type": "OTHER",
+          "value": "MPASS",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Masterpass accepted"
+        isChecked={false}
+        label="Masterpass"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="MPASS"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="KLRNA"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 30 days or 3 monthly instalments, interest free",
+          "label": "Pay in 30 days or 3 monthly instalments, interest free",
+          "type": "OTHER",
+          "value": "KLRNA",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 30 days or 3 monthly instalments, interest free"
+        isChecked={false}
+        label="Pay in 30 days or 3 monthly instalments, interest free"
+        renderPaymentMethod={<Connect(KlarnaForm) />}
+        savePaymentMethod={[MockFunction]}
+        value="KLRNA"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="CLRPY"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 4 fortnightly instalments, interest free",
+          "label": "Pay in 4 fortnightly instalments, interest free",
+          "type": "OTHER",
+          "value": "CLRPY",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 4 fortnightly instalments, interest free"
+        isChecked={false}
+        label="Pay in 4 fortnightly instalments, interest free"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="CLRPY"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="APPLE"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use apple pay from your device",
+          "label": "Apple Pay",
+          "type": "OTHER",
+          "value": "APPLE",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use apple pay from your device"
+        isChecked={false}
+        label="Apple Pay"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="APPLE"
+      />
+    </Component>
+  </div>,
+]
+`;
+
+exports[`<PaymentMethodsOptions/> @render should render payment method options with PAYPAL option selected 1`] = `
+Array [
+  <div
+    className="PaymentDetails-method"
+    key="CARD"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Enter card details",
+          "label": "Debit and Credit Card",
+          "type": "CARD",
+          "value": "CARD",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Enter card details"
+        isChecked={false}
+        label="Debit and Credit Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={true}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="CARD"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="ACCNT"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use your account card",
+          "label": "Account Card",
+          "type": "OTHER_CARD",
+          "value": "ACCNT",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use your account card"
+        isChecked={false}
+        label="Account Card"
+        renderPaymentMethod={
+          <Unknown
+            id="qubit-card-payment-method"
+            showChild={false}
+          >
+            <Connect(CardPaymentMethod)
+              formCardErrorPath={
+                Array [
+                  "forms",
+                  "checkout",
+                  "billingCardDetails",
+                  "errors",
+                ]
+              }
+              formCardName="billingCardDetails"
+              formCardPath={
+                Array [
+                  "checkout",
+                  "billingCardDetails",
+                  "fields",
+                ]
+              }
+              isPaymentCard={false}
+            />
+          </Unknown>
+        }
+        savePaymentMethod={[MockFunction]}
+        value="ACCNT"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="PYPAL"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use paypal"
+        isChecked={false}
+        label="Paypal"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="PYPAL"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="MPASS"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Masterpass accepted",
+          "label": "Masterpass",
+          "type": "OTHER",
+          "value": "MPASS",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Masterpass accepted"
+        isChecked={false}
+        label="Masterpass"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="MPASS"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="KLRNA"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 30 days or 3 monthly instalments, interest free",
+          "label": "Pay in 30 days or 3 monthly instalments, interest free",
+          "type": "OTHER",
+          "value": "KLRNA",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 30 days or 3 monthly instalments, interest free"
+        isChecked={false}
+        label="Pay in 30 days or 3 monthly instalments, interest free"
+        renderPaymentMethod={<Connect(KlarnaForm) />}
+        savePaymentMethod={[MockFunction]}
+        value="KLRNA"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="CLRPY"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Pay in 4 fortnightly instalments, interest free",
+          "label": "Pay in 4 fortnightly instalments, interest free",
+          "type": "OTHER",
+          "value": "CLRPY",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Pay in 4 fortnightly instalments, interest free"
+        isChecked={false}
+        label="Pay in 4 fortnightly instalments, interest free"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="CLRPY"
+      />
+    </Component>
+  </div>,
+  <div
+    className="PaymentDetails-method"
+    key="APPLE"
+  >
+    <Component
+      id="qubit-allow-payment-method-selection"
+      paymentMethod={
+        Object {
+          "description": "Use apple pay from your device",
+          "label": "Apple Pay",
+          "type": "OTHER",
+          "value": "APPLE",
+        }
+      }
+    >
+      <Connect(PaymentMethodOption)
+        description="Use apple pay from your device"
+        isChecked={false}
+        label="Apple Pay"
+        renderPaymentMethod={null}
+        savePaymentMethod={[MockFunction]}
+        value="APPLE"
+      />
+    </Component>
+  </div>,
+]
+`;

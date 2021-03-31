@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackToAccountLink /> @render in default state 1`] = `
+<p
+  className="BackToAccountLink-container"
+>
+  <Link
+    className="BackToAccountLink-link"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/my-account"
+  >
+    message
+  </Link>
+</p>
+`;

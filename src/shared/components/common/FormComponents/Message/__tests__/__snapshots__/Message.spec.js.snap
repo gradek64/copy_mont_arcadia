@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Message/> @renders in default state 1`] = `
+<div
+  aria-live="assertive"
+  aria-relevant="additions removals"
+  className="Message is-shown is-normal normalMessage"
+  role="alert"
+>
+  <p
+    className="Message-message normalMessageInner"
+  >
+    This is a normal message
+  </p>
+</div>
+`;
+
+exports[`<Message/> @renders with no props 1`] = `
+<div
+  aria-live="assertive"
+  aria-relevant="additions removals"
+  className="Message is-hidden is-confirm "
+  role="alert"
+>
+  <p
+    className="Message-message"
+  />
+</div>
+`;

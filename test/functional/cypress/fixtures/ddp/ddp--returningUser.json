@@ -1,0 +1,58 @@
+{
+    "exists": true,
+    "email": "ddpreturninguser@test.com",
+    "title": "Mr",
+    "firstName": "xhoi",
+    "lastName": "luli",
+    "userTrackingId": 4419027,
+    "subscriptionId": "",
+    "basketItemCount": 1,
+    "creditCard": {
+      "type": "VISA",
+      "cardNumberHash": "****************************HPaM",
+      "cardNumberStar": "************1111",
+      "expiryMonth": "06",
+      "expiryYear": "2019"
+    },
+    "deliveryDetails": {
+      "addressDetailsId": 3488983,
+      "nameAndPhone": {
+        "lastName": "luli",
+        "telephone": "0987654321",
+        "title": "Mr",
+        "firstName": "xhoi"
+      },
+      "address": {
+        "address1": "12 Welbeck Street",
+        "address2": "",
+        "city": "LONDON",
+        "state": "",
+        "country": "United Kingdom",
+        "postcode": "W1G 9XX"
+      }
+    },
+    "billingDetails": {
+      "addressDetailsId": 3488984,
+      "nameAndPhone": {
+        "lastName": "luli",
+        "telephone": "0987654321",
+        "title": "Mr",
+        "firstName": "xhoi"
+      },
+      "address": {
+        "address1": "12 Welbeck Street",
+        "address2": "",
+        "city": "LONDON",
+        "state": "",
+        "country": "United Kingdom",
+        "postcode": "W1G 9XX"
+      }
+    },
+    "version": "1.6",
+    "isDDPUser": false,
+    "isDDPRenewable": false,
+    "ddpStartDate": null,
+    "ddpEndDate": null,
+    "expId1": "201bd4682163f479590e2e8048fa2a56fea243e0ceda7591f5c89cf496a73d1e",
+    "expId2": "d2ee6cc02ce6078284b00fc4c3ca628500af32e2c8e23dd68ce4265bc6755a3d"
+  }

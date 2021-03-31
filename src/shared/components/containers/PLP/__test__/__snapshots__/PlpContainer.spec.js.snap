@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlpContainer @render default render 1`] = `
+<Fragment>
+  <div
+    className="PlpContainer"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      link={
+        Array [
+          Object {
+            "href": "canonicalUrl",
+            "rel": "canonical",
+          },
+        ]
+      }
+      meta={
+        Array [
+          Object {
+            "content": "categoryDescription",
+            "name": "description",
+          },
+        ]
+      }
+      title="page title"
+    />
+    <ProductsBreadCrumbs
+      breadcrumbs={Array []}
+    />
+    <Connect(Espot)
+      customClassName="PlpEspot"
+    />
+    <div
+      className="PlpHeaderWrapper"
+    >
+      <PlpHeader
+        bannerHTML=""
+        brandCode="someString"
+        catHeaderResponsiveCmsUrl=""
+        categoryTitle="categoryTitle"
+        isMobile={false}
+        key="0"
+        location={
+          Object {
+            "action": "POP",
+            "hostname": "m.topshop.com",
+            "pathname": "/fakepathname",
+            "protocol": "https:",
+            "query": Object {},
+            "search": "/en/tsuk/dresses?query=custom",
+          }
+        }
+        title="page title"
+        total="1"
+      />
+    </div>
+    <WithQubit
+      ProductCarousel={[Function]}
+      hammerOptions={
+        Object {
+          "domEvents": true,
+        }
+      }
+      id="qubit-adp-2861-dressipi-plp-spotlight"
+      shouldUseQubit={false}
+    />
+    <div
+      className="PlpContainer-resultsSection"
+    >
+      <RefinementContainer
+        hasNoSearchResult={false}
+        refinements={Object {}}
+        stickyHeader={false}
+      />
+      <div
+        className="PlpContainer-productListContainer"
+      >
+        <Connect(Filters)
+          key="1"
+        />
+        <Connect(SandBox)
+          cmsPageName="mobilePLPESpotPos1"
+          contentType="espot"
+          isInPageContent={true}
+          key="2"
+          shouldGetContentOnFirstLoad={true}
+        />
+        <Connect(Refinements)
+          key="3"
+        />
+        <Connect(ProductList)
+          isLoading={false}
+          key="pl4"
+          products={
+            Array [
+              Object {},
+            ]
+          }
+        />
+        <Connect(component)
+          isPlp={true}
+          key="plp-back-to-top"
+        />
+        <div
+          className="PlpContainer-pagination"
+          key="6"
+        >
+          <a
+            className="PlpContainer-paginationPrev"
+          >
+            Previous
+          </a>
+          <a
+            className="PlpContainer-paginationNext"
+          >
+            Next
+          </a>
+        </div>
+      </div>
+    </div>
+    <Connect(Component) />
+  </div>
+  <Connect(AbandonmentModalTrigger)
+    espot="ABANDONMENT_SIGNUP_MODAL_CATEGORY"
+  />
+</Fragment>
+`;
+
+exports[`PlpContainer @render renders for mobile 1`] = `
+<Fragment>
+  <div
+    className="PlpContainer"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      link={
+        Array [
+          Object {
+            "href": "canonicalUrl",
+            "rel": "canonical",
+          },
+        ]
+      }
+      meta={
+        Array [
+          Object {
+            "content": "categoryDescription",
+            "name": "description",
+          },
+        ]
+      }
+      title="page title"
+    />
+    <ProductsBreadCrumbs
+      breadcrumbs={Array []}
+    />
+    <Connect(Espot)
+      customClassName="PlpEspot"
+    />
+    <div
+      className="PlpHeaderWrapper"
+    >
+      <PlpHeader
+        bannerHTML=""
+        brandCode="someString"
+        catHeaderResponsiveCmsUrl=""
+        categoryTitle="categoryTitle"
+        isMobile={true}
+        key="0"
+        location={
+          Object {
+            "action": "POP",
+            "hostname": "m.topshop.com",
+            "pathname": "/fakepathname",
+            "protocol": "https:",
+            "query": Object {},
+            "search": "/en/tsuk/dresses?query=custom",
+          }
+        }
+        title="page title"
+        total="1"
+      />
+    </div>
+    <WithQubit
+      ProductCarousel={[Function]}
+      hammerOptions={
+        Object {
+          "domEvents": true,
+        }
+      }
+      id="qubit-adp-2861-dressipi-plp-spotlight"
+      peepNextItem={true}
+      shouldUseQubit={false}
+    />
+    <div
+      className="PlpContainer-resultsSection"
+    >
+      <RefinementContainer
+        hasNoSearchResult={false}
+        refinements={Object {}}
+        stickyHeader={false}
+      />
+      <div
+        className="PlpContainer-productListContainer"
+      >
+        <Connect(Filters)
+          key="1"
+        />
+        <Connect(SandBox)
+          cmsPageName="mobilePLPESpotPos1"
+          contentType="espot"
+          isInPageContent={true}
+          key="2"
+          shouldGetContentOnFirstLoad={true}
+        />
+        <Connect(Refinements)
+          key="3"
+        />
+        <Connect(ProductList)
+          isLoading={false}
+          key="pl4"
+          products={
+            Array [
+              Object {},
+            ]
+          }
+        />
+        <Connect(component)
+          isPlp={true}
+          key="plp-back-to-top"
+        />
+        <div
+          className="PlpContainer-pagination"
+          key="6"
+        >
+          <a
+            className="PlpContainer-paginationPrev"
+          >
+            Previous
+          </a>
+          <a
+            className="PlpContainer-paginationNext"
+          >
+            Next
+          </a>
+        </div>
+      </div>
+    </div>
+    <Connect(Component) />
+  </div>
+  <Connect(AbandonmentModalTrigger)
+    espot="ABANDONMENT_SIGNUP_MODAL_CATEGORY"
+  />
+</Fragment>
+`;
+
+exports[`PlpContainer @render renders responsive plp category header 1`] = `
+<Fragment>
+  <div
+    className="PlpContainer"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      link={
+        Array [
+          Object {
+            "href": "canonicalUrl",
+            "rel": "canonical",
+          },
+        ]
+      }
+      meta={
+        Array [
+          Object {
+            "content": "categoryDescription",
+            "name": "description",
+          },
+        ]
+      }
+      title="page title"
+    />
+    <ProductsBreadCrumbs
+      breadcrumbs={Array []}
+    />
+    <Connect(Espot)
+      customClassName="PlpEspot"
+    />
+    <div
+      className="PlpHeaderWrapper"
+    >
+      <PlpHeader
+        bannerHTML=""
+        brandCode="someString"
+        catHeaderResponsiveCmsUrl="/cms/pages/json/json-0000140416/json-0000140416.json"
+        categoryTitle="categoryTitle"
+        isMobile={false}
+        key="0"
+        location={
+          Object {
+            "action": "POP",
+            "hostname": "m.topshop.com",
+            "pathname": "/fakepathname",
+            "protocol": "https:",
+            "query": Object {},
+            "search": "/en/tsuk/dresses?query=custom",
+          }
+        }
+        title="page title"
+        total="1"
+      />
+    </div>
+    <WithQubit
+      ProductCarousel={[Function]}
+      hammerOptions={
+        Object {
+          "domEvents": true,
+        }
+      }
+      id="qubit-adp-2861-dressipi-plp-spotlight"
+      shouldUseQubit={false}
+    />
+    <div
+      className="PlpContainer-resultsSection"
+    >
+      <RefinementContainer
+        hasNoSearchResult={false}
+        refinements={Object {}}
+        stickyHeader={false}
+      />
+      <div
+        className="PlpContainer-productListContainer"
+      >
+        <Connect(Filters)
+          key="1"
+        />
+        <Connect(SandBox)
+          cmsPageName="mobilePLPESpotPos1"
+          contentType="espot"
+          isInPageContent={true}
+          key="2"
+          shouldGetContentOnFirstLoad={true}
+        />
+        <Connect(Refinements)
+          key="3"
+        />
+        <Connect(ProductList)
+          isLoading={false}
+          key="pl4"
+          products={
+            Array [
+              Object {},
+            ]
+          }
+        />
+        <Connect(component)
+          isPlp={true}
+          key="plp-back-to-top"
+        />
+        <div
+          className="PlpContainer-pagination"
+          key="6"
+        >
+          <a
+            className="PlpContainer-paginationPrev"
+          >
+            Previous
+          </a>
+          <a
+            className="PlpContainer-paginationNext"
+          >
+            Next
+          </a>
+        </div>
+      </div>
+    </div>
+    <Connect(Component) />
+  </div>
+  <Connect(AbandonmentModalTrigger)
+    espot="ABANDONMENT_SIGNUP_MODAL_CATEGORY"
+  />
+</Fragment>
+`;

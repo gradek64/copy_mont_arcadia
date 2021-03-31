@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderDorothyPerkins /> @renders in default state 1`] = `
+<div
+  className="HeaderDorothyPerkins"
+>
+  <div
+    className="HeaderDorothyPerkins-brand"
+  >
+    <Link
+      className="HeaderDorothyPerkins-brandLink"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/"
+    >
+      <BrandLogo
+        brandName="dorothyperkins"
+        hasResponsive={true}
+      />
+    </Link>
+  </div>
+  <div
+    className="HeaderDorothyPerkins-content"
+  >
+    <div
+      className="HeaderDorothyPerkins-shipping"
+      key="shipping"
+    >
+      <Connect(ShippingDestination)
+        currencySymbolPosition="right"
+        currencySymbolStyle="bracketed"
+        modifier="dorothyPerkinsHeader"
+      />
+    </div>
+    <div
+      className="HeaderDorothyPerkins-search"
+      key="search"
+    >
+      <Connect(SearchBar)
+        isDesktop={true}
+      />
+    </div>
+    <div
+      className="HeaderDorothyPerkins-account"
+      key="account"
+    >
+      <Connect(AccountIcon)
+        myAccountText="My account"
+        popoverMenu={true}
+        signOutText="Sign out"
+      />
+    </div>
+    <div
+      className="HeaderDorothyPerkins-wishlist"
+      key="wishlist"
+    >
+      <Connect(WishlistHeaderLink) />
+    </div>
+    <div
+      className="HeaderDorothyPerkins-shoppingCart"
+      key="shoppingCart"
+    >
+      <Connect(ShoppingCart) />
+    </div>
+  </div>
+  <div
+    className="HeaderDorothyPerkins-navigation"
+  >
+    <Connect(TopNavMenuBig) />
+  </div>
+</div>
+`;

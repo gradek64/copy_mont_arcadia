@@ -1,0 +1,184 @@
+{
+  "<appConfig>": [
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_URL"
+          },
+          "value": {
+            "S": "<KLARNA_URL>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_TOPSHOP"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_TOPSHOP>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_TOPSHOP"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_TOPSHOP>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_TOPMAN"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_TOPMAN>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_TOPMAN"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_TOPMAN>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_BURTON"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_BURTON>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_BURTON"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_BURTON>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_EVANS"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_EVANS>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_EVANS"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_EVANS>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_WALLIS"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_WALLIS>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_WALLIS"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_WALLIS>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_MISSSELFRIDGE"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_MISSSELFRIDGE>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_MISSSELFRIDGE"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_MISSSELFRIDGE>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_USERNAME_DOROTHYPERKINS"
+          },
+          "value": {
+            "S": "<KLARNA_USERNAME_DOROTHYPERKINS>"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "key": {
+            "S": "KLARNA_PASSWORD_DOROTHYPERKINS"
+          },
+          "value": {
+            "S": "<KLARNA_PASSWORD_DOROTHYPERKINS>"
+          }
+        }
+      }
+    }
+  ]
+}

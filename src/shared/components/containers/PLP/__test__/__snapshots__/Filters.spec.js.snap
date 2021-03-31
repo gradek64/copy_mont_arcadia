@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filters /> @renders in default state 1`] = `
+<div
+  className="Filters"
+>
+  <div
+    className="Filters-responsive"
+  >
+    <Connect(ProductViews)
+      className="Filters-column Filters-productViews"
+    />
+    <Connect(GridSelector)
+      className="Filters-column Filters-gridSelector"
+    />
+    <Connect(SortSelector)
+      className="Filters-column Filters-sortSelector"
+      totalProducts={0}
+    />
+    <div
+      className="Filters-column Filters-refineButtonContainer"
+    >
+      <span
+        className="Filters-totalResults"
+      >
+        0
+         
+        results
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Filters /> @renders with numRefinements prop 1`] = `
+<div
+  className="Filters"
+>
+  <div
+    className="Filters-responsive"
+  >
+    <Connect(ProductViews)
+      className="Filters-column Filters-productViews"
+    />
+    <Connect(GridSelector)
+      className="Filters-column Filters-gridSelector"
+    />
+    <Connect(SortSelector)
+      className="Filters-column Filters-sortSelector"
+      totalProducts={0}
+    />
+    <div
+      className="Filters-column Filters-refineButtonContainer"
+    >
+      <span
+        className="Filters-totalResults"
+      >
+        0
+         
+        results
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Filters /> @renders with totalProducts prop 1`] = `
+<div
+  className="Filters"
+>
+  <div
+    className="Filters-responsive"
+  >
+    <Connect(ProductViews)
+      className="Filters-column Filters-productViews"
+    />
+    <Connect(GridSelector)
+      className="Filters-column Filters-gridSelector"
+    />
+    <Connect(SortSelector)
+      className="Filters-column Filters-sortSelector"
+      totalProducts={30}
+    />
+    <div
+      className="Filters-column Filters-refineButtonContainer"
+    >
+      <span
+        className="Filters-totalResults"
+      >
+        30
+         
+        results
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Filters /> Should render the Filter button with 1 active refinement (isMobile) 1`] = `
+<div
+  className="Filters"
+>
+  <div
+    className="Filters-mobile"
+  >
+    <div
+      className="Filters-row"
+    >
+      <Connect(GridSelector)
+        className="Filters-column Filters-gridSelector"
+      />
+      <Connect(ProductViews)
+        className="Filters-column"
+      />
+    </div>
+    <div
+      className="Filters-row Filters-refinement"
+    >
+      <Connect(SortSelector)
+        className="Filters-column"
+        totalProducts={0}
+      />
+      <div
+        className="Filters-column Filters-refineButtonContainer"
+      >
+        <span
+          className="Filters-totalResults"
+        >
+          0
+           
+          results
+        </span>
+        <Button
+          className="Filters-refineButton"
+          clickHandler={[Function]}
+        >
+          <span
+            className="translate"
+          >
+            Filter
+          </span>
+          <span
+            className="translate"
+          >
+             (1)
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

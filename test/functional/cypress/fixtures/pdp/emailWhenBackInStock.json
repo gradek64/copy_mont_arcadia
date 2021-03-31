@@ -1,0 +1,264 @@
+{
+    "productId": 28972855,
+    "grouping": "TS26I60MMDT",
+    "lineNumber": "26I60MMDT",
+    "colour": "MID STONE",
+    "name": "PETITE Dark Leigh Jeans",
+    "description": "Our best-loved skinny fit jeans to date; the MOTO Leigh comes in a low-rise, ankle grazing fit. Crafted in super-soft, dark wash denim, with multiple pockets and a top button fly, it&#x27;s a go-to style for the modern woman. 93% Cotton, 6% Polyester, 1% Elastane. Machine wash.",
+    "unitPrice": "40.00",
+    "stockEmail": false,
+    "storeDelivery": true,
+    "stockThreshold": 0,
+    "wcsColourKey": "162054239",
+    "wcsColourADValueId": "MID STONE",
+    "wcsSizeKey": "162054241",
+    "assets": [
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Thumb_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Small_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Thumb_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Small_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Thumb_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Small_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Thumb_M_3.jpg"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Small_M_3.jpg"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_M_3.jpg"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_M_3.jpg"
+        }
+    ],
+    "additionalAssets": [
+        {
+            "assetType": "IMAGE_ZOOM",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_ZOOM",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_ZOOM",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_ZOOM",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_Zoom_M_3.jpg"
+        },
+        {
+            "assetType": "IMAGE_2COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_2COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_2COL",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_2COL",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_2col_M_3.jpg"
+        },
+        {
+            "assetType": "IMAGE_3COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_3col_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_3COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_3col_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_3COL",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_3col_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_3COL",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_3col_M_3.jpg"
+        },
+        {
+            "assetType": "IMAGE_4COL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_4col_F_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_4COL",
+            "index": 2,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_4col_M_1.jpg"
+        },
+        {
+            "assetType": "IMAGE_4COL",
+            "index": 3,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_4col_M_2.jpg"
+        },
+        {
+            "assetType": "IMAGE_4COL",
+            "index": 4,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS26I60MMDT_4col_M_3.jpg"
+        }
+    ],
+    "items": [
+        {
+            "sku": "602017001125649",
+            "size": "W2428",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602017001125650",
+            "size": "W2528",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602017001125651",
+            "size": "W2628",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602017001125652",
+            "size": "W2828",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602017001125653",
+            "size": "W3028",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602017001125654",
+            "size": "W3228",
+            "quantity": 0,
+            "selected": false
+        }
+    ],
+    "bundleProducts": [],
+    "attributes": {
+        "ECMC_PROD_CE3_JEAN_WAIST_TYPE_1": "Low Rise",
+        "ecmcUpdatedTimestamp": "2017-07-14-07.04.49.000146",
+        "ECMC_PROD_SIZE_GUIDE_1": "Jeans",
+        "b_hasImage": "N",
+        "b_has360": "N",
+        "EmailBackInStock": "Y",
+        "REAL_COLOURS": "314864|c5c5c1|65849f",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "26",
+        "CE3BThumbnailSuffixes": "",
+        "RRP": "0.0",
+        "ThresholdMessage": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "IFSeason": "AW17",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_CE3_JEAN_STYLE_1": "Leigh Jeans",
+        "StyleCode": "0",
+        "ECMC_PROD_COLOUR_1": "BLUE",
+        "ECMC_PROD_CE3_JEAN_FIT_1": "Skinny",
+        "COLOUR_CODE": "143d52",
+        "ecmcCreatedTimestamp": "2017-07-06-13.25.51.000570",
+        "STYLE_CODE": "NO_SWATCH_4995055",
+        "ECMC_PROD_CE3_PRODUCT_TYPE_1": "Jeans",
+        "NotifyMe": "N",
+        "SizeFit": "",
+        "countryExclusion": "",
+        "b_thumbnailImageSuffixes": "",
+        "ProductDefaultCopy": "",
+        "CE3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+        "shopTheOutfitBundleCode": ""
+    },
+    "colourSwatches": [
+        {
+            "colourName": "143d52",
+            "imageUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/swatch/143d52.jpg"
+        }
+    ],
+    "tpmLinks": [],
+    "bundleSlots": [],
+    "sourceUrl": "http://ts.stage.arcadiagroup.ltd.uk/en/tsuk/product/petite-dark-leigh-jeans-6785011",
+    "ageVerificationRequired": false,
+    "isBundleOrOutfit": false
+}

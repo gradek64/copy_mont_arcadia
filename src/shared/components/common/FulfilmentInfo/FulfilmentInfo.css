@@ -1,0 +1,92 @@
+/** @define FulfilmentInfo */
+
+.FulfilmentInfo {
+  padding: $fulfilmentInfo-padding;
+  margin-top: 15px;
+  background-color: $fulfilmentInfo-background-color;
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  display: $fulfilmentInfo-display;
+  justify-content: $fulfilmentInfo-justify;
+  &-today {
+    & > .FulfilmentInfo-title {
+      color: $fulfilmentInfo-collect-today-title-font-color;
+    }
+    & > .FulfilmentInfo-description {
+      color: $fulfilmentInfo-collect-today-description-font-color;
+    }
+    & .FulfilmentInfo-findInStoreLink {
+      color: $fulfilmentInfo-collect-today-link-font-color;
+    }
+  }
+  &-item {
+    padding: $fulfilmentInfo-item-padding;
+    margin: $fulfilmentInfo-item-margin;
+    position: relative;
+    text-align: $fulfilmentInfo-item-text-align;
+    width: $fulfilmentInfo-item-width;
+    background-color: $fulfilmentInfo-item-background-color;
+  }
+  &-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: $fulfilmentInfo-icon-top;
+    margin: $fulfilmentInfo-icon-margin;
+    width: $fulfilmentInfo-icon-width;
+    height: $fulfilmentInfo-icon-height;
+  }
+  &-title {
+    font-weight: $fulfilmentInfo-title-font-weight;
+    font-size: $fulfilmentInfo-title-font-size;
+    margin: $fulfilmentInfo-title-margin;
+  }
+  &-description {
+    font-weight: $fulfilmentInfo-description-font-weight;
+    font-size: $fulfilmentInfo-description-font-size;
+    margin: $fulfilmentInfo-description-margin;
+  }
+  &-spinner {
+    display: none;
+  }
+
+  &--loading {
+    position: relative;
+    & .FulfilmentInfo {
+      &-spinner {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &-item {
+        visibility: hidden;
+      }
+    }
+  }
+}
+@media $min-tablet {
+  .FulfilmentInfo {
+    padding: $fulfilmentInfo-padding-desktop;
+    display: $fulfilmentInfo-display-desktop;
+    justify-content: $fulfilmentInfo-justify-desktop;
+    &-item {
+      padding: $fulfilmentInfo-item-padding-desktop;
+      text-align: $fulfilmentInfo-item-text-align-desktop;
+      width: $fulfilmentInfo-item-width-desktop;
+    }
+    &-icon {
+      margin: $fulfilmentInfo-icon-margin-desktop;
+      top: $fulfilmentInfo-icon-top-desktop;
+    }
+    &-title {
+      margin: $fulfilmentInfo-title-margin-desktop;
+    }
+    &-description {
+      margin: $fulfilmentInfo-description-margin-desktop;
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "newsletter": {
+    "label": "Sign up and get 20% off",
+    "placeholder": "Enter your email address",
+    "button": "Sign Up",
+    "signUpUrl": "/en/tsuk/category/help-information-5634539/sign-up-to-style-notes-5651318",
+    "openNewWindow": false
+  },
+  "categories": [
+    {
+      "label": "HELP",
+      "links": [
+        {
+          "label": "Store Finder",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "FAQs",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Contact us",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Size Guide",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Washcare & Aftercare",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Accessibility",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Site Map",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Topshop at Oxford Circus",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "DELIVERY & RETURNS",
+      "links": [
+        {
+          "label": "Track your order",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Delivery",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Returns",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "E-receipts",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "CARDS & OFFERS",
+      "links": [
+        {
+          "label": "Student Discount",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Gift Cards",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Topshop Card",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "ABOUT US",
+      "links": [
+        {
+          "label": "Topshop Supports",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Fashion Footprint",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Careers & Opportunities",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "T&Cs",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Modern Slavery Act",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "Topshop at London Fashion Week",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "blog posts",
+      "images": [
+        {
+          "imageUrl": "https://placeholdit.co//i/158x60?",
+          "imageSize": "small",
+          "linkUrl": "http://www.example.com/blog/example-post",
+          "alt": "",
+          "openNewWindow": true
+        },
+        {
+          "imageUrl": "https://placeholdit.co//i/158x60?",
+          "imageSize": "small",
+          "linkUrl": "http://www.example.com/blog/example-post",
+          "alt": "",
+          "openNewWindow": true
+        }
+      ]
+    }
+  ]
+}

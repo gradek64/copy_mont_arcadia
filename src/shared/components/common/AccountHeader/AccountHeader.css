@@ -1,0 +1,81 @@
+/** @define NoLink */
+.NoLink {
+  text-decoration: none;
+}
+
+
+/** @define AccountHeader */
+
+.AccountHeader {
+  &-navigation,
+  &-title,
+  &-action {
+    border-bottom: 1px solid $myaccount-border-color;
+    padding: 1em $page-padding;
+    width: 100%;
+  }
+  &-row,
+  &-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &-row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  &-navigation {
+    justify-content: flex-start;
+  }
+  &-action {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: calc($page-padding * 3);
+  }
+
+  &-back {
+    padding: 2px 0 0 calc(2 * $myaccount-arrow-width);
+    position: relative;
+    margin: 0;
+  }
+
+  &-back:after {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     height: $myaccount-arrow-height;
+     width: $myaccount-arrow-width;
+     margin-top: calc(-0.5 * $myaccount-arrow-height);
+     background: url("public/$brand/images/left-arrow.svg") no-repeat center;
+     background-size: contain;
+     content: '';
+  }
+
+  &-title {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media $min-tablet {
+  .AccountHeader {
+
+    &-title {
+      text-align: left;
+      padding-top: 18px;
+    }
+
+    &-row:first-of-type {
+      border-width: 1px;
+    }
+
+    &-row {
+       border-width: 0;
+    }
+  }
+}
+

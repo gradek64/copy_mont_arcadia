@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryDetailsDelivery /> @renders in default state 1`] = `
+<section
+  className="OrderHistoryDetailsDelivery"
+/>
+`;
+
+exports[`<OrderHistoryDetailsDelivery /> @renders with deliveryCarrier 1`] = `
+<section
+  className="OrderHistoryDetailsDelivery"
+>
+  <p
+    className="OrderHistoryDetailsDelivery-text"
+  >
+    Carrier
+    :
+     
+    <PrivacyGuard>
+      <span>
+        Carrier
+      </span>
+    </PrivacyGuard>
+  </p>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsDelivery /> @renders with deliveryMethod 1`] = `
+<section
+  className="OrderHistoryDetailsDelivery"
+>
+  <p
+    className="OrderHistoryDetailsDelivery-text"
+  >
+    Delivery method
+    :
+     
+    <PrivacyGuard>
+      <span>
+        Collect from Store
+      </span>
+    </PrivacyGuard>
+  </p>
+</section>
+`;

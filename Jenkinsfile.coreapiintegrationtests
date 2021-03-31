@@ -1,0 +1,116 @@
+// to avoid all the funky %2F in the BUILD_TAG strings we do this. yay.
+def NICE_TAG = env.JOB_BASE_NAME.replaceAll("%2F", "-") + "-" + env.BUILD_ID
+
+pipeline {
+    agent {
+        label 'spot'
+    }
+
+    parameters {
+        string(name: 'ECR_TAG', defaultValue: '', description: 'Tag of monty docker image from ECR')
+        choice(name: 'WCS_ENVIRONMENT', choices: 'tst1\nacc1\nprd1stage\ntst1live\ntst1stage', description: 'WCS environment to be used by the monty run')
+    }
+
+    environment {
+        ECR_TAG = "${params.ECR_TAG}"
+    }
+
+    options {
+        buildDiscarder(logRotator(daysToKeepStr: '7', numToKeepStr: '50', artifactDaysToKeepStr: '7', artifactNumToKeepStr: '50'))
+        timestamps()
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
+    }
+
+    stages {
+        stage('Pull from ECR') {
+            environment {
+                DOCKERHUB = credentials('DOCKER-HUB-Arcadia')
+            }
+            steps {
+                githubNotify context: 'full-monty/tests/coreapi', description: 'Started CoreAPI integration tests', status: 'PENDING', targetUrl: env.BUILD_URL
+                echo "cleanup a bit of space hopefully"
+                sh 'docker image prune -f'
+                sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
+                sh 'set +x; $(aws ecr get-login --no-include-email --region eu-west-1)'
+            }
+        }
+
+        stage('Start Redis') {
+            steps {
+                echo "Creating docker network named net_monty_tests_coreapi_${NICE_TAG}"
+                sh "docker network create net_monty_tests_coreapi_${NICE_TAG}"
+                script {
+                    def MONTY_TAG = (params.ECR_TAG == '') ? env.GIT_COMMIT : params.ECR_TAG
+                    sh "docker pull ${ECR_URL}/monty:${MONTY_TAG}"
+                    // tag it with something predictable and unique so we can use it easily at later stages
+                    sh "docker tag ${ECR_URL}/monty:${MONTY_TAG} monty_tests_coreapi:${NICE_TAG}"
+
+                    echo "Starting up redis named redis_monty_tests_coreapi_${NICE_TAG}"
+                    docker.image('redis:3-alpine').run("--rm --name redis_monty_tests_coreapi_${NICE_TAG} --network net_monty_tests_coreapi_${NICE_TAG} --network-alias monty_cache")
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            options {
+                skipDefaultCheckout()
+                timeout(time: 30, unit: 'MINUTES')
+            }
+
+            environment {
+                WCS_ENVIRONMENT = "${params.WCS_ENVIRONMENT}"
+                REDIS_URL='tcp://monty_cache:6379'
+                REDIS_HOST_FOR_SESSION_STORE='monty_cache'
+                REDIS_PORT_FOR_SESSION_STORE=6379
+                USE_NEW_HANDLER='true'
+                QUBIT_DISABLED='true'
+                LEGACY_CMS_TEST_MODE='true'
+                CMS_TEST_MODE='true'
+            }
+
+            agent {
+                docker {
+                    image "monty_tests_coreapi:${NICE_TAG}"
+                    reuseNode true
+                    label 'spot'
+                    args "--shm-size=1500m --network net_monty_tests_coreapi_${NICE_TAG} --network-alias local.m.topshop.com"
+                }
+            }
+
+            steps {
+                sh 'cd /monty && node --harmony index.js&'
+                echo 'waiting for monty be be available'
+                sh 'while [[ "$(wget -qO- localhost:3000/health )" != "Ok" ]]; do sleep 5; done'
+                echo 'running CoreAPI integration tests'
+                sh 'cd /monty && npm run integration:coreapi'
+            }
+
+            post {
+                always {
+                    sh 'cp /monty/test-report.xml ./test-report.xml'
+                    junit 'test-report.xml'
+                }
+            }
+
+        }
+    }
+
+    post {
+        success {
+            githubNotify context: 'full-monty/tests/coreapi', description: 'Finished CoreAPI integration tests', status: 'SUCCESS', targetUrl: env.BUILD_URL
+        }
+        failure {
+            githubNotify context: 'full-monty/tests/coreapi', description: 'Failed CoreAPI integration tests', status: 'FAILURE', targetUrl: env.BUILD_URL
+        }
+        cleanup {
+            echo "Stopping and removing all containters related to monty_tests_coreapi_${NICE_TAG}"
+            sh "docker container ls --all --filter name=monty_tests_coreapi_${NICE_TAG} -q | xargs --no-run-if-empty docker container rm -fv"
+            echo "Removing custom network related to monty_tests_coreapi_${NICE_TAG}"
+            sh "docker network ls --filter name=net_monty_tests_coreapi_${NICE_TAG} -q | xargs --no-run-if-empty docker network rm"
+            echo "Attempt to prune orphaned volumes"
+            sh "docker volume prune -f"
+            echo "Remove temp tag for the monty image"
+            sh "docker image rm monty_tests_coreapi:${NICE_TAG}"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "binNumber": {
+            "type": "string",
+            "example": "444433",
+            "description": "Bank Identification Number (BIN)"
+        },
+        "ddcJwt": {
+            "type": "string",
+            "example": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzNjg5YWU2OS1jZTk4LTQwZGEtOTA5NC0zOTczYjYyNDEyNmQiLCJpYXQiOjE1NjIxNjc5OTgsInN1YiI6IkpKV1QiLCJleHAiOjE1NjIxNzE1OTgsIk9yZ1VuaXRJZCI6IjViZDliNTVlNDQ0NDc2MWFjMGFmMWM4MCJ9.XsuCgWYvZ3bxJ6-VVy1-bQ3CTsZsnOdPry6lze3kEr4",
+            "description": "JSON Web Token (JWT) for Device Data Collection (DDC)"
+        },
+        "orderId": {
+            "type": "string",
+            "example": "123456",
+            "description": "WCS Order Id"
+        }
+    }
+}

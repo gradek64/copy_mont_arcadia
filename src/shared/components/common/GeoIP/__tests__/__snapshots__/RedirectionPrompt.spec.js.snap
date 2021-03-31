@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RedirectionPrompt /> should include all required dictionary strings in its dictionaryStrings property 1`] = `
+Array [
+  "Country preferences",
+  "de",
+  "eu",
+  "fr",
+  "uk",
+  "us",
+  "the uk",
+  "the us",
+  "You are viewing the website for \${currentSite}. Would you like to view the website for \${otherSite} instead?",
+  "Take me to the \${otherSite} site",
+  "Continue to the \${currentSite} site",
+  "NOTE: If you choose to be redirected, you will be taken to the home page.",
+]
+`;

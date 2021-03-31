@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryList /> @render has no orders 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      label="Back to My Account"
+      link="/my-account"
+      title="My orders"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 orders."
+      historyRequest="Need your full order history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current orders, view your order history and start a return"
+    />
+  }
+  className="OrderHistoryList"
+  notFoundMessage="There were no orders found"
+  orders={Array []}
+  type="order"
+/>
+`;
+
+exports[`<OrderHistoryList /> @render has order limits message and the brand code is NOT in the numbers and region is NOT EU 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      label="Back to My Account"
+      link="/my-account"
+      title="My orders"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 orders."
+      historyRequest="Need your full order history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current orders, view your order history and start a return"
+    />
+  }
+  className="OrderHistoryList"
+  notFoundMessage="There were no orders found"
+  orders={
+    Array [
+      Object {
+        "date": "03 May 2017",
+        "orderId": 1446704,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£53.00",
+      },
+      Object {
+        "date": "27 April 2017",
+        "orderId": 1438912,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£42.00",
+      },
+    ]
+  }
+  type="order"
+/>
+`;
+
+exports[`<OrderHistoryList /> @render has order limits message and the brand code is NOT in the numbers but region is EU 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      label="Back to My Account"
+      link="/my-account"
+      title="My orders"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 orders."
+      historyRequest="Need your full order history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current orders, view your order history and start a return"
+    />
+  }
+  className="OrderHistoryList"
+  notFoundMessage="There were no orders found"
+  orders={
+    Array [
+      Object {
+        "date": "03 May 2017",
+        "orderId": 1446704,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£53.00",
+      },
+      Object {
+        "date": "27 April 2017",
+        "orderId": 1438912,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£42.00",
+      },
+    ]
+  }
+  type="order"
+/>
+`;
+
+exports[`<OrderHistoryList /> @render has order limits message and the brand code is in the numbers 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      label="Back to My Account"
+      link="/my-account"
+      title="My orders"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 orders."
+      historyRequest="Need your full order history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current orders, view your order history and start a return"
+    />
+  }
+  className="OrderHistoryList"
+  notFoundMessage="There were no orders found"
+  orders={
+    Array [
+      Object {
+        "date": "03 May 2017",
+        "orderId": 1446704,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£53.00",
+      },
+      Object {
+        "date": "27 April 2017",
+        "orderId": 1438912,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£42.00",
+      },
+    ]
+  }
+  type="order"
+/>
+`;
+
+exports[`<OrderHistoryList /> @render in default state 1`] = `
+<OrderListContainer
+  AccountHeaderComponent={
+    <AccountHeader
+      label="Back to My Account"
+      link="/my-account"
+      title="My orders"
+    />
+  }
+  OrderListFooterComponent={
+    <OrderListFooter
+      contact=" Contact customer service on"
+      displayText="Displaying your last 20 orders."
+      historyRequest="Need your full order history?"
+    />
+  }
+  OrderListTaglineComponent={
+    <OrderListTagline
+      tagline="Track your current orders, view your order history and start a return"
+    />
+  }
+  className="OrderHistoryList"
+  notFoundMessage="There were no orders found"
+  orders={
+    Array [
+      Object {
+        "date": "03 May 2017",
+        "orderId": 1446704,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£53.00",
+      },
+      Object {
+        "date": "27 April 2017",
+        "orderId": 1438912,
+        "returnPossible": false,
+        "returnRequested": false,
+        "status": "Your order is currently being packed by our warehouse.",
+        "statusCode": "C",
+        "total": "£42.00",
+      },
+    ]
+  }
+  type="order"
+/>
+`;

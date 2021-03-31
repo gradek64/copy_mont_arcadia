@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActiveDDPBanner /> @render should render the ActiveDDPBanner if the user has an active DDP Subscription and with the dark version of the logo 1`] = `
+<div
+  className="ActiveDDPBanner"
+>
+  <div
+    className="ActiveDDPBanner-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="ActiveDDPBanner-img"
+      src="/assets/wallis/images/ddp-icon.svg"
+    />
+    <h3
+      className="ActiveDDPBanner-title"
+    >
+      Unlimited delivery is active
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`<ActiveDDPBanner /> @render should render the ActiveDDPBanner if the user has an active DDP Subscription and with the white version of the logo 1`] = `
+<div
+  className="ActiveDDPBanner"
+>
+  <div
+    className="ActiveDDPBanner-titleContainer"
+  >
+    <Connect(Image)
+      alt="DDP Logo"
+      className="ActiveDDPBanner-img"
+      src="/assets/dorothyperkins/images/ddp-icon-white.svg"
+    />
+    <h3
+      className="ActiveDDPBanner-title"
+    >
+      Premier Delivery is active
+    </h3>
+  </div>
+</div>
+`;

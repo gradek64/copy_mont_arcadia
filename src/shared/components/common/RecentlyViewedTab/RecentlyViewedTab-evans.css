@@ -1,0 +1,11 @@
+/** @define RecentlyViewedTab */
+
+.RecentlyViewedTab {
+  &-tabContainer {
+    background: #333333;
+  }
+
+  &-toggleButton {
+    font-family: $font-family-secondary;
+  }
+}

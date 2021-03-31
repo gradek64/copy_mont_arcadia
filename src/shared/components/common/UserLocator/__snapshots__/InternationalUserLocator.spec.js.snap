@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InternationalUserLocator /> @renders in default state 1`] = `
+<Form
+  className="IntUserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="IntUserLocator-countryContainer"
+  >
+    <Connect(Image)
+      alt="Store locator map marker"
+      className="IntUserLocator-mapMarker"
+      src="/assets/{brandName}/images/map-marker.svg"
+    />
+    <div
+      className=""
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <Connect(CountryChooser)
+        name="InterCountrySelect"
+        selectedCountry={null}
+      />
+    </div>
+  </div>
+  <Connect(UserLocatorInput) />
+</Form>
+`;
+
+exports[`<InternationalUserLocator /> @renders when selectedCountry is not the defaultCountry and it is not the landing page 1`] = `
+<Form
+  className="IntUserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="IntUserLocator-countryContainer"
+  >
+    <Connect(Image)
+      alt="Store locator map marker"
+      className="IntUserLocator-mapMarker"
+      src="/assets/{brandName}/images/map-marker.svg"
+    />
+    <div
+      className=""
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <Connect(CountryChooser)
+        name="InterCountrySelect"
+        selectedCountry={null}
+      />
+    </div>
+    <Button
+      className="IntUserLocator-goButton IntUserLocator-goButton--country"
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="Portugal"
+  />
+</Form>
+`;
+
+exports[`<InternationalUserLocator /> @renders when selectedCountry is not the defaultCountry and it is the landing page 1`] = `
+<Form
+  className="IntUserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="IntUserLocator-countryContainer"
+  >
+    <div
+      className="IntUserLocator-container"
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div>
+        <h1
+          className="IntUserLocator-storeFinderText"
+        >
+          International Store Finder
+        </h1>
+        <p
+          className="IntUserLocator-chooseCountryStatement"
+        >
+          Choose Country Statement
+        </p>
+      </div>
+      <Connect(CountryChooser)
+        isLandingPage={true}
+        name="InterStoreFinderCountrySelect"
+        selectedCountry={null}
+      />
+    </div>
+  </div>
+</Form>
+`;
+
+exports[`<InternationalUserLocator /> @renders when selectedCountry is the defaultCountry and it is not the landing page 1`] = `
+<Form
+  className="IntUserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="IntUserLocator-countryContainer"
+  >
+    <Connect(Image)
+      alt="Store locator map marker"
+      className="IntUserLocator-mapMarker"
+      src="/assets/{brandName}/images/map-marker.svg"
+    />
+    <div
+      className=""
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <Connect(CountryChooser)
+        name="InterCountrySelect"
+        selectedCountry={null}
+      />
+    </div>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="United Kingdom"
+  />
+</Form>
+`;
+
+exports[`<InternationalUserLocator /> @renders when selectedCountry is the defaultCountry and it is the landing page 1`] = `
+<Form
+  className="IntUserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="IntUserLocator-countryContainer"
+  >
+    <div
+      className="IntUserLocator-container"
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div>
+        <h1
+          className="IntUserLocator-storeFinderText"
+        >
+          International Store Finder
+        </h1>
+        <p
+          className="IntUserLocator-chooseCountryStatement"
+        >
+          Choose Country Statement
+        </p>
+      </div>
+      <Connect(CountryChooser)
+        isLandingPage={true}
+        name="InterStoreFinderCountrySelect"
+        selectedCountry={null}
+      />
+    </div>
+  </div>
+</Form>
+`;

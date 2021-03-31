@@ -1,0 +1,138 @@
+/** @define HeaderEvans; weak */
+.HeaderEvans {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-header-responsive;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $laptop-end-width;
+  position: relative;
+
+  &-brand {
+    margin: 0;
+    position: relative;
+  }
+
+  &-brandLink {
+    display: block;
+    margin: 11px auto;
+    position: relative;
+    width: 140px;
+    z-index: 2;
+  }
+
+  &-content {
+    opacity: 0;
+    align-items: center;
+    color: $font-color-base;
+    display: flex;
+    font-size: 12px;
+    font-weight: $account-icon-label-font-weight;
+    height: 29px;
+    margin: 15px auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &-shipping {
+    align-items: center;
+    display: flex;
+    flex: 1;
+  }
+
+  &-search {
+    min-width: 115px;
+    position: relative;
+    width: 15%;
+  }
+
+  & .SearchBar--big {
+    & .SearchBar-form {
+      height: 22px;
+    }
+
+    & .SearchBar-queryInput,
+    & .SearchBar-queryInput::placeholder {
+      font-size: $header-link-font-size;
+      font-weight: $header-link-font-weight;
+      padding: 0 2px 1px;
+    }
+
+    & .SearchBar-icon {
+      height: 100%;
+      padding: 0;
+    }
+  }
+}
+
+@media $min-tablet {
+  .HeaderEvans {
+    &-brandLink {
+      height: 48px;
+      margin: 11px auto 15px;
+    }
+
+    &-content {
+      margin: 18px auto;
+    }
+  }
+}
+
+@media $min-laptop {
+  .HeaderEvans {
+    &-brandLink {
+      height: 56px;
+      margin: 20px auto;
+    }
+
+    &-content {
+      margin: 30px auto;
+    }
+
+    &-search {
+      min-width: 125px;
+      width: 13%;
+    }
+    
+    & .Espot-globalEspot {
+      margin: 0 0 0 20px;
+    }
+
+    &-shoppingCart {
+      display: flex;
+      align-self: flex-end;
+    }
+  }
+}
+
+@media $desktop {
+  .HeaderEvans {
+    &-brandLink {
+      width: 200px;
+    }
+
+    &-content {
+      font-size: 14px;
+      height: 34px;
+    }
+
+    &-search {
+      min-width: 150px;
+      width: 14%;
+    }
+    
+    & .SearchBar--big {
+      & .SearchBar-form {
+        height: 27px;
+      }
+
+      & .SearchBar-queryInput,
+      & .SearchBar-queryInput::placeholder {
+        font-size: $header-link-font-size;
+        font-weight: $header-link-font-weight;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+/** @define QuickLinks */
+.QuickLinks {
+  position: relative;
+  z-index: 10;
+  overflow: visible;
+
+  &-link {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: $quick-links-background;
+    border: $quick-links-border;
+    padding: $quick-links-padding;
+    text-decoration: none;
+    transform: translateY(-100%);
+    transition: transform $quick-links-transition-time;
+
+    &:focus {
+      transform: translateY(0%);
+    }
+  }
+}

@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReturnHistoryDetailsPayment @defaults in default state 1`] = `""`;
+
+exports[`ReturnHistoryDetailsPayment @defaults with multiple payment methods 1`] = `
+<div
+  className="ReturnHistoryDetailsPayment-container"
+>
+  <div
+    className="ReturnHistoryDetailsPayment-header"
+  >
+    Payment details
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-paymentMethodContainer"
+    key="0"
+  >
+    <Connect(Image)
+      className="ReturnHistoryDetailsPayment-icon"
+      src="/assets/common/images/icon_visa.gif"
+    />
+    <div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Payment method
+        :
+         
+        <PrivacyGuard>
+          <span>
+            Visa
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Card Number
+        :
+         
+        <PrivacyGuard>
+          <span>
+            ************1111
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Credited
+        :
+         
+        <PrivacyGuard>
+          <span>
+            £31.00
+          </span>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-paymentMethodContainer"
+    key="1"
+  >
+    <Connect(Image)
+      className="ReturnHistoryDetailsPayment-icon"
+      src="/assets/common/images/icon_paypal.gif"
+    />
+    <div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Payment method
+        :
+         
+        <PrivacyGuard>
+          <span>
+            Paypal
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Credited
+        :
+         
+        <PrivacyGuard>
+          <span>
+            £16.00
+          </span>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-paymentMethodContainer"
+    key="2"
+  >
+    <Connect(Image)
+      className="ReturnHistoryDetailsPayment-icon"
+      src="/assets/{brandName}/images/credit-card.svg"
+    />
+    <div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Payment method
+        :
+         
+        <PrivacyGuard>
+          <span>
+            GiftCard
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Card Number
+        :
+         
+        <PrivacyGuard>
+          <span>
+            ************4258
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Credited
+        :
+         
+        <PrivacyGuard>
+          <span>
+            £0.50
+          </span>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-customerServiceMessage"
+  >
+    Please allow 7 days from the date above before contacting Customer Services regarding your refund.
+  </div>
+</div>
+`;
+
+exports[`ReturnHistoryDetailsPayment @defaults with one payment method all fields included 1`] = `
+<div
+  className="ReturnHistoryDetailsPayment-container"
+>
+  <div
+    className="ReturnHistoryDetailsPayment-header"
+  >
+    Payment details
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-paymentMethodContainer"
+    key="0"
+  >
+    <Connect(Image)
+      className="ReturnHistoryDetailsPayment-icon"
+      src="/assets/common/images/icon_visa.gif"
+    />
+    <div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Payment method
+        :
+         
+        <PrivacyGuard>
+          <span>
+            Visa
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Card Number
+        :
+         
+        <PrivacyGuard>
+          <span>
+            ************1111
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Credited
+        :
+         
+        <PrivacyGuard>
+          <span>
+            £31.00
+          </span>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-customerServiceMessage"
+  >
+    Please allow 7 days from the date above before contacting Customer Services regarding your refund.
+  </div>
+</div>
+`;
+
+exports[`ReturnHistoryDetailsPayment @defaults with one payment method without cardNumberStar 1`] = `
+<div
+  className="ReturnHistoryDetailsPayment-container"
+>
+  <div
+    className="ReturnHistoryDetailsPayment-header"
+  >
+    Payment details
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-paymentMethodContainer"
+    key="0"
+  >
+    <Connect(Image)
+      className="ReturnHistoryDetailsPayment-icon"
+      src="/assets/common/images/icon_paypal.gif"
+    />
+    <div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Payment method
+        :
+         
+        <PrivacyGuard>
+          <span>
+            Paypal
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Credited
+        :
+         
+        <PrivacyGuard>
+          <span>
+            £16.00
+          </span>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-customerServiceMessage"
+  >
+    Please allow 7 days from the date above before contacting Customer Services regarding your refund.
+  </div>
+</div>
+`;
+
+exports[`ReturnHistoryDetailsPayment @defaults with one payment method without icon 1`] = `
+<div
+  className="ReturnHistoryDetailsPayment-container"
+>
+  <div
+    className="ReturnHistoryDetailsPayment-header"
+  >
+    Payment details
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-paymentMethodContainer"
+    key="0"
+  >
+    <Connect(Image)
+      className="ReturnHistoryDetailsPayment-icon"
+      src="/assets/{brandName}/images/credit-card.svg"
+    />
+    <div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Payment method
+        :
+         
+        <PrivacyGuard>
+          <span>
+            GiftCard
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Card Number
+        :
+         
+        <PrivacyGuard>
+          <span>
+            ************4258
+          </span>
+        </PrivacyGuard>
+      </div>
+      <div
+        className="ReturnHistoryDetailsPayment-paymentInfo"
+      >
+        Credited
+        :
+         
+        <PrivacyGuard>
+          <span>
+            £0.50
+          </span>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ReturnHistoryDetailsPayment-customerServiceMessage"
+  >
+    Please allow 7 days from the date above before contacting Customer Services regarding your refund.
+  </div>
+</div>
+`;

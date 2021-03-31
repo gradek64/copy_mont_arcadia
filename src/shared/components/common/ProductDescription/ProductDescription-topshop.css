@@ -1,0 +1,36 @@
+/** @define ProductDescription; weak */
+
+.ProductDescription {
+  & ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  & li {
+    padding-left: 0;
+  }
+}
+
+@media $min-tablet {
+  .ProductDescription {
+    background: #f8f8f8;
+    padding: 30px;
+
+    &-title {
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: $pdp-product-detail-title-font-weight;
+      line-height: 1.11;
+      letter-spacing: 1.1px;
+      text-align: left;
+      color: #232323;
+    }
+
+    &-productDetailText {
+      letter-spacing: 0.2px;
+      line-height: 1.4;
+    }
+  }
+}

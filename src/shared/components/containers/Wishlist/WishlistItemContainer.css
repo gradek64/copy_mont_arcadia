@@ -1,0 +1,21 @@
+/** @define WishlistItemContainer */
+
+.WishlistItemContainer {
+  position: relative;
+  margin: 30px 0 0;
+  padding: 0 5px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+/* postcss-bem-linter: ignore */
+.WishlistItemContainer .fade-exit-active {
+  opacity: 1;
+}
+
+/* postcss-bem-linter: ignore */
+.WishlistItemContainer .fade-exit {
+  opacity: 0.01;
+  transition: opacity 400ms ease-in;
+}

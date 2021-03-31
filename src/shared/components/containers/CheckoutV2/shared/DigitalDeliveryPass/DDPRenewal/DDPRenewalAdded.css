@@ -1,0 +1,136 @@
+/** @define DDPAdded */
+
+.DDPAdded {
+  padding: $ddp-container-padding;
+  align-items: $ddp-added-align-items;
+  background: $ddp-added-title-background-colour;
+  border: $ddp-added-border;
+  display: $ddp-added-display;
+  height: $ddp-added-height;
+  margin-bottom: 30px;
+
+  &-outer--mydetails {
+    border-top: 1px solid #979797;
+    padding: 10px;
+  }
+
+  &-container {
+    display: $ddp-added-container-display;
+    min-height: $ddp-added-container-height;
+  }
+
+  &-title {
+    padding: $ddp-added-title-padding;
+    text-transform: $ddp-added-title-text-transform;
+    font-weight: $ddp-added-title-font-weight;
+    color: $ddp-added-title-color;
+  }
+
+  &-withOuterDDPTitleAndSeparatorTitle {
+    margin-top: 37px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: $ddp-renewal-font-weight-title;
+  }
+
+  &-titleContainer {
+    display: $ddp-added-title-conatiner-display;
+    align-items: $ddp-added-title-container-align-items;
+  }
+
+  &-message {
+    margin-bottom: $ddp-added-message-margin-bottom;
+    text-align: $ddp-added-message-text-align;
+    font-weight: $ddp-added-message-font-weight;
+    color: $ddp-added-message-color;
+  }
+
+  &-icon {
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-image {
+    width: $ddp-added-icon-width;
+    height: $ddp-added-icon-height;
+    fill: $ddp-added-icon-fill;
+  }
+
+  &--myaccount,
+  &--mydetails {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    & .DDPAdded-title {
+      margin-top: 0;
+      margin-bottom: 5px;
+      padding: 0;
+    }
+
+    & .DDPAdded-container {
+      position: relative;
+      top: -20px;
+    }
+    & .DDPAdded-titleContainer {
+      justify-content: center;
+    }
+  }
+}
+
+@media $mobile {
+  .DDPAdded {
+    padding: $ddp-container-padding-mobile;
+    height: $ddp-added-height-mobile;
+    min-height: $ddp-added-min-height-mobile;
+
+    &-title {
+      padding: $ddp-added-title-padding-mobile;
+      margin: $ddp-added-title-margin-mobile;
+    }
+
+    &-icon {
+      padding-right: 0px;
+    }
+
+    &-outer--mydetails {
+      border-top: 1px solid #979797;
+      padding: 10px;
+    }
+
+    &-image {
+      height: $ddp-added-icon-height-mobile;
+      width: $ddp-added-icon-width-mobile;
+      align-self: $ddp-added-icon-align-self-mobile;
+    }
+    
+    &--myaccount {
+      border: none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    &--myaccount,
+    &--mydetails {
+      padding: 10px 40px;
+      margin-bottom: 0px;
+      
+      & .DDPAdded-title {
+        font-size: 14px;
+      }
+      
+      & .DDPAdded-image {
+        height: $ddp-added-icon-height;
+        width: $ddp-added-icon-width;
+      }
+    }
+
+    &--mydetails {
+      padding: 10px 30px 30px 30px;
+    }
+  }
+}

@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shopping Bag Actions MiniBag message actions emptyShoppingBag creates an action of the correct type 1`] = `
+Object {
+  "type": "EMPTY_SHOPPING_BAG",
+}
+`;
+
+exports[`Shopping Bag Actions MiniBag message actions resetShoppingBag creates an action of the correct type 1`] = `
+Object {
+  "type": "RESET_SHOPPING_BAG",
+}
+`;
+
+exports[`Shopping Bag Actions addPromotionCode On Failure addPromotionCode action creators snapshot [post FAILURE] and scroll to container 1`] = `
+Array [
+  Object {
+    "formName": "promotionCode",
+    "isLoading": true,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "key": null,
+    "message": Object {
+      "message": "",
+    },
+    "type": "SET_FORM_MESSAGE",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": false,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "key": null,
+    "message": Object {
+      "message": "error",
+      "type": "error",
+    },
+    "type": "SET_FORM_MESSAGE",
+  },
+  Object {
+    "errorMessage": "Error applying promo code in shopping bag.",
+    "type": "MONTY/ANALYTICS.SEND_ERROR_MESSAGE",
+  },
+]
+`;
+
+exports[`Shopping Bag Actions addPromotionCode addPromotionCode action creators snapshot [post SUCCESS] 1`] = `
+Array [
+  Object {
+    "formName": "promotionCode",
+    "isLoading": true,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "key": null,
+    "message": Object {
+      "message": "",
+    },
+    "type": "SET_FORM_MESSAGE",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": false,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "count": 0,
+    "persist": false,
+    "type": "UPDATE_SHOPPING_BAG_BADGE_COUNT",
+  },
+  Object {
+    "formName": "promotionCode",
+    "initialValues": Object {
+      "promotionCode": "",
+    },
+    "key": null,
+    "type": "RESET_FORM",
+  },
+  Object {
+    "field": "isVisible",
+    "formName": "promotionCode",
+    "key": null,
+    "type": "SET_FORM_META",
+    "value": false,
+  },
+  Object {
+    "promotionCodeConfirmation": true,
+    "type": "SET_PROMOTION_CODE_CONFIRMATION",
+  },
+  Object {
+    "payload": Object {
+      "action": "promoCodeApplied",
+      "category": "shoppingBag",
+      "label": "PROMO",
+    },
+    "type": "MONTY/ANALYTICS.SEND_CLICK_EVENT",
+  },
+]
+`;
+
+exports[`Shopping Bag Actions getBagRequest should snapshot all the actions when success 1`] = `
+Array [
+  Object {
+    "isLoading": true,
+    "type": "SET_LOADING_SHOPPING_BAG",
+  },
+  Object {
+    "isLoading": false,
+    "type": "SET_LOADING_SHOPPING_BAG",
+  },
+  Object {
+    "count": 0,
+    "persist": false,
+    "type": "UPDATE_SHOPPING_BAG_BADGE_COUNT",
+  },
+  Object {
+    "bag": Object {
+      "invetoryPositions": Object {},
+      "products": Array [],
+      "subTotal": "5",
+      "total": "5",
+    },
+    "persist": true,
+    "type": "UPDATE_BAG",
+  },
+  Object {
+    "type": "MOCK_getDeliveryStoreDetails",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": true,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "key": null,
+    "message": Object {
+      "message": "",
+    },
+    "type": "SET_FORM_MESSAGE",
+  },
+  Object {
+    "type": "SET_ESPOT_CONTENT",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": false,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "initialValues": Object {
+      "promotionCode": "",
+    },
+    "key": null,
+    "type": "RESET_FORM",
+  },
+  Object {
+    "field": "isVisible",
+    "formName": "promotionCode",
+    "key": null,
+    "type": "SET_FORM_META",
+    "value": false,
+  },
+  Object {
+    "promotionCodeConfirmation": true,
+    "type": "SET_PROMOTION_CODE_CONFIRMATION",
+  },
+  Object {
+    "type": "UPDATE_MOCK_ORDER",
+  },
+  Object {
+    "type": "MOCKED_CLOSE_MODAL",
+  },
+  Object {
+    "autoClose": false,
+    "type": "OPEN_MINI_BAG",
+  },
+  Object {
+    "isLoading": true,
+    "type": "SET_LOADING_SHOPPING_BAG",
+  },
+  Object {
+    "isLoading": false,
+    "type": "SET_LOADING_SHOPPING_BAG",
+  },
+  Object {
+    "count": 0,
+    "persist": false,
+    "type": "UPDATE_SHOPPING_BAG_BADGE_COUNT",
+  },
+  Object {
+    "bag": Object {
+      "invetoryPositions": Object {},
+      "products": Array [],
+      "subTotal": "5",
+      "total": "5",
+    },
+    "persist": true,
+    "type": "UPDATE_BAG",
+  },
+  Object {
+    "type": "MOCK_getDeliveryStoreDetails",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": true,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "key": null,
+    "message": Object {
+      "message": "",
+    },
+    "type": "SET_FORM_MESSAGE",
+  },
+  Object {
+    "type": "SET_ESPOT_CONTENT",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": false,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "initialValues": Object {
+      "promotionCode": "",
+    },
+    "key": null,
+    "type": "RESET_FORM",
+  },
+  Object {
+    "field": "isVisible",
+    "formName": "promotionCode",
+    "key": null,
+    "type": "SET_FORM_META",
+    "value": false,
+  },
+  Object {
+    "promotionCodeConfirmation": true,
+    "type": "SET_PROMOTION_CODE_CONFIRMATION",
+  },
+  Object {
+    "type": "UPDATE_MOCK_ORDER",
+  },
+  Object {
+    "type": "MOCKED_CLOSE_MODAL",
+  },
+  Object {
+    "autoClose": false,
+    "type": "OPEN_MINI_BAG",
+  },
+  Object {
+    "isLoading": true,
+    "type": "SET_LOADING_SHOPPING_BAG",
+  },
+  Object {
+    "isLoading": false,
+    "type": "SET_LOADING_SHOPPING_BAG",
+  },
+  Object {
+    "count": 0,
+    "persist": false,
+    "type": "UPDATE_SHOPPING_BAG_BADGE_COUNT",
+  },
+  Object {
+    "bag": Object {
+      "invetoryPositions": Object {},
+      "products": Array [],
+      "subTotal": "5",
+      "total": "5",
+    },
+    "persist": true,
+    "type": "UPDATE_BAG",
+  },
+  Object {
+    "type": "MOCK_getDeliveryStoreDetails",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": true,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "key": null,
+    "message": Object {
+      "message": "",
+    },
+    "type": "SET_FORM_MESSAGE",
+  },
+  Object {
+    "type": "SET_ESPOT_CONTENT",
+  },
+  Object {
+    "formName": "promotionCode",
+    "isLoading": false,
+    "type": "SET_FORM_LOADING",
+  },
+  Object {
+    "formName": "promotionCode",
+    "initialValues": Object {
+      "promotionCode": "",
+    },
+    "key": null,
+    "type": "RESET_FORM",
+  },
+  Object {
+    "field": "isVisible",
+    "formName": "promotionCode",
+    "key": null,
+    "type": "SET_FORM_META",
+    "value": false,
+  },
+  Object {
+    "promotionCodeConfirmation": true,
+    "type": "SET_PROMOTION_CODE_CONFIRMATION",
+  },
+  Object {
+    "type": "UPDATE_MOCK_ORDER",
+  },
+]
+`;

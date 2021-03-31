@@ -1,0 +1,248 @@
+/** @define PlpHeader; weak */
+.PlpHeader {
+  padding: $plp-header-padding;
+  text-align: center;
+  
+  & h1 {
+    display: $plp-header-heading-display;
+    margin: 0;
+  }
+
+  &-title {
+    display: $plp-header-title-display;
+    margin-bottom: $plp-header-title-margin-bottom;
+    letter-spacing: $plp-header-title-letter-spacing;
+    font-size: $plp-header-title-font-size;
+    font-weight: $plp-header-title-font-weight;
+    text-transform: $plp-header-title-text-transform;
+  }
+
+  &-total {
+    font-family: $plp-header-total-font-family;
+    font-size: $plp-header-total-font-size;
+    font-weight: $plp-header-total-font-weight;
+    margin-left: $plp-header-total-margin-left;
+    color: $plp-header-total-color;
+    vertical-align: $plp-header-total-vertical-align;
+    letter-spacing: 1px;
+  }
+
+  &-totalValue {
+    &::before,
+    &::after {
+      display: $plp-header-total-brackets-display;
+    }
+
+    &::before {
+      content: '(';
+    }
+
+    &::after {
+      content: ')';
+    }
+  }
+
+  &-totalLabel {
+    display: $plp-header-total-label-display;
+    margin-left: 0.25em;
+    text-transform: lowercase;
+  }
+
+  &-banner {
+    text-align: center;
+
+    &--clearfix::after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+  }
+}
+
+@media $min-tablet {
+  .PlpHeader-totalValue,
+  .PlpHeader-totalLabel {
+    display: none;
+  }
+}
+
+@media $mobile {
+  .PlpHeader {
+    padding: $plp-header-padding-mobile;
+  }
+
+  .PlpHeader-banner {
+    display: none;
+  }
+}
+
+/*************
+  Banner hacks
+**************/
+.PlpHeader {
+  & .PlpHeader-banner {
+    & .CatHeaderMultiColumnMenuContent {
+      width: 100%;
+    }
+
+    & #mainContent h1 {
+      margin-top: $plp-header-banner-h1-margin-top;
+    }
+
+    & #catheader {
+      width: 100%;
+
+      & .block {
+        width: $plp-header-banner-block-width;
+      }
+
+      & .img_map {
+        width: 100%;
+
+        & > img {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  & .PlpHeader-ev {
+    & .CatHeaderMultiColumnMenuContent {
+
+      & h1 {
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 15px;
+        text-transform: capitalize;
+
+        & span {
+          margin-top: 10px;
+          display: block;
+          font-size: 13px;
+          line-height: 19px;
+          font-weight: 300;
+        }
+      }
+
+      & #description {
+        letter-spacing: 1px;
+
+        & p {
+          line-height: 19px;
+        }
+      }
+    }
+  }
+
+  & .PlpHeader-wl {
+    & .CatHeaderMultiColumnMenuContent {
+      margin: 0 auto;
+      width: 990px;
+
+      & #description a {
+        font-weight: 600 !important;
+        color: #000;
+        text-decoration: none !important;
+
+        &:hover {
+          color: #666;
+        }
+      }
+
+      & #mainContent {
+        margin: 0 auto;
+        padding: 25px 60px 35px 60px;
+        width: auto !important;
+        background-color: #f2f2f4;
+        overflow: hidden;
+
+        & #columns {
+          width: 100% !important;
+          margin: 20px 0 0 0 !important;
+
+          & .colWidth5 li {
+            width: 20%;
+          }
+        }
+      }
+
+      & h1 {
+        font-family: "Source Sans Pro",arial,sans-serif !important;
+        text-align: center !important;
+        font-weight: lighter !important;
+        text-transform: capitalize;
+      }
+
+      & #supercat-cta {
+        padding: 20px 0;
+        width: 100%;
+        background-color: #ffffff;
+      }
+
+      & ul li {
+        margin: 0 !important;
+
+        & a {
+          padding: 5px 15px !important;
+        }
+      }
+    }
+  }
+}
+
+@media $tablet {
+  .PlpHeader {
+    & .PlpHeader-banner {
+      & #catheader #description {
+        z-index: 1;
+        left: 100px !important;
+      }
+
+      & #catheader h1 {
+        z-index: 1;
+        left: 100px !important;
+      }
+
+      & #catheader #view {
+        z-index: 1;
+        left: 100px !important;
+      }
+
+      & #catheader {
+        & .img_map {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          height: 200px;
+
+          & > img {
+            display: block;
+            position: absolute;
+            left: -100%;
+            right: -100%;
+            top: -100%;
+            bottom: -100%;
+            margin: auto;
+            min-height: 100%;
+            min-width: 100%;
+          }
+        }
+      }
+    }
+
+    & .PlpHeader-wl {
+      & .CatHeaderMultiColumnMenuContent {
+        width: 100% !important;
+
+        & #supercat-cta {
+          & img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

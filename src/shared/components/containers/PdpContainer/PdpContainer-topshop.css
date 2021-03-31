@@ -1,0 +1,7 @@
+/** @define PdpContainer; weak */
+
+.PdpContainer {
+  & .ProductsBreadCrumbs {
+    margin-left: 5px;
+  }
+}

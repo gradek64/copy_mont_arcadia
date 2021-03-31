@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeDelivery /> @methods validateHomeDelivery() with invalid or missing fields should return errors 1`] = `
+Object {
+  "deliveryInstructions": Object {},
+  "findAddress": Object {},
+  "guestUser": Object {},
+  "yourAddress": Object {
+    "address1": "This field is required",
+    "city": "This field is required",
+    "postcode": "This field is required",
+  },
+  "yourDetails": Object {
+    "firstName": "This field is required",
+    "lastName": "This field is required",
+    "telephone": "This field is required",
+  },
+}
+`;
+
+exports[`<HomeDelivery /> @methods validateHomeDelivery() with valid required fields should not return errors 1`] = `
+Object {
+  "deliveryInstructions": Object {},
+  "findAddress": Object {},
+  "guestUser": Object {},
+  "yourAddress": Object {},
+  "yourDetails": Object {},
+}
+`;
+
+exports[`<HomeDelivery /> @renders hides the titles of its children components when "titlesHidden" = true  1`] = `
+<section
+  className="HomeDeliveryV2"
+>
+  <div
+    className="HomeDeliveryV2-form"
+  >
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={false}
+      showDDPAddressModal={[Function]}
+    />
+    <Connect(DeliveryAddressForm) />
+  </div>
+  <div>
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+  </div>
+  <DeliveryCTAProceed
+    isActive={false}
+    isMobile={true}
+    nextButtonHidden={false}
+    nextHandler={[Function]}
+  />
+</section>
+`;
+
+exports[`<HomeDelivery /> @renders in default state 1`] = `
+<section
+  className="HomeDeliveryV2"
+>
+  <div
+    className="HomeDeliveryV2-form"
+  >
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={false}
+      showDDPAddressModal={[Function]}
+    />
+    <Connect(DeliveryAddressForm) />
+  </div>
+  <div>
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+  </div>
+  <DeliveryCTAProceed
+    isActive={false}
+    isMobile={true}
+    nextButtonHidden={false}
+    nextHandler={[Function]}
+  />
+</section>
+`;
+
+exports[`<HomeDelivery /> @renders should render the guest email form if in guest checkout 1`] = `
+<section
+  className="HomeDeliveryV2"
+>
+  <div
+    className="HomeDeliveryV2-form"
+  >
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={false}
+      showDDPAddressModal={[Function]}
+    />
+    <Connect(GuestUserEmailForm)
+      errors={
+        Object {
+          "email": "An email address is required.",
+        }
+      }
+    />
+    <Connect(DeliveryAddressForm) />
+  </div>
+  <div>
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+  </div>
+  <DeliveryCTAProceed
+    isActive={false}
+    isMobile={true}
+    nextButtonHidden={false}
+    nextHandler={[Function]}
+  />
+</section>
+`;

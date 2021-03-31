@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PromotionForm /> @renders in default state 1`] = `
+<Form
+  className="PromotionCode-form"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <Connect(Input)
+    autocomplete="off"
+    field={
+      Object {
+        "isDirty": false,
+        "isTouched": false,
+        "value": "TEST",
+      }
+    }
+    name="promotionCode"
+    placeholder="Enter your promotion code"
+    setField={[Function]}
+    touchedField={[Function]}
+    type="text"
+  />
+  <Connect(ButtonLoader)
+    className="PromotionCode-submit"
+    formName="promotionCode"
+    isDisabled={false}
+    type="submit"
+  >
+    Apply
+  </Connect(ButtonLoader)>
+  <Message
+    className="PromotionCode-message"
+    isCompact={false}
+    type="confirm"
+  />
+</Form>
+`;

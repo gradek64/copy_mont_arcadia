@@ -1,0 +1,24 @@
+/** @define ProductDescription; weak */
+
+.ProductDescription {
+  margin-bottom: 20px;
+}
+
+@media $min-tablet {
+  .ProductDescription {
+    margin-left: 0px;
+    &-title {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+
+    &-productDetailText {
+      font-size: 13px;
+      line-height: 1.38;
+    }
+
+    & ul {
+      padding-left: 10px;
+    }
+  }
+}

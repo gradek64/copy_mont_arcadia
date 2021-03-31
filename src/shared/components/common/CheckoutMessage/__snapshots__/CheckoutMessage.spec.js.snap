@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutMessage /> @renders nothing if there is no error 1`] = `""`;

@@ -1,0 +1,29 @@
+/* postcss-bem-linter: ignore */
+.BVRRButton.BVRRSubmitButton {
+  padding: 8px;
+  height: auto;
+  min-height: $form-element-height;
+  border-radius: 0;
+  margin: 5px 0;
+  font-size: 1em !important;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentSortID .BVRRSelect.BVRRDisplayContentSelect {
+  width: 100%;
+}
+
+/* postcss-bem-linter: ignore */
+@media (max-width: 670px) {
+  /* postcss-bem-linter: ignore */
+  #BVRRCancelReviewButtonID.BVRRButton.BVRRSubmitButton, #BVRREditReviewButtonID.BVRRButton.BVRRSubmitButton, #BVRRPreviewReviewButtonID.BVRRButton.BVRRSubmitButton, #BVRRSubmitReviewButtonID.BVRRButton.BVRRSubmitButton {
+    width: auto !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  #BVRRPreviewReviewButtonID.BVRRButton, #BVRRSubmitReviewButtonID.BVRRButton, .BVRRSubmittedReviewContent #BVRRThankYouReturnLinkContainerID.BVRRThankYouReturnLinkContainer a {
+    width: auto !important;
+    padding: 8px;
+    line-height: 1.5;
+  }
+}

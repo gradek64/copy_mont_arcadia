@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreFinder /> @renders should render in default state 1`] = `
+<Form
+  className="StoreFinder"
+  id="store-finder-form"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="rowClick"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <TopSectionItemLayout
+      expanded={false}
+      leftIcon={
+        <Connect(Image)
+          alt="Store locator map marker"
+          className="StoreFinder-mapMarker"
+          src="/assets/{brandName}/images/map-marker.svg"
+        />
+      }
+      rightIcon={
+        <span
+          className="TopSectionItemLayout-arrow TopSectionItemLayout-arrow--downArrow"
+          role="presentation"
+        />
+      }
+      text="Store Finder"
+    />
+  </div>
+</Form>
+`;
+
+exports[`<StoreFinder /> @renders should render the TopSectionItemLayout component 1`] = `
+<Connect(Image)
+  alt="Store locator map marker"
+  className="StoreFinder-mapMarker"
+  src="/assets/{brandName}/images/map-marker.svg"
+/>
+`;

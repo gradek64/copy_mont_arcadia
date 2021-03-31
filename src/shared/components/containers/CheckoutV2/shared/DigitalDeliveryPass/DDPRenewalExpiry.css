@@ -1,0 +1,230 @@
+/** @define DDPRenewal; weak */
+
+.DDPRenewal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  &-withOuterDDPTitleAndSeparatorTitle {
+    margin-top: 37px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: $ddp-renewal-font-weight-title;
+  }
+
+  &-active,
+  &-myAccountDetailsExpiry {
+    border-top: 1px solid #979797;
+    padding: 10px;
+  }
+
+  &-container {
+    background: #FEFDFC;
+    border: 1px solid #ffaf0c;
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    text-transform: none;
+    font-weight: $ddp-renewal-font-weight-title;
+  }
+
+  &-image {
+    margin: $ddp-renewal-icon-margin;
+    width: $ddp-renewal-icon-width;
+  }
+
+  &-terms {
+    display: flex;
+    padding-left: 33px;
+    padding-bottom: 31px;
+
+    &--centered {
+      justify-content: center;
+      padding-left: 0;
+    }
+  }
+
+  &-moreDetails {
+    display: flex;
+    padding-left: 33px;
+
+    &--centered {
+      justify-content: center;
+      padding-left: 0;
+    }
+  }
+
+  &-titleContainer {
+    align-items: center;
+    background: #fff9de;
+    border-bottom: 1px solid #ffaf0c;
+    display: flex;
+    min-height: 50px;
+
+    &--centered {
+      justify-content: center;
+    }
+  }
+
+  &-messageContainer {
+    padding: 20px 30px 10px;
+  }
+
+  &-message {
+    margin: 10px 0px;
+    font-weight: $ddp-renewal-font-weight-message;
+    display: flex;
+    flex: 1 1 auto;
+
+    b, strong {
+      font-weight: 600;
+    }
+
+    &--centered {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  &-checkoutSpecific {
+    text-align: right;
+  }
+
+  &-button {
+    max-width: 300px;
+
+    &--centered {
+      margin: 0 auto;
+    }
+  }
+
+  &-active {
+    & .DDPRenewal-titleContainer {
+      background: $ddp-added-title-background-colour;
+      border-bottom: $ddp-added-border;
+
+      & h3 {
+        color: $ddp-added-title-font-color;
+      }
+    }
+
+    & .DDPRenewal-container {
+      border: $ddp-added-border;
+      background: $ddp-added-content-background-color;
+    }
+
+    & .DDPRenewal-moreDetails {
+      & .DDPMoreDetailsLink {
+        margin-top: 0;
+      }
+    }
+
+    & .DDPRenewal-bodyContainer {
+      border-width: $ddp-added-body-container-border-width;
+      border-color: $ddp-added-body-container-border-color;
+      border-style: $ddp-added-body-container-border-style;
+    }
+  }
+}
+
+@media $mobile {
+  .DDPRenewal {
+    &-image {
+      margin: 0 10px 0 15px;
+    }
+
+    &-messageContainer {
+      padding: 10px 15px 0 15px;
+    }
+
+    &-message {
+      margin: 10px 0px;
+    }
+
+    &-container {
+      border: 1px solid #ffaf0c;
+      margin: 15px 0;
+
+      &--centered {
+        margin: 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+      }
+    }
+
+    &-terms{
+      font-size: 12px;
+      padding-left: 30px;
+      padding-top: 10px;
+      padding-bottom: 21px;
+    }
+
+    &-button {
+      max-width: 100%;
+    }
+
+    &-titleContainer--centered {
+      border: none;
+      border-bottom: 1px solid #ffaf0c;
+    }
+
+    &-title {
+      font-size: 14px;
+      line-height: 23px;
+      padding-right: 10px;
+      letter-spacing: 0;
+    }
+
+    &-myAccountExpiry {
+      margin-bottom: 0 !important;
+      & .DDPRenewal {
+        &-container {
+          border-width: 0 0 1px 0;
+          border-color: #DBDBDB;
+          border-style: solid;
+        }
+        &-messageContainer {
+          padding: 10px 50px 0 50px;
+        }
+        &-image {
+          margin: 0 5px 0 10px;
+        }
+      }
+    }
+
+    &-myAccountDetailsActive,
+    &-myAccountDetailsExpiry {
+      & .DDPRenewal-container {
+        margin: 0 10px;
+      }
+    }
+    &-myAccountDetailsExpiry {
+      border-top: 1px solid #979797;
+      padding: 10px 0;
+
+      & .DDPRenewal {
+        &-container--centered {
+          border: 1px solid #ffaf0c;
+        }
+        &-message {
+          padding: 0 25px;
+        }
+        &-titleContainer {
+          padding: 0 40px;
+        }
+        &-title {
+          text-align: center;
+          line-height: 18px;
+        }
+        &-image {
+          margin: 0 5px 0 5px;
+        }
+      }
+    }
+
+    &-withOuterDDPTitleAndSeparator{
+      padding: 0 10px;
+    }
+  }
+}

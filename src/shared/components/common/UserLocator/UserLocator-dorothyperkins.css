@@ -1,0 +1,11 @@
+/** @define UserLocator */
+
+.UserLocator {
+  &-goButton {
+    &[disabled] {
+      color: $user-locator-go-disabled-font-color;
+      background-color: $user-locator-go-disabled-backgound-color;
+      border-color: $user-locator-go-disabled-backgound-color;
+    }
+  }
+}

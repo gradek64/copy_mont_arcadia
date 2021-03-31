@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OOSProductDescription /> @renders should render in default state 1`] = `
+<Accordion
+  accordionName="productDescription"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="OOSProductDescription"
+  expanded={false}
+  header="Product Details"
+  isDisabled={false}
+  noContentBorderTop={false}
+  noExpandedHeaderBackground={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>Description</p>",
+      }
+    }
+  />
+</Accordion>
+`;

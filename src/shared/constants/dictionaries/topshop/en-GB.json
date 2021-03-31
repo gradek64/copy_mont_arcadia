@@ -1,0 +1,11 @@
+{
+  "Checkout now": "Checkout",
+  "Only ${quantity} left in stock": "This size is low in stock!",
+  "Check your saved delivery, payment details and ${ddpProductName} Subscription": "Check your saved delivery, payment details and your ${ddpProductName} Subscription",
+  "Choose Country Statement": "Choose a country to find Topshop stores worldwide",
+  "DDP expired title": "Your Topshop Premier has expired",
+  "DDP expiring title ${ddpExpiryDate}": "Your Topshop Premier expires on ${ddpExpiryDate}",
+  "DDP Added Msg title": "Topshop Premier successfully added",
+  "DDP Active": "Topshop Premier delivery is active",
+  "DDP Express Saving ${ddpSaving}": "You've saved up to <b>${ddpSaving}</b> per delivery"
+}

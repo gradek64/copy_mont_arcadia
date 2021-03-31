@@ -1,0 +1,12 @@
+/** @define ProductVideo */
+
+@media $min-laptop {
+  .ProductVideo {
+    padding-left: 15px;
+    padding-right: 0;
+
+    &-closeWrapper {
+      right: 5px;
+    }
+  }
+}

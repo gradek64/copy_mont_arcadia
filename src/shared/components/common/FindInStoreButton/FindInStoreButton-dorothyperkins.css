@@ -1,0 +1,13 @@
+/** @define FindInStoreButton; weak */
+
+@media $min-tablet {
+  .FindInStoreButton {
+    &-desktop {
+      text-transform: uppercase;
+    }
+    &-desktopWrapper::before {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+/** @define Main */
+.Main {
+  &-inner {
+    opacity: 0;
+  }
+}

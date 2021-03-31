@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackToTop /> @renders in default state 1`] = `
+<div
+  className="BackToTop"
+>
+  <Button
+    className="BackToTop-returnButton "
+    clickHandler={[Function]}
+  >
+    <span
+      className="BackToTop-content"
+    >
+      <span
+        className="BackToTop-arrow"
+      />
+      <span
+        className="BackToTop-label translate"
+      >
+        Back to top
+      </span>
+    </span>
+  </Button>
+</div>
+`;
+
+exports[`<BackToTop /> @renders in visible state 1`] = `
+<div
+  className="BackToTop"
+>
+  <Button
+    className="BackToTop-returnButton is-visible"
+    clickHandler={[Function]}
+  >
+    <span
+      className="BackToTop-content"
+    >
+      <span
+        className="BackToTop-arrow"
+      />
+      <span
+        className="BackToTop-label translate"
+      >
+        Back to top
+      </span>
+    </span>
+  </Button>
+</div>
+`;

@@ -1,0 +1,5 @@
+export const CAROUSEL_AXIS_HORIZONTAL = 'horizontal'
+export const CAROUSEL_AXIS_VERTICAL = 'vertical'
+export const CAROUSEL_HORIZONTAL_SIZE_MOBILE = 2
+export const CAROUSEL_HORIZONTAL_SIZE_DESKTOP = 5
+export const CAROUSEL_VERTICAL_SIZE_DESKTOP = 2

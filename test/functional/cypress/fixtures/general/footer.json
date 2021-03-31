@@ -1,0 +1,180 @@
+{
+  "pageId": "139962",
+  "pageName": "footer json test",
+  "baseline": "8",
+  "pageLastPublished": "2018-05-24 12:05:03.694499",
+  "pagePublishedBy": "Jake Stewart",
+  "contentPath": "/cms/pages/json/json-0000139962/json-0000139962.json",
+  "seoUrl": "",
+  "templateName": "Footer Module (REF 0000012631)",
+  "templatePublishDate": "2018-02-23 12:16:09.259276",
+  "site": "TSUK",
+  "type": "Page",
+  "version": "0",
+  "pageData": [
+    {
+      "type": "footer",
+      "data": {
+        "newsletter": {
+          "label": "SIGN UP TO RECEIVE 10% OFF YOUR FIRST ORDER",
+          "placeholder": "enter your email address",
+          "button": "sign up",
+          "signUpUrl":
+            "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?storeId=12556&amp;catalogId=33057&amp;langId=-1&amp;viewAllFlag=false&amp;categoryId=277562&amp;interstitial=true&amp;emailid=dfkjghdfgh%40ksdfjgh.com",
+          "openNewWindow": false
+        },
+        "categories": [
+          {
+            "label": "help",
+            "links": [
+              {
+                "label": "Store Finder",
+                "linkUrl":
+                  "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&amp;intcmpid=W_FOOTER_MAIN_%20STORE_FINDER",
+                "openNewWindow": false
+              },
+              {
+                "label": "FAQs",
+                "linkUrl":
+                  "http://help.topshop.com/system/templates/selfservice/topshop/#!portal/403700000001048?intcmpid=W_FOOTER_CONTACT_US",
+                "openNewWindow": true
+              },
+              {
+                "label": "Size Guide",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-size-guide-6728093/home?intcmpid=W_FOOTER_SIZEGUIDE",
+                "openNewWindow": false
+              },
+              {
+                "label": "Washcare & Aftercare",
+                "linkUrl":
+                  "/en/tsuk/category/washcare-and-aftercare-6831779/home",
+                "openNewWindow": false
+              },
+              {
+                "label": "Accessibility",
+                "linkUrl":
+                  "/en/tsuk/category/accessibility-8/home?intcmpid=W_FOOTER_ACCESSIBILITY",
+                "openNewWindow": false
+              },
+              {
+                "label": "Site Map",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-site-map-6636497/home?intcmpid=W_FOOTER_SITEMAP",
+                "openNewWindow": false
+              },
+              {
+                "label": "Topshop at Oxford Circus",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-at-oxford-circus-6530258/home?intcmpid=W_FOOTER_214",
+                "openNewWindow": false
+              }
+            ]
+          },
+          {
+            "label": "delivery and returns",
+            "links": [
+              {
+                "label": "Track your order",
+                "linkUrl":
+                  "http://help.topshop.com/system/templates/selfservice/topshop/#!portal/403700000001048/topic/403700000001089/Track-Your-Order&amp;intcmpid=W_FOOTER_TRACK_ORDER",
+                "openNewWindow": true
+              },
+              {
+                "label": "Delivery",
+                "linkUrl":
+                  "/en/tsuk/category/uk-delivery-4043283/home?intcmpid=W_FOOTER_DELIVERY",
+                "openNewWindow": true
+              },
+              {
+                "label": "Returns",
+                "linkUrl":
+                  "/en/tsuk/category/returns-4043372/home?intcmpid=W_FOOTER_RETURNS",
+                "openNewWindow": false
+              },
+              {
+                "label": "E-Receipts",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-receipt-4957579/home?intcmpid=W_FOOTER_ERECEIPTS",
+                "openNewWindow": false
+              }
+            ]
+          },
+          {
+            "label": "cards & offers",
+            "links": [
+              {
+                "label": "Student Discount",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-students-student-discount-2316596/home?intcmpid=W_FOOTER_MAIN_%20STUDENTS",
+                "openNewWindow": false
+              },
+              {
+                "label": "Gift Cards",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-gift-card-247/home?intcmpid=W_FOOTER_MAIN_GIFT_CARDS",
+                "openNewWindow": false
+              },
+              {
+                "label": "Topshop Card",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-card-20/home?intcmpid=W_FOOTER_TS_CARD",
+                "openNewWindow": false
+              }
+            ]
+          },
+          {
+            "label": "about us",
+            "links": [
+              {
+                "label": "Topshop Supports",
+                "linkUrl":
+                  "/en/tsuk/category/future-voices-topshop-and-the-business-of-fashion-6476799/wcs/stores/servlet/CatalogNavigationSearchResultCmd?catalogId=33057&amp;viewAllFlag=false&amp;categoryId=500021&amp;langId=-1&amp;storeId=12556&amp;interstitial=true&amp;intcmpid=W_FOOTER_TS_SUPPORTS&amp;cat2=500021&amp;intcmpid=W_FOOTER_TS_SUPPORTS",
+                "openNewWindow": false
+              },
+              {
+                "label": "Fashion Footprint",
+                "linkUrl": "http://arcadiafashionfootprint.co.uk/",
+                "openNewWindow": true
+              },
+              {
+                "label": "Careers & Opportunities",
+                "linkUrl": "http://www.careers.topshop.com/",
+                "openNewWindow": true
+              },
+              {
+                "label": "T&Cs",
+                "linkUrl":
+                  "/en/tsuk/category/terms-conditions-19/home?intcmpid=W_FOOTER_%20TERMS_CONDITIONS",
+                "openNewWindow": false
+              },
+              {
+                "label": "Modern Slavery Act",
+                "linkUrl":
+                  "https://www.arcadiagroup.co.uk/modernslaverystatement",
+                "openNewWindow": true
+              },
+              {
+                "label": "Topshop at London Fashion Week",
+                "linkUrl":
+                  "/en/tsuk/category/topshop-london-fashion-week-show-6964543/home?intcmpid=W_FOOTER_LFW",
+                "openNewWindow": false
+              },
+              {
+                "label": "Privacy Policy",
+                "linkUrl": "/en/tsuk/category/privacy-cookies-7725029/home",
+                "openNewWindow": false
+              },
+              {
+                "label": "Cookie Policy",
+                "linkUrl":
+                  "/en/tsuk/category/privacy-cookies-7725029/home#fragment-2",
+                "openNewWindow": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

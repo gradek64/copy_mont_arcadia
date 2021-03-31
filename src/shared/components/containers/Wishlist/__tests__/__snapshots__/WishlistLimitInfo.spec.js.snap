@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WishlistLimitInfo renders correctly 1`] = `
+<div
+  className="WishlistLimitInfo-outerWrapper"
+>
+  <div
+    className="WishlistLimitInfo-container"
+  >
+    <p
+      className="WishlistLimitInfo-text"
+    />
+  </div>
+</div>
+`;

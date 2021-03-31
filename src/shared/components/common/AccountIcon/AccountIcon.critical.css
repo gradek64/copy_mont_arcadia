@@ -1,0 +1,49 @@
+/** @define AccountIcon */
+
+.AccountIcon {
+  margin: $account-icon-margin-tablet;
+
+  &-link {
+    color: $font-color-base;
+    display: block;
+    text-decoration: none;
+  }
+
+  &-icon {
+    position: relative;
+    background-image: $account-icon-icon-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: $account-icon-icon-size;
+    display: inline-block;
+    height: $account-icon-icon-height-tablet;
+    vertical-align: middle;
+    width: $account-icon-icon-width-tablet;
+
+    &--loggedIn {
+      background-image: $account-icon-icon-image-active;
+    }
+
+  }
+
+  &-loggedInContainer, &-notLoggedInContainer {
+    display: block;
+  }
+
+}
+
+@media $desktop {
+  .AccountIcon {
+    margin: $account-icon-margin;
+    
+    &-label {
+      font-size: $account-icon-label-font-size;
+      font-weight: $account-icon-label-font-weight;
+    }
+
+    &-icon {
+      height: $account-icon-icon-height;
+      width: $account-icon-icon-width;
+    }
+  }
+}

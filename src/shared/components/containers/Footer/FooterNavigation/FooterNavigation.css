@@ -1,0 +1,69 @@
+/** @define FooterNavigation */
+
+.FooterNavigation {
+  display: $footer-nav-display;
+  justify-content: $footer-nav-justify-content;
+  margin: $footer-nav-margin;
+  padding: $footer-nav-padding;
+
+  &-category {
+    margin: $footer-nav-category-margin;
+    padding: $footer-nav-category-padding;
+  }
+
+  &-categoryTitle {
+    color: $footer-nav-category-title-color;
+    font-size: $footer-nav-category-title-font-size;
+    font-weight: $footer-nav-category-title-font-weight;
+    height: $footer-nav-category-title-height;
+    letter-spacing: $footer-nav-category-title-letter-spacing;
+    margin: $footer-nav-category-title-margin;
+    padding: $footer-nav-category-title-padding;
+    text-transform: $footer-nav-category-title-text-transform;
+    text-decoration: $footer-nav-category-title-text-decoration;
+    text-align: $footer-nav-category-title-text-align;
+    font-style: $footer-nav-category-title-style;
+  }
+
+  &-categoryItem {
+    margin: $footer-nav-category-item-margin;
+    padding: $footer-nav-category-item-padding;
+    text-align: $footer-nav-category-item-text-align;
+  }
+
+  &-textLink {
+    color: $footer-nav-text-link-color;
+    font-size: $footer-nav-text-link-font-size;
+    font-weight: $footer-nav-text-link-font-weight;
+    letter-spacing: $footer-nav-text-link-letter-spacing;
+    text-decoration: $footer-nav-text-link-text-decoration;
+    text-transform: $footer-nav-text-link-text-transform;
+    line-height: $footer-nav-text-link-text-line-height;
+  }
+
+  &-textLink:hover {
+    color: $footer-nav-text-link-color-hover;
+    text-decoration: $footer-nav-text-link-text-decoration-hover;
+  }
+
+  &-imageLink {
+    display: $footer-nav-image-link-display;
+    margin: $footer-nav-image-link-margin;
+    padding: $footer-nav-image-link-padding;
+  }
+
+  &-imageLarge {
+    border: $footer-nav-image-large-border;
+    width: $footer-nav-image-large-width;
+  }
+
+  &-imageSmall {
+    border: $footer-nav-image-small-border;
+    width: $footer-nav-image-small-width;
+  }
+
+  &-imageIcon {
+    width: $footer-nav-image-icon-width;
+    height: $footer-nav-image-icon-height;
+  }
+}

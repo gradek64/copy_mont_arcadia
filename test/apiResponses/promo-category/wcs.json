@@ -1,0 +1,244 @@
+{
+    "defaultImgType": "Outfit",
+    "canonicalUrl": "http://ts.pplive.arcadiagroup.ltd.uk/DisplayPromoLanding",
+    "plpJson": {
+        "Breadcrumbs": [
+            {
+                "searchCrumbs": [],
+                "removeAllAction": {
+                    "navigationState": "?seo=false&siteId=%2F12556",
+                    "contentPath": "/browse",
+                    "siteRootPath": "/pages"
+                },
+                "refinementCrumbs": [],
+                "name": "Breadcrumbs",
+                "rangeFilterCrumbs": []
+            }
+        ],
+        "Navigation": [
+            [
+                {
+                    "dimensionName": "TopShop_uk_category",
+                    "multiSelect": false,
+                    "refinements": [
+                        {
+                            "properties": {
+                                "seoCommonToken": "en/tsuk/category",
+                                "seo_title": "Topshop - Bags & Accessories Test",
+                                "SourceId": "204484",
+                                "hiddenCategory": "1",
+                                "seo_description": "Find the ultimate edit of bags & accessories at Topshop. Shop boxy satchels and cute clutches online, make the perfect finishing touches to your outfit.",
+                                "DisplayOrder": "-1",
+                                "seoCategoryToken": "bags-accessories-1702216",
+                                "hierarchical_level": "Level - 1",
+                                "refinement_name": "Category"
+                            },
+                            "label": "Bags & Accessories",
+                            "multiSelect": false,
+                            "navigationState": [
+                                "/_/N-2800Z2fdn?Nrpp=20&seo=false&siteId=%2F12556&categoryId=204484"
+                            ],
+                            "count": 1
+                        }
+                    ],
+                    "@type": "RefinementMenu",
+                    "name": "Category",
+                    "displayName": "TopShop_uk_category"
+                },
+                {
+                    "dimensionName": "TopShop_uk_colour",
+                    "multiSelect": true,
+                    "refinements": [
+                        {
+                            "properties": {
+                                "SourceId": "ECMC_PROD_COLOUR_1_metallic",
+                                "DisplayOrder": "-1",
+                                "refinement_name": "Colour"
+                            },
+                            "label": "metallic",
+                            "multiSelect": true,
+                            "navigationState": [
+                                "/_/N-1xpiZ2fdn?Nrpp=20&seo=false&siteId=%2F12556"
+                            ],
+                            "count": 1
+                        }
+                    ],
+                    "@type": "RefinementMenu",
+                    "name": "Colour",
+                    "displayName": "TopShop_uk_colour"
+                },
+                {
+                    "dimensionName": "TopShop_uk_size",
+                    "multiSelect": true,
+                    "refinements": [
+                        {
+                            "properties": {
+                                "SourceId": "ECMC_ITEM_SIZE_1_one size",
+                                "DisplayOrder": "-1",
+                                "refinement_name": "Size"
+                            },
+                            "label": "one size",
+                            "multiSelect": true,
+                            "navigationState": [
+                                "/_/N-264aZ2fdn?Nrpp=20&seo=false&siteId=%2F12556"
+                            ],
+                            "count": 1
+                        }
+                    ],
+                    "@type": "RefinementMenu",
+                    "name": "Size",
+                    "displayName": "TopShop_uk_size"
+                },
+                {
+                    "maxPrice": "76.500000",
+                    "minPrice": "76.500000",
+                    "@type": "PriceSlider",
+                    "name": "Price",
+                    "navigationState": "/_/N-2fdn?Nrpp=20&seo=false&siteId=%2F12556",
+                    "count": 1
+                }
+            ]
+        ],
+        "results": {
+            "@type": "ContentSlotMain",
+            "contents": [
+                {
+                    "sortOptions": [
+                        {
+                            "label": "Relevance_content",
+                            "selected": true,
+                            "navigationState": "/N-2fdn?Nrpp=20&seo=false&siteId=%2F12556",
+                            "contentPath": "/browse",
+                            "siteRootPath": "/pages"
+                        },
+                        {
+                            "label": "Newness_content",
+                            "selected": false,
+                            "navigationState": "/N-2fdn?Nrpp=20&Ns=product.freshnessRank%7C0&seo=false&siteId=%2F12556",
+                            "contentPath": "/browse",
+                            "siteRootPath": "/pages"
+                        },
+                        {
+                            "label": "PriceAscending_content",
+                            "selected": false,
+                            "navigationState": "/N-2fdn?Nrpp=20&Ns=promoPrice%7C0&seo=false&siteId=%2F12556",
+                            "contentPath": "/browse",
+                            "siteRootPath": "/pages"
+                        },
+                        {
+                            "label": "PriceDescending_content",
+                            "selected": false,
+                            "navigationState": "/N-2fdn?Nrpp=20&Ns=promoPrice%7C1&seo=false&siteId=%2F12556",
+                            "contentPath": "/browse",
+                            "siteRootPath": "/pages"
+                        },
+                        {
+                            "label": "RatingDescending_content",
+                            "selected": false,
+                            "navigationState": "/N-2fdn?Nrpp=20&Ns=rating%7C1&seo=false&siteId=%2F12556",
+                            "contentPath": "/browse",
+                            "siteRootPath": "/pages"
+                        }
+                    ],
+                    "records": [
+                        {
+                            "promoDesc": "10 percent off",
+                            "productUrl": "/en/tsuk/product/nixon-the-small-time-teller-all-rose-gold-a399-897-watch-4763124?bi=0&ps=20",
+                            "was1Price": "85.000000",
+                            "seoProductToken": "nixon-the-small-time-teller-all-rose-gold-a399-897-watch-4763124",
+                            "sale": "0",
+                            "name": "**Nixon The Small Time Teller All Rose Gold A399-897 Watch",
+                            "colour": "METALLIC",
+                            "freshnessRank": "693",
+                            "nowPrice": "76.5",
+                            "promoBadge": "true",
+                            "outfitImage": "images/catalog/63I23IROS_2_thumb.jpg",
+                            "promoBanner": "true",
+                            "id": "21460278",
+                            "numRecords": 0,
+                            "promoCode": "63I23IROS-11008914",
+                            "partNumber": "TS63I23IROS",
+                            "b_hasImage": "N",
+                            "shortDescription": "**Nixon The Small Time Teller All Rose Gold A399-897 Watch",
+                            "longDescription": "Nixon+A399-897%3B+The+Small+Time+Teller+%2C+Rose+Gold+bracelet+Watch%3B+Dial+Colour%3B+Rose+Gold+%2C+Movement+Type%3B+Quartz%2C+Dial+Width%3B+26Mm%2C+Clasp+Type%3B+Folding+Clasp%2C+Water+Resistant+To%3B+10+Atm%2C+And+Supplied+With+Branded+Packaging.+2+Year+Movement+Warranty.+100%25+Metal.%3CBR%3E%3CB%3E**PLEASE+NOTE+THIS+ITEM+CAN+ONLY+BE+RETURNED+VIA+POST.+STORES+ARE+UNABLE+TO+RETURN+THESE+ITEMS+FOR+YOU.+ALL+UK+POSTAL+RETURNS+ARE+FREE.+INTERNATIONAL+POSTAL+CHARGES+WILL+VARY.%3C%2FB%3E",
+                            "was2Price": null,
+                            "promotionPrice": "11008914|76.50000",
+                            "keyword": "63I23IROS",
+                            "b_thumbnailImageSuffixes": "",
+                            "promoCalcode": "481084",
+                            "thumbnail": "images/catalog/63I23IROS_thumb.jpg",
+                            "productImage": "images/catalog/63I23IROS_thumb.jpg",
+                            "EmailBackInStock": "N",
+                            "thumbnailImageSuffixes": "_|_2|_3",
+                            "catentType": "ProductBean",
+                            "seoCommonToken": "en/tsuk/product",
+                            "rrpPrice": ""
+                        }
+                    ],
+                    "totalNumRecs": 1,
+                    "precomputedSorts": [],
+                    "firstRecNum": 1,
+                    "recsPerPage": 20,
+                    "@type": "ResultsList",
+                    "name": "Results List",
+                    "lastRecNum": 1,
+                    "pagingActionTemplate": {
+                        "navigationState": "/N-2fdn?No=%7Boffset%7D&Nrpp=%7BrecordsPerPage%7D&seo=false&siteId=%2F12556",
+                        "contentPath": "/browse",
+                        "siteRootPath": "/pages"
+                    }
+                }
+            ],
+            "name": "Results List"
+        },
+        "metaDescription": "",
+        "title": "",
+        "keywords": "",
+        "pagination": {
+            "currentPage": 1,
+            "navigationState": "/N-2fdn?Nrpp=20&siteId=/12556&seo=false&No=0"
+        },
+        "canonicalURL": ""
+    },
+    "qubitContent": {
+        "window.universal_variable": {
+            "version": "1.2.0",
+            "page": {
+                "type": "Category",
+                "breadcrumb": [
+                    ""
+                ]
+            },
+            "user": {
+                "user_id": "-1002"
+            },
+            "listing": {
+                "result_count": 1,
+                "items": [
+                    {
+                        "id": "21460278",
+                        "name": "**Nixon The Small Time Teller All Rose Gold A399-897 Watch",
+                        "category": "",
+                        "currency": "GBP",
+                        "unit_sale_price": 76.5,
+                        "unit_price": 85
+                    }
+                ],
+                "filters": [
+                    {
+                        "name": "Colour",
+                        "selected": []
+                    },
+                    {
+                        "name": "Size",
+                        "selected": []
+                    },
+                    {
+                        "name": "Price",
+                        "selected": []
+                    }
+                ]
+            }
+        }
+    }
+}

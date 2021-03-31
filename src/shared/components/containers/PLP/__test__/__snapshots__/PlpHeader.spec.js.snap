@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlpHeader /> @renders in default state 1`] = `
+<div
+  className="PlpHeader"
+>
+  <h1>
+    <span
+      className="PlpHeader-title"
+    >
+      Jeans
+    </span>
+  </h1>
+  <span
+    className="PlpHeader-total PlpHeader-totalValue"
+  >
+    492
+  </span>
+  <span
+    className="PlpHeader-total PlpHeader-totalLabel"
+  >
+    results
+  </span>
+</div>
+`;
+
+exports[`<PlpHeader /> @renders renders responsive category header 1`] = `
+<div>
+  <Connect(SandBox)
+    cmsPageName="catHeader"
+    isInPageContent={true}
+    isResponsiveCatHeader={true}
+    location={
+      Object {
+        "pathname": "/url/to/catheader/cms/template",
+      }
+    }
+    shouldGetContentOnFirstLoad={true}
+  />
+</div>
+`;

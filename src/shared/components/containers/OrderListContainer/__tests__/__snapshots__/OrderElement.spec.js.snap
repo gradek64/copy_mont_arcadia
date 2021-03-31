@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderElement /> @render order history in default state 1`] = `
+<li
+  className="OrderElement"
+>
+  <Link
+    className="OrderElement-link"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/my-account/order-history/1234"
+  >
+    <dl
+      className="OrderElement-list"
+    >
+      <dt
+        className="OrderElement-listTitle"
+      >
+        Order Number
+      </dt>
+      <dd
+        className="OrderElement-listItem"
+      >
+        <PrivacyGuard>
+          <strong
+            className="OrderElement-orderNumber"
+          >
+            1234
+          </strong>
+        </PrivacyGuard>
+      </dd>
+      <dt
+        className="screen-reader-text"
+      >
+        Order date
+      </dt>
+      <PrivacyGuard>
+        <dd
+          className="OrderElement-listItem"
+        >
+           
+          20 12 2016
+        </dd>
+      </PrivacyGuard>
+      <dt
+        className="screen-reader-text"
+      >
+        Order Number
+      </dt>
+      <PrivacyGuard>
+        <dd
+          className="OrderElement-listItem"
+        >
+          1234
+        </dd>
+      </PrivacyGuard>
+      <dt
+        className="screen-reader-text"
+      >
+        Status
+      </dt>
+      <dd
+        className="OrderElement-listItem"
+      >
+        <PrivacyGuard>
+          <strong
+            className="OrderElement-orderStatus"
+          >
+            Some status message
+          </strong>
+        </PrivacyGuard>
+      </dd>
+    </dl>
+  </Link>
+</li>
+`;
+
+exports[`<OrderElement /> @render return history in default state 1`] = `
+<li
+  className="OrderElement"
+>
+  <Link
+    className="OrderElement-link"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/my-account/return-history/1234/9999"
+  >
+    <dl
+      className="OrderElement-list"
+    >
+      <dt
+        className="OrderElement-listTitle"
+      >
+        Order Number
+      </dt>
+      <dd
+        className="OrderElement-listItem"
+      >
+        <PrivacyGuard>
+          <strong
+            className="OrderElement-orderNumber"
+          >
+            1234
+          </strong>
+        </PrivacyGuard>
+      </dd>
+      <dt
+        className="screen-reader-text"
+      >
+        Order date
+      </dt>
+      <PrivacyGuard>
+        <dd
+          className="OrderElement-listItem"
+        >
+           
+          20 12 2016
+        </dd>
+      </PrivacyGuard>
+      <dt
+        className="screen-reader-text"
+      >
+        Order Number
+      </dt>
+      <PrivacyGuard>
+        <dd
+          className="OrderElement-listItem"
+        >
+          1234
+        </dd>
+      </PrivacyGuard>
+      <dt
+        className="screen-reader-text"
+      >
+        Status
+      </dt>
+      <dd
+        className="OrderElement-listItem"
+      >
+        <PrivacyGuard>
+          <strong
+            className="OrderElement-orderStatus"
+          >
+            Some status message
+          </strong>
+        </PrivacyGuard>
+      </dd>
+    </dl>
+  </Link>
+</li>
+`;

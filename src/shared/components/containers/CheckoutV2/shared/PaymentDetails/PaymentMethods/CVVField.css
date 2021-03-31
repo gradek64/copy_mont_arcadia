@@ -1,0 +1,114 @@
+/** @define CVVField;weak */
+
+.CVVField {
+  &-row {
+    flex-basis: 100%;
+    display: flex;
+    margin-top: $input-margin-vertical;
+    align-items: center;
+    margin:0;
+  }
+
+  &-cvv,
+  &-cvvHelp {
+    margin: 0 !important;
+  }
+
+  &-cvv {
+    &--icon {
+      input {
+        background-image: url("/assets/common/images/icon-cvv.svg");
+        background-repeat: no-repeat;
+        background-position: right 15px center;
+        background-size: 24px;
+      }
+    }
+
+    &--warning {
+      input {
+        border: 1px solid #F79E1B !important;
+      }
+    }
+  }
+
+  &-cvvHelp {
+    position: relative;
+    top: 7px;
+  }
+
+  &-warningBox {
+    border-top:  1px solid #F79E1B;
+    border-bottom:  1px solid #F79E1B;
+    background-color: #FFF9DE;
+    padding: 17px 15px;
+    margin: 30px 0;
+
+    &--cardExpired {
+      padding: 11px 50px 10px 15px;
+      margin: 30px 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+    &--expired {
+      margin: 0 10px 0 0;
+    }
+  }
+
+  &-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  &-link {
+    white-space: nowrap;
+    text-decoration: underline;
+    margin-top: 50px;
+    cursor: pointer;
+    overflow: visible;
+  }
+
+  &-cvvInfo {
+    margin: 10px 0 0;
+  }
+}
+
+@media $min-tablet {
+  .CVVField {
+    &-row {
+      flex-basis: 33.33%;
+    }
+
+    &-cvv {
+      &--icon {
+        input {
+          width: 60%
+        }
+      }
+    }
+  }
+}
+
+@media $min-laptop {
+  .CVVField {
+    &-row {
+      flex-basis: 50%;
+    }
+
+    &-cvv {
+      &--icon {
+        input {
+          width: 45%
+        }
+      }
+    }
+  }
+}

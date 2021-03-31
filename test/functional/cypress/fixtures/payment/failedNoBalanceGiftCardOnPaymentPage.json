@@ -1,0 +1,5 @@
+{
+    "statusCode": 422,
+    "error": "Unprocessable Entity",
+    "message": "Sorry the balance on your gift card is zero, please top-up the card or use a different one and try again."
+}

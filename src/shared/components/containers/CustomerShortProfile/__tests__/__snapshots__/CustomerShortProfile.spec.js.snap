@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomerShortProfile /> @renders mobile and desktop in default state (disabled submit button because of missing fields) 1`] = `
+<section
+  className="CustomerShortProfile"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    title="My details"
+  />
+  <Form
+    className="MyAccount-form MyAccount-wrapper"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "lastName": "This field is required",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="Example: John"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "lastName": "This field is required",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="lastName"
+      placeholder="Example: Doe"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "lastName": "This field is required",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="CustomerShortProfile-saveChanges"
+      isDisabled={true}
+      type="submit"
+    >
+      SAVE CHANGES
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+    <div>
+      <BackToAccountLink
+        clickHandler={[Function]}
+        text="Back to My Account"
+      />
+    </div>
+  </Form>
+</section>
+`;
+
+exports[`<CustomerShortProfile /> @renders mobile and desktop with disabled submit button on success 1`] = `
+<section
+  className="CustomerShortProfile"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    title="My details"
+  />
+  <Form
+    className="MyAccount-form MyAccount-wrapper"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "Robert",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="Example: John"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "Lee",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="lastName"
+      placeholder="Example: Doe"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": true,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "bob2@test.com",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="CustomerShortProfile-saveChanges"
+      isDisabled={false}
+      type="submit"
+    >
+      SAVE CHANGES
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+    <div>
+      <BackToAccountLink
+        clickHandler={[Function]}
+        text="Back to My Account"
+      />
+    </div>
+  </Form>
+</section>
+`;
+
+exports[`<CustomerShortProfile /> @renders mobile and desktop with enabled submit button when there is a dirty value 1`] = `
+<section
+  className="CustomerShortProfile"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    title="My details"
+  />
+  <Form
+    className="MyAccount-form MyAccount-wrapper"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "Robert",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="Example: John"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "Lee",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="lastName"
+      placeholder="Example: Doe"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": true,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "bob2@test.com",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="CustomerShortProfile-saveChanges"
+      isDisabled={false}
+      type="submit"
+    >
+      SAVE CHANGES
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+    <div>
+      <BackToAccountLink
+        clickHandler={[Function]}
+        text="Back to My Account"
+      />
+    </div>
+  </Form>
+</section>
+`;
+
+exports[`<CustomerShortProfile /> @renders mobile and desktop with filled fields (disabled submit button because of no dirty value) 1`] = `
+<section
+  className="CustomerShortProfile"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    title="My details"
+  />
+  <Form
+    className="MyAccount-form MyAccount-wrapper"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "Robert",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="Example: John"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "Lee",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="lastName"
+      placeholder="Example: Doe"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="text"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "isDirty": false,
+          "isFocused": false,
+          "isTouched": false,
+          "value": "bob2@test.com",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      privacyProtected={true}
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="CustomerShortProfile-saveChanges"
+      isDisabled={true}
+      type="submit"
+    >
+      SAVE CHANGES
+    </Button>
+    <Message
+      isCompact={false}
+      type="confirm"
+    />
+    <div>
+      <BackToAccountLink
+        clickHandler={[Function]}
+        text="Back to My Account"
+      />
+    </div>
+  </Form>
+</section>
+`;

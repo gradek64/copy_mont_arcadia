@@ -1,0 +1,7 @@
+/** @define ProductVideo */
+
+@media $min-laptop {
+  .ProductVideo {
+    padding-left: 131px;
+  }
+}

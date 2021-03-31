@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> @connected @render default render for connected image with mount 1`] = `
+<Connect(Image)>
+  <Image
+    brandCode="tm"
+    brandName="topman"
+    dispatch={[Function]}
+    imageRef={[Function]}
+    lazyLoad={false}
+    onError={[Function]}
+    onLoad={[Function]}
+  >
+    <img
+      onError={[Function]}
+      onLoad={[Function]}
+      src=""
+    />
+  </Image>
+</Connect(Image)>
+`;
+
+exports[`<Image /> wrapped component should render with src when deferredLoad and lazyLoad are false 1`] = `
+<img
+  deferredLoad={false}
+  onError={[Function]}
+  onLoad={[Function]}
+  src="foo bar"
+/>
+`;
+
+exports[`<Image /> wrapped component should render without src when deferredLoad is true 1`] = `""`;
+
+exports[`<Image /> wrapped component should render without src when lazyLoad is true 1`] = `
+<img
+  onError={[Function]}
+  onLoad={[Function]}
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+/>
+`;

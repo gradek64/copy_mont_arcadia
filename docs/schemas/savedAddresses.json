@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "properties": {
+    "savedAddresses": {
+      "items": {
+        "properties": {
+          "addressName": {
+            "type": "string",
+            "example": "LONDON, E12 6RF, United Kingdom"
+          },
+          "id": {
+            "type": "integer",
+            "example": 123456
+          },
+          "selected": {
+            "type": "boolean",
+            "example": false
+          },
+          "lastName": {
+            "type": "string",
+            "example": "Bar"
+          },
+          "telephone": {
+            "type": "string",
+            "example": "1231231231"
+          },
+          "title": {
+            "type": "string",
+            "example": "Mr"
+          },
+          "firstName": {
+            "type": "string",
+            "example": "Foo"
+          },
+          "address1": {
+            "type": "string",
+            "example": "3 Essex Road"
+          },
+          "address2": {
+            "type": "string",
+            "example": ""
+          },
+          "city": {
+            "type": "string",
+            "example": "LONDON"
+          },
+          "state": {
+            "type": "string",
+            "example": ""
+          },
+          "country": {
+            "type": "string",
+            "example": "United Kingdom"
+          },
+          "postcode": {
+            "type": "string",
+            "example": "E12 6RF"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    }
+  }
+}

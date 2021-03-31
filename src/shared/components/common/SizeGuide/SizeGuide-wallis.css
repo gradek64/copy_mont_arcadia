@@ -1,0 +1,41 @@
+/** @define SizeGuide; weak */
+
+.SizeGuide {
+  &--box {
+    & .SizeGuide {
+      &-link {
+         height: 95px;
+         margin-top: 2.5px;
+         padding: 0 12px;
+        }
+      }
+    }
+}
+
+@media $min-tablet {
+  .SizeGuide {
+    height: auto;
+    width: auto;
+    &-label {
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+    &,
+    &--box {
+      & .SizeGuide-icon {
+        height: 12px;
+        margin-right: 10px;
+        width: 20px;
+        position: relative;
+        bottom: -5px;
+      }
+      & .SizeGuide-link {
+        text-align: center;
+        height: auto;
+        border: 1px solid #d0d0d0;
+        padding: 10px 0;
+        display: block;
+      }
+    }
+  }
+}

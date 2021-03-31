@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickViewOrderSummary/> @renders should render correct default state 1`] = `
+<WithQubit
+  id="checkout-view-bag"
+  renderBag={[Function]}
+>
+  <Button
+    className="QuickViewOrderSummary-button"
+    clickHandler={[Function]}
+  />
+</WithQubit>
+`;

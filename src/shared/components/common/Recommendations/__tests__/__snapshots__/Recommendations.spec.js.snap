@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Recommendations /> @renders should render if there are recommendations 1`] = `
+<div
+  className="Recommendations"
+>
+  <h3
+    className="Recommendations-header"
+  >
+    Why not try?
+  </h3>
+  <Connect(ProductCarousel)
+    hideProductName={true}
+    isImageFallbackEnabled={true}
+    onProductLinkClick={[Function]}
+    onQuickViewClick={[Function]}
+    products={
+      Array [
+        Object {
+          "amplienceUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS20N01WNUD_2col_F_1",
+          "imageUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS20N01WNUD_2col_F_1.jpg",
+          "name": "Nails In Nice'N'Neutral",
+          "productId": 1708381,
+          "salePrice": "5",
+          "unitPrice": "10",
+        },
+        Object {
+          "amplienceUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/20N02YFLC_normal",
+          "imageUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/20N02YFLC_normal.jpg",
+          "name": "Nails In War Paint",
+          "productId": 2205159,
+          "salePrice": undefined,
+          "unitPrice": "20",
+        },
+      ]
+    }
+  />
+</div>
+`;

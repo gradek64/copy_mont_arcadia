@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopSectionItemLayout /> @renders should render the <TopSectionItemLayout /> component 1`] = `
+<div
+  className="TopSectionItemLayout ListItemLink is-active "
+>
+  <div
+    className="TopSectionItemLayout-leftIconWrapper"
+  />
+  <div
+    className="TopSectionItemLayout-textWrapper"
+  />
+</div>
+`;

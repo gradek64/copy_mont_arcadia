@@ -1,0 +1,32 @@
+/** @define DDPAppliedToOrderMsg */
+
+.DDPAppliedToOrderMsg {
+  display: flex;
+  flex-direction: column;
+  border: $ddp-border-width solid $ddp-border-colour;
+  padding: 0 10px;
+  margin-bottom: 10px;
+
+  &-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+  }
+
+  &-titleContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  &-title {
+    text-transform: none;
+  }
+
+  &-title--isActiveBanner {
+    color: $ddp-is-active-banner-text-color;
+  }
+
+  &-message {
+    margin-bottom: 10px;
+  }
+}

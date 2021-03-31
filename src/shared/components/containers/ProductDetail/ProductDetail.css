@@ -1,0 +1,246 @@
+/** @define ProductDetail; weak */
+
+.ProductDetail {
+  padding: $pdp-vertical-padding 0;
+  margin-bottom: 30px;
+  text-align: center;
+
+  & .Loader {
+    margin-top: 29px;
+  }
+
+  &-media {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    & > div {
+      height: 100%;
+      width: 100%;
+
+      & > .Carousel {
+        height: 100%;
+        min-height: 500px;
+      }
+    }
+  }
+
+  &-bazaarVoice .BazaarVoice {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+
+  &-priceWrapper {
+     font-size: $pdp-price-font-size;
+  }
+
+  &-carouselThumbnail {
+     display: none;
+     margin-right: 10px;
+  }
+
+  &-title {
+    color: $pdp-product-title-font-color;
+    font-size: $pdp-product-title-font-size;
+    font-weight: $pdp-product-title-font-weight;
+    text-decoration: $pdp-product-title-text-decoration;
+    margin-bottom: $pdp-product-title-margin-bottom;
+  }
+
+  &-deliveryInfo {
+
+    &.is-hidden {
+      display: none;
+    }
+  }
+
+  &-cmsContent {
+    margin-top: 20px;
+  }
+
+  &-rating {
+    display: $pdp-product-rating-display;
+    text-align: $pdp-product-rating-align;
+    margin: $pdp-product-rating-vertical-margin 0;
+  }
+
+  & .AddToBag {
+    margin-bottom: 20px;
+  }
+
+  &-secondaryButtonGroup {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-top: $pdp-product-detail-secondary-button-group-margin-top;
+
+    & > .AddToBag {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+
+  &-sizes {
+    width: 100%;
+  }
+
+  &-sizeGuide {
+    display: none;
+  }
+
+  &-espot {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  &-ctas {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+@media $mobile {
+  .ProductDetail {
+    & .Accordion {
+      margin-top: $accordion-delivery-info-margin-top;
+    }
+
+    & .Accordion-header {
+      padding-top: $accordion-header-padding-top;
+      padding-bottom: $accordion-header-padding-bottom;
+
+      &.is-padded {
+        padding-top: $accordion-header-is-padded-padding-top;
+        padding-bottom: $accordion-header-is-padded-padding-bottom;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .ProductDetail {
+    &-columnContainer {
+      flex-wrap: nowrap;
+    }
+
+    &-media {
+      width: 100%;
+      height: calc(100% - 177px);
+    }
+
+    &-title {
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: $pdp-product-title-font-size-tablet;
+      line-height: $pdp-product-title-line-height-tablet;
+    }
+
+    &-bazaarVoice {
+      margin-top: $page-padding;
+    }
+
+    &-sizeGuide {
+      display: inline-block;
+      width: 20%;
+
+      &--narrow {
+        width: auto;
+      }
+    }
+
+    & .AddToBag {
+      margin-bottom: 15px;
+    }
+
+    &-secondaryButtonGroup {
+      padding-bottom: 15px;
+      margin-top: 30px;
+
+      & > .AddToBag {
+        margin-bottom: 0;
+      }
+    }
+
+    &-cmsContent {
+      display: flex;
+      justify-content: center;
+    }
+    &-sizeAndQuantity {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    &-ctas {
+      margin-bottom: 15px;
+    }
+
+    &-ctas li {
+      padding: 5px 0;
+    }
+
+    &-writeReview {
+      display: block;
+      margin-bottom: 20px;
+
+      & .BVRRPrimarySummary .BVRRRatingSummaryLinks {
+        top: 0;
+      }
+    }
+
+    &-topGroupRightInner {
+      margin: 20px;
+    }
+  }
+
+  /* postcss-bem-linter: ignore */
+  .ProductDetail div.Carousel--withVideo {
+    height: calc(100% - 177px);
+  }
+}
+
+@media $min-laptop {
+  .ProductDetail {
+    &-mediaColumn {
+      padding-right: 40px;
+    }
+    &-details {
+      padding-left: 15px;
+      max-width: 515px;
+    }
+    &-title {
+      font-size: $pdp-product-title-font-size-laptop;
+      line-height: $pdp-product-title-line-height-laptop;
+    }
+
+    &-topGroupRightInner {
+      margin: 20px 0;
+    }
+
+    &-carouselThumbnail {
+      display: flex;
+      flex: 0;
+    }
+  }
+}
+
+/* ADP-2092 hack for ie 11 with issue  */
+@media all and (-ms-high-contrast:none) {
+  .ProductDetail {
+    &-sizeAndQuantity {
+      select {
+        font-weight: $pdp-product-quantity-select-dropdown-ie-font-weight;
+      }
+    }
+  }
+}

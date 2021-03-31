@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BrandLogo/> @renders logo should be regional 1`] = `
+<div
+  className="BrandLogo class1"
+>
+  <Connect(Image)
+    alt="topshop homepage"
+    className="BrandLogo-img"
+    src="/assets/topshop/images/logo-eu.svg?version=0808080"
+  />
+</div>
+`;
+
+exports[`<BrandLogo/> @renders logo should be regional and responsive 1`] = `
+<div
+  className="BrandLogo class1"
+>
+  <Connect(Image)
+    alt="topshop homepage"
+    className="BrandLogo-img"
+    src="/assets/topshop/images/logo-responsive-eu.svg?version=0808080"
+  />
+</div>
+`;
+
+exports[`<BrandLogo/> @renders logo should be responsive 1`] = `
+<div
+  className="BrandLogo class1"
+>
+  <Connect(Image)
+    alt="topshop homepage"
+    className="BrandLogo-img"
+    src="/assets/topshop/images/logo-responsive.svg?version=0808080"
+  />
+</div>
+`;
+
+exports[`<BrandLogo/> @renders logo should render without a region, when region is uk 1`] = `
+<div
+  className="BrandLogo class1"
+>
+  <Connect(Image)
+    alt="topshop homepage"
+    className="BrandLogo-img"
+    src="/assets/topshop/images/logo.svg?version=0808080"
+  />
+</div>
+`;
+
+exports[`<BrandLogo/> @renders should render correct default state 1`] = `
+<div
+  className="BrandLogo class1"
+>
+  <Connect(Image)
+    alt="topshop homepage"
+    className="BrandLogo-img"
+    src="/assets/topshop/images/logo.svg?version=0808080"
+  />
+</div>
+`;

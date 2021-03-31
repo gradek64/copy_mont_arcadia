@@ -1,0 +1,8 @@
+/** @define LoginRegisterHeader */
+
+.LoginRegisterHeader {
+  line-height: 1.18;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 100;
+}

@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`get-assets getPreloadScripts should generate preload links 1`] = `
+"<link rel=\\"preload\\" href=\\"CCCCC\\" as=\\"script\\" />
+<link rel=\\"preload\\" href=\\"CCCCC\\" as=\\"script\\" />
+<link rel=\\"preload\\" href=\\"./fakeChunk/Home.js\\" as=\\"script\\" />
+<link rel=\\"preload\\" href=\\"./fakeChunk/PLP.js\\" as=\\"script\\" />
+<link rel=\\"preload\\" href=\\"./fakeChunk/PDP.js\\" as=\\"script\\" />"
+`;
+
+exports[`get-assets getScripts should add trustarc third party script if FEATURE_COOKIE_MANAGER is enabled 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true},{\\"afterLoad\\":true,\\"isAsync\\":true,\\"src\\":\\"//consent.trustarc.com/notice?domain=topshop.com&c=teconsent&language=en&js=nj&noticeType=bb&gtm=1&privacypolicylink=https://topshop.com/en/tsuk/category/privacy-cookies-157/home#fragment-2&cookieLink=https://topshop.com/en/tsuk/category/privacy-cookies-157/home#fragment-2\\"}])</script>"
+`;
+
+exports[`get-assets getScripts should exclude qubit 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true}])</script>"
+`;
+
+exports[`get-assets getScripts should generate MCR scripts 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true},{\\"src\\":\\"random_src\\",\\"defer\\":true,\\"isAsync\\":true}])</script>"
+`;
+
+exports[`get-assets getScripts should generate scripts 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true}])</script>"
+`;
+
+exports[`get-assets getScripts should include qubit 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true}])</script>"
+`;
+
+exports[`get-assets getScripts should include qubit and experiences (smartServe) 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true},{\\"defer\\":true,\\"isAsync\\":true,\\"src\\":\\"https://static.goqubit.com/smartserve-10.js\\"}])</script>"
+`;
+
+exports[`get-assets getScripts should not add trustarc third party script if FEATURE_COOKIE_MANAGER is disabled 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true}])</script>"
+`;
+
+exports[`get-assets getScripts should not generate MCR scripts 1`] = `
+"<script type=\\"text/javascript\\">;/* eslint-disable */
+
+// This script is injected into browser without transipiling and must be ES5 compliant
+
+var afterLoadScripts = []
+window.loadScript = function(attrs) {
+  var script = document.createElement('script')
+  script.src = attrs.src
+  script.async = attrs.isAsync
+  script.defer = attrs.defer
+  script.type = 'text/javascript'
+  script.onload = attrs.onload
+  script.onerror = attrs.onerror
+  if (attrs.id) script.id = attrs.id
+  if (attrs.afterLoad) {
+    afterLoadScripts.push(script)
+  } else {
+    document.body.appendChild(script)
+  }
+}
+
+window.addEventListener('load', function() {
+  for (var i = 0; i < afterLoadScripts.length; i++) {
+    document.body.appendChild(afterLoadScripts[i])
+  }
+})
+
+window.loadScripts = function(scripts) {
+  scripts.forEach(window.loadScript)
+}
+
+if (
+  !(
+    'Promise' in window &&
+    'Map' in window &&
+    'includes' in String.prototype &&
+    'find' in Array.prototype
+  )
+) {
+  window.loadScripts([
+    {
+      src: '//cdnjs.cloudflare.com/ajax/libs/core-js/2.5.1/shim.min.js',
+      isAsync: false,
+    },
+  ])
+}
+;window.loadScripts([{\\"src\\":\\"./fakeChunk/Home.js\\"},{\\"src\\":\\"./fakeChunk/PLP.js\\"},{\\"src\\":\\"./fakeChunk/PDP.js\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"CCCCC\\"},{\\"src\\":\\"DDDD\\",\\"afterLoad\\":true}])</script>"
+`;

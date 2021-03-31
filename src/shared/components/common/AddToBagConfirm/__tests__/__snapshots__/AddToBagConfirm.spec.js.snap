@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddToBagConfirm />  @renders with default props 1`] = `
+<div
+  className="AddToBagConfirm"
+>
+  <Button
+    className="AddToBagConfirm-viewBag Button--secondary Button--twoFifthWidth"
+    clickHandler={[Function]}
+  >
+    View bag
+  </Button>
+  <Button
+    className="AddToBagConfirm-goToCheckout is-active Button--threeFifthWidth"
+    clickHandler={[Function]}
+  >
+    Checkout now
+  </Button>
+</div>
+`;

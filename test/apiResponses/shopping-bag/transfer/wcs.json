@@ -1,0 +1,30 @@
+{
+    "success": true,
+    "message": "Item(s) successfully added to your shopping bag.",
+    "items": 1,
+    "total": 36,
+    "orderId": 700330245,
+    "productDetails": [
+        {
+            "orderItemId": 7690596,
+            "productId": 21919934,
+            "catentryId": 21919940,
+            "title": "**Suedette Tuxedo Dress by Love",
+            "imageUrl": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62Z39IGRY_thumb.jpg",
+            "size": "XS",
+            "quantity": 1,
+            "avlQuantity": 8,
+            "From": "",
+            "offerPriceFromFlag": "",
+            "miniBagWasPrice": 36,
+            "miniBagNowPrice": 34,
+            "price": {
+                "was1Price": null,
+                "was2Price": null,
+                "nowPrice": 36
+            },
+            "total": 36
+        }
+    ],
+    "espot": "%22contentText%22%3A%22%253CB%253EBuy%2Bextra%2Bproducts%2Bamounting%2B50%2Bor%2Bgreater%2Bthan%2Bfor%2Bfree%2Bshipping%253C%252FB%253E%22"
+}

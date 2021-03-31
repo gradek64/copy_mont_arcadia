@@ -1,0 +1,72 @@
+/** @define SocialProofCarouselOverlay */
+
+.SocialProofCarouselOverlay {
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ffffff;
+  bottom: inherit;
+  transition: opacity 500ms, transform 500ms;
+
+  &-title {
+    text-transform: uppercase;
+  }
+
+  &-text {
+    padding: 10px 0;
+  }
+
+  &-title,
+  &-text {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  &-textNotMobile {
+    display: none;
+  }
+
+  &-container {
+    background: rgba(46, 46, 46, 0.7) url('/assets/dorothyperkins/images/trending_product_icon.png') no-repeat;
+    background-size: 30px;
+    background-position: left 15px top 20px;
+    padding: 5px 20px 5px 60px;
+  }
+
+  &-close {
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    background: url('/assets/topman/images/trending_message_close.png') no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+@media $min-tablet {
+  .SocialProofCarouselOverlay {
+    font-size: 14px;
+    border: 0;
+
+    &-container {
+    }
+
+    &-title,
+    &-text {
+      font-size: 14px;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.SocialProofCarouselOverlay-entering {
+  opacity: 0;
+}
+/* postcss-bem-linter: ignore */
+.SocialProofCarouselOverlay-entered, .SocialProofCarouselOverlay-exited, .SocialProofCarouselOverlay-exiting  {
+  transform: translateY(100px);
+}
+/* postcss-bem-linter: ignore */
+.SocialProofCarouselOverlay-exited {
+  opacity: 0;
+} 

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageOverlay /> @renders should render with carousel thumbnails when isFeatureCarouselThumbnailEnabled is enabled 1`] = `
+<div
+  className="ImageOverlay"
+  style={Object {}}
+>
+  <Connect(Carousel)
+    amplienceImages={
+      Array [
+        "url1",
+        "url2",
+      ]
+    }
+    assets={
+      Array [
+        Object {
+          "assetType": "IMAGE_SMALL",
+          "url": "http://topshop.com/assets/demo_image_2.jpg",
+        },
+        Object {
+          "assetType": "IMAGE_SMALL",
+          "url": "http://topshop.com/assets/demo_image_3.jpg",
+        },
+      ]
+    }
+    initialIndex={3}
+    mode="thumbnail"
+    name="overlayThumbs"
+    onClick={[Function]}
+    sizes={
+      Object {
+        "desktop": 100,
+        "mobile": 100,
+        "tablet": 100,
+      }
+    }
+  />
+  <Connect(Carousel)
+    amplienceImages={
+      Array [
+        "url1",
+        "url2",
+      ]
+    }
+    assets={
+      Array [
+        Object {
+          "assetType": "IMAGE_LARGE",
+          "url": "http://topshop.com/assets/demo_image_1.jpg",
+        },
+        Object {
+          "assetType": "IMAGE_LARGE",
+          "url": "http://topshop.com/assets/demo_image_2.jpg",
+        },
+      ]
+    }
+    className="Carousel--overlay"
+    initialIndex={3}
+    mode="modal-carousel"
+    name="overlayCarousel"
+    sizes={
+      Object {
+        "desktop": 1060,
+        "mobile": 750,
+        "tablet": 710,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ImageOverlay /> @renders should render without carousel thumbnails when isFeatureCarouselThumbnailEnabled is not enabled 1`] = `
+<div
+  className="ImageOverlay"
+  style={Object {}}
+>
+  <Connect(Carousel)
+    amplienceImages={
+      Array [
+        "url1",
+        "url2",
+      ]
+    }
+    assets={
+      Array [
+        Object {
+          "assetType": "IMAGE_LARGE",
+          "url": "http://topshop.com/assets/demo_image_1.jpg",
+        },
+        Object {
+          "assetType": "IMAGE_LARGE",
+          "url": "http://topshop.com/assets/demo_image_2.jpg",
+        },
+      ]
+    }
+    className="Carousel--overlay"
+    initialIndex={3}
+    mode="modal-carousel"
+    name="overlayCarousel"
+    sizes={
+      Object {
+        "desktop": 1060,
+        "mobile": 750,
+        "tablet": 710,
+      }
+    }
+  />
+</div>
+`;

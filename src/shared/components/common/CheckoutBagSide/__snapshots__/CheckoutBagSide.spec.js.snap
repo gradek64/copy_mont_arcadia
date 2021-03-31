@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutBagSide /> @renders espots should render when order is completed 1`] = `
+Array [
+  <Connect(Espot)
+    className="CheckoutBagSide-espot"
+    identifier="eMarketingEspot4URL"
+  />,
+  <Connect(Espot)
+    className="CheckoutBagSide-espot"
+    identifier="eMarketingEspot5URL"
+  />,
+  <Connect(Espot)
+    className="CheckoutBagSide-espot"
+    identifier="eMarketingEspot6URL"
+  />,
+]
+`;
+
+exports[`<CheckoutBagSide /> @renders in NOT isHomeDelivery state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My details",
+        "details": "details",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="STORE"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "STORE_EXPRESS",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "STORE_EXPRESS",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in className state 1`] = `
+<div
+  className="CheckoutBagSide MyClassName"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in initial state 1`] = `""`;
+
+exports[`<CheckoutBagSide /> @renders in isDDPStandaloneOrder state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={false}
+    canModify={false}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={true}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in isHomeDelivery state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in orderProducts state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    products={
+      Array [
+        Object {
+          "productId": "myProductId",
+        },
+      ]
+    }
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in path="/checkout" state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in path="/checkout/delivery" state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in path="/checkout/delivery-payment" state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in path="/delivery" state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders in scrollMinibag, inCheckout=true, canModify=false state 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={false}
+    canModify={false}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollOnEdit={[Function]}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders with orderSummary discounts should not render discounts without showDiscounts prop 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<CheckoutBagSide /> @renders with orderSummary discounts should render discounts with showDiscounts prop 1`] = `
+<div
+  className="CheckoutBagSide"
+>
+  <h3
+    className="CheckoutBagSide-title"
+  >
+    My Bag (1)
+  </h3>
+  <div
+    className="CheckoutBagSide-messages"
+  />
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    canModify={true}
+    className="OrderProducts--checkoutBagSide"
+    hasDiscountText={true}
+    inventoryPositions={Array []}
+    scrollable={true}
+  />
+  <Connect(DeliveryEstimate)
+    address={
+      Object {
+        "0": "My address1",
+        "1": "My address2",
+      }
+    }
+    className="checkoutBagSide"
+    deliveryType="HOME"
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+    shouldDisplayAddress={false}
+  />
+  <SimpleTotals
+    className=""
+    discounts={
+      Array [
+        Object {
+          "label": "Topshop Card- £5 Welcome offer",
+          "value": "5.00",
+        },
+      ]
+    }
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "10.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "additionalDescription": "my addi info",
+        "deliveryType": "HOME_DELIVERY",
+        "estimatedDelivery": "Today",
+        "label": "My shipping inf",
+        "shipModeId": 12,
+      }
+    }
+  />
+</div>
+`;

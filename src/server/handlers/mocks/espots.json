@@ -1,0 +1,64 @@
+{
+  "pageId": "116711",
+  "pageName": "Mobile - eSpot Page Mapping",
+  "baseline": "3",
+  "pageLastPublished": "2016-05-31 16:13:36.06833",
+  "pagePublishedBy": "Gary King",
+  "contentPath": "/cms/pages/json/json-0000116711/json-0000116711.json",
+  "seoUrl": "",
+  "templateName": "Monty eSpot Map (MASTER) (REF 0000012483)",
+  "templatePublishDate": "2016-05-16 12:15:49.613042",
+  "version": "1",
+  "pageMap": [
+    null, {
+      "pageId": "116870",
+      "pageName": "mobilePLPESpotPos1",
+      "baseline": "3",
+      "lastPublished": "2016-05-31 16:14:12.029926",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116870/json-0000116870.json"
+    }, {
+      "pageId": "116710",
+      "pageName": "mobilePDPESpotPos1",
+      "baseline": "4",
+      "lastPublished": "2016-06-01 17:02:11.479811",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116710/json-0000116710.json"
+    }, {
+      "pageId": "116709",
+      "pageName": "mobilePDPESpotPos2",
+      "baseline": "4",
+      "lastPublished": "2016-06-01 17:01:59.996714",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116709/json-0000116709.json"
+    }, {
+      "pageId": "116871",
+      "pageName": "mobileShoppingBagESpotPos1",
+      "baseline": "3",
+      "lastPublished": "2016-05-31 16:14:16.048327",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116871/json-0000116871.json"
+    }, {
+      "pageId": "116874",
+      "pageName": "mobileCheckoutESpotPos1",
+      "baseline": "3",
+      "lastPublished": "2016-05-31 16:14:21.114911",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116874/json-0000116874.json"
+    }, {
+      "pageId": "116875",
+      "pageName": "mobileOrderConfirmationESpotPos1",
+      "baseline": "3",
+      "lastPublished": "2016-05-31 16:14:24.237599",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116875/json-0000116875.json"
+    }, {
+      "pageId": "116708",
+      "pageName": "mobileTacticalMessageESpotPos1",
+      "baseline": "4",
+      "lastPublished": "2016-06-01 17:01:53.606235",
+      "seoUrl": "",
+      "contentPath": "cms/pages/json/json-0000116708/json-0000116708.json"
+    }
+  ]
+}

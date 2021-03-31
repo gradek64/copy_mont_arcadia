@@ -1,0 +1,17 @@
+{
+    "name": "mock-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "lint": "eslint \"**/*.js\"",
+        "precommit": "lint-staged"
+    },
+    "author": "Arcadia Group Digital",
+    "license": "MIT",
+    "dependencies": {
+        "hapi": "^17.5.1",
+        "chalk": "^2.4.1"
+    }
+}

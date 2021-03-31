@@ -1,0 +1,12 @@
+/** @define ShoppingBagDeliveryOptions */
+.ShoppingBagDeliveryOptions {
+  &-select, &-message {
+    padding: 0 10px 10px;
+  }
+  &.is-expanded {
+    background: $mini-bag-accordion-background-color;
+  }
+  &-selectMenu {
+    margin: 10px 0;
+  }
+}

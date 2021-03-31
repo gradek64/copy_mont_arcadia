@@ -1,0 +1,95 @@
+{
+	"billingDetails": {
+	  "address": {
+		"address1": "",
+		"address2": "",
+		"city": "",
+		"country": "",
+		"postcode": "",
+		"state": ""
+	  },
+	  "addressDetailsId": -1,
+	  "nameAndPhone": { "firstName": "", "lastName": "", "telephone": "", "title": "" }
+	},
+	"creditCard": { "cardNumberStar": "", "type": "" },
+	"deliveryDetails": {
+	  "address": {
+		"address1": "Wallaby Way",
+		"address2": "Westminster",
+		"city": "West End",
+		"country": "United Kingdom",
+		"postcode": "NW1 2HS",
+		"state": ""
+	  },
+	  "addressDetailsId": 855886,
+	  "nameAndPhone": {
+		"firstName": "MCGEE",
+		"lastName": "TEST2",
+		"telephone": "07776543456",
+		"title": "Mr"
+	  }
+	},
+	"savedAddresses": [
+	  {
+		"address1": "Wallaby Way",
+		"address2": "Westminster",
+		"addressName": "Westminster, West End, NW1 2HS, Unite...",
+		"city": "West End",
+		"country": "United Kingdom",
+		"firstName": "MCGEE",
+		"id": 855886,
+		"lastName": "TEST2",
+		"postcode": "NW1 2HS",
+		"selected": true,
+		"state": "",
+		"telephone": "07776543456",
+		"title": "Mr"
+	  },
+	  {
+		"address1": "oxford street",
+		"address2": "",
+		"addressName": "London, n7 7aj, United Kingdom",
+		"city": "London",
+		"country": "United Kingdom",
+		"firstName": "Karthi",
+		"id": 855884,
+		"lastName": "D",
+		"postcode": "n7 7aj",
+		"selected": false,
+		"state": "",
+		"telephone": "1231231231",
+		"title": "Mr"
+	  },
+	  {
+		"address1": "Wallaby Way",
+		"address2": "Westminster",
+		"addressName": "Westminster, fd, NW1 2HS, United King...",
+		"city": "fd",
+		"country": "United Kingdom",
+		"firstName": "TEST2",
+		"id": 855881,
+		"lastName": "MCGEE",
+		"postcode": "NW1 2HS",
+		"selected": false,
+		"state": "",
+		"telephone": "07776260690",
+		"title": "Mr"
+	  },
+	  {
+		"address1": "1 234 Street",
+		"address2": "Westminster",
+		"addressName": "Westminster, fd, WC1H 9DR, United Kin...",
+		"city": "fd",
+		"country": "United Kingdom",
+		"firstName": "TEST",
+		"id": 855878,
+		"lastName": "TEST",
+		"postcode": "WC1H 9DR",
+		"selected": false,
+		"state": "",
+		"telephone": "07776260690",
+		"title": "Mr"
+	  }
+	]
+  }
+  

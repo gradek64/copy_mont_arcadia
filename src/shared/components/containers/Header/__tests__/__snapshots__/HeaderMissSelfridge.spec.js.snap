@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderMissSelfridge /> @renders in default state 1`] = `
+<div
+  className="HeaderMissSelfridge"
+>
+  <div
+    className="HeaderMissSelfridge-brand"
+  >
+    <Link
+      className="HeaderMissSelfridge-brandLink"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/"
+    >
+      <BrandLogo
+        brandName="missselfridge"
+      />
+    </Link>
+  </div>
+  <div
+    className="HeaderMissSelfridge-content"
+  >
+    <div
+      className="HeaderMissSelfridge-shippingInfo"
+      key="shippingInfo"
+    >
+      <Connect(Espot) />
+    </div>
+    <div
+      className="HeaderMissSelfridge-search"
+      key="search"
+    >
+      <Connect(SearchBar)
+        isDesktop={true}
+      />
+    </div>
+    <div
+      className="HeaderMissSelfridge-account"
+      key="account"
+    >
+      <Connect(AccountIcon)
+        myAccountText="My account"
+        popoverMenu={true}
+        signOutText="Sign out"
+      />
+    </div>
+    <div
+      className="HeaderMissSelfridge-shipping"
+      key="shipping"
+    >
+      <Connect(ShippingDestination) />
+    </div>
+    <div
+      className="HeaderMissSelfridge-wishlist"
+      key="wishlist"
+    >
+      <Connect(WishlistHeaderLink) />
+    </div>
+    <div
+      className="HeaderMissSelfridge-shoppingCart"
+      key="shoppingCart"
+    >
+      <Connect(ShoppingCart) />
+    </div>
+  </div>
+  <div
+    className="HeaderMissSelfridge-separator"
+  />
+  <div
+    className="HeaderMissSelfridge-navigation"
+  >
+    <Connect(TopNavMenuBig) />
+  </div>
+</div>
+`;

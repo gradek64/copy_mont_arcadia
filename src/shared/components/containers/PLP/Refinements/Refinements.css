@@ -1,0 +1,123 @@
+/** @define Refinements */
+.Refinements {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  opacity: 0;
+  background: rgba(51, 51, 51, 0.8);
+
+  &.is-shown {
+    visibility: visible;
+    z-index: 10;
+    opacity: 1;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: $refinements-margin;
+    left: $refinements-margin;
+    right: $refinements-margin;
+    max-height: calc(100% - 2 * $refinements-margin);
+    transform: none;
+    animation-duration: 0.3s;
+    background: $refinements-background-color;
+
+    &.is-shown {
+      animation-name: zoomIn;
+    }
+    &.is-hidden {
+      animation-name: zoomOut;
+    }
+  }
+
+  &-header {
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: $refinements-header-border-bottom;
+    background: $refinements-header-background-color;
+    padding: $refinements-header-padding;
+    z-index: 2;
+    flex-shrink: 0;
+  }
+
+  &-title {
+    text-align: center;
+    margin-top: $refinements-title-margin-top;
+    margin-bottom: $refinements-title-margin-bottom;
+    font-size: $refinements-title-font-size;
+    font-weight: $refinements-title-font-weight;
+    color: $refinements-title-color;
+  }
+
+  &-closeIcon {
+    position: absolute;
+    top: $refinements-close-icon-top;
+    right: $refinements-close-icon-right;
+    width: 40px;
+    height: 40px;
+    background: url('public/$brand/images/refinements-close-icon.svg') 50%/$refinements-close-icon-width no-repeat;
+  }
+
+  &-clearButton {
+    text-decoration: $refinements-clear-button-text-decoration;
+    font-size: $refinements-clear-button-font-size;
+    color: $refinements-clear-button-color;
+    padding: $refinements-clear-button-padding;
+    float: right;
+    position: $refinements-clear-button-position;
+    top: $refinements-clear-button-top;
+    left: $refinements-clear-button-left;
+    text-transform: $refinements-clear-button-text-transform;
+    transition: color 0.1s linear;
+
+    &:disabled {
+      text-decoration: $refinements-clear-button-disabled-text-decoration;
+      padding: $refinements-clear-button-disabled-padding;
+      color: $refinements-clear-button-disabled-color;
+
+      &::before {
+        opacity: $refinements-clear-button-disabled-icon-opacity;
+      }
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      background-image: $refinements-clear-button-icon-image;
+      width: $refinements-clear-button-icon-width;
+      height: $refinements-clear-button-icon-height;
+      margin-right: $refinements-clear-button-icon-margin-right;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      vertical-align: text-top;
+      transition: opacity 0.1s linear;
+    }
+  }
+
+  &-applyButtonWrapper {
+    padding: $refinements-apply-button-padding;
+    border-top: $refinements-apply-button-border-top;
+  }
+  &-applyButton {
+    background-color: $refinements-apply-button-background-color;
+    border-color: $refinements-apply-button-border-color;
+  }
+
+  &-loader {
+    display: block;
+    left: 0;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.ios .Refinements-content {
+  max-height: calc(100% - (2 * $refinements-margin) - 20px);
+}

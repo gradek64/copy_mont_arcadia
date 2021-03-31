@@ -1,0 +1,243 @@
+/** @define ProductSizes; weak */
+
+.ProductSizes {
+  &--sizeGuideDropdown {
+    margin-bottom: 10px;
+  }
+
+  &-title {
+    display: $pdp-product-size-title-display;
+    color: $pdp-product-size-title-color;
+    text-transform: $pdp-product-size-title-text-transform;
+    text-align: $pdp-product-size-title-align;
+    margin: $pdp-product-size-title-margin-top 0 $pdp-product-size-title-margin-bottom;
+    font-weight: $pdp-product-size-title-font-weight;
+    font-size: $pdp-product-size-title-font-size;
+    &::after {
+      content: $pdp-product-size-title-content-after;
+    }
+    &.is-oneSized {
+      display: $pdp-product-size-title-onesize-display;
+    }
+  }
+  &-button {
+    position: relative;
+    margin: 0 $pdp-product-size-gutter 15px 0;
+    width: calc(99.99% * $pdp-product-size-item-width - $pdp-product-size-gutter);
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-height: $pdp-product-size-max-height;
+    box-sizing: border-box;
+    border: solid $pdp-product-size-border-width $pdp-product-size-border-color;
+    cursor: pointer;
+    width: 100%;
+    height: $pdp-product-size-height;
+    background-color: $pdp-product-size-background-color;
+    color: $pdp-product-size-color;
+    font-size: $pdp-product-size-item-font-size;
+    font-family: $pdp-product-size-font-family;
+    font-weight: $pdp-product-size-font-weight;
+    letter-spacing: $pdp-product-size-letter-spacing;
+
+    &::after {
+      content: '';
+      display: $pdp-product-size-square-display;
+      padding-bottom: 100%;
+    }
+
+    &.is-active {
+      border: solid $pdp-product-size-active-border-width $pdp-product-size-active-border-color;
+      font-weight: $pdp-product-size-active-font-weight;
+      background-color: $pdp-product-size-active-background-color;
+      color: $pdp-product-size-active-color;
+      outline: $pdp-product-size-active-outline-width solid $pdp-product-size-active-outline-color;
+    }
+    &.is-outOfStock {
+      background-color: $pdp-product-size-oos-background;
+      opacity: $pdp-product-size-oos-opacity;
+      overflow: hidden;
+      color: $pdp-product-size-oos-text-size-colour;
+      &:after{
+        content: "";
+        position: absolute;
+        display: $pdp-product-size-oos-slash;
+        top: 50%;
+        left: 50%;
+        border-top: 1px solid $pdp-product-size-border-color;
+        width: 200%;
+        margin: $pdp-product-size-oos-margin-offset 0 0 -50%;
+        transform: rotate($pdp-product-size-oos-rotation);
+        transform-origin: 0 0;
+      }
+    }
+    &--col1 {
+      width: $pdp-product-size1-width;
+      margin: 0 auto;
+    }
+    &--col2 {
+      width: calc(99.99% * 1/2 - $pdp-product-size-gutter) $pdp-product-size-resize2;
+    }
+    &--col3 {
+      width: calc(99.99% * 1/3 - $pdp-product-size-gutter) $pdp-product-size-resize3;
+    }
+    &--col4 {
+      width: calc(99.99% * 1/4 - $pdp-product-size-gutter) $pdp-product-size-resize4;
+    }
+    &--col5 {
+      width: calc(99.99% * 1/5 - $pdp-product-size-gutter) $pdp-product-size-resize5;
+    }
+    &--col6 {
+      width: calc(99.99% * 1/6 - $pdp-product-size-gutter) $pdp-product-size-resize6;
+    }
+    &--col7 {
+      width: calc(99.99% * 1/7 - $pdp-product-size-gutter) $pdp-product-size-resize7;
+    }
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $pdp-product-size1-align;
+    align-items: flex-start;
+    /* margin-bottom: $pdp-product-size-list-margin-bottom; */
+    margin-right: -$pdp-product-size-gutter;
+    list-style-type: none;
+    padding: 0;
+    &--emailStock {
+      & .ProductSizes-item.is-outOfStock {
+        background-image: url('public/common/images/envelope.svg');
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position: top right;
+      }
+    }
+    &--oosOnly {
+      & .ProductSizes-item {
+        margin-bottom: 0;
+
+        &.is-outOfStock {
+          opacity: 1;
+
+          &:after{
+            border: none;
+          }
+        }
+      }
+    }
+  }
+  &-sizes:last-of-type {
+    margin-top: 0;
+    margin-bottom: $pdp-product-size-sizes-margin-bottom;
+  }
+
+  &-errorMessage {
+    display: block;
+    min-height: 1.1em;
+    padding-left: 10px;
+    color: $error-color;
+    line-height: $message-message-line-height;
+    font-size: $input-error-message-font-size;
+    text-align: right;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.ProductSizes--dropdown .ProductSizes-sizes .Select-head {
+  display: none;
+}
+
+@media $min-tablet {
+  .ProductSizes {
+    &--dropdown {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & .ProductSizes {
+        &-label {
+          display: none;
+        }
+      }
+    }
+    &-list {
+      margin-bottom: $pdp-product-size-list-margin-bottom-tablet;
+      &--oosOnly {
+         margin-bottom: 10px;
+       }
+    }
+
+    &--pdp {
+      & .ProductSizes {
+        &-label {
+          display: none;
+        }
+        &-title {
+          display: none;
+        }
+        &-spacer, &-lowStock {
+          display: none;
+        }
+        &-list {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-start;
+          margin: -5px -2.5px;
+        }
+        &-button {
+          margin: 5px 0;
+          padding: 0 2.5px;
+          width: 25%;
+        }
+        &-item {
+          border: solid $pdp-product-size-border-width $pdp-product-size-border-color;
+          &:hover {
+            border: solid $pdp-product-size-hover-border-width $pdp-product-size-hover-border-color;
+          }
+          &.is-active {
+            border: solid $pdp-product-size-active-border-width $pdp-product-size-active-border-color;
+          }
+          &.is-outOfStock:hover {
+            border: solid $pdp-product-size-border-width $pdp-product-size-border-color;
+          }
+        }
+      }
+
+      &.ProductSizes--dropdown .Select {
+        margin-bottom: 0;
+      }
+    }
+
+    &--sizeGuideButtonAsSizeTile {
+      width: 100%;
+      & .ProductSizes-button {
+        flex-basis: 20%;
+      }
+    }
+
+    &--sizeGuideDropdown {
+      width: 65%;
+    }
+
+    &--sizeGuideBox {
+      width: 80%;
+    }
+
+    &--stockLoader {
+      margin: auto;
+      align-self: center;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  /* postcss-bem-linter: ignore */
+  .ProductSizes--dropdown .ProductSizes-sizes .Select-head {
+    display: block;
+  }
+  /* postcss-bem-linter: ignore */
+  .ProductSizes--pdp .ProductSizes-sizes .Select-head {
+    display: block;
+  }
+}

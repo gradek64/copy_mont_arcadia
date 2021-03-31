@@ -1,0 +1,5 @@
+{
+  "sessionId": "foo",
+  "clientToken": "bar",
+  "payment_method_categories": "pay_later,pay_over_time"
+}

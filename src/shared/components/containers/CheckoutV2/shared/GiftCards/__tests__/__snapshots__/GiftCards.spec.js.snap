@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GiftCards /> @renders should not render if the feature flag is disabled state 1`] = `""`;
+
+exports[`<GiftCards /> @renders should render default state 1`] = `
+<section
+  className="GiftCards"
+>
+  <Accordion
+    accordionName="giftCard"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="GiftCards-accordion"
+    expanded={false}
+    header={
+      <h3>
+        Gift card
+      </h3>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".GiftCards"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div>
+      <Connect(Input)
+        errors={
+          Object {
+            "giftCardNumber": "",
+          }
+        }
+        field={
+          Object {
+            "isDirty": false,
+            "isFocused": false,
+            "isTouched": false,
+            "value": "6331456634615448",
+          }
+        }
+        label="Gift card number"
+        maxLength={16}
+        name="giftCardNumber"
+        placeholder="Gift Card Number"
+        privacyProtected={true}
+        setField={[Function]}
+        touchedField={[Function]}
+        type="text"
+      />
+      <div
+        className="GiftCards-row"
+      >
+        <Connect(Input)
+          errors={
+            Object {
+              "pin": "",
+            }
+          }
+          field={
+            Object {
+              "isDirty": false,
+              "isFocused": false,
+              "isTouched": false,
+              "value": "8398",
+            }
+          }
+          label="PIN"
+          name="pin"
+          placeholder="Example: XXXX"
+          privacyProtected={true}
+          setField={[Function]}
+          touchedField={[Function]}
+          type="text"
+        />
+        <Button
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          Apply card
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</section>
+`;
+
+exports[`<GiftCards /> @renders should render gift cards 1`] = `
+<section
+  className="GiftCards"
+>
+  <Accordion
+    accordionName="giftCard"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="GiftCards-accordion"
+    expanded={false}
+    header={
+      <h3>
+        Gift card
+      </h3>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".GiftCards"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <GiftCard
+      amountUsed="34.00"
+      cardNumber="XXXX XXXX XXXX 5039"
+      key="4624940"
+      onRemove={[Function]}
+    />
+    <GiftCard
+      amountUsed="10.00"
+      cardNumber="XXXX XXXX XXXX 7689"
+      key="4624944"
+      onRemove={[Function]}
+    />
+    <GiftCard
+      amountUsed="20.00"
+      cardNumber="XXXX XXXX XXXX 5448"
+      key="4624948"
+      onRemove={[Function]}
+    />
+    <div>
+      <Connect(Input)
+        errors={
+          Object {
+            "giftCardNumber": "",
+          }
+        }
+        field={
+          Object {
+            "isDirty": false,
+            "isFocused": false,
+            "isTouched": false,
+            "value": "6331456634615448",
+          }
+        }
+        label="Gift card number"
+        maxLength={16}
+        name="giftCardNumber"
+        placeholder="Gift Card Number"
+        privacyProtected={true}
+        setField={[Function]}
+        touchedField={[Function]}
+        type="text"
+      />
+      <div
+        className="GiftCards-row"
+      >
+        <Connect(Input)
+          errors={
+            Object {
+              "pin": "",
+            }
+          }
+          field={
+            Object {
+              "isDirty": false,
+              "isFocused": false,
+              "isTouched": false,
+              "value": "8398",
+            }
+          }
+          label="PIN"
+          name="pin"
+          placeholder="Example: XXXX"
+          privacyProtected={true}
+          setField={[Function]}
+          touchedField={[Function]}
+          type="text"
+        />
+        <Button
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          Apply card
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</section>
+`;

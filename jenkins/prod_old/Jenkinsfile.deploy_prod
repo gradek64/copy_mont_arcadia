@@ -1,0 +1,160 @@
+#!/usr/bin/env groovy
+@Library('devops_repo_shared_library')_
+
+def eb_job_path           = "${EVENT_JOB_PATH}"
+def job_smoke_test        = "/jenkins2/full-monty-e2ev2/master"
+// This job will likely move to a different folder
+def job_monty_deploy      = "/DevOps/full-monty deploy"
+def job_monty_prodstage   = "jenkins2/monty deploy prodstage"
+
+pipeline {
+
+    agent any
+
+    parameters {
+        string(name: 'DEPLOY_BRANCH_OR_TAG_OR_HASH', defaultValue: '',
+            description: 'Defaults to latest commits of current branch. Can be overridden here.')
+        booleanParam(name: 'UPDATE_ENVS', defaultValue: true,
+            description: 'Deployment will be propagated to a number of other environments such as qubit and staging')
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
+
+        timestamps()
+    }
+
+      stages {
+
+        stage("Pre-Flight") {
+            steps {
+                script {
+                    println(ssh_conn.get_ssh_conn())
+                }
+            }
+        }
+
+        stage("Set Build Description") {
+            steps {
+                echo "INFO - Setting build description to NextProd - ${params.DEPLOY_BRANCH_OR_TAG_OR_HASH}"
+                script {
+                    currentBuild.description = "NextProd - ${params.DEPLOY_BRANCH_OR_TAG_OR_HASH}"
+                }
+            }
+        }
+
+        stage("GH Feature Flags") {
+            steps {
+                ansiColor('xterm') {
+                    checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'preprod']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'packages/monty-feature-flags']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'feature-config-deployment', url: 'git@github.com:ag-digital/monty-feature-flags.git']]]
+                }
+            }
+        }
+
+        stage("Deploy") {
+            parallel {
+                stage("Deploy-JSON") {
+                    steps {
+                        timeout(time: 40, unit: 'MINUTES') {
+                        ansiColor('xterm') {
+                            withCredentials([string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'JenkinsSlaveDeploymentRoleProdOld']]) {
+                                    sh 'scripts/deploy_next_prodjson.sh'
+                                }
+                            }
+                        }
+                      }
+                    }
+                }
+                stage("Deploy-PRODSTAGE") {
+                    steps {
+                        build job: "${job_monty_prodstage}",
+                        wait: true, parameters: [ string(name: 'DEPLOY_BRANCH_OR_TAG_OR_HASH', value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}") ]
+                    }
+                }
+            }
+        }
+
+        // we kick those off after the main deploy, since there is a race condition on build+push into dockerhub
+        // from preprod and monty_deploy on the same tag. this could have odd results in terms of feature flags and whatnot
+        // so the solution is to build+push "real" release and after that monty_deploy would realise that the tag is there and wont push
+        stage("Update dev environments") {
+
+            when {
+                expression { params.UPDATE_ENVS == true }
+            }
+
+            steps {
+
+              ansiColor('xterm') {
+
+                echo "INFO - Deploying to qubit environment"
+                build job: "${job_monty_deploy}", propagate: true,
+                    parameters: [
+                        string(name: "DEPLOY_BRANCH_OR_TAG_OR_HASH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}"),
+                        string(name: "EB_ENVIRONMENT_NAME", value: "qubit"),
+                        string(name: "FEATURE_FLAG_BRANCH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}")
+                    ]
+
+                echo "INFO - Deploying to acc1 environment"
+                build job: "${job_monty_deploy}", propagate: true,
+                    parameters: [
+                        string(name: "DEPLOY_BRANCH_OR_TAG_OR_HASH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}"),
+                        string(name: "EB_ENVIRONMENT_NAME", value: "acc1"),
+                        string(name: "FEATURE_FLAG_BRANCH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}")
+                    ]
+
+                echo "INFO - Deploying to stage environment"
+                build job: "${job_monty_deploy}", propagate: true,
+                    parameters: [
+                        string(name: "DEPLOY_BRANCH_OR_TAG_OR_HASH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}"),
+                        string(name: "EB_ENVIRONMENT_NAME", value: "stage"),
+                        string(name: "FEATURE_FLAG_BRANCH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}")
+                    ]
+
+                echo "INFO - Deploying to analytics environment"
+                build job: "${job_monty_deploy}", propagate: true,
+                    parameters: [
+                        string(name: "DEPLOY_BRANCH_OR_TAG_OR_HASH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}"),
+                        string(name: "EB_ENVIRONMENT_NAME", value: "analytics"),
+                        string(name: "FEATURE_FLAG_BRANCH", value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}")
+                    ]
+                }
+            }
+        }
+
+        stage("Smoke Test") {
+            steps {
+                timeout(time: 30, unit: "MINUTES") {
+                    build job: "${job_smoke_test}", propagate: true,
+                        parameters: [
+                            string(name: "TARGET", value: "preprod"),
+                            booleanParam(name: "RUN_TESTS", value: true)
+                        ]
+                }
+            }
+        }
+    }
+
+    post {
+
+	      success {
+          // Notifying Event Bus
+          build job: eb_job_path, wait: false,
+              parameters: [
+                  string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                  string(name: 'JOB_STAGE', value: 'finish')
+              ]
+	      }
+
+        failure {
+          // Notifying Event Bus
+          build job: eb_job_path, wait: false,
+              parameters: [
+                  string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                  string(name: 'JOB_STAGE', value: 'fail')
+              ]
+        }
+
+	  }
+}

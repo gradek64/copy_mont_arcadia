@@ -1,0 +1,1330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselNormal /> @events Hammer pan if mobile and zoomed in then call carouselPan 1`] = `
+Array [
+  Array [
+    "productDetail",
+    50,
+    70,
+  ],
+]
+`;
+
+exports[`<CarouselNormal /> @events Hammer pan if mobile and zoomed in then call carouselPan 2`] = `50`;
+
+exports[`<CarouselNormal /> @events Hammer pan if mobile and zoomed in then call carouselPan 3`] = `70`;
+
+exports[`<CarouselNormal /> @events Hammer pan if mobile and zoomed in then call carouselPan with is final as false 1`] = `
+Array [
+  Array [
+    "productDetail",
+    50,
+    70,
+  ],
+]
+`;
+
+exports[`<CarouselNormal /> @events Hammer pan if mobile and zoomed in then call carouselPan with is final as false 2`] = `0`;
+
+exports[`<CarouselNormal /> @events Hammer pan if mobile and zoomed in then call carouselPan with is final as false 3`] = `0`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when not zoomed in 1`] = `
+Array [
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+]
+`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when not zoomed in 2`] = `
+Array [
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+]
+`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when zoomed in 1`] = `
+Array [
+  Array [
+    "productDetail",
+  ],
+]
+`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when zoomed in 2`] = `
+Array [
+  Array [
+    "productDetail",
+    1,
+  ],
+]
+`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when zoomed in 3`] = `
+Array [
+  Array [
+    "productDetail",
+    20,
+    0,
+  ],
+  Array [
+    "productDetail",
+    0,
+    0,
+  ],
+  Array [
+    "productDetail",
+    0,
+    20,
+  ],
+  Array [
+    "productDetail",
+    0,
+    0,
+  ],
+  Array [
+    "productDetail",
+    0,
+    0,
+  ],
+]
+`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when zoomed in 4`] = `
+Array [
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+]
+`;
+
+exports[`<CarouselNormal /> @events carousel keydown should be able to pan when zoomed in 5`] = `
+Array [
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+  Array [],
+]
+`;
+
+exports[`<CarouselNormal /> @renders in default state 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(1)",
+                "transform": "scale(1)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders should adjust the initial carousel image according to the initial index 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(1)",
+                "transform": "scale(1)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders when desktop and zoomed in 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(2)",
+                "transform": "scale(2)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders when mobile and zoomed in 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(2)",
+                "transform": "scale(2)",
+                "transition": "transform 0.3s ease",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left is-hidden"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right is-hidden"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders with arrowColor 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(1)",
+                "transform": "scale(1)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "green",
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "green",
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders with autoplay 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(1)",
+                "transform": "scale(1)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders with empty assets 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    />
+    <Connect(CarouselImagesOverlay) />
+  </div>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders with mode 1`] = `
+<div
+  className="Carousel Carousel--large"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(1)",
+                "transform": "scale(1)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders with showZoomIcon 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <div
+    aria-hidden="true"
+    className="Carousel-images"
+  >
+    <ul
+      className="Carousel-list"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+      tabIndex="-1"
+    >
+      <li
+        className="Carousel-item is-selected Carousel-initialItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTransform": "translate(0px, 0px)",
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 0"
+            className="Carousel-image"
+            deferLoad={false}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+            style={
+              Object {
+                "WebkitTransform": "scale(1)",
+                "transform": "scale(1)",
+                "transition": "none",
+              }
+            }
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 1"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+      <li
+        className="Carousel-item is-inactive Carousel-rightItem"
+        key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          style={null}
+        >
+          <Connect(ResponsiveImage)
+            alt="Carousel Image 2"
+            className="Carousel-image"
+            deferLoad={true}
+            draggable="false"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+            style={null}
+            useProgressiveJPG={false}
+          />
+        </div>
+      </li>
+    </ul>
+    <Connect(CarouselImagesOverlay) />
+  </div>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;
+
+exports[`<CarouselNormal /> @renders with showcase as true 1`] = `
+<div
+  className="Carousel"
+  onKeyDown={[Function]}
+  role="presentation"
+>
+  <AccessibleText>
+    Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.
+  </AccessibleText>
+  <Hammer
+    direction="DIRECTION_HORIZONTAL"
+    onPan={[Function]}
+    onTap={[Function]}
+    options={
+      Object {
+        "recognizers": Object {
+          "tap": Object {
+            "interval": 500,
+            "posThreshold": 200,
+            "taps": 2,
+            "threshold": 200,
+            "time": 1000,
+          },
+        },
+      }
+    }
+  >
+    <div>
+      <div
+        aria-hidden="true"
+        className="Carousel-images"
+      >
+        <ul
+          className="Carousel-list"
+          style={
+            Object {
+              "height": undefined,
+            }
+          }
+          tabIndex="-1"
+        >
+          <li
+            className="Carousel-item is-selected Carousel-initialItem"
+            key="iproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <div
+              style={
+                Object {
+                  "WebkitTransform": "translate(0px, 0px)",
+                  "transform": "translate(0px, 0px)",
+                }
+              }
+            >
+              <Connect(ResponsiveImage)
+                alt="Carousel Image 0"
+                className="Carousel-image"
+                deferLoad={false}
+                draggable="false"
+                sizes={null}
+                src="http://topshop.com/assets/demo_image_1.jpg"
+                style={
+                  Object {
+                    "WebkitTransform": "scale(1)",
+                    "transform": "scale(1)",
+                    "transition": "none",
+                  }
+                }
+                useProgressiveJPG={false}
+              />
+            </div>
+          </li>
+          <li
+            className="Carousel-item is-inactive Carousel-rightItem"
+            key="iproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <div
+              style={null}
+            >
+              <Connect(ResponsiveImage)
+                alt="Carousel Image 1"
+                className="Carousel-image"
+                deferLoad={true}
+                draggable="false"
+                sizes={null}
+                src="http://topshop.com/assets/demo_image_2.jpg"
+                style={null}
+                useProgressiveJPG={false}
+              />
+            </div>
+          </li>
+          <li
+            className="Carousel-item is-inactive Carousel-rightItem"
+            key="iproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <div
+              style={null}
+            >
+              <Connect(ResponsiveImage)
+                alt="Carousel Image 2"
+                className="Carousel-image"
+                deferLoad={true}
+                draggable="false"
+                sizes={null}
+                src="http://topshop.com/assets/demo_image_3.jpg"
+                style={null}
+                useProgressiveJPG={false}
+              />
+            </div>
+          </li>
+        </ul>
+        <Connect(CarouselImagesOverlay) />
+      </div>
+    </div>
+  </Hammer>
+  <ul
+    aria-hidden="true"
+    className="Carousel-selectors"
+    key="selectors"
+  >
+    <li
+      className="Carousel-selector is-selected"
+      key="sproductDetailhttp://topshop.com/assets/demo_image_1.jpg"
+      onClick={[Function]}
+      role="presentation"
+    />
+    <li
+      className="Carousel-selector"
+      key="sproductDetailhttp://topshop.com/assets/demo_image_2.jpg"
+      onClick={[Function]}
+      role="presentation"
+    />
+    <li
+      className="Carousel-selector"
+      key="sproductDetailhttp://topshop.com/assets/demo_image_3.jpg"
+      onClick={[Function]}
+      role="presentation"
+    />
+  </ul>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--left"
+    key="left"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View previous image
+  </button>
+  <button
+    aria-hidden="true"
+    className="Carousel-arrow Carousel-arrow--right"
+    key="right"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+    tabIndex="-1"
+  >
+    View next image
+  </button>
+</div>
+`;

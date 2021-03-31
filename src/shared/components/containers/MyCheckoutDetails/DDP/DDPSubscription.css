@@ -1,0 +1,49 @@
+/** @define DDPSubscription */
+.DDPSubscription {
+  flex: 1;
+  margin-bottom: 30px;
+
+  &-container {
+    display: flex;
+  }
+
+  &-renewal {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &-icon {
+    background-image: $ddp-icon-image;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  &-renewButton {
+    width: 140px;
+    margin-top: 10px;
+  }
+
+  &-renewLink {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &-cancel {
+    padding: $myaccount-padding 0;
+  }
+
+}
+
+@media $mobile {
+  .DDPSubscription {
+    border-top: $header-border-bottom;
+    padding-top: $myaccount-padding;
+  }
+}

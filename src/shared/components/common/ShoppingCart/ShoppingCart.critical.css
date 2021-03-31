@@ -1,0 +1,75 @@
+/** @define ShoppingCart; weak */
+
+.ShoppingCart {
+  display: flex;
+  height: 100%;
+  margin: $shopping-cart-margin-tablet;
+  overflow: visible;
+
+  &-icon {
+    background-image: $shopping-cart-icon-active;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    height: $shopping-cart-icon-height-tablet;
+    position: relative;
+    vertical-align: middle;
+    width: $shopping-cart-icon-width-tablet;
+    align-items: $shopping-cart-align-items;
+  }
+
+  &.is-empty {
+    & .ShoppingCart-icon {
+      background-image: $shopping-cart-icon;
+    }
+  }
+
+  &-itemsCount {
+    background-color: $shopping-cart-count-bg-color;
+    border-radius: 100%;
+    color: $shopping-cart-count-color;
+    display: $shopping-cart-count-display;
+    font-size: $shopping-cart-count-font-size-tablet;
+    left: $shopping-cart-count-left;
+    line-height: $shopping-cart-count-line-height;
+    min-width: $shopping-cart-count-min-width;
+    position: $shopping-cart-count-position;
+    top: $shopping-cart-count-top;
+    vertical-align: $shopping-cart-count-vertical-align;
+    margin-top: $shopping-cart-count-margin-top;
+    align-self: $shopping-cart-count-align-self;
+    margin-bottom: $shopping-cart-count-margin-bottom;
+  }
+}
+
+@media $min-laptop {
+  .ShoppingCart {
+
+    &-icon {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media $desktop {
+  .ShoppingCart {
+    margin: $shopping-cart-margin;
+
+    &-icon {
+      height: $shopping-cart-icon-height;
+      width: $shopping-cart-icon-width;
+      display: flex;
+      justify-content: center;
+    }
+
+    &-itemsCount {
+      font-size: $shopping-cart-count-font-size;
+      top: $shopping-cart-count-top-desktop;
+      line-height: $shopping-cart-count-line-height-desktop;
+      vertical-align: $shopping-cart-count-vertical-align-desktop;
+    }
+  }
+}

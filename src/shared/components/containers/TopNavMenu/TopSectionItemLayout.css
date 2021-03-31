@@ -1,0 +1,36 @@
+/** @define TopSectionItemLayout; weak */
+
+.TopSectionItemLayout {
+    position: relative;
+    padding-right: 20px;
+
+  &-leftIconWrapper {
+    position:absolute;
+    width: 30px;
+    text-align: center;
+  }
+  &-textWrapper {
+    position: relative;
+    left: 35px;
+    display: inline-block;
+  }
+  &-arrow{
+    position: absolute;
+    top: 50%;
+    right: $navigation-item-padding-horizontal;
+    height: $navigation-item-arrow-height;
+    width: $navigation-item-arrow-width;
+    margin-top: calc(-0.5 * $navigation-item-arrow-height);
+    background: url("public/$brand/images/nav-arrow.svg") no-repeat center;
+    background-size: contain;
+    
+    &--downArrow, &--upArrow {
+      transform: rotate(90deg);
+      right: calc($navigation-item-padding-horizontal + 3);
+    }
+    
+    &--upArrow{
+      transform: rotate(-90deg);
+    }
+  }
+}                                                          

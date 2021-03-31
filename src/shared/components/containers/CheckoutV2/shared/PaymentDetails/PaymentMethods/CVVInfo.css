@@ -1,0 +1,54 @@
+/** @define CVVInfo; weak */
+
+.CVVInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 46px 38px;
+  position: relative;
+}
+
+.CVVInfo-sectionHeading {
+  margin: 0;
+  font-weight: 500;
+}
+
+.CVVInfo-section p {
+  margin: 0;
+}
+
+.CVVInfo-section > *:not(:first-child) {
+  margin-top: 18px;
+}
+
+.CVVInfo-cellOne {
+  margin-bottom: 36px;
+}
+
+.CVVInfo-cellTwo > *:not(:first-child) {
+  margin-top: 36px;
+}
+
+@media $min-laptop {
+  .CVVInfo {
+    flex-direction: row;
+  }
+
+  .CVVInfo-cellOne {
+    max-width: 380px;
+  }
+
+  .CVVInfo-cellTwo {
+    margin-left: 50px;
+  }
+
+  .CVVInfo-cellTwo > *:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .CVVInfo-securityNumberInfo {
+    position: absolute;
+    left: 38px;
+    bottom: 60px;
+    max-width: 340px;
+  }
+}

@@ -1,0 +1,6 @@
+/** @define StoreLocator */
+
+/* postcss-bem-linter: ignore */
+.StoreLocator .Accordion-icon{
+  align-self: auto;
+}

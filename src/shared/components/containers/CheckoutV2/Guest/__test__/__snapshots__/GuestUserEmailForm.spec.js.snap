@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GuestUserEmailForm /> @render default render 1`] = `
+<Connect(GuestUserEmailForm)>
+  <GuestUserEmailForm
+    focusedFormField={[Function]}
+    formName="guestUser"
+    guestUserForm={
+      Object {
+        "fields": Object {
+          "email": Object {
+            "value": "",
+          },
+          "signUpGuest": Object {
+            "value": "",
+          },
+        },
+      }
+    }
+    setFormField={[Function]}
+    touchedFormField={[Function]}
+  >
+    <div
+      className="GuestUserEmailForm"
+    >
+      <div
+        className="GuestUserEmailForm-email"
+      >
+        <Connect(Input)
+          field={
+            Object {
+              "value": "",
+            }
+          }
+          id="Guest-email"
+          isRequired={true}
+          label="Email Address"
+          name="email"
+          placeholder="For order confirmation only"
+          setField={[Function]}
+          touchedField={[Function]}
+          type="email"
+        >
+          <Input
+            className=""
+            errors={null}
+            field={
+              Object {
+                "value": "",
+              }
+            }
+            id="Guest-email"
+            isRequired={true}
+            label="Email Address"
+            messagePosition="default"
+            name="email"
+            onBlur={[Function]}
+            placeholder="For order confirmation only"
+            sendAnalyticsValidationState={[Function]}
+            setField={[Function]}
+            suppressValidationIcon={false}
+            touchedField={[Function]}
+            type="email"
+          >
+            <div
+              className="FormComponent-email Input Input-email "
+            >
+              <div
+                className="Input-head"
+              >
+                <label
+                  className="Input-label"
+                  htmlFor="email-email"
+                >
+                  Email Address
+                  <span
+                    className="Input-required"
+                  >
+                    *
+                  </span>
+                </label>
+              </div>
+              <div
+                className="Input-row"
+              >
+                <div
+                  className="Input-container"
+                >
+                  <PrivacyGuard
+                    noProtection={true}
+                  >
+                    <input
+                      aria-describedby="email-error"
+                      aria-invalid={false}
+                      aria-label="Email Address"
+                      className="Input-field Input-field-email"
+                      id="Guest-email"
+                      name="email"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder="For order confirmation only"
+                      type="email"
+                      value=""
+                    />
+                  </PrivacyGuard>
+                </div>
+              </div>
+            </div>
+          </Input>
+        </Connect(Input)>
+        <Connect(Checkbox)
+          checked={
+            Object {
+              "value": false,
+            }
+          }
+          className="GuestUserEmailForm-signUpGuestCheckbox"
+          name="signUpGuest"
+          onChange={[Function]}
+        >
+          <Checkbox
+            checked={
+              Object {
+                "value": false,
+              }
+            }
+            className="GuestUserEmailForm-signUpGuestCheckbox"
+            errors={null}
+            field={Object {}}
+            isInCheckout={false}
+            labelClassName=""
+            name="signUpGuest"
+            onChange={[Function]}
+            sendValidationState={[Function]}
+          >
+            <label
+              className="FormComponent-signUpGuest Checkbox CheckboxName-signUpGuest GuestUserEmailForm-signUpGuestCheckbox"
+              htmlFor="signUpGuest-checkbox"
+            >
+              <span
+                className="Checkbox-checkboxContainer"
+              >
+                <input
+                  aria-checked={false}
+                  aria-labelledby="signUpGuest-label"
+                  checked={false}
+                  className="Checkbox-field"
+                  id="signUpGuest-checkbox"
+                  name="signUpGuest"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  role="checkbox"
+                  type="checkbox"
+                />
+                <span
+                  className="Checkbox-check"
+                />
+              </span>
+              <span
+                aria-label="signUpGuest"
+                className="Checkbox-label "
+                htmlFor="signUpGuest"
+                id="signUpGuest-label"
+              >
+                Tick here to receive style inspiration and exclusives straight to your inbox.
+                <br />
+                <Connect(PrivacyNotice)
+                  privacyMessage="privacyNoticeSignUpGuestCheckbox"
+                  privacyNoticeUrlText="privacyNoticeUrlTextSignUpGuestCheckbox"
+                  showPrivacyMessageForUs={true}
+                >
+                  <PrivacyNotice
+                    privacyMessage="privacyNoticeSignUpGuestCheckbox"
+                    privacyNoticeUrlText="privacyNoticeUrlTextSignUpGuestCheckbox"
+                    region={false}
+                    showPrivacyMessageForUs={true}
+                  >
+                    <div
+                      className="PrivacyNotice"
+                    >
+                      privacyNoticeSignUpGuestCheckbox
+                      <Link
+                        onClick={[Function]}
+                        onlyActiveOnIndex={false}
+                        style={Object {}}
+                      >
+                        <a
+                          onClick={[Function]}
+                          style={Object {}}
+                        >
+                          privacyNoticeUrlTextSignUpGuestCheckbox
+                        </a>
+                      </Link>
+                      .
+                    </div>
+                  </PrivacyNotice>
+                </Connect(PrivacyNotice)>
+              </span>
+            </label>
+          </Checkbox>
+        </Connect(Checkbox)>
+      </div>
+    </div>
+  </GuestUserEmailForm>
+</Connect(GuestUserEmailForm)>
+`;

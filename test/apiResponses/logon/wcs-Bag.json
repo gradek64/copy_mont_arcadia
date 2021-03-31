@@ -1,0 +1,26 @@
+{
+   "success":true,
+   "message":"View Minibag details.",
+   "items":2,
+   "total":24.00,
+   "orderId":1515617,
+   "productDetails":[
+      {
+         "orderItemId":7660345,
+         "productId":25770089,
+         "catentryId":"25770118",
+         "title":"PETITE Asymmetric Drape Dress",
+         "imageUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS26J09KKHA_Thumb_F_1.jpg",
+         "size":"4",
+         "quantity":2,
+         "avlQuantity":10,
+         "price":{
+            "was1Price":22.00,
+            "was2Price":null,
+            "nowPrice":12.00
+         },
+         "total":24.00000
+      }
+   ],
+   "espot":"%3C%21--+Start-+JSP+File+Name%3A+eMarketingSpotDisplay.jsp+--%3E%3C%21--+End+-+JSP+File+Name%3A+eMarketingSpotDisplay.jsp+--%3E"
+}

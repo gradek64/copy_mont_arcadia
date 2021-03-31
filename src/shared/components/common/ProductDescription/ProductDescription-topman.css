@@ -1,0 +1,22 @@
+/** @define ProductDescription; */
+
+@media $min-tablet {
+
+  .ProductDescription {
+    padding: 14px 19px;
+    border-top: solid 1px #dcdcdc;
+    border-bottom: solid 1px #dcdcdc;
+
+    &-title {
+      margin: 0 0 15px 0;
+      font-size: 20px;
+      font-weight: normal;
+    }
+
+    &-productDetailText {
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+  }
+}

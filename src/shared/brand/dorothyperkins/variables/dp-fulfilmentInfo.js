@@ -1,0 +1,15 @@
+module.exports = {
+  'fulfilmentInfo-collect-today-title-font-color': 'inherit',
+  'fulfilmentInfo-title-font-size': '1em',
+  'fulfilmentInfo-description-font-size': '0.73em',
+  'fulfilmentInfo-background-color': '#ffffff',
+  'fulfilmentInfo-padding-desktop': '0',
+  'fulfilmentInfo-icon-width': '40px',
+  'fulfilmentInfo-icon-height': '40px',
+  'fulfilmentInfo-description-margin': '2px 0 10px 0',
+  'fulfilmentInfo-description-margin-desktop': '2px 0 10px 0',
+  'fulfilmentInfo-item-margin': '0 0 20px 0',
+  'fulfilmentInfo-title-font-weight': 'normal',
+  'fulfilmentInfo-description-font-weight': '300',
+  'fulfilmentInfo-padding': '7px 0',
+}

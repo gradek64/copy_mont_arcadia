@@ -1,0 +1,24 @@
+{
+  "cardCvv": 123,
+  "creditCard": {
+    "expiryYear": "2017",
+    "cardNumber": "4444333322221152",
+    "type": "VISA",
+    "expiryMonth": "09"
+  },
+  "billingDetails": {
+      "address": {
+          "address1": "3 The Crescent",
+          "address2": "Compton Pauncefoot",
+          "city": "YEOVIL",
+          "country": "United Kingdom",
+          "postcode": "BA22 7EN"
+      },
+      "nameAndPhone": {
+          "title": "Dr",
+          "firstName": "Connor",
+          "lastName": "Thompson",
+          "telephone": "07193940075"
+      }
+  }
+}

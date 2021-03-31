@@ -1,0 +1,15 @@
+/** @define BundlesSizes; weak */
+
+@media $min-laptop {
+  .BundlesSizes {
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+
+    &-size {
+      margin-right: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

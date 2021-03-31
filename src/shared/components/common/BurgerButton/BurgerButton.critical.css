@@ -1,0 +1,30 @@
+/** @define BurgerButton */
+
+.BurgerButton {
+  position: relative;
+  display: block;
+  width: $header-burger-button-width;
+  height: $header-burger-button-height;
+  top: calc((100% - $header-burger-button-height) / 2);
+
+  &-bar {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: $header-burger-icon-bar-height;
+    background: $header-burger-color;
+
+    &:nth-child(1) {
+      top: 0;
+    }
+
+    &:nth-child(2) {
+      top: 50%;
+      transform: translateY(-50%)
+    }
+
+    &:nth-child(3) {
+      bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+/** @define ReturnHistoryDetailsSummary **/
+.ReturnHistoryDetailsSummary {
+  &-container {
+    border-bottom: 1px solid $myaccount-border-color;
+    border-top: 1px solid $myaccount-border-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px $page-padding;
+    flex-direction: column;
+  }
+
+  &-title {
+    display: inline-block;
+    /* 1ch = width of "0" */
+    margin-right: 1ch;
+  }
+
+  &-value {
+    display: inline-block;
+    text-align: right;
+  }
+
+  &-price {
+    font-weight: bold;
+    margin: $page-padding 0 0 0;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.ReturnHistoryDetailsSummary-container > div {
+  text-align: right;
+}
+
+@media $min-tablet {
+  .ReturnHistoryDetailsSummary {
+    display: flex;
+    justify-content: flex-end;
+
+    &-container {
+      border: none;
+      padding: 0 15px 0 15px;
+      width: 40%;
+    }
+  }
+}
+
+@media $min-laptop {
+  .ReturnHistoryDetailsSummary {
+    &-container {
+       width: auto;
+     }
+  }
+}

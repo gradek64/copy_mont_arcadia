@@ -1,0 +1,40 @@
+/** @define ProductSizes; weak */
+
+.ProductSizes {
+  &-button {
+    width: 80px;
+    margin: 0 2% 2% 0;
+  }
+  &-item {
+    &.is-active {
+      font-weight: inherit;
+    }
+    &.is-outOfStock {
+      &:after {
+        display: block;
+        top: 50%;
+        left: -5px;
+        border-top: 1px solid #d8d8d8;
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+        margin: 50% 0 0 -50%;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .ProductSizes {
+    & .Select-container {
+      margin-right: 15px;
+    }
+    &--pdp {
+      & .ProductSizes {
+        &-button {
+          margin: 7.5px 0;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+}

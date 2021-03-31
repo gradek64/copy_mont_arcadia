@@ -1,0 +1,63 @@
+{
+    "exists": true,
+    "email": "ddp@beck.com",
+    "title": "Mr",
+    "firstName": "Thamu",
+    "lastName": "Gurung",
+    "userTrackingId": 4166085,
+    "subscriptionId": "",
+    "basketItemCount": 0,
+    "creditCard": {
+        "type": "VISA",
+        "cardNumberHash": "tjOBl4zzS+ueTZQWartO5l968iOmCOix",
+        "cardNumberStar": "************1111",
+        "expiryMonth": "10",
+        "expiryYear": "2018"
+    },
+    "deliveryDetails": {
+        "addressDetailsId": 3355627,
+        "nameAndPhone": {
+            "lastName": "Gurung",
+            "telephone": "07145250000",
+            "title": "Mr",
+            "firstName": "Thamu"
+        },
+        "address": {
+            "address1": "20 Rucklidge Avenue",
+            "address2": "",
+            "city": "LONDON",
+            "state": "",
+            "country": "United Kingdom",
+            "postcode": "NW10 4PS"
+        }
+    },
+    "billingDetails": {
+        "addressDetailsId": 3355628,
+        "nameAndPhone": {
+            "lastName": "Gurung",
+            "telephone": "07145250000",
+            "title": "Mr",
+            "firstName": "Thamu"
+        },
+        "address": {
+            "address1": "20 Rucklidge Avenue",
+            "address2": "",
+            "city": "LONDON",
+            "state": "",
+            "country": "United Kingdom",
+            "postcode": "NW10 4PS"
+        }
+    },
+    "version": "1.6",
+    "isDDPUser": true,
+    "isDDPRenewable": true,
+    "ddpStartDate": "1 May 2019",
+    "ddpEndDate": "30 April 2020",
+    "wasDDPUser": false,
+    "ddpCurrentOrderCount": 2,
+    "ddpPreviousOrderCount": 0,
+    "ddpCurrentSaving": 2.05,
+    "ddpPreviousSaving": 0,
+    "ddpStandardPrice": 9.95,
+    "ddpExpressDeliveryPrice": 6
+}

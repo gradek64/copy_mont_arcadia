@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> @render renders as expected 1`] = `
+<div
+  className="NotFound"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    meta={
+      Array [
+        Object {
+          "content": "Page not found",
+          "name": "description",
+        },
+        Object {
+          "content": "NOINDEX, NOFOLLOW",
+          "name": "ROBOTS",
+        },
+      ]
+    }
+    title="404 - Page not found"
+  />
+  <Connect(SandBox)
+    cmsPageName="error404"
+    route={
+      Object {
+        "contentType": "page",
+      }
+    }
+    setPageStatusCode={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            404,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    shouldGetContentOnFirstLoad={true}
+  />
+</div>
+`;

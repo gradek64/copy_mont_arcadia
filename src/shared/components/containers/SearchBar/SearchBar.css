@@ -1,0 +1,157 @@
+/** @define SearchBar */
+@lost flexbox flex;
+@lost cycle none;
+@lost gutter 0;
+
+.SearchBar {
+
+  &-label {
+    display: none;
+  }
+
+  &-open {
+    top: $searchbar-height;
+  }
+
+  &-icon {
+    max-height: 100%;
+    padding: $searchbar-icon-padding;
+    box-sizing: border-box;
+    width: $searchbar-icon-width;
+    height: $searchbar-icon-height;
+  }
+
+  &-button {
+    height: 100%;
+    margin: $searchbar-icon-margin;
+    display: block;
+  }
+
+  &-iconParent {
+    width: 40px;
+    height: 100%;
+    order: $searchbar-icon-position;
+  }
+
+  &-queryInput {
+    flex: 1 1 auto; /* Be careful with flex: 1, see commit related to this line for more info */
+    background-color: transparent;
+    color: $searchbar-font-color;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: $searchbar-input-padding;
+    font-weight: $searchbar-font-weight;
+    text-transform: $searchbar-text-transform;
+    -webkit-appearance: none;
+
+    &::-webkit-input-placeholder {
+      color: $searchbar-placeholder-font-color;
+    }
+
+    &::-webkit-search-cancel-button, &::-webkit-search-decoration {
+      display: none;
+    }
+  }
+}
+
+@media $min-tablet {
+  .SearchBar {
+    &-open{
+      transform: none;
+      z-index: 1;
+    }
+    &--big {
+      top: $header-big-searchbar-top;
+      background: $header-big-search-background;
+      position: $header-big-search-position;
+      width: $header-big-width;
+      height: auto;
+      border-width: $header-big-search-border-width;
+      border-style: solid;
+      border-color: $header-big-search-border-color;
+      z-index: 1;
+      right: $header-big-searchbar-right;
+      align-content: $header-big-search-align;
+      overflow: $header-big-search-overflow;
+
+      & .SearchBar {
+        
+        &-form {
+          height: $header-big-search-bar-form-height;
+          background-color: $searchbar-big-form-background-color;
+          display: flex;
+          align-items: center;
+
+          &.is-focused {
+            background-color: $header-big-search-bar-form-background-focused;
+            border: $header-big-search-bar-form-border;
+          }
+        }
+
+        &-iconParent {
+          order: $header-big-search-icon-order;
+          display: inline-block;
+          width: $header-big-search-icon-width;
+          z-index: 1;
+          &.is-focused {
+            order: $header-big-search-icon-order-focused;
+            display: $header-big-search-icon-display-focused;
+          }
+        }
+
+        &-icon {
+          padding: $header-big-search-icon-padding-top $header-big-search-icon-padding-horizontal $header-big-search-icon-padding-bottom;
+          width: $header-big-search-icon-width;
+        }
+
+        &-closeIconParent {
+          margin: 0;
+        }
+
+        &-closeIcon {
+          display: $header-big-search-close-icon-display;
+          height: 15px;
+          padding-top: 0;
+          padding-right: 5px;
+        }
+
+        &-closeIconHidden {
+          display: none;
+        }
+
+        &-queryInput {
+          padding-left: $header-big-search-query-padding-left;
+          padding: $header-big-search-query-padding;
+          width: $header-big-search-query-width;
+          height: $header-big-search-query-height;
+          transition: $header-big-search-query-transition;
+          color: $header-big-search-font-color;
+          text-align: $header-big-search-query-text-align;
+          font-weight: $header-big-search-query-font-weight;
+          font-size: $header-big-search-query-font-size;
+          font-family: $header-big-search-query-font-family;
+          border-bottom: $header-big-search-query-border;
+          border-radius: 0;
+          letter-spacing: $header-big-search-bar-letter-spacing;
+
+          &::-webkit-input-placeholder {
+            text-transform: $header-big-search-place-holder-text-transform;
+            color: $header-big-search-font-color;
+            font-size: $header-big-search-query-font-size;
+            padding-bottom: 155px;
+          }
+
+          &:focus {
+            width: $header-big-search-open-width;
+            background-color: $searchbar-big-open-background-color;
+
+            &::-webkit-input-placeholder {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

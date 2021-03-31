@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressBookList @render should not show the address book list when there are no saved addresses 1`] = `
+<ol
+  className="AddressBookList"
+/>
+`;
+
+exports[`AddressBookList @render should show the address book list when there are saved addresses using address.addressId 1`] = `
+<ol
+  className="AddressBookList"
+>
+  <li
+    className="AddressBookList-item "
+    key="843489"
+  >
+    <button
+      className=" AddressBookList-item--onClick AddressBookList-itemDetails"
+      onClick={[Function]}
+    >
+      <h3
+        className="AddressBookList-itemDetailsName"
+      >
+        Ms
+         
+        Jane
+         
+        Doe
+      </h3>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="address1"
+      >
+        2 Foo Road
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="city"
+      >
+        London
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="postcode"
+      >
+        E3 2DS
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="country"
+      >
+        United Kingdom
+      </p>
+    </button>
+    <div
+      className="AddressBookList-itemActions"
+    >
+      <a
+        className="AddressBookList-itemAction AddressBookList-itemDelete"
+        href=""
+        onClick={[Function]}
+      >
+        DELETE
+      </a>
+    </div>
+  </li>
+  <li
+    className="AddressBookList-item "
+    key="843490"
+  >
+    <button
+      className=" AddressBookList-item--onClick AddressBookList-itemDetails"
+      onClick={[Function]}
+    >
+      <h3
+        className="AddressBookList-itemDetailsName"
+      >
+        Mr
+         
+        Banana
+         
+        Man
+      </h3>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="address1"
+      >
+        101 Acme Road
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="city"
+      >
+        London
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="postcode"
+      >
+        EC3N 1JJ
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="country"
+      >
+        United Kingdom
+      </p>
+    </button>
+    <div
+      className="AddressBookList-itemActions"
+    >
+      <a
+        className="AddressBookList-itemAction AddressBookList-itemDelete"
+        href=""
+        onClick={[Function]}
+      >
+        DELETE
+      </a>
+    </div>
+  </li>
+  <Button
+    className="AddressBook-addNewBtn Button--primary"
+    clickHandler={[MockFunction]}
+  >
+    Use this address
+  </Button>
+</ol>
+`;
+
+exports[`AddressBookList @render should show the address book list when there are saved addresses using address.id 1`] = `
+<ol
+  className="AddressBookList"
+>
+  <li
+    className="AddressBookList-item "
+    key="843489"
+  >
+    <button
+      className=" AddressBookList-item--onClick AddressBookList-itemDetails"
+      onClick={[Function]}
+    >
+      <h3
+        className="AddressBookList-itemDetailsName"
+      >
+        Ms
+         
+        Jane
+         
+        Doe
+      </h3>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="address1"
+      >
+        2 Foo Road
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="city"
+      >
+        London
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="postcode"
+      >
+        E3 2DS
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="country"
+      >
+        United Kingdom
+      </p>
+    </button>
+    <div
+      className="AddressBookList-itemActions"
+    >
+      <a
+        className="AddressBookList-itemAction AddressBookList-itemDelete"
+        href=""
+        onClick={[Function]}
+      >
+        DELETE
+      </a>
+    </div>
+  </li>
+  <li
+    className="AddressBookList-item "
+    key="843490"
+  >
+    <button
+      className=" AddressBookList-item--onClick AddressBookList-itemDetails"
+      onClick={[Function]}
+    >
+      <h3
+        className="AddressBookList-itemDetailsName"
+      >
+        Mr
+         
+        Banana
+         
+        Man
+      </h3>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="address1"
+      >
+        101 Acme Road
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="city"
+      >
+        London
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="postcode"
+      >
+        EC3N 1JJ
+      </p>
+      <p
+        className="AddressBookList-itemDetailsAddress"
+        key="country"
+      >
+        United Kingdom
+      </p>
+    </button>
+    <div
+      className="AddressBookList-itemActions"
+    >
+      <a
+        className="AddressBookList-itemAction AddressBookList-itemDelete"
+        href=""
+        onClick={[Function]}
+      >
+        DELETE
+      </a>
+    </div>
+  </li>
+  <Button
+    className="AddressBook-addNewBtn Button--primary"
+    clickHandler={[MockFunction]}
+  >
+    Use this address
+  </Button>
+</ol>
+`;

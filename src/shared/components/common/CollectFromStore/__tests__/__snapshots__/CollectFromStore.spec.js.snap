@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CollectFromStore/> @renders in default state 1`] = `
+<div
+  className="CollectFromStore"
+>
+  <h3
+    className="CollectFromStore-title"
+  >
+    Where do you want to collect from?
+  </h3>
+  <div
+    className="CollectFromStore-row"
+  >
+    <div
+      className="CollectFromStore-columnLeft"
+    >
+      <Form
+        className="CollectFromStore-search"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <Connect(UserLocatorInput)
+          selectedCountry="United Kingdom"
+          submitHandler={[Function]}
+        />
+      </Form>
+      <Connect(StoreList)
+        fetchStores={[Function]}
+        hasFilters={true}
+        name="CollectFromStore"
+        selectDeliveryStore={[Function]}
+        storeType="collectFromStore"
+      />
+    </div>
+    <div
+      className="CollectFromStore-columnRight"
+    />
+  </div>
+</div>
+`;
+
+exports[`<CollectFromStore/> @renders should render no results message 1`] = `
+<div
+  className="CollectFromStore"
+>
+  <h3
+    className="CollectFromStore-title"
+  >
+    Where do you want to collect from?
+  </h3>
+  <div
+    className="CollectFromStore-row"
+  >
+    <div
+      className="CollectFromStore-columnLeft"
+    >
+      <Form
+        className="CollectFromStore-search"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <Connect(UserLocatorInput)
+          selectedCountry="United Kingdom"
+          submitHandler={[Function]}
+        />
+      </Form>
+      <p>
+        Sorry, we couldn't find any locations matching your search. Please enter another location and try again.
+      </p>
+    </div>
+    <div
+      className="CollectFromStore-columnRight"
+    />
+  </div>
+  <div
+    className="CollectFromStore-espotContainer"
+  />
+</div>
+`;
+
+exports[`<CollectFromStore/> @renders when stores exist and getStoresLoading is false 1`] = `
+<div
+  className="CollectFromStore"
+>
+  <h3
+    className="CollectFromStore-title"
+  >
+    Where do you want to collect from?
+  </h3>
+  <div
+    className="CollectFromStore-row"
+  >
+    <div
+      className="CollectFromStore-columnLeft"
+    >
+      <Form
+        className="CollectFromStore-search"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <Connect(UserLocatorInput)
+          selectedCountry="United Kingdom"
+          submitHandler={[Function]}
+        />
+      </Form>
+      <Connect(StoreList)
+        fetchStores={[Function]}
+        hasFilters={true}
+        name="CollectFromStore"
+        selectDeliveryStore={[Function]}
+        storeType="collectFromStore"
+      />
+    </div>
+    <div
+      className="CollectFromStore-columnRight"
+    />
+  </div>
+</div>
+`;
+
+exports[`<CollectFromStore/> @renders when stores exist and getStoresLoading is true 1`] = `
+<div
+  className="CollectFromStore"
+>
+  <h3
+    className="CollectFromStore-title"
+  >
+    Where do you want to collect from?
+  </h3>
+  <div
+    className="CollectFromStore-row"
+  >
+    <div
+      className="CollectFromStore-columnLeft"
+    >
+      <Form
+        className="CollectFromStore-search"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <Connect(UserLocatorInput)
+          selectedCountry="United Kingdom"
+          submitHandler={[Function]}
+        />
+      </Form>
+    </div>
+    <div
+      className="CollectFromStore-columnRight"
+    />
+  </div>
+  <div
+    className="CollectFromStore-espotContainer"
+  />
+</div>
+`;
+
+exports[`<CollectFromStore/> @renders when stores is empty 1`] = `
+<div
+  className="CollectFromStore"
+>
+  <h3
+    className="CollectFromStore-title"
+  >
+    Where do you want to collect from?
+  </h3>
+  <div
+    className="CollectFromStore-row"
+  >
+    <div
+      className="CollectFromStore-columnLeft"
+    >
+      <Form
+        className="CollectFromStore-search"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <Connect(UserLocatorInput)
+          selectedCountry="United Kingdom"
+          submitHandler={[Function]}
+        />
+      </Form>
+    </div>
+    <div
+      className="CollectFromStore-columnRight"
+    />
+  </div>
+  <div
+    className="CollectFromStore-espotContainer"
+  />
+</div>
+`;

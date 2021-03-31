@@ -1,0 +1,16 @@
+/** @define BagTransferNote */
+
+.BagTransferNote {
+    display: flex;
+    font-size: 12px;
+
+    &::before {
+        content: "";
+        background: url("/assets/common/images/info.svg") no-repeat;
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        flex: 0 0 auto;
+    }
+}

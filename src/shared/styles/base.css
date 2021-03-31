@@ -1,0 +1,42 @@
+/* postcss-bem-linter: ignore */
+.CmsFrame {
+  display: block !important;
+}
+
+/* postcss-bem-linter: ignore */
+body {
+  margin: 0;
+  background-color: $body-background-color;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* postcss-bem-linter: ignore */
+body.not-scrollable {
+  overflow: hidden;
+  top:0;
+  left: 0;  
+  height: 100%;
+  right: 0;
+}
+
+/* postcss-bem-linter: ignore */
+body.not-scrollable.ios {
+  position: fixed;
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  body.not-scrollable.ios {
+    position: relative;
+  }
+}
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  .left-col-margin {
+    margin-right: $left-col-margin
+  }
+  /* postcss-bem-linter: ignore */
+  .right-col-margin {
+    margin-left: $right-col-margin
+  }
+}

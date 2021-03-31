@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Authentication actions authentication authPending - false 1`] = `
+Object {
+  "loading": false,
+  "type": "AUTH_PENDING",
+}
+`;
+
+exports[`Authentication actions authentication authPending - true 1`] = `
+Object {
+  "loading": true,
+  "type": "AUTH_PENDING",
+}
+`;
+
+exports[`Authentication actions authentication setAuthentication - false (not authenticated) 1`] = `
+Object {
+  "authentication": false,
+  "type": "SET_AUTHENTICATION",
+}
+`;
+
+exports[`Authentication actions authentication setAuthentication - fully authenticated 1`] = `
+Object {
+  "authentication": "full",
+  "type": "SET_AUTHENTICATION",
+}
+`;
+
+exports[`Authentication actions authentication setAuthentication - partially authenticated 1`] = `
+Object {
+  "authentication": "partial",
+  "type": "SET_AUTHENTICATION",
+}
+`;
+
+exports[`Authentication actions registerRequest register error action 1`] = `
+Object {
+  "error": Object {
+    "error": "i am an error",
+  },
+  "type": "REGISTER_ERROR",
+}
+`;
+
+exports[`Authentication actions registerRequest register success action 1`] = `
+Object {
+  "type": "REGISTER_SUCCESS",
+  "user": Object {
+    "user": "user thing",
+  },
+}
+`;

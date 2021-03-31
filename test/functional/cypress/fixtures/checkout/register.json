@@ -1,0 +1,56 @@
+{
+    "exists": true,
+    "email": "testymctest@arcadiagroup.co.uk",
+    "title": "",
+    "firstName": "",
+    "lastName": "",
+    "userTrackingId": 4010690,
+    "subscriptionId": "",
+    "basketItemCount": 1,
+    "creditCard": {
+        "type": "",
+        "cardNumberHash": "",
+        "cardNumberStar": "",
+        "expiryMonth": "",
+        "expiryYear": ""
+    },
+    "deliveryDetails": {
+        "addressDetailsId": -1,
+        "nameAndPhone": {
+            "lastName": "",
+            "telephone": "",
+            "title": "",
+            "firstName": ""
+        },
+        "address": {
+            "address1": "",
+            "address2": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "postcode": ""
+        }
+    },
+    "billingDetails": {
+        "addressDetailsId": -1,
+        "nameAndPhone": {
+            "lastName": "",
+            "telephone": "",
+            "title": "",
+            "firstName": ""
+        },
+        "address": {
+            "address1": "",
+            "address2": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "postcode": ""
+        }
+    },
+    "version": "1.6",
+    "hasCardNumberHash": false,
+    "hasPayPal": false,
+    "hasDeliveryDetails": false,
+    "hasBillingDetails": false
+}

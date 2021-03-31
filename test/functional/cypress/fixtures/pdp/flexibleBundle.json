@@ -1,0 +1,665 @@
+{
+    "pageTitle": "Bonded Trouser Suit - Suits & Co-ords - Clothing - Topshop",
+    "iscmCategory": "",
+    "breadcrumbs": [
+        {
+            "label": "Home",
+            "url": "/"
+        },
+        {
+            "label": "Bonded Trouser Suit"
+        }
+    ],
+    "grouping": "BUNDLE_17B07QSND36W07QSND",
+    "lineNumber": "BUNDLE_17B07QSND36W07QSND",
+    "name": "Bonded Trouser Suit",
+    "unitPrice": "69.00",
+    "stockEmail": false,
+    "storeDelivery": false,
+    "stockThreshold": 10,
+    "assets": [
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_F_1.jpg?$Thumb$"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_F_1.jpg?$Small$"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_F_1.jpg?$2col$"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_F_1.jpg?$Zoom$"
+        },
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 2,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_1.jpg?$Thumb$"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 2,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_1.jpg?$Small$"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 2,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_1.jpg?$2col$"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 2,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_1.jpg?$Zoom$"
+        },
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 3,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_2.jpg?$Thumb$"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 3,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_2.jpg?$Small$"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 3,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_2.jpg?$2col$"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 3,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_2.jpg?$Zoom$"
+        },
+        {
+            "assetType": "IMAGE_SMALL",
+            "index": 4,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_3.jpg?$Thumb$"
+        },
+        {
+            "assetType": "IMAGE_THUMB",
+            "index": 4,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_3.jpg?$Small$"
+        },
+        {
+            "assetType": "IMAGE_NORMAL",
+            "index": 4,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_3.jpg?$2col$"
+        },
+        {
+            "assetType": "IMAGE_LARGE",
+            "index": 4,
+            "url": "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_3.jpg?$Zoom$"
+        }
+    ],
+    "bundleProducts": [
+        {
+            "grouping": "TS17B07QSND",
+            "lineNumber": "17B07QSND",
+            "name": "Bonded Belted Jacket",
+            "description": "Look smart with this fully lined bonded belted jacket. Pair with the matching trousers to complete the look. 67% Polyester, 31% Viscose, 2% Elastane. Dry clean only.&lt;br&gt;&lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39;9” and she wears a size 8.",
+            "wasPrice": "65.00",
+            "unitPrice": "49.00",
+            "stockEmail": false,
+            "storeDelivery": false,
+            "stockThreshold": 10,
+            "assets": [],
+            "amplienceAssets": {
+                "images": [
+                    "https://images.topshop.com/i/TopShop/TS17B07QSND_M_1"
+                ]
+            },
+            "items": [
+                {
+                    "sku": "602018001295418",
+                    "size": "4",
+                    "quantity": 0,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295419",
+                    "size": "6",
+                    "quantity": 30,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295420",
+                    "size": "8",
+                    "quantity": 31,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295421",
+                    "size": "10",
+                    "quantity": 26,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295422",
+                    "size": "12",
+                    "quantity": 15,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295423",
+                    "size": "14",
+                    "quantity": 0,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295424",
+                    "size": "16",
+                    "quantity": 2,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295425",
+                    "size": "18",
+                    "quantity": 0,
+                    "selected": false
+                }
+            ],
+            "bundleProducts": [],
+            "attributes": {
+                "ECMC_PROD_SIZE_GUIDE_1": "Trousers & leggings",
+                "b_hasImage": "N",
+                "CEThumbnailSuffixes": "",
+                "b_has360": "N",
+                "EmailBackInStock": "N",
+                "BundleType": "Flexible",
+                "b_hasVideo": "N",
+                "STORE_DELIVERY": "true",
+                "hasVideo": "N",
+                "Department": "",
+                "CE3BThumbnailSuffixes": "",
+                "has360": "N",
+                "SearchKeywords": "",
+                "ThresholdMessage": "",
+                "IFSeason": "SS16",
+                "thumbnailImageSuffixes": "_",
+                "ECMC_PROD_COLOUR_1": "",
+                "StyleCode": "0",
+                "COLOUR_CODE": "",
+                "STYLE_CODE": "",
+                "NotifyMe": "N",
+                "countryExclusion": "",
+                "SizeFit": "",
+                "ProductDefaultCopy": "",
+                "shopTheOutfitBundleCode": ""
+            },
+            "colourSwatches": [],
+            "tpmLinks": [],
+            "bundleSlots": [],
+            "ageVerificationRequired": false,
+            "isBundleOrOutfit": true,
+            "productId": 34031529,
+            "wcsColourKey": "214302685",
+            "wcsSizeKey": "214301259"
+        },
+        {
+            "grouping": "TS36W07QSND",
+            "lineNumber": "36W07QSND",
+            "name": "Bonded Wide Leg Cropped Trousers",
+            "description": "Add a pop of colour to your day with these bonded wide leg cropped trousers. Complete with pocket detailing and hardware popper fastenings, pair with the matching jacket for a smart, chic look. 67% Polyester, 31% Viscose, 2% Elastane. Dry clean only.&lt;br&gt;&lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39;9” and she wears a size 8.",
+            "wasPrice": "46.00",
+            "unitPrice": "20.00",
+            "stockEmail": false,
+            "storeDelivery": false,
+            "stockThreshold": 10,
+            "assets": [],
+            "amplienceAssets": {
+                "images": [
+                    "https://images.topshop.com/i/TopShop/TS36W07QSND_M_1"
+                ]
+            },
+            "items": [
+                {
+                    "sku": "602018001295450",
+                    "size": "4",
+                    "quantity": 1,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295451",
+                    "size": "6",
+                    "quantity": 11,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295452",
+                    "size": "8",
+                    "quantity": 29,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295453",
+                    "size": "10",
+                    "quantity": 23,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295454",
+                    "size": "12",
+                    "quantity": 17,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295455",
+                    "size": "14",
+                    "quantity": 10,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295456",
+                    "size": "16",
+                    "quantity": 6,
+                    "selected": false
+                },
+                {
+                    "sku": "602018001295457",
+                    "size": "18",
+                    "quantity": 1,
+                    "selected": false
+                }
+            ],
+            "bundleProducts": [],
+            "attributes": {
+                "ECMC_PROD_SIZE_GUIDE_1": "Trousers & leggings",
+                "b_hasImage": "N",
+                "CEThumbnailSuffixes": "",
+                "b_has360": "N",
+                "EmailBackInStock": "N",
+                "BundleType": "Flexible",
+                "b_hasVideo": "N",
+                "STORE_DELIVERY": "true",
+                "hasVideo": "N",
+                "Department": "",
+                "CE3BThumbnailSuffixes": "",
+                "has360": "N",
+                "SearchKeywords": "",
+                "ThresholdMessage": "",
+                "IFSeason": "SS16",
+                "thumbnailImageSuffixes": "_",
+                "ECMC_PROD_COLOUR_1": "",
+                "StyleCode": "0",
+                "COLOUR_CODE": "",
+                "STYLE_CODE": "",
+                "NotifyMe": "N",
+                "countryExclusion": "",
+                "SizeFit": "",
+                "ProductDefaultCopy": "",
+                "shopTheOutfitBundleCode": ""
+            },
+            "colourSwatches": [],
+            "tpmLinks": [],
+            "bundleSlots": [],
+            "ageVerificationRequired": false,
+            "isBundleOrOutfit": true,
+            "productId": 34032705,
+            "wcsColourKey": "214305037",
+            "wcsSizeKey": "214305038"
+        }
+    ],
+    "attributes": {},
+    "colourSwatches": [],
+    "tpmLinks": [],
+    "bundleSlots": [
+        {
+            "slotNumber": 1,
+            "products": [
+                {
+                    "grouping": "TS17B07QSND",
+                    "lineNumber": "17B07QSND",
+                    "name": "Bonded Belted Jacket",
+                    "description": "Look smart with this fully lined bonded belted jacket. Pair with the matching trousers to complete the look. 67% Polyester, 31% Viscose, 2% Elastane. Dry clean only.&lt;br&gt;&lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39;9” and she wears a size 8.",
+                    "wasPrice": "65.00",
+                    "unitPrice": "49.00",
+                    "stockEmail": false,
+                    "storeDelivery": false,
+                    "stockThreshold": 10,
+                    "assets": [],
+                    "amplienceAssets": {
+                        "images": [
+                            "https://images.topshop.com/i/TopShop/TS17B07QSND_M_1"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "sku": "602018001295418",
+                            "size": "4",
+                            "quantity": 0,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295419",
+                            "size": "6",
+                            "quantity": 30,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295420",
+                            "size": "8",
+                            "quantity": 31,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295421",
+                            "size": "10",
+                            "quantity": 26,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295422",
+                            "size": "12",
+                            "quantity": 15,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295423",
+                            "size": "14",
+                            "quantity": 0,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295424",
+                            "size": "16",
+                            "quantity": 2,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295425",
+                            "size": "18",
+                            "quantity": 0,
+                            "selected": false
+                        }
+                    ],
+                    "bundleProducts": [],
+                    "attributes": {
+                        "ECMC_PROD_SIZE_GUIDE_1": "Trousers & leggings",
+                        "b_hasImage": "N",
+                        "CEThumbnailSuffixes": "",
+                        "b_has360": "N",
+                        "EmailBackInStock": "N",
+                        "BundleType": "Flexible",
+                        "b_hasVideo": "N",
+                        "STORE_DELIVERY": "true",
+                        "hasVideo": "N",
+                        "Department": "",
+                        "CE3BThumbnailSuffixes": "",
+                        "has360": "N",
+                        "SearchKeywords": "",
+                        "ThresholdMessage": "",
+                        "IFSeason": "SS16",
+                        "thumbnailImageSuffixes": "_",
+                        "ECMC_PROD_COLOUR_1": "",
+                        "StyleCode": "0",
+                        "COLOUR_CODE": "",
+                        "STYLE_CODE": "",
+                        "NotifyMe": "N",
+                        "countryExclusion": "",
+                        "SizeFit": "",
+                        "ProductDefaultCopy": "",
+                        "shopTheOutfitBundleCode": ""
+                    },
+                    "colourSwatches": [],
+                    "tpmLinks": [],
+                    "bundleSlots": [],
+                    "ageVerificationRequired": false,
+                    "isBundleOrOutfit": true,
+                    "productId": 34031529,
+                    "wcsColourKey": "214302685",
+                    "wcsSizeKey": "214301259"
+                }
+            ]
+        },
+        {
+            "slotNumber": 2,
+            "products": [
+                {
+                    "grouping": "TS36W07QSND",
+                    "lineNumber": "36W07QSND",
+                    "name": "Bonded Wide Leg Cropped Trousers",
+                    "description": "Add a pop of colour to your day with these bonded wide leg cropped trousers. Complete with pocket detailing and hardware popper fastenings, pair with the matching jacket for a smart, chic look. 67% Polyester, 31% Viscose, 2% Elastane. Dry clean only.&lt;br&gt;&lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39;9” and she wears a size 8.",
+                    "wasPrice": "46.00",
+                    "unitPrice": "20.00",
+                    "stockEmail": false,
+                    "storeDelivery": false,
+                    "stockThreshold": 10,
+                    "assets": [],
+                    "amplienceAssets": {
+                        "images": [
+                            "https://images.topshop.com/i/TopShop/TS36W07QSND_M_1"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "sku": "602018001295450",
+                            "size": "4",
+                            "quantity": 1,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295451",
+                            "size": "6",
+                            "quantity": 11,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295452",
+                            "size": "8",
+                            "quantity": 29,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295453",
+                            "size": "10",
+                            "quantity": 23,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295454",
+                            "size": "12",
+                            "quantity": 17,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295455",
+                            "size": "14",
+                            "quantity": 10,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295456",
+                            "size": "16",
+                            "quantity": 6,
+                            "selected": false
+                        },
+                        {
+                            "sku": "602018001295457",
+                            "size": "18",
+                            "quantity": 1,
+                            "selected": false
+                        }
+                    ],
+                    "bundleProducts": [],
+                    "attributes": {
+                        "ECMC_PROD_SIZE_GUIDE_1": "Trousers & leggings",
+                        "b_hasImage": "N",
+                        "CEThumbnailSuffixes": "",
+                        "b_has360": "N",
+                        "EmailBackInStock": "N",
+                        "BundleType": "Flexible",
+                        "b_hasVideo": "N",
+                        "STORE_DELIVERY": "true",
+                        "hasVideo": "N",
+                        "Department": "",
+                        "CE3BThumbnailSuffixes": "",
+                        "has360": "N",
+                        "SearchKeywords": "",
+                        "ThresholdMessage": "",
+                        "IFSeason": "SS16",
+                        "thumbnailImageSuffixes": "_",
+                        "ECMC_PROD_COLOUR_1": "",
+                        "StyleCode": "0",
+                        "COLOUR_CODE": "",
+                        "STYLE_CODE": "",
+                        "NotifyMe": "N",
+                        "countryExclusion": "",
+                        "SizeFit": "",
+                        "ProductDefaultCopy": "",
+                        "shopTheOutfitBundleCode": ""
+                    },
+                    "colourSwatches": [],
+                    "tpmLinks": [],
+                    "bundleSlots": [],
+                    "ageVerificationRequired": false,
+                    "isBundleOrOutfit": true,
+                    "productId": 34032705,
+                    "wcsColourKey": "214305037",
+                    "wcsSizeKey": "214305038"
+                }
+            ]
+        }
+    ],
+    "sourceUrl": "http://ts-prd1live.prd.arcadiagroup.co.uk/en/tsuk/product/bonded-trouser-suit-8321681",
+    "canonicalUrl": "http://ts-prd1live.prd.arcadiagroup.co.uk/en/tsuk/product/bonded-trouser-suit-8321681",
+    "ageVerificationRequired": false,
+    "isBundleOrOutfit": true,
+    "version": "",
+    "deliveryMessage": "",
+    "amplienceAssets": {
+        "images": [
+            "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_F_1",
+            "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_1",
+            "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_2",
+            "https://images.topshop.com/i/TopShop/BUNDLE_17B07QSND36W07QSND_M_3"
+        ]
+    },
+    "espots": {
+        "CE3ContentEspot1": {
+            "EspotContents": {
+                "cmsMobileContent": {
+                    "pageId": 113071,
+                    "pageName": "static-0000113071",
+                    "breadcrumb": "",
+                    "baseline": "30",
+                    "revision": "0",
+                    "lastPublished": "2019-03-07 12:52:38.87303",
+                    "contentPath": "cms/pages/static/static-0000113071/static-0000113071.html",
+                    "seoUrl": "",
+                    "mobileCMSUrl": "",
+                    "responsiveCMSUrl": "cms/pages/json/json-0000159641/json-0000159641.json"
+                },
+                "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000113071+baseline%3A+30+revision%3A+0+published%3A+2019-03-07+12%3A52%3A38.87303%3AECMC+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage113071+%3D+%7B+%22pageId%22%3A+113071%2C+%22pageName%22%3A+%22static-0000113071%22%2C+%22breadcrumb%22%3A+%22%22%2C+%22baseline%22%3A+%2230%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222019-03-07+12%3A52%3A38.87303%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000113071%2Fstatic-0000113071.html%22%2C+%22seoUrl%22%3A+%22%22%2C+%22mobileCMSUrl%22%3A+%22%22%2C+%22responsiveCMSUrl%22%3A+%22cms%2Fpages%2Fjson%2Fjson-0000159641%2Fjson-0000159641.json%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000003144+baseline%3A+3+revision%3A+0+description%3A+Basic+Espot+-+Unsecure+%28MASTER%29+%28REF+0000003135%29+published%3A+2010-12-06+11%3A11%3A03.681468+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22https%3A%2F%2Fmedia.topshop.com%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000003144%2Fcss%2Fdefault.css%22+%2F%3E+%3Cdiv+class%3D%22+basic-espot%22%3E+%3Cdiv+id%3D%22styleSection%22+class%3D%22info_item+delivery_info+grid%22%3E+%3Cdiv+class%3D%22grid_item+one_quarter+quarter_3%22%3E+%3Ch5%3EOrder+before+4pm%3C%2Fh5%3E+%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fuk-delivery-4043283%2Fhome%3FTS%3D1421171569402%26amp%3Bcat2%3D2141530%26amp%3Bintcmpid%3DPDP_below_delivery%22%3Efor+next+day+delivery*%3Cbr+%2F%3E+*Restrictions+Apply%3C%2Fa%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22grid_item+one_quarter+quarter_1%22%3E+%3Ch5%3EFree+Delivery%3C%2Fh5%3E+%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fuk-delivery-4043283%2Fhome%3FTS%3D1421171569402%26amp%3Bcat2%3D2141530%26amp%3Bintcmpid%3DPDP_below_store_shipping%22%3Eto+store+on+all+standard+orders+within+3-7+days%3C%2Fa%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22grid_item+one_quarter+quarter_2%22%3E+%3Ch5%3EFree+Standard+delivery%3C%2Fh5%3E+%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fuk-delivery-4043283%2Fhome%3FTS%3D1421171569402%26amp%3Bcat2%3D2141530%26amp%3Bintcmpid%3DPDP_below_standard_shipping%22%3Eto+home+delivered%26%23160%3Bin+up+to+5+working+days%3C%2Fa%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22grid_item+one_quarter+quarter_4%22%3E+%3Ch5%3EFree+Returns%3C%2Fh5%3E+%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Freturns-4043372%2Fhome%3FTS%3D1421172442418%26amp%3Bintcmpid%3DPDP_below_free_returns%22%3Evia+store%2C+post+or+Collect%2B%3C%2Fa%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000003135+--%3E+"
+            }
+        }
+    },
+    "productId": 34122033,
+    "description": "Look smart with this chic belted jacket and classic wide leg trouser combo. Dress up with a pair of heeled boots or go casual with your favourite trainers. 67% Polyester, 31% Viscose, 2% Elastane. Dry clean only.",
+    "items": [
+        {
+            "sku": "602018001295418",
+            "size": "4",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602018001295419",
+            "size": "6",
+            "quantity": 30,
+            "selected": false
+        },
+        {
+            "sku": "602018001295420",
+            "size": "8",
+            "quantity": 31,
+            "selected": false
+        },
+        {
+            "sku": "602018001295421",
+            "size": "10",
+            "quantity": 26,
+            "selected": false
+        },
+        {
+            "sku": "602018001295422",
+            "size": "12",
+            "quantity": 15,
+            "selected": false
+        },
+        {
+            "sku": "602018001295423",
+            "size": "14",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602018001295424",
+            "size": "16",
+            "quantity": 2,
+            "selected": false
+        },
+        {
+            "sku": "602018001295425",
+            "size": "18",
+            "quantity": 0,
+            "selected": false
+        },
+        {
+            "sku": "602018001295450",
+            "size": "4",
+            "quantity": 1,
+            "selected": false
+        },
+        {
+            "sku": "602018001295451",
+            "size": "6",
+            "quantity": 11,
+            "selected": false
+        },
+        {
+            "sku": "602018001295452",
+            "size": "8",
+            "quantity": 29,
+            "selected": false
+        },
+        {
+            "sku": "602018001295453",
+            "size": "10",
+            "quantity": 23,
+            "selected": false
+        },
+        {
+            "sku": "602018001295454",
+            "size": "12",
+            "quantity": 17,
+            "selected": false
+        },
+        {
+            "sku": "602018001295455",
+            "size": "14",
+            "quantity": 10,
+            "selected": false
+        },
+        {
+            "sku": "602018001295456",
+            "size": "16",
+            "quantity": 6,
+            "selected": false
+        },
+        {
+            "sku": "602018001295457",
+            "size": "18",
+            "quantity": 1,
+            "selected": false
+        }
+    ],
+    "bundleType": "Flexible"
+}

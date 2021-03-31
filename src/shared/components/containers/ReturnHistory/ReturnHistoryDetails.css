@@ -1,0 +1,67 @@
+/** @define ReturnHistoryDetails **/
+
+.ReturnHistoryDetails {
+
+  &-orderDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 $page-padding;
+  }
+
+  &-orderNumberContainer {
+    display: flex;
+  }
+
+  &-orderNumberLabel {
+    margin-right: 30px;
+    margin-left: 0;
+  }
+
+  &-returnDate {
+    margin-left: 20px;
+  }
+
+  &-linkWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 10px;
+  }
+
+}
+
+@media $min-tablet {
+  .ReturnHistoryDetails {
+
+    &-orderNumberLabel {
+       margin-left: -10px;
+    }
+
+    &-orderDetailsContainer {
+      flex-direction: row;
+    }
+
+    &-returnDate {
+      margin-left: auto;
+    }
+
+    &-linkWrapper {
+      padding: 0 0 10px 0;
+    }
+
+  }
+}
+
+@media $min-laptop {
+  .ReturnHistoryDetails {
+
+    &-orderDetailsContainer {
+      flex-direction: row;
+    }
+
+    &-returnDate {
+      margin-left: auto;
+    }
+
+  }
+}

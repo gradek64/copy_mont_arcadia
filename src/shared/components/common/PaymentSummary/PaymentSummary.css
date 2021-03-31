@@ -1,0 +1,72 @@
+/** @define PaymentSummary */
+.PaymentSummary {
+  max-width: $payment-summary-max-width;
+  border-top: $payment-summary-border-top-width solid $payment-summary-border-top-color;
+  border-right: $payment-summary-border-right-width solid $payment-summary-border-right-color;
+  border-bottom: $payment-summary-border-bottom-width solid $payment-summary-border-bottom-color;
+  border-left: $payment-summary-border-left-width solid $payment-summary-border-left-color;
+  padding-top: $payment-summary-padding-top;
+}
+
+.PaymentSummary-header {
+  height: 40px;
+  border-bottom: 1px solid $payment-summary-header-border-bottom;
+}
+
+.PaymentSummary-headerText {
+  margin: 0;
+  color: $payment-summary-header-text-color;
+  font-size: $payment-summary-header-font-size;
+  font-weight: $payment-summary-header-font-weight;
+  line-height: $payment-summary-header-line-height;
+  text-transform: $payment-summary-header-text-transform;
+}
+
+.PaymentSummary-tableHead > .PaymentSummary-tableRow > .PaymentSummary-tableColumn {
+  font-weight: $payment-summary-table-head-font-weight;
+}
+
+.PaymentSummary-body {
+  background-color: $payment-summary-body-background-color;
+  padding-top: $payment-summary-body-padding-top;
+  padding-right: $payment-summary-body-padding-right;
+  padding-bottom: $payment-summary-body-padding-bottom;
+  padding-left: $payment-summary-body-padding-left;
+}
+
+.PaymentSummary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.PaymentSummary-tableRow {
+  padding: 0;
+  font-size: $payment-summary-table-row-font-size;
+  font-family: $payment-summary-table-row-font-family;
+  font-weight: $payment-summary-table-row-font-weight;
+  line-height: $payment-summary-table-row-line-height;
+  letter-spacing: $payment-summary-table-row-letter-spacing;
+  border-bottom: $payment-summary-table-row-border-bottom;
+}
+
+.PaymentSummary-tableColumn {
+  padding: $payment-summary-table-col-padding;
+}
+
+.PaymentSummary-totalRow {
+  text-align: left;
+  & > .PaymentSummary-tableColumn {
+    padding: $payment-summary-total-col-padding;
+    border-bottom: $payment-summary-total-border-bottom;
+  }
+}
+
+
+.PaymentSummary-tableColumnRight {
+  text-align: right;
+  white-space: nowrap;
+  font-size: $payment-summary-table-col-right-font-size;
+  font-weight: $payment-summary-table-col-right-font-weight;
+  line-height: $payment-summary-table-col-right-line-height;
+}
+

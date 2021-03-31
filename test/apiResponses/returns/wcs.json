@@ -1,0 +1,29 @@
+{
+  "storeId": 12556,
+  "catalogId": 33057,
+  "langId": -1,
+  "categoryId": "",
+  "userType": "R",
+  "lastCmdName": "TrackRMAStatus",
+  "pageTitle": "Returns Status",
+  "myrefer": "null",
+  "BreadCrumbHomeUrl": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TopCategoriesDisplay?catalogId=33057&storeId=12556&langId=-1",
+  "rmaStatusTitle": "Returns Status",
+  "returnStatusContent": "",
+  "memberId": 1286052,
+  "returns": [
+    {
+      "rmaId": 96507,
+      "storeStartDate": "02 August 2017",
+      "rmaStatus": "AWAITING",
+      "orderId": 1646640,
+      "symbol": "&pound;",
+      "returnDetailURL": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ReturnDetail?storeId=12556&langId=-1&catalogId=33057&orderId=1646640&rmaId=96507&rmaStatus=AWAITING",
+      "returnStatus": "Awaiting Refund",
+      "totalCredit": 31,
+      "orderStatus": "D",
+      "carrierAndTracking": "OrderDetailDisplay",
+      "orderDetailURL": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/OrderDetail?storeId=12556&langId=-1&catalogId=33057&orderId=1646640&orderStatusCode=D&CarrierAndTracking=OrderDetailDisplay"
+    }
+  ]
+}

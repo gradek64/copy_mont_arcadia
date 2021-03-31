@@ -1,0 +1,52 @@
+/** @define ProductDetail; weak */
+
+  .ProductDetail {
+    &-title {
+       font-weight: $pdp-product-title-font-weight;
+       font-style: $pdp-font-style;
+       letter-spacing: $pdp-letter-spacing;
+    }
+    /* remove price styling when TS decide to be consistent with price / label font weight*/
+    & .Price {
+      font-weight: $pdp-price-font-weight;
+      font-family: $pdp-product-size-font-family;
+      font-style: $pdp-font-style;
+      letter-spacing: $pdp-letter-spacing;
+      font-size: 1.143em;
+    }
+  }
+
+@media $min-tablet {
+  .ProductDetail {
+    & .AddToBag {
+      margin-bottom: 10px;
+    }
+
+    &-secondaryButtonGroup  {
+      padding-bottom: 10px;
+
+      & > .AddToBag {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media $min-laptop {
+  .ProductDetail {
+    max-width: 1010px;
+    margin: 0 auto;
+
+    &-mediaColumn {
+      padding-right: 30px;
+    }
+
+    &-media {
+      width: 100%;
+    }
+
+    &-details {
+      padding-left: 30px;
+    }
+  }
+}

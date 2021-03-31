@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderWallis /> @renders in default state 1`] = `
+<div
+  className="HeaderWallis is-sticky"
+>
+  <div
+    className="HeaderWallis-wrapper"
+  >
+    <div
+      className="HeaderWallis-brand"
+    >
+      <Link
+        className="HeaderWallis-brandLink"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/"
+      >
+        <BrandLogo
+          brandName="wallis"
+        />
+      </Link>
+    </div>
+    <div
+      className="HeaderWallis-content"
+    >
+      <div
+        className="HeaderWallis-shipping"
+      >
+        <Connect(ShippingDestination) />
+        <Connect(Espot)
+          identifier="brandHeaderEspotName"
+        />
+      </div>
+      <div
+        className="HeaderWallis-search"
+      >
+        <Connect(SearchBar)
+          isDesktop={true}
+        />
+      </div>
+      <div
+        className="HeaderWallis-account"
+      >
+        <Connect(AccountIcon)
+          myAccountText="My account"
+          popoverMenu={true}
+          signInText="Sign in"
+          signOutText="Sign out"
+        />
+      </div>
+      <div
+        className="HeaderWallis-wishlist"
+      >
+        <Connect(WishlistHeaderLink)
+          label="Wishlist"
+        />
+      </div>
+      <div
+        className="HeaderWallis-shoppingCart"
+      >
+        <Connect(ShoppingCart)
+          label="My bag"
+        />
+      </div>
+    </div>
+    <div
+      className="HeaderWallis-navigation"
+    >
+      <Connect(TopNavMenuBig) />
+    </div>
+  </div>
+</div>
+`;

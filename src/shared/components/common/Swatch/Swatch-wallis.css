@@ -1,0 +1,15 @@
+/** @define Swatch */
+
+.Swatch {
+  &.is-selected {
+    &:before {
+      content: '';
+      border: $plp-product-swatch-button-after-border;
+      z-index:1;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+    }
+  }
+}

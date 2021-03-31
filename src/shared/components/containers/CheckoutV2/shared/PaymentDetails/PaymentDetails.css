@@ -1,0 +1,51 @@
+/** @define PaymentDetails;weak */
+
+.PaymentDetails {
+  border: none; /* reset fieldset border */
+  padding: 0 0;
+
+  &-method {
+    padding: $checkout-content-padding 0;
+  }
+
+  &-logInNotice {
+    margin-bottom: 0;
+  }
+
+  &-preview {
+    margin: 15px 0 0;
+
+    &:first-of-type {
+      margin: 0;
+      font-weight: $checkout-card-number-font-weight;
+    }
+  }
+
+  &-previewCardError {
+    margin: 5px 0 0;
+    color: $colorError;
+    line-height: 16px;
+  }
+
+  &-wrapper {
+    padding-bottom: $checkout-separator-height;
+  }
+
+  &-addressPreview {
+    padding-top: $checkout-content-padding;
+  }
+}
+
+@media $min-laptop {
+  .PaymentDetails {
+    &-wrapper {
+      .AddressForm {
+        width: 60%;
+      }
+
+      .AddressFormDetails {
+        width: 60%;
+      }
+    }
+  }
+}

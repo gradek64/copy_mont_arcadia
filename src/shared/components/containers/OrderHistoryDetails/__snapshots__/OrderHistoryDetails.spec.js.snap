@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryDetails /> @renders in default state 1`] = `
+<section
+  className="OrderHistoryDetails"
+>
+  <AccountHeader
+    label="Back to My Orders"
+    link="/my-account/order-history"
+    title="Order details"
+  />
+  <div
+    className="MyAccount-wrapper"
+  >
+    <HistoryDetailsContainer
+      allowedReturnOrderCountry="United Kingdom"
+      isFeatureOrderReturnsEnabled={false}
+      isFeatureTrackMyOrdersEnabled={false}
+      orderDetails={Object {}}
+      orderReturnUrl={null}
+      paramId={10}
+    />
+  </div>
+</section>
+`;
+
+exports[`<OrderHistoryDetails /> @renders with orderDetails 1`] = `
+<section
+  className="OrderHistoryDetails"
+>
+  <AccountHeader
+    label="Back to My Orders"
+    link="/my-account/order-history"
+    title="Order details"
+  />
+  <div
+    className="MyAccount-wrapper"
+  >
+    <HistoryDetailsContainer
+      allowedReturnOrderCountry="United Kingdom"
+      isFeatureOrderReturnsEnabled={false}
+      isFeatureTrackMyOrdersEnabled={false}
+      orderDetails={
+        Object {
+          "orderId": 234,
+        }
+      }
+      orderReturnUrl={null}
+      paramId={10}
+    />
+  </div>
+</section>
+`;

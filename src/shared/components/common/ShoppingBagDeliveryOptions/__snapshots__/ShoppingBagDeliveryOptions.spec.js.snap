@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShoppingBagDeliveryOptions /> @renders in default state 1`] = `
+<div>
+  <div
+    className="ShoppingBagDeliveryOptions-select"
+  >
+    <Connect(Select)
+      className="ShoppingBagDeliveryOptions-selectMenu"
+      name="miniBagDeliveryType"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "disabled": false,
+            "label": "Standard Delivery £4.00",
+            "value": 26504,
+          },
+          Object {
+            "disabled": false,
+            "label": "Next or Named Day Delivery £6.00",
+            "value": 28002,
+          },
+          Object {
+            "disabled": false,
+            "label": "Free Collect From Store Standard £0.00",
+            "value": 45019,
+          },
+          Object {
+            "disabled": false,
+            "label": "Collect From Store Express £3.00",
+            "value": 45020,
+          },
+          Object {
+            "disabled": false,
+            "label": "Collect from ParcelShop £4.00",
+            "value": 50517,
+          },
+        ]
+      }
+      value="26504"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ShoppingBagDeliveryOptions /> @renders should display collect today when feature CFSi is true 1`] = `
+<div>
+  <div
+    className="ShoppingBagDeliveryOptions-select"
+  >
+    <Connect(Select)
+      className="ShoppingBagDeliveryOptions-selectMenu"
+      name="miniBagDeliveryType"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "disabled": false,
+            "label": "Standard Delivery £4.00",
+            "value": 26504,
+          },
+          Object {
+            "disabled": false,
+            "label": "Next or Named Day Delivery £6.00",
+            "value": 28002,
+          },
+          Object {
+            "disabled": false,
+            "label": "Free Collect From Store Standard £0.00",
+            "value": 45019,
+          },
+          Object {
+            "disabled": false,
+            "label": "Collect From Store Express £3.00",
+            "value": 45020,
+          },
+          Object {
+            "disabled": false,
+            "label": "Collect from ParcelShop £4.00",
+            "value": 50517,
+          },
+          Object {
+            "disabled": false,
+            "label": "Collect From Store Today £3.00",
+            "value": 51017,
+          },
+        ]
+      }
+      value="26504"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ShoppingBagDeliveryOptions /> @renders should not display ParcelShop option when PUDO feature is disabled 1`] = `
+<div>
+  <div
+    className="ShoppingBagDeliveryOptions-select"
+  >
+    <Connect(Select)
+      className="ShoppingBagDeliveryOptions-selectMenu"
+      name="miniBagDeliveryType"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "disabled": false,
+            "label": "Standard Delivery £4.00",
+            "value": 26504,
+          },
+          Object {
+            "disabled": false,
+            "label": "Next or Named Day Delivery £6.00",
+            "value": 28002,
+          },
+          Object {
+            "disabled": false,
+            "label": "Free Collect From Store Standard £0.00",
+            "value": 45019,
+          },
+          Object {
+            "disabled": false,
+            "label": "Collect From Store Express £3.00",
+            "value": 45020,
+          },
+        ]
+      }
+      value="26504"
+    />
+  </div>
+</div>
+`;

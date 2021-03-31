@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductViews/> @renders in default state 1`] = `
+<div
+  className="ProductViews"
+>
+  <button
+    className="Button ProductViews-button "
+    onClick={[Function]}
+    type="button"
+  >
+    product
+  </button>
+  <button
+    aria-pressed={true}
+    className="Button ProductViews-button is-active"
+    onClick={[Function]}
+    type="button"
+  >
+    outfit
+  </button>
+</div>
+`;
+
+exports[`<ProductViews/> @renders outfit selected 1`] = `
+<div
+  className="ProductViews"
+>
+  <button
+    aria-pressed={false}
+    className="Button ProductViews-button "
+    onClick={[Function]}
+    type="button"
+  >
+    product
+  </button>
+  <button
+    aria-pressed={true}
+    className="Button ProductViews-button is-active"
+    onClick={[Function]}
+    type="button"
+  >
+    outfit
+  </button>
+</div>
+`;
+
+exports[`<ProductViews/> @renders product selected 1`] = `
+<div
+  className="ProductViews"
+>
+  <button
+    aria-pressed={true}
+    className="Button ProductViews-button is-active"
+    onClick={[Function]}
+    type="button"
+  >
+    product
+  </button>
+  <button
+    aria-pressed={false}
+    className="Button ProductViews-button "
+    onClick={[Function]}
+    type="button"
+  >
+    outfit
+  </button>
+</div>
+`;

@@ -1,0 +1,613 @@
+{
+  "productId": 27127034,
+  "grouping": "BUNDLE_03L01LKHA03L02LKHA",
+  "lineNumber": "BUNDLE_03L01LKHA03L02LKHA",
+  "name": "Cross Detail Bikini Set",
+  "description": "Opt for a sleek style at the beach in this bikini in a chic khaki, with a bandeau top with tie-detail to the back and low-rise bottoms. 77% Polyamide, 23% Elastane. Machine wash",
+  "unitPrice": "15.00",
+  "stockEmail": false,
+  "storeDelivery": false,
+  "stockThreshold": 10,
+  "assets": [
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_Thumb_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_Small_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_2col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_Zoom_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_Thumb_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_Small_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_2col_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_03L01LKHA03L02LKHA_Zoom_M_1.jpg"
+    }
+  ],
+  "items": [
+    {
+      "sku": "602016001041102",
+      "size": "4",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001041103",
+      "size": "6",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001041104",
+      "size": "8",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001041105",
+      "size": "10",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001041106",
+      "size": "12",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001041107",
+      "size": "14",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001041108",
+      "size": "16",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047750",
+      "size": "4",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047751",
+      "size": "6",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047752",
+      "size": "8",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047753",
+      "size": "10",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047754",
+      "size": "12",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047755",
+      "size": "14",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602016001047756",
+      "size": "16",
+      "quantity": 10,
+      "selected": false
+    }
+  ],
+  "bundleProducts": [
+    {
+      "productId": 26934187,
+      "grouping": "TS03L01LKHA",
+      "lineNumber": "03L01LKHA",
+      "name": "Cross Front Bandeau",
+      "description": "",
+      "wasWasPrice": "18.00",
+      "unitPrice": "10.00",
+      "stockEmail": false,
+      "storeDelivery": false,
+      "stockThreshold": 10,
+      "wcsColourKey": "144776324",
+      "wcsSizeKey": "144776584",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_Zoom_F_1.jpg"
+        }
+      ],
+      "items": [
+        {
+          "sku": "602016001041102",
+          "size": "4",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001041103",
+          "size": "6",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001041104",
+          "size": "8",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001041105",
+          "size": "10",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001041106",
+          "size": "12",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001041107",
+          "size": "14",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001041108",
+          "size": "16",
+          "quantity": 10,
+          "selected": false
+        }
+      ],
+      "bundleProducts": [],
+      "attributes": {
+        "ECMC_PROD_SIZE_GUIDE_1": "Swimwear",
+        "b_hasImage": "N",
+        "CEThumbnailSuffixes": "",
+        "b_has360": "N",
+        "EmailBackInStock": "N",
+        "BundleType": "Flexible",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "",
+        "CE3BThumbnailSuffixes": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "ThresholdMessage": "",
+        "IFSeason": "SS16",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_COLOUR_1": "",
+        "StyleCode": "0",
+        "COLOUR_CODE": "",
+        "STYLE_CODE": "",
+        "NotifyMe": "N",
+        "countryExclusion": "",
+        "SizeFit": "",
+        "ProductDefaultCopy": "",
+        "shopTheOutfitBundleCode": ""
+      },
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": true
+    },
+    {
+      "productId": 27057305,
+      "grouping": "TS03L02LKHA",
+      "lineNumber": "03L02LKHA",
+      "name": "Cross Side Bikini Bottoms",
+      "description": "",
+      "wasWasPrice": "14.00",
+      "unitPrice": "5.00",
+      "stockEmail": false,
+      "storeDelivery": false,
+      "stockThreshold": 10,
+      "wcsColourKey": "145921076",
+      "wcsSizeKey": "145920918",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_Zoom_F_1.jpg"
+        }
+      ],
+      "items": [
+        {
+          "sku": "602016001047750",
+          "size": "4",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001047751",
+          "size": "6",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001047752",
+          "size": "8",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001047753",
+          "size": "10",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001047754",
+          "size": "12",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001047755",
+          "size": "14",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602016001047756",
+          "size": "16",
+          "quantity": 10,
+          "selected": false
+        }
+      ],
+      "bundleProducts": [],
+      "attributes": {
+        "ECMC_PROD_SIZE_GUIDE_1": "Swimwear",
+        "b_hasImage": "N",
+        "CEThumbnailSuffixes": "",
+        "b_has360": "N",
+        "EmailBackInStock": "N",
+        "BundleType": "Flexible",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "",
+        "CE3BThumbnailSuffixes": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "ThresholdMessage": "",
+        "IFSeason": "SS16",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_COLOUR_1": "",
+        "StyleCode": "0",
+        "COLOUR_CODE": "",
+        "STYLE_CODE": "",
+        "NotifyMe": "N",
+        "countryExclusion": "",
+        "SizeFit": "",
+        "ProductDefaultCopy": "",
+        "shopTheOutfitBundleCode": ""
+      },
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": true
+    }
+  ],
+  "attributes": {},
+  "colourSwatches": [],
+  "tpmLinks": [],
+  "bundleSlots": [
+    {
+      "slotNumber": 1,
+      "products": [
+        {
+          "productId": 26934187,
+          "grouping": "TS03L01LKHA",
+          "lineNumber": "03L01LKHA",
+          "name": "Cross Front Bandeau",
+          "description": "",
+          "wasWasPrice": "18.00",
+          "unitPrice": "10.00",
+          "stockEmail": false,
+          "storeDelivery": false,
+          "stockThreshold": 10,
+          "wcsColourKey": "144776324",
+          "wcsSizeKey": "144776584",
+          "assets": [
+            {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_Thumb_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_Small_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_2col_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L01LKHA_Zoom_F_1.jpg"
+            }
+          ],
+          "items": [
+            {
+              "sku": "602016001041102",
+              "size": "4",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001041103",
+              "size": "6",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001041104",
+              "size": "8",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001041105",
+              "size": "10",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001041106",
+              "size": "12",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001041107",
+              "size": "14",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001041108",
+              "size": "16",
+              "quantity": 10,
+              "selected": false
+            }
+          ],
+          "bundleProducts": [],
+          "attributes": {
+            "ECMC_PROD_SIZE_GUIDE_1": "Swimwear",
+            "b_hasImage": "N",
+            "CEThumbnailSuffixes": "",
+            "b_has360": "N",
+            "EmailBackInStock": "N",
+            "BundleType": "Flexible",
+            "b_hasVideo": "N",
+            "STORE_DELIVERY": "true",
+            "hasVideo": "N",
+            "Department": "",
+            "CE3BThumbnailSuffixes": "",
+            "has360": "N",
+            "SearchKeywords": "",
+            "ThresholdMessage": "",
+            "IFSeason": "SS16",
+            "thumbnailImageSuffixes": "_",
+            "ECMC_PROD_COLOUR_1": "",
+            "StyleCode": "0",
+            "COLOUR_CODE": "",
+            "STYLE_CODE": "",
+            "NotifyMe": "N",
+            "countryExclusion": "",
+            "SizeFit": "",
+            "ProductDefaultCopy": "",
+            "shopTheOutfitBundleCode": ""
+          },
+          "colourSwatches": [],
+          "tpmLinks": [],
+          "bundleSlots": [],
+          "ageVerificationRequired": false,
+          "isBundleOrOutfit": true
+        }
+      ]
+    },
+    {
+      "slotNumber": 2,
+      "products": [
+        {
+          "productId": 27057305,
+          "grouping": "TS03L02LKHA",
+          "lineNumber": "03L02LKHA",
+          "name": "Cross Side Bikini Bottoms",
+          "description": "",
+          "wasWasPrice": "14.00",
+          "unitPrice": "5.00",
+          "stockEmail": false,
+          "storeDelivery": false,
+          "stockThreshold": 10,
+          "wcsColourKey": "145921076",
+          "wcsSizeKey": "145920918",
+          "assets": [
+            {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_Thumb_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_Small_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_2col_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03L02LKHA_Zoom_F_1.jpg"
+            }
+          ],
+          "items": [
+            {
+              "sku": "602016001047750",
+              "size": "4",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001047751",
+              "size": "6",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001047752",
+              "size": "8",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001047753",
+              "size": "10",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001047754",
+              "size": "12",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001047755",
+              "size": "14",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602016001047756",
+              "size": "16",
+              "quantity": 10,
+              "selected": false
+            }
+          ],
+          "bundleProducts": [],
+          "attributes": {
+            "ECMC_PROD_SIZE_GUIDE_1": "Swimwear",
+            "b_hasImage": "N",
+            "CEThumbnailSuffixes": "",
+            "b_has360": "N",
+            "EmailBackInStock": "N",
+            "BundleType": "Flexible",
+            "b_hasVideo": "N",
+            "STORE_DELIVERY": "true",
+            "hasVideo": "N",
+            "Department": "",
+            "CE3BThumbnailSuffixes": "",
+            "has360": "N",
+            "SearchKeywords": "",
+            "ThresholdMessage": "",
+            "IFSeason": "SS16",
+            "thumbnailImageSuffixes": "_",
+            "ECMC_PROD_COLOUR_1": "",
+            "StyleCode": "0",
+            "COLOUR_CODE": "",
+            "STYLE_CODE": "",
+            "NotifyMe": "N",
+            "countryExclusion": "",
+            "SizeFit": "",
+            "ProductDefaultCopy": "",
+            "shopTheOutfitBundleCode": ""
+          },
+          "colourSwatches": [],
+          "tpmLinks": [],
+          "bundleSlots": [],
+          "ageVerificationRequired": false,
+          "isBundleOrOutfit": true
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "http://ts.stage.arcadiagroup.ltd.uk/en/tsuk/product/cross-detail-bikini-set-6181898",
+  "ageVerificationRequired": false,
+  "isBundleOrOutfit": true,
+  "bundleType": "Flexible",
+  "version": "1.6"
+}

@@ -1,0 +1,10 @@
+/** @define Image */
+
+.Image {
+  &--width100 {
+    width: 100%;
+  }
+  &--height100 {
+    width: 100%;
+  }
+}

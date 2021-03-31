@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryOptions /> @render should pass options to date select buttons 1`] = `
+<Component
+  deliveryOptions={
+    Array [
+      Object {
+        "dateText": "07 Sep",
+        "dayText": "Thu",
+        "price": "6.00",
+        "selected": true,
+        "shipModeId": 28005,
+      },
+      Object {
+        "dateText": "08 Sep",
+        "dayText": "Fri",
+        "price": "6.00",
+        "selected": false,
+        "shipModeId": 28006,
+      },
+    ]
+  }
+  id="qubit-delivery-calender-view"
+  onChange={[Function]}
+>
+  <div>
+    <div
+      className="undefined-dayButtonContainer"
+      key="Thu"
+    >
+      <span
+        className="undefined-dayText"
+      >
+        Thu
+      </span>
+      <button
+        className="undefined-dateButton undefined-dateButton--selected"
+        name="home_standard"
+        onClick={[Function]}
+        value={28005}
+      >
+        07
+      </button>
+      <span
+        className="undefined-monthText"
+      >
+        Sep
+      </span>
+    </div>
+    <div
+      className="undefined-dayButtonContainer"
+      key="Fri"
+    >
+      <span
+        className="undefined-dayText undefined-dayText--notSelected"
+      >
+        Fri
+      </span>
+      <button
+        className="undefined-dateButton"
+        name="home_standard"
+        onClick={[Function]}
+        value={28006}
+      >
+        08
+      </button>
+      <span
+        className="undefined-monthText undefined-monthText--notSelected"
+      >
+        Sep
+      </span>
+    </div>
+  </div>
+</Component>
+`;
+
+exports[`<DeliveryOptions /> @render should render default state 1`] = `""`;

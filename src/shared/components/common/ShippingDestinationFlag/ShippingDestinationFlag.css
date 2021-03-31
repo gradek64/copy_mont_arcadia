@@ -1,0 +1,64 @@
+/** @define ShippingDestination; weak */
+
+.ShippingDestination {
+    height: 21px;
+  
+    & > * {
+      display: inline-block;
+      margin-left: 5px;
+      line-height: 21px;
+      font-size: $header-big-shipping-destination-currency-font-size;
+  
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  
+    &-country {
+      margin-left: 5px;
+    }
+  
+    &-currencySymbol {
+      font-weight: $header-big-shipping-destination-font-weight;
+      color: $header-big-shipping-destination-color;
+      letter-spacing: $header-big-shipping-destination-letter-spacing;
+  
+      &--bracketed {
+        &:before {
+          content: '(';
+        }
+  
+        &:after {
+          content: ')';
+        }
+      }
+    }
+  
+    &-flag--default {
+      display: inline-block;
+      width: 30px;
+      background: url('public/common/images/flag_default.svg') no-repeat transparent;
+      vertical-align: bottom;
+    }
+  
+    &--dorothyPerkinsHeader {
+      &:after {
+        content: '';
+        display: inline-block;
+        margin-left: 5px;
+        border-top: 7px solid #797979;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+      }
+  
+      & .ShippingDestination-country {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  @media $min-tablet {
+    .ShippingDestination {
+      min-width: 50px;
+    }
+  }

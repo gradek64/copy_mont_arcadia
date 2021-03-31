@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SavePaymentDetailsCheckbox @render should show a checked checkbox when savePaymentDetailsEnabled=true 1`] = `
+<div
+  className="SavePaymentDetailsCheckbox"
+>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": true,
+      }
+    }
+    className="SavePaymentDetails-checkbox"
+    name="SavePaymentDetails"
+    onChange={[Function]}
+  >
+    <span />
+  </Connect(Checkbox)>
+</div>
+`;
+
+exports[`SavePaymentDetailsCheckbox @render should show an unchecked checkbox when savePaymentDetailsEnabled=false 1`] = `
+<div
+  className="SavePaymentDetailsCheckbox"
+>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="SavePaymentDetails-checkbox"
+    name="SavePaymentDetails"
+    onChange={[Function]}
+  >
+    <span />
+  </Connect(Checkbox)>
+</div>
+`;

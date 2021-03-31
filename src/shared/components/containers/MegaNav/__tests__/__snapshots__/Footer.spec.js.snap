@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render with two footer columns 1`] = `
+<div
+  className="MegaNav-subNav MegaNav-subNav--footer"
+>
+  <Column
+    category={
+      Object {
+        "columns": Array [
+          Object {
+            "subcategories": Object {
+              "0": Object {
+                "newIn": Array [
+                  Object {
+                    "image": Object {
+                      "span": "footer",
+                    },
+                  },
+                  Object {
+                    "label": "something to buy",
+                  },
+                ],
+              },
+            },
+          },
+          Object {
+            "subcategories": Object {
+              "0": Object {
+                "0": Array [
+                  Object {
+                    "image": Object {
+                      "span": 1,
+                    },
+                  },
+                  Object {
+                    "label": "red jeans",
+                  },
+                ],
+                "jeans": Array [
+                  Object {
+                    "image": Object {
+                      "span": "footer",
+                    },
+                  },
+                  Object {
+                    "label": "blue jeans",
+                  },
+                ],
+              },
+            },
+          },
+          Object {
+            "subcategories": Object {
+              "0": Object {
+                "jeans": Array [
+                  Object {
+                    "image": Object {
+                      "url": "",
+                    },
+                  },
+                ],
+                "socks": Array [
+                  Object {
+                    "label": "winter socks",
+                  },
+                ],
+              },
+            },
+          },
+        ],
+        "url": "http://www.topman.com",
+      }
+    }
+    column={
+      Object {
+        "subcategories": Object {
+          "0": Object {
+            "": Array [
+              Object {
+                "image": Object {
+                  "span": 2,
+                },
+              },
+            ],
+          },
+        },
+      }
+    }
+    hideMegaNav={[Function]}
+    isActive={true}
+    key="column_0"
+  />
+  <Column
+    category={
+      Object {
+        "columns": Array [
+          Object {
+            "subcategories": Object {
+              "0": Object {
+                "newIn": Array [
+                  Object {
+                    "image": Object {
+                      "span": "footer",
+                    },
+                  },
+                  Object {
+                    "label": "something to buy",
+                  },
+                ],
+              },
+            },
+          },
+          Object {
+            "subcategories": Object {
+              "0": Object {
+                "0": Array [
+                  Object {
+                    "image": Object {
+                      "span": 1,
+                    },
+                  },
+                  Object {
+                    "label": "red jeans",
+                  },
+                ],
+                "jeans": Array [
+                  Object {
+                    "image": Object {
+                      "span": "footer",
+                    },
+                  },
+                  Object {
+                    "label": "blue jeans",
+                  },
+                ],
+              },
+            },
+          },
+          Object {
+            "subcategories": Object {
+              "0": Object {
+                "jeans": Array [
+                  Object {
+                    "image": Object {
+                      "url": "",
+                    },
+                  },
+                ],
+                "socks": Array [
+                  Object {
+                    "label": "winter socks",
+                  },
+                ],
+              },
+            },
+          },
+        ],
+        "url": "http://www.topman.com",
+      }
+    }
+    column={
+      Object {
+        "subcategories": Object {
+          "0": Object {
+            "": Array [
+              Object {
+                "image": Object {
+                  "span": 2,
+                },
+              },
+            ],
+          },
+        },
+      }
+    }
+    hideMegaNav={[Function]}
+    isActive={true}
+    key="column_1"
+  />
+</div>
+`;

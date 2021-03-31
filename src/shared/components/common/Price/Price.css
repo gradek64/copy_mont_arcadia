@@ -1,0 +1,7 @@
+/** @define Price  */
+
+.Price {
+  display: inline-block;
+  text-decoration: inherit;
+  font-weight: $plp-product-unit-price-font-weight-default;
+}

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@renders renders in default state 1`] = `
+<div
+  className="TopNavMenu hideinapp"
+  tabIndex="0"
+>
+  <div
+    className="TopNavMenu-parentListBlock"
+    key="top-nav-default"
+  >
+    <TopSection />
+    <div
+      className="TopNavMenu-shopByCategory"
+    >
+      <div
+        className="TopNavMenu-groupHeader"
+      >
+        Shop By Category
+      </div>
+      <button
+        className="TopNavMenu-homeButton"
+        onClick={[Function]}
+      >
+        <ListItemLink
+          className="ListItemLink ListItemLink-homeLink is-active"
+        >
+          <span
+            className="TopNavMenu-home"
+          />
+          Home
+        </ListItemLink>
+      </button>
+      <button
+        className="TopNavMenu-popCategoryButton"
+        onClick={[Function]}
+      >
+        <ListItemLink
+          className="ListItemLink ListItemLink-backLabel is-active is-centered"
+        >
+          <span
+            className="TopNavMenu-arrowBack"
+          />
+          <a>
+            testCategory
+          </a>
+        </ListItemLink>
+      </button>
+      <Connect(Categories)
+        type="productCategories"
+      />
+    </div>
+    <div
+      className="TopNavMenu-userDetails"
+    >
+      <div
+        className="TopNavMenu-groupHeader"
+      >
+        Your Details
+      </div>
+      <Connect(Categories)
+        type="userDetailsGroup"
+      />
+    </div>
+    <div
+      className="TopNavMenu-helpAndInfo"
+    >
+      <div
+        className="TopNavMenu-groupHeader"
+      >
+        Help & Information
+      </div>
+      <Connect(Categories)
+        type="helpAndInfoGroup"
+      />
+    </div>
+    <div
+      className="TopNavMenu-socialLinks"
+    >
+      <div
+        className="TopNavMenu-groupHeader"
+      >
+        Follow Us
+      </div>
+      <Connect(SandBox)
+        cmsPageName="navSocial"
+        contentType="espot"
+        isInPageContent={true}
+        shouldGetContentOnFirstLoad={true}
+      />
+    </div>
+    <div
+      className="TopNavMenu-close"
+    >
+      Close menu
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+/** @define WishlistLimitInfo */
+
+.WishlistLimitInfo {
+  &-container {
+    width: 100%;
+    max-width: 404px;
+    padding: 9px 14px 14px 14px;
+    border: 1px solid #000;
+    margin: 0 auto 40px;
+    display: block;
+  }
+
+  &-outerWrapper {
+    margin: 10px 15px;
+
+    &--withMarginTop {
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+/** @define StoreDeliveryContainer; weak */
+
+.StoreDeliveryContainer {
+  &-title {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  &-titleContainer {
+    position: relative;
+  }
+
+  &-desktopTitle {
+    font-size: 16px;
+  }
+
+  &-changeStoreCTA {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #363636;
+    padding-bottom: 4px;
+    height: 23px;
+  }
+
+  &-address {
+    padding: $checkout-content-padding 0;
+  }
+
+  &-storeName {
+    margin: 0 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &-addressLine {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  &-changeStoreLinkContainer {
+    margin-top: 20px;
+  }
+
+  &-changeStoreBtnContainer {
+    margin-top: 15px;
+  }
+
+  &-changeStoreBtn {
+    width: auto;
+    padding: 0 20px;
+  }
+  &-yourDetailsContainer {
+    margin-top: 30px;
+  }
+}
+
+@media $min-laptop {
+  .StoreDeliveryContainer {
+    &-yourDetailsContainer {
+      width: 60%;
+    }
+  }
+}

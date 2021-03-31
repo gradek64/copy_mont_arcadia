@@ -1,0 +1,45 @@
+/** @define SocialProofCarouselOverlay */
+
+.SocialProofCarouselOverlay {
+  width: 210px;
+  bottom: 3px;
+
+  &-title {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  &-text {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 5px 70px 4px 0;
+    width: 190px;
+  }
+
+  &-title,
+  &-text {
+    color: #ffffff;
+  }
+
+  &-container {
+    padding: 5px 10px;
+    background: rgba(127, 164, 202, 0.9);
+  }
+
+  &-close {
+    width: 12px;
+    top: 6px;
+    right: 6px;
+    background: url('/assets/topman/images/trending_message_close.png') no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+@media $min-tablet {
+  .SocialProofCarouselOverlay {
+      top: 30px;
+      right: -20px;
+      left: inherit;
+      bottom: inherit;
+  }
+}

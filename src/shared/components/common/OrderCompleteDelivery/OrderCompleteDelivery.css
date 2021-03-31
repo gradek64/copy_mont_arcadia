@@ -1,0 +1,149 @@
+/** @define OrderCompleteDelivery */
+
+.OrderCompleteDelivery {
+  &-error {
+    text-align: $order-complete-error-text-align;
+
+    & .OrderCompleteDelivery-details {
+      margin-top: 0;
+      margin-bottom: $order-complete-error-details-margin-bottom;
+      color: $order-complete-error-details-color;
+    }
+  }
+
+  &-collectFrom {
+    margin: 0;
+    font-size: $order-complete-collect-from-font-size;
+    font-family: $order-complete-collect-from-font-family;
+    font-weight: $order-complete-collect-from-font-weight;
+    letter-spacing: $order-complete-collect-from-letter-spacing;
+  }
+  &-collectWithin {
+    margin: 0;
+    color: $md-dk-gray;
+  }
+  &-confirmationMail, &-ddpSubscription {
+    display: block;
+    color: $order-complete-confirmation-mail-text-color;
+    font-size:  $order-complete-confirmation-mail-font-size;
+    font-weight: $order-complete-confirmation-mail-font-weight;
+    margin-top: $order-complete-confirmation-mail-margin-top;
+  }
+  &-guestUserEmail {
+    color: $order-complete-confirmation-mail-text-color;
+    font-size:  $order-complete-confirmation-mail-font-size;
+    font-weight: $order-complete-confirmation-guestUserMail-font-weight;
+  }
+  &-estimatedDelivery {
+    margin: 3px 0 5px 0;
+    color: $order-complete-estimated-delivery-text-color;
+    font-size: $order-complete-estimated-delivery-font-size;
+    font-weight: $order-complete-estimated-delivery-font-weight;
+  }
+  &-fields {
+    margin: $order-complete-fields-margin;
+  }
+  &-addressHeader {
+    font-size: $order-complete-address-header-font-size;
+    font-weight: $order-complete-address-header-font-weight;
+  }
+  &-address {
+    display: flex;
+    line-height: $order-complete-address-line-height;
+    letter-spacing: $order-complete-address-letter-spacing;
+    color: $order-complete-address-color;
+    font-size: $order-complete-address-font-size;
+    font-weight: $order-complete-address-font-weight;
+  }
+  &-field {
+    font-family: $order-complete-field-font-family;
+    font-size: $order-complete-field-font-size;
+    font-weight: $order-complete-field-font-weight;
+    line-height: $order-complete-field-line-height;
+    letter-spacing: $order-complete-field-letter-spacing;
+    &--delivery {
+      text-transform: uppercase;
+    }
+  }
+  &-orderNumber {
+    color: $order-complete-order-number-text-color;
+    font-size: $order-complete-order-number-font-size;
+    font-weight: $order-complete-order-number-font-weight;
+    font-family: $order-complete-order-number-font-family;
+    letter-spacing: $order-complete-order-number-letter-spacing;
+  }
+  &-orderDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: $order-complete-details-container-max-width;
+  }
+  &-orderDetailsHeader {
+    display: flex;
+    flex-direction: column;
+    margin: $order-complete-header-margin;
+    background-color: $order-complete-header-background-color;
+    border-bottom: $order-complete-header-border-bottom-width solid $order-complete-header-border-bottom-color;
+    &--item {
+      color: $order-complete-header-item-text-color;
+      margin-top: $order-complete-header-item-margin-top;
+      font-size: $order-complete-header-item-font-size;
+      font-weight: $order-complete-header-item-font-weight;
+      line-height: $order-complete-header-item-line-height;
+      letter-spacing: $order-complete-header-item-letter-spacing;
+      padding-left: $order-complete-header-item-padding-left;
+    }
+  }
+  &-orderDetails {
+    display: flex;
+    flex-direction: column;
+    border-top: $order-complete-border-top-width solid $order-complete-border-top-color;
+    border-right: $order-complete-border-right-width solid $order-complete-border-right-color;
+    border-bottom: $order-complete-border-bottom-width solid $order-complete-border-bottom-color;
+    border-left: $order-complete-border-left-width solid $order-complete-border-left-color;
+  }
+  &-deliveryIconContainer {
+    padding: 10px 20px 0 15px;
+    display: $order-complete-delivery-icon-display
+  }
+  &-deliveryIcon {
+    width: $checkout-delivery-option-icon-width;
+  }
+  &-storeContainer {
+    padding: 0;
+  }
+  &-openingHoursTitle {
+    padding-top: 20px;
+    font-size: $order-complete-opening-title-font-size;
+    font-weight: $order-complete-opening-title-font-weight;
+    font-family: $order-complete-opening-title-font-family;
+  }
+  &-openingHoursRow {
+    font-size: $order-complete-opening-times-font-size;
+    font-weight: $order-complete-opening-times-font-weight;
+    font-family: $order-complete-opening-times-font-family;
+  }
+}
+
+@media $min-tablet {
+  .OrderCompleteDelivery {
+    &-addressContainer {
+      border: none;
+      padding: $order-complete-address-container-padding;
+      margin-bottom: 15px;
+    }
+    &-addressHeader {
+      text-transform: none;
+    }
+  }
+}
+
+@media $min-laptop {
+  .OrderCompleteDelivery {
+    &-orderDetailsContainer {
+      flex-direction: row;
+    }
+    &-openingHoursTitle {
+      padding-bottom: 10px;
+    }
+  }
+}

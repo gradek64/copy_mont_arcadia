@@ -1,0 +1,6 @@
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  #BVRRDisplayContentHeaderID.BVRRDisplayContentHeader {
+    top: 75px !important;
+  }
+}

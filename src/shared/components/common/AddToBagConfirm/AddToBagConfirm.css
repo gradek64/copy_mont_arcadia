@@ -1,0 +1,18 @@
+/** @define AddToBagConfirm */
+
+.AddToBagConfirm {
+  display: flex;
+  margin-bottom: $cta-gutter-top;
+  margin-right: -$cta-gutter;
+
+  &-goToCheckout {
+    background: $add-to-bag-checkout-background-color;
+    border: $cta-border-width solid $add-to-bag-checkout-border-color;
+    color: $add-to-bag-checkout-font-color;
+    &:active {
+      background: $add-to-bag-checkout-hover-background-color;
+      border: $cta-border-width solid $add-to-bag-checkout-hover-border-color;
+      color: $add-to-bag-checkout-hover-font-color;
+    }
+  }
+}

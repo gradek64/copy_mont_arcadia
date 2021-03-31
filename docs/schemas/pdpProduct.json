@@ -1,0 +1,446 @@
+{
+  "type": "object",
+  "properties": {
+    "CEProductEspotCol1Pos1": {
+      "type": "string",
+      "example": "mobilePDPESpotPos2"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assetType": {
+            "type": "string",
+            "enum": ["IMAGE_SMALL", "IMAGE_THUMB", "IMAGE_NORMAL", "IMAGE_LARGE"]
+          },
+          "index": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string",
+            "description": "The URL to the asset"
+          }
+        }
+      }
+    },
+    "productDataQuantity": {
+      "type": "object",
+      "properties": {
+        "inventoryPositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "catentryId": {
+                "type": "string"
+              },
+              "inventorys": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "cutofftime": {
+                      "$ref": "#/definitions/24HrTimeString"
+                    },
+                    "expressdates": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/definitions/ISODate"
+                      }
+                    },
+                    "quantity": {
+                      "type": "number"
+                    },
+                    "ffmcenterId": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "invavls": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "cutofftime": {
+                      "$ref": "#/definitions/24HrTimeString"
+                    },
+                    "expressdates": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/definitions/ISODate"
+                      }
+                    },
+                    "quantity": {
+                      "type": "number"
+                    },
+                    "stlocIdentifier": {
+                      "type": "string",
+                      "enum": [
+                        "STANDARD",
+                        "EXPRESS",
+                        "STANDARD-INTERNATIONAL",
+                        "EXPRESS-INTERNATIONAL"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "quantities": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "colourAttributes": {
+          "type": "object",
+          "properties": {
+            "attrName": {
+              "type": "string"
+            },
+            "attrValue": {
+              "type": "string"
+            }
+          }
+        },
+        "SKUs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "skuid": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              },
+              "availableinventory": {
+                "type": "string"
+              },
+              "partnumber": {
+                "type": "string"
+              },
+              "attrName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "ageVerificationRequired": {
+      "type": "boolean",
+      "example": false
+    },
+    "attributes": {
+      "type": "object",
+      "properties": {
+        "CE3BThumbnailSuffixes": {
+          "type": "string",
+          "example": ""
+        },
+        "CE3ThumbnailSuffixes": {
+          "type": "string",
+          "example": ""
+        },
+        "COLOUR_CODE": {
+          "type": "string",
+          "example": "000776"
+        },
+        "Department": {
+          "type": "string",
+          "example": "62"
+        },
+        "ECMC_PROD_COLOUR_1": {
+          "type": "string",
+          "example": "GREY"
+        },
+        "ECMC_PROD_PRODUCT_TYPE_1": {
+          "type": "string",
+          "example": "Clothing"
+        },
+        "ECMC_PROD_SIZE_GUIDE_1": {
+          "type": "string",
+          "example": "Brands"
+        },
+        "EmailBackInStock": {
+          "type": "string",
+          "example": "N"
+        },
+        "IFSeason": {
+          "type": "string",
+          "example": "AW15"
+        },
+        "NotifyMe": {
+          "type": "string",
+          "example": "N"
+        },
+        "ProductDefaultCopy": {
+          "type": "string",
+          "example": ""
+        },
+        "STORE_DELIVERY": {
+          "type": "string",
+          "example": "true"
+        },
+        "STYLE_CODE": {
+          "type": "string",
+          "example": "NO_SWATCH_4076760"
+        },
+        "SearchKeywords": {
+          "type": "string",
+          "example": ""
+        },
+        "SizeFit": {
+          "type": "string",
+          "example": ""
+        },
+        "StyleCode": {
+          "type": "string",
+          "example": "0"
+        },
+        "ThresholdMessage": {
+          "type": "string",
+          "example": ""
+        },
+        "b_has360": {
+          "type": "string",
+          "example": "N"
+        },
+        "b_hasImage": {
+          "type": "string",
+          "example": "N"
+        },
+        "b_hasVideo": {
+          "type": "string",
+          "example": "N"
+        },
+        "b_thumbnailImageSuffixes": {
+          "type": "string",
+          "example": ""
+        },
+        "countryExclusion": {
+          "type": "string",
+          "example": ""
+        },
+        "ecmcCreatedTimestamp": {
+          "type": "string",
+          "example": "2015-10-09-09.01.29.000707"
+        },
+        "ecmcUpdatedTimestamp": {
+          "type": "string",
+          "example": "2015-10-16-07.26.50.000751"
+        },
+        "has360": {
+          "type": "string",
+          "example": "N"
+        },
+        "hasVideo": {
+          "type": "string",
+          "example": "N"
+        },
+        "shopTheOutfitBundleCode": {
+          "type": "string",
+          "example": ""
+        },
+        "thumbnailImageSuffixes": {
+          "type": "string",
+          "example": "_|_2"
+        }
+      }
+    },
+    "bundleProducts": {
+      "type": "array",
+      "items": {}
+    },
+    "bundleSlots": {
+      "type": "array",
+      "items": {}
+    },
+    "colour": {
+      "type": "string",
+      "example": "GREY"
+    },
+    "colourSwatches": {
+      "type": "array",
+      "items": {}
+    },
+    "contentSlotContentHTML": {
+      "type": "string",
+      "example": "%3C%21--+CMS+Page+Version%3A+static-0000104259+baseline%3A+3+revision%3A+0+published%3A+2015-11-25+14%3A44%3A30.98948%3Acogz+cogz%0A+++++++++CMS+Temp+Version%3A+template-0000011825+baseline%3A+1+revision%3A+0+description%3A+Home+Page+Module+-+Basic+%28REF+0000011783%29+published%3A+2015-06-25+10%3A42%3A08.412652+--%3E%0A%0A%0A++%0A%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000011825%2Fcss%2Ftheme1.css%22+%2F%3E%3Cstyle+type%3D%22text%2Fcss%22%3E%0A%2F*%3C%21%5BCDATA%5B*%2F%0A%2F*%5D%5D%3E*%2F%0A%3C%2Fstyle%3E%0A%0A++++%0A++%0A%0A++%0A++++%3Cdiv+id%3D%22static-0000104259%22+class%3D%27theme1+masonry-item+module-basic%27%3E%0A++++++%3Cdiv+class%3D%22masonry-item-inner%22%3E%0A++++++++%3Cimg+src%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Fpages%2Fstatic%2Fstatic-0000104259%2Fimages%2F35B66IBLK_2_thumb.jpg%22+alt%3D%22image%22+width%3D%22170%22+height%3D%22255%22+%2F%3E%0A++++++%3C%2Fdiv%3E%0A++++%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000011783+--%3E%0A++%0A%0A"
+    },
+    "deliveryMessage": {
+      "type": "string",
+      "example": "Order in 10 hrs 29 mins for next day delivery"
+    },
+    "description": {
+      "type": "string",
+      "example": "Smart shapes come updated for now in &#39;70s inspired suede textures. This button front dress comes with a flattering V-neck and a fitted silhouette. 100% Polyester. Machine wash.  &lt;BR&gt;&lt;B&gt;**PLEASE NOTE THIS ITEM CAN ONLY BE RETURNED VIA POST. STORES ARE UNABLE TO RETURN THESE ITEMS FOR YOU. ALL UK POSTAL RETURNS ARE FREE. INTERNATIONAL POSTAL CHARGES WILL VARY.&lt;/B&gt;"
+    },
+    "espots": {
+      "type": "object",
+      "properties": {
+        "CE3ContentEspot1": {
+          "type": "boolean",
+          "example": false
+        },
+        "CEProductEspotCol1Pos1": {
+          "type": "boolean",
+          "example": false
+        },
+        "CEProductEspotCol1Pos2": {
+          "type": "boolean",
+          "example": false
+        },
+        "CEProductEspotCol2Pos1": {
+          "type": "boolean",
+          "example": false
+        },
+        "CEProductEspotCol2Pos2": {
+          "type": "boolean",
+          "example": false
+        },
+        "CEProductEspotCol2Pos4": {
+          "type": "boolean",
+          "example": false
+        },
+        "KlarnaPDPEspot1": {
+          "type": "boolean",
+          "example": false
+        },
+        "KlarnaPDPEspot2": {
+          "type": "boolean",
+          "example": false
+        }
+      },
+      "grouping": {
+        "type": "string",
+        "example": "TS62Z39IGRY"
+      },
+      "isBundleOrOutfit": {
+        "type": "boolean",
+        "example": false
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quantity": {
+              "type": "number",
+              "example": 8
+            },
+            "selected": {
+              "type": "boolean",
+              "example": false
+            },
+            "size": {
+              "type": "string",
+              "example": "XS"
+            },
+            "sku": {
+              "type": "string",
+              "example": "602015000890858"
+            }
+          }
+        }
+      },
+      "lineNumber": {
+        "type": "string",
+        "example": "62Z39IGRY"
+      },
+      "name": {
+        "type": "string",
+        "example": "**Suedette Tuxedo Dress by Love"
+      },
+      "productId": {
+        "type": "number",
+        "example": 21919934
+      },
+      "sourceUrl": {
+        "type": "string",
+        "example": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/suedette-tuxedo-dress-by-love-4891517"
+      },
+      "stockEmail": {
+        "type": "boolean",
+        "example": false
+      },
+      "stockThreshold": {
+        "type": "number",
+        "example": 0
+      },
+      "storeDelivery": {
+        "type": "boolean",
+        "example": true
+      },
+      "tmpLinks": {
+        "type": "array",
+        "items": {}
+      },
+      "unitPrice": {
+        "type": "string",
+        "example": "34.00"
+      },
+      "wasPrice": {
+        "type": "string",
+        "example": "36.00"
+      },
+      "wasWasPrice": {
+        "type": "string",
+        "example": "36.00"
+      },
+      "wcsColourADValueId": {
+        "type": "string",
+        "example": "GREY"
+      },
+      "wcsColourKey": {
+        "type": "string",
+        "example": "107684403"
+      },
+      "wcsSizeKey": {
+        "type": "string",
+        "example": "107684405"
+      },
+      "shopTheLookProducts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "bundleId": {
+              "type": "string",
+              "example": "22044741"
+            },
+            "productDisplayURL": {
+              "type": "string",
+              "example": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/when-glamour-base-face-mask-4885217"
+            },
+            "bundleImagePath": {
+              "type": "string",
+              "example": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/20B09IGRN_thumb.jpg"
+            },
+            "bundleProductPrice": {
+              "type": "string",
+              "example": "7.0"
+            }
+          }
+        }
+      },
+      "bundleDisplayURL": {
+        "type": "string",
+        "example": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/bundle58-short-description-4902076?bundle=true"
+      },
+      "promotionDisplayURL": {
+        "type": "string",
+        "example": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/DisplayPromoLanding?storeId=12556&promoId=11011916&urlRequestType=Base&promotionIdentifier=promo&langId=-1&catalogId=33057"
+      },
+      "promoTitle": {
+        "type": "string",
+        "example": "Buy 3 pairs of socks for £8"
+      }
+    }
+  }
+}

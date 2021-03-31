@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentMethodPreview /> @renders should render default state correctly 1`] = `
+<div
+  className="PaymentMethodPreview"
+>
+  <div
+    className="PaymentMethodPreview-col"
+  >
+    <div
+      className="PaymentMethodPreview-cardInfo"
+    >
+      <Connect(Image)
+        className="PaymentMethodPreview-icon"
+        src="/assets/{brandName}/images/credit-card.svg"
+      />
+      <div>
+        child element
+      </div>
+    </div>
+    <a
+      className="PaymentMethodPreview-cta"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      Change
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<PaymentMethodPreview /> @renders should render the correct card icon of the payment methods passed in 1`] = `
+<div
+  className="PaymentMethodPreview"
+>
+  <div
+    className="PaymentMethodPreview-col"
+  >
+    <div
+      className="PaymentMethodPreview-cardInfo"
+    >
+      <Connect(Image)
+        className="PaymentMethodPreview-icon"
+        src="/assets/common/images/AMEX_ICON.SVG"
+      />
+      <div>
+        child element
+      </div>
+    </div>
+    <a
+      className="PaymentMethodPreview-cta"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      Change
+    </a>
+  </div>
+</div>
+`;

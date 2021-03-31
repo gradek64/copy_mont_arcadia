@@ -1,0 +1,17 @@
+
+/** @define MontyVisualIndicator */
+
+.MontyVisualIndicator {
+  height: 13px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-lozenge {
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #d8d8d8;
+  }
+}

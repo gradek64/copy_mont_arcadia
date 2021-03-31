@@ -1,0 +1,36 @@
+/** @define ImageOverlay; weak */
+
+.ImageOverlay {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+
+  & .Carousel--thumbnail {
+    & .Carousel-item {
+      margin-bottom: 25%;
+    }
+
+    & .Carousel-image {
+      width: 100%;
+    }
+  }
+
+  & .Carousel--overlay {
+    width: auto;
+    flex: 1;
+
+    & .Carousel-item {
+      display: inline-block;
+    }
+  }
+
+  .Carousel-arrow--top {
+    height: 40px;
+    background-position: 0% 50%;
+  }
+
+  .Carousel-arrow--bottom {
+    height: 40px;
+    background-position: 100% 50%;
+  }
+}

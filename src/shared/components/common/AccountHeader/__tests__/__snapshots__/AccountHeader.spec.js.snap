@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountHeader /> @renders in default state. There is a header with a left arrow that takes the user back to My Account 1`] = `
+<section
+  className="AccountHeader"
+>
+  <div
+    className="AccountHeader-navigation"
+  >
+    <LinkComponent
+      className="NoLink"
+      to="/example"
+    >
+      <p
+        className="AccountHeader-back"
+      >
+        Back to My Account
+      </p>
+    </LinkComponent>
+  </div>
+  <div
+    className="AccountHeader-row"
+  >
+    <div
+      className="AccountHeader-title"
+    >
+      <h1>
+        My title
+      </h1>
+    </div>
+  </div>
+</section>
+`;

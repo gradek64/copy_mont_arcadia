@@ -1,0 +1,42 @@
+/** @define PaymentMethodPreview */
+
+.PaymentMethodPreview {
+  position: relative;
+  margin-top: $checkout-content-padding;
+  display: flex;
+  flex-direction: row;
+
+  @media $min-laptop {
+    padding-right: 0px;
+  }
+
+  &-icon {
+    margin-right: 5px;
+  }
+
+  &-cta {
+    width: auto;
+    margin-top: 0;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size:12px;
+    letter-spacing:1.5px;
+    text-decoration:none;
+    border-bottom:1px solid #363636;
+    padding-bottom:4px
+  }
+
+  &-cardInfo {
+    display: flex;
+  } 
+
+  &-col{
+    flex:1;
+    &--icon{
+      flex-basis: 65px;
+    }
+   }
+}

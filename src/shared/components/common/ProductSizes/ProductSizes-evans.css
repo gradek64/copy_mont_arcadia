@@ -1,0 +1,32 @@
+/** @define ProductSizes */
+
+.ProductSizes {
+  &-button {
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+}
+
+@media $min-tablet {
+  .ProductSizes {
+    &--sizeGuideBox {
+      width: 100%;
+    }
+
+    &--pdp {
+      & .ProductSizes {
+        &-item {
+          font-size: 12px;
+          border: 1px solid #909090;
+          &:hover {
+            border: 1px solid #000;
+          }
+          &.is-active {
+            border: 1px solid #909090;
+            background: #ddd;
+          }
+        }
+      }
+    }
+  }
+}

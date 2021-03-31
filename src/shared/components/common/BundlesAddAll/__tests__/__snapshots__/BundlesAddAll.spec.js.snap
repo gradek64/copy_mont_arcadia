@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BundlesAddAll /> @renders should render default state 1`] = `
+<Connect(AddToBag)
+  bundleItems={Array []}
+  message=""
+  productId={29434263}
+  quantity={0}
+  shouldAddToBag={[Function]}
+  shouldShowInlineConfirm={true}
+  shouldShowMiniBagConfirm={true}
+/>
+`;

@@ -1,0 +1,73 @@
+/** @define SizeGuide; weak */
+
+@media $min-tablet {
+  .SizeGuide {
+    &--box {
+      flex: 0 1 20%;
+      margin: 0 0 0 auto;
+      width: auto;
+
+      & .SizeGuide {
+        &-link {
+            height: 40px;
+        }
+        &-label {
+          width: 100%;
+        }
+      }
+    }
+    &--bundles {
+      & .SizeGuide-label {
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+    }
+    &-icon {
+      background-image: url('public/dorothyperkins/images/size_guide.svg');
+    }
+    &--sizeGuideButtonAsSizeTile {
+      & .SizeGuide-link {
+        height: 32px;
+      }
+      & .SizeGuide-icon {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+      }
+    }
+  }
+}
+
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  .MiniProduct-details .SizeGuide--bundles {
+    padding-bottom: 0;
+  }
+
+  .SizeGuide {
+    &--bundles {
+      width: 50px;
+      align-self: flex-end;
+      padding-bottom: 0;
+
+      & .SizeGuide-link {
+        align-items: center;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+        order: 1;
+      }
+
+      & .SizeGuide-icon {
+        margin-right: 0;
+        order: 2;
+      }
+
+      & .SizeGuide-label {
+        width: 100%; /* IE requires width being set on child specifically for text wrapping to work */
+        text-align: center;
+      }
+    }
+  }
+}

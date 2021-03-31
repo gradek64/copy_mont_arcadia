@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreLocatorFilters /> @render default with CFSI enabled 1`] = `
+<Form
+  className="StoreLocatorFilters"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <h3
+    className="StoreLocatorFilters-header"
+  >
+    Filter
+  </h3>
+  <ul
+    className="StoreLocatorFilters-list"
+  >
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="today"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="Collect today"
+        onChange={[Function]}
+        reverse={true}
+      >
+        Collect today
+      </Connect(Checkbox)>
+    </li>
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="brand"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="Topshop stores"
+        onChange={[Function]}
+        reverse={true}
+      >
+        Topshop stores
+      </Connect(Checkbox)>
+    </li>
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="parcel"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="ParcelShops"
+        onChange={[Function]}
+        reverse={true}
+      >
+        ParcelShops
+      </Connect(Checkbox)>
+    </li>
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="other"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="Other stores"
+        onChange={[Function]}
+        reverse={true}
+      >
+        Other stores
+      </Connect(Checkbox)>
+    </li>
+  </ul>
+  <Button
+    className="StoreLocatorFilters-applyButton"
+    type="submit"
+  >
+    Apply
+  </Button>
+</Form>
+`;
+
+exports[`<StoreLocatorFilters /> @render default with CFSI not enabled 1`] = `
+<Form
+  className="StoreLocatorFilters"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <h3
+    className="StoreLocatorFilters-header"
+  >
+    Filter
+  </h3>
+  <ul
+    className="StoreLocatorFilters-list"
+  >
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="brand"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="Topshop stores"
+        onChange={[Function]}
+        reverse={true}
+      >
+        Topshop stores
+      </Connect(Checkbox)>
+    </li>
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="parcel"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="ParcelShops"
+        onChange={[Function]}
+        reverse={true}
+      >
+        ParcelShops
+      </Connect(Checkbox)>
+    </li>
+    <li
+      className="StoreLocatorFilters-listItem"
+      key="other"
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="StoreLocatorFilters-checkbox"
+        isDisabled={false}
+        name="Other stores"
+        onChange={[Function]}
+        reverse={true}
+      >
+        Other stores
+      </Connect(Checkbox)>
+    </li>
+  </ul>
+  <Button
+    className="StoreLocatorFilters-applyButton"
+    type="submit"
+  >
+    Apply
+  </Button>
+</Form>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialProofProductOverlay /> Should match snapshot 1`] = `
+<div
+  className="SocialProofProductOverlay"
+>
+  <div
+    className="SocialProofProductOverlay--badgeContainer"
+  >
+    <div
+      className="SocialProofProductOverlay--badgeText"
+    >
+      HURRY, SELLING FAST!
+    </div>
+  </div>
+</div>
+`;

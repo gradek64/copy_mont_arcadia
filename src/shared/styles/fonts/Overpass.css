@@ -1,0 +1,43 @@
+/* https://github.com/RedHatBrand/Overpass */
+
+@font-face {
+  font-family: Overpass;
+  src: url('public/common/fonts/Overpass/overpass-light.woff2') format('woff2'),
+  url('public/common/fonts/Overpass/overpass-light.woff') format('woff'),
+  url('public/common/fonts/Overpass/overpass-light.ttf') format('ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Overpass;
+  src: url('public/common/fonts/Overpass/overpass-regular.woff2') format('woff2'),
+  url('public/common/fonts/Overpass/overpass-regular.woff') format('woff'),
+  url('public/common/fonts/Overpass/overpass-regular.ttf') format('ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Overpass;
+  src: url('public/common/fonts/Overpass/overpass-bold.woff2') format('woff2'),
+  url('public/common/fonts/Overpass/overpass-bold.woff') format('woff'),
+  url('public/common/fonts/Overpass/overpass-bold.ttf') format('ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Overpass;
+  src: url('public/common/fonts/Overpass/overpass-black.woff2') format('woff2'),
+  url('public/common/fonts/Overpass/overpass-black.woff') format('woff'),
+  url('public/common/fonts/Overpass/overpass-black.ttf') format('ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+}
+
+

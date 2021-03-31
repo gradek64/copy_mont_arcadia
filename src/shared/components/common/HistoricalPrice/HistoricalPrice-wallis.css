@@ -1,0 +1,7 @@
+/** @define HistoricalPrice */
+
+.HistoricalPrice {
+  &--col1 {
+    width: 100%;
+  }
+}

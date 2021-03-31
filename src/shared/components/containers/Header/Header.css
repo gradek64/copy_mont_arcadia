@@ -1,0 +1,72 @@
+/** @define Header; weak */
+
+.Header {
+  &.is-checkoutBig {
+    max-width: $laptop-end-width;
+    border: none;
+    margin: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+
+    .Header-brandLogo {
+      margin-left: 0;
+    }
+  }
+  &-container {
+    &--searchOpen {
+      transition: z-index 0s;
+      z-index: 3 !important;
+    }
+  }
+  &-debug {
+    padding: 2px 0;
+  }
+  &-debugIcon {
+    height: 100%;
+    border-radius: 50%;
+  }
+  &-continueShopping {
+    width: auto;
+    min-height: 0;
+    max-height: $checkout-continue-shopping-button-max-height;
+    margin-top: $checkout-continue-shopping-margin-top;
+  }
+}
+
+@media $min-tablet {
+  .Header {
+    height: $header-height-min-tablet;
+
+    &:not(.is-forceDisplay) {
+      display: none;
+    }
+    &.is-checkoutBig {
+      display: block;
+    }
+    &-brandLogo {
+      height: $header-logo-height-min-tablet;
+    }
+    &-continueShopping {
+      margin-top: $checkout-continue-shopping-margin-top-min-tablet;
+      margin-right: $checkout-continue-shopping-margin-right;
+    }
+  }
+}
+
+@media $min-laptop {
+  .Header {
+    &.is-checkoutBig {
+      display: block;
+      height: $header-height-min-laptop;
+    }
+    &-brandLogo {
+      height: $header-logo-height-min-laptop;
+    }
+    &-continueShopping {
+      margin-top: $checkout-continue-shopping-margin-top-min-laptop;
+    }
+    &-container > .SearchBar {
+      display: none;
+    }
+  }
+}

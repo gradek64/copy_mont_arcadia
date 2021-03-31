@@ -1,0 +1,75 @@
+/** @define ProductVideo */
+
+.ProductVideo {
+  height: calc(100% - 177px);
+  font-size: 0;
+  display: block;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  &-spinner {
+     padding-top: 15%;
+     margin-top: 0;
+     margin-bottom: 15%;
+  }
+
+  &.is-hidden {
+     display: none;
+  }
+
+  &-container {
+    max-height: 100%;
+    width: auto;
+  }
+
+  &-video {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 177px);
+    display: block;
+    object-position: center top;
+    object-fit: contain;
+
+    &.is-hidden {
+       display: none;
+    }
+  }
+
+  &--isLoading {
+    & .ProductVideo-video,
+    & .ProductVideo-container {
+      height: 100px;
+    }
+  }
+
+  &-closeWrapper {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+    line-height: 2px;
+  }
+}
+
+@media $tablet {
+  .ProductVideo {
+    padding-left: 15px;
+  }
+}
+
+@media $min-laptop {
+  .ProductVideo {
+    padding-left: 130px;
+    padding-right: 40px;
+
+    &-closeWrapper {
+      padding-right: 10px;
+      right: 38px;
+    }
+  }
+}

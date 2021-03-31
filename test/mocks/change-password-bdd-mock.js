@@ -1,0 +1,51 @@
+export const changePasswordSuccess = {
+  exists: true,
+  email: 'myaccount1@test.com',
+  title: 'Mr',
+  firstName: 'Faisal',
+  lastName: 'Khaliquee',
+  userTrackingId: 381801726,
+  basketItemCount: 15,
+  creditCard: {
+    type: 'VISA',
+    cardNumberHash: 'tjOBl4zzS+ueTZQWartO5l968iOmCOix',
+    cardNumberStar: '************1111',
+    expiryMonth: '03',
+    expiryYear: '2019',
+  },
+  deliveryDetails: {
+    addressDetailsId: 275941955,
+    nameAndPhone: {
+      title: 'Mr',
+      firstName: 'Faisal',
+      lastName: 'Khaliquee',
+      telephone: '7448879528',
+    },
+    address: {
+      address1: '60 Hockley Avenue',
+      address2: '',
+      city: 'LONDON',
+      state: '',
+      country: 'United Kingdom',
+      postcode: 'E6 3AN',
+    },
+  },
+  billingDetails: {
+    addressDetailsId: 231930306,
+    nameAndPhone: {
+      title: 'Mr',
+      firstName: 'Faisal',
+      lastName: 'Khaliquee',
+      telephone: '07831541669',
+    },
+    address: {
+      address1: '60 Hockley Avenue',
+      address2: '',
+      city: 'LONDON',
+      state: '',
+      country: 'United Kingdom',
+      postcode: 'E6 3AN',
+    },
+  },
+  version: '1.4',
+}

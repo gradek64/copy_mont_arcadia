@@ -1,0 +1,30 @@
+/** @define FitAttributes */
+
+.FitAttributes {
+  margin: $fit-attributes-margin;
+
+  &-link {
+    border: $fit-attributes-link-border;
+    border-radius: $fit-attributes-link-border-radius;
+    margin: $fit-attributes-link-margin;
+    line-height: $fit-attributes-link-line-height;
+    text-transform: $fit-attributes-link-text-transform;
+    padding: $fit-attributes-link-text-padding;
+    color: $fit-attributes-link-text-color;
+    font-size: $fit-attributes-link-text-font-size;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  &--stateActive {
+    color: $fit-attributes-link-font-color-state-active;
+    background-color: $fit-attributes-link-background-color-state-active;
+    border-color: $fit-attributes-link-border-color-state-active;
+  }
+}
+
+@media $min-tablet {
+  .FitAttributes {
+    margin: $fit-attributes-margin-desktop;
+  }
+}

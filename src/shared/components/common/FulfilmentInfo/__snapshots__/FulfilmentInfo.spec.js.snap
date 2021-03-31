@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FulfilmentInfo /> @functions getDescription  with storeName 1`] = `
+<span>
+  In stock at 
+  <a
+    className="ProductDetail-findInStoreButton"
+    href="#"
+  >
+    topshop
+  </a>
+</span>
+`;
+
+exports[`<FulfilmentInfo /> @functions getDescription  without storeName 1`] = `
+<span>
+  Click to 
+  <a
+    className="ProductDetail-findInStoreButton"
+    href="#"
+  >
+    find in store
+  </a>
+</span>
+`;
+
+exports[`<FulfilmentInfo /> @functions getDescription if selectedStore.brandName exists and selectedStore.brandName !== brandName 1`] = `
+<span>
+  Click to 
+  <a
+    className="ProductDetail-findInStoreButton"
+    href="#"
+  >
+    find in store
+  </a>
+</span>
+`;
+
+exports[`<FulfilmentInfo /> @functions getDescription if selectedStore.brandPrimaryEStoreId !== siteId && selectedStore.brandName !== brandName 1`] = `
+<span>
+  In stock at 
+  <a
+    className="ProductDetail-findInStoreButton"
+    href="#"
+  >
+    topshop
+  </a>
+</span>
+`;
+
+exports[`<FulfilmentInfo /> @functions getDescription if selectedStore.brandPrimaryEStoreId exists and selectedStore.brandPrimaryEStoreId !== siteId 1`] = `
+<span>
+  Click to 
+  <a
+    className="ProductDetail-findInStoreButton"
+    href="#"
+  >
+    find in store
+  </a>
+</span>
+`;
+
+exports[`<FulfilmentInfo /> @renders in default state 1`] = `
+<div
+  className="FulfilmentInfo"
+>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-cfsi FulfilmentInfo-today"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/cfsi.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      today
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      <span>
+        Click to 
+        <a
+          className="ProductDetail-findInStoreButton"
+          href="#"
+        >
+          find in store
+        </a>
+      </span>
+    </p>
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-expressShipping"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/express-delivery.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Delivered 
+      Tuesday
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      with Express Shipping
+    </p>
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-parcelCollect"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/parcelshop.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      Tuesday
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      From a Parcel Shop near you
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FulfilmentInfo /> @renders should not render without an active item 1`] = `""`;
+
+exports[`<FulfilmentInfo /> @renders with getFulfilmentDetails returns CFSiDay as tomorrow 1`] = `
+<div
+  className="FulfilmentInfo"
+>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-cfsi"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/cfs.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      tomorrow
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      <span>
+        In stock at 
+        <a
+          className="ProductDetail-findInStoreButton"
+          href="#"
+        >
+          Topshop Oxford Circus
+        </a>
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FulfilmentInfo /> @renders with selected store 1`] = `
+<div
+  className="FulfilmentInfo"
+>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-cfsi FulfilmentInfo-today"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/cfsi.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      today
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      <span>
+        In stock at 
+        <a
+          className="ProductDetail-findInStoreButton"
+          href="#"
+        >
+          Topshop Oxford Circus
+        </a>
+      </span>
+    </p>
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-expressShipping"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/express-delivery.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Delivered 
+      Tuesday
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      with Express Shipping
+    </p>
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-parcelCollect"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/parcelshop.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      Tuesday
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      From a Parcel Shop near you
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FulfilmentInfo /> @renders with selectedStoreSKU not matches activeSku and state.calledStoreSearch is true 1`] = `
+<div
+  className="FulfilmentInfo FulfilmentInfo--loading"
+>
+  <div
+    className="FulfilmentInfo-spinner"
+  >
+    <Loader
+      className=""
+      fillColor="#000"
+      isButton={false}
+    />
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-cfsi FulfilmentInfo-today"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/cfsi.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      today
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      <span>
+        In stock at 
+        <a
+          className="ProductDetail-findInStoreButton"
+          href="#"
+        >
+          Topshop Oxford Circus
+        </a>
+      </span>
+    </p>
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-expressShipping"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/express-delivery.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Delivered 
+      Tuesday
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      with Express Shipping
+    </p>
+  </div>
+  <div
+    className="FulfilmentInfo-item FulfilmentInfo-parcelCollect"
+  >
+    <img
+      alt=""
+      className="FulfilmentInfo-icon"
+      src="/assets/topshop/images/parcelshop.svg"
+    />
+    <h5
+      className="FulfilmentInfo-title"
+    >
+      Collect 
+      Tuesday
+    </h5>
+    <p
+      className="FulfilmentInfo-description"
+    >
+      From a Parcel Shop near you
+    </p>
+  </div>
+</div>
+`;

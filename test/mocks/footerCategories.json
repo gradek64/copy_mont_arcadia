@@ -1,0 +1,110 @@
+{
+  "newsletter": {
+    "label": "Sign up and get 20% off",
+    "placeholder": "Enter your email address",
+    "button": "Sign Up",
+    "signUpUrl": "/en/tsuk/category/help-information-5634539/sign-up-to-style-notes-5651318",
+    "openNewWindow": false
+  },
+  "categories": [
+    {
+      "label": "HELP",
+      "links": [
+        {
+          "label": "Store Finder",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "FAQs",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Contact us",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Size Guide",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Washcare & Aftercare",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Accessibility",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Site Map",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Topshop at Oxford Circus",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        }
+      ]
+    },
+    {
+      "label": "DELIVERY & RETURNS",
+      "links": [
+        {
+          "label": "Track your order",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Delivery",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Returns",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "E-receipts",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        }
+      ]
+    },
+    {
+      "label": "CARDS & OFFERS",
+      "links": [
+        {
+          "label": "Student Discount",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Gift Cards",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        },
+        {
+          "label": "Topshop Card",
+          "seoUrl": "/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+        }
+      ]
+    },
+    {
+      "label": "blog posts",
+      "images": [
+        {
+          "imageUrl": "http://www.example.com/long-image-example.png",
+          "imageSize": "large",
+          "linkUrl": "http://www.example.com/blog/example-post",
+          "alt": "",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "",
+      "images": [
+        {
+          "imageUrl": "http://www.example.com/long-image-example.png",
+          "imageSize": "large",
+          "linkUrl": "http://www.example.com/blog/example-post",
+          "alt": "",
+          "openNewWindow": true
+        }
+      ]
+    }
+  ]
+}

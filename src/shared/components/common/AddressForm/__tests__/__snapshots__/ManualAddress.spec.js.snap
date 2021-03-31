@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManualAddress /> @renders should render default state 1`] = `
+<section
+  aria-label="Address"
+  className="ManualAddress"
+>
+  <div
+    className="ManualAddress-row"
+  >
+    <Connect(Input)
+      className="ManualAddress-address1"
+      errors={Object {}}
+      isRequired={true}
+      label="Address Line 1"
+      name="address1"
+      placeholder="Address Line 1"
+      setField={[Function]}
+    />
+    <Connect(Input)
+      className="ManualAddress-address2"
+      errors={Object {}}
+      label="Address Line 2"
+      name="address2"
+      placeholder="Address Line 2"
+      setField={[Function]}
+    />
+  </div>
+  <div
+    className="ManualAddress-row"
+  >
+    <Connect(Input)
+      className="ManualAddress-postcode"
+      errors={Object {}}
+      isRequired={true}
+      label="Postcode"
+      name="postcode"
+      onBlur={[Function]}
+      placeholder="Postcode"
+      setField={[Function]}
+    />
+    <Connect(Input)
+      className="ManualAddress-city"
+      errors={Object {}}
+      isRequired={true}
+      label="Town/City"
+      name="city"
+      placeholder="Town/City"
+      setField={[Function]}
+    />
+  </div>
+  <div
+    className="ManualAddress-linkWrapper"
+  >
+    <button
+      className="ManualAddress-link ManualAddress-link--left"
+      data-jest-button-id="clear-form"
+      onClick={[Function]}
+      type="reset"
+    >
+      Clear form
+    </button>
+    <button
+      className="ManualAddress-link ManualAddress-link--right"
+      onClick={[Function]}
+      type="button"
+    >
+      Find Address
+    </button>
+  </div>
+</section>
+`;
+
+exports[`<ManualAddress /> @renders should render multiColumn when isDesktopMultiColumnStyle is true 1`] = `
+<section
+  aria-label="Address"
+  className="ManualAddress ManualAddress--multiColumn"
+>
+  <div
+    className="ManualAddress-row"
+  >
+    <Connect(Input)
+      className="ManualAddress-address1"
+      errors={Object {}}
+      isRequired={true}
+      label="Address Line 1"
+      name="address1"
+      placeholder="Address Line 1"
+      setField={[Function]}
+    />
+    <Connect(Input)
+      className="ManualAddress-address2"
+      errors={Object {}}
+      label="Address Line 2"
+      name="address2"
+      placeholder="Address Line 2"
+      setField={[Function]}
+    />
+  </div>
+  <div
+    className="ManualAddress-row"
+  >
+    <Connect(Input)
+      className="ManualAddress-postcode"
+      errors={Object {}}
+      isRequired={true}
+      label="Postcode"
+      name="postcode"
+      onBlur={[Function]}
+      placeholder="Postcode"
+      setField={[Function]}
+    />
+    <Connect(Input)
+      className="ManualAddress-city"
+      errors={Object {}}
+      isRequired={true}
+      label="Town/City"
+      name="city"
+      placeholder="Town/City"
+      setField={[Function]}
+    />
+  </div>
+  <div
+    className="ManualAddress-linkWrapper"
+  >
+    <button
+      className="ManualAddress-link ManualAddress-link--left"
+      data-jest-button-id="clear-form"
+      onClick={[Function]}
+      type="reset"
+    >
+      Clear form
+    </button>
+    <button
+      className="ManualAddress-link ManualAddress-link--right"
+      onClick={[Function]}
+      type="button"
+    >
+      Find Address
+    </button>
+  </div>
+</section>
+`;

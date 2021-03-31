@@ -1,0 +1,45 @@
+/** @define ReturnHistoryDetailsPayment **/
+.ReturnHistoryDetailsPayment {
+  &-container {
+    padding: 10px $page-padding;
+    border-bottom: 1px solid $myaccount-border-color;
+  }
+
+  &-header {
+    padding: 20px 0 10px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  &-paymentMethodContainer {
+    display: flex;
+  }
+
+  &-customerServiceMessage {
+    padding: 20px 0 10px;
+    font-size: 1.2em;
+  }
+
+  &-icon {
+     margin: 3.5px 25px 0 10px;
+     width: 30px;
+     align-self: flex-start;
+  }
+}
+
+@media $min-tablet {
+  .ReturnHistoryDetailsPayment {
+    &-container {
+      border-bottom: none;
+    }
+
+    &-customerServiceMessage {
+      font-size: 1em;
+    }
+
+    &-header {
+      border-bottom: 1px solid $myaccount-border-color;
+    }
+  }
+}

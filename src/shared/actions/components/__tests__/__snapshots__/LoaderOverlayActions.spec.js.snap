@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Overlay Actions ajaxCounter(decrement) 1`] = `
+Object {
+  "type": "AJAXCOUNTER_DECREMENT",
+}
+`;
+
+exports[`Loader Overlay Actions ajaxCounter(increment) 1`] = `
+Object {
+  "type": "AJAXCOUNTER_INCREMENT",
+}
+`;
+
+exports[`Loader Overlay Actions toggleLoaderOverlay 1`] = `
+Object {
+  "type": "TOGGLE_LOADER_OVERLAY",
+}
+`;
+
+exports[`Loader Overlay Actions zeroAjaxCounter 1`] = `
+Object {
+  "type": "AJAXCOUNTER_ZERO",
+}
+`;

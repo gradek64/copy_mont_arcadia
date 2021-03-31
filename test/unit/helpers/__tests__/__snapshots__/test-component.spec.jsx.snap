@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test-component buildComponentRender mounts a component 1`] = `
+<Component
+  name="José"
+>
+  <div>
+    Hello 
+    José
+    !
+  </div>
+</Component>
+`;
+
+exports[`test-component buildComponentRender renders a component 1`] = `
+<Component
+  name="José"
+>
+  <div>
+    Hello 
+    José
+    !
+  </div>
+</Component>
+`;
+
+exports[`test-component buildComponentRender renders with a store (mount) 1`] = `
+<Connect(Component)>
+  <Component
+    dispatch={[Function]}
+    name="José"
+  >
+    <div>
+      Hello 
+      José
+      !
+    </div>
+  </Component>
+</Connect(Component)>
+`;
+
+exports[`test-component buildComponentRender renders with a store (shallow) 1`] = `
+<Component
+  dispatch={[Function]}
+  name="José"
+/>
+`;

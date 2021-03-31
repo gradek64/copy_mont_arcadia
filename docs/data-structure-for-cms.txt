@@ -1,0 +1,69 @@
+[
+    {
+        "type": "carousel",
+        "data": {
+            "options": {
+                "height": "320",
+                "width": "240",
+                "margin": "5px 0 10px"
+            },
+            "assets": [
+              "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS12T32JDGM_Thumb_M_1.jpg",
+              "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS12T32JDGM_Thumb_M_1.jpg"
+            ]
+        }
+    },
+    {
+        "type": "imagelist",
+        "data": {
+            "assets": [
+                {
+                    "alt": "A topshop image",
+                    "source": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS12T32JDGM_Thumb_M_1.jpg",
+                    "link": "http://topshop.com",
+                    "target": "_blank"
+                },
+                {
+                    "alt": "A topshop image",
+                    "source": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS12T32JDGM_Thumb_M_1.jpg",
+                    "link": "",
+                    "target": ""
+                }
+            ]
+        }
+    },
+    {
+        "type": "video",
+        "data": {
+            "source": "http://media.topshop.com/video.mp4",
+            "link": "http://topshop.com",
+            "target": "_blank",
+            "autoplay": "true",
+            "height": "320",
+            "width": "240",
+            "margin": "5px 0 10px"
+        }
+    },
+    {
+        "type": "imagelink",
+        "data": {
+            "alt": "A topshop image",
+            "source": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS12T32JDGM_Thumb_M_1.jpg",
+            "link": "http://topshop.com",
+            "target": "_blank",
+            "height": "320",
+            "width": "240",
+            "margin": "5px 0 10px"
+        }
+    },
+    {
+        "type": "iframe",
+        "data": {
+            "source": "http://topshop.com/page.html",
+            "height": "320",
+            "width": "800",
+            "margin": "5px 0 10px",
+            "autoResize": "true"
+        }
+    }
+]

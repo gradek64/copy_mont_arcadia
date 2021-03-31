@@ -1,0 +1,185 @@
+// to avoid all the funky %2F in the BUILD_TAG strings we do this. yay.
+def NICE_TAG = env.JOB_BASE_NAME.replaceAll("%2F", "-") + "-" + env.BUILD_ID
+
+pipeline {
+    agent {
+        label 'spot'
+    }
+
+    parameters {
+        string(name: 'ECR_TAG', defaultValue: '', description: 'Docker image tag to pull from ECR and run e2e tests against.')
+        string(name: 'CUCUMBER_FEATURE', defaultValue: '', description: 'Custom test feature to run')
+        string(name: 'CUCUMBER_TAGS', defaultValue: '', description: 'Run all the test features tagged with this')
+        string(name: 'INSTANCES', defaultValue: '', description: 'Number of parallel chrome instances to run')
+        string(name: 'TIMEOUT', defaultValue: '20', description: 'Maximum time to wait for test to pass')
+        choice(name: 'WCS_ENVIRONMENT', choices: 'tst1\nacc1\nprd1stage\ntst1live\ntst1stage', description: 'WCS environment to be used by the local monty run')
+    }
+
+    environment {
+        ECR_TAG = "${params.ECR_TAG}"
+        CUCUMBER_FEATURE = "${params.CUCUMBER_FEATURE}"
+        CUCUMBER_TAGS = "${params.CUCUMBER_TAGS}"
+        INSTANCES = "${params.INSTANCES}"
+        TIMEOUT = "${params.TIMEOUT}"
+        WCS_ENVIRONMENT = "${params.WCS_ENVIRONMENT}"
+    }
+
+    options {
+        buildDiscarder(logRotator(daysToKeepStr: '7', numToKeepStr: '50', artifactDaysToKeepStr: '7', artifactNumToKeepStr: '50'))
+        timestamps()
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
+    }
+
+    stages {
+        stage('Pull from ECR') {
+            environment {
+                DOCKERHUB = credentials('DOCKER-HUB-Arcadia')
+            }
+            steps {
+                githubNotify context: 'full-monty/tests/e2ev2', description: 'Started pipeline job', status: 'PENDING', targetUrl: env.BUILD_URL
+                sh 'rm -rf ./cucumber-html-reports'
+                sh 'rm -rf ./reports'
+                sh 'rm -rf ./screenshots'
+                echo "cleanup a bit of space hopefully"
+                sh 'docker image prune -f'
+                sh 'docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW'
+                echo "Getting latest e2ev2 docker image from ECR"
+                sh 'set +x; $(aws ecr get-login --no-include-email --region eu-west-1)'
+                sh "docker pull ${ECR_URL}/monty-e2ev2:latest"
+                // tag it with something predictable and unique so we can use it easily at later stages
+                sh "docker tag ${ECR_URL}/monty-e2ev2:latest monty_tests_e2ev2:${NICE_TAG}"
+            }
+        }
+
+        stage('Start Monty') {
+            environment {
+                NODE_ENV = 'production'
+                REDIS_URL='tcp://monty_cache:6379'
+                REDIS_HOST_FOR_SESSION_STORE='monty_cache'
+                REDIS_PORT_FOR_SESSION_STORE=6379
+                USE_NEW_HANDLER='true'
+                BASIC_AUTH_ENABLED='false'
+                // CMS_TEST_MODE='false'
+                QUBIT_DISABLED='true'
+            }
+
+            steps {
+                echo "Creating docker network named net_monty_tests_e2ev2_${NICE_TAG}"
+                sh "docker network create net_monty_tests_e2ev2_${NICE_TAG}"
+                script {
+                    def tag = (params.ECR_TAG == '') ? env.GIT_COMMIT : params.ECR_TAG
+                    // we would need a redis running for our monty container
+                    echo "Starting up redis named redis_monty_tests_e2ev2_${NICE_TAG}"
+                    def redis = docker.image('redis:3-alpine').run("--rm --name redis_monty_tests_e2ev2_${NICE_TAG} --network net_monty_tests_e2ev2_${NICE_TAG} --network-alias monty_cache")
+                    // fire up full-monty with relevant environment variables
+                    echo "Starting up full-monty named monty-e2ev2-${NICE_TAG}"
+                    def monty = docker.image("${ECR_URL}/monty:" + tag)
+                        .run("--rm --name monty_tests_e2ev2_${NICE_TAG} --network net_monty_tests_e2ev2_${NICE_TAG} --network-alias local.m.topshop.com --network-alias local.m.us.topshop.com --shm-size=1g --env-file=docker/monty-env")
+                }
+                // wait till the node app is ready. using wget since there is no curl in the container
+                echo 'waiting for monty be be available'
+                sh "docker exec monty_tests_e2ev2_${NICE_TAG} sh -c 'while [[ \"\$(wget -qO- localhost:3000/health )\" != \"Ok\" ]]; do sleep 5; done'"
+
+            }
+        }
+
+        stage('Run Tests') {
+            options {
+                skipDefaultCheckout()
+                // retry(2)
+                timeout(time: 30, unit: 'MINUTES')
+            }
+
+            environment {
+                NODE_ENV = 'production'
+            }
+
+            parallel {
+                stage('Desktop') {
+                    agent {
+                        docker {
+                            image "monty_tests_e2ev2:${NICE_TAG}"
+                            reuseNode true
+                            label 'spot'
+                            args "--shm-size=1500m --network net_monty_tests_e2ev2_${NICE_TAG}"
+                        }
+                    }
+
+                    environment {
+                        BREAKPOINT = 'desktop'
+                    }
+
+                    steps {
+                        echo 'running desktop tests'
+                        sh 'cd /app && npm run start'
+                    }
+
+                    post {
+                        always {
+                            // since we are not 100% sure whats going to happen to them reports and screenshots
+                            // just copy in whatever we have generated from /app into the mounted workspace
+                            sh 'mkdir -p reports/desktop && mkdir -p /app/reports && cp -a /app/reports/. reports/desktop/'
+                            sh 'mkdir -p screenshots/desktop && mkdir -p /app/screenshots && cp -a /app/screenshots/. screenshots/desktop'
+
+                            archiveArtifacts artifacts: 'screenshots/desktop/*.png', allowEmptyArchive: true
+                            junit testResults: 'reports/desktop/bdd*/**/*.xml', allowEmptyResults: true
+                        }
+                    }
+                }
+
+                stage('Mobile') {
+                    agent {
+                        docker {
+                            image "monty_tests_e2ev2:${NICE_TAG}"
+                            reuseNode true
+                            label 'spot'
+                            args "--shm-size=1500m --network net_monty_tests_e2ev2_${NICE_TAG}"
+                        }
+                    }
+                    environment {
+                        BREAKPOINT = 'mobile'
+                    }
+
+                    steps {
+                        echo 'running mobile tests'
+                        sh 'cd /app && npm run start'
+                    }
+
+                    post {
+                        always {
+                            // since we are not 100% sure whats going to happen to them reports and screenshots
+                            // just copy in whatever we have generated from /app into the mounted workspace
+                            sh 'mkdir -p reports/mobile && mkdir -p /app/reports && cp -a /app/reports/. reports/mobile'
+                            sh 'mkdir -p screenshots/mobile && mkdir -p /app/screenshots && cp -a /app/screenshots/. screenshots/mobile'
+
+                            archiveArtifacts artifacts: 'screenshots/mobile/*.png', allowEmptyArchive: true
+                            junit testResults: 'reports/mobile/bdd*/**/*.xml', allowEmptyResults: true
+                        }
+                    }
+                }
+            }
+
+            post {
+                always {
+                    cucumber jsonReportDirectory: './reports', fileIncludePattern: '**/*.json'
+                }
+            }
+        }
+    }
+    post {
+        success {
+            githubNotify context: 'full-monty/tests/e2ev2', description: 'Finished e2e tests', status: 'SUCCESS', targetUrl: env.BUILD_URL
+        }
+        failure {
+            githubNotify context: 'full-monty/tests/e2ev2', description: 'Failed e2e tests', status: 'FAILURE', targetUrl: env.BUILD_URL
+        }
+        cleanup {
+            echo "Stopping and removing all containters related to monty_tests_e2ev2_${NICE_TAG}"
+            sh "docker container ls --all --filter name=monty_tests_e2ev2_${NICE_TAG} -q | xargs --no-run-if-empty docker container rm -fv"
+            echo "Removing custom network related to monty_tests_e2ev2_${NICE_TAG}"
+            sh "docker network ls --filter name=net_monty_tests_e2ev2_${NICE_TAG} -q | xargs --no-run-if-empty docker network rm"
+            echo "prune orphaned volumes from this run"
+            sh "docker volume prune -f"
+        }
+    }
+}

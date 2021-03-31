@@ -1,0 +1,44 @@
+[
+  {
+    "address": {
+      "city": "Oxford Circus",
+      "line1": "West End",
+      "line2": "214 Oxford Street",
+      "postcode": "W1W 8LG",
+      "country": "United Kingdom"
+    },
+    "basketInStock": "false",
+    "openingHours": {
+      "friday": "",
+      "monday": "",
+      "saturday": "",
+      "sunday": "",
+      "thursday": "",
+      "tuesday": "",
+      "wednesday": ""
+    },
+    "stockList": [{}],
+    "storeId": "01"
+  },
+  {
+    "address": {
+      "city": "",
+      "line1": "West End",
+      "line2": "536-540 Oxford Street",
+      "postcode": "W1C 1LS",
+      "country": "United Kingdom"
+    },
+    "basketInStock": "true",
+    "openingHours": {
+      "friday": "",
+      "monday": "",
+      "saturday": "",
+      "sunday": "",
+      "thursday": "",
+      "tuesday": "",
+      "wednesday": ""
+    },
+    "stockList": [{}],
+    "storeId": "02"
+  }
+]

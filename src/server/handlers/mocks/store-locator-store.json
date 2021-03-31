@@ -1,0 +1,26 @@
+[{
+    "storeId": "TS3131",
+    "brandPrimaryEStoreId": 12556,
+    "name": "Jockey Plaza",
+    "distance": 0,
+    "latitude": 0,
+    "longitude": 0,
+    "address": {
+        "line1": "Jockey Plaza Mall, Av. Javier Prado Este 4200",
+        "line2": "Santiago De Surco",
+        "city": "Lima",
+        "postcode": "",
+        "country": "Peru"
+    },
+    "brandName": "Topshop",
+    "openingHours": {
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": "",
+        "saturday": "",
+        "sunday": ""
+    },
+    "telephoneNumber": ""
+}]

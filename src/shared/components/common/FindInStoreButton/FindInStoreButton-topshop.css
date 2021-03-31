@@ -1,0 +1,20 @@
+/** @define FindInStoreButton; weak */
+
+@media $min-tablet {
+  .FindInStoreButton {
+    &-desktop {
+      text-transform: uppercase;
+      border: solid 1px $pdp-product-size-title-color;
+      font-size: $font-size-button;
+      font-weight: $font-weight-button;
+      letter-spacing: $cta-letter-spacing;
+      font-family: $font-family-button;
+      height: $form-element-height;
+      margin-top: 10px;
+    }
+    &-desktopWrapper::before {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

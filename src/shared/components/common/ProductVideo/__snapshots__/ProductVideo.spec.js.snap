@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductVideo/> @renders in default state 1`] = `
+<Connect(FeatureCheck)
+  flag="FEATURE_PRODUCT_VIDEO"
+>
+  <div>
+    <div
+      className="productVideoContainer"
+    >
+      <div
+        className="ProductVideo VideoClassName is-hidden"
+      >
+        <button
+          className="ProductVideo-closeWrapper"
+          onClick={[Function]}
+        >
+          <Connect(Image)
+            alt="Close Video"
+            className="ProductVideo-close"
+            src="/assets/{brandName}/images/cancel.svg"
+          />
+        </button>
+        <div
+          className="ProductVideo-container"
+        >
+          <video
+            autoPlay={true}
+            className="ProductVideo-video"
+            controls={true}
+            loop={true}
+            muted={true}
+          >
+            <source
+              src="/oh/hi/eatingVegetables.mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+    <PlayVideoButton
+      className="productVideoCTA Button--secondary"
+      clickHandler={[MockFunction]}
+      isVideoPlaying={false}
+    />
+  </div>
+</Connect(FeatureCheck)>
+`;
+
+exports[`<ProductVideo/> @renders with isVideoPlaying as true 1`] = `
+<Connect(FeatureCheck)
+  flag="FEATURE_PRODUCT_VIDEO"
+>
+  <div>
+    <div
+      className="productVideoContainer"
+    >
+      <div
+        className="ProductVideo VideoClassName "
+      >
+        <button
+          className="ProductVideo-closeWrapper"
+          onClick={[Function]}
+        >
+          <Connect(Image)
+            alt="Close Video"
+            className="ProductVideo-close"
+            src="/assets/{brandName}/images/cancel.svg"
+          />
+        </button>
+        <div
+          className="ProductVideo-container"
+        >
+          <video
+            autoPlay={true}
+            className="ProductVideo-video"
+            controls={true}
+            loop={true}
+            muted={true}
+          >
+            <source
+              src="/oh/hi/eatingVegetables.mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+    <PlayVideoButton
+      className="productVideoCTA Button--secondary"
+      clickHandler={[MockFunction]}
+      isVideoPlaying={true}
+    />
+  </div>
+</Connect(FeatureCheck)>
+`;
+
+exports[`<ProductVideo/> @renders with no className 1`] = `
+<Connect(FeatureCheck)
+  flag="FEATURE_PRODUCT_VIDEO"
+>
+  <div>
+    <div
+      className="productVideoContainer"
+    >
+      <div
+        className="ProductVideo  is-hidden"
+      >
+        <button
+          className="ProductVideo-closeWrapper"
+          onClick={[Function]}
+        >
+          <Connect(Image)
+            alt="Close Video"
+            className="ProductVideo-close"
+            src="/assets/{brandName}/images/cancel.svg"
+          />
+        </button>
+        <div
+          className="ProductVideo-container"
+        >
+          <video
+            autoPlay={true}
+            className="ProductVideo-video"
+            controls={true}
+            loop={true}
+            muted={true}
+          >
+            <source
+              src="/oh/hi/eatingVegetables.mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+    <PlayVideoButton
+      className="productVideoCTA Button--secondary"
+      clickHandler={[MockFunction]}
+      isVideoPlaying={false}
+    />
+  </div>
+</Connect(FeatureCheck)>
+`;

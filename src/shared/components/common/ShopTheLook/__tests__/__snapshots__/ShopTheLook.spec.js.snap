@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShopTheLook /> @renders should render if there are products 1`] = `
+<div
+  className="ShopTheLook"
+>
+  <h3>
+    Shop the set
+  </h3>
+  <Connect(ProductCarousel)
+    hidePrice={true}
+    isImageFallbackEnabled={true}
+    products={
+      Array [
+        Object {
+          "imageUrl": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62S15IBLK_thumb.jpg",
+          "name": "",
+          "price": "55.0",
+          "productId": 12345,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/sleeveless-suede-trench-coat-by-rare-4699824",
+        },
+        Object {
+          "imageUrl": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/10D22IBLK_thumb.jpg",
+          "name": "",
+          "price": "28.0",
+          "productId": 123456,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/skeleton-print-mini-dress-4857523",
+        },
+      ]
+    }
+  />
+  <Link
+    className="ShopTheLook-link Button"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/3-fixed-outfit-shop-the-look-4910692?bundle=true"
+  >
+    View The Set
+  </Link>
+</div>
+`;

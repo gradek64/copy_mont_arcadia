@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`payment method selectors selectPaymentMethodForStoredPaymentDetails should extract creditCard from user 1`] = `
+Object {
+  "icon": "visa.svg",
+  "label": "Visa",
+  "value": "VISA",
+}
+`;

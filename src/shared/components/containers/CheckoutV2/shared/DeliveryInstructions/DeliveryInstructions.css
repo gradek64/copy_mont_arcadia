@@ -1,0 +1,52 @@
+/** @define DeliveryInstructions */
+
+
+.DeliveryInstructions {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  border-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+
+  &-subTitle {
+    margin-top: 0;
+    font-weight: $checkout-delivery-instructions-description;
+  }
+
+  &-paragraph {
+    font-weight: $checkout-delivery-instructions-description;
+  }
+
+  &-charsRemaining {
+    display:block;
+    margin-top: $checkout-delivery-instructions-chars-margin-top;
+    font-size: $checkout-delivery-instructions-chars-font-size;
+    font-weight: $checkout-delivery-instructions-chars-font-weight;
+    text-align: $checkout-delivery-instructions-chars-text-align;
+  }
+
+  &-inputNumber::-webkit-inner-spin-button,
+  &-inputNumber::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+}
+
+@media $min-laptop {
+  .DeliveryInstructions {
+    &-row {
+      display: flex;
+    }
+
+    &-left {
+      flex: 1;
+    }
+    &-right {
+      flex: 1;
+    }
+  }
+}

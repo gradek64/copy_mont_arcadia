@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FreeShippingMessage> @renders thresholds are present render default status 1`] = `
+<div
+  className="FreeShippingMessage FreeShippingMessage--minibag notranslate"
+>
+  <div
+    className="FreeShippingMessage-success"
+  >
+    <span
+      className="FreeShippingMessage-line1 translate"
+    >
+      Your bag qualifies for
+    </span>
+    <span
+      className="FreeShippingMessage-line2 translate"
+    >
+       free shipping
+    </span>
+  </div>
+</div>
+`;

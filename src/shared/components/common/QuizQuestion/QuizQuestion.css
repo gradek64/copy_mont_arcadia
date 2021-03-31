@@ -1,0 +1,60 @@
+/** @define QuizQuestion */
+@lost flexbox flex;
+
+.QuizQuestion {
+  background: $ex-lt-gray;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 10px 10px 20px;
+  box-sizing: border-box;
+  z-index: -1;
+
+  &.is-shown {
+    opacity: 1;
+    z-index: 1;
+    height: 100%;
+  }
+
+  &-title, &-description {
+    text-align: center;
+  }
+
+  &-title {
+    color: $quiz-color;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10% 0 10px;
+    font-size: 1.25em;
+  }
+
+  &-description {
+    margin-bottom: 20px;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 25%;
+      height: 1px;
+      background: $quiz-color;
+      margin: 15px auto;
+    }
+  }
+
+  &-option {
+    margin: 10px auto;
+    text-transform: none;
+    max-width: 240px;
+    padding: 5px;
+    background: $white;
+    border: 1px solid $dk-gray;
+    color: $dk-gray;
+
+    &:hover {
+      color: $white;
+      background: $dk-gray;
+      border-color: $dk-gray;
+    }
+  }
+}

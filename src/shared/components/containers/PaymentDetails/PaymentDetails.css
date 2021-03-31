@@ -1,0 +1,25 @@
+/** @define PaymentDetails */
+@lost flexbox flex;
+
+.PaymentDetails {
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-expiryMonth, &-expiryYear {
+    width: calc(50% - 5px);
+    margin-top: 0;
+  }
+
+  &-expiryYear:last-of-type {
+    margin-bottom: $input-margin-vertical;
+  }
+
+  &-expiryValidationMessage {
+    color: $error-color;
+    margin-bottom: $input-margin-vertical;
+    margin-top: calc($input-margin-vertical / 2 * -1);
+  }
+}

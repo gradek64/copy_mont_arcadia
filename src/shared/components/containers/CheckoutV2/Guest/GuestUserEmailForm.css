@@ -1,0 +1,22 @@
+/** @define GuestUserEmailForm; weak */
+
+.GuestUserEmailForm {
+  &-email {
+    display: block;
+  }
+
+  &-signUpGuestCheckbox {
+    margin-top: 0;
+    .Checkbox-label {
+      text-transform: none !important;
+    }
+  }
+}
+
+@media $min-laptop {
+  .GuestUserEmailForm {
+    &-email {
+      display: block;
+    }
+  }
+}

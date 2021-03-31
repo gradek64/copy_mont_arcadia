@@ -1,0 +1,96 @@
+/** @define PromotionCode */
+
+.PromotionCode {
+  &-list {
+    margin-top: 10px;
+  }
+
+  &-submit {
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  &-code {
+    margin-bottom: 10px;
+  }
+
+  &-codeActions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-codeActionSpace {
+    justify-content: space-between;
+  }
+
+  &-codeTitle, &-codeDescription {
+    color: $mini-bag-promocode-confirmed-text-color;
+    font-weight: $mini-bag-promocode-confirmed-font-weight;
+  }
+  &-codeDescription {
+    margin: 0 0 5px 0;
+  }
+
+  &-header {
+    text-transform: none;
+
+    &.is-compact {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      letter-spacing: inherit;
+    }
+  }
+
+  &-removeText,
+  &-addText {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $mini-bag-promocode-link-text-color;
+    font-size: $mini-bag-promocode-link-text-size;
+    font-style: $mini-bag-promocode-link-font-style;
+    font-weight: $mini-bag-promocode-link-text-weight;
+    line-height: $mini-bag-promocode-link-line-height;
+    letter-spacing: $mini-bag-promocode-link-letter-spacing;
+  }
+
+  &.is-expanded {
+    background: $mini-bag-accordion-background-color;
+  }
+
+  &-codeConfirmation {
+    background-color: $mini-bag-promocode-added-background-color;
+    border: $mini-bag-promocode-added-border;
+    color: $mini-bag-promocode-added-text-color;
+    font-weight: $mini-bag-promocode-added-font-weight;
+    padding: 0 $mini-bag-promocode-added-padding;
+    text-align: center;
+    margin: 5px 0;
+    opacity: 0;
+    max-height: 0;
+
+    &.is-shown {
+      padding: $mini-bag-promocode-added-padding;
+      opacity: 1;
+      max-height: 100px;
+      transition: opacity 0.5s ease;
+    }
+
+    &.is-hidden {
+      transition: all 0.5s ease;
+    }
+  }
+
+  &-message {
+    &.is-hidden {
+      display: flex;
+      margin: 0;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.PromotionCode .Message-message {
+  margin: 0;
+}

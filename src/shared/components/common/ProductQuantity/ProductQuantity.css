@@ -1,0 +1,39 @@
+/** @define ProductQuantity; weak */
+
+.ProductQuantity {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+
+  &-quantities {
+    margin-top: 0;
+    margin-bottom: $pdp-product-quantity-margin-bottom;
+    justify-content: center;
+  }
+
+  &-selectContainer {
+    max-width: 100px;
+  }
+
+  & .Select--inlineLabel .Select-label::after {
+    content: '$pdp-product-quantity-label-after-content';
+  }
+}
+
+@media $min-tablet {
+  .ProductQuantity {
+    width: 100%;
+
+    &-selectContainer {
+      width: 100px;
+    }
+
+    &-quantities {
+      justify-content: flex-start;
+    }
+
+    & .Select--inlineLabel .Select-label {
+      text-transform: $pdp-product-quantity-label-text-transform;
+    }
+  }
+}

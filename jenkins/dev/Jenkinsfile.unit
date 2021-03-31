@@ -1,0 +1,228 @@
+#!/usr/bin/env groovy
+@Library('devops_repo_shared_library')_
+
+// to avoid all the funky %2F in the BUILD_TAG strings we do this. yay
+def NICE_TAG = env.JOB_BASE_NAME.replaceAll("%2F", "-") + "-" + env.BUILD_ID
+// This credential is listed in Jenkins as: arcadia-devops2019 (Arcadia DevOps Account with SSH Credentials)
+def JENKINS_CREDS_ID  = "31e30b06-b43e-4d4b-92fb-0897fcfb2bb5"
+def eb_job_path       = "${EVENT_JOB_PATH}"
+
+pipeline {
+    agent {
+        label 'spot'
+    }
+
+    parameters {
+        string(name: 'ECR_TAG', defaultValue: '', description: 'Tag of monty docker image from ECR')
+    }
+
+    options {
+        buildDiscarder(logRotator(daysToKeepStr: '7', numToKeepStr: '50', artifactDaysToKeepStr: '7', artifactNumToKeepStr: '50'))
+        timestamps()
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
+        timeout(time: 30, unit: 'MINUTES')
+    }
+
+    stages {
+
+        stage("Pre-Flight") {
+            steps {
+                script {
+                    println(ssh_conn.get_ssh_conn())
+                }
+            }
+        }
+
+        stage('Pull from ECR') {
+
+            steps {
+                githubNotify context: 'full-monty/unit_tests', description: 'Running unit tests...', status: 'PENDING', targetUrl: env.BUILD_URL
+                echo "INFO - Cleanup a bit of space hopefully"
+                sh 'docker image prune -f || echo "INFO - Docker is already pruning"'
+                sh 'rm -f eslint_src.stylish.txt'
+                echo "Getting latest monty docker image from ECR"
+                script {
+                    def MONTY_TAG = (params.ECR_TAG == '') ? env.GIT_COMMIT : params.ECR_TAG
+                    if (MONTY_TAG.contains("/")) {
+                      MONTY_TAG = MONTY_TAG.replace("/", "-")
+                      println("INFO - Replaced forward slash [/] in branch name with dash [-] to pull from ECR")
+                    }
+                    withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'JenkinsSlaveDeploymentRole']]) {
+                      sh 'set +x; $(aws ecr get-login --no-include-email --region eu-west-1)'
+                      sh "docker pull ${ECR_URL}/monty:${MONTY_TAG}"
+                      // tag it with something predictable and unique so we can use it easily at later stages
+                      sh "docker tag ${ECR_URL}/monty:${MONTY_TAG} monty_tests_unit:${NICE_TAG}"
+                    }
+                }
+            }
+        }
+
+        stage('Run Tests') {
+
+            options {
+                skipDefaultCheckout()
+            }
+
+            parallel {
+                stage('Unit') {
+                    when {
+                        not { branch 'develop' }
+                    }
+                    agent {
+                        docker {
+                            image "monty_tests_unit:${NICE_TAG}"
+                            args '-u root'
+                            reuseNode true
+                            label 'spot'
+                        }
+                    }
+
+                    environment {
+                        NODE_ENV = 'development'
+                        CMS_TEST_MODE = 'true'
+                        FUNCTIONAL_TESTS='true'
+                        BABEL_ENV = 'test'
+                    }
+
+                    steps {
+                        sh 'cd /monty && DEBUG=superagent,nock.scope npm run jest:fast'
+                    }
+
+                    post {
+                        always {
+                            sh 'cp /monty/test-report.xml ./test-report.xml'
+                            junit 'test-report.xml'
+                        }
+                    }
+                }
+
+                stage('Unit with coverage') {
+
+                    when {
+                        branch 'develop'
+                    }
+
+                    stages {
+                        stage('Unit Coverage') {
+                            agent {
+                                docker {
+                                    image "monty_tests_unit:${NICE_TAG}"
+                                    args '-u root'
+                                    reuseNode true
+                                    label 'spot'
+                                }
+                            }
+
+                            environment {
+                                NODE_ENV = 'development'
+                                CMS_TEST_MODE = 'true'
+                                FUNCTIONAL_TESTS = 'true'
+                                BABEL_ENV = 'test'
+                            }
+
+                            steps {
+                                sh 'rm -rf /monty/coverage && rm -rf /monty/test-report.xml'
+                                sh 'cd /monty && /monty/node_modules/.bin/jest --config=/monty/build/unit/jest.config.json --coverage --ci'
+                            }
+
+                            post {
+                                always {
+                                    sh 'cp /monty/test-report.xml ./test-report.xml'
+                                    junit 'test-report.xml'
+                                    sh 'cp -a /monty/coverage/* ./'
+                                    sh 'sed -i.bak "s@^SF:/monty@SF:$(pwd)@" lcov.info'
+                                }
+                            }
+                        }
+
+                        stage('SonarQube Scanner') {
+                            steps {
+                                echo 'Pulling latest monty release number'
+                                // lets find out whats the latest release tag for full-monty
+                                withCredentials([sshUserPrivateKey(credentialsId: "${JENKINS_CREDS_ID}", keyFileVariable: 'GITHB_CERT', usernameVariable: 'GITHB_USRNM')]) {
+                                    // remove -o StrictHostKeyChecking=no from production
+                                    sh '''
+                                        GIT_SSH_COMMAND='ssh -i $GITHB_CERT -o StrictHostKeyChecking=no' git ls-remote --tags git@github.com:ag-digital/full-monty.git refs/tags/v[0-9]* | grep -o '[^\\/]*$' | sort -t. -k 1.2,1n -k 2,2n -k 3,3n | tail -1 | tr -d '\n' > ./monty_tag.txt
+                                    '''
+                                }
+
+                                script {
+                                    // sonarqube plugin doesn't give a declarative pipeline shortcut so we have to do that script
+                                    def scannerHome = tool 'SonarScanner4-0'
+                                    def projectVersion = readFile('monty_tag.txt')
+                                    withSonarQubeEnv('DevSonarQube') {
+                                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectVersion=post-'${projectVersion}'"
+                                    }
+                                }
+                                // withSonarQubeEnv('DevSonarQube') { waitForQualityGate abortPipeline: false }
+                            }
+                            post {
+                                always {
+                                    archiveArtifacts artifacts: '**/report-task.txt', allowEmptyArchive: true
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Lint') {
+                    agent {
+                        docker {
+                            image "monty_tests_unit:${NICE_TAG}"
+                            args '-u root'
+                            reuseNode true
+                            label 'spot'
+                        }
+                    }
+
+                    environment {
+                        NODE_ENV = 'development'
+                        CMS_TEST_MODE = 'true'
+                    }
+
+                    steps {
+                        echo 'running src lint'
+                        sh 'cd /monty && ./node_modules/.bin/eslint -f stylish --rulesdir=build/eslint-rules/ "src/**/*.js" "src/**/*.jsx" > eslint_src.stylish.txt'
+                        sh 'cd /monty && ./node_modules/.bin/eslint -f stylish --rulesdir=build/eslint-rules/ "test/unit/**/*.js" "test/unit/**/*.jsx" > eslint_unit.stylish.txt'
+                        sh 'cd /monty && ./node_modules/.bin/eslint -f stylish --rulesdir=build/eslint-rules/ "test/integration/**/*.js" "test/integration/**/*.jsx" > eslint_integration.stylish.txt'
+                    }
+
+                    post {
+                        always {
+                            sh 'cp /monty/eslint_*.stylish.txt ./'
+                            sh 'cat eslint_*.stylish.txt'
+                            archiveArtifacts 'eslint_*.stylish.txt'
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            githubNotify context: 'full-monty/unit_tests', description: 'Unit tests all passed!', status: 'SUCCESS', targetUrl: env.BUILD_URL
+            // Notifying Event Bus
+            build job: eb_job_path, wait: false,
+                parameters: [
+                    string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                    string(name: 'JOB_STAGE', value: 'finish')
+                ]
+        }
+        failure {
+            githubNotify context: 'full-monty/unit_tests', description: 'Unit tests failed.', status: 'FAILURE', targetUrl: env.BUILD_URL
+            // Notifying Event Bus
+            build job: eb_job_path, wait: false,
+                parameters: [
+                    string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                    string(name: 'JOB_STAGE', value: 'fail')
+                ]
+        }
+        cleanup {
+            echo "Attempt to prune orphaned volumes"
+            sh "docker volume prune -f"
+            echo "remove job tag for monty"
+            sh "docker image ls reference=monty_tests_unit:${NICE_TAG} -q | xargs --no-run-if-empty docker image rm"
+        }
+    }
+}

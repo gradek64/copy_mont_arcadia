@@ -1,0 +1,62 @@
+{
+  "exists": true,
+  "email": "returnstest@test1.com",
+  "title": "Mr",
+  "firstName": "name1",
+  "lastName": "name2",
+  "userTrackingId": 3990101,
+  "subscriptionId": "",
+  "basketItemCount": 0,
+  "creditCard": {
+    "type": "VISA",
+    "cardNumberHash": "****************************HPaM",
+    "cardNumberStar": "************1111",
+    "expiryMonth": "12",
+    "expiryYear": "2020"
+  },
+  "deliveryDetails": {
+    "addressDetailsId": 3285143,
+    "nameAndPhone": {
+      "lastName": "name2",
+      "telephone": "07123123123",
+      "title": "Mr",
+      "firstName": "name1"
+    },
+    "address": {
+      "address1": "Flat 3, 24 Grove Crescent Road",
+      "address2": "",
+      "city": "LONDON",
+      "state": "",
+      "country": "United Kingdom",
+      "postcode": "E15 1AG"
+    }
+  },
+  "billingDetails": {
+    "addressDetailsId": 3285144,
+    "nameAndPhone": {
+      "lastName": "name2",
+      "telephone": "07123123123",
+      "title": "Mr",
+      "firstName": "name1"
+    },
+    "address": {
+      "address1": "Flat 3, 24 Grove Crescent Road",
+      "address2": "",
+      "city": "LONDON",
+      "state": "",
+      "country": "United Kingdom",
+      "postcode": "E15 1AG"
+    }
+  },
+  "version": "1.6",
+  "isDDPUser": false,
+  "isDDPRenewable": false,
+  "ddpStartDate": null,
+  "ddpEndDate": null,
+  "expId1": "f30e964fc787de80f7feff9dccb3f0c6e095990e34ee27de4315d848fb1c6bdf",
+  "expId2": "3bb6bc7d9f293e10ac7a4168b798b8a8ecafe3b64ecf9f5a5af0f9b1e5292b75",
+  "hasCardNumberHash": true,
+  "hasPayPal": false,
+  "hasDeliveryDetails": true,
+  "hasBillingDetails": true
+}

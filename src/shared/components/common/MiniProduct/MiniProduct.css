@@ -1,0 +1,111 @@
+/** @define MiniProduct; weak */
+
+.MiniProduct {
+  text-align: left;
+  padding: $bundles-miniproduct-padding;
+
+  &-container {
+    display: flex;
+  }
+
+  &-imageContainer {
+    max-width: 170px;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  &-image {
+    width: 100%;
+  }
+
+  &-details {
+    width: calc(100% - 180px);
+  }
+
+  &-title {
+    margin: 0 0 20px;
+  }
+
+  &-link {
+    text-decoration: underline;
+    font-size: $bundles-miniproduct-link-font-size;
+    margin: 10px 0 20px;
+    display: block;
+    color: $bundles-miniproduct-link-color;
+  }
+
+  &-secondaryButtonGroup {
+    display: flex;
+    align-items: flex-start;
+
+    & > .AddToBag {
+      width: 100%;
+    }
+  }
+}
+
+@media $tablet {
+  .MiniProduct {
+    &--hasQuickView.MiniProduct--de,
+    &--hasQuickView.MiniProduct--fr {
+      & .MiniProduct-quickView {
+        & .ProductQuickViewButton {
+          top: -55px;
+        }
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .MiniProduct {
+    & + .BundleProducts-dividingLineBetweenItems {
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+
+    &-imageContainer {
+      margin-right: 15px;
+    }
+
+    &--hasQuickView {
+      & .SizeGuide--bundles {
+        width: calc(100% - 40px);
+        margin-left: 40px;
+        text-align: center;
+      }
+      & .MiniProduct-quickView {
+        position: relative;
+        & .ProductQuickViewButton {
+          padding: 14px;
+          position: absolute;
+          top: -47px;
+          left: 0;
+          right: auto;
+          bottom: auto;
+        }
+      }
+    }
+
+    &-details {
+      width: 100%;
+      position: relative;
+    }
+  }
+}
+
+@media $min-laptop {
+  .MiniProduct {
+    &-imageContainer {
+      margin-right: 20px;
+    }
+
+    &-image {
+      cursor: pointer;
+    }
+
+    &-title {
+      cursor: pointer;
+    }
+  }
+}

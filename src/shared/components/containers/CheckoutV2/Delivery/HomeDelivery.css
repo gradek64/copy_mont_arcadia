@@ -1,0 +1,14 @@
+/** @define HomeDeliveryV2 */
+
+.HomeDeliveryV2 {
+
+  @media $min-laptop {
+    width:60%;
+  }
+  &-form {
+    padding-bottom: $checkout-separator-height;
+  }
+  &-textContainer {
+    padding: 10px;
+  }
+}

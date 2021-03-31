@@ -1,0 +1,13 @@
+/** @define BackToAccountLink **/
+
+.BackToAccountLink {
+  &-container {
+    text-align: right;
+    padding: 0 10px 10px 0;
+  }
+
+  &-link {
+    margin: 15px 0;
+    color: $black;
+  }
+}

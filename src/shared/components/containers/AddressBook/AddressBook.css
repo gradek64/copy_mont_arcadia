@@ -1,0 +1,105 @@
+/** @define AddressBook; weak */
+
+.AddressBook {
+  &-title {
+    letter-spacing: 0;
+    font-weight: $address-book-font-weight;
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  &-ddpNotice {
+    margin-top: 0;
+  }
+
+  &-addNew {
+    margin: 0 -10px;
+    padding: 30px 10px 15px;
+  }
+  &-addNewBtn {
+    margin-bottom: 15px;
+  }
+
+  &-addNewNote {
+    display: flex;
+    background: #FFF9DE;
+    padding: 10px 15px;
+    border-top: 1px solid #FFB200;
+    border-bottom: 1px solid #FFB200;
+    margin-bottom: 15px;
+    align-items: center;
+
+    &::before {
+      content: "";
+      background: url("/assets/common/images/alert.svg") no-repeat;
+      display: block;
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+      flex: 0 0 auto;
+    }
+  }
+
+  /* accordion styles */
+  /* postcss-bem-linter: ignore */
+  &.DeliveryAddressAccordion {
+     background-color: $checkout-delivery-type-accordion-background;
+     margin-bottom: $checkout-delivery-type-accordion-margin-bottom;
+    }
+
+  & .Accordion-header {
+    min-height: 150px;
+    padding-top: 4px;
+
+
+      & .Accordion-statusIndicatorText {
+          position: absolute;
+          right: 0;
+          top: 0;
+          font-size: 12px;
+          letter-spacing: 1.5px;
+          border-bottom: $delivery-type-statusIndicatorText-border-bottom;
+          padding-bottom: 4px;
+          height: 23px;
+
+          & a {
+              text-decoration: none;
+            }
+      }
+    }
+
+
+  &.is-expanded {
+    .Accordion-header{
+      min-height: auto;
+      background-color: inherit;
+    }
+  }
+
+  & .CheckoutSubPrimaryTitle {
+      top: 45px;
+    }
+}
+
+@media $min-tablet {
+  .AddressBook {
+    &-addNewBtn {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .AddressBook {
+    &-addNewBtn
+     {
+       max-width: 60%;
+     }
+
+    &-addNew {
+      & br {
+        display: none
+      }
+    }
+  }
+}

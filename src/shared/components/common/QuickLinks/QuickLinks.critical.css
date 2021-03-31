@@ -1,0 +1,6 @@
+/** @define QuickLinks */
+.QuickLinks {
+  &-link {
+    display: none;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang={{{lang}}}>
+  <head>
+    {{#if criticalCss}}<style>{{{criticalCss}}}</style>{{/if}}
+    {{#if imageUrl}}
+    <link href="https://images.{{imageUrl}}" rel="preconnect" crossorigin />
+    <link href="https://e.curalate.com" rel="preconnect" crossorigin />
+    {{/if}}
+    {{{preloadScripts}}}
+    <link rel="stylesheet" href="/assets/common/styles/bootstrap-grid.css" media="defer-load" data-breakpoint="all"/>
+    {{#if brandlockId}}
+    <script async defer src="//d4vbikoa6dr90.cloudfront.net/{{brandlockId}}.js"></script>
+    {{/if}}
+    <script type="text/javascript">if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="/assets/common/vendors/polyfill-ie11.js"><\/script>');</script>
+    {{#if isLocalDev}}
+    <script>dataLayer = [];</script>
+    {{else}}
+    <!-- Google Tag Manager -->
+    <script>dataLayer = []; (function (w, d, s, l, i, g) {
+      if(g != 'true') {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '{{{googleTagManagerQueryParams}}}'; f.parentNode.insertBefore(j, f);
+      }
+      })(window, document, 'script', 'dataLayer', '{{{googleTagManagerId}}}', '{{{FEATURE_GTM_DISABLED}}}');</script>
+    <!-- End Google Tag Manager -->
+    {{/if}}
+    <script>window.WOOSMAP_API_KEY="{{woosmapKey}}"</script>
+    <script>window.GOOGLE_API_KEY="{{googleMapsKey}}"</script>
+    <script>
+      // activate deferred assets on DomContentLoaded
+      window.addEventListener('DOMContentLoaded', function () {
+        var deferredAssets = window.document.querySelectorAll('[media="defer-load"]');
+        for (var i = 0; i < deferredAssets.length; i++) {
+          deferredAssets[i].setAttribute('media',deferredAssets[i].getAttribute('data-breakpoint'));
+        }
+      });
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1.0, width=device-width, user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/{{brandName}}/images/apple-touch-icon.png?version={{logoVersion}}">
+    <link rel="icon" href="/assets/{{brandName}}/images/favicon.ico">
+    <link rel="manifest" href="/assets/{{brandName}}/images/manifest.json?version={{logoVersion}}">
+    <link rel="mask-icon" href="/assets/{{brandName}}/images/safari-pinned-tab.svg" color="#000000">
+    <meta name="theme-color" content="#ffffff">
+
+    {{{title}}}
+    {{{meta}}}
+    {{{styles}}}
+    {{{link}}}
+    {{{nreum}}}
+  </head>
+  <body>
+    {{{noscript}}}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{{googleTagManagerId}}}{{{googleTagManagerQueryParams}}}"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root" class="nojs">{{{html}}}</div>
+    <script>
+      window.__INITIAL_STATE__={{{initialState}}};
+      window.version={{{version}}};
+      window.webpackManifest={{{webpackManifest}}};
+      window.isRedAnt={{{isRedAnt}}};
+    </script>
+    {{{scripts}}}
+  </body>
+</html>

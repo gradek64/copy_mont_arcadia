@@ -1,0 +1,9 @@
+/** @define OrderHistoryDetailsDelivery */
+
+.OrderHistoryDetailsDelivery {
+  padding: 10px $page-padding 15px;
+
+  &-text {
+    margin: 0;
+  }
+}

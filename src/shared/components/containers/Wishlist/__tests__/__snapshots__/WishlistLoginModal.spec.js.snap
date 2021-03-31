@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WishlistLoginModal/> @Renders in its default state 1`] = `
+<div
+  className="WishlistLoginModal"
+>
+  <div
+    className="WishlistLoginModal-header"
+  >
+    <i
+      className="WishlistLoginModal-heartIcon"
+    />
+    <header
+      className="WishlistLoginModal-text"
+    >
+      Sign in to save products to your Wishlist
+    </header>
+  </div>
+  <div
+    className="WishlistLoginModal-forms"
+  >
+    <div
+      className="WishlistLoginModal-formContainer"
+    >
+      <Connect(Login)
+        className="WishlistLoginModal-loginForm"
+        errorCallback={[Function]}
+        formName="wishlistLoginModal"
+        successCallback={[Function]}
+      />
+      <Connect(ForgetPassword)
+        className="WishlistLoginModal-forgetPassword"
+      />
+    </div>
+    <div
+      className="WishlistLoginModal-formContainer"
+    >
+      <Connect(Register)
+        className="WishlistLoginModal-register"
+        errorCallback={[Function]}
+        formName="wishlistLoginModal"
+        getNextRoute={[Function]}
+        source="WISHLIST"
+        successCallback={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

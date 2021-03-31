@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotalCost @renders should render the total cost with the price value 1`] = `
+<Component
+  id="checkout-view-bag-total-cost"
+>
+  <div
+    className="TotalCost"
+  >
+    Total Cost
+    : 
+    $100
+  </div>
+</Component>
+`;

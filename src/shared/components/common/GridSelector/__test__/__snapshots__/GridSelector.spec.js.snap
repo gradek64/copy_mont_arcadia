@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridSelector /> @renders in default state 1`] = `
+<div
+  className="GridSelector "
+>
+  <div
+    className="GridSelector-buttonContainer "
+    key="2"
+  >
+    <button
+      aria-label="Display product list items in 2 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-3"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="GridSelector-buttonContainer "
+    key="3"
+  >
+    <button
+      aria-label="Display product list items in 3 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-3"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-4"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-5"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-6"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-7"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-8"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="GridSelector-buttonContainer "
+    key="4"
+  >
+    <button
+      aria-label="Display product list items in 4 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-3"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-4"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-5"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-6"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-7"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-8"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-9"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-10"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-11"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-12"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-13"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-14"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-15"
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<GridSelector /> @renders with className prop 1`] = `
+<div
+  className="GridSelector Foo"
+>
+  <div
+    className="GridSelector-buttonContainer "
+    key="2"
+  >
+    <button
+      aria-label="Display product list items in 2 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-3"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="GridSelector-buttonContainer "
+    key="3"
+  >
+    <button
+      aria-label="Display product list items in 3 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-3"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-4"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-5"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-6"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-7"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-8"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="GridSelector-buttonContainer "
+    key="4"
+  >
+    <button
+      aria-label="Display product list items in 4 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-3"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-4"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-5"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-6"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-7"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-8"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-9"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-10"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-11"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-12"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-13"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-14"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-15"
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<GridSelector /> @renders with columns prop 1`] = `
+<div
+  className="GridSelector "
+>
+  <div
+    className="GridSelector-buttonContainer "
+    key="2"
+  >
+    <button
+      aria-label="Display product list items in 2 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem2"
+          key="col-3"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="GridSelector-buttonContainer "
+    key="3"
+  >
+    <button
+      aria-label="Display product list items in 3 Columns"
+      aria-pressed={false}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-3"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-4"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-5"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-6"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-7"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem3"
+          key="col-8"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="GridSelector-buttonContainer is-active"
+    key="4"
+  >
+    <button
+      aria-label="Display product list items in 4 Columns"
+      aria-pressed={true}
+      className="GridSelector-button"
+      onClick={[Function]}
+    >
+      <div
+        className="GridSelector-buttonItemsWrapper"
+      >
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-0"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-1"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-2"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-3"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-4"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-5"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-6"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-7"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-8"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-9"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-10"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-11"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-12"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-13"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-14"
+        />
+        <span
+          className="GridSelector-buttonItem GridSelector-buttonItem4"
+          key="col-15"
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;

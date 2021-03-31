@@ -1,0 +1,42 @@
+/** @define ShippingDestination; weak */
+
+.ShippingDestination {
+
+  &-country {
+    margin-left: 5px;
+  }
+
+  &-currencySymbol {
+
+    &--bracketed {
+      &:before {
+        content: '(';
+      }
+
+      &:after {
+        content: ')';
+      }
+    }
+  }
+
+  &--dorothyPerkinsHeader {
+    &:after {
+      content: '';
+      display: inline-block;
+      margin-left: 5px;
+      border-top: 7px solid #797979;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+    }
+
+    & .ShippingDestination-country {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media $min-tablet {
+  .ShippingDestination {
+    min-width: 50px;
+  }
+}

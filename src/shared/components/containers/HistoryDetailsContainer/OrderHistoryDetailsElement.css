@@ -1,0 +1,93 @@
+/** @define OrderHistoryDetailsElement */
+@lost flexbox flex;
+@lost gutter 30px;
+
+.OrderHistoryDetailsElement {
+  padding: 10px $page-padding;
+  display: flex;
+
+  &-table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-image {
+    width: 33.3%;
+    height: 100%;
+    margin-right: 20px;
+    min-height: 110px;
+  }
+
+  &-content {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333333;
+
+    &--quantity,
+    &--productName {
+      margin-bottom: 20px;
+      font-weight: $myorder-history-details-product-name-font-weight;
+      font-size: 16px;
+    }
+
+    &--wasPrice {
+      color: #9b9b9b;
+      font-weight: 100;
+    }
+  }
+}
+
+@media $min-tablet {
+  .OrderHistoryDetailsElement {
+    display: flex;
+    padding: 15px;
+    border: 1px solid $myaccount-border-color;
+    margin: 10px 0;
+
+    &-image {
+      height: 100%;
+      width: 82px;
+      margin-right: 25px;
+    }
+
+    &-content {
+      font-size: 14px;
+      line-height: 1.8;
+
+      &--productName {
+        margin-bottom: 0;
+      }
+    }
+
+    &-table {
+      flex-direction: row;
+      flex: 1;
+    }
+
+    &-col1 {
+      order: 0;
+      flex-basis: 40%;
+    }
+
+    &-col2 {
+      order: 1;
+      flex-basis: 20%;
+    }
+
+    &-col3 {
+      order: 2;
+      flex-basis: 20%;
+    }
+
+    &-col4 {
+      order: 3;
+      flex-basis: 20%;
+      text-align: right;
+    }
+  }
+}

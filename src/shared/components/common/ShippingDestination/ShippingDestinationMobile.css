@@ -1,0 +1,10 @@
+/** @define ShippingDestinationMobile; weak */
+
+.ShippingDestinationMobile {
+    display: block;
+
+    &-countryName {
+        text-decoration: underline;
+    }
+  }
+  

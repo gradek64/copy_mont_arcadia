@@ -1,0 +1,32 @@
+/** @define NoSearchResults; weak */
+
+.NoSearchResults {
+  &-title {
+    position: relative;
+    padding: 20px;
+    background: #FFF0EB;
+    font-size: 20px;
+    font-weight: $font-weight-h1;
+    margin-bottom: 60px;
+
+    &::before{
+      position: absolute;
+      content: '';
+      left: 0;
+      right: 0;
+      bottom: -16px;
+      margin: 0 auto;
+      width: 20px;
+      height: 16px;
+      background: url('/assets/missselfridge/images/failed-search-arrow.svg');
+    }
+  }
+
+}
+
+@media $min-tablet {
+  .NoSearchResults {
+    margin: 0 auto;
+    width: 80%;
+  }
+}

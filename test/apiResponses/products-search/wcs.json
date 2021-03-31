@@ -1,0 +1,3869 @@
+{
+  "defaultImgType":"Product",
+  "canonicalUrl": "http://www.topshop.com.arcadiagroup.co.uk/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl",
+  "plpJSON": {
+    "Breadcrumbs": [
+      {
+        "searchCrumbs": [],
+        "refinementCrumbs": [
+          {
+            "ancestors": [
+              {
+                "properties": {
+                  "SourceId": "208491",
+                  "seo_title": "New In @@ All New In Clothing & Shoes @@ Topshop",
+                  "catNavigationState": "/en/tsuk/category/_/N-dgl?Nrpp=20&siteId=%2F12556",
+                  "hiddenCategory": "1",
+                  "seo_description": "Shop the latest arrivals at Topshop with New In clothing and shoes at Topshop. With daily updates and hundreds of new products added every week, these are the trends to know.",
+                  "hierarchical_level": "Level - 1",
+                  "refinement_name": "Category"
+                },
+                "label": "New In",
+                "navigationState": "/en/tsuk/category/new-in-this-week-2169932/_/N-8cnZdgl?Nrpp=20&siteId=%2F12556",
+                "siteRootPath": "/pages",
+                "contentPath": "/browse"
+              }
+            ],
+            "dimensionName": "TopShop_uk_category",
+            "properties": {
+              "SourceId": "277012",
+              "seo_title": "New In This Week  @@ New In Clothes & Shoes @@ Topshop",
+              "catNavigationState": "/en/tsuk/category/new-in-this-week-2169932/N-8cnZdgl?Nrpp=20&siteId=%2F12556&categoryId=208491",
+              "hiddenCategory": "0",
+              "seo_description": "Shop the latest arrivals at Topshop with New In clothing and accessories. With daily updates and hundreds of new products added weekly, these are the trends you need to know.",
+              "hierarchical_level": "Level - 2",
+              "refinement_name": "Category",
+              "catpath_name": "New In Fashion"
+            },
+            "label": "New In Fashion",
+            "multiSelect": false,
+            "removeAction": {
+              "navigationState": "/en/tsuk/category/N-dgl?Nrpp=20&siteId=%2F12556&categoryId=208491"
+            },
+            "displayName": "TopShop_uk_category",
+            "count": 370
+          },
+          {
+            "ancestors": [],
+            "dimensionName": "siteId",
+            "properties": {
+              "SourceId": "12556"
+            },
+            "label": "TopShopUK",
+            "multiSelect": false,
+            "removeAction": {
+              "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7?Nrpp=20&siteId=%2F12556"
+            },
+            "displayName": "siteId",
+            "count": 370
+          }
+        ],
+        "removeAllAction": {
+          "navigationState": "/en/tsuk/category/new-in-this-week-2169932/N-8cnZdgl?Nrpp=20&siteId=%2F12556&categoryId=208491",
+          "siteRootPath": "/pages",
+          "contentPath": "/browse"
+        },
+        "name": "Breadcrumbs",
+        "rangeFilterCrumbs": []
+      }
+    ],
+    "Navigation": [
+      [
+        {
+          "dimensionName": "TopShop_uk_ce3_product_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "DGraph.Strata": "16",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/dresses/N-8d7Zqn9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 59
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "15",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_tops",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "tops",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tops/N-8d7ZqnvZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 158
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "10",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_jackets & coats",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "jackets & coats",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/jackets-coats/N-8d7ZqngZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 42
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "14",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_jeans",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "jeans",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/jeans/N-8d7ZqnhZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 17
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "8",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_knitwear",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "knitwear",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/knitwear/N-8d7ZqnjZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "9",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_denim",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "denim",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/denim/N-8d7Zqn8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "4",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_trousers & leggings",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "trousers & leggings",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/trousers-leggings/N-8d7ZqnwZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 21
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "7",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_playsuits & jumpsuits",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "playsuits & jumpsuits",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/playsuits-jumpsuits/N-8d7ZqnnZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 12
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "6",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_shorts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "shorts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shorts/N-8d7ZqnqZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 17
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "5",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_skirts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "skirts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/skirts/N-8d7ZqnrZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 23
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "13",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_shoes",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "shoes",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shoes/N-8d7ZqnpZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "11",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_bags",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "bags",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bags/N-8d7Zqn4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "-6",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_hats",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "hats",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/hats/N-8d7ZqnfZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "-3",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_sunglasses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "sunglasses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/sunglasses/N-8d7ZqntZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "-2",
+                "SourceId": "ECMC_PROD_CE3_PRODUCT_TYPE_1_belts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Product Type"
+              },
+              "label": "belts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/belts/N-8d7Zqn5Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Product Type",
+          "displayName": "TopShop_uk_ce3_product_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_colour",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_black",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "black",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/black/N-8d7ZdeoZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 67
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_blue",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "blue",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/blue/N-8d7ZdepZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 70
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_camel",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "camel",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/camel/N-8d7ZderZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_cream",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "cream",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/cream/N-8d7ZdesZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 16
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_green",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "green",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/green/N-8d7ZdetZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 23
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_grey",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "grey",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/grey/N-8d7ZdeuZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 26
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_metallic",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "metallic",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/metallic/N-8d7ZdevZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_multi",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "multi",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/multi/N-8d7ZdewZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 21
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_nude",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "nude",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/nude/N-8d7ZdexZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 20
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_orange",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "orange",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/orange/N-8d7ZdeyZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_pink",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "pink",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/pink/N-8d7ZdezZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 37
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_purple",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "purple",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/purple/N-8d7Zdf0Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 10
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_red",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "red",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/red/N-8d7Zdf1Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 21
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_white",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "white",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/white/N-8d7Zdf2Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 41
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_COLOUR_1_yellow",
+                "DisplayOrder": "-1",
+                "refinement_name": "Colour"
+              },
+              "label": "yellow",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/yellow/N-8d7Zdf3Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 8
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Colour",
+          "displayName": "TopShop_uk_colour"
+        },
+        {
+          "dimensionName": "TopShop_uk_size",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_4",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "4",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/4/N-8d7ZdosZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 282
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_6",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "6",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/6/N-8d7ZdotZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 311
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_8",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "8",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/8/N-8d7ZdovZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 315
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_10",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "10",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/10/N-8d7ZdolZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 317
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_12",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "12",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/12/N-8d7ZdomZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 315
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_14",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "14",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/14/N-8d7ZdooZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 315
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_16",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "16",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/16/N-8d7ZdopZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 301
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_18",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "18",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/18/N-8d7ZdoqZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 216
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_xs",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "xs",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/xs/N-8d7Zdp3Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 30
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_xs/s",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "xs/s",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/xs-s/N-8d7Zdp4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_s",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "s",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/s/N-8d7Zdp0Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 38
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_s/m",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "s/m",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/s-m/N-8d7Zdp1Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_m",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "m",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/m/N-8d7ZdoxZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 38
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_m/l",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "m/l",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/m-l/N-8d7ZdoyZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_l",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "l",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/l/N-8d7ZdowZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 37
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_xl",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "xl",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/xl/N-8d7Zdp2Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 20
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SIZE_1_one size",
+                "DisplayOrder": "-1",
+                "refinement_name": "Size"
+              },
+              "label": "one size",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/one-size/N-8d7ZdozZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Size",
+          "displayName": "TopShop_uk_size"
+        },
+        {
+          "dimensionName": "TopShop_uk_prod_fit",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "DGraph.Strata": "4",
+                "SourceId": "ECMC_PROD_FIT_1_regular",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fit"
+              },
+              "label": "regular",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/regular/N-8d7ZpbpZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 350
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "2",
+                "SourceId": "ECMC_PROD_FIT_1_tall",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fit"
+              },
+              "label": "tall",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tall/N-8d7ZdynZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Fit",
+          "displayName": "TopShop_uk_prod_fit"
+        },
+        {
+          "maxPrice": "795.000000",
+          "minPrice": "6.000000",
+          "@type": "PriceSlider",
+          "name": "Price",
+          "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/_/N-8d7Zdgl?No=0&Nrpp=20&siteId=%2F12556",
+          "count": 370
+        },
+        {
+          "dimensionName": "TopShop_uk_shoe_size",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_35",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "35",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/35/N-8d7Zdx1Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_36",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "36",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/36/N-8d7Zdx2Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_37",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "37",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/37/N-8d7Zdx3Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_38",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "38",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/38/N-8d7Zdx4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_39",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "39",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/39/N-8d7Zdx5Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_40",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "40",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/40/N-8d7Zdx6Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_41",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "41",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/41/N-8d7Zdx7Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_SHOE_SIZE_1_42",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Size"
+              },
+              "label": "42",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/42/N-8d7Zdx8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Shoe Size",
+          "displayName": "TopShop_uk_shoe_size"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_dress_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_bardot dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "bardot dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bardot-dresses/N-8d7Z226lZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_bodycon dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "bodycon dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bodycon-dresses/N-8d7Zr2xZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_pinafore dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "pinafore dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/pinafore-dresses/N-8d7Zr2yZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_shift dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "shift dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shift-dresses/N-8d7Zr2zZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 10
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_shirt dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "shirt dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shirt-dresses/N-8d7Zr30Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_skater dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "skater dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/skater-dresses/N-8d7Zr31Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 13
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_slip dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "slip dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/slip-dresses/N-8d7Zr32Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 12
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_tunic dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "tunic dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tunic-dresses/N-8d7Zr35Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_STYLE_1_wrap dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Style"
+              },
+              "label": "wrap dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/wrap-dresses/N-8d7Z20tkZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 9
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Dress Style",
+          "displayName": "TopShop_uk_ce3_dress_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_dress_length",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_LENGTH_1_mini",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Length"
+              },
+              "label": "mini",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/mini/N-8d7Zr7lZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 26
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_LENGTH_1_midi",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Length"
+              },
+              "label": "midi",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/midi/N-8d7Zr7kZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 28
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_LENGTH_1_maxi",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Length"
+              },
+              "label": "maxi",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/maxi/N-8d7Zr7jZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Dress Length",
+          "displayName": "TopShop_uk_ce3_dress_length"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_top_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_bardot tops",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "bardot tops",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bardot-tops/N-8d7ZqyvZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 10
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_blouses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "blouses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/blouses/N-8d7ZqywZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 17
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_bodies",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "bodies",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bodies/N-8d7ZqyxZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_bralets",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "bralets",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bralets/N-8d7ZqyyZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_camis",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "camis",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/camis/N-8d7ZqyzZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 9
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_crop tops",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "crop tops",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/crop-tops/N-8d7Zqz0Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 11
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_hoodies",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "hoodies",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/hoodies/N-8d7Zqz1Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_roll and funnel necks",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "roll and funnel necks",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/roll-and funnel necks/N-8d7Zqz3Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_shirts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "shirts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shirts/N-8d7Zqz4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 12
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_sweats",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "sweats",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/sweats/N-8d7Zqz5Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_t-shirts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "t-shirts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/t-shirts/N-8d7Zqz6Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 66
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_tank tops",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "tank tops",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tank-tops/N-8d7Zqz7Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_tunics",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "tunics",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tunics/N-8d7Zqz8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TOP_STYLE_1_vests",
+                "DisplayOrder": "-1",
+                "refinement_name": "Top Style"
+              },
+              "label": "vests",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/vests/N-8d7Zqz9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Top Style",
+          "displayName": "TopShop_uk_ce3_top_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_jean_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_STYLE_1_jamie jeans",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Style"
+              },
+              "label": "jamie jeans",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/jamie-jeans/N-8d7Zq56Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_STYLE_1_joni jeans",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Style"
+              },
+              "label": "joni jeans",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/joni-jeans/N-8d7Zq57Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_STYLE_1_leigh jeans",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Style"
+              },
+              "label": "leigh jeans",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/leigh-jeans/N-8d7Zq58Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_STYLE_1_mom jeans",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Style"
+              },
+              "label": "mom jeans",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/mom-jeans/N-8d7Zq5aZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_STYLE_1_orson jeans",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Style"
+              },
+              "label": "orson jeans",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/orson-jeans/N-8d7Z1y6wZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Jeans Style",
+          "displayName": "TopShop_uk_ce3_jean_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_jean_fit",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_flared",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Fit"
+              },
+              "label": "flared",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/flared/N-8d7Zr8rZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_ripped",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Fit"
+              },
+              "label": "ripped",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/ripped/N-8d7Zrz0Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_skinny",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Fit"
+              },
+              "label": "skinny",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/skinny/N-8d7Zr8tZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 7
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_slim",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Fit"
+              },
+              "label": "slim",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/slim/N-8d7Z1yc8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_straight",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Fit"
+              },
+              "label": "straight",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/straight/N-8d7Z1yc9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_tapered",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jeans Fit"
+              },
+              "label": "tapered",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tapered/N-8d7Z1ycaZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Jeans Fit",
+          "displayName": "TopShop_uk_ce3_jean_fit"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_jacket_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_biker jackets",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "biker jackets",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/biker-jackets/N-8d7Zrn2Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 12
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_blazers",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "blazers",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/blazers/N-8d7Z1yeoZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_denim jackets",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "denim jackets",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/denim-jackets/N-8d7Zrn6Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 7
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_duster coats",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "duster coats",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/duster-coats/N-8d7Zrn7Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_kimono",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "kimono",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/kimono/N-8d7Z20txZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_lightweight jackets",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "lightweight jackets",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/lightweight-jackets/N-8d7Z1xsmZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_shacket",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "shacket",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shacket/N-8d7Z20tyZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_smart jackets",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "smart jackets",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/smart-jackets/N-8d7Zrn9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JACKET_STYLE_1_trench coats & macs",
+                "DisplayOrder": "-1",
+                "refinement_name": "Jacket & Coat Style"
+              },
+              "label": "trench coats & macs",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/trench-coats & macs/N-8d7ZrnaZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Jacket & Coat Style",
+          "displayName": "TopShop_uk_ce3_jacket_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_knitwear_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_KNITWEAR_STYLE_1_jumpers",
+                "DisplayOrder": "-1",
+                "refinement_name": "Knitwear Style"
+              },
+              "label": "jumpers",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/jumpers/N-8d7ZrgeZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_KNITWEAR_STYLE_1_knitted tops",
+                "DisplayOrder": "-1",
+                "refinement_name": "Knitwear Style"
+              },
+              "label": "knitted tops",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/knitted-tops/N-8d7ZrgfZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Knitwear Style",
+          "displayName": "TopShop_uk_ce3_knitwear_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_knitwear_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_KNITWEAR_TYPE_1_mid weight",
+                "DisplayOrder": "-1",
+                "refinement_name": "Knitwear Type"
+              },
+              "label": "mid weight",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/mid-weight/N-8d7ZqmkZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Knitwear Type",
+          "displayName": "TopShop_uk_ce3_knitwear_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_all_in_one_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_ALL_IN_ONE_TYPE_1_dungarees",
+                "DisplayOrder": "-1",
+                "refinement_name": "All in One Style"
+              },
+              "label": "dungarees",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/dungarees/N-8d7Zqs5Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_ALL_IN_ONE_TYPE_1_jumpsuits",
+                "DisplayOrder": "-1",
+                "refinement_name": "All in One Style"
+              },
+              "label": "jumpsuits",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/jumpsuits/N-8d7Zqs6Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_ALL_IN_ONE_TYPE_1_playsuits",
+                "DisplayOrder": "-1",
+                "refinement_name": "All in One Style"
+              },
+              "label": "playsuits",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/playsuits/N-8d7Zqs7Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "All in One Style",
+          "displayName": "TopShop_uk_ce3_all_in_one_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_shorts_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SHORTS_STYLE_1_casual shorts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shorts Style"
+              },
+              "label": "casual shorts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/casual-shorts/N-8d7Zr6qZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 7
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SHORTS_STYLE_1_denim shorts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shorts Style"
+              },
+              "label": "denim shorts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/denim-shorts/N-8d7Zr6rZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 10
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Shorts Style",
+          "displayName": "TopShop_uk_ce3_shorts_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_skirt_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SKIRT_STYLE_1_a-line skirts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Skirt Style"
+              },
+              "label": "a-line skirts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/a-line skirts/N-8d7Zrh9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SKIRT_STYLE_1_denim skirts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Skirt Style"
+              },
+              "label": "denim skirts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/denim-skirts/N-8d7Z2275Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 15
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SKIRT_STYLE_1_full skirts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Skirt Style"
+              },
+              "label": "full skirts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/full-skirts/N-8d7Z1xw1Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Skirt Style",
+          "displayName": "TopShop_uk_ce3_skirt_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_shorts_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SHORTS_TYPE_1_mom",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shorts Type"
+              },
+              "label": "mom",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/mom/N-8d7Z208oZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Shorts Type",
+          "displayName": "TopShop_uk_ce3_shorts_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_skirt_length",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SKIRT_LENGTH_1_mini",
+                "DisplayOrder": "-1",
+                "refinement_name": "Skirt Length"
+              },
+              "label": "mini",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/mini/N-8d7Zq7yZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 17
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SKIRT_LENGTH_1_midi",
+                "DisplayOrder": "-1",
+                "refinement_name": "Skirt Length"
+              },
+              "label": "midi",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/midi/N-8d7Zq7xZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SKIRT_LENGTH_1_maxi",
+                "DisplayOrder": "-1",
+                "refinement_name": "Skirt Length"
+              },
+              "label": "maxi",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/maxi/N-8d7Zq7wZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Skirt Length",
+          "displayName": "TopShop_uk_ce3_skirt_length"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_trouser_and_legging_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TROUSER_AND_LEGGING_STYLE_1_basic leggings",
+                "DisplayOrder": "-1",
+                "refinement_name": "Trouser & Leggings Style"
+              },
+              "label": "basic leggings",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/basic-leggings/N-8d7ZqglZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TROUSER_AND_LEGGING_STYLE_1_flares",
+                "DisplayOrder": "-1",
+                "refinement_name": "Trouser & Leggings Style"
+              },
+              "label": "flares",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/flares/N-8d7Zrx1Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TROUSER_AND_LEGGING_STYLE_1_joggers",
+                "DisplayOrder": "-1",
+                "refinement_name": "Trouser & Leggings Style"
+              },
+              "label": "joggers",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/joggers/N-8d7ZqgnZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TROUSER_AND_LEGGING_STYLE_1_printed leggings",
+                "DisplayOrder": "-1",
+                "refinement_name": "Trouser & Leggings Style"
+              },
+              "label": "printed leggings",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/printed-leggings/N-8d7ZqgoZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TROUSER_AND_LEGGING_STYLE_1_tapered & peg trousers",
+                "DisplayOrder": "-1",
+                "refinement_name": "Trouser & Leggings Style"
+              },
+              "label": "tapered & peg trousers",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/tapered-peg trousers/N-8d7ZqgpZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 11
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_TROUSER_AND_LEGGING_STYLE_1_wide leg trousers",
+                "DisplayOrder": "-1",
+                "refinement_name": "Trouser & Leggings Style"
+              },
+              "label": "wide leg trousers",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/wide-leg trousers/N-8d7ZqgqZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Trouser & Leggings Style",
+          "displayName": "TopShop_uk_ce3_trouser_and_legging_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_bag_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BAG_STYLE_1_clutch bags",
+                "DisplayOrder": "-1",
+                "refinement_name": "Bag Style"
+              },
+              "label": "clutch bags",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/clutch-bags/N-8d7ZqdzZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BAG_STYLE_1_shopper bags",
+                "DisplayOrder": "-1",
+                "refinement_name": "Bag Style"
+              },
+              "label": "shopper bags",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/shopper-bags/N-8d7Zqe4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Bag Style",
+          "displayName": "TopShop_uk_ce3_bag_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_shoe_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SHOE_STYLE_1_sandals",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Style"
+              },
+              "label": "sandals",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/sandals/N-8d7Zqd8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SHOE_STYLE_1_sliders",
+                "DisplayOrder": "-1",
+                "refinement_name": "Shoe Style"
+              },
+              "label": "sliders",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/sliders/N-8d7ZqdbZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Shoe Style",
+          "displayName": "TopShop_uk_ce3_shoe_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_hat_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_HAT_TYPE_1_fedora hats",
+                "DisplayOrder": "-1",
+                "refinement_name": "Hat Style"
+              },
+              "label": "fedora hats",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/fedora-hats/N-8d7Zr96Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Hat Style",
+          "displayName": "TopShop_uk_ce3_hat_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_belt_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BELT_TYPE_1_waist belts",
+                "DisplayOrder": "-1",
+                "refinement_name": "Belt Style"
+              },
+              "label": "waist belts",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/waist-belts/N-8d7Z204oZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Belt Style",
+          "displayName": "TopShop_uk_ce3_belt_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_sunglasses_style",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SUNGLASSES_STYLE_1_aviators",
+                "DisplayOrder": "-1",
+                "refinement_name": "Sunglasses Style"
+              },
+              "label": "aviators",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/aviators/N-8d7Zr3rZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Sunglasses Style",
+          "displayName": "TopShop_uk_ce3_sunglasses_style"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_knitwear_neck_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_KNITWEAR_NECK_TYPE_1_round neck & v neck",
+                "DisplayOrder": "-1",
+                "refinement_name": "Neckline"
+              },
+              "label": "round neck & v neck",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/round-neck & v neck/N-8d7ZqcmZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Neckline",
+          "displayName": "TopShop_uk_ce3_knitwear_neck_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_jean_waist_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_WAIST_TYPE_1_high waist",
+                "DisplayOrder": "-1",
+                "refinement_name": "Waist"
+              },
+              "label": "high waist",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/high-waist/N-8d7ZqoaZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 9
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_JEAN_WAIST_TYPE_1_mid rise",
+                "DisplayOrder": "-1",
+                "refinement_name": "Waist"
+              },
+              "label": "mid rise",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/mid-rise/N-8d7ZqocZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 8
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Waist",
+          "displayName": "TopShop_uk_ce3_jean_waist_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_sleeve_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SLEEVE_TYPE_1_3/4 sleeve",
+                "DisplayOrder": "-1",
+                "refinement_name": "Sleeve Length"
+              },
+              "label": "3/4 sleeve",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/3-4 sleeve/N-8d7ZqhtZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 5
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SLEEVE_TYPE_1_bardot",
+                "DisplayOrder": "-1",
+                "refinement_name": "Sleeve Length"
+              },
+              "label": "bardot",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/bardot/N-8d7Zrq9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SLEEVE_TYPE_1_long sleeve",
+                "DisplayOrder": "-1",
+                "refinement_name": "Sleeve Length"
+              },
+              "label": "long sleeve",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/long-sleeve/N-8d7ZqhvZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 48
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SLEEVE_TYPE_1_short sleeve",
+                "DisplayOrder": "-1",
+                "refinement_name": "Sleeve Length"
+              },
+              "label": "short sleeve",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/short-sleeve/N-8d7ZqhxZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 71
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_SLEEVE_TYPE_1_sleeveless",
+                "DisplayOrder": "-1",
+                "refinement_name": "Sleeve Length"
+              },
+              "label": "sleeveless",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/sleeveless/N-8d7Z1zg9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 31
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Sleeve Length",
+          "displayName": "TopShop_uk_ce3_sleeve_type"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_fabric",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_crochet",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "crochet",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/crochet/N-8d7ZqxzZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "2",
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_denim",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "denim",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/denim/N-8d7Zqy0Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 7
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_embroidered",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "embroidered",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/embroidered/N-8d7Z20isZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_faux leather",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "faux leather",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/faux-leather/N-8d7Z1yasZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 7
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "4",
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_leather",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "leather",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/leather/N-8d7Zqy2Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 8
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_sequin",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "sequin",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/sequin/N-8d7Zqy3Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "3",
+                "SourceId": "ECMC_PROD_CE3_FABRIC_1_suede",
+                "DisplayOrder": "-1",
+                "refinement_name": "Fabric"
+              },
+              "label": "suede",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/suede/N-8d7Zqy4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Fabric",
+          "displayName": "TopShop_uk_ce3_fabric"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_collection",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "DGraph.Strata": "4",
+                "SourceId": "ECMC_PROD_CE3_COLLECTION_1_boutique",
+                "DisplayOrder": "-1",
+                "refinement_name": "Collection"
+              },
+              "label": "boutique",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/boutique/N-8d7Zre8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 27
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "3",
+                "SourceId": "ECMC_PROD_CE3_COLLECTION_1_going out",
+                "DisplayOrder": "-1",
+                "refinement_name": "Collection"
+              },
+              "label": "going out",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/going-out/N-8d7Zre9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 9
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_COLLECTION_1_ivy park",
+                "DisplayOrder": "-1",
+                "refinement_name": "Collection"
+              },
+              "label": "ivy park",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/ivy-park/N-8d7Z1zdpZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_COLLECTION_1_limited edition",
+                "DisplayOrder": "-1",
+                "refinement_name": "Collection"
+              },
+              "label": "limited edition",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/limited-edition/N-8d7ZrecZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_COLLECTION_1_topshop basics",
+                "DisplayOrder": "-1",
+                "refinement_name": "Collection"
+              },
+              "label": "topshop basics",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/topshop-basics/N-8d7Z20qpZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 15
+            },
+            {
+              "properties": {
+                "DGraph.Strata": "5",
+                "SourceId": "ECMC_PROD_CE3_COLLECTION_1_unique",
+                "DisplayOrder": "-1",
+                "refinement_name": "Collection"
+              },
+              "label": "unique",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/unique/N-8d7ZreeZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 15
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Collection",
+          "displayName": "TopShop_uk_ce3_collection"
+        },
+        {
+          "dimensionName": "TopShop_uk_ivy_park_collections",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_IVY_PARK_COLLECTIONS_1_casualwear",
+                "DisplayOrder": "-1",
+                "refinement_name": "Ivy Park Collections"
+              },
+              "label": "casualwear",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Z1zdjZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Ivy Park Collections",
+          "displayName": "TopShop_uk_ivy_park_collections"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_brands",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_adidas",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "adidas",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/adidas/N-8d7Z21o4Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 14
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_and finally",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "and finally",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/and-finally/N-8d7Z21o5Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_band of gypsies",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "band of gypsies",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/band-of gypsies/N-8d7Z220mZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_calvin klein",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "calvin klein",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/calvin-klein/N-8d7Z21o6Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_escapology",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "escapology",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/escapology/N-8d7Z21odZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 2
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_ivy park",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "ivy park",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/ivy-park/N-8d7Z21okZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_BRANDS_1_topshop",
+                "DisplayOrder": "-1",
+                "refinement_name": "Brands"
+              },
+              "label": "topshop",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/topshop/N-8d7Z21ayZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 309
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Brands",
+          "displayName": "TopShop_uk_ce3_brands"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_heel_height",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_HEEL_HEIGHT_1_high heel",
+                "DisplayOrder": "-1",
+                "refinement_name": "Heel Height"
+              },
+              "label": "high heel",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/high-heel/N-8d7Zqe9Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_HEEL_HEIGHT_1_low heel",
+                "DisplayOrder": "-1",
+                "refinement_name": "Heel Height"
+              },
+              "label": "low heel",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/low-heel/N-8d7ZqeaZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_HEEL_HEIGHT_1_flat",
+                "DisplayOrder": "-1",
+                "refinement_name": "Heel Height"
+              },
+              "label": "flat",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/flat/N-8d7Zqe8Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Heel Height",
+          "displayName": "TopShop_uk_ce3_heel_height"
+        },
+        {
+          "dimensionName": "TopShop_uk_accessories",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_ACCESSORIES_1_s",
+                "DisplayOrder": "-1",
+                "refinement_name": "Accessories"
+              },
+              "label": "s",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/s/N-8d7ZdfwZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_ACCESSORIES_1_m",
+                "DisplayOrder": "-1",
+                "refinement_name": "Accessories"
+              },
+              "label": "m",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/m/N-8d7ZdfuZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_ITEM_ACCESSORIES_1_one size",
+                "DisplayOrder": "-1",
+                "refinement_name": "Accessories"
+              },
+              "label": "one size",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/one-size/N-8d7ZdfvZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Accessories",
+          "displayName": "TopShop_uk_accessories"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_promotions",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_PROMOTIONS_1_jersey staples 2 for £10",
+                "DisplayOrder": "-1",
+                "refinement_name": "Promotions"
+              },
+              "label": "jersey staples 2 for £10",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/jersey-staples 2 for £10/N-8d7ZrhtZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 3
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Promotions",
+          "displayName": "TopShop_uk_ce3_promotions"
+        },
+        {
+          "dimensionName": "TopShop_uk_rating",
+          "multiSelect": false,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "5",
+                "DisplayOrder": "1",
+                "refinement_name": "Rating"
+              },
+              "label": "5",
+              "multiSelect": false,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7ZdqgZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 10
+            },
+            {
+              "properties": {
+                "SourceId": "4",
+                "DisplayOrder": "2",
+                "refinement_name": "Rating"
+              },
+              "label": "4",
+              "multiSelect": false,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7ZdqhZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 11
+            },
+            {
+              "properties": {
+                "SourceId": "3",
+                "DisplayOrder": "3",
+                "refinement_name": "Rating"
+              },
+              "label": "3",
+              "multiSelect": false,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7ZdqiZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 11
+            },
+            {
+              "properties": {
+                "SourceId": "2",
+                "DisplayOrder": "4",
+                "refinement_name": "Rating"
+              },
+              "label": "2",
+              "multiSelect": false,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7ZdqjZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 14
+            },
+            {
+              "properties": {
+                "SourceId": "1",
+                "DisplayOrder": "5",
+                "refinement_name": "Rating"
+              },
+              "label": "1",
+              "multiSelect": false,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7ZdqkZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 14
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Rating",
+          "displayName": "TopShop_uk_rating"
+        },
+        {
+          "dimensionName": "TopShop_uk_ce3_dress_type",
+          "multiSelect": true,
+          "refinements": [
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_TYPE_1_day dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Type"
+              },
+              "label": "day dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/day-dresses/N-8d7Z1y60Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 1
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_TYPE_1_going out & party dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Type"
+              },
+              "label": "going out & party dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/going-out & party dresses/N-8d7Z1y63Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_TYPE_1_occasion dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Type"
+              },
+              "label": "occasion dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/occasion-dresses/N-8d7Z1y65Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 4
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_TYPE_1_summer dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Type"
+              },
+              "label": "summer dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/summer-dresses/N-8d7Z1zrcZdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 12
+            },
+            {
+              "properties": {
+                "SourceId": "ECMC_PROD_CE3_DRESS_TYPE_1_workwear dresses",
+                "DisplayOrder": "-1",
+                "refinement_name": "Dress Type"
+              },
+              "label": "workwear dresses",
+              "multiSelect": true,
+              "navigationState": [
+                "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/workwear-dresses/N-8d7Z1y67Zdgl?Nrpp=20&siteId=%2F12556"
+              ],
+              "count": 6
+            }
+          ],
+          "@type": "RefinementMenu",
+          "name": "Dress Type",
+          "displayName": "TopShop_uk_ce3_dress_type"
+        }
+      ]
+    ],
+    "results": {
+      "contents": [
+        {
+          "sortOptions": [
+            {
+              "label": "Relevance_content",
+              "selected": true,
+              "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?Nrpp=20&siteId=%2F12556",
+              "siteRootPath": "/pages",
+              "contentPath": "/browse"
+            },
+            {
+              "label": "Newness_content",
+              "selected": false,
+              "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?Nrpp=20&Ns=product.freshnessRank%7C0&siteId=%2F12556",
+              "siteRootPath": "/pages",
+              "contentPath": "/browse"
+            },
+            {
+              "label": "PriceAscending_content",
+              "selected": false,
+              "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?Nrpp=20&Ns=promoPrice%7C0&siteId=%2F12556",
+              "siteRootPath": "/pages",
+              "contentPath": "/browse"
+            },
+            {
+              "label": "PriceDescending_content",
+              "selected": false,
+              "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?Nrpp=20&Ns=promoPrice%7C1&siteId=%2F12556",
+              "siteRootPath": "/pages",
+              "contentPath": "/browse"
+            },
+            {
+              "label": "RatingDescending_content",
+              "selected": false,
+              "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?Nrpp=20&Ns=rating%7C1&siteId=%2F12556",
+              "siteRootPath": "/pages",
+              "contentPath": "/browse"
+            }
+          ],
+          "records": [
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/metallic-jersey-pleat-skirt-6520910?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "bannersMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Medium_DorothyPerkins.png",
+              "seoProductToken": "metallic-jersey-pleat-skirt-6520910",
+              "name": "Metallic Jersey Pleat Skirt",
+              "colour": "NUDE",
+              "freshnessRank": "16",
+              "nowPrice": "34.000000",
+              "outfitImage": "images/catalog/TS27S08LNUD_3col_M_1.jpg",
+              "id": "28242272",
+              "promoBanner": "false",
+              "numRecords": 0,
+              "partNumber": "TS27S08LNUD",
+              "b_hasImage": "N",
+              "longDescription": "Take+your+party+look+up+a+notch+with+this+nude+metallic+midi+skirt.+In+a+jersey+base%2C+it+comes+with+party-ready+pleat+detail.+Keep+it+casual+with+a+tee+and+trainers+or+dress+it+up+with+ankle-strap+heels+and+statement+accessories.+++100%25+Polyester.+Machine+wash.",
+              "shortDescription": "Metallic Jersey Pleat Skirt",
+              "bannersSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Small_DorothyPerkins.png",
+              "keyword": "27S08LNUD",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS27S08LNUD_3col_F_1.jpg",
+              "thumbnail": "images/catalog/27S08LNUD_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "bannersLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Large_DorothyPerkins.png",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/raw-embellished-t-shirt-6535771?bi=0&ps=20",
+              "promoDesc": "Basic Jersey Promo - 2 for £10",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "raw-embellished-t-shirt-6535771",
+              "name": "Raw Embellished T-Shirt",
+              "colour": "GREY",
+              "freshnessRank": "16",
+              "nowPrice": "30.000000",
+              "promoBadge": "true",
+              "outfitImage": "images/catalog/TS04E02LGYM_3col_M_1.jpg",
+              "id": "28269569",
+              "numRecords": 0,
+              "promoCode": "Jersey Promo 2 for £10 March 16- attributes-11166413",
+              "partNumber": "TS04E02LGYM",
+              "b_hasImage": "N",
+              "longDescription": "Add+interest+to+the+basic+tee+with+this+short+sleeve+style+in+grey+marl%2C+featuring+cut-out+embellished+detail+to+the+front.+Pair+with+trophy+trousers+for+a+look+that+can+be+taken+from+day+to+night.++85%25+Cotton%2C+15%25+Viscose.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%2710.5%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "Raw Embellished T-Shirt",
+              "keyword": "04E02LGYM",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/04E02LGYM_thumb.jpg",
+              "productImage": "images/catalog/TS04E02LGYM_3col_M_1.jpg",
+              "promoCalcode": "473094",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/hand-crochet-tie-front-bralet-5378050?bi=0&ps=20",
+              "promoDesc": "Basic Jersey Promo - 2 for £10",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "hand-crochet-tie-front-bralet-5378050",
+              "name": "Hand Crochet Tie Front Bralet",
+              "colour": "GREEN",
+              "freshnessRank": "16",
+              "nowPrice": "36.000000",
+              "promoBadge": "true",
+              "outfitImage": "images/catalog/TS23Z33JGRN_3col_M_1.jpg",
+              "id": "24226038",
+              "numRecords": 0,
+              "promoCode": "Jersey Promo 2 for £10 March 16- attributes-11166413",
+              "partNumber": "TS23Z33JGRN",
+              "b_hasImage": "N",
+              "longDescription": "Hand+crochet+bralet+with+v+neckline+and+scallop+hem+with+tie+front+detail.+100%25+Cotton.+Machine+wash.",
+              "shortDescription": "Hand Crochet Tie Front Bralet",
+              "keyword": "23Z33JGRN",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/23Z33JGRN_thumb.jpg",
+              "productImage": "images/catalog/TS23Z33JGRN_3col_F_1.jpg",
+              "promoCalcode": "473094",
+              "thumbnailImageSuffixes": "_|_2|_3|_4|_5",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/moto-denim-ruffle-skirt-6529916?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "bannersMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Medium_DorothyPerkins.png",
+              "seoProductToken": "moto-denim-ruffle-skirt-6529916",
+              "name": "MOTO Denim Ruffle Skirt",
+              "colour": "BLUE",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000092045/images/Badge_Small_2for1.png",
+              "freshnessRank": "17",
+              "nowPrice": "34.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS05R81LBLC_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000092045/images/Badge_Large_2for1.png",
+              "promoBanner": "false",
+              "id": "28278603",
+              "numRecords": 0,
+              "partNumber": "TS05R81LBLC",
+              "b_hasImage": "N",
+              "shortDescription": "MOTO Denim Ruffle Skirt",
+              "longDescription": "Update+the+denim+skirt+with+pretty+detail.+This+bleach+stone+skirt+comes+in+a+high+rise+with+girly+ruffle+details.+Pair+with+an+off-the-shoulder+crop+top+to+complete+the+look.+++100%25+Cotton.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%2710.5%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "bannersSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Small_DorothyPerkins.png",
+              "keyword": "05R81LBLC",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/05R81LBLC_thumb.jpg",
+              "productImage": "images/catalog/TS05R81LBLC_3col_F_1.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "bannersLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Large_DorothyPerkins.png",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000092045/images/Badge_Medium_2for1.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/roll-crop-t-shirt-6535818?bi=0&ps=20",
+              "promoDesc": "Basic Jersey Promo - 2 for £10",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "roll-crop-t-shirt-6535818",
+              "swatchMaxProduct": ["26263251", "25979965", "26183595"],
+              "name": "Roll Crop T-Shirt",
+              "colour": "GREY",
+              "freshnessRank": "16",
+              "nowPrice": "9.000000",
+              "promoBadge": "true",
+              "outfitImage": "images/catalog/TS04T07LGYM_3col_M_1.jpg",
+              "swatchMinProduct": ["28252600", "28252450"],
+              "id": "28252600",
+              "numRecords": 0,
+              "promoCode": "Jersey Promo 2 for £10 March 16- attributes-11166413",
+              "partNumber": "TS04T07LGYM",
+              "b_hasImage": "N",
+              "shortDescription": "Roll Crop T-Shirt",
+              "longDescription": "This+grey+marl+cropped+t-shirt+comes+with+fuss-free+roll+detail+to+the+sleeves.+In+a+cropped+fit%2C+it%E2%80%99s+idea+for+pairing+with+high-waisted+styles.+++++100%25+Cotton.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "keyword": "04T07LGYM",
+              "swatches": [
+                {
+                  "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/roll-crop-t-shirt-6535818?bi=0&ps=20",
+                  "was1Price": "20.0",
+                  "was2Price": "0",
+                  "maxPrice": "",
+                  "dayPrices": {
+                    "nowPrice": 9.0
+                  },
+                  "bannersMediumImg": "",
+                  "productType": "",
+                  "name": "Roll Crop T-Shirt",
+                  "badgesSmallImg": "",
+                  "nowPrice": "9.00",
+                  "minPrice": "9.00",
+                  "badgesLargeImg": "",
+                  "outfitImage": "images/catalog/TS04T07LGYM_3col_M_1.jpg",
+                  "id": "28252600",
+                  "partNumber": "TS04T07LGYM",
+                  "rating": "",
+                  "product.inventory": "1",
+                  "shortDescription": "Roll Crop T-Shirt",
+                  "bannersSmallImg": "",
+                  "keyword": "04T07LGYM",
+                  "b_thumbnailImageSuffixes": "",
+                  "productImage": "images/catalog/TS04T07LGYM_3col_F_1.jpg",
+                  "thumbnailImageSuffixes": "_",
+                  "bannersLargeImg": "",
+                  "rrpPrice": "0.0",
+                  "ce3BThumbnailSuffixes": "",
+                  "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+                  "badgesMediumImg": "",
+                  "swatchImage": "images/catalog/swatch/cccccc.jpg"
+                },
+                {
+                  "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/roll-back-t-shirt-6534137?bi=0&ps=20",
+                  "was1Price": "20.0",
+                  "was2Price": "15.0",
+                  "maxPrice": "",
+                  "dayPrices": {
+                    "nowPrice": 10.0
+                  },
+                  "bannersMediumImg": "",
+                  "productType": "",
+                  "name": "Roll Back T-Shirt",
+                  "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_25off.png",
+                  "nowPrice": "10.00",
+                  "minPrice": "10.00",
+                  "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_25off.png",
+                  "outfitImage": "images/catalog/TS04T08LWHT_3col_M_1.jpg",
+                  "id": "28251125",
+                  "partNumber": "TS04T08LWHT",
+                  "rating": "",
+                  "product.inventory": "1",
+                  "shortDescription": "Roll Back T-Shirt",
+                  "bannersSmallImg": "",
+                  "keyword": "04T08LWHT",
+                  "b_thumbnailImageSuffixes": "",
+                  "productImage": "images/catalog/TS04T08LWHT_3col_F_1.jpg",
+                  "thumbnailImageSuffixes": "_",
+                  "bannersLargeImg": "",
+                  "rrpPrice": "0.0",
+                  "ce3BThumbnailSuffixes": "",
+                  "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg",
+                  "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_25off.png",
+                  "swatchImage": "images/catalog/swatch/.jpg"
+                },
+                {
+                  "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/roll-crop-top-6534084?bi=0&ps=20",
+                  "was1Price": 0.0,
+                  "maxPrice": "",
+                  "dayPrices": {
+                    "nowPrice": 9.0
+                  },
+                  "bannersMediumImg": "",
+                  "productType": "",
+                  "name": "Roll Crop Top",
+                  "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_2for1.png",
+                  "nowPrice": "9.00",
+                  "minPrice": "9.00",
+                  "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_2for1.png",
+                  "outfitImage": "images/catalog/TS04T07LBLK_3col_M_1.jpg",
+                  "id": "28252450",
+                  "partNumber": "TS04T07LBLK",
+                  "rating": "",
+                  "product.inventory": "1",
+                  "shortDescription": "Roll Crop Top",
+                  "bannersSmallImg": "",
+                  "keyword": "04T07LBLK",
+                  "b_thumbnailImageSuffixes": "",
+                  "productImage": "images/catalog/TS04T07LBLK_3col_F_1.jpg",
+                  "thumbnailImageSuffixes": "_",
+                  "bannersLargeImg": "",
+                  "rrpPrice": "0.0",
+                  "ce3BThumbnailSuffixes": "",
+                  "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg",
+                  "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_2for1.png",
+                  "swatchImage": "images/catalog/swatch/000000.jpg"
+                },
+                {
+                  "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/split-side-t-shirt-5907351?bi=0&ps=20",
+                  "was1Price": 0.0,
+                  "maxPrice": "",
+                  "dayPrices": {
+                    "nowPrice": 18.0
+                  },
+                  "bannersMediumImg": "",
+                  "productType": "",
+                  "name": "Split Side T-Shirt",
+                  "badgesSmallImg": "",
+                  "nowPrice": "18.00",
+                  "minPrice": "18.00",
+                  "badgesLargeImg": "",
+                  "outfitImage": "images/catalog/TS09T40KGRN_3col_M_1.jpg",
+                  "id": "26263251",
+                  "partNumber": "TS09T40KGRN",
+                  "rating": "5.0",
+                  "product.inventory": "1",
+                  "shortDescription": "Split Side T-Shirt",
+                  "bannersSmallImg": "",
+                  "keyword": "09T40KGRN",
+                  "b_thumbnailImageSuffixes": "",
+                  "productImage": "images/catalog/TS09T40KGRN_3col_F_1.jpg",
+                  "thumbnailImageSuffixes": "_",
+                  "bannersLargeImg": "",
+                  "rrpPrice": "0.0",
+                  "ce3BThumbnailSuffixes": "",
+                  "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+                  "badgesMediumImg": "",
+                  "swatchImage": "images/catalog/swatch/293d29.jpg"
+                },
+                {
+                  "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/split-side-tee-5813365?bi=0&ps=20",
+                  "was1Price": 0.0,
+                  "maxPrice": "",
+                  "dayPrices": {
+                    "nowPrice": 18.0
+                  },
+                  "bannersMediumImg": "",
+                  "productType": "",
+                  "name": "Split Side Tee",
+                  "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_2for1.png",
+                  "nowPrice": "18.00",
+                  "minPrice": "18.00",
+                  "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_2for1.png",
+                  "outfitImage": "images/catalog/TS09T40KWBK_3col_M_1.jpg",
+                  "id": "25979965",
+                  "partNumber": "TS09T40KWBK",
+                  "rating": "5.0",
+                  "product.inventory": "1",
+                  "shortDescription": "Split Side Tee",
+                  "bannersSmallImg": "",
+                  "keyword": "09T40KWBK",
+                  "b_thumbnailImageSuffixes": "",
+                  "productImage": "images/catalog/TS09T40KWBK_3col_F_1.jpg",
+                  "thumbnailImageSuffixes": "_",
+                  "bannersLargeImg": "",
+                  "rrpPrice": "0.0",
+                  "ce3BThumbnailSuffixes": "",
+                  "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+                  "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_2for1.png",
+                  "swatchImage": "images/catalog/swatch/333333.jpg"
+                },
+                {
+                  "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/split-side-tee-5872094?bi=0&ps=20",
+                  "was1Price": 0.0,
+                  "maxPrice": "",
+                  "dayPrices": {
+                    "nowPrice": 18.0
+                  },
+                  "bannersMediumImg": "",
+                  "productType": "",
+                  "name": "Split-side Tee",
+                  "badgesSmallImg": "",
+                  "nowPrice": "18.00",
+                  "minPrice": "18.00",
+                  "badgesLargeImg": "",
+                  "outfitImage": "images/catalog/TS09T40KSTN_3col_M_1.jpg",
+                  "id": "26183595",
+                  "partNumber": "TS09T40KSTN",
+                  "rating": "",
+                  "product.inventory": "1",
+                  "shortDescription": "Split-side Tee",
+                  "bannersSmallImg": "",
+                  "keyword": "09T40KSTN",
+                  "b_thumbnailImageSuffixes": "",
+                  "productImage": "images/catalog/TS09T40KSTN_3col_F_1.jpg",
+                  "thumbnailImageSuffixes": "_",
+                  "bannersLargeImg": "",
+                  "rrpPrice": "0.0",
+                  "ce3BThumbnailSuffixes": "",
+                  "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+                  "badgesMediumImg": "",
+                  "swatchImage": "images/catalog/swatch/d6c2c9.jpg"
+                }
+              ],
+              "b_thumbnailImageSuffixes": "",
+              "promoCalcode": "473094",
+              "thumbnail": "images/catalog/04T07LGYM_thumb.jpg",
+              "productImage": "images/catalog/TS04T07LGYM_3col_F_1.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/save-the-future-t-shirt-6535788?bi=0&ps=20",
+              "promoDesc": "Basic Jersey Promo - 2 for £10",
+              "was1Price": 0.0,
+              "sale": "0",
+              "bannersMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Medium_Profile.png",
+              "seoProductToken": "save-the-future-t-shirt-6535788",
+              "name": "Save The Future T-Shirt",
+              "colour": "GREY",
+              "freshnessRank": "16",
+              "nowPrice": "15.000000",
+              "promoBadge": "true",
+              "outfitImage": "images/catalog/TS04M13MWHT_3col_M_1.jpg",
+              "promoBanner": "false",
+              "id": "28269475",
+              "numRecords": 0,
+              "promoCode": "Jersey Promo 2 for £10 March 16- attributes-11166413",
+              "partNumber": "TS04M13MWHT",
+              "b_hasImage": "N",
+              "shortDescription": "Save The Future T-Shirt",
+              "longDescription": "Speak+your+mind+with+a+statement+piece+of+clothing.+This+grey+marl+tee+comes+with+a+bold+%E2%80%98SAVE+THE+FUTURE%E2%80%99+slogan+to+the+front+in+red.+Guaranteed+to+turn+heads+your+way%2C+we%E2%80%99ve+amplified+the+look+by+pairing+with+red+trousers+to+co-ordinate+the+look.+++90%25+Cotton%2C+10%25+Polyester.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%2710.5%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "bannersSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Small_Profile.png",
+              "keyword": "04M13MWHT",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS04M13MWHT_3col_F_1.jpg",
+              "promoCalcode": "473094",
+              "thumbnail": "images/catalog/04M13MWHT_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "bannersLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Large_Profile.png",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/faux-shearling-biker-jacket-6534004?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "faux-shearling-biker-jacket-6534004",
+              "name": "Faux Shearling Biker Jacket",
+              "colour": "RED",
+              "freshnessRank": "16",
+              "nowPrice": "85.000000",
+              "outfitImage": "images/catalog/TS11A02LBRG_3col_M_1.jpg",
+              "id": "27777746",
+              "numRecords": 0,
+              "partNumber": "TS11A02LBRG",
+              "b_hasImage": "N",
+              "longDescription": "Faux+shearling+biker+jacket+with+cream+interior+and+silver+trims.+100%25+Polyester.+Dry+clean+only.",
+              "shortDescription": "Faux Shearling Biker Jacket",
+              "keyword": "11A02LBRG",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/11A02LBRG_thumb.jpg",
+              "productImage": "images/catalog/TS11A02LBRG_3col_F_1.jpg",
+              "EmailBackInStock": "N",
+              "thumbnailImageSuffixes": "_",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/love-will-save-us-applique-t-shirt-6535759?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "bannersMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Medium_Profile.png",
+              "seoProductToken": "love-will-save-us-applique-t-shirt-6535759",
+              "name": "Love Will Save Us Applique T-Shirt",
+              "colour": "WHITE",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_25off.png",
+              "freshnessRank": "16",
+              "nowPrice": "18.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS04M05MWHT_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_25off.png",
+              "promoBanner": "false",
+              "id": "28269438",
+              "numRecords": 0,
+              "partNumber": "TS04M05MWHT",
+              "b_hasImage": "N",
+              "shortDescription": "Love Will Save Us Applique T-Shirt",
+              "longDescription": "Make+a+bold+statement+with+the+%E2%80%98Love+Will+Save+Us%E2%80%99+motif+tee.+In+a+basic+white%2C+it%E2%80%99s+also+embellished+with+cartoon-style+floral+embroidery.+++100%25+Cotton.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "bannersSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Small_Profile.png",
+              "keyword": "04M05MWHT",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/04M05MWHT_thumb.jpg",
+              "productImage": "images/catalog/TS04M05MWHT_3col_F_1.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "bannersLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Large_Profile.png",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_25off.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/bardot-skater-dress-6532736?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "bardot-skater-dress-6532736",
+              "name": "Bardot Skater Dress",
+              "colour": "NUDE",
+              "freshnessRank": "16",
+              "nowPrice": "26.000000",
+              "outfitImage": "images/catalog/TS10F43LNUD_3col_M_1.jpg",
+              "id": "28182973",
+              "numRecords": 0,
+              "partNumber": "TS10F43LNUD",
+              "rating": "5.000000",
+              "b_hasImage": "N",
+              "longDescription": "Simple+but+stylish%2C+this+off+the+shoulder+mini+dress+in+black+comes+in+a+nude-pink+ribbed+jersey+with+a+skater+shape+for+a+pretty+silhouette.++94%25+Nylon%2C+6%25+Elastane.+Machine+wash.",
+              "shortDescription": "Bardot Skater Dress",
+              "keyword": "10F43LNUD",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS10F43LNUD_3col_F_1.jpg",
+              "thumbnail": "images/catalog/10F43LNUD_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/plunge-tie-back-dress-6537961?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "plunge-tie-back-dress-6537961",
+              "name": "Plunge Tie Back Dress",
+              "colour": "NUDE",
+              "freshnessRank": "16",
+              "nowPrice": "25.000000",
+              "outfitImage": "images/catalog/TS35B59LDND_3col_M_1.jpg",
+              "id": "28042957",
+              "numRecords": 0,
+              "partNumber": "TS35B59LDND",
+              "b_hasImage": "N",
+              "longDescription": "Accentuate+your+figure+in+this+body-skimming+short+sleeve+dress+in+nude.+With+a+plunge+neckline%2C+it+is+finished+with+short+sleeves%2C+a+cut+out+back+and+pretty+tie-up+detail.+Add+sky-high+heels+to+complement+the+look.+++97%25+Polyester%2C+3%25+Elastane.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "Plunge Tie Back Dress",
+              "keyword": "35B59LDND",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/35B59LDND_thumb.jpg",
+              "productImage": "images/catalog/TS35B59LDND_3col_F_1.jpg",
+              "EmailBackInStock": "N",
+              "thumbnailImageSuffixes": "_",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/crepe-godet-dress-by-boutique-6419890?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "crepe-godet-dress-by-boutique-6419890",
+              "name": "Crepe Godet Dress by Boutique",
+              "colour": "BLACK",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_2for1.png",
+              "freshnessRank": "16",
+              "nowPrice": "69.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS25R70LBLK_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_2for1.png",
+              "id": "27924816",
+              "numRecords": 0,
+              "partNumber": "TS25R70LBLK",
+              "b_hasImage": "N",
+              "longDescription": "Simple+and+elegant%2C+this+sleeveless+cowl+neck+dress+by+Boutique+comes+with+godet+insert+panels+and+a+zip+fastening+at+the+centre+back.+Keep+the+look+casual+by+styling+with+crisp+white+trainers.++++100%25+Polyester.+Do+not+tumble+dry.",
+              "shortDescription": "Crepe Godet Dress by Boutique",
+              "keyword": "25R70LBLK",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS25R70LBLK_3col_F_1.jpg",
+              "thumbnail": "images/catalog/25R70LBLK_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg|M_5.jpg|M_6.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_2for1.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/colour-block-jumpsuit-6277630?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "colour-block-jumpsuit-6277630",
+              "name": "Colour Block Jumpsuit",
+              "colour": "MULTI",
+              "freshnessRank": "16",
+              "nowPrice": "42.000000",
+              "outfitImage": "images/catalog/TS16W02LMUL_3col_M_1.jpg",
+              "id": "27452447",
+              "numRecords": 0,
+              "partNumber": "TS16W02LMUL",
+              "b_hasImage": "N",
+              "longDescription": "Work+two+contrasting+shades+in+one+with+this+half-and-half+jumpsuit.+Spliced+in+a+nude+and+black+colourblock+design%2C+it+is+finished+with+a+v-neckline+and+double+back+tie+detail.+In+an+ankle-skimming+length%2C+it%E2%80%99s+perfect+to+wear+on+warmer+days+or+as+a+layering+piece.++100%25+Polyester.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%2710%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "Colour Block Jumpsuit",
+              "keyword": "16W02LMUL",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/16W02LMUL_thumb.jpg",
+              "productImage": "images/catalog/TS16W02LMUL_3col_F_1.jpg",
+              "EmailBackInStock": "N",
+              "thumbnailImageSuffixes": "_",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_4.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/moto-fishnet-insert-mom-shorts-6590302?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "moto-fishnet-insert-mom-shorts-6590302",
+              "name": "MOTO Fishnet Insert Mom Shorts",
+              "colour": "BLUE",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000092045/images/Badge_Small_2for1.png",
+              "freshnessRank": "0",
+              "nowPrice": "32.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS05B01MMDT_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000092045/images/Badge_Large_2for1.png",
+              "id": "28423690",
+              "numRecords": 0,
+              "partNumber": "TS05B01MMDT",
+              "b_hasImage": "N",
+              "longDescription": "Upgrade+your+denim+with+our+edgy+mom+shorts.+In+a+washed+appearance+with+the+standard+five+pockets%2C+this+modern+style+is+fashioned+with+rips+and+novel+fishnet+inserts.+Achieve+festival+perfection+by+teaming+with+a+rock+%27n%27+roll+t-shirt+and+lace-up+boots.+100%25+Cotton.+Machine+wash.+%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "MOTO Fishnet Insert Mom Shorts",
+              "keyword": "05B01MMDT",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS05B01MMDT_3col_F_1.jpg",
+              "thumbnail": "images/catalog/05B01MMDT_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000092045/images/Badge_Medium_2for1.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/tie-neck-cotton-top-by-boutique-6587674?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "tie-neck-cotton-top-by-boutique-6587674",
+              "name": "Tie Neck Cotton Top by Boutique",
+              "colour": "WHITE",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_25off.png",
+              "freshnessRank": "0",
+              "nowPrice": "60.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS25P19LWHT_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_25off.png",
+              "id": "28127585",
+              "numRecords": 0,
+              "partNumber": "TS25P19LWHT",
+              "b_hasImage": "N",
+              "longDescription": "Cotton+funnel+neck+top+with+a+tie+neckline%2C+by+Boutique.+100%25+Cotton.+Machine+wash.",
+              "shortDescription": "Tie Neck Cotton Top by Boutique",
+              "keyword": "25P19LWHT",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS25P19LWHT_3col_F_1.jpg",
+              "thumbnail": "images/catalog/25P19LWHT_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg|M_5.jpg|M_6.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_25off.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/ruched-jacquard-slip-dress-by-boutique-6587013?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "ruched-jacquard-slip-dress-by-boutique-6587013",
+              "name": "Ruched Jacquard Slip Dress by Boutique",
+              "colour": "BLACK",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_2for1.png",
+              "freshnessRank": "0",
+              "nowPrice": "130.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS25R80LBLK_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_2for1.png",
+              "id": "28413102",
+              "numRecords": 0,
+              "partNumber": "TS25R80LBLK",
+              "b_hasImage": "N",
+              "longDescription": "Fashion-forward+and+flattering%2C+this+black+jacquard+maxi+slip+by+Boutique+is+packed+with+innovative+details.+In+fluid+fabric%2C+this+strappy+dress+features+a+ruched+godet+insert+and+a+semi-fitted+bodice%3B+it%27s+asymmetric+hem+adds+the+finishing+touches.+Made+in+Britain.+100%25+Viscose.+Dry+clean+only.",
+              "shortDescription": "Ruched Jacquard Slip Dress by Boutique",
+              "keyword": "25R80LBLK",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS25R80LBLK_3col_F_1.jpg",
+              "thumbnail": "images/catalog/25R80LBLK_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg|M_5.jpg|M_6.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_2for1.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/frill-hem-gingham-trousers-6585748?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "frill-hem-gingham-trousers-6585748",
+              "name": "Frill Hem Gingham Trousers",
+              "colour": "BLACK",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_2for1.png",
+              "freshnessRank": "0",
+              "nowPrice": "25.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS16T02MMON_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_2for1.png",
+              "id": "28228369",
+              "numRecords": 0,
+              "partNumber": "TS16T02MMON",
+              "b_hasImage": "N",
+              "longDescription": "These+fancy+gingham+trousers+feature+a+cropped%2C+high-waisted+fit+and+a+fun+frill+hem.+Team+with+pared-down+separates+and+a+laid-back+sensibility.+86%25+Viscose%2C+12%25+Polyamide%2C+2%25+Elastane.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "Frill Hem Gingham Trousers",
+              "keyword": "16T02MMON",
+              "b_thumbnailImageSuffixes": "",
+              "productImage": "images/catalog/TS16T02MMON_3col_F_1.jpg",
+              "thumbnail": "images/catalog/16T02MMON_thumb.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_2for1.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/moto-ruffle-mini-skirt-6584223?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "bannersMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Medium_DorothyPerkins.png",
+              "seoProductToken": "moto-ruffle-mini-skirt-6584223",
+              "name": "MOTO Ruffle Mini Skirt",
+              "colour": "WHITE",
+              "badgesSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Small_25off.png",
+              "freshnessRank": "0",
+              "nowPrice": "34.000000",
+              "promoBadge": "false",
+              "outfitImage": "images/catalog/TS05R81LWHT_3col_M_1.jpg",
+              "badgesLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Large_25off.png",
+              "promoBanner": "false",
+              "id": "28397163",
+              "numRecords": 0,
+              "partNumber": "TS05R81LWHT",
+              "b_hasImage": "N",
+              "shortDescription": "MOTO Ruffle Mini Skirt",
+              "longDescription": "Denim+mini+ruffle+skirt+in+white.+100%25+Cotton.+Machine+wash.",
+              "bannersSmallImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Small_DorothyPerkins.png",
+              "keyword": "05R81LWHT",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/05R81LWHT_thumb.jpg",
+              "productImage": "images/catalog/TS05R81LWHT_3col_F_1.jpg",
+              "thumbnailImageSuffixes": "_",
+              "EmailBackInStock": "N",
+              "bannersLargeImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000103444/images/Banner_Large_DorothyPerkins.png",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg",
+              "sizeGuide": "Conversions",
+              "badgesMediumImg": "/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/cms/pages/static/static-0000091951/images/Badge_Medium_25off.png"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/raw-hem-flare-knit-by-boutique-6521073?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "raw-hem-flare-knit-by-boutique-6521073",
+              "name": "Raw Hem Flare Knit by Boutique",
+              "colour": "CREAM",
+              "freshnessRank": "0",
+              "nowPrice": "55.000000",
+              "outfitImage": "images/catalog/TS25P03LIVR_3col_M_1.jpg",
+              "id": "28243245",
+              "numRecords": 0,
+              "partNumber": "TS25P03LIVR",
+              "b_hasImage": "N",
+              "longDescription": "Flared+sleeve+raw+hem+knit+with+v-neck+line%2C+by+Boutqiue.+100%25+Cotton.+Do+not+tumble+dry.",
+              "shortDescription": "Raw Hem Flare Knit by Boutique",
+              "keyword": "25P03LIVR",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/25P03LIVR_thumb.jpg",
+              "productImage": "images/catalog/TS25P03LIVR_3col_F_1.jpg",
+              "EmailBackInStock": "N",
+              "thumbnailImageSuffixes": "_",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg|M_5.jpg|M_6.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/choker-collar-ribbed-midi-dress-6589712?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "choker-collar-ribbed-midi-dress-6589712",
+              "name": "Choker Collar Ribbed Midi Dress",
+              "colour": "GREY",
+              "freshnessRank": "0",
+              "nowPrice": "25.000000",
+              "outfitImage": "images/catalog/TS35B43LGRY_3col_M_1.jpg",
+              "id": "27711397",
+              "numRecords": 0,
+              "partNumber": "TS35B43LGRY",
+              "b_hasImage": "N",
+              "longDescription": "This+ribbed+midi+dress+is+a+great+canvas+for+accessorising.+Featuring+half+sleeves+and+a+scoop+neckline%2C+it%27s+enhanced+with+a+choker+collar.+95%25+Viscose%2C+5%25+Elastane.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "Choker Collar Ribbed Midi Dress",
+              "keyword": "35B43LGRY",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/35B43LGRY_thumb.jpg",
+              "productImage": "images/catalog/TS35B43LGRY_3col_F_1.jpg",
+              "EmailBackInStock": "N",
+              "thumbnailImageSuffixes": "_",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg|M_4.jpg",
+              "sizeGuide": "Conversions"
+            },
+            {
+              "productUrl": "/en/tsuk/product/new-in-this-week-2169932/new-in-fashion-6367514/cropped-peg-trousers-6589774?bi=0&ps=20",
+              "was1Price": 0.0,
+              "sale": "0",
+              "seoProductToken": "cropped-peg-trousers-6589774",
+              "name": "Cropped Peg Trousers",
+              "colour": "GREY",
+              "freshnessRank": "0",
+              "nowPrice": "35.000000",
+              "outfitImage": "images/catalog/TS36D01LSLT_3col_M_1.jpg",
+              "id": "28423474",
+              "numRecords": 0,
+              "partNumber": "TS36D01LSLT",
+              "b_hasImage": "N",
+              "longDescription": "Smart+and+stylish%2C+our+peg+leg+trousers+can+be+worked+in+to+smart+and+casual+looks+alike.+In+a+cropped%2C+high-waisted+fit%2C+this+trend-focused+style+features+a+front+pleat+and+multiple+pockets.+Partner+with+a+Breton+stripe+t-shirt+for+an+off-duty+take.+77%25+Polyester%2C+18%25+Viscose%2C+5%25+Elastane.+Machine+wash.%3Cbr%3E%3Cbr%3E%3Cb%3EModel%27s+height+is+5%279%E2%80%9D+and+she+wears+a+UK+size+8.%3C%2Fb%3E",
+              "shortDescription": "Cropped Peg Trousers",
+              "keyword": "36D01LSLT",
+              "b_thumbnailImageSuffixes": "",
+              "thumbnail": "images/catalog/36D01LSLT_thumb.jpg",
+              "productImage": "images/catalog/TS36D01LSLT_3col_F_1.jpg",
+              "EmailBackInStock": "N",
+              "thumbnailImageSuffixes": "_",
+              "catentType": "ProductBean",
+              "seoCommonToken": "en/tsuk/product",
+              "ce3ThumbnailSuffixes": "F_1.jpg|M_1.jpg|M_2.jpg|M_3.jpg",
+              "sizeGuide": "Conversions"
+            }
+          ],
+          "precomputedSorts": [],
+          "totalNumRecs": 370,
+          "firstRecNum": 1,
+          "recsPerPage": 20,
+          "@type": "ResultsList",
+          "name": "Results List",
+          "pagingActionTemplate": {
+            "navigationState": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?No=%7Boffset%7D&Nrpp=%7BrecordsPerPage%7D&siteId=%2F12556",
+            "siteRootPath": "/pages",
+            "contentPath": "/browse"
+          },
+          "lastRecNum": 20
+        }
+      ],
+      "@type": "ContentSlotMain",
+      "name": "Results List"
+    },
+    "metaDescription": "Shop the latest arrivals at Topshop with New In clothing and accessories. With daily updates and hundreds of new products added weekly, these are the trends you need to know.",
+    "title": "New In This Week  | New In Clothes & Shoes | Topshop",
+    "CategoryBanner": {
+      "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+categoryheader-0000077316+baseline%3A+63+revision%3A+0+published%3A+2017-07-05+11%3A25%3A12.826409%3ABen+Moffitt+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage77316+%3D+%7B+%22pageId%22%3A+77316%2C+%22pageName%22%3A+%22categoryheader-0000077316%22%2C+%22breadcrumb%22%3A+%22%22%2C+%22baseline%22%3A+%2263%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222017-07-05+11%3A25%3A12.826409%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fcategoryheader%2Fcategoryheader-0000077316%2Fcategoryheader-0000077316.html%22%2C+%22seoUrl%22%3A+%22%22%2C+%22mobileCMSUrl%22%3A+%22%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000011311+baseline%3A+23+revision%3A+0+description%3A+CatHeader+Multi-Row+Menu+%28MASTER%29+%28REF+0000011309%29+published%3A+2014-02-13+15%3A22%3A03.468851+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22%7B1%7D%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fcategoryheader%2Ftemplate-0000011311%2Fcss%2Fdefault.css%22+%2F%3E%3Cstyle+type%3D%22text%2Fcss%22%3E+%2F*%3C%21%5BCDATA%5B*%2F+%3B+%3B+%2F*%5D%5D%3E*%2F+%3C%2Fstyle%3E+%3Cdiv+id%3D%22CatHeaderMultiColumnMenu77316%22+class%3D%22CatHeaderMultiColumnMenuContent+default%22%3E+%3Cdiv+id%3D%22mainContent%22%3E+%3Ch1%3EDresses%3C%2Fh1%3E+%3Cdiv+id%3D%27description%27%3E+%3Cp%3EShop+the+essential+dresses+of+the+season+online+at+Topshop.+From+bardot+necklines+to+wrap+styles+and+shirt+dresses+%26%238211%3B+we%26%238217%3Bve+got+trending+styles+to+go+AM+to+PM.+After-hours+dresses+are+given+a+cool+spin+for+%3Ca+style%3D%22text-decoration%3A+none%3B%22+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fgoing-out-938%2FN-867Zdgl%3FNo%3D0%26amp%3BNrpp%3D20%26amp%3BsiteId%3D%252F12556%22%3Epartywear%3C%2Fa%3E+season+-+think+tulle+styles%2C+%3Ca+style%3D%22text-decoration%3A+none%3B%22+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fbodycon-dresses%2FN-85cZr2xZdgl%22%3Ebodycon+dresses%3C%2Fa%3E%26%23160%3Band+top-to-toe+sequins%2C+while+%3Ca+style%3D%22text-decoration%3A+none%3B%22+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fday-dresses%2FN-85cZ1y60Zdgl%22%3Eday+dresses%3C%2Fa%3E%26%23160%3Bcome+with+new+spring-inspired+florals+and+oversized+ruffles.+Love+them+all%3F+Check+out+our+%3Ca+style%3D%22text-decoration%3A+none%3B%22+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fthe-dress-guide-5052314%2Fhome%22%3EDress+Guide%3C%2Fa%3E%26%23160%3Bto+find+your+perfect+fit.%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cdiv+id%3D%22columns%22%3E+%3Cul+id%3D%27firstUl%27+class%3D%27colWidth4%27%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27firstli1%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fbardot-dresses%2FN-85cZ226wZdgl%3FNrpp%3D20%26amp%3BsiteId%3D%2F12556%26amp%3Bcat1%3D203984%26amp%3Bcat2%3D208523%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_BARDOT%22+title%3D%27Bardot+Dresses%27%3EBardot+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27firstli2%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fslip-dresses%2FN-85cZr32Zdgl%3FNrpp%3D20%26amp%3BsiteId%3D%2F12556%26amp%3Bcat1%3D203984%26amp%3Bcat2%3D208523%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_SLIP_DRESSES%22+title%3D%27Slip+Dresses%27%3ESlip+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27firstli3%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fmaxi%2FN-85cZr7jZdgl%3FNrpp%3D20%26amp%3BsiteId%3D%2F12556%26amp%3Bcat1%3D203984%26amp%3Bcat2%3D208523%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_MAXI%22+title%3D%27Maxi+Dresses%27%3EMaxi+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27firstli4%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fshirt-dresses%2FN-85cZr30Zdgl%3FNo%3D0%26amp%3BNrpp%3D20%26amp%3BsiteId%3D%252F12556%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_SHIRT_DRESSES%22+title%3D%27Shirt+Dresses%27%3EShirt+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3C%2Ful%3E+%3Cul+id%3D%27secondUl%27+class%3D%27colWidth4%27%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27secondli1%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fwrap-dresses%2FN-85cZ20tkZdgl%3FNo%3D0%26amp%3BNrpp%3D20%26amp%3BsiteId%3D%252F12556%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_WRAP_DRESSES%22+title%3D%27Wrap+Dresses%27%3EWrap+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27secondli2%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fgoing-out-party-dresses%2FN-85cZ1y63Zdgl%3FNo%3D0%26amp%3BNrpp%3D20%26amp%3BsiteId%3D%252F12556%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_GOING_OUT_DRESSES%22+title%3D%27Going+Out+Dresses%27%3EGoing+Out+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27secondli3%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fpinafore-dresses%2FN-85cZr2yZdgl%3FNo%3D0%26amp%3BNrpp%3D20%26amp%3BsiteId%3D%252F12556%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_PINAFORE_DRESSES%22+title%3D%27Pinafore+Dresses%27%3EPinafore+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3Cli+class%3D%27boldmenulinks+colourmenulinks%27+id%3D%27secondli4%27%3E%3Ca+href%3D%22%2Fen%2Ftsuk%2Fcategory%2Fclothing-427%2Fdresses-442%2Fskater-dresses%2FN-85cZr31Zdgl%3FNo%3D0%26amp%3BNrpp%3D20%26amp%3BsiteId%3D%252F12556%26amp%3Bintcmpid%3DW_HEADER_VIEWALLDRESSES_UK_SKATER_DRESSES%22+title%3D%27Skater+Dresses%27%3ESkater+Dresses%3C%2Fa%3E%3C%2Fli%3E+%3C%2Ful%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+_ArcQ+%3D+_ArcQ+%7C%7C+%5B%5D%3B+var+catHeaderToggle+%3D+function+%28%29+%7B+%7D%3B+_ArcQ.push%28%5BcatHeaderToggle%5D%29%3B+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--Using+Master+Template%3A+%2Fcategoryheader%2Ftemplate-0000011309+--%3E+",
+      "cmsMobileContent": {
+          "seoUrl": "",
+          "breadcrumb": "",
+          "baseline": "63",
+          "lastPublished": "2017-07-05 11:25:12.826409",
+          "mobileCMSUrl": "",
+          "pageId": 77316,
+          "pageName": "categoryheader-0000077316",
+          "revision": "0",
+          "contentPath": "cms/pages/categoryheader/categoryheader-0000077316/categoryheader-0000077316.html"
+      }
+    },
+    "pagination": {
+      "currentPage": 1,
+      "navigationState": "/N-8d7Zdgl?No=0&siteId=/12556&Nrpp=20&&&&&&&No=0"
+    },
+    "keywords": "",
+    "canonicalURL": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl"
+  },
+  "qubitContent": {
+    "window.universal_variable": {
+      "version": "1.2.0",
+      "page": {
+        "type": "Category",
+        "breadcrumb": ["New In Fashion"]
+      },
+
+      "user": {
+        "user_id": "-1002"
+      },
+      "listing": {
+        "result_count": 20,
+
+        "items": [
+          {
+            "id": "28242272",
+            "name": "Metallic Jersey Pleat Skirt",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 34.0,
+            "unit_price": 34.0
+          },
+          {
+            "id": "28269569",
+            "name": "Raw Embellished T-Shirt",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 30.0,
+            "unit_price": 30.0
+          },
+          {
+            "id": "24226038",
+            "name": "Hand Crochet Tie Front Bralet",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 36.0,
+            "unit_price": 36.0
+          },
+          {
+            "id": "28278603",
+            "name": "MOTO Denim Ruffle Skirt",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 34.0,
+            "unit_price": 34.0
+          },
+          {
+            "id": "28252600",
+            "name": "Roll Crop T-Shirt",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 9.0,
+            "unit_price": 9.0
+          },
+          {
+            "id": "28269475",
+            "name": "Save The Future T-Shirt",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 15.0,
+            "unit_price": 15.0
+          },
+          {
+            "id": "27777746",
+            "name": "Faux Shearling Biker Jacket",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 85.0,
+            "unit_price": 85.0
+          },
+          {
+            "id": "28269438",
+            "name": "Love Will Save Us Applique T-Shirt",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 18.0,
+            "unit_price": 18.0
+          },
+          {
+            "id": "28182973",
+            "name": "Bardot Skater Dress",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 26.0,
+            "unit_price": 26.0
+          },
+          {
+            "id": "28042957",
+            "name": "Plunge Tie Back Dress",
+            "category": "New In Fashion",
+            "currency": "GBP",
+            "unit_sale_price": 25.0,
+            "unit_price": 25.0
+          }
+        ],
+
+        "filters": [
+          {
+            "name": "Product Type",
+            "selected": []
+          },
+          {
+            "name": "Colour",
+            "selected": []
+          },
+          {
+            "name": "Size",
+            "selected": []
+          },
+          {
+            "name": "Fit",
+            "selected": []
+          },
+          {
+            "name": "Price",
+            "selected": []
+          },
+          {
+            "name": "Shoe Size",
+            "selected": []
+          },
+          {
+            "name": "Dress Style",
+            "selected": []
+          },
+          {
+            "name": "Dress Length",
+            "selected": []
+          },
+          {
+            "name": "Top Style",
+            "selected": []
+          },
+          {
+            "name": "Jeans Style",
+            "selected": []
+          },
+          {
+            "name": "Jeans Fit",
+            "selected": []
+          },
+          {
+            "name": "Jacket &amp; Coat Style",
+            "selected": []
+          },
+          {
+            "name": "Knitwear Style",
+            "selected": []
+          },
+          {
+            "name": "Knitwear Type",
+            "selected": []
+          },
+          {
+            "name": "All in One Style",
+            "selected": []
+          },
+          {
+            "name": "Shorts Style",
+            "selected": []
+          },
+          {
+            "name": "Skirt Style",
+            "selected": []
+          },
+          {
+            "name": "Shorts Type",
+            "selected": []
+          },
+          {
+            "name": "Skirt Length",
+            "selected": []
+          },
+          {
+            "name": "Trouser &amp; Leggings Style",
+            "selected": []
+          },
+          {
+            "name": "Bag Style",
+            "selected": []
+          },
+          {
+            "name": "Shoe Style",
+            "selected": []
+          },
+          {
+            "name": "Hat Style",
+            "selected": []
+          },
+          {
+            "name": "Belt Style",
+            "selected": []
+          },
+          {
+            "name": "Sunglasses Style",
+            "selected": []
+          },
+          {
+            "name": "Neckline",
+            "selected": []
+          },
+          {
+            "name": "Waist",
+            "selected": []
+          },
+          {
+            "name": "Sleeve Length",
+            "selected": []
+          },
+          {
+            "name": "Fabric",
+            "selected": []
+          },
+          {
+            "name": "Collection",
+            "selected": []
+          },
+          {
+            "name": "Ivy Park Collections",
+            "selected": []
+          },
+          {
+            "name": "Brands",
+            "selected": []
+          },
+          {
+            "name": "Heel Height",
+            "selected": []
+          },
+          {
+            "name": "Accessories",
+            "selected": []
+          },
+          {
+            "name": "Promotions",
+            "selected": []
+          },
+          {
+            "name": "Rating",
+            "selected": []
+          },
+          {
+            "name": "Dress Type",
+            "selected": []
+          }
+        ]
+      }
+    }
+  }
+}

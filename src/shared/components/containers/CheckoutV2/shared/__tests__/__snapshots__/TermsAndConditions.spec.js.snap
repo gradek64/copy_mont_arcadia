@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TermsAndConditions /> @renders should render default state 1`] = `
+<div
+  className="TermsAndConditions"
+>
+  By placing your order you agree to our Terms & Conditions and Privacy Policy. 
+</div>
+`;

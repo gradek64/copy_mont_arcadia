@@ -1,0 +1,68 @@
+{
+    "items": [
+        {
+            "size": "W2428",
+            "quantity": 10,
+            "catEntryId": 31600223,
+            "selected": true,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        },
+        {
+            "size": "W2528",
+            "quantity": 10,
+            "catEntryId": 31600224,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        },
+        {
+            "size": "W2628",
+            "quantity": 10,
+            "catEntryId": 31600880,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        },
+        {
+            "size": "W2828",
+            "quantity": 10,
+            "catEntryId": 31600887,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        },
+        {
+            "size": "W3028",
+            "quantity": 10,
+            "catEntryId": 31600235,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        },
+        {
+            "size": "W3228",
+            "quantity": 10,
+            "catEntryId": 31600898,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        },
+        {
+            "size": "W3428",
+            "quantity": 10,
+            "catEntryId": 31600904,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "42.00"
+        }
+    ],
+    "version": "1.7"
+}

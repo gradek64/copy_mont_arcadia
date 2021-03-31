@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ApplePayButton/> @renders the ApplePay button 1`] = `
+<div
+  className="ApplePayButton"
+>
+  <Button
+    className="ApplePayButton--button"
+  >
+    <span
+      className="text"
+    >
+      Buy with
+    </span>
+    <span
+      className="logo"
+    />
+  </Button>
+</div>
+`;

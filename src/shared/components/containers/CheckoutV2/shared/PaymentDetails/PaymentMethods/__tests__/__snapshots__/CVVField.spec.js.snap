@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CVVField/> @renders returning customer should render default state correctly 1`] = `
+<div
+  className="CVVField"
+>
+  <div
+    className="CVVField-row"
+  >
+    <Connect(Input)
+      className="CVVField-cvv"
+      errors={
+        Object {
+          "cvv": "",
+        }
+      }
+      field={
+        Object {
+          "isTouched": true,
+          "value": "123",
+        }
+      }
+      isRequired={true}
+      label="CVV"
+      messagePosition="default"
+      name="cvv"
+      placeholder="CVV*"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+</div>
+`;
+
+exports[`<CVVField/> @renders should render default state correctly 1`] = `
+<div
+  className="CVVField"
+>
+  <div
+    className="CVVField-row"
+  >
+    <Connect(Input)
+      className="CVVField-cvv"
+      errors={
+        Object {
+          "cvv": "",
+        }
+      }
+      field={
+        Object {
+          "isTouched": true,
+          "value": "123",
+        }
+      }
+      isRequired={true}
+      label="CVV"
+      messagePosition="default"
+      name="cvv"
+      placeholder="CVV*"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+</div>
+`;

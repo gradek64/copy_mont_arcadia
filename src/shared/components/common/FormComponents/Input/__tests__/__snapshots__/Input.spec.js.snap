@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input @render should render the reveal password component for a "password" type 1`] = `
+<Connect(FeatureCheck)
+  flag="PASSWORD_SHOW_TOGGLE"
+>
+  <PreloadImages
+    render={[Function]}
+    sources={
+      Array [
+        "/assets/common/images/password_showing.svg",
+        "/assets/common/images/password_hidden.svg",
+      ]
+    }
+  />
+</Connect(FeatureCheck)>
+`;
+
+exports[`Input @render should render the reveal password component for a "password" type 2`] = `
+<div
+  className="Input-toggleButton"
+  onClick={[Function]}
+>
+  <Connect(Image)
+    className="Input-revealPasswordImage Input-revealPasswordImage-hidden"
+    src="/assets/common/images/password_hidden.svg"
+  />
+</div>
+`;
+
+exports[`Input @render should render the visible password state when the "inputState" has set "showPassword" to true 1`] = `
+<div
+  className="FormComponent-inputName Input Input-inputName horseBreath"
+>
+  <div
+    className="Input-head"
+  >
+    <label
+      className="Input-label"
+      htmlFor="inputName-text"
+    >
+      labelText
+    </label>
+  </div>
+  <div
+    className="Input-row"
+  >
+    <Connect(FeatureCheck)
+      flag="PASSWORD_SHOW_TOGGLE"
+    >
+      <PreloadImages
+        render={[Function]}
+        sources={
+          Array [
+            "/assets/common/images/password_showing.svg",
+            "/assets/common/images/password_hidden.svg",
+          ]
+        }
+      />
+    </Connect(FeatureCheck)>
+    <div
+      className="Input-container"
+    >
+      <PrivacyGuard
+        noProtection={false}
+      >
+        <input
+          aria-describedby="inputName-error"
+          aria-invalid={false}
+          aria-label="labelText"
+          autoComplete="autocomplete"
+          autoFocus={false}
+          className="Input-field Input-field-inputName"
+          disabled={false}
+          id="inputName-text"
+          maxLength={1000}
+          name="inputName"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholder="placeholder"
+          type="text"
+          value="value"
+        />
+      </PrivacyGuard>
+    </div>
+  </div>
+</div>
+`;

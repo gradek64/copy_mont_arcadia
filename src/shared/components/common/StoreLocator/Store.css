@@ -1,0 +1,243 @@
+/** @define Store; weak */
+
+@lost flexbox flex;
+
+.Store {
+  &-header {
+    display: flex;
+  }
+
+  &-selectButtonContainer {
+    align-self: center;
+  }
+
+  &-selectButtonDetails {
+    margin: 15px 0;
+  }
+
+  &-iconDistance {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+  }
+
+  &-headerDetails {
+    flex: 1;
+    margin-right: 5px;
+  }
+
+  &-info {
+    margin: 0;
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+  &-rightIcon {
+    max-width: 20px;
+  }
+
+  &-leftIcon {
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin: 0 5px;
+
+    &--withHeight {
+      height: 100%;
+    }
+  }
+
+  &-collectFrom {
+    position: relative;
+    margin: 8px 0;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  &-openingTimesButton {
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  &-openingTimesButton:focus + &-openingTimes {
+    display: block;
+  }
+
+  &-openingTimes {
+    display: none;
+  }
+
+  &-distanceContainer {
+    width: 80px;
+  }
+
+  &-distance {
+    display: flex;
+    justify-content: center;
+    color: $colorFaded;
+    word-spacing: 10000px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  &-name {
+    font-weight: $store-locator-store-name-font-weight;
+    text-transform: $store-locator-store-name-text-transform;
+    color: $store-locator-store-name-color;
+    margin: $store-locator-store-name-margin;
+    font-size: $store-locator-store-name-font-size;
+  }
+
+  &-detailsSection + .Store-detailsSection {
+    margin-top: 20px;
+    line-height: $store-locator-opening-hours-line-height;
+  }
+
+  &-detailsSection {
+    & > .Store-button {
+      background-color: $store-locator-button-secondary-background-color;
+      border-color: $store-locator-button-secondary-background-color;
+      margin: 15px 0;
+    }
+  }
+
+  &-openNowInfo {
+    padding-top: 5px;
+    font-weight: $store-locator-store-open-now-font-weight;
+    font-size: $store-locator-store-open-now-font-size;
+    text-transform: $store-locator-store-open-now-text-transform;
+  }
+
+  &-error {
+    color: $store-locator-store-closed-font-color;
+  }
+
+  &-success {
+    color: $store-locator-store-open-now-font-color;
+  }
+
+  &-cfsi {
+    color: $store-locator-cfsi-font-color;
+  }
+
+  &-closingSoon {
+    color: $store-locator-store-closing-soon-font-color;
+  }
+
+  &-openingHoursDay {
+    width: calc(50% + 10px);
+    display: inline-block;
+  }
+
+  &-openingHoursTitle {
+    color: $store-locator-opening-hours-title-color;
+    font-weight: $store-locator-opening-hours-title-font-weight;
+    font-size: $store-locator-opening-hours-title-font-size;
+    text-transform: $store-locator-opening-hours-title-text-transform;
+    margin: 10px 0;
+  }
+
+  &-openingHoursRow {
+    color: $store-locator-opening-hours-details-font-color;
+    font-weight: $store-locator-opening-hours-details-font-weight;
+    font-size: $store-locator-opening-hours-details-font-size;
+  }
+
+  &-mapButtons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-mapButton:first-child {
+    margin-right: 5px;
+    background-color: $store-locator-view-in-maps-button-background-color;
+    color: $store-locator-view-in-maps-text-color;
+    border-color: $store-locator-view-in-maps-text-color;
+  }
+
+  &-mapButton:last-child {
+    margin-left: 5px;
+    background-color: $store-locator-get-directions-button-background-color;
+    color: $store-locator-get-directions-text-color;
+    border-color: $store-locator-get-directions-text-color;
+  }
+  &-stockInformation {
+    padding-top: 5px;
+    font-weight: $store-locator-store-name-font-weight;
+    margin: 0;
+  }
+  &-button {
+    min-height: 30px;
+  }
+  &-distanceText {
+    margin-left: $store-locator-distance-text-margin-left;
+  }
+  &-address {
+    font-size: $store-locator-store-address-font-size;
+    font-weight: $store-locator-store-address-font-weight;
+    color: $store-locator-store-address-font-color;
+  }
+  &-details {
+    padding: 0 15px 15px;
+    padding-left: calc($page-padding + $accordion-icon-size + 10px);
+    border-top: $store-locator-details-border-top;
+  }
+  &-detailsTitle {
+    margin: 5px 0;
+    font-size: 13px;
+  }
+  &-deliveryCost {
+    display: block;
+  }
+  &.is-selected &-headerSelectButton {
+    visibility: hidden;
+  }
+  &-openingHoursModalTitle {
+    margin: 0;
+  }
+
+  &--findInStore {
+    &:first-child {
+      & .Accordion--storeLocator {
+        border-top: 0;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .Store {
+    &-distance {
+      font-size: 1em;
+    }
+    &-openingHoursRow {
+      font-size: 13px;
+    }
+    &-openingHoursTitle {
+      font-size: 13px;
+    }
+    &-mapButtons {
+      display: none;
+    }
+    &-phone {
+      margin-top: 15px;
+      & a {
+        text-decoration: none;
+      }
+    }
+  }
+}

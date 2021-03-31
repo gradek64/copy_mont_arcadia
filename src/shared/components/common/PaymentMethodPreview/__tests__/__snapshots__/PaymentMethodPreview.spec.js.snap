@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentMethodPreview /> @renders should render default state correctly 1`] = `
+<div
+  className="PaymentMethodPreviewV1"
+>
+  <h3
+    className="PaymentMethodPreviewV1-heading"
+  >
+    Payment details
+  </h3>
+  <section
+    className="PaymentMethodPreviewV1-body"
+  >
+    <Connect(Image)
+      className="PaymentMethodPreview-icon"
+      src="/assets/common/images/icon_visa.gif"
+    />
+    <div
+      className="PaymentMethodPreviewV1-detailsColWrapper"
+    >
+      <div
+        className="PaymentMethodPreviewV1-detailsCol"
+      >
+        <p
+          className="PaymentMethodPreviewV1-detailsLine"
+        >
+          Card Number
+          : 
+          ************4444
+        </p>
+        <p
+          className="PaymentMethodPreviewV1-detailsLine"
+        >
+          Expiry Date
+          : 
+          11
+          /
+          19
+        </p>
+      </div>
+      <div
+        className="PaymentMethodPreviewV1-buttonWrapper"
+      >
+        <button
+          className="Button Button--secondary PaymentMethodPreviewV1-button"
+          onClick={[Function]}
+        >
+          Change
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;

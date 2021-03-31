@@ -1,0 +1,616 @@
+{
+  "action": "remove",
+  "success": true,
+  "orderId": 700286068,
+  "langId": -1,
+  "message": "Gift card removed",
+  "message_key": "PPTGC_RES_DELETE_SUCCESSFULL",
+  "identifier": "2391403",
+  "totalDeposit": "0.00",
+  "totalBalance": "0.00",
+  "Basket": {
+    "products": {
+      "Product": [
+        {
+          "partNumber": "602015000892052",
+          "lineNumber": "32F04ITAN",
+          "name": "FAIRFAX Gladiator Fringe Sandals",
+          "size": "37",
+          "productId": "21953026",
+          "quantity": 1,
+          "imageUrl":
+            "https%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FTopShop%2Fimages%2Fcatalog%2F32F04ITAN_small.jpg",
+          "sourceUrl":
+            "http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductDisplay%3FlangId%3D-1%26storeId%3D12556%26catalogId%3D33057%26productId%3D21953026%26categoryId%3D798058%26parent_category_rn%3D277012",
+          "productName": "FAIRFAX Gladiator Fringe Sandals",
+          "wasWasPrice": 42.12,
+          "wasPrice": 52,
+          "unitPrice": 40,
+          "Size": "37",
+          "shipModeId": "26504",
+          "orderItemId": "7470362",
+          "color": "TAN",
+          "freeItem": false
+        }
+      ]
+    },
+    "productDataQuantity": {
+      "item_1": {
+        "partNumber": "602015000892052",
+        "catentryId": 21953047,
+        "inventorys": null,
+        "invavls": null
+      }
+    },
+    "orderId": 700286041,
+    "sourcePage": "OrderSubmitForm",
+    "addAddress": "",
+    "isBasketDisplay": true,
+    "isBasketResponse": true,
+    "showDeliveryAddress": "true",
+    "showDeliveryDate": "true",
+    "storeSelected": "N",
+    "deliveryEstimateWhere": "Where:",
+    "estimatedDeliveryWhenText": "When:",
+    "estimatedDelivery": "No later than&nbsp;Wednesday 11 October 2017",
+    "nominatedDeliveryDate": "Wednesday 11 October 2017",
+    "selectedCountry": "United Kingdom",
+    "countrySetInAddress": false,
+    "productSubTotalTxt": "Subtotal before Delivery",
+    "totalBeforeDiscount": 38,
+    "deliverySectionLabel": "DeliveryCostSection",
+    "deliveryOptions": {
+      "BasketDeliveryOption": [
+        {
+          "selected": false,
+          "deliveryOptionId": 50517,
+          "deliveryOptionPrice": 4,
+          "deliveryShipCode": "Retail Store Collection",
+          "type": "parcelshop",
+          "label": "Collect from ParcelShop"
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 28006,
+          "deliveryOptionPrice": 6,
+          "deliveryShipCode": "N5",
+          "type": "home_express",
+          "label": "Express / Nominated Day Delivery "
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 45020,
+          "deliveryOptionPrice": 3,
+          "deliveryShipCode": "Retail Store Express",
+          "type": "store_express",
+          "label": "Collect From Store Express"
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 51017,
+          "deliveryOptionPrice": 3,
+          "deliveryShipCode": "Retail Store Immediate",
+          "type": "store_immediate",
+          "label": "Collect From Store Today"
+        },
+        {
+          "selected": true,
+          "deliveryOptionId": 26504,
+          "deliveryOptionPrice": 0,
+          "deliveryShipCode": "S",
+          "type": "home_standard",
+          "label": "Standard Delivery"
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 45019,
+          "deliveryOptionPrice": 0,
+          "deliveryShipCode": "Retail Store Standard",
+          "type": "store_standard",
+          "label": "Collect From Store Standard"
+        }
+      ]
+    },
+    "shoppingBagOrderSummary": {
+      "pageAction": "ProcessShoppingBagSummaryDeliverySelection",
+      "formMethod": "POST",
+      "storeId": 12556,
+      "catalogId": 33057,
+      "langId": -1,
+      "orderId": "700286068",
+      "sourcePage": "OrderSubmitForm",
+      "selectedNominatedDate": "2017-10-06",
+      "selectedDeliveryOption": 45019
+    },
+    "changeDeliveryCntryTxt": "You can change delivery Country at checkout",
+    "noOfGiftCards": 0,
+    "giftCardApplyStatus": "true",
+    "productTotalTxt": "Total cost",
+    "total": 0,
+    "qubitBasket": {
+      "window.universal_variable": {
+        "version": "1.2.0",
+        "page": {
+          "type": "Checkout"
+        },
+        "user": {
+          "user_id": 1221110,
+          "email": "monty@desktop.com"
+        },
+        "basket": {
+          "id": 700286068,
+          "currency": "GBP",
+          "subtotal": 47.79,
+          "total": 0,
+          "line_items": [
+            {
+              "product": {
+                "id": "32K07IBDX",
+                "name": "KEY Buckle Low Shoes",
+                "sku_code": "602015000889328",
+                "image_url":
+                  "https%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FTopShop%2Fimages%2Fcatalog%2F32K07IBDX_large.jpg",
+                "category": "Flats",
+                "currency": "GBP",
+                "unit_sale_price": 47.79,
+                "unit_price": 59
+              },
+              "quantity": 1,
+              "subtotal": 47.79
+            }
+          ]
+        }
+      }
+    },
+    "deliveryThresholdsJson":"%7B%7D"
+  },
+  "selectedShipCode": "S",
+  "isPUDOEnabled": "true",
+  "isCSRUsr": false,
+  "deliveryLocationTypeForm": {
+    "deliveryCountry": "United Kingdom",
+    "pageAction": "ProcessDeliveryDetails",
+    "formMethod": "post",
+    "outOrderItemName": "",
+    "actionType": "updateShipping",
+    "sourcePage": "OrderSubmitForm",
+    "page": "account",
+    "storeId": 12556,
+    "catalogId": 33057,
+    "orderId": 700286068,
+    "shipping_country": "United Kingdom",
+    "deliverToStoreText": "Choose from",
+    "homeDeliveryText": "Home Delivery",
+    "storeDeliveryText": "Collect from Store",
+    "hermesDeliveryText": "Collect from ParcelShop - UK only",
+    "homeDeliveryContent":
+      "%3Cdd+class%3D%22home_del+std_del%22%3EStandard+%28UK+up+to+4+working+days%3B+worldwide+varies%29%3Cdd%3E%3Cdd+class%3D%22home_del+next_day_del%22%3EExpress+%28UK+next+or+nominated+day%3B+worldwide+varies%29%3C%2Fdd%3E",
+    "collectFromStoreContent":
+      "%3Cdd+class%3D%22store_del+std_store_del%22%3EStandard+%283-7+working+days%29%3C%2Fdd%3E%3Cdd+class%3D%22store_del+next_day_store_del%22%3EExpress+%28next+day%29%3C%2Fdd%3E++",
+    "hermesContent":
+      "%3Cdd+class%3D%22parcel_del%22%3EThousands+of+local+shops+open+early+and+late%3C%2Fdd%3E%3Cdd+class%3D%22parcel_del+next_day_parcel_del%22%3ENext+Day+Delivery%3C%2Fdd%3E",
+    "deliveryLocations": [
+      {
+        "deliveryLocationType": "HOME",
+        "selected": true
+      },
+      {
+        "deliveryLocationType": "STORE",
+        "selected": false
+      },
+      {
+        "deliveryLocationType": "PARCELSHOP",
+        "parcelShopStore": "hermes",
+        "selected": false
+      }
+    ]
+  },
+  "deliveryOptionsDetails": {
+    "nominatedDateValue": "",
+    "orderId": 700286068,
+    "deliveryoptionsform": {
+      "pageAction": "ProcessDeliveryDetails",
+      "formMethod": "post",
+      "formName": "deliveryoptionsform",
+      "storeId": 12556,
+      "catalogId": 33057,
+      "langId": -1,
+      "orderId": 700286068,
+      "status": "P",
+      "errorViewName": "UserRegistrationForm",
+      "outOrderItemName": "",
+      "nominatedDate": "",
+      "actionType": "updateOrderItemsOnly",
+      "sourcePage": "OrderSubmitForm",
+      "deliveryOptionType": "H",
+      "deliveryMethods": [
+        {
+          "Country": "United Kingdom",
+          "shipModeId": "26504",
+          "storeId": 12556,
+          "shipCode": "S",
+          "label": "Standard Delivery",
+          "selected": true,
+          "price": 4,
+          "additionalDescription": "2 - 4 Working days"
+        }
+      ],
+      "expressDelivery": {
+        "Country": "United Kingdom",
+        "shipModeId": "",
+        "storeId": 12556,
+        "shipCode": "",
+        "label": "Express / Nominated day delivery",
+        "selected": "",
+        "price": 0,
+        "additionalDescription": "",
+        "deliveryTimeDescription": "",
+        "deliveryDates": {
+          "deliveryDateSelectText": "Select an available delivery date",
+          "deliveryOptions": [
+            {
+              "dayText": "Fri",
+              "dateText": "06 Oct",
+              "shipModeId": "28006",
+              "nominatedDate": "2017-10-06",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "true",
+              "available_date": "28006",
+              "shipmode_28006": "2017-10-06"
+            },
+            {
+              "dayText": "Sat",
+              "dateText": "07 Oct",
+              "shipModeId": "28007",
+              "nominatedDate": "2017-10-07",
+              "price": 7.5,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28007",
+              "shipmode_28007": "2017-10-07"
+            },
+            {
+              "dayText": "Sun",
+              "dateText": "08 Oct",
+              "price": "N/A",
+              "shipModeId": "28008",
+              "nominatedDate": "2017-10-08",
+              "selected": "",
+              "shipmode_28008": "2017-10-08"
+            },
+            {
+              "dayText": "Mon",
+              "dateText": "09 Oct",
+              "shipModeId": "28002",
+              "nominatedDate": "2017-10-09",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28002",
+              "shipmode_28002": "2017-10-09"
+            },
+            {
+              "dayText": "Tue",
+              "dateText": "10 Oct",
+              "shipModeId": "28003",
+              "nominatedDate": "2017-10-10",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28003",
+              "shipmode_28003": "2017-10-10"
+            },
+            {
+              "dayText": "Wed",
+              "dateText": "11 Oct",
+              "shipModeId": "28004",
+              "nominatedDate": "2017-10-11",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28004",
+              "shipmode_28004": "2017-10-11"
+            },
+            {
+              "dayText": "Thu",
+              "dateText": "12 Oct",
+              "shipModeId": "28005",
+              "nominatedDate": "2017-10-12",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28005",
+              "shipmode_28005": "2017-10-12"
+            }
+          ]
+        }
+      },
+      "AllshipModeIdList": "26504,28002,28003,28004,28005,28006,28007,28008,",
+      "deliveryInstructions": "null",
+      "deliveryInsLabelTxt": "Delivery Instructions:",
+      "deliveryInsCharTxt": "Max 30 characters",
+      "deliveryMobNumLabel": "Mobile number:",
+      "deliverySMSupdateTxt":
+        "Enter your mobile number to receive SMS updates on your delivery.",
+      "smsMobileNumber": "null",
+      "smsAlerts": "",
+      "orderItemShipMode": "26504",
+      "orderItemShipCode": "S",
+      "trackingType": "Y-Y-Y"
+    }
+  },
+  "giftCards": {
+    "GiftCardsManagerForm": {
+      "pageAction": "PPTGiftCardsManager",
+      "formMethod": "post",
+      "giftCardTxt": "Gift cards",
+      "addAnotherGCDetails": {
+        "pageAction": "add",
+        "orderId": "700286068",
+        "langId": "-1",
+        "catalogId": "33057",
+        "storeId": "12556",
+        "URL": "GiftCardsAjaxView",
+        "errorViewName": "GiftCardsErrorAjaxView",
+        "sourcePage": "OrderSubmitForm",
+        "giftCardNoTxt": "Gift card number",
+        "giftCardNoEntered": "",
+        "gcMaxLength": "16",
+        "giftCardPinTxt": "Gift card number",
+        "giftCardPinEntered": "",
+        "gcPinMaxlength": "4",
+        "gcVerifyCodeTitle": "Apply Card",
+        "gcVerifyCode": "Apply Card"
+      },
+      "gcAddAnotherTitleTxt": "Add another",
+      "gcAddAnotherTxt": "Add another gift card"
+    }
+  },
+  "paymentDetailsDisplay": {
+    "OrderCalculateForm": {
+      "pageAction": "OrderCalculate",
+      "formMethod": "post",
+      "formId": "card_details",
+      "formName": "card_details",
+      "ipAddress": "10.136.109.251",
+      "orderId": 700286068,
+      "storeId": 12556,
+      "catalogId": 33057,
+      "langId": -1,
+      "errorViewName": "DoPaymentErrorView",
+      "userAgent": "PostmanRuntime%2F6.3.2",
+      "contentType": "*/*",
+      "notifyShopper": "0",
+      "notifyOrderSubmitted": "0",
+      "deliveryInstructions": "",
+      "smsAlerts": "",
+      "billing_address_id": "",
+      "addressId": "",
+      "shipCode": "S",
+      "nominatedDate": "",
+      "URL": "OrderPrepare?URL=ConfirmAndPay",
+      "CARD_PYPAL_TEXT": "PayPal",
+      "CARD_BRAND_TEXT": "???DC__TEXT???",
+      "CARD_BRAND_WP": "",
+      "IS_WP_CARD_BRAND": "Y",
+      "PaymentDetailUpdateViewUrl":
+        "PaymentDetailUpdateView?orderId=700286068&amp;storeId=12556&amp;catalogId=33057&amp;langId=-1&amp;selectedCountry=United+Kingdom",
+      "showBilling": "true",
+      "showCv2": "true",
+      "wpPaymentsList": [
+        {
+          "cardCode": "ALIPY_TEXT",
+          "cardCodeAltTxt": "AliPay"
+        },
+        {
+          "cardCode": "CUPAY_TEXT",
+          "cardCodeAltTxt": "China Union Pay"
+        },
+        {
+          "cardCode": "IDEAL_TEXT",
+          "cardCodeAltTxt": "iDEAL"
+        },
+        {
+          "cardCode": "ELV_TEXT",
+          "cardCodeAltTxt": "ELV"
+        },
+        {
+          "cardCode": "SOFRT_TEXT",
+          "cardCodeAltTxt": "Sofort Banking"
+        },
+        {
+          "cardCode": "POLI_TEXT",
+          "cardCodeAltTxt": "POLi"
+        },
+        {
+          "cardCode": "VME_TEXT",
+          "cardCodeAltTxt":
+            "V.me by Visa is the simple and secure way to pay online, using just your email address and password."
+        },
+        {
+          "cardCode": "MPASS_TEXT",
+          "cardCodeAltTxt": "MasterPass"
+        },
+        {
+          "cardCode": "DISCO_TEXT",
+          "cardCodeAltTxt": "Discover"
+        },
+        {
+          "cardCode": "CARTB_TEXT",
+          "cardCodeAltTxt": "Carte Bleue"
+        },
+        {
+          "cardCode": "KLRNA_TEXT",
+          "cardCodeAltTxt": "Buy Now Pay Later"
+        }
+      ],
+      "klarnaFeature": {
+        "feature_name": "KLRNA",
+        "store_id": 12556,
+        "server_instance_name": "ppl_arcwcs_515.01",
+        "BTCountry": [
+          {
+            "attribute_value": "GB",
+            "shopper_status": "ENABLED",
+            "csr_status": "DISABLED",
+            "csr_disabled_message":
+              "Sorry, option to pay with Buy Now Pay Later is temporarily unavailable",
+            "feature_description": "Klarna Credit for UK",
+            "field_2": "10.00,30.00"
+          }
+        ],
+        "ACCERTIFY": [
+          {
+            "attribute_value": "TRUE",
+            "shopper_status": "DISABLED",
+            "shopper_disabled_message":
+              "Sorry, option to pay with Buy Now Pay Later is temporarily unavailable",
+            "csr_status": "DISABLED",
+            "csr_disabled_message":
+              "Sorry, option to pay with Buy Now Pay Later is temporarily unavailable",
+            "feature_description": "Accertify fraud check for Klarna",
+            "field_1": "ACC_BILLABLEURL",
+            "field_2": "10.00,30.00"
+          }
+        ]
+      },
+      "countryForAPM": "",
+      "countryForShipping": "United Kingdom",
+      "isCSRUsr": false,
+      "paymentMthdTxt": "Method of payment",
+      "preferredPaymentTxt":
+        "Highlight your payment option below. For store cards only enter an expiry date and security number if you have one. PayPal customers click 'confirm and pay' to proceed.",
+      "billingAddrTxt": "",
+      "billingDetails": {
+        "nameAndPhone": {
+          "title": "Mr",
+          "firstName": "Foo",
+          "lastName": "Bar"
+        },
+        "address": {
+          "address1": "1 London Eye",
+          "city": "London",
+          "postcode": "SE1 1SE",
+          "country": "UNITED KINGOM"
+        }
+      },
+      "changeBillingAddressURL":
+        "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/AddBillingAddressView?langId=-1&storeId=12556&orderId=700286068&catalogId=33057",
+      "changeBillingAddrTitle": "Change address",
+      "changeBillingAddrTxt": "Change",
+      "apmImagePath":
+        "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout",
+      "paymentList": [
+        {
+          "value": "VISA",
+          "apmImage": "visa",
+          "lastCard": "VISA",
+          "cardBrandValue": "VISA",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_visa.gif",
+          "label": "Visa",
+          "cardBrandRadio": "checked"
+        },
+        {
+          "value": "MCARD",
+          "apmImage": "mcard",
+          "lastCard": "MCARD",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_mcard.gif",
+          "label": "Mastercard"
+        },
+        {
+          "value": "AMEX",
+          "apmImage": "amex",
+          "lastCard": "AMEX",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_amex.gif",
+          "label": "American Express"
+        },
+        {
+          "value": "SWTCH",
+          "apmImage": "swtch",
+          "lastCard": "SWTCH",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_swtch.gif",
+          "label": "Maestro"
+        },
+        {
+          "value": "ACCNT",
+          "apmImage": "accnt",
+          "lastCard": "ACCNT",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_accnt.gif",
+          "label": "Account Card"
+        },
+        {
+          "value": "PYPAL",
+          "apmImage": "pypal",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_pypal.gif",
+          "label": "PayPal"
+        },
+        {
+          "value": "MPASS",
+          "apmImage": "mpass",
+          "apmImagePath":
+            "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color7/v3/checkout/icon_mpass.gif",
+          "label": "MasterPass"
+        }
+      ],
+      "paymentCardNumberTxt": "Method of payment",
+      "CreditCard": {
+        "type": "VISA",
+        "cardNumber": "tjOBl4zzS+ueTZQWartO5l968iOmCOix",
+        "cardNumberStar": "************1111",
+        "expiryMonth": "02",
+        "expiryYear": "2018"
+      },
+      "cardExpiryTxt": "Expiry Date",
+      "paymentExpiryDateTxt": "Expiry Date",
+      "paymentMonthTxt": "Month",
+      "monthList": {
+        "month1": "01",
+        "month2": "02",
+        "month3": "03",
+        "month4": "04",
+        "month5": "05",
+        "month6": "06",
+        "month7": "07",
+        "month8": "08",
+        "month9": "09",
+        "month10": "10",
+        "month11": "11",
+        "month12": "12"
+      },
+      "paymentYearTxt": "Year",
+      "yearList": {
+        "year1": "2017",
+        "year2": "2018",
+        "year3": "2019",
+        "year4": "2020",
+        "year5": "2021",
+        "year6": "2022",
+        "year7": "2023",
+        "year8": "2024",
+        "year9": "2025",
+        "year10": "2026",
+        "year11": "2027",
+        "year12": "2028"
+      },
+      "securityId": "sec1507199280222",
+      "cardSecurityNumber": "",
+      "securityNumberTxt": "Security number",
+      "BNPL_Top_Content":
+        "%3Cb%3EGreat+news%21+This+order+is+eligible+for+BNPLReplaceString.+%3C%2Fb%3E%3Ca+href%3D%22http%3A%2F%2Fwww.topshop.com%2Fen%2Ftsuk%2Fcategory%2Ftopshop-card-20%2Fhome%3Fcat2%3D277988%26intcmpid%3DW_FOOTER_TS_CARD%22+target%3D%22_blank%22+title%3D%22BNPLReplaceString%22%3EFind+out+more.%3C%2Fa%3E",
+      "BNPL_CheckBox_content":
+        "I+would+like+my+order+to+be+placed+as+a+BNPLReplaceString+Order.",
+      "BNPL_TermsAndConditions":
+        "%3Cp%3EBNPLReplaceString%3C%2Fp%3E%3Cp%3EWhere+you+have+clicked+the+box+above+to+confirm+you+want+this+purchase+to+be+BNPLReplaceString+the+following+will+apply%3A%3C%2Fp%3E%3Cp%3E-+++++If+you+currently+pay+your+balance+in+full+by+%3Cb%3EDirect+Debit%3C%2Fb%3E+each+month+your+BNPLReplaceString+balance+will+be+collected+with+your+next+payment.+If+you+do+not+wish+to+pay+the+BNPLReplaceString+amount+please+contact+NewDay+on+0333+220+2504+to+change+your+%3Cb%3EDirect+Debit%3C%2Fb%3E+instruction.+You+will+have+the+option+to+pay+the+full+balance+excluding+any+BNPLReplaceString+Balance%2C+a+fixed+amount+or+the+minimum+payment+due.%3Cbr%2F%3E%3Cbr%2F%3E-++++++If+you+do+not+make+at+least+your+minimum+payment+on+time+each+month+or+if+you+go+over+your+credit+limit%2C+your+BNPLReplaceString+promotion+will+come+to+an+end+and%2C+from+this+date%2C+any+BNPLReplaceString+Balance+will+be+transferred+to+your+Standard+Balance+and+will+form+part+of+the+outstanding+balance.+These+transferred+transactions+will+be+taken+into+account+when+calculating+your+minimum+payment+and+interest+will+be+charged+at+the+purchase+rate+shown+on+your+statement.%3Cbr%2F%3E%3Cbr%2F%3E-++You+will+not+pay+any+interest+on+these+transactions+for+three+months+from+the+date+on+which+you+make+your+purchase.+These+transactions+form+part+of+your+BNPLReplaceString+Balance+and+do+not+form+part+of+your+outstanding+balance.+No+payments+are+required+in+relation+to+your+BNPLReplaceString+balance+during+the+three+month+promotional+period.%3Cbr%2F%3E%3Cbr%2F%3E-+++++++Your+BNPLReplaceString+transactions+will+be+shown+as+transferred+from+your+BNPLReplaceString+Balance+to+your+Standard+Balance+on+the+statement+following+the+last+day+of+the+three+month+period.+From+this+date%2C+interest+will+be+charged+on+your+BNPLReplaceString+transactions+at+the+purchase+rate+shown+on+your+statement+and+your+BNPLReplaceString+transactions+will+be+included+in+the+minimum+payment+calculation%3Cbr%2F%3E%3Cbr%2F%3E-++++If+you+have+a+Standard+Balance+on+your+account+you+must+still+make+at+least+your+minimum+payment+in+full+and+on+time.%3Cbr%2F%3E%3Cbr%2F%3E-++++If+you+have+no+Standard+Balance+on+the+account%2C+but+your+account+is+protected+by+Payment+Protection+Insurance%2C+you+must+pay+your+payment+protection+insurance+premium+each+month+when+requested+in+your+statement.+%3Cbr%2F%3E%3Cbr%2F%3E-++++++When+you+make+a+payment+we+will+always+allocate+it+to+the+part+of+your+balance+on+which+you+pay+the+highest+rate+of+interest+which+means+that+we+will+always+pay+off+your+non+BNPLReplaceString+transactions+first%2C+even+if+they+have+not+yet+appeared+on+your+statement.%3Cbr%2F%3E%3Cbr%2F%3E-++++We+may+withdraw+the+availability+of+BNPLReplaceString+at+any+time%2C+but+we+will+let+you+know+if+we+do.%3Cbr%2F%3E%3Cbr%2F%3ECalls+to+NewDay+are+charged+at+a+standard+national+rate.+Call+costs+from+mobiles+and+other+operators+may+vary+so+please+check+before+calling.%3Cbr%2F%3E%3Cbr%2F%3ENewDay+lines+are+open+seven+days+a+week%2C+8am+to+9pm.+Calls+may+be+recorded+or+monitored+for+training+and+security+purposes+and+to+help+us+manage+your+account.%3C%2Fp%3E",
+      "paymentTermsAndCondTxt": "Terms and conditions",
+      "paymentShoppingTxt": "Shopping",
+      "paymentSaveDetailsTxt": "Save payment details?"
+    }
+  }
+}

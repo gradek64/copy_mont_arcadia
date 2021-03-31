@@ -1,0 +1,14 @@
+/** @define ShopTheLook */
+@lost flexbox flex;
+
+.ShopTheLook {
+  &-link {
+    line-height: 30px;
+    min-height: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    display: inline-block;
+    text-decoration: none;
+  }
+}

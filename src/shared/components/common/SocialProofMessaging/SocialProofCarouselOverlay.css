@@ -1,0 +1,47 @@
+/** @define SocialProofCarouselOverlay */
+
+.SocialProofCarouselOverlay {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 500ms;
+  text-align: left;
+  left: 0;
+  right: 0;
+  bottom: 65px;
+  margin: 0 auto;
+
+  &-title,
+  &-text {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  &-container {
+    position: relative;
+  }
+
+  &-close {
+    position: absolute;
+    width: 15px;
+    height: 14px;
+    background: url('/assets/common/images/trending_message_close.jpg') no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.SocialProofCarouselOverlay-entered {
+  opacity: 1;
+}
+
+/* postcss-bem-linter: ignore */
+.SocialProofCarouselOverlay-exited {
+  opacity: 0;
+}
+
+/* postcss-bem-linter: ignore */
+.SocialProofCarouselOverlay span {
+  display: block
+}

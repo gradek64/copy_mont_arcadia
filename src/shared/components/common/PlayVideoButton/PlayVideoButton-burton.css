@@ -1,0 +1,13 @@
+/** @define PlayVideoButton; */
+
+@media $tablet {
+  .PlayVideoButton {
+    margin-top: 35px;
+  }
+}
+
+@media $min-laptop {
+.PlayVideoButton {
+  margin-top: 73px;
+}
+}

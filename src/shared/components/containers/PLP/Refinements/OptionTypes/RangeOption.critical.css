@@ -1,0 +1,12 @@
+/** @define RangeOption */
+.RangeOption {
+  padding: 20px 40px;
+  font-size: 0.75em;
+  @media $min-tablet {
+    padding: 0;
+  }
+
+  &-label, &-input {
+    margin-right: 10px;
+  }
+}

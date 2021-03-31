@@ -1,0 +1,17 @@
+/** @define ProductQuickViewButton */
+
+.ProductQuickViewButton {
+  position: absolute;
+  display: block;
+  top: $plp-product-info-padding-top;
+  right: $plp-product-info-padding-horizontal;
+  cursor: pointer;
+  width: $plp-product-quick-view-size;
+  height: $plp-product-quick-view-size;
+  opacity: $plp-product-quick-view-opacity;
+  background: url('public/$brand/images/quickview-icon.svg') center / contain no-repeat transparent;
+
+  &:hover {
+    opacity: $plp-product-quick-view-opacity-hover;
+  }
+}

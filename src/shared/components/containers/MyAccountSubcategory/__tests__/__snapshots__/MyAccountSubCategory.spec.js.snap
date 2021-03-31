@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyAccountSubcategory /> @mapStateToProps expect mapStateToProps to match snapshot 1`] = `
+Object {
+  "user": "someUser",
+  "visited": true,
+}
+`;
+
+exports[`<MyAccountSubcategory /> @render render default 1`] = `
+<div
+  className="MyAccountSubcategory"
+>
+  <p>
+    foo
+  </p>
+</div>
+`;

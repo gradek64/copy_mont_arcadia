@@ -1,0 +1,193 @@
+/** @define LoginContainer; weak */
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+
+  &-horizontalLine {
+    display: none;
+  }
+
+  &-secure {
+    padding: 16px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 36px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: relative;
+      height: 22px;
+      width: 18px;
+      margin-left: 8px;
+      background-repeat: no-repeat;
+      background-image: url('public/common/images/icon-lock-black.png')
+    }
+  }
+
+  &-returningCustomer,
+  &-newCustomer,
+  &-guestCustomer {
+     border: solid 1px #888888;
+     margin-bottom: 10px;
+     padding: 15px;
+  }
+
+  &-wrapper {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  &-guestbutton {
+    margin-top: 15px;
+  }
+
+  .SignInMessage {
+    text-align: center;
+  }
+
+  .ForgetPassword {
+    margin-top: 19px;
+
+    .Accordion-title {
+      line-height: 21px;
+      text-transform: capitalize;
+    }
+  }
+
+  .FormComponent-password {
+    &.Input:last-of-type {
+      margin-bottom: 15px;;
+    }
+  }
+
+  .Checkbox {
+    &-check {
+      width: 24px;
+      height: 24px;
+    }
+
+    &-label {
+      font-size: 14px;
+      line-height: 19px;
+      margin-top: 3px;
+      margin-left: 8px;
+      text-transform: none;
+    }
+
+    &:last-of-type {
+      margin-bottom: 26px;
+    }
+  }
+
+  .Message {
+    margin: 0;
+
+    &-message {
+      margin: 0;
+    }
+
+    &.is-shown {
+      margin-top: 15px;
+    }
+  }
+
+  .is-expanded {
+    .Accordion-wrapper {
+      margin-top: 5px;
+    }
+  }
+
+   .Accordion {
+    &.returning-customer,
+    &.new-customer,
+    &.guest-customer {
+      border: 0;
+
+      > .Accordion-header {
+        background-color: transparent;
+        align-items: stretch;
+        line-height: 26px;
+        font-size: 18px;
+        flex-direction: column;
+      }
+    }
+
+    &.ForgetPassword-accordion {
+       border: 0;
+    }
+
+    &-header {
+      padding: 0;
+    }
+
+    &-subTitle {
+      display: block;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    &-icon {
+       display: none;
+     }
+  }
+
+  .Login,
+  .Register {
+    margin-top: 0;
+    padding: 0;
+
+    h3 {
+      display: none;
+    }
+
+    .Input-label {
+      font-size: 14px;
+    }
+  }
+
+  .Selected {
+    border: solid 2px #000000;
+
+    .ForgetPassword-accordion {
+      .Accordion-icon {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 376px) {
+  .LoginContainer {
+    &-horizontalLine {
+      display: block;
+      margin: 0;
+      border: 0.5px solid #E8E8E8;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    &-wrapper {
+      display: flex;
+      max-width: 355px;
+      padding: 0;
+      flex-direction: column;
+      margin: 0 auto 20px;
+    }
+
+    &-loginSection {
+      flex: 1;
+    }
+
+    &-newUserSection {
+       flex: 1;
+    }
+
+  }
+}

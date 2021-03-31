@@ -1,0 +1,118 @@
+/** @define BackToTop; weak */
+
+@define-mixin buttonActive $border-width: null, $border-color: null, $background-color: null, $filter-brightness: 1 {
+  border-width: $border-width;
+  border-color: $border-color;
+  background-color: $background-color;
+  @mixin-content;
+}
+
+.BackToTop {
+  & .BackToTop-returnButton.Button {
+    z-index: 1;
+    position: fixed;
+    right: $back-to-top-right;
+    bottom: 0;
+    margin: $back-to-top-margin;
+    padding: $back-to-top-padding;
+    border-style: solid;
+    border-width: $back-to-top-border-width;
+    border-color: $back-to-top-border-color;
+    border-radius: 0;
+    transition: transform 0.5s ease;
+    transform: translate3d(0, 100px, 0);
+    background-color: $back-to-top-background;
+    box-shadow: $back-to-top-box-shadow;
+    width: $back-to-top-width;
+    height: $back-to-top-height;
+
+    &.is-visible {
+      transform: none;
+    }
+
+    &:active {
+      @mixin buttonActive $back-to-top-border-width, $back-to-top-border-color, $back-to-top-background, 1 {}
+    }
+  }
+
+  &-content {
+    display: $back-to-top-display;
+    width: 100%;
+
+    /** this only comes into effect if diplay is flex **/
+    flex-direction: $back-to-top-direction;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-label {
+    color: $back-to-top-label-color;
+    display: $back-to-top-label-display;
+    font-size: $back-to-top-label-font-size;
+    text-transform: $back-to-top-label-text-transform;
+    font-weight: $back-to-top-label-font-weight;
+    vertical-align: $back-to-top-label-vertical-align;
+    margin-right: $back-to-top-label-margin-right;
+    margin-left: $back-to-top-label-margin-left;
+  }
+
+  &-arrow {
+    height: $back-to-top-arrow-height;
+    width: $back-to-top-arrow-width;
+    margin: $back-to-top-arrow-margin;
+    display: $back-to-top-arrow-display;
+    background: url('/assets/$brand/images/$(back-to-top-arrow-icon)');
+    background-size: $back-to-top-arrow-background-size;
+  }
+
+  &-waypoint {
+    position: absolute;
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+    margin-top: -1px;
+  }
+}
+
+@media $min-tablet {
+  .BackToTop {
+    & .BackToTop-returnButton.Button {
+      width: $back-to-top-width-desktop;
+      height: $back-to-top-height-desktop;
+      right: $back-to-top-right-desktop;
+      margin: $back-to-top-margin-desktop;
+      border-radius: $back-to-top-border-radius-desktop;
+
+      &:enabled:hover {
+        @mixin buttonActive $back-to-top-border-width, $back-to-top-border-color, $back-to-top-background, 1 {}
+      }
+    }
+    &-label {
+      display: $back-to-top-label-display-desktop;
+    }
+    &-arrow {
+      display: $back-to-top-arrow-display-desktop;
+    }
+  }
+}
+
+@media $min-laptop {
+  .BackToTop {
+    & .BackToTop-returnButton.Button {
+      &:enabled:hover {
+        @mixin buttonActive $back-to-top-border-width, $back-to-top-border-color, $back-to-top-background, 1 {}
+      }
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .BackToTop-returnButton:enabled:hover {
+  @mixin buttonActive $back-to-top-border-width, $back-to-top-border-color, $back-to-top-background, 1 {}
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .BackToTop-returnButton:enabled:hover .BackToTop-arrow {
+  background: url('/assets/$brand/images/$(back-to-top-arrow-icon-hover)');
+  background-size: $back-to-top-arrow-background-size;
+}

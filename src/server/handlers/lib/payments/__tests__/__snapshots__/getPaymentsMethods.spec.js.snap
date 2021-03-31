@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPaymentMethods get all payment methods available for a region de 1`] = `
+Array [
+  Object {
+    "description": "Pay with VISA",
+    "icon": "icon-visa.svg",
+    "label": "Visa",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "VISA",
+  },
+  Object {
+    "description": "Pay with MasterCard",
+    "icon": "icon-mastercard.svg",
+    "label": "MasterCard",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "MCARD",
+  },
+  Object {
+    "description": "Pay with American Express",
+    "icon": "icon-amex.svg",
+    "label": "American Express",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 15,
+        "message": "A 15 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 4,
+        "message": "4 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "AMEX",
+  },
+  Object {
+    "description": "Pay with Apple Pay",
+    "icon": "icon_applepay.svg",
+    "label": "Apple Pay",
+    "type": "OTHER",
+    "value": "APPLE",
+  },
+  Object {
+    "description": "Check out with your PayPal account",
+    "icon": "icon-paypal.svg",
+    "label": "PayPal",
+    "type": "OTHER",
+    "value": "PYPAL",
+  },
+  Object {
+    "billingCountry": Array [
+      "Germany",
+    ],
+    "deliveryCountry": Array [
+      "Germany",
+    ],
+    "description": "Shop now, Pay later",
+    "icon": "icon-klarna.svg",
+    "label": "Klarna",
+    "region": "de",
+    "type": "OTHER",
+    "value": "KLRNA",
+  },
+  Object {
+    "billingCountry": Array [
+      "Austria",
+      "Belgium",
+      "Germany",
+    ],
+    "description": "Check out with your SOFORT account",
+    "icon": "icon-sofort.svg",
+    "label": "Sofort",
+    "type": "OTHER",
+    "value": "SOFRT",
+  },
+]
+`;
+
+exports[`getPaymentMethods get all payment methods available for a region de 2`] = `
+Array [
+  Object {
+    "description": "Pay with VISA",
+    "icon": "icon-visa.svg",
+    "label": "Visa",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "VISA",
+  },
+  Object {
+    "description": "Pay with MasterCard",
+    "icon": "icon-mastercard.svg",
+    "label": "MasterCard",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "MCARD",
+  },
+  Object {
+    "description": "Pay with American Express",
+    "icon": "icon-amex.svg",
+    "label": "American Express",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 15,
+        "message": "A 15 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 4,
+        "message": "4 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "AMEX",
+  },
+  Object {
+    "description": "Pay with Apple Pay",
+    "icon": "icon_applepay.svg",
+    "label": "Apple Pay",
+    "type": "OTHER",
+    "value": "APPLE",
+  },
+  Object {
+    "description": "Check out with your PayPal account",
+    "icon": "icon-paypal.svg",
+    "label": "PayPal",
+    "type": "OTHER",
+    "value": "PYPAL",
+  },
+  Object {
+    "billingCountry": Array [
+      "Germany",
+    ],
+    "deliveryCountry": Array [
+      "Germany",
+    ],
+    "description": "Shop now, Pay later",
+    "icon": "icon-klarna.svg",
+    "label": "Klarna",
+    "region": "de",
+    "type": "OTHER",
+    "value": "KLRNA",
+  },
+  Object {
+    "billingCountry": Array [
+      "Netherlands",
+    ],
+    "description": "Check out with your IDEAL account",
+    "icon": "icon-ideal.svg",
+    "label": "Ideal",
+    "type": "OTHER",
+    "value": "IDEAL",
+  },
+  Object {
+    "billingCountry": Array [
+      "Austria",
+      "Belgium",
+      "Germany",
+    ],
+    "description": "Check out with your SOFORT account",
+    "icon": "icon-sofort.svg",
+    "label": "Sofort",
+    "type": "OTHER",
+    "value": "SOFRT",
+  },
+]
+`;
+
+exports[`getPaymentMethods get all payment methods available for a region nothing 1`] = `
+Array [
+  Object {
+    "description": "Pay with VISA",
+    "icon": "icon-visa.svg",
+    "label": "Visa",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "VISA",
+  },
+  Object {
+    "description": "Pay with MasterCard",
+    "icon": "icon-mastercard.svg",
+    "label": "MasterCard",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "MCARD",
+  },
+  Object {
+    "description": "Pay with American Express",
+    "icon": "icon-amex.svg",
+    "label": "American Express",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 15,
+        "message": "A 15 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 4,
+        "message": "4 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "AMEX",
+  },
+  Object {
+    "description": "Pay with Switch / Maestro",
+    "icon": "icon-switch.svg",
+    "label": "Switch/Maestro",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "SWTCH",
+  },
+  Object {
+    "description": "Pay with Apple Pay",
+    "icon": "icon_applepay.svg",
+    "label": "Apple Pay",
+    "type": "OTHER",
+    "value": "APPLE",
+  },
+  Object {
+    "description": "Check out with your PayPal account",
+    "icon": "icon-paypal.svg",
+    "label": "PayPal",
+    "type": "OTHER",
+    "value": "PYPAL",
+  },
+  Object {
+    "billingCountry": Array [
+      "China",
+    ],
+    "description": "Check out with your AliPay account",
+    "icon": "icon-alipay.svg",
+    "label": "AliPay",
+    "type": "OTHER",
+    "value": "ALIPY",
+  },
+  Object {
+    "billingCountry": Array [
+      "China",
+    ],
+    "description": "Check out with your China Union Pay account",
+    "icon": "icon-cupay.svg",
+    "label": "China Union Pay",
+    "type": "OTHER",
+    "value": "CUPAY",
+  },
+  Object {
+    "description": "Pay with Account Card",
+    "icon": "icon-account-card.svg",
+    "label": "Account Card",
+    "type": "OTHER_CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "ACCNT",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "deliveryCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 30 days or 3 monthly instalments, interest free",
+    "icon": "icon-klarna.svg",
+    "label": "Klarna",
+    "region": "uk",
+    "type": "OTHER",
+    "value": "KLRNA",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 4 fortnightly instalments, interest free",
+    "icon": "clearpay.svg",
+    "label": "Clearpay",
+    "type": "OTHER",
+    "value": "CLRPY",
+  },
+]
+`;
+
+exports[`getPaymentMethods get all payment methods available for a region uk 1`] = `
+Array [
+  Object {
+    "description": "Pay with VISA",
+    "icon": "icon-visa.svg",
+    "label": "Visa",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "VISA",
+  },
+  Object {
+    "description": "Pay with MasterCard",
+    "icon": "icon-mastercard.svg",
+    "label": "MasterCard",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "MCARD",
+  },
+  Object {
+    "description": "Pay with American Express",
+    "icon": "icon-amex.svg",
+    "label": "American Express",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 15,
+        "message": "A 15 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 4,
+        "message": "4 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "AMEX",
+  },
+  Object {
+    "description": "Pay with Switch / Maestro",
+    "icon": "icon-switch.svg",
+    "label": "Switch/Maestro",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "SWTCH",
+  },
+  Object {
+    "description": "Pay with Apple Pay",
+    "icon": "icon_applepay.svg",
+    "label": "Apple Pay",
+    "type": "OTHER",
+    "value": "APPLE",
+  },
+  Object {
+    "description": "Check out with your PayPal account",
+    "icon": "icon-paypal.svg",
+    "label": "PayPal",
+    "type": "OTHER",
+    "value": "PYPAL",
+  },
+  Object {
+    "description": "Pay with Account Card",
+    "icon": "icon-account-card.svg",
+    "label": "Account Card",
+    "type": "OTHER_CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "ACCNT",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "deliveryCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 30 days or 3 monthly instalments, interest free",
+    "icon": "icon-klarna.svg",
+    "label": "Klarna",
+    "region": "uk",
+    "type": "OTHER",
+    "value": "KLRNA",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 4 fortnightly instalments, interest free",
+    "icon": "clearpay.svg",
+    "label": "Clearpay",
+    "type": "OTHER",
+    "value": "CLRPY",
+  },
+]
+`;
+
+exports[`getPaymentMethods get all payment methods available for a region uk billing only 1`] = `
+Array [
+  Object {
+    "description": "Pay with VISA",
+    "icon": "icon-visa.svg",
+    "label": "Visa",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "VISA",
+  },
+  Object {
+    "description": "Pay with MasterCard",
+    "icon": "icon-mastercard.svg",
+    "label": "MasterCard",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "MCARD",
+  },
+  Object {
+    "description": "Pay with American Express",
+    "icon": "icon-amex.svg",
+    "label": "American Express",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 15,
+        "message": "A 15 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 4,
+        "message": "4 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "AMEX",
+  },
+  Object {
+    "description": "Pay with Switch / Maestro",
+    "icon": "icon-switch.svg",
+    "label": "Switch/Maestro",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "SWTCH",
+  },
+  Object {
+    "description": "Pay with Apple Pay",
+    "icon": "icon_applepay.svg",
+    "label": "Apple Pay",
+    "type": "OTHER",
+    "value": "APPLE",
+  },
+  Object {
+    "description": "Check out with your PayPal account",
+    "icon": "icon-paypal.svg",
+    "label": "PayPal",
+    "type": "OTHER",
+    "value": "PYPAL",
+  },
+  Object {
+    "description": "Pay with Account Card",
+    "icon": "icon-account-card.svg",
+    "label": "Account Card",
+    "type": "OTHER_CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "ACCNT",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "deliveryCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 30 days or 3 monthly instalments, interest free",
+    "icon": "icon-klarna.svg",
+    "label": "Klarna",
+    "region": "uk",
+    "type": "OTHER",
+    "value": "KLRNA",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 4 fortnightly instalments, interest free",
+    "icon": "clearpay.svg",
+    "label": "Clearpay",
+    "type": "OTHER",
+    "value": "CLRPY",
+  },
+]
+`;
+
+exports[`getPaymentMethods get all payment methods available for a region uk delivery only 1`] = `
+Array [
+  Object {
+    "description": "Pay with VISA",
+    "icon": "icon-visa.svg",
+    "label": "Visa",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "VISA",
+  },
+  Object {
+    "description": "Pay with MasterCard",
+    "icon": "icon-mastercard.svg",
+    "label": "MasterCard",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "MCARD",
+  },
+  Object {
+    "description": "Pay with American Express",
+    "icon": "icon-amex.svg",
+    "label": "American Express",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 15,
+        "message": "A 15 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 4,
+        "message": "4 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "AMEX",
+  },
+  Object {
+    "description": "Pay with Switch / Maestro",
+    "icon": "icon-switch.svg",
+    "label": "Switch/Maestro",
+    "type": "CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "SWTCH",
+  },
+  Object {
+    "description": "Pay with Apple Pay",
+    "icon": "icon_applepay.svg",
+    "label": "Apple Pay",
+    "type": "OTHER",
+    "value": "APPLE",
+  },
+  Object {
+    "description": "Check out with your PayPal account",
+    "icon": "icon-paypal.svg",
+    "label": "PayPal",
+    "type": "OTHER",
+    "value": "PYPAL",
+  },
+  Object {
+    "description": "Pay with Account Card",
+    "icon": "icon-account-card.svg",
+    "label": "Account Card",
+    "type": "OTHER_CARD",
+    "validation": Object {
+      "cardNumber": Object {
+        "length": 16,
+        "message": "A 16 digit card number is required",
+      },
+      "cvv": Object {
+        "length": 3,
+        "message": "3 digits required",
+      },
+      "expiryDate": "MM/YY",
+      "startDate": null,
+    },
+    "value": "ACCNT",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "deliveryCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 30 days or 3 monthly instalments, interest free",
+    "icon": "icon-klarna.svg",
+    "label": "Klarna",
+    "region": "uk",
+    "type": "OTHER",
+    "value": "KLRNA",
+  },
+  Object {
+    "billingCountry": Array [
+      "United Kingdom",
+    ],
+    "description": "Pay in 4 fortnightly instalments, interest free",
+    "icon": "clearpay.svg",
+    "label": "Clearpay",
+    "type": "OTHER",
+    "value": "CLRPY",
+  },
+]
+`;

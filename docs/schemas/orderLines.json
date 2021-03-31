@@ -1,0 +1,60 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "lineNo": {
+        "type": "string",
+        "example": "62Z39IGRY"
+      },
+      "name": {
+        "type": "string",
+        "example": "**Suedette Tuxedo Dress by Love"
+      },
+      "size": {
+        "type": "string",
+        "example": "S"
+      },
+      "colour": {
+        "type": "string",
+        "example": "GREY"
+      },
+      "imageUrl": {
+        "type": "string",
+        "example": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62Z39IGRY_thumb.jpg"
+      },
+      "baseImageUrl": {
+        "type": "string",
+        "example": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62Z39IGRY"
+      },
+      "quantity": {
+        "type": "number",
+        "example": 1
+      },
+      "unitPrice": {
+        "type": "string",
+        "example": "36.00"
+      },
+      "discount": {
+        "type": "string",
+        "example": "2.00"
+      },
+      "total": {
+        "type": "string",
+        "example": "34.00"
+      },
+      "nonRefundable": {
+        "type": "boolean",
+        "example": false
+      },
+      "wasPrice": {
+        "type": "string",
+        "example": "55.00"
+      },
+      "wasWasPrice": {
+        "type": "string",
+        "example": "60.00"
+      }
+    }
+  }
+}

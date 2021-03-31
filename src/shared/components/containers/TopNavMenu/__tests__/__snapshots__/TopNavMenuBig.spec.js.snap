@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopNavMenuBig /> @renders in default state 1`] = `
+<div
+  className="TopNavMenuBig "
+>
+  <div
+    className="TopNavMenuBig-categories"
+  >
+    <div
+      className="TopNavMenuBig-category"
+      key="1"
+    >
+      clothing
+    </div>
+    <div
+      className="TopNavMenuBig-category"
+      key="2"
+    >
+      Whats new
+    </div>
+    <div
+      className="TopNavMenuBig-category"
+      key="3"
+    >
+      Accesories
+    </div>
+  </div>
+</div>
+`;

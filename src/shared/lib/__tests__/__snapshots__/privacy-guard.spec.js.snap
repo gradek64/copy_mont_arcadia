@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrivacyGuard/> @renders throws for having children 1`] = `"<PrivacyGuard/> must have a child and only one child. For eg.: <PrivacyGuard><span>sensitive content</span></PrivacyGuard>"`;
+
+exports[`<PrivacyGuard/> @renders throws for multiple nested children (outer html, must be the most inner) 1`] = `"You can only wrap a single element with <PrivacyGuard/> and that element can have at most one text (string or number) child (the reason behind this that the class (sessioncamhidetext/sessioncamexclude) must be added to the inner most html element containing the text)"`;
+
+exports[`<PrivacyGuard/> @renders throws for not having a text as child 1`] = `"<PrivacyGuard/> has to contain a component. For eg.: use <PrivacyGuard><span>sensitive content</span></PrivacyGuard> instead of <PrivacyGuard>sensitive content</PrivacyGuard>"`;
+
+exports[`<PrivacyGuard/> @renders throws for not having any child 1`] = `"<PrivacyGuard/> must have a child. For eg.: <PrivacyGuard><span>sensitive content</span></PrivacyGuard>"`;
+
+exports[`<PrivacyGuard/> @renders with div child and text 1`] = `
+<div
+  className="test divTest sessioncamhidetext"
+>
+  someText
+</div>
+`;
+
+exports[`<PrivacyGuard/> @renders with empty div child 1`] = `
+<div
+  className="test sessioncamhidetext"
+/>
+`;
+
+exports[`<PrivacyGuard/> @renders with password 1`] = `
+<input
+  placeholder="test"
+  type="password"
+  value="mockedValue"
+/>
+`;
+
+exports[`<PrivacyGuard/> @renders with select 1`] = `
+<select
+  className="sessioncamexclude"
+>
+  <option
+    className="sessioncamexclude"
+    key=".0"
+  >
+    option 1
+  </option>
+  <option
+    className="sessioncamexclude"
+    key=".1"
+  >
+    option 2
+  </option>
+</select>
+`;
+
+exports[`<PrivacyGuard/> @renders with span child and number 1`] = `
+<span
+  className="test spanTest sessioncamhidetext"
+>
+  123
+</span>
+`;
+
+exports[`<PrivacyGuard/> @renders with text field 1`] = `
+<input
+  className="sessioncamexclude"
+  placeholder="test"
+  type="text"
+  value="mockedValue"
+/>
+`;
+
+exports[`<PrivacyGuard/> @renders with text showing a variable 1`] = `
+<div
+  className="sessioncamhidetext"
+>
+   
+  test123
+   
+   test123
+</div>
+`;
+
+exports[`<PrivacyGuard/> @renders with textarea 1`] = `
+<textarea
+  className="sessioncamexclude"
+>
+  Some mocked word to test.
+</textarea>
+`;
+
+exports[`<PrivacyGuard/> @renders without className 1`] = `
+<span
+  className="sessioncamhidetext"
+>
+  some description
+</span>
+`;
+
+exports[`<PrivacyGuard/> @renders without protection 1`] = `
+<div
+  className="test divTest"
+>
+  someText
+</div>
+`;

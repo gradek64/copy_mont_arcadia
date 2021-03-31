@@ -1,0 +1,9 @@
+/** @define ProductDetail */
+
+@media $min-tablet {
+  .ProductDetail {
+    &-sizeGuide {
+      order: 2;
+    }
+  }
+}

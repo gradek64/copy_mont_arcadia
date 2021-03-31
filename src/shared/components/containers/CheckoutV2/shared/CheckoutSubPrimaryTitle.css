@@ -1,0 +1,29 @@
+/** @define CheckoutSubPrimaryTitle */
+
+.CheckoutSubPrimaryTitle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+
+  &-withSubTitle{
+    position: relative;
+  }
+
+  &--title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  &--subTitle {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 5px 0;
+  }
+}
+
+

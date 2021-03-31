@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'DEPLOY_BRANCH_OR_TAG_OR_HASH', defaultValue: '',
+            description: 'Defaults to latest commits of current branch. Can be overridden here.')
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
+        timestamps()
+    }
+
+    stages {
+        stage("GH") {
+            steps {
+                script {
+                    currentBuild.description = "PRODSTAGE - ${params.DEPLOY_BRANCH_OR_TAG_OR_HASH}"
+                }
+            }
+        }
+        stage("Feature Config") {
+            steps {
+                ansiColor('xterm') {
+                    checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'preprod']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'packages/monty-feature-flags']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'feature-config-deployment', url: 'git@github.com:ag-digital/monty-feature-flags.git']]]
+                }
+            }
+        }
+        stage("Deploy-PRODSTAGE") {
+            steps {
+                timeout(time: 40, unit: 'MINUTES') {
+                ansiColor('xterm') {
+                    withCredentials([string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                    sh 'scripts/deploy_prodstage.sh'
+                    }
+                }
+                }
+            }
+        }
+    }
+}

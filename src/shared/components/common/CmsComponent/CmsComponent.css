@@ -1,0 +1,23 @@
+/** @define CmsComponent */
+
+.CmsComponent {
+  &--videoContainer {
+    text-align: center;
+  }
+
+  &-video {
+    max-width: 100%;
+    display: block;
+  }
+
+  &-youtube {
+    width: 100%;
+    height: 100%;
+  }
+
+  &--iframe {
+    width: 1px;
+    min-width: 100%;
+    *width: 100%; /* stylelint-disable-line */
+  }
+}

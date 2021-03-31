@@ -1,0 +1,7 @@
+/** @define RecentlyViewed; weak */
+
+.RecentlyViewed {
+  &-header {
+    text-transform: $recently-viewed-header-text-transform;
+  }
+}

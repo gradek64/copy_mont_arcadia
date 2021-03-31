@@ -1,0 +1,88 @@
+/* postcss-bem-linter: ignore */
+body {
+  margin: 0;
+  background-color: $body-background-color;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* postcss-bem-linter: ignore */
+body.not-scrollable {
+  overflow: hidden;
+  top:0;
+  left: 0;
+  height: 100%;
+  right: 0;
+}
+
+/* postcss-bem-linter: ignore */
+body.not-scrollable.ios {
+  position: fixed;
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  body.not-scrollable.ios {
+    position: relative;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+body.not-scrollable .Header-container {
+  z-index: 2 !important;
+}
+
+/* postcss-bem-linter: ignore */
+*:active {
+  outline: none;
+}
+
+/* postcss-bem-linter: ignore */
+dl {
+  padding: 0;
+  margin: 0;
+}
+
+/* postcss-bem-linter: ignore */
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 100%;
+  font-family: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  font-weight: inherit;
+  line-height: $line-height-button;
+}
+
+/* postcss-bem-linter: ignore */
+.screen-reader-text {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  left: -1000px;
+}
+
+/* postcss-bem-linter: ignore */
+.hidden {
+  display: none;
+}
+
+/* CMS property to add page margins to an element */
+/* postcss-bem-linter: ignore */
+.cms-addPageMargin {
+  margin: 0 $page-padding;
+}
+
+/* Temporarily disable focus on all anchors and form fields */
+/* postcss-bem-linter: ignore */
+*:focus {
+  outline: none !important;
+}
+
+/* postcss-bem-linter: ignore */
+.CmsFrame {
+  display: none;
+}

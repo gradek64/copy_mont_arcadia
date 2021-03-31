@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserLocator Reducer FILL_RECENT_STORES set array of stores 1`] = `
+Object {
+  "recentStores": Array [
+    Object {
+      "storeId": "TS0001",
+    },
+  ],
+}
+`;
+
+exports[`UserLocator Reducer Geolocation RESET_GEO_USER_LOCATION resets the geolocation reducer 1`] = `
+Object {
+  "geoLocation": Object {
+    "geoLocationError": false,
+    "userGeoLongLat": Object {
+      "lat": undefined,
+      "long": undefined,
+    },
+    "userInputGeoLocation": false,
+  },
+}
+`;
+
+exports[`UserLocator Reducer Geolocation SET_CURRENT_LOCATION_ERROR sets current geolocation error 1`] = `
+Object {
+  "geoLocation": Object {
+    "geolocationError": "test err",
+  },
+}
+`;
+
+exports[`UserLocator Reducer Geolocation SET_USER_GEO_LOCATION_LAT_LONG sets the latitude and longitude 1`] = `
+Object {
+  "geoLocation": Object {
+    "userGeoLongLat": Object {
+      "lat": 1,
+      "long": 2,
+    },
+  },
+}
+`;
+
+exports[`UserLocator Reducer Geolocation SET_USER_INPUT_GEO_LOCATED sets geolocation to true 1`] = `
+Object {
+  "geoLocation": Object {
+    "userInputGeoLocation": true,
+  },
+}
+`;
+
+exports[`UserLocator Reducer RESET_RECENT_STORES set recentStores to empty array 1`] = `
+Object {
+  "recentStores": Array [],
+}
+`;
+
+exports[`UserLocator Reducer RESET_SELECTED_PLACE selectedPlaceDetails returns default object state 1`] = `
+Object {
+  "prevSelectedPlaceDetails": Object {
+    "place_id": "",
+  },
+  "selectedPlaceDetails": Object {},
+}
+`;

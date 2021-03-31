@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BazaarVoiceWidget /> @renders should render markup when bazaarVoiceEnabled flag is enabled 1`] = `
+<div
+  className="BazaarVoice "
+>
+  <div
+    id="BVRRSummaryContainer"
+  />
+  <div
+    id="BVRRContainer"
+  />
+</div>
+`;

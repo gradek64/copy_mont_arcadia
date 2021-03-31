@@ -1,0 +1,105 @@
+pipeline {
+    agent none
+
+    parameters {
+        choice(name: 'API',    choices: 'MONTYPROD\nSTAGE\nEBT\nTOMCATEBT\nPPLIVE\nDEVELOPMENT\nLIVE\nTOMCATPROD\nREDIS\nPPLIVEFFS',
+               description: 'Which API to use')
+        choice(name: 'WDIO_ENVIRONMENT', choices:'preprod\nproduction\nno-cdn\nlocal\nstage\nintegration\ncheckout\nshowcase\nepam\nmonty-ebt-test\nperf\nmrcms\nmontycms-next',
+               description: 'Environment to run test against. NB: branch is only used when testing locally.\nIMPORTANT - This repoints the test suite and the browser to the URL or this hosted environment, for instance selecting "production" will use the URL "http://m.topshop.com"\n                         selecting anything other than local will over right the API selection made.')
+        choice(name: 'CUCUMBER_TAGS', choices: '@smoke,~@wip,~@broken\n' +
+                                               '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop,~@sofort,~@klarna\n' +
+                                               '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop,~@not_stage_env\n' +
+                                               '~@wip,~@broken,~@smoke,~@desktop\n' +
+                                               '@browserStackMobile,~@wip,~@broken\n' +
+                                               '@brand_testing,~@wip,~@broken\n' +
+                                               '@regression,~@wip,~@broken',
+               description: '@smoke,~@wip,~@broken ==> Production smoke tests\n' +
+                            '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop ==> Default set of tests\n' +
+                            '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop,~@not_stage_env ==> Showcase\n' +
+                            '~@wip,~@broken,~@smoke,~@desktop ==> default set of tests plus additional checkout tests\n' +
+                            '@browserStackMobile,~@wip,~@broken ==>  BrowserStack only tests\n' +
+                            '@brand_testing,~@wip,~@broken ==> runs brand sites test - opens the home page for all brand urls configured in the hosts file\n' +
+                            '@regression,~@wip,~@broken ==> Nightly regression tests\n'
+                            )
+        choice(name: 'WDIO_BRAND', choices: 'tsuk\nbreu\nbruk\nevde\neveu\nevuk\nevus\nmseu\nmsfr\nmsde\nmsus\nmsuk\ndpeu\ndpus\ndpuk\ntmeu\ntmfr\ntmuk\ntmde\ntmus\ntseu\ntsfr\ntsde\ntsus\ntsuk\nwlde\nwluk\nwleu\nwlus',
+               description: 'Brand to run test against')
+        choice(name: 'BREAKPOINT', choices: 'mobileL\nmobileS\nmobileM\ntablet\ndesktop',
+               description: 'Device type breakpoints for responsive layout:\n  mobileS: [320, 480]\n  mobileM: [375, 667]\n  mobileL: [425, 974]\n  tablet: [768, 1024]\n  desktop: [1080, 1920]')
+        choice(name: 'MAX_INSTANCES', choices: '4\n1\n2\n3\n5\n6\n7',
+               description: '')
+        choice(name: 'WDIO_LOG_LEVEL', choices: 'error\nsilent\nverbose\ncommand\ndata\nresult',
+               description: 'WebDriverIO level of logging verbosity. Default to \'error\'')
+        booleanParam(name: 'ENABLE_DEBUG', defaultValue: true,
+               description: 'Enable or disable the debug output of the application')
+        string(name: 'JENKINS_PRODUCTS', defaultValue: '',
+               description: 'this allows you to provide a set of products (, deliminated with no spaces) to override the standard brand products that will be used by jenkins. leave this blank to run the standard products in the test suite.\n\nThis should only be used when having real problems on endecca and have to scale the products to one (or more) known good product types for the environment you wish to run on.')
+        choice(name: 'BROWSER_NAME', choices: 'chrome\nphantomjs',
+               description: '')
+        choice(name: 'WDIO_FORCE_MOBILE_ONLY_TEST', choices: 'false\ntrue',
+               description: 'Force build to run mobile only test code. Please make sure CUCUMBER_TAGS and BREAKPOINT is set correctly')
+    }
+
+    options {
+        // discard old builds: 30 days / 200 bulids
+        buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
+
+        timeout(time: 35, unit: 'MINUTES')
+
+        timestamps()
+
+        skipDefaultCheckout()
+    }
+
+    stages {
+        stage('GH') {
+            steps {
+                script {
+                    currentBuild.description = "${params.API}.api on ${params.WDIO_ENVIRONMENT}"
+                }
+            }
+        }
+
+        stage("Docker monty_tests") {
+            agent any
+            steps {
+                script {
+                    git = checkout scm
+                    println("GIT="+git)
+                }
+
+                withCredentials([string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                    sh """
+                        #!/bin/bash -xe 
+                        export BRANCH_NAME=${git.GIT_BRANCH}
+                        ./scripts/build_and_push_ecr.sh monty_tests
+                      """
+                }
+            }
+        }
+
+        stage("Smoke tests") {
+            agent any
+            steps {
+              script {
+                git = checkout scm
+                println("GIT="+git)
+              }
+                ansiColor('xterm') {
+                    sh """
+                        export BRANCH_NAME=${git.GIT_BRANCH}
+                        FEATURES_PATH=test/e2e/features/checkout/success/production/*.feature ./scripts/build_on_demand.sh smoke
+                       """
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+    }
+}

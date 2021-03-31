@@ -1,0 +1,121 @@
+# These owners will be the default owners for everything in the repo.
+# *       @defunkt
+
+# Order is important. The last matching pattern has the most precedence.
+# So if a pull request only touches javascript files, only these owners
+# will be requested to review.
+# *.js    @octocat @github/js
+
+# You can also use email addresses if you prefer.
+# docs/*  docs@example.com
+
+#
+# webpack
+#
+build/  @davidnormo @rob-marr
+
+#
+# coreApi
+#
+src/server/*  @davidnormo @m-ocana @rob-marr @Allliiiiiii
+src/server/api/  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+src/server/handlers/  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+src/server/lib/  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+src/server/__test__/  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+src/server/config/paymentConfig.js  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+src/server/config/paymentMethods.js  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+src/server/config/paymentValidationSchema.js  @davidnormo @m-ocana  @rob-marr @Allliiiiiii
+
+#
+# checkout
+#
+
+# checkout components
+
+src/shared/components/containers/CheckoutMiniBag/   @m-ocana @davidnormo
+src/shared/components/containers/CheckoutV2/    @m-ocana @davidnormo
+src/shared/components/common/CheckoutBagSide/    @m-ocana @davidnormo
+src/shared/components/common/CheckoutMessage/    @m-ocana @davidnormo
+src/shared/components/common/PaymentMethodPreview/    @m-ocana @davidnormo
+src/shared/components/common/PaymentMethodPreviewEditable/    @m-ocana @davidnormo
+src/shared/components/common/PaymentOption/    @m-ocana @davidnormo
+src/shared/components/common/PaymentOptions/    @m-ocana @davidnormo
+src/shared/components/common/PaymentSummary/    @m-ocana @davidnormo
+src/shared/components/common/OrderProductNotification/    @m-ocana @davidnormo
+src/shared/components/common/OrderProducts/    @m-ocana @davidnormo
+
+# checkout actions
+
+src/shared/actions/common/checkoutActions.js    @m-ocana @davidnormo
+src/shared/actions/common/klarnaActions.js    @m-ocana @davidnormo
+src/shared/actions/common/orderActions.js    @m-ocana @davidnormo
+
+# checkout selectors
+
+src/shared/selectors/checkoutSelectors.js    @m-ocana @davidnormo
+src/shared/selectors/ddpSelectors.js    @m-ocana @davidnormo
+src/shared/selectors/klarnaSelectors.js    @m-ocana @davidnormo
+
+# checkout reducers
+
+src/shared/reducers/common/klarnaReducer.js    @m-ocana @davidnormo
+src/shared/reducers/components/checkoutReducer.js    @m-ocana @davidnormo
+
+
+#
+# shopping bag
+#
+
+# shopping bag components
+
+src/shared/components/common/ShoppingBag/ShoppingBag.jsx    @m-ocana @davidnormo
+src/shared/components/common/ShoppingBagDeliveryOptions/ShoppingBagDeliveryOptions.jsx    @m-ocana @davidnormo
+src/shared/components/common/DeliveryEstimate/DeliveryEstimate.jsx    @m-ocana @davidnormo
+src/shared/components/containers/MiniBag/MiniBag.jsx    @m-ocana @davidnormo
+src/shared/components/common/OrderProducts/OrderProducts.jsx    @m-ocana @davidnormo
+src/shared/components/common/OrderProducts/OrderProduct.jsx    @m-ocana @davidnormo
+src/shared/components/common/OrderProducts/OrderProductPromo.jsx    @m-ocana @davidnormo
+src/shared/components/common/OrderProductNotification/OrderProductNotification.jsx    @m-ocana @davidnormo
+src/shared/components/containers/PromotionCode/PromotionCode.jsx    @m-ocana @davidnormo
+
+# shopping bag actions
+
+src/shared/actions/common/shoppingBagActions.js    @m-ocana @davidnormo
+
+# shopping bag selectors
+
+src/shared/selectors/shoppingBagSelectors.js    @m-ocana @davidnormo
+
+# shopping bag reducers
+
+src/shared/reducers/components/shoppingBagReducer.js    @m-ocana @davidnormo
+
+#
+# Team Engage
+#
+
+# Containers/Comnponents
+
+src/shared/components/common/SizeGuide/*    @davidnormo @rob-marr
+src/shared/components/common/SizeGuideDrawer/*    @davidnormo @rob-marr
+src/shared/components/containers/Bundles/*    @davidnormo @rob-marr
+src/shared/components/containers/PLP/*    @davidnormo @rob-marr
+src/shared/components/containers/PdpContainer/*    @davidnormo @rob-marr
+src/shared/components/containers/ProductDetail/*    @davidnormo @rob-marr
+src/shared/components/containers/ProductQuickview/*    @davidnormo @rob-marr
+src/shared/components/containers/Dressipi/*    @davidnormo @rob-marr
+src/shared/reducers/components/PlpContainerReducer.js    @davidnormo @rob-marr
+src/shared/reducers/components/ProductDetailsReducer.js    @davidnormo @rob-marr
+src/shared/reducers/components/QuickviewReducer.js    @davidnormo @rob-marr
+src/shared/reducers/components/refinementsReducer.js    @davidnormo @rob-marr
+src/shared/reducers/components/refinementsReducerV2 .js    @davidnormo @rob-marr
+
+# Actions/Selectors
+
+src/shared/actions/common/productsActions.js    @davidnormo @rob-marr
+src/shared/actions/common/infinityScrollActions.js    @davidnormo @rob-marr
+src/shared/actions/common/quickviewActions.js    @davidnormo @rob-marr
+src/shared/selectors/infinityScrollSelectors.js    @davidnormo @rob-marr
+src/shared/selectors/productSearchSelectors.js    @davidnormo @rob-marr
+src/shared/selectors/productSelectors.js    @davidnormo @rob-marr
+src/shared/selectors/quickviewSelectors.js    @davidnormo @rob-marr

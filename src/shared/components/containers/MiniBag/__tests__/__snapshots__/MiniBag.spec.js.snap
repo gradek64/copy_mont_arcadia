@@ -1,0 +1,2589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiniBag /> @renders DDP only product should display the Delivery details if the bag does not contains only DDP product and it is not checkout 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <div
+      className="MiniBag-summaryButtonSection"
+    >
+      <Button
+        ariaLabel="Checkout now"
+        className="MiniBag-continueButton"
+        clickHandler={[Function]}
+        isDisabled={false}
+      >
+        <span
+          className=" translate"
+        >
+          Checkout now
+        </span>
+      </Button>
+    </div>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <Component
+      id="qubit-minibag-promo"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+        gtmCategory="shoppingBag"
+        isCompactHeader={true}
+        isOpenIfPopulated={true}
+        key="PromotionCode"
+        scrollOnPromoCodeError={false}
+      />
+    </Component>
+    <Component
+      id="qubit-minibag-delivery"
+    >
+      <Connect(WithRestrictedActionDispatch(ShoppingBagDeliveryOptions))
+        changeDeliveryType={[MockFunction]}
+        isCFSIEnabled={false}
+        isPUDOEnabled={false}
+      />
+    </Component>
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+      <div
+        className="MiniBag-summaryButtonSection"
+      >
+        <Button
+          ariaLabel="Checkout now"
+          className="MiniBag-continueButton"
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          <span
+            className=" translate"
+          >
+            Checkout now
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders DDP only product should not display the Delivery details if the bag contains only DDP product and it is not checkout 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <div
+      className="MiniBag-summaryButtonSection"
+    >
+      <Button
+        ariaLabel="Checkout now"
+        className="MiniBag-continueButton"
+        clickHandler={[Function]}
+        isDisabled={false}
+      >
+        <span
+          className=" translate"
+        >
+          Checkout now
+        </span>
+      </Button>
+    </div>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <Component
+      id="qubit-minibag-promo"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+        gtmCategory="shoppingBag"
+        isCompactHeader={true}
+        isOpenIfPopulated={true}
+        key="PromotionCode"
+        scrollOnPromoCodeError={false}
+      />
+    </Component>
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          />
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+      <div
+        className="MiniBag-summaryButtonSection"
+      >
+        <Button
+          ariaLabel="Checkout now"
+          className="MiniBag-continueButton"
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          <span
+            className=" translate"
+          >
+            Checkout now
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in default state should display an empty bag 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-emptyBag"
+  >
+    <p
+      className="MiniBag-emptyLabel"
+    >
+      Your shopping bag is currently empty.
+    </p>
+    <Button
+      className="Button--primary"
+    >
+      Continue shopping
+    </Button>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in default state should display products added to basket 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <div
+      className="MiniBag-summaryButtonSection"
+    >
+      <Button
+        ariaLabel="Checkout now"
+        className="MiniBag-continueButton"
+        clickHandler={[Function]}
+        isDisabled={false}
+      >
+        <span
+          className=" translate"
+        >
+          Checkout now
+        </span>
+      </Button>
+    </div>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <Component
+      id="qubit-minibag-promo"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+        gtmCategory="shoppingBag"
+        isCompactHeader={true}
+        isOpenIfPopulated={true}
+        key="PromotionCode"
+        scrollOnPromoCodeError={false}
+      />
+    </Component>
+    <Component
+      id="qubit-minibag-delivery"
+    >
+      <Connect(WithRestrictedActionDispatch(ShoppingBagDeliveryOptions))
+        changeDeliveryType={[MockFunction]}
+        isCFSIEnabled={false}
+        isPUDOEnabled={false}
+      />
+    </Component>
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+      <div
+        className="MiniBag-summaryButtonSection"
+      >
+        <Button
+          ariaLabel="Checkout now"
+          className="MiniBag-continueButton"
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          <span
+            className=" translate"
+          >
+            Checkout now
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in default state when CFSi is true and not in checkout 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <div
+      className="MiniBag-summaryButtonSection"
+    >
+      <Button
+        ariaLabel="Checkout now"
+        className="MiniBag-continueButton"
+        clickHandler={[Function]}
+        isDisabled={false}
+      >
+        <span
+          className=" translate"
+        >
+          Checkout now
+        </span>
+      </Button>
+    </div>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <Component
+      id="qubit-minibag-promo"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+        gtmCategory="shoppingBag"
+        isCompactHeader={true}
+        isOpenIfPopulated={true}
+        key="PromotionCode"
+        scrollOnPromoCodeError={false}
+      />
+    </Component>
+    <Component
+      id="qubit-minibag-delivery"
+    >
+      <Connect(WithRestrictedActionDispatch(ShoppingBagDeliveryOptions))
+        changeDeliveryType={[MockFunction]}
+        isCFSIEnabled={false}
+        isPUDOEnabled={false}
+      />
+    </Component>
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+      <div
+        className="MiniBag-summaryButtonSection"
+      >
+        <Button
+          ariaLabel="Checkout now"
+          className="MiniBag-continueButton"
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          <span
+            className=" translate"
+          >
+            Checkout now
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in other states in Checkout should not render <ShoppingBagDeliveryOptions /> 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <Button
+      className="MiniBag-backToCheckout"
+      clickHandler={[MockFunction]}
+    >
+      Back to checkout
+    </Button>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in other states in Checkout should render Delivery estimate in Payment page for New Checkout Workflow 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <Button
+      className="MiniBag-backToCheckout"
+      clickHandler={[MockFunction]}
+    >
+      Back to checkout
+    </Button>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(DeliveryEstimate)
+      address={
+        Object {
+          "address1": "216 Sesame St",
+          "city": "London",
+          "firstName": "John",
+          "lastName": "Doe",
+          "postcode": "W1D 1LA",
+          "telephone": "07777777789",
+        }
+      }
+      className="miniBag"
+      deliveryType="HOME"
+      shippingInfo={
+        Object {
+          "additionalDescription": undefined,
+          "cost": 0,
+          "deliveryMethod": "HOME",
+          "deliveryType": "HOME_STANDARD",
+          "estimatedDelivery": "No later than tomorrow",
+          "label": undefined,
+          "shipModeId": 26504,
+        }
+      }
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in other states should display PromotionCode if not in checkout 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <div
+      className="MiniBag-summaryButtonSection"
+    >
+      <Button
+        ariaLabel="Checkout now"
+        className="MiniBag-continueButton"
+        clickHandler={[Function]}
+        isDisabled={false}
+      >
+        <span
+          className=" translate"
+        >
+          Checkout now
+        </span>
+      </Button>
+    </div>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <Component
+      id="qubit-minibag-promo"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+        gtmCategory="shoppingBag"
+        isCompactHeader={true}
+        isOpenIfPopulated={true}
+        key="PromotionCode"
+        scrollOnPromoCodeError={false}
+      />
+    </Component>
+    <Component
+      id="qubit-minibag-delivery"
+    >
+      <Connect(WithRestrictedActionDispatch(ShoppingBagDeliveryOptions))
+        changeDeliveryType={[MockFunction]}
+        isCFSIEnabled={false}
+        isPUDOEnabled={false}
+      />
+    </Component>
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+      <div
+        className="MiniBag-summaryButtonSection"
+      >
+        <Button
+          ariaLabel="Checkout now"
+          className="MiniBag-continueButton"
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          <span
+            className=" translate"
+          >
+            Checkout now
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in other states should display discounts when available 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <div
+      className="MiniBag-summaryButtonSection"
+    >
+      <Button
+        ariaLabel="Checkout now"
+        className="MiniBag-continueButton"
+        clickHandler={[Function]}
+        isDisabled={false}
+      >
+        <span
+          className=" translate"
+        >
+          Checkout now
+        </span>
+      </Button>
+    </div>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <Component
+      id="qubit-minibag-promo"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+        gtmCategory="shoppingBag"
+        isCompactHeader={true}
+        isOpenIfPopulated={true}
+        key="PromotionCode"
+        scrollOnPromoCodeError={false}
+      />
+    </Component>
+    <Component
+      id="qubit-minibag-delivery"
+    >
+      <Connect(WithRestrictedActionDispatch(ShoppingBagDeliveryOptions))
+        changeDeliveryType={[MockFunction]}
+        isCFSIEnabled={false}
+        isPUDOEnabled={false}
+      />
+    </Component>
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Your discount
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-discount"
+              >
+                -
+                <Price
+                  className=""
+                  price={2}
+                />
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+      <div
+        className="MiniBag-summaryButtonSection"
+      >
+        <Button
+          ariaLabel="Checkout now"
+          className="MiniBag-continueButton"
+          clickHandler={[Function]}
+          isDisabled={false}
+        >
+          <span
+            className=" translate"
+          >
+            Checkout now
+          </span>
+        </Button>
+      </div>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in other states should not display PromotionCode if in checkout 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <div
+    className="MiniBag-content"
+  >
+    <Button
+      className="MiniBag-backToCheckout"
+      clickHandler={[MockFunction]}
+    >
+      Back to checkout
+    </Button>
+    <div
+      className="MiniBag-messages"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(ShoppingBag)))
+      bagProducts={
+        Array [
+          Object {
+            "additionalAssets": Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_3COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_4COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_THUMB",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_NORMAL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_LARGE",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Large_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_ZOOM",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_2COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_3COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_3col_M_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_OUTFIT_4COL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_4col_M_1.jpg",
+              },
+            ],
+            "ageVerificationRequired": false,
+            "assets": Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Small_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_NORMAL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_2col_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13N21JNUD_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/promo_code_473094_mobile.png",
+              },
+            ],
+            "attributes": Object {},
+            "bundleProducts": Array [],
+            "bundleSlots": Array [],
+            "colourSwatches": Array [],
+            "isBundleOrOutfit": false,
+            "items": Array [],
+            "lineNumber": "TS13N21JNUD",
+            "name": "Strappy Metallic Cami",
+            "productId": 24283410,
+            "tpmLinks": Array [],
+            "unitPrice": "26.00",
+          },
+        ]
+      }
+      scrollMinibag={[Function]}
+    />
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="Delivery2HOMEEXPRESS"
+    />
+    <div
+      className="MiniBag-summary MiniBag-footer"
+    >
+      <Component
+        id="qubit-mini-bag-summary"
+      >
+        <div
+          className="MiniBag-summarySection"
+        >
+          <Component
+            id="qubit-minibag-labels"
+          >
+            <div
+              className="MiniBag-summaryRow"
+            >
+              <span
+                className="MiniBag-leftCol"
+              >
+                Delivery
+                :
+              </span>
+              <span
+                className="MiniBag-rightCol MiniBag-deliveryOption"
+              >
+                Free Collect From Store Standard £0.00
+              </span>
+            </div>
+          </Component>
+          <div
+            className="MiniBag-summaryRow MiniBag-bagTotal"
+            tabIndex="0"
+          >
+            <span
+              className="MiniBag-leftCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-wording"
+              >
+                Total to pay
+                :
+              </Component>
+            </span>
+            <span
+              className="MiniBag-rightCol MiniBag-totalCost"
+            >
+              <Component
+                id="qubit-minibag-total-price"
+                render={[Function]}
+              >
+                <Price
+                  className=""
+                  price="26.00"
+                />
+              </Component>
+            </span>
+          </div>
+        </div>
+      </Component>
+    </div>
+  </div>
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;
+
+exports[`<MiniBag /> @renders in other states should render <Loader /> while loading products 1`] = `
+<div
+  className="MiniBag"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  role="toolbar"
+>
+  <Connect(Espot)
+    className="MiniBag-espot"
+    identifier="shoppingBagTopEspot"
+  />
+  <Component
+    id="qubit-MiniBag-header"
+  >
+    <div>
+      <h3
+        className="MiniBag-header notranslate"
+      >
+        <span
+          className="translate"
+        >
+          My Bag
+        </span>
+        <span
+          className="translate"
+        >
+           (1)
+        </span>
+      </h3>
+      <button
+        className="MiniBag-closeButton"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="close"
+          className="MiniBag-closeButtonImg"
+          src="/assets/common/images/close-icon.svg"
+        />
+      </button>
+    </div>
+  </Component>
+  <Loader
+    className=""
+    fillColor="#000"
+    isButton={false}
+  />
+  <Component
+    id="qubit-minibag-bottom-espot"
+  >
+    <Connect(Espot)
+      className="MiniBag-espot"
+      identifier="shoppingBagTotalEspot"
+    />
+  </Component>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MontyVisualIndicator /> @renders in default state 1`] = `
+<div
+  className="MontyVisualIndicator"
+>
+  <span
+    className="MontyVisualIndicator-lozenge"
+  />
+</div>
+`;

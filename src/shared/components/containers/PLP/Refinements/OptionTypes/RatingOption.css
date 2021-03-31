@@ -1,0 +1,58 @@
+/** @define RatingOption; weak */
+
+.RatingOption {
+  &-item {
+    position: relative;
+    padding: $value-option-padding;
+    text-decoration: none;
+    font-size: $value-option-font-size;
+    color: $value-option-color;
+    border-bottom: 1px solid $value-option-border-color;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    &.is-selected {
+      color: $value-option-selected-color;
+      font-weight: $rating-option-selected-font-weight;
+      &:after {
+        content: '';
+        display: block;
+        height: $value-option-icon-height;
+        width: $value-option-icon-width;
+        position: absolute;
+        right: $value-option-icon-right;
+        top: calc(50% - ($value-option-icon-height / 2));
+        transition: opacity 0.1s linear;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: $value-option-icon-image;
+      }
+    }
+  }
+
+  &-checkbox {
+    margin: 6px 0 14px;
+  }
+
+  &-checkboxLabel {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    color: $value-option-count-color;
+    font-size: $rating-option-label-font-size;
+  }
+
+  &-stars {
+    margin: $rating-option-stars-margin;
+    display: inline-block;
+  }
+
+  &-andUp {
+    display: $rating-option-and-up-display;
+    color: $value-option-count-color;
+    font-size: $rating-option-label-font-size;
+    margin: $rating-option-and-up-margin;
+  }
+}

@@ -1,0 +1,123 @@
+/** @define MegaNav; weak */
+
+/* Topshop Style Category */
+
+/* postcss-bem-linter: ignore */
+.category_3452041 a:before, /* Fashion Stories - UK */
+.category_3452537 a:before, /* Fashion Stories - US */
+.category_3452539 a:before, /* Fashion Stories - FR */
+.category_3452538 a:before, /* Fashion Stories - DE */
+.category_3452042 a:before, /* Fashion Stories - EU */
+.category_3452541 a:before, /* Blog - UK */
+.category_3452542 a:before, /* Blog - US */
+.category_3452047 a:before, /* Blog - DE */
+.category_3452048 a:before, /* Blog - FR */
+.category_3452544 a:before, /* Blog - EU */
+.category_3452053 a:before, /* Wardrobe - UK */
+.category_3452543 a:before, /* Wardrobe - Us */
+.category_3452548 a:before, /* Shopping - UK */
+.category_3452550 a:before, /* Shopping - US */
+.category_3452555 a:before, /* Topshop - UK */
+.category_3452066 a:before, /* Topshop - US */
+.category_3452565 a:before, /* LFW - UK */
+.category_3452064 a:before, /* LFW - US */
+.category_3452564 a:before,  /* LFW - FR */
+.category_3452065 a:before,  /* LFW - DE */
+.category_3452566 a:before { /* LFW - EU */
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 5px 0 0;
+}
+/* postcss-bem-linter: ignore */
+.category_3452041 a:before,  /* Fashion Stories - UK */
+.category_3452537 a:before,  /* Fashion Stories - US */
+.category_3452538 a:before,  /* Fashion Stories - DE */
+.category_3452539 a:before,  /* Fashion Stories - FR */
+.category_3452042 a:before { /* Fashion Stories - EU */
+  background: url('public/topshop/images/megamenu/magazine.svg') no-repeat;
+}
+
+/* postcss-bem-linter: ignore */
+.category_3452541 a:before,   /* Blog - UK */
+.category_3452542 a:before,   /* Blog - US */
+.category_3452047 a:before,   /* Blog - DE */
+.category_3452048 a:before,   /* Blog - FR */
+.category_3452544 a:before  { /* Blog - EU */
+  background: url('public/topshop/images/megamenu/blog.svg') no-repeat;
+}
+/* postcss-bem-linter: ignore */
+.category_3452053 a:before,  /* Wardrobe - UK */
+.category_3452543 a:before { /* Wardrobe - US */
+  background: url('public/topshop/images/megamenu/mytopshopwardrobe.svg') no-repeat;
+}
+/* postcss-bem-linter: ignore */
+.category_3452548 a:before,  /* Shopping - UK */
+.category_3452550 a:before { /* Shopping - US */
+  background: url('public/topshop/images/megamenu/personalshopping.svg') no-repeat;
+}
+/* postcss-bem-linter: ignore */
+.category_3452555 a:before,   /* Topshop - UK */
+.category_3452066 a:before { /* Topshop - US */
+  background: url('public/topshop/images/megamenu/topshopstyle.svg') no-repeat;
+}
+/* postcss-bem-linter: ignore */
+.category_3452565 a:before,   /* LFW - UK */
+.category_3452064 a:before,   /* LFW - US */
+.category_3452065 a:before,   /* LFW - FR */
+.category_3452564 a:before,   /* LFW - DE */
+.category_3452566 a:before {  /* LFW - DE */
+  background: url('public/topshop/images/megamenu/lfw.svg') no-repeat;
+}
+
+/* postcss-bem-linter: ignore */
+.category_3452041 .MegaNav-ItemContainer, /* Fashion Stories - UK */
+.category_3452537 .MegaNav-ItemContainer, /* Fashion Stories - US */
+.category_3452539 .MegaNav-ItemContainer, /* Fashion Stories - FR */
+.category_3452538 .MegaNav-ItemContainer, /* Fashion Stories - DE */
+.category_3452042 .MegaNav-ItemContainer, /* Fashion Stories - EU */
+.category_3452541 .MegaNav-ItemContainer, /* Blog - UK */
+.category_3452542 .MegaNav-ItemContainer, /* Blog - US */
+.category_3452048 .MegaNav-ItemContainer, /* Blog - FR */
+.category_3452047 .MegaNav-ItemContainer, /* Blog - DE */
+.category_3452544 .MegaNav-ItemContainer, /* Blog - EU */
+.category_3452053 .MegaNav-ItemContainer, /* Wardrobe - UK */
+.category_3452543 .MegaNav-ItemContainer, /* Wardrobe - US */
+.category_3452548 .MegaNav-ItemContainer, /* Shopping - UK */
+.category_3452550 .MegaNav-ItemContainer, /* Shopping - US */
+.category_3452555 .MegaNav-ItemContainer, /* Topshop - UK */
+.category_3452066 .MegaNav-ItemContainer, /* Topshop - US */
+.category_3452565 .MegaNav-ItemContainer, /* LFW - UK */
+.category_3452064 .MegaNav-ItemContainer,  /* LFW - US */
+.category_3452564 .MegaNav-ItemContainer,  /* LFW - DE */
+.category_3452065 .MegaNav-ItemContainer,  /* LFW - FR */
+.category_3452566 .MegaNav-ItemContainer { /* LFW - FR */
+  line-height: 33px;
+}
+/* postcss-bem-linter: ignore */
+.category_3452041, /* Fashion Stories - UK */
+.category_3452537, /* Fashion Stories - US */
+.category_3452538, /* Fashion Stories - DE */
+.category_3452539, /* Fashion Stories - FR */
+.category_3452042, /* Fashion Stories - EU */
+.category_3452541, /* Blog - UK */
+.category_3452542, /* Blog - US */
+.category_3452048, /* Blog - FR */
+.category_3452047, /* Blog - DE */
+.category_3452544, /* Blog - EU */
+.category_3452053, /* Wardrobe - UK */
+.category_3452543, /* Wardrobe - US */
+.category_3452548, /* Shopping - UK */
+.category_3452550, /* Shopping - US */
+.category_3452555, /* Topshop - UK */
+.category_3452066, /* Topshop - US */
+.category_3452565, /* LFW - UK */
+.category_3452064, /* LFW - US */
+.category_3452564, /* LFW - DE */
+.category_3452065,  /* LFW - FR */
+.category_3452566  { /* LFW - EU */
+  margin-top: 2px;
+  padding-left: 0;
+}

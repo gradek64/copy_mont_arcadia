@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CmsModalButton @render should render in default state 1`] = `
+<div
+  className=""
+  onClick={[Function]}
+>
+  Text
+</div>
+`;

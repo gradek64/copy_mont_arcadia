@@ -1,0 +1,7 @@
+/** @define ButtonContainer */
+
+/* postcss-bem-linter: ignore */
+.ButtonContainer .Input-validationMessage {
+  display: block;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,28 @@
+/** @define HeaderEvans; weak */
+
+.HeaderEvans {
+  &-content {
+   opacity: 1;
+  }
+  & .Espot-globalEspot {
+    margin: 0 0 0 10px;
+  }
+
+  &.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0 20px;
+    background-color: $white;
+    z-index: 2;
+
+    & .HeaderEvans-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: $laptop-end-width;
+      margin: 0 auto;
+    }
+  }
+}

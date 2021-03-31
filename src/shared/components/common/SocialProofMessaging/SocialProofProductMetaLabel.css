@@ -1,0 +1,7 @@
+/** @define SocialProofProductMetaLabel */
+
+.SocialProofProductMetaLabel--badge {
+  width: 19px;
+  height: 14px;
+  margin-left: 4px;
+}

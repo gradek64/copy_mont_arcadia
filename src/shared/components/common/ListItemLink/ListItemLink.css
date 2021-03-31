@@ -1,0 +1,49 @@
+/** @define ListItemLink */
+@lost flexbox flex;
+
+.ListItemLink {
+  display: none;
+  color: $navigation-item-font-color;
+  font-weight: $navigation-item-font-weight;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+   /* Padding right bigger for arrow icon */
+  padding: $navigation-item-padding-vertical
+           calc($navigation-item-padding-horizontal * 2 + $navigation-item-arrow-width)
+           $navigation-item-padding-vertical
+           $navigation-item-padding-horizontal;
+           border-bottom: 1px solid $navigation-item-border-color;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    color: $navigation-item-active-font-color;
+    background-color: $navigation-item-active-background;
+  }
+  &.is-active{
+    display: block;
+  }
+  &.is-centered{
+    text-align: center;
+  }
+  &--noBottomBorder {
+    border-bottom: 0;
+  }
+
+  &-backLabel {
+    position: relative;
+    font-size: $navigation-item-back-font-size;
+    font-weight: $navigation-item-back-font-weight;
+    padding-right: $navigation-item-padding-horizontal;
+  }
+
+  &-homeLink {
+    font-weight: $navigation-home-font-weight;
+    padding-right: $navigation-item-padding-horizontal;
+    text-align: $navigation-home-text-align;
+    padding-left: $navigation-home-padding-left;
+  }
+}

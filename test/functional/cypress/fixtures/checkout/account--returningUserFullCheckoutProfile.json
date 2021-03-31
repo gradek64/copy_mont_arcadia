@@ -1,0 +1,62 @@
+{
+    "exists": true,
+    "email": "werewrddddd3333@wqer.com",
+    "title": "Mr",
+    "firstName": "dsaf",
+    "lastName": "asdfsdf",
+    "userTrackingId": 4025070,
+    "subscriptionId": "",
+    "basketItemCount": 1,
+    "creditCard": {
+        "type": "VISA",
+        "cardNumberHash": "tjOBl4zzS+ueTZQWartO5l968iOmCOix",
+        "cardNumberStar": "************1111",
+        "expiryMonth": "10",
+        "expiryYear": "2028"
+    },
+    "deliveryDetails": {
+        "addressDetailsId": 3334412,
+        "nameAndPhone": {
+            "lastName": "asdfsdf",
+            "telephone": "0987654321",
+            "title": "Mr",
+            "firstName": "dsaf"
+        },
+        "address": {
+            "address1": "Arcadia Group Ltd",
+            "address2": "Colegrave House, 68-70 Berners Street",
+            "city": "LONDON",
+            "state": "",
+            "country": "United Kingdom",
+            "postcode": "W1T 3NL"
+        }
+    },
+    "billingDetails": {
+        "addressDetailsId": 3334413,
+        "nameAndPhone": {
+            "lastName": "asdfsdf",
+            "telephone": "0987654321",
+            "title": "Mr",
+            "firstName": "dsaf"
+        },
+        "address": {
+            "address1": "Arcadia Group Ltd",
+            "address2": "Colegrave House, 68-70 Berners Street",
+            "city": "LONDON",
+            "state": "",
+            "country": "United Kingdom",
+            "postcode": "W1T 3NL"
+        }
+    },
+    "expId1": "d7fc16b4ee61b07326fc7832a40ce757e650687fb20543d3e9631632fd453835",
+    "expId2": "23b20875208e9a2f93d81c6537b3ee377665a9b7f31486e0419fd98c0c1a96b1",
+    "hasBillingDetails": true,
+    "hasCardNumberHash": true,
+    "hasDeliveryDetails": true,
+    "hasPayPal": false,
+    "isDDPUser": true,
+    "isDDPRenewable": true,
+    "ddpStartDate": "29 August 1958",
+    "ddpEndDate": "25 June 2009",
+    "version": "1.6"
+}

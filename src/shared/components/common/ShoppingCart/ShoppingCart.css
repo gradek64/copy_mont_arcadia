@@ -1,0 +1,40 @@
+/** @define ShoppingCart; weak */
+
+.ShoppingCart {
+
+  &-label {
+    color: $font-color-base;
+    display: none;
+    font-size: $shopping-cart-label-font-size-tablet;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    align-self: center;
+  }
+
+}
+
+@media $min-laptop {
+  .ShoppingCart {
+    &-label {
+      display: inline;
+    }
+  }
+}
+
+@media $desktop {
+  .ShoppingCart {
+
+    &-label {
+      font-size: $shopping-cart-label-font-size;
+    }
+
+  }
+}
+
+@media $min-laptop {
+  .ShoppingCart {
+    &-label {
+      margin: $shopping-cart-label-margin;
+    }
+  }
+}

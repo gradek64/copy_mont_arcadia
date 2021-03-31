@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingDestination /> @renders should render in default state 1`] = `
+<button
+  className="ShippingDestination"
+  onClick={[Function]}
+>
+  <span
+    className="ShippingDestination-currencySymbol"
+  >
+    £
+  </span>
+</button>
+`;

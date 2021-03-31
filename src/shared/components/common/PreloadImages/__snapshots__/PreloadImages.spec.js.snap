@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PreloadImages /> renders nothing if the images are not loaded 1`] = `
+<PreloadImages
+  render={[MockFunction]}
+  sources={
+    Array [
+      "/foo.png",
+      "bar.jpg",
+    ]
+  }
+/>
+`;
+
+exports[`<PreloadImages /> renders the render prop result if any the images fail to load 1`] = `
+<PreloadImages
+  render={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": <span>
+            Yo
+          </span>,
+        },
+      ],
+    }
+  }
+  sources={
+    Array [
+      "/foo.png",
+      "bar.jpg",
+    ]
+  }
+/>
+`;
+
+exports[`<PreloadImages /> renders the render prop result if no sources are given 1`] = `
+<PreloadImages
+  render={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": <span>
+            Yo
+          </span>,
+        },
+      ],
+    }
+  }
+  sources={Array []}
+>
+  <span>
+    Yo
+  </span>
+</PreloadImages>
+`;
+
+exports[`<PreloadImages /> renders the render prop result when the images load 1`] = `
+<PreloadImages
+  render={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": <span>
+            Yo
+          </span>,
+        },
+      ],
+    }
+  }
+  sources={
+    Array [
+      "/foo.png",
+      "bar.jpg",
+    ]
+  }
+/>
+`;

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccordionGroup/> @renders sets initial state 1`] = `
+<div
+  className="AccordionGroup "
+>
+  <Accordion
+    accordionName="name1"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion-groupMember firstAccordion"
+    expanded={false}
+    isDisabled={false}
+    key="label1"
+    label="label1"
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+  <Accordion
+    accordionName="name2"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion-groupMember secondAccordion"
+    expanded={false}
+    isDisabled={false}
+    key="label2"
+    label="label2"
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<AccordionGroup/> @renders with className 1`] = `
+<div
+  className="AccordionGroup AccordionGroupClassName"
+>
+  <Accordion
+    accordionName="name1"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion-groupMember firstAccordion"
+    expanded={false}
+    isDisabled={false}
+    key="label1"
+    label="label1"
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+  <Accordion
+    accordionName="name2"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion-groupMember secondAccordion"
+    expanded={false}
+    isDisabled={false}
+    key="label2"
+    label="label2"
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<AccordionGroup/> @renders with initiallyExpanded 1`] = `
+<div
+  className="AccordionGroup "
+>
+  <Accordion
+    accordionName="name1"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion-groupMember firstAccordion"
+    expanded={true}
+    isDisabled={false}
+    key="label1"
+    label="label1"
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+  <Accordion
+    accordionName="name2"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion-groupMember secondAccordion"
+    expanded={false}
+    isDisabled={false}
+    key="label2"
+    label="label2"
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;

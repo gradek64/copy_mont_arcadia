@@ -1,0 +1,25 @@
+/** @define CmsForm */
+
+.CmsForm {
+  &-hero {
+    width: 100%;
+  }
+
+  &-title {
+    padding-left: $page-padding;
+  }
+
+  &-fieldSet {
+    border: none;
+    margin: 0;
+    padding: 0 $page-padding;
+  }
+
+  &-introHTML {
+    padding: $page-padding;
+  }
+
+  &-outroHTML {
+    padding: $page-padding;
+  }
+}

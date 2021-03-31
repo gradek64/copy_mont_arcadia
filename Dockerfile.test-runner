@@ -1,0 +1,15 @@
+FROM arcadiagroup/base-test-runner:latest
+ARG NPM_TOKEN
+
+WORKDIR /monty
+
+RUN echo "Europe/London" > /etc/timezone \
+ && echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+
+ADD package.json /monty
+ADD package-lock.json /monty
+RUN npm install --no-optional
+ADD . /monty/
+ENV TERM xterm
+
+CMD "docker/run_tests.sh"

@@ -1,0 +1,66 @@
+{
+  "billingAddress": {
+    "address1": "Foobar lane",
+    "address2": "Beijing",
+    "address3": "12345",
+    "country": "China",
+    "name": "Mr Bob Barker"
+  },
+  "currencyConversion": { "currencyRate": "GBP" },
+  "ddpPromotion": {},
+  "deliveryAddress": {
+    "address1": "Flat 54, Queen Alexandra Mansions, Hastings Street",
+    "address2": "LONDON",
+    "address3": "WC1H 9DR",
+    "country": "United Kingdom",
+    "name": "Mr Foo Bar"
+  },
+  "deliveryCarrier": "Parcelnet",
+  "deliveryCost": "4.00",
+  "deliveryDate": "Friday 2 February 2018",
+  "deliveryMethod": "Standard Delivery",
+  "deliveryPrice": "4.00",
+  "orderId": 700406247,
+  "orderLines": [
+    {
+      "colour": "MULTI",
+      "discount": "",
+      "discountPrice": "0.00",
+      "imageUrl": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/32Q06HMUL_thumb.jpg",
+      "lineNo": "32Q06HMUL",
+      "productId": "19812718",
+      "name": "Shoe Insoles",
+      "nonRefundable": false,
+      "quantity": 1,
+      "size": "",
+      "total": "2.83",
+      "unitPrice": "2.83",
+      "brand": "",
+      "category": "",
+      "department": "",
+      "ecmcCategory": "",
+      "isDDPProduct": false,
+      "reviewRating": "",
+      "skuId": "19812722",
+      "wasPrice": ""
+    }
+  ],
+  "paymentDetails": [
+    { "cardNumberStar": "", "paymentMethod": "China Union Pay", "totalCost": "£6.83", "totalCostAfterDiscount": "£6.83", "selectedPaymentMethod": "CUPAY" }
+  ],
+  "returnPossible": false,
+  "returnRequested": false,
+  "returning_buyer": true,
+  "subTotal": "2.83",
+  "totalOrderPrice": "6.83",
+  "totalOrdersDiscount": "",
+  "totalOrdersDiscountLabel": "",
+  "discounts": [],
+  "userId": "1385231",
+  "productRevenue": "2.83",
+  "promoCodes": [],
+  "isDDPOrder": false,
+  "guestUserEmail": "",
+  "userType": "",
+  "isGuestOrder": false
+}

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyWishlist @render should not render SIGN IN message when user is authenticated 1`] = `
+<div
+  className="EmptyWishlist"
+>
+  <span
+    className="EmptyWishlist-message"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": Array [
+          "Select the ",
+          " icon next to our products to save them to your Wishlist.",
+        ],
+      }
+    }
+  />
+  <Button
+    className="EmptyWishlist-continueButton"
+    clickHandler={[Function]}
+  >
+    Continue Shopping
+  </Button>
+</div>
+`;
+
+exports[`EmptyWishlist @render should render component when user is not authenticated 1`] = `
+<div
+  className="EmptyWishlist"
+>
+  <span
+    className="EmptyWishlist-message"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": Array [
+          "Select the ",
+          " icon next to our products to save them to your Wishlist.",
+        ],
+      }
+    }
+  />
+  <Button
+    className="EmptyWishlist-continueButton"
+    clickHandler={[Function]}
+  >
+    Continue Shopping
+  </Button>
+  <span
+    className="EmptyWishlist-message"
+  >
+    Or 
+    <button
+      className="EmptyWishlist-signInButton"
+      onClick={[MockFunction]}
+    >
+      Sign In
+    </button>
+     to retrieve previous Wishlists.
+  </span>
+</div>
+`;

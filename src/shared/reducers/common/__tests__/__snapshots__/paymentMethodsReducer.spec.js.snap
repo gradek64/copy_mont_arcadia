@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payment Method Reducer SET_PAYMENT_METHODS stores payload in state 1`] = `
+Array [
+  "foo",
+]
+`;

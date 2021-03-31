@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductPromoBanner/> @renders in default state 1`] = `
+<div
+  className="ProductPromoBanner"
+>
+  <Connect(Image)
+    className="ProductPromoBanner-image"
+    onError={[Function]}
+    src="http://media.topshop.com/image.png"
+  />
+</div>
+`;

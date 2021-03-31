@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterNavigation /> @renders in default state 1`] = `
+<div
+  className="FooterNavigation"
+>
+  <div
+    className="FooterNavigation-category"
+    key="FooterNavigation-0"
+  >
+    <h3
+      className="FooterNavigation-categoryTitle"
+    >
+      HELP
+    </h3>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-0"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Store Finder
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-1"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        FAQs
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-2"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Contact us
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-3"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Size Guide
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-4"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Washcare & Aftercare
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-5"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Accessibility
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-6"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Site Map
+      </Link>
+    </div>
+    <div
+      className="FooterNavigation-categoryItem"
+      key="FooterNavigation-0-7"
+    >
+      <Link
+        className="FooterNavigation-textLink"
+        isExternal={false}
+        onClick={[Function]}
+        target="_blank"
+        to="/en/tsuk/category/store-finder-1824332/home?cat2=1102568&intcmpid=W_FOOTER_MAIN_%20STORE_FINDER"
+      >
+        Topshop at Oxford Circus
+      </Link>
+    </div>
+  </div>
+</div>
+`;

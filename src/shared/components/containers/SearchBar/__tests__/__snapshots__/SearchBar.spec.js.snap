@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar/> @renders in default state 1`] = `
+<div
+  className="SearchBar   "
+>
+  <Form
+    className="SearchBar-form"
+    noValidate={true}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onSubmit={[Function]}
+  >
+    <div
+      className="SearchBar-iconParent"
+    >
+      <button
+        aria-label="Search"
+        className="SearchBar-button"
+        onClick={[Function]}
+      >
+        <MockImage
+          alt="Search"
+          className="SearchBar-icon"
+          src="/assets/{brandName}/images/search-icon.svg?version=AAAAA"
+        />
+      </button>
+    </div>
+    <label
+      className="SearchBar-label"
+      htmlFor="searchTermInput"
+    >
+      Search for a product...
+    </label>
+    <input
+      autoComplete="off"
+      className="SearchBar-queryInput"
+      id="searchTermInput"
+      name="searchTerm"
+      onChange={[Function]}
+      onClick={[MockFunction]}
+      onKeyDown={[Function]}
+      placeholder="Search"
+      type="search"
+    />
+  </Form>
+</div>
+`;

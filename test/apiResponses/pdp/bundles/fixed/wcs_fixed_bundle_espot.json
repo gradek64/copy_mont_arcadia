@@ -1,0 +1,225 @@
+{
+  "sourceUrl": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/ffs-fixed-outfit2-4929582",
+  "isBundle": true,
+  "isBundleOrOutfit": "Outfit",
+  "longDescription": "",
+  "assets": {
+    "isBServerUrl": false
+  },
+  "isLoggedIn": false,
+  "pageSizeFromParam": "20",
+  "beginIndexFromParam": "0",
+  "homeURL": "http://ts.pplive.arcadiagroup.ltd.uk",
+  "firstLevelCatentryName": "Clothing",
+  "firstLevelCatentryNameUrl": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/category/clothing-427?bi=0&amp;ps=20",
+  "secondLevelCatentryName": "Tops",
+  "secondLevelCatentryNameUrl": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/category/clothing-427/tops-443?bi=0&amp;ps=20",
+  "productDescription": "FFS_Fixed_outfit2",
+  "espots": {
+    "CEProductEspotCol1Pos1": {
+      "EspotContents": {
+        "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000012675+baseline%3A+210+revision%3A+0+published%3A+2016-03-09+13%3A19%3A22.636666%3ADaniel+Baskeyfield+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000003144+baseline%3A+3+revision%3A+0+description%3A+Basic+Espot+-+Unsecure+%28MASTER%29+%28REF+0000003135%29+published%3A+2010-12-06+11%3A11%3A03.681468+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000003144%2Fcss%2Fdefault.css%22+%2F%3E+%3Cdiv%3E+%3Cdiv%3E+%3Cdiv+id%3D%22socialLinksContainer%22%3E+%3Cul+class%3D%22social_icons%22%3E+%3Cli%3E%3Ca+href%3D%22%23%22+class%3D%22icon_social_facebook%22%3E%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23%22+class%3D%22icon_social_twitter%22%3E%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23%22+class%3D%22icon_social_googleplus%22%3E%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23%22+class%3D%22icon_social_pinterest%22%3E%3C%2Fa%3E%3C%2Fli%3E+%3C%2Ful%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000003135+--%3E+"
+      }
+    },
+    "CE3ContentEspot1": {
+      "contentText": "%3Cdiv+class%3D%22info_item+delivery_info+grid%22%3E%0A%3Cdiv+class%3D%22grid_item+one_quarter%22%3E%0A++%3Ci+class%3D%22icon_free_delivery%22%3E%3C%2Fi%3E%0A++%3Ch5%3EFree+Delivery%3C%2Fh5%3E%0A++%3Cp%3EFREE+delivered+within+3%26ndash%3B7+working+days%3C%2Fp%3E%0A%3C%2Fdiv%3E%0A%3Cdiv+class%3D%22grid_item+one_quarter%22%3E%0A++%3Ci+class%3D%22icon_standard_delivery%22%3E%3C%2Fi%3E%0A++%3Ch5%3EStandard+Delivery%3C%2Fh5%3E%0A++%3Cp%3E+%26pound%3B4+delivered+within+4+working+days%3C%2Fp%3E%0A%3C%2Fdiv%3E%0A%3Cdiv+class%3D%22grid_item+one_quarter%22%3E%0A++%3Ci+class%3D%22icon_nextday_delivery%22%3E%3C%2Fi%3E%0A++%3Ch5%3ENext+Day+Delivery%3C%2Fh5%3E%0A++%3Cp%3E%C2%A33+to+store+or+%C2%A36+to+home%3C%2Fp%3E%0A%3C%2Fdiv%3E%0A%3Cdiv+class%3D%22grid_item+one_quarter%22%3E%0A++%3Ci+class%3D%22icon_free_returns%22%3E%3C%2Fi%3E%0A++%3Ch5%3EFree+Returns%3C%2Fh5%3E%0A++%3Cp%3Evia+store%2C+post+or+Collect%2B%3C%2Fp%3E%0A%3C%2Fdiv%3E%0A%3C%2Fdiv%3E"
+    }
+  },
+  "BundleDetails": {
+    "lineNumber": "BUNDLE_FFS_FIXED_OUTFIT2",
+    "productId": "22110159",
+    "canonicalUrl": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/ffs-fixed-outfit2-4929582",
+    "name": "FFS_Fixed_outfit2",
+    "orderEmail": "Total price:",
+    "nowPrice": 173,
+    "KlarnaPDPEspot1": {},
+    "deliveryMessage": "",
+    "selectSize": "Select your size for the items below",
+    "isFlexible": false,
+    "bundleDetailsForm": {
+      "formMethod": "post",
+      "pageAction": "ProductDetailsActionControl",
+      "formId": "form_bundle",
+      "storeId": 12556,
+      "orderId": ".",
+      "langId": -1,
+      "catalogId": 33057,
+      "categoryId": "",
+      "productId": 22110159,
+      "errorViewName": "ProductDisplayErrorView",
+      "add2cartErrorViewName": "Add2ShopCartResponseView",
+      "calculationUsageId": "-1",
+      "shouldCachePage": false,
+      "URL": "ProductDisplay",
+      "beginIndex": "0",
+      "viewAllFlag": "",
+      "Add2ShopCart": true,
+      "isBundle": true,
+      "itemsInOutfitText": "Items in outfit",
+      "bundleSlots": [
+        {
+          "product": [
+            {
+              "slot_1": "1",
+              "catEntryId_1": 14795423,
+              "imgFullImg": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62A34FGRY_small.jpg",
+              "productUrl": "/en/tsuk/product/nightmare-knit-by-the-ragged-priest-2847442?siteId=%2F12556",
+              "partNumber": "TS62A34FGRY",
+              "stockEmail": "true",
+              "lineNumber": "62A34FGRY",
+              "shortDescription": "**Nightmare Knit by The Ragged Priest",
+              "longDescription": "Tie+dye+cropped+knit.+80%25+Cotton%2C20%25+Polyester.+%26lt%3BBR%26gt%3BHandwash.%26lt%3BBR%26gt%3B%26lt%3BBR%26gt%3B%26lt%3BB%26gt%3B**PLEASE+NOTE+THIS+ITEM+IS+PART+OF+OUR+CONCESSION+COLLECTION+AND+IS+ONLY+RETURNABLE+TO+OUR+WEBSITE.%26lt%3B%2FB%26gt%3B",
+              "productName": "**Nightmare Knit by The Ragged Priest",
+              "was1Price": 55,
+              "nowPrice": 38,
+              "attributes": [
+                {
+                  "attrName_1": "70848691",
+                  "attrValue_1": "GREY"
+                }
+              ],
+              "attrName_1": "70848692",
+              "items": [
+                {
+                  "skuId": 14795432,
+                  "availableInventory": 0,
+                  "partNumber": 602014000724321,
+                  "skuSequence": 1,
+                  "attrValue_1": "S/M",
+                  "disabled": "disabled",
+                  "outOfStock": true
+                },
+                {
+                  "skuId": 14795438,
+                  "availableInventory": 10,
+                  "partNumber": 602014000724322,
+                  "skuSequence": 2,
+                  "attrValue_1": "M/L",
+                  "lowStock": false
+                }
+              ],
+              "isGiftCenterEnabled": false,
+              "quantity_1": 1
+            }
+          ]
+        },
+        {
+          "product": [
+            {
+              "slot_2": "2",
+              "catEntryId_2": 16679534,
+              "imgFullImg": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/63W22GGLD_small.jpg",
+              "productUrl": "/en/tsuk/product/fossil-cecile-rose-gold-watch-3305406?siteId=%2F12556",
+              "partNumber": "TS63W22GGLD",
+              "stockEmail": "true",
+              "lineNumber": "63W22GGLD",
+              "shortDescription": "**Fossil Cecile Rose Gold Watch",
+              "longDescription": "Fossil+Cecile%2C+rose+gold+bracelet+watch.+%26lt%3BBR%26gt%3B++Dial+Colour+-++Rose+Gold%26lt%3BBR%26gt%3BMovement+Type+-+Quartz+Analogue%26lt%3BBR%26gt%3BDial+Width+-+40mm%26lt%3BBR%26gt%3BClasp+Type+-+Deployant+Clasp%26lt%3BBR%26gt%3BWater+Resistant+up+to+10ATM%26lt%3BBR%26gt%3BSupplied+with+Branded+Packaging%26lt%3BBR%26gt%3B2+Year+Manufacturing+Guarantee+Included%26lt%3B%2FB%26gt%3B+%26lt%3BBR%26gt%3B%26lt%3BB%26gt%3B**PLEASE+NOTE+THIS+ITEM+CAN+ONLY+BE+RETURNED+VIA+POST.+STORES+ARE+UNABLE+TO+RETURN+THESE+ITEMS+FOR+YOU.+ALL+UK+POSTAL+RETURNS+ARE+FREE.+INTERNATIONAL+POSTAL+CHARGES+WILL+VARY.%26lt%3B%2FB%26gt%3B",
+              "productName": "**Fossil Cecile Rose Gold Watch",
+              "nowPrice": 135,
+              "attributes": [
+                {
+                  "attrName_2": "79711195",
+                  "attrValue_2": "GOLD"
+                }
+              ],
+              "attrName_2": "79711196",
+              "items": [
+                {
+                  "skuId": 16679542,
+                  "availableInventory": 100,
+                  "partNumber": 602014000768127,
+                  "skuSequence": 1,
+                  "attrValue_2": "ONE",
+                  "lowStock": false
+                }
+              ],
+              "isGiftCenterEnabled": false,
+              "quantity_2": 1
+            }
+          ]
+        }
+      ],
+      "addItemsToBag": "Add items to bag",
+      "KlarnaPDPEspot2": {
+        "contentText": "%3Cp%3E%0A%3Cb%3EBUY+NOW%2C+PAY+LATER%3C%2Fb%3E%0A%3C%2Fp%3E%0A%3Cbr%3E%0A0%25+INTEREST%0A%3Ca+href%3D%22http%3A%2F%2Fwww.google.com%22%3EFIND+OUT+MORE%3C%2Fa%3E"
+      }
+    },
+    "productInfoText": "Product details",
+    "description": null,
+    "code": "Code:",
+    "links": "Links",
+    "topShopStyleHref": "#product_extra_content_slot_6",
+    "similarItemsHref": "#",
+    "featuredIn": "Featured In",
+    "contentHtml": {
+      "cmsMobileContent": {
+        "pageId": 104705,
+        "pageName": "static-0000104705",
+        "baseline": "1",
+        "revision": "0",
+        "lastPublished": "2017-03-01 12:59:20.514699",
+        "contentPath": "cms/pages/static/static-0000104705/static-0000104705.html",
+        "seoUrl": "",
+        "hello": "world",
+        "mobileCMSUrl": "cms/pages/static/static-0000104705/static-0000104705.json"
+      },
+      "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000104259+baseline%3A+3+revision%3A+0+published%3A+2015-11-25+14%3A44%3A30.98948%3Acogz+cogz+CMS+Temp+Version%3A+template-0000011825+baseline%3A+1+revision%3A+0+description%3A+Home+Page+Module+-+Basic+%28REF+0000011783%29+published%3A+2015-06-25+10%3A42%3A08.412652+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000011825%2Fcss%2Ftheme1.css%22+%2F%3E%3Cstyle+type%3D%22text%2Fcss%22%3E+%2F*%3C%21%5BCDATA%5B*%2F+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage104705+%3D+%7B+%22pageId%22%3A+104705%2C+%22pageName%22%3A+%22static-0000104705%22%2C+%22baseline%22%3A+%221%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222017-03-01+12%3A59%3A20.514699%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000104705%2Fstatic-0000104705.html%22%2C+%22seoUrl%22%3A+%22%22%2C+%22hello%22%3A%22world%22%2C+%22mobileCMSUrl%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000104705%2Fstatic-0000104705.json%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%2F*%5D%5D%3E*%2F+%3C%2Fstyle%3E+%3Cdiv+id%3D%22static-0000104259%22+class%3D%27theme1+masonry-item+module-basic%27%3E+%3Cdiv+class%3D%22masonry-item-inner%22%3E+%3Cimg+src%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Fpages%2Fstatic%2Fstatic-0000104259%2Fimages%2F35B66IBLK_2_thumb.jpg%22+alt%3D%22image%22+width%3D%22170%22+height%3D%22255%22+%2F%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000011783+--%3E+"
+    },
+    "recentlyViewedText": "Recently Viewed",
+    "omnitureEnabled": "Y",
+    "brandAccountCode": ""
+  },
+  "qubitProduct": {
+    "window.universal_variable": {
+      "version": "1.2.0",
+      "page": {
+        "type": "Product",
+        "breadcrumb": ["FFS_Fixed_outfit2 "]
+      },
+      "user": {
+        "user_id": "-1002"
+      },
+      "product": {
+        "id": "22110159",
+        "url": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/ffs-fixed-outfit2-4929582",
+        "name": "FFS_Fixed_outfit2",
+        "category": "",
+        "currency": "GBP",
+        "unit_sale_price": 173,
+        "unit_price": 173,
+        "sku_code": "BUNDLE_FFS_FIXED_OUTFIT2",
+        "color": "",
+        "image_url": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_FFS_FIXED_OUTFIT2_normal.jpg",
+        "linked_products": [
+          {
+            "color": "GREY",
+            "name": "**Nightmare Knit by The Ragged Priest",
+            "id": 14795423,
+            "description": "Tie+dye+cropped+knit.+80%25+Cotton%2C20%25+Polyester.+%26lt%3BBR%26gt%3BHandwash.%26lt%3BBR%26gt%3B%26lt%3BBR%26gt%3B%26lt%3BB%26gt%3B**PLEASE+NOTE+THIS+ITEM+IS+PART+OF+OUR+CONCESSION+COLLECTION+AND+IS+ONLY+RETURNABLE+TO+OUR+WEBSITE.%26lt%3B%2FB%26gt%3B",
+            "sku_code": "62A34FGRY",
+            "unit_price": 55,
+            "unit_sale_price": 38,
+            "url": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/nightmare-knit-by-the-ragged-priest-2847442",
+            "image_url": "/wcsstore/TopShop/images/catalog/62A34FGRY_small.jpg",
+            "stock": "",
+            "size": ""
+          },
+          {
+            "color": "GOLD",
+            "name": "**Fossil Cecile Rose Gold Watch",
+            "id": 16679534,
+            "description": "Fossil+Cecile%2C+rose+gold+bracelet+watch.+%26lt%3BBR%26gt%3B++Dial+Colour+-++Rose+Gold%26lt%3BBR%26gt%3BMovement+Type+-+Quartz+Analogue%26lt%3BBR%26gt%3BDial+Width+-+40mm%26lt%3BBR%26gt%3BClasp+Type+-+Deployant+Clasp%26lt%3BBR%26gt%3BWater+Resistant+up+to+10ATM%26lt%3BBR%26gt%3BSupplied+with+Branded+Packaging%26lt%3BBR%26gt%3B2+Year+Manufacturing+Guarantee+Included%26lt%3B%2FB%26gt%3B+%26lt%3BBR%26gt%3B%26lt%3BB%26gt%3B**PLEASE+NOTE+THIS+ITEM+CAN+ONLY+BE+RETURNED+VIA+POST.+STORES+ARE+UNABLE+TO+RETURN+THESE+ITEMS+FOR+YOU.+ALL+UK+POSTAL+RETURNS+ARE+FREE.+INTERNATIONAL+POSTAL+CHARGES+WILL+VARY.%26lt%3B%2FB%26gt%3B",
+            "sku_code": "63W22GGLD",
+            "unit_price": 135,
+            "unit_sale_price": 135,
+            "url": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/fossil-cecile-rose-gold-watch-3305406",
+            "image_url": "/wcsstore/TopShop/images/catalog/63W22GGLD_small.jpg",
+            "stock": "",
+            "size": ""
+          }
+        ]
+      }
+    }
+  }
+}

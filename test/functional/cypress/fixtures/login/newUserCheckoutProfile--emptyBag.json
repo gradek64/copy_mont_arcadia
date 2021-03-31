@@ -1,0 +1,70 @@
+{
+    "exists": true,
+    "email": "testymctest@arcadiagroup.co.uk",
+    "title": "",
+    "firstName": "",
+    "lastName": "",
+    "userTrackingId": 6304213,
+    "subscriptionId": "",
+    "basketItemCount": 0,
+    "creditCard": {
+      "type": "",
+      "cardNumberHash": "",
+      "cardNumberStar": "",
+      "expiryMonth": "",
+      "expiryYear": ""
+    },
+    "deliveryDetails": {
+      "addressDetailsId": -1,
+      "nameAndPhone": {
+        "lastName": "",
+        "telephone": "",
+        "title": "",
+        "firstName": ""
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "postcode": ""
+      }
+    },
+    "billingDetails": {
+      "addressDetailsId": -1,
+      "nameAndPhone": {
+        "lastName": "",
+        "telephone": "",
+        "title": "",
+        "firstName": ""
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "postcode": ""
+      }
+    },
+    "version": "1.6",
+    "isDDPUser": false,
+    "isDDPRenewable": false,
+    "ddpStartDate": null,
+    "ddpEndDate": null,
+    "wasDDPUser": false,
+    "ddpCurrentOrderCount": 0,
+    "ddpPreviousOrderCount": 0,
+    "ddpCurrentSaving": 0,
+    "ddpPreviousSaving": 0,
+    "ddpStandardPrice": 9.95,
+    "ddpExpressDeliveryPrice": 6,
+    "expId1": "6cc5284d34bcdcfc26201d876e54faa06823331d218f9d2afbf630944dede527",
+    "expId2": "b84407aa6771cf11f4c1b98e8e791ca16c01f350407d701d71006e60b2410c8a",
+    "success": true,
+    "hasCardNumberHash": false,
+    "hasPayPal": false,
+    "hasDeliveryDetails": false,
+    "hasBillingDetails": false
+  }

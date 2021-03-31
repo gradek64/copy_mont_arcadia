@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryDetailsForm /> @renders renders why we need this link if bagContainsOnlyDDPProduct 1`] = `
+<div
+  className="DeliveryDetailsForm"
+>
+  <CheckoutPrimaryTitle
+    isAugmented={true}
+    title="Delivery Address"
+  />
+  <button
+    className="DeliveryDetailsForm-link"
+    onClick={[MockFunction]}
+  >
+    Why we need this
+  </button>
+  <Connect(AddressFormDetails)
+    addressType="deliveryCheckout"
+    titleHidden={true}
+  />
+</div>
+`;
+
+exports[`<DeliveryDetailsForm /> @renders should render default state 1`] = `
+<div
+  className="DeliveryDetailsForm"
+>
+  <CheckoutPrimaryTitle
+    isAugmented={true}
+    title="Delivery Address"
+  />
+  <Connect(AddressFormDetails)
+    addressType="deliveryCheckout"
+    titleHidden={true}
+  />
+</div>
+`;

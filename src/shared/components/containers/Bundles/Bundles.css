@@ -1,0 +1,128 @@
+/** @define Bundles; weak */
+@lost flexbox flex;
+@lost gutter 30px;
+
+.Bundles {
+  padding: $page-padding;
+  text-align: center;
+
+  &-title {
+    color: $bundles-heading-title-font-color;
+    font-size: $bundles-heading-title-font-size;
+    font-weight: $bundles-heading-title-font-weight;
+    text-decoration: $bundles-heading-title-text-decoration;
+    margin-bottom: $bundles-heading-title-margin-bottom;
+  }
+
+  &-price {
+    text-align: $bundles-heading-price-text-align;
+    /* stylelint-disable-next-line */
+    width: $bundles-heading-price-width;
+    margin: $bundles-heading-price-margin;
+    font-weight: $bundles-heading-price-font-weight;
+    display: $bundles-heading-price-display;
+
+    &--discounted .Bundles-priceValue {
+      color: $bundles-heading-price-discounted-color;
+    }
+  }
+
+  &-priceFrom {
+    display: $bundles-heading-price-from-display;
+  }
+
+  &-dividingLineAboveHeading {
+    display: block;
+    border-top: $bundles-products-dividing-line-border-top-width solid $bundles-products-dividing-line-border-color;
+    border-bottom: $bundles-products-dividing-line-border-bottom-width solid $bundles-products-dividing-line-border-color;
+    color: $bundles-miniproduct-heading-font-color;
+    margin-bottom: 10px;
+  }
+
+  &-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: $white;
+    box-shadow: 0 0 10px $md-dk-gray;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    lost-flex-container: row;
+
+    &Error {
+      margin: 10px 0;
+    }
+
+    &Label {
+      lost-column: 2/3 1;
+      margin: 10px 0;
+    }
+
+    &Price {
+      margin: 10px 0;
+      text-align: right;
+      lost-column: 1/3 0;
+    }
+  }
+
+  &.is-fixed {
+    padding-bottom: 150px;
+  }
+
+  &-espot {
+    margin: 10px 0;
+  }
+}
+
+@media $min-tablet {
+  .Bundles {
+    &-topWrapper {
+      display: flex;
+    }
+    &-topWrapperPart {
+      width: 49%;
+    }
+    &-carousel {
+      margin-right: 2%;
+      margin-top: 25px;
+    }
+    &-productMedia {
+      width: 100%;
+    }
+    &-carouselWithThumbnails {
+      display: flex;
+    }
+    &-title {
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: $bundles-heading-title-font-size-tablet;
+      line-height: $bundles-heading-title-line-height-tablet;
+    }
+  }
+}
+
+@media $min-laptop {
+  .Bundles {
+    &-productMedia {
+      width: 86%;
+    }
+
+    &-title {
+      font-size: $bundles-heading-title-font-size-laptop;
+      line-height: $bundles-heading-title-line-height-laptop;
+    }
+
+    &-carousel {
+      & .Carousel-item {
+          /*
+          * css aspect ratio solution to set carousel item height
+          * to fix carousel collapse when loading next or prev image
+          */
+          height: $carousel-container-item-height-desktop;
+          padding-bottom: $carousel-container-item-padding-bottom-desktop;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Separator /> should render Separator component correctly when no props passed 1`] = `
+<hr
+  className=""
+  style={
+    Object {
+      "backgroundColor": "#e1e1e1",
+      "border": "none",
+      "height": "1px",
+      "margin": "30px 0",
+    }
+  }
+/>
+`;
+
+exports[`<Separator /> should render Separator component correctly when props passed 1`] = `
+<hr
+  className=""
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "none",
+      "height": "1px",
+      "margin": "15px 0",
+    }
+  }
+/>
+`;

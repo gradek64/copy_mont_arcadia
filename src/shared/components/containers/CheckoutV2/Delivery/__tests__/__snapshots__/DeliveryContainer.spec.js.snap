@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryContainer /> @renders Empty orderSummary should return null 1`] = `""`;
+
+exports[`<DeliveryContainer /> @renders Home Delivery 1`] = `
+<section
+  className="DeliveryContainer DeliveryContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Delivery Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Delivery Options",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Delivery Options",
+          },
+        ],
+      }
+    }
+    openMiniBag={[Function]}
+    totalCost="£87.00"
+  />
+  <TotalCost
+    totalCost="£87.00"
+  />
+  <Component
+    CountrySelect={[Function]}
+    id="qubit-show-delivery-country"
+  />
+  <div
+    className="DeliveryContainer-contentV2"
+  >
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer)))
+      onChangeDeliveryLocation={[Function]}
+      setScrollToFirstErrorActive={[Function]}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={true}
+    />
+    <Connect(HomeDelivery) />
+  </div>
+</section>
+`;
+
+exports[`<DeliveryContainer /> @renders Home Delivery without StoreDelivery options 1`] = `
+<section
+  className="DeliveryContainer DeliveryContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Delivery Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Delivery Options",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Delivery Options",
+          },
+        ],
+      }
+    }
+    openMiniBag={[Function]}
+    totalCost="£87.00"
+  />
+  <TotalCost
+    totalCost="£87.00"
+  />
+  <Component
+    CountrySelect={[Function]}
+    id="qubit-show-delivery-country"
+  />
+  <div
+    className="DeliveryContainer-contentV2"
+  >
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer)))
+      onChangeDeliveryLocation={[Function]}
+      setScrollToFirstErrorActive={[Function]}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={true}
+    />
+    <Connect(HomeDelivery) />
+  </div>
+</section>
+`;
+
+exports[`<DeliveryContainer /> @renders Store Delivery 1`] = `
+<section
+  className="DeliveryContainer DeliveryContainer--v2"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Delivery Options"
+  />
+  <QuickViewOrderSummary
+    isMobile={true}
+    l={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [
+              "Delivery Options",
+            ],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Delivery Options",
+          },
+        ],
+      }
+    }
+    openMiniBag={[Function]}
+    totalCost="£81.00"
+  />
+  <TotalCost
+    totalCost="£81.00"
+  />
+  <Component
+    CountrySelect={[Function]}
+    id="qubit-show-delivery-country"
+  />
+  <div
+    className="DeliveryContainer-contentV2"
+  >
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer)))
+      onChangeDeliveryLocation={[Function]}
+      setScrollToFirstErrorActive={[Function]}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={true}
+    />
+    <Connect(StoreDelivery)
+      isScrollToFirstErrorActive={true}
+      openCollectFromStoreModal={[Function]}
+    />
+  </div>
+</section>
+`;

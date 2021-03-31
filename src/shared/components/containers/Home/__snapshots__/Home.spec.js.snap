@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> @renders in default state 1`] = `
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+    }
+  }
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": "www.topshop.com",
+          "rel": "canonical",
+        },
+      ]
+    }
+  />
+  <h1
+    className="screen-reader-text"
+  >
+    topshop homepage
+  </h1>
+  <Connect(Espot)
+    identifier="homePageEspotContent"
+  />
+  <Connect(SandBox)
+    cmsPageName="home"
+    contentType="page"
+    isInPageContent={true}
+    segmentationRequestData={null}
+  />
+  <Connect(SandBox)
+    cmsPageName="mobileHomepageESpotPos1"
+    contentType="espot"
+    isInPageContent={true}
+    shouldGetContentOnFirstLoad={true}
+  />
+  <Connect(SandBox)
+    cmsPageName="mobileHomepageESpotPos2"
+    contentType="espot"
+    isInPageContent={true}
+    shouldGetContentOnFirstLoad={true}
+  />
+  <Connect(AbandonmentModalTrigger)
+    espot="ABANDONMENT_SIGNUP_MODAL_HOME"
+  />
+</div>
+`;
+
+exports[`<Home/> @renders in default state with callback props 1`] = `
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+    }
+  }
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": undefined,
+          "rel": "canonical",
+        },
+      ]
+    }
+  />
+  <h1
+    className="screen-reader-text"
+  >
+    topshop homepage
+  </h1>
+  <Connect(Espot)
+    identifier="homePageEspotContent"
+  />
+  <Connect(SandBox)
+    cmsPageName="home"
+    contentType="page"
+    isInPageContent={true}
+    segmentationRequestData={null}
+  />
+  <Connect(SandBox)
+    cmsPageName="mobileHomepageESpotPos1"
+    contentType="espot"
+    isInPageContent={true}
+    shouldGetContentOnFirstLoad={true}
+  />
+  <Connect(SandBox)
+    cmsPageName="mobileHomepageESpotPos2"
+    contentType="espot"
+    isInPageContent={true}
+    shouldGetContentOnFirstLoad={true}
+  />
+  <Connect(AbandonmentModalTrigger)
+    espot="ABANDONMENT_SIGNUP_MODAL_HOME"
+  />
+</div>
+`;
+
+exports[`<Home/> @renders when FEATURE_HOME_PAGE_SEGMENTATION enabled 1`] = `
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+    }
+  }
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": "www.topshop.com",
+          "rel": "canonical",
+        },
+      ]
+    }
+  />
+  <h1
+    className="screen-reader-text"
+  >
+    topshop homepage
+  </h1>
+  <Connect(Espot)
+    identifier="homePageEspotContent"
+  />
+  <Connect(SandBox)
+    cmsPageName="home"
+    contentType="page"
+    isInPageContent={true}
+    segmentationRequestData={
+      Object {
+        "responseIdentifier": "homeEspot1",
+        "wcsEndpoint": "/home",
+      }
+    }
+  />
+  <Connect(SandBox)
+    cmsPageName="mobileHomepageESpotPos1"
+    contentType="espot"
+    isInPageContent={true}
+    shouldGetContentOnFirstLoad={true}
+  />
+  <Connect(SandBox)
+    cmsPageName="mobileHomepageESpotPos2"
+    contentType="espot"
+    isInPageContent={true}
+    shouldGetContentOnFirstLoad={true}
+  />
+  <Connect(AbandonmentModalTrigger)
+    espot="ABANDONMENT_SIGNUP_MODAL_HOME"
+  />
+</div>
+`;

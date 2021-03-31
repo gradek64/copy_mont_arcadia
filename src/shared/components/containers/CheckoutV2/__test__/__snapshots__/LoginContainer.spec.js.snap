@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginContainer /> @renders in default state 1`] = `
+<div
+  className="LoginContainer"
+>
+  <hr
+    className="LoginContainer-horizontalLine"
+  />
+  <section
+    className="LoginContainer-wrapper"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Sign In"
+    />
+    <div
+      className="LoginContainer-secure"
+    >
+      Secure Checkout
+    </div>
+    <section
+      className="LoginContainer-returningCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="returning-customer"
+        expanded={false}
+        header="Returning Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Sign in to checkout"
+        withoutBorders={false}
+      >
+        <Connect(Login)
+          getNextRoute={[Function]}
+          successCallback={[Function]}
+        />
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-newCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="new-customer"
+        expanded={false}
+        header="New Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Create an account to checkout"
+        withoutBorders={false}
+      >
+        <section
+          className="LoginContainer-newUserSection"
+        >
+          <Connect(Register)
+            getNextRoute={[Function]}
+            source="CHECKOUT"
+            successCallback={[MockFunction]}
+          />
+        </section>
+      </Accordion>
+    </section>
+    <Component
+      id="ADP-3161-guest-checkout"
+      renderProp={[Function]}
+    />
+  </section>
+</div>
+`;
+
+exports[`<LoginContainer /> @renders should not render guest checkout button 1`] = `
+<div
+  className="LoginContainer"
+>
+  <hr
+    className="LoginContainer-horizontalLine"
+  />
+  <section
+    className="LoginContainer-wrapper"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Sign In"
+    />
+    <div
+      className="LoginContainer-secure"
+    >
+      Secure Checkout
+    </div>
+    <section
+      className="LoginContainer-returningCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="returning-customer"
+        expanded={false}
+        header="Returning Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Sign in to checkout"
+        withoutBorders={false}
+      >
+        <Connect(Login)
+          getNextRoute={[Function]}
+          successCallback={[Function]}
+        />
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-newCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="new-customer"
+        expanded={false}
+        header="New Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Create an account to checkout"
+        withoutBorders={false}
+      >
+        <section
+          className="LoginContainer-newUserSection"
+        >
+          <Connect(Register)
+            getNextRoute={[Function]}
+            source="CHECKOUT"
+            successCallback={[MockFunction]}
+          />
+        </section>
+      </Accordion>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`<LoginContainer /> @renders should not render guest checkout option if shopping bag contains DDP 1`] = `
+<div
+  className="LoginContainer"
+>
+  <hr
+    className="LoginContainer-horizontalLine"
+  />
+  <section
+    className="LoginContainer-wrapper"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Sign In"
+    />
+    <div
+      className="LoginContainer-secure"
+    >
+      Secure Checkout
+    </div>
+    <section
+      className="LoginContainer-returningCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="returning-customer"
+        expanded={false}
+        header="Returning Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Sign in to checkout"
+        withoutBorders={false}
+      >
+        <Connect(Login)
+          getNextRoute={[Function]}
+          successCallback={[Function]}
+        />
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-newCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="new-customer"
+        expanded={false}
+        header="New Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Create an account to checkout"
+        withoutBorders={false}
+      >
+        <section
+          className="LoginContainer-newUserSection"
+        >
+          <Connect(Register)
+            getNextRoute={[Function]}
+            source="CHECKOUT"
+            successCallback={[MockFunction]}
+          />
+        </section>
+      </Accordion>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`<LoginContainer /> @renders should render guest checkout button 1`] = `
+<div
+  className="LoginContainer"
+>
+  <hr
+    className="LoginContainer-horizontalLine"
+  />
+  <section
+    className="LoginContainer-wrapper"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Sign In"
+    />
+    <div
+      className="LoginContainer-secure"
+    >
+      Secure Checkout
+    </div>
+    <section
+      className="LoginContainer-returningCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="returning-customer"
+        expanded={false}
+        header="Returning Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Sign in to checkout"
+        withoutBorders={false}
+      >
+        <Connect(Login)
+          getNextRoute={[Function]}
+          successCallback={[Function]}
+        />
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-newCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="new-customer"
+        expanded={false}
+        header="New Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Create an account to checkout"
+        withoutBorders={false}
+      >
+        <section
+          className="LoginContainer-newUserSection"
+        >
+          <Connect(Register)
+            getNextRoute={[Function]}
+            source="CHECKOUT"
+            successCallback={[MockFunction]}
+          />
+        </section>
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-guestCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="guest-customer"
+        expanded={false}
+        header="Guest Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Checkout quickly without an account"
+        withoutBorders={false}
+      >
+        <GuestCheckoutButton
+          clickGuestCheckout={[Function]}
+        />
+      </Accordion>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`<LoginContainer /> @renders should render guest checkout option 1`] = `
+<div
+  className="LoginContainer"
+>
+  <hr
+    className="LoginContainer-horizontalLine"
+  />
+  <section
+    className="LoginContainer-wrapper"
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Sign In"
+    />
+    <div
+      className="LoginContainer-secure"
+    >
+      Secure Checkout
+    </div>
+    <section
+      className="LoginContainer-returningCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="returning-customer"
+        expanded={false}
+        header="Returning Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Sign in to checkout"
+        withoutBorders={false}
+      >
+        <Connect(Login)
+          getNextRoute={[Function]}
+          successCallback={[Function]}
+        />
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-newCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="new-customer"
+        expanded={false}
+        header="New Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Create an account to checkout"
+        withoutBorders={false}
+      >
+        <section
+          className="LoginContainer-newUserSection"
+        >
+          <Connect(Register)
+            getNextRoute={[Function]}
+            source="CHECKOUT"
+            successCallback={[MockFunction]}
+          />
+        </section>
+      </Accordion>
+    </section>
+    <section
+      className="LoginContainer-guestCustomer "
+    >
+      <Accordion
+        accordionName="checkoutLogin"
+        arrowPosition="left"
+        arrowStyle="primary"
+        className="guest-customer"
+        expanded={false}
+        header="Guest Customer"
+        isDisabled={false}
+        noContentBorderTop={true}
+        noContentPadding={true}
+        noExpandedHeaderBackground={false}
+        noHeaderPadding={true}
+        noMaxHeight={true}
+        onAccordionToggle={[Function]}
+        showLoader={false}
+        statusIndicatorText=""
+        subHeader="Checkout quickly without an account"
+        withoutBorders={false}
+      >
+        <GuestCheckoutButton
+          clickGuestCheckout={[Function]}
+        />
+      </Accordion>
+    </section>
+  </section>
+</div>
+`;

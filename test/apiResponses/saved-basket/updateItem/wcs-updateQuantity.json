@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "action": "update",
+  "message": "Your shopping bag has been updated",
+  "rows": 0,
+  "total": -2,
+  "savedProducts": {
+    "Product": [
+      {
+        "imageUrl": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/32K07IBDX_small.jpg",
+        "sourceUrl": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=12556&catalogId=33057&productId=21651681&categoryId=209966&parent_category_rn=208543",
+        "colour": "BORDEAUX",
+        "catEntryId": 21651681,
+        "lineNumber": "32K07IBDX",
+        "name": "KEY Buckle Low Shoes",
+        "shipModeId": "",
+        "addToBagURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/InterestItemDelete?updatePrices=1&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&langId=-1&storeId=12556&catalogId=33057&productId=21651681&catEntryId=21651697&orderId=700297131&calculateOrder=1&quantity=2.0&pageName=shoppingBag&savedItem=true&URL=OrderItemAddAjax%3fURL%3dOrderCalculate%3fURL%3dAddToBagFromIntListAjaxView",
+        "removeSavedItemURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/InterestItemDelete?updatePrices=1&calculationUsageId=-1&langId=-1&storeId=12556&catalogId=33057&productId=21651681&catEntryId=21651697&orderId=700297131&calculateOrder=1&quantity=2.0&URL=InterestItemsRemoveItemAjaxView",
+        "size": "39",
+        "quantity": 2,
+        "itemquantity": "Quantity",
+        "instock": true,
+        "updateURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ChangeDetailsDisplayAjaxView?orderId=700297131&langId=-1&storeId=12556&catalogId=33057&productId=21651681&catEntryId=21651697&offerPrice=47.79&size=39&quantity=2.0&pageName=interestItem",
+        "displayDiscountedPrice": null,
+        "wasPrice": 59,
+        "unitPrice": 47.79,
+        "totalLabel": "Total",
+        "Total:": 95.58
+      },
+      {
+        "imageUrl": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62Z39IGRY_small.jpg",
+        "sourceUrl": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=12556&catalogId=33057&productId=21919934&categoryId=208519&parent_category_rn=277012",
+        "colour": "GREY",
+        "catEntryId": 21919934,
+        "lineNumber": "62Z39IGRY",
+        "name": "**Suedette Tuxedo Dress by Love",
+        "shipModeId": "",
+        "addToBagURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/InterestItemDelete?updatePrices=1&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&langId=-1&storeId=12556&catalogId=33057&productId=21919934&catEntryId=21919940&orderId=700297131&calculateOrder=1&quantity=7.0&pageName=shoppingBag&savedItem=true&URL=OrderItemAddAjax%3fURL%3dOrderCalculate%3fURL%3dAddToBagFromIntListAjaxView",
+        "removeSavedItemURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/InterestItemDelete?updatePrices=1&calculationUsageId=-1&langId=-1&storeId=12556&catalogId=33057&productId=21919934&catEntryId=21919940&orderId=700297131&calculateOrder=1&quantity=7.0&URL=InterestItemsRemoveItemAjaxView",
+        "size": "XS",
+        "quantity": 7,
+        "itemquantity": "Quantity",
+        "instock": true,
+        "updateURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ChangeDetailsDisplayAjaxView?orderId=700297131&langId=-1&storeId=12556&catalogId=33057&productId=21919934&catEntryId=21919940&offerPrice=36.00&size=XS&quantity=7.0&pageName=interestItem",
+        "displayDiscountedPrice": null,
+        "unitPrice": 36,
+        "totalLabel": "Total",
+        "Total:": 252
+      },
+      {
+        "imageUrl": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62Z39IGRY_small.jpg",
+        "sourceUrl": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ProductDisplay?langId=-1&storeId=12556&catalogId=33057&productId=21919934&categoryId=208519&parent_category_rn=277012",
+        "colour": "GREY",
+        "catEntryId": 21919934,
+        "lineNumber": "62Z39IGRY",
+        "name": "**Suedette Tuxedo Dress by Love",
+        "shipModeId": "",
+        "addToBagURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/InterestItemDelete?updatePrices=1&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&langId=-1&storeId=12556&catalogId=33057&productId=21919934&catEntryId=21919946&orderId=700297131&calculateOrder=1&quantity=2.0&pageName=shoppingBag&savedItem=true&URL=OrderItemAddAjax%3fURL%3dOrderCalculate%3fURL%3dAddToBagFromIntListAjaxView",
+        "removeSavedItemURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/InterestItemDelete?updatePrices=1&calculationUsageId=-1&langId=-1&storeId=12556&catalogId=33057&productId=21919934&catEntryId=21919946&orderId=700297131&calculateOrder=1&quantity=2.0&URL=InterestItemsRemoveItemAjaxView",
+        "size": "M",
+        "quantity": 2,
+        "itemquantity": "Quantity",
+        "instock": true,
+        "updateURL": "http://ts.pplive.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ChangeDetailsDisplayAjaxView?orderId=700297131&langId=-1&storeId=12556&catalogId=33057&productId=21919934&catEntryId=21919946&offerPrice=36.00&size=M&quantity=2.0&pageName=interestItem",
+        "displayDiscountedPrice": null,
+        "unitPrice": 36,
+        "totalLabel": "Total",
+        "Total:": 72
+      }
+    ]
+  }
+}

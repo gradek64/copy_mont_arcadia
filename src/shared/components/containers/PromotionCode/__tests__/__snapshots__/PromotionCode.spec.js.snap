@@ -1,0 +1,641 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PromotionCode /> @renders Only the last Promotion should have showAddButton as true 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+    <Promotion
+      key="0"
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Promo & Student Codes",
+              ],
+            ],
+            Array [
+              Array [
+                "Your promo code has been applied",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Promo & Student Codes",
+            },
+            Object {
+              "type": "return",
+              "value": "Your promo code has been applied",
+            },
+          ],
+        }
+      }
+      promotion={
+        Object {
+          "label": "Topshop Card- £5 Welcome offer on a £50+ spend",
+          "promotionCode": "TSCARD1",
+        }
+      }
+      removePromotionCode={[Function]}
+      showAddButton={false}
+      showForm={[Function]}
+    />
+    <Promotion
+      key="1"
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Promo & Student Codes",
+              ],
+            ],
+            Array [
+              Array [
+                "Your promo code has been applied",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Promo & Student Codes",
+            },
+            Object {
+              "type": "return",
+              "value": "Your promo code has been applied",
+            },
+          ],
+        }
+      }
+      promotion={
+        Object {
+          "label": "Topshop Card- £10 Welcome offer on a £50+ spend",
+          "promotionCode": "TSCARD2",
+        }
+      }
+      removePromotionCode={[Function]}
+      showAddButton={true}
+      showForm={[Function]}
+    />
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": false,
+      }
+    }
+    setField={[Function]}
+    show={false}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders PromotionForm should receive show=false is isVisible is false and currentPromotions is not empty 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+    <Promotion
+      key="0"
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Promo & Student Codes",
+              ],
+            ],
+            Array [
+              Array [
+                "Your promo code has been applied",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Promo & Student Codes",
+            },
+            Object {
+              "type": "return",
+              "value": "Your promo code has been applied",
+            },
+          ],
+        }
+      }
+      promotion={
+        Object {
+          "label": "Topshop Card- £5 Welcome offer on a £50+ spend",
+          "promotionCode": "TSCARD1",
+        }
+      }
+      removePromotionCode={[Function]}
+      showAddButton={true}
+      showForm={[Function]}
+    />
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": false,
+      }
+    }
+    setField={[Function]}
+    show={false}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders PromotionForm should receive show=true is isVisible is false and currentPromotions is empty 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": false,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders The last Promotion should have showAddButton as false if promotionForm.isVisible is true 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+    <Promotion
+      key="0"
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Promo & Student Codes",
+              ],
+            ],
+            Array [
+              Array [
+                "Your promo code has been applied",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Promo & Student Codes",
+            },
+            Object {
+              "type": "return",
+              "value": "Your promo code has been applied",
+            },
+          ],
+        }
+      }
+      promotion={
+        Object {
+          "label": "Topshop Card- £5 Welcome offer on a £50+ spend",
+          "promotionCode": "TSCARD1",
+        }
+      }
+      removePromotionCode={[Function]}
+      showAddButton={false}
+      showForm={[Function]}
+    />
+    <Promotion
+      key="1"
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "Promo & Student Codes",
+              ],
+            ],
+            Array [
+              Array [
+                "Your promo code has been applied",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "Promo & Student Codes",
+            },
+            Object {
+              "type": "return",
+              "value": "Your promo code has been applied",
+            },
+          ],
+        }
+      }
+      promotion={
+        Object {
+          "label": "Topshop Card- £10 Welcome offer on a £50+ spend",
+          "promotionCode": "TSCARD2",
+        }
+      }
+      removePromotionCode={[Function]}
+      showAddButton={false}
+      showForm={[Function]}
+    />
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": true,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders in default state 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": true,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders should add a className if is groupMember is true 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode Accordion-groupMember"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": true,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders should add className if it exists 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode banana"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": true,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders should add is-shown class to confirm message if promotionCodeConfirmation is true 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-shown"
+    >
+      Your promo code has been applied
+    </p>
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": true,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;
+
+exports[`<PromotionCode /> @renders should render a h3 accordion header with different copy if in new checkout 1`] = `
+<Accordion
+  accordionName="promotionCode"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="PromotionCode"
+  expanded={false}
+  header={
+    <h3
+      className="PromotionCode-header"
+    >
+      Promo & Student Codes
+    </h3>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={false}
+  noExpandedHeaderBackground={false}
+  noHeaderPadding={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  scrollPaneSelector=".MiniBag-content"
+  showLoader={false}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <div
+    className="PromotionCode-list"
+  >
+    <p
+      className="PromotionCode-codeConfirmation is-hidden"
+    >
+      Your promo code has been applied
+    </p>
+  </div>
+  <PromotionForm
+    onSubmitHandler={[Function]}
+    promotionForm={
+      Object {
+        "isVisible": true,
+      }
+    }
+    setField={[Function]}
+    show={true}
+    touchedField={[Function]}
+  />
+</Accordion>
+`;

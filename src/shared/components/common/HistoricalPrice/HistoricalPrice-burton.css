@@ -1,0 +1,9 @@
+/** @define HistoricalPrice */
+
+.HistoricalPrice {
+  &--pdp {
+    & .HistoricalPrice-saving {
+      color: $colorSuccess;
+    }
+  }
+}

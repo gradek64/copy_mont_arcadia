@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreDelivery /> @renders UserLocatorInput - isMobile = true, no storeDetails 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(UserLocatorInput)
+      selectedCountry="United Kingdom"
+      submitHandler={[Function]}
+    />
+  </Form>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders UserLocatorInput - isMobile = true, storeUpdating = true 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(UserLocatorInput)
+      selectedCountry="United Kingdom"
+      submitHandler={[Function]}
+    />
+  </Form>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders hides the titles of its children components when "titlesHidden" = true  1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <div>
+    <div
+      className="StoreDeliveryV2-storeInfo"
+    >
+      <div
+        className="StoreDeliveryV2-storeHeader"
+      >
+        <CheckoutPrimaryTitle
+          isAugmented={false}
+          title="Collection Point"
+        />
+        <button
+          className="StoreDeliveryV2-changeStoreCTA"
+          onClick={[Function]}
+        >
+          CHANGE
+        </button>
+      </div>
+      <div
+        className="StoreDeliveryV2-storeAddress"
+      >
+        <p
+          className="StoreDeliveryV2-storeName"
+        >
+          Topshop Oxford Circus
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          214 Oxford Street
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          West End
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          W1W 8LG
+        </p>
+      </div>
+    </div>
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods)))
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <DeliveryCTAProceed
+      isActive={true}
+      isDisabled={false}
+      isOutOfStock={false}
+      nextButtonHidden={false}
+      nextHandler={[Function]}
+    />
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders isMobile = false and no storeDetails 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <div>
+    <div
+      className="StoreDeliveryV2-storeInfo"
+    >
+      <Button
+        className="StoreDeliveryV2-selectStoreCTA"
+        clickHandler={[Function]}
+      >
+        Select store
+      </Button>
+      <Message
+        isCompact={false}
+        message=""
+        type="error"
+      />
+    </div>
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods)))
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <DeliveryCTAProceed
+      isActive={false}
+      isDisabled={false}
+      isOutOfStock={false}
+      nextButtonHidden={false}
+      nextHandler={[Function]}
+    />
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders isMobile = false and with storeDetails 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <div>
+    <div
+      className="StoreDeliveryV2-storeInfo"
+    >
+      <div
+        className="StoreDeliveryV2-storeHeader"
+      >
+        <CheckoutPrimaryTitle
+          isAugmented={false}
+          title="Collection Point"
+        />
+        <button
+          className="StoreDeliveryV2-changeStoreCTA"
+          onClick={[Function]}
+        >
+          CHANGE
+        </button>
+      </div>
+      <div
+        className="StoreDeliveryV2-storeAddress"
+      >
+        <p
+          className="StoreDeliveryV2-storeName"
+        >
+          Topshop Oxford Circus
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          214 Oxford Street
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          West End
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          W1W 8LG
+        </p>
+      </div>
+    </div>
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods)))
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <DeliveryCTAProceed
+      isActive={true}
+      isDisabled={false}
+      isOutOfStock={false}
+      nextButtonHidden={false}
+      nextHandler={[Function]}
+    />
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders isMobile = true and deliveryStoreCode starts with "S" 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <div>
+    <div
+      className="StoreDeliveryV2-storeInfo"
+    >
+      <div
+        className="StoreDeliveryV2-storeHeader"
+      >
+        <CheckoutPrimaryTitle
+          isAugmented={false}
+          title="Collection Point"
+        />
+        <button
+          className="StoreDeliveryV2-changeStoreCTA"
+          onClick={[Function]}
+        >
+          CHANGE
+        </button>
+      </div>
+      <div
+        className="StoreDeliveryV2-storeAddress"
+      >
+        <p
+          className="StoreDeliveryV2-storeName"
+        >
+          Hermes Oxford Circus
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          214 Oxford Street
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          West End
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          W1W 8LG
+        </p>
+      </div>
+    </div>
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods)))
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <DeliveryCTAProceed
+      isActive={true}
+      isDisabled={false}
+      isMobile={true}
+      isOutOfStock={false}
+      nextButtonHidden={false}
+      nextHandler={[Function]}
+    />
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders isMobile = true and with storeDetails 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <div>
+    <div
+      className="StoreDeliveryV2-storeInfo"
+    >
+      <div
+        className="StoreDeliveryV2-storeHeader"
+      >
+        <CheckoutPrimaryTitle
+          isAugmented={false}
+          title="Collection Point"
+        />
+        <button
+          className="StoreDeliveryV2-changeStoreCTA"
+          onClick={[Function]}
+        >
+          CHANGE
+        </button>
+      </div>
+      <div
+        className="StoreDeliveryV2-storeAddress"
+      >
+        <p
+          className="StoreDeliveryV2-storeName"
+        >
+          Topshop Oxford Circus
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          214 Oxford Street
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          West End
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          W1W 8LG
+        </p>
+      </div>
+    </div>
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods)))
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <DeliveryCTAProceed
+      isActive={true}
+      isDisabled={false}
+      isMobile={true}
+      isOutOfStock={false}
+      nextButtonHidden={false}
+      nextHandler={[Function]}
+    />
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</div>
+`;
+
+exports[`<StoreDelivery /> @renders should render the guest email form if in guest checkout 1`] = `
+<div
+  aria-label="Store Delivery"
+  className="StoreDeliveryV2"
+>
+  <div>
+    <div
+      className="StoreDeliveryV2-storeInfo"
+    >
+      <div
+        className="StoreDeliveryV2-storeHeader"
+      >
+        <CheckoutPrimaryTitle
+          isAugmented={false}
+          title="Collection Point"
+        />
+        <button
+          className="StoreDeliveryV2-changeStoreCTA"
+          onClick={[Function]}
+        >
+          CHANGE
+        </button>
+      </div>
+      <div
+        className="StoreDeliveryV2-storeAddress"
+      >
+        <p
+          className="StoreDeliveryV2-storeName"
+        >
+          Topshop Oxford Circus
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          214 Oxford Street
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          West End
+        </p>
+        <p
+          className="StoreDeliveryV2-storeAddressLine"
+        >
+          W1W 8LG
+        </p>
+      </div>
+    </div>
+    <DeliveryDetailsForm
+      bagContainsOnlyDDPProduct={false}
+      isCollection={true}
+    />
+    <Connect(GuestUserEmailForm)
+      errors={
+        Object {
+          "email": "An email address is required.",
+        }
+      }
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods)))
+      isCollection={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <DeliveryCTAProceed
+      isActive={true}
+      isDisabled={false}
+      isOutOfStock={false}
+      nextButtonHidden={false}
+      nextHandler={[Function]}
+    />
+    <Connect(OrderErrorMessageContainer) />
+  </div>
+</div>
+`;

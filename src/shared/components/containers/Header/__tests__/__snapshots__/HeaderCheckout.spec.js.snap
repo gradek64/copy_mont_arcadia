@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderCheckout /> should render the header for desktop 1`] = `
+<div
+  className="HeaderCheckout Header is-checkoutBig"
+>
+  <div
+    className="Header-center"
+  >
+    <BrandLogo
+      className="Header-brandLogo"
+      imageAlt="undefined homepage"
+    />
+  </div>
+  <div
+    className="HeaderCheckout-buttonContainer"
+  >
+    <CheckoutCTA
+      action={[MockFunction]}
+      copy="Back to shopping"
+    />
+  </div>
+</div>
+`;
+
+exports[`<HeaderCheckout /> should render the header for mobile 1`] = `
+<div
+  className="HeaderCheckout"
+>
+  <div
+    className=""
+  >
+    <BrandLogo
+      className="Header-brandLogo"
+      imageAlt="undefined homepage"
+    />
+  </div>
+  <div
+    className="HeaderCheckout-buttonContainer"
+  >
+    <div
+      className="HeaderCheckout-imageContainer"
+      onClick={[MockFunction]}
+      role="button"
+      tabIndex={0}
+    >
+      <Connect(Image)
+        src="/assets/common/images/close-checkout-header.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

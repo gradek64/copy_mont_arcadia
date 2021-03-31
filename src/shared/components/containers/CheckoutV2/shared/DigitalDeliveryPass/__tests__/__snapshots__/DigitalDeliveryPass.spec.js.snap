@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DigitalDeliveryPass /> @renders in default state 1`] = `
+<Accordion
+  accordionName="DDP"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="DigitalDeliveryPass"
+  expanded={true}
+  header={
+    <div
+      className="DigitalDeliveryPass-container"
+    >
+      <Connect(Image)
+        className="DigitalDeliveryPass-icon"
+        src="/assets/undefined/images/ddp-icon.svg"
+      />
+      <h3
+        className="DigitalDeliveryPass-header"
+      >
+        Digital Delivery Pass
+      </h3>
+    </div>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={true}
+  noExpandedHeaderBackground={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  showLoader={true}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <Connect(SandBox)
+    cmsPageName="ddpPromo"
+    isResponsiveCatHeader={true}
+    onContentLoaded={[Function]}
+    shouldGetContentOnFirstLoad={true}
+  />
+</Accordion>
+`;
+
+exports[`<DigitalDeliveryPass /> @renders should render the correct title if DDPDefaultSku is returned 1`] = `
+<Accordion
+  accordionName="DDP"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="DigitalDeliveryPass"
+  expanded={true}
+  header={
+    <div
+      className="DigitalDeliveryPass-container"
+    >
+      <Connect(Image)
+        className="DigitalDeliveryPass-icon"
+        src="/assets/burton/images/ddp-icon.svg"
+      />
+      <h3
+        className="DigitalDeliveryPass-header"
+      >
+        DDP VIP 1 Month
+      </h3>
+    </div>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={true}
+  noExpandedHeaderBackground={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  showLoader={true}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <Connect(SandBox)
+    cmsPageName="ddpPromo"
+    isResponsiveCatHeader={true}
+    onContentLoaded={[Function]}
+    shouldGetContentOnFirstLoad={true}
+  />
+</Accordion>
+`;
+
+exports[`<DigitalDeliveryPass /> @renders should render the fallback title if DDPDefaultSku is undefined 1`] = `
+<Accordion
+  accordionName="DDP"
+  arrowPosition="left"
+  arrowStyle="primary"
+  className="DigitalDeliveryPass"
+  expanded={true}
+  header={
+    <div
+      className="DigitalDeliveryPass-container"
+    >
+      <Connect(Image)
+        className="DigitalDeliveryPass-icon"
+        src="/assets/burton/images/ddp-icon.svg"
+      />
+      <h3
+        className="DigitalDeliveryPass-header"
+      >
+        Digital Delivery Pass
+      </h3>
+    </div>
+  }
+  isDisabled={false}
+  noContentBorderTop={false}
+  noContentPadding={true}
+  noExpandedHeaderBackground={false}
+  noMaxHeight={false}
+  onAccordionToggle={[Function]}
+  showLoader={true}
+  statusIndicatorText=""
+  subHeader=""
+  withoutBorders={false}
+>
+  <Connect(SandBox)
+    cmsPageName="ddpPromo"
+    isResponsiveCatHeader={true}
+    onContentLoaded={[Function]}
+    shouldGetContentOnFirstLoad={true}
+  />
+</Accordion>
+`;

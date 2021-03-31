@@ -1,0 +1,29 @@
+version: "3.6" # whatever the latests at the time
+services:
+    monty_functional:
+      networks:
+        montynet:
+          aliases:
+            - local.mock-server # if you start monty on montynet network it would be visible there
+      shm_size: 1500m
+      # ipc: host # in case "chrome" starts to blow up, this could help
+      build:
+        context: ../
+        dockerfile: ./Dockerfile
+      external_links:
+        - monty:local.m.topshop.com
+      environment:
+        MONTY_PORT: 3000
+        # MOCK_SERVER_PORT: 4000
+        # MOCK_SERVER_URL: localhost
+        # BREAKPOINT: "mobile"
+      # volumes:
+      #   - "../videos:/app/cypress/videos"
+      #   - "../screenshots:/app/cypress/screenshots"
+        # - "../output:/app/cypress/output"
+      # command: ["/app/node_modules/.bin/cypress", "run", "--spec=cypress/integration/gtm/checkout/continueShoppingButton.js", "--browser=chrome"]
+      # command: ["/app/node_modules/.bin/cypress", "run", "--browser=chrome"]
+
+networks:
+  montynet:
+    external: true

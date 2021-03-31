@@ -1,0 +1,14 @@
+{
+	"productList": [{
+		"productId": 32463518,
+		"giftListItemId": "48001"
+	}],
+	"pageNo": 1,
+	"name": "default",
+	"noOfItemsInList": 1,
+	"type": "public",
+	"pageSize": 100,
+	"giftListId": 45501,
+	"success": true,
+	"message": "Item(s) successfully added to your Wishlist"
+}

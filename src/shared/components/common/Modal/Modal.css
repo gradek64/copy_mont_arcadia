@@ -1,0 +1,301 @@
+/** @define Modal; weak */
+@lost flexbox flex;
+
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: $modal-background-color;
+  padding: 20px;
+  margin: 1% auto;
+  transform: scale3d(.3, .3, .3) translateY(-50%);
+  opacity: 0;
+  box-sizing: border-box;
+  transition: transform 0.3s, opacity 0.3s, z-index 0s linear 0.3s;
+  overflow: hidden;
+
+  &-children {
+    height: 100%;
+  }
+
+  &--imageCarousel {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+
+    & .Carousel--overlay .Carousel-image {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    & .Modal-closeIcon {
+      top: $modal-image-carousel-close-icon-top;
+      right: $modal-image-carousel-close-icon-right;
+    }
+  }
+
+  &.is-shown {
+    opacity: 1;
+    z-index: 10;
+    transition: transform 0.3s, opacity 0.3s, z-index 0s;
+  }
+
+  &.is-shown:not(&--roll, &--rollFull) {
+    transform: scale3d(1, 1, 1) translateY(-50%);
+  }
+
+  &--normal, &--warning, &--terms {
+    width: 80%;
+    max-width: $modal-max-width;
+  }
+
+  &--terms {
+    max-height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  &--shippingRedirect {
+    width: 80%;
+    max-width: 296px;
+  }
+
+  &--warning .Modal-closeIcon {
+    display: none;
+  }
+
+  &--roll,
+  &--rollFull {
+    overflow: scroll;
+    transform: scale3d(1, 1, 1);
+  }
+
+  &--roll {
+    top: auto;
+    bottom: 0;
+  }
+
+  &--rollFull {
+    height: 90%;
+    padding: 20px;
+    box-shadow: none;
+    margin: 0;
+    top: 10%;
+
+    & .Modal-closeIcon {
+      top: calc(5px - $modal-close-icon-padding);
+      right: calc(5px - $modal-close-icon-padding);
+    }
+  }
+
+  &--rollBig {
+    height: 90%;
+    width: 90%;
+  }
+
+  &--large {
+    width: 80%;
+    min-height: 60%;
+    max-height: 80%;
+    top: 50%;
+  }
+
+  &--wishlistLogin {
+    width: 80%;
+    height: 80%;
+    top: 50%;
+
+    & .Modal-children {
+      overflow-y: scroll;
+      margin: 40px 0px;
+      position: relative;
+    }
+
+
+  }
+
+  &--storeLocator {
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    max-height: 100vh;
+  }
+
+  &--plpQuickview,
+  &--sandboxQuickview {
+    width: 100%;
+    max-width: 860px;
+    max-height: 95vh;
+    min-height: 600px;
+    overflow-y: auto;
+    margin: auto;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $scrollbar-thumb-background-color;
+      border-radius: $scrollbar-border-radius;
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      display: block;
+      background-color: $scrollbar-background-color;
+      border-radius: $scrollbar-border-radius;
+    }
+  }
+
+  &--cvvInfo {
+    max-width: 387px;
+  }
+
+  &--sessionTimeout {
+    top: 50%;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    height: 80%;
+    overflow-y: auto;
+  }
+
+  &--sessionTimeout.is-shown:not(&--roll) {
+    transform: scale3d(1, 1, 1) translateY(0%);
+  }
+
+  &--slideUpFromBottom {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &--slideUpFromBottom.is-shown:not(&--roll) {
+    transform: scale3d(1, 1, 1) translateY(0%);
+  }
+
+  &--paymentPunchout {
+    width: 80%;
+    max-width: $modal-max-width;
+
+    & .Modal-children {
+      margin-top: 26px;
+      overflow-x: scroll;
+      text-align: center;
+    }
+  }
+
+  &--noBleed {
+    padding: 0;
+    max-width: 800px;
+    min-height: 100px;
+  }
+
+  &--bnplPaymentsBreakdown{
+    padding:0;
+    max-height: 90vh;
+    max-width: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #b2fce4;
+  }
+}
+
+.Modal-closeIcon {
+  font-size: $modal-close-icon-size;
+  font-weight: $modal-close-icon-font-weight;
+  padding: $modal-close-icon-padding;
+  position: absolute;
+  top: calc(15px - $modal-close-icon-padding);
+  right: calc(15px - $modal-close-icon-padding);
+  z-index: 2;
+  overflow: hidden;
+  cursor: pointer;
+  color: $black;
+}
+
+@media $min-tablet {
+  .Modal {
+    &--storeLocator {
+      height: 700px;
+      padding: 25px;
+      & .Modal-closeIcon {
+        top: 0;
+        right: 0;
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+
+    &--roll {
+       padding: calc($page-padding * 2);
+       top: 50%;
+       transform: scale3d(1, 1, 1) translateY(-50%);
+       bottom: auto;
+       margin: 0 25%;
+    }
+
+    &--bnplPaymentsBreakdown{
+      padding:0;
+      max-width: 597px;
+      min-height: 506px;
+      background-color: #b2fce4;
+    }
+
+    & .Loader {
+      position: absolute;
+      top: calc(50% - 25px);
+      left: calc(50% - 25px);
+      margin: 0;
+    }
+  }
+}
+
+@media $min-laptop {
+  .Modal {
+    &--imageCarousel {
+      width: 100vh;
+      height: 100%;
+    }
+
+    &--roll {
+      margin: 0 30%;
+    }
+
+    &--cvvInfo {
+     max-width: 750px;
+    }
+
+    &--shippingRedirect{
+      width:340px;
+    }
+
+    &--sessionTimeout {
+       top: 50%;
+       bottom: auto;
+       width: 400px;
+       padding: 20px 10px;
+       height: inherit;
+
+      & .Login--signin .Login-form {
+        width: 100%
+      }
+     }
+
+    &--sessionTimeout.is-shown:not(&--roll) {
+       transform: scale3d(1, 1, 1) translateY(-50%);
+     }
+
+     &--slideUpFromBottom {
+      top: 50%;
+      bottom: auto;
+      max-width: 500px;
+    }
+
+   &--slideUpFromBottom.is-shown:not(&--roll) {
+      transform: scale3d(1, 1, 1) translateY(-50%);
+    }
+  }
+}

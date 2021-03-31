@@ -1,0 +1,61 @@
+/** @define Quiz */
+@lost flexbox flex;
+
+.Quiz {
+  font-size: 0.825em;
+  font-family: $font-family-quiz;
+  
+  &-introduction {
+    padding: 10px 20px;
+  }
+
+  &-header {
+    color: $quiz-color;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 1.25em;
+  }
+
+  &-quicklinks {
+    lost-flex-container: row;
+  }
+
+  &-quickButton {
+    margin-bottom: 5px;
+    font-family: $font-family-quiz;
+  }
+
+  &-description {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-family: $font-family-quiz;
+  }
+
+  &-callout {
+    background: $quiz-color;
+    color: $white;
+    padding: 5px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-right: 5%;
+    display: inline-block;
+  }
+
+  &-descriptionText {
+    width: 90%;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  &-coloredText {
+    color: $quiz-color;
+  }
+
+  &-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+}

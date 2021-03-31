@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryAddressPreviewContainer /> @renders the default rendering renders as expected 1`] = `
+<div
+  className="DeliveryAddressPreviewContainer"
+>
+  <CheckoutTitle
+    separator={true}
+  >
+    Delivery Details
+  </CheckoutTitle>
+  <div
+    className="DeliveryAddressPreviewContainer-preview"
+  >
+    <AddressPreview
+      address={
+        Object {
+          "address1": "foo...",
+        }
+      }
+      details={
+        Object {
+          "title": "mr",
+        }
+      }
+      heading={false}
+      onClickChangeButton={[Function]}
+      rightAlignedButton={true}
+    />
+  </div>
+</div>
+`;

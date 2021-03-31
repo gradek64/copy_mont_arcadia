@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <title>Custom Complexity Report</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../common/style.css">
+</head>
+
+<body>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="../code-coverage/coverage-reports.html">Code Coverage</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Cyclomatic Complexity</a>
+  </li>
+</ul>
+
+<main>
+  <h6 id="errorMessage"></h6>
+
+  <div class="btn-group">
+    <button class="btn btn-light active" onclick="selectFileType('src', this)">Source Code</button>
+    <button class="btn btn-light" onclick="selectFileType('tests', this)">Tests</button>
+  </div>
+
+  <h6>Total Files:&#160; <span id="totalFilesCount"></span></h6>
+  <h6>Average Cyclomatic Complexity:&#160; <span id="averageCyclomaticComplexity"></span></h6>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('name')">
+        <div class="tableColumnTitleText">File Name</div>
+        <div id="nameSortOrder" class="sortOrderArrow">-</div>
+      </td>
+
+      <td>
+        <div class="tableColumnTitleText">Function</div>
+      </td>
+
+      <td class="tableColumnTitle" onclick="sortCoverageInfo('functionComplexity')">
+        <div class="tableColumnTitleText">Cyclomatic Complexity</div>
+        <div id="functionComplexitySortOrder" class="sortOrderArrow">-</div>
+      </td>
+    </tr>
+    </thead>
+
+    <tbody id="complexityTable">
+    </tbody>
+  </table>
+</main>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../common/script.js"></script>
+<script src="cyclomatic-complexity-processor.js"></script>
+</body>
+</html>

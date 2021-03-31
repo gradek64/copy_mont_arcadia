@@ -1,0 +1,15 @@
+/** @define CheckoutContentContainer; weak */
+.CheckoutContentContainer {
+  $border: 1px solid $accordion-border-color;
+  margin: $checkout-container-margin-vertical $page-padding;
+  padding-top: $checkout-separator-height;
+  &-content {
+    padding-top: 0;
+  }
+}
+
+@media $min-tablet {
+  .CheckoutContentContainer {
+    padding-top: 1px;
+  }
+}

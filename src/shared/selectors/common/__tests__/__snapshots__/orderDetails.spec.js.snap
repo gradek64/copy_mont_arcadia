@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getOrderDetails creates object containing delivery, billing and amount returns countries from checkout forms 1`] = `
+Object {
+  "amount": undefined,
+  "billing": "Turkmenistan",
+  "delivery": "United Kingdom",
+}
+`;
+
+exports[`getOrderDetails creates object containing delivery, billing and amount returns countries from site config 1`] = `
+Object {
+  "amount": undefined,
+  "billing": "Antigua & Barbuda",
+  "delivery": "Antigua & Barbuda",
+}
+`;
+
+exports[`getOrderDetails creates object containing delivery, billing and amount returns countries from user account and amount from shopping bag 1`] = `
+Object {
+  "amount": 1000,
+  "billing": "Germany",
+  "delivery": "China",
+}
+`;
+
+exports[`getOrderDetails creates object containing delivery, billing and amount returns countries from user account details 1`] = `
+Object {
+  "amount": undefined,
+  "billing": "Germany",
+  "delivery": "China",
+}
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCarouselItem /> @renders should render in default state 1`] = `
+<div
+  className="ProductCarouselItem ProductCarouselItem-horizontal"
+  style={Object {}}
+>
+  <Connect(Product)
+    assets={Array []}
+    grid={1}
+    hideProductMeta={false}
+    hideProductName={false}
+    hideQuickViewIcon={false}
+    isCarouselItem={true}
+    isImageFallbackEnabled={false}
+    lazyLoad={false}
+    onLinkClick={[Function]}
+    onQuickViewButtonClick={[Function]}
+    openQuickViewOnProductClick={false}
+    productBaseImageUrl=""
+    productUrl=""
+    showPrice={false}
+    showProductView={false}
+    sizes={
+      Object {
+        "desktop": 140,
+        "mobile": 140,
+        "tablet": 140,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProductCarouselItem /> @renders should render ‘remove’ button if \`canRemoveProduct\` is true 1`] = `
+<button
+  className="ProductCarouselItem-delete Button Button--secondary"
+  onClick={[Function]}
+>
+  <span
+    className="screen-reader-text"
+  >
+    Remove product from carousel
+  </span>
+</button>
+`;

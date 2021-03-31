@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EnhancedMessage /> @renders renders if children passed ("bottom") 1`] = `
+<div
+  className="EnhancedMessage"
+>
+  <div
+    className="EnhancedMessage-wrapper "
+  >
+    <div
+      className="EnhancedMessage-section "
+    >
+      <span
+        className="EnhancedMessage-icon"
+      />
+      <p
+        className="EnhancedMessage-content"
+      >
+        <span
+          className="EnhancedMessage-message"
+        >
+          hello World
+        </span>
+      </p>
+    </div>
+    &lt;div&gt;Children&lt;/div&gt;
+  </div>
+</div>
+`;
+
+exports[`<EnhancedMessage /> @renders renders if children passed (default) 1`] = `
+<div
+  className="EnhancedMessage"
+>
+  <div
+    className="EnhancedMessage-wrapper "
+  >
+    &lt;div&gt;Children&lt;/div&gt;
+    <div
+      className="EnhancedMessage-section "
+    >
+      <span
+        className="EnhancedMessage-icon"
+      />
+      <p
+        className="EnhancedMessage-content"
+      >
+        <span
+          className="EnhancedMessage-message"
+        >
+          hello World
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<EnhancedMessage /> @renders renders in default state 1`] = `""`;

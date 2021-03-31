@@ -1,0 +1,97 @@
+/** @define FindAddressV1 */
+
+.FindAddressV1 {
+  border: 0;
+
+  &-link {
+    color: $black;
+    text-decoration: underline;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  &-cta {
+    margin-bottom: 10px;
+  }
+
+  &-form {
+    &.is-hidden {
+      display: none;
+    }
+  }
+
+  &-selectAddress {
+    margin-top: 15px;
+
+    &.is-hidden {
+      display: none;
+    }
+  }
+
+  &-link {
+    text-align: center;
+  }
+
+  &-selectCountry {
+    margin: 0;
+  }
+
+  &-col {
+    display: none;
+  }
+}
+
+@media $min-tablet {
+  .FindAddressV1 {
+    &-cta {
+      width: auto;
+      margin-bottom: 0;
+      /* $cta-primary-width-desktop variable once rebased and remove 170px */
+      min-width: 170px;
+      display: inline-block;
+    }
+    &-link {
+      margin-left: 30px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .FindAddressV1 {
+    &--multiColumn {
+      & .FindAddressV1 {
+        &-row {
+          display: flex;
+        }
+
+        &-col {
+          display: flex;
+          flex: 1;
+          margin-left: $left-col-margin;
+        }
+
+        &-telephone {
+          display: inline;
+          flex: 1;
+        }
+
+        &-postcode {
+          flex: 1;
+        }
+
+        &-houseNumber {
+          flex: 1;
+        }
+
+        &-telephone,
+        &-postcode {
+          margin-right: $right-col-margin;
+        }
+
+        &-houseNumber {
+          margin-left: $left-col-margin;
+        }
+      }
+    }
+  }
+}

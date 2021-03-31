@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutMiniBag /> @renders in default state 1`] = `
+<div
+  className="CheckoutMiniBag"
+>
+  <div>
+    <h5
+      className="CheckoutMiniBag-header"
+    >
+      My Bag
+       (1)
+    </h5>
+    <button
+      className="CheckoutMiniBag-closeButton"
+      onClick={[Function]}
+      role="button"
+    >
+      <img
+        alt="close"
+        className="CheckoutMiniBag-closeButtonImg"
+        src="/assets/common/images/close-icon.svg"
+      />
+    </button>
+  </div>
+  <div
+    className="CheckoutMiniBag-content"
+  >
+    <Button
+      className="CheckoutMiniBag-backToCheckout"
+      clickHandler={[MockFunction]}
+    >
+      Back to checkout
+    </Button>
+    <Connect(WithRestrictedActionDispatch(Connect(CheckoutBagSide)))
+      drawer={true}
+      orderSummary={Object {}}
+      scrollMinibag={[Function]}
+      showDiscounts={true}
+    />
+  </div>
+</div>
+`;

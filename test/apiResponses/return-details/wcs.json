@@ -1,0 +1,70 @@
+{
+    "orderId": 1473808,
+    "rmaId": 91506,
+    "payInfo": "{cardExpiryYear=2018, isSterlingOrder=03, IGNORE_OR02_PENDING_ACCERTIFY=false, payMethod=VISA, PromisedDeliveryDate=2017-05-19 00:00:00, cardNumberStar=************8899, policyId=25010, currency=GBP, catalogId=33057, isCsrOrder=false, cardBrand=VISA, cardNumber=112233445566778899, CCPRMA_91506=5240459, cardExpiryMonth=06}",
+    "storeId": 12556,
+    "catalogId": 33057,
+    "langId": -1,
+    "categoryId": "",
+    "logonFormUrl": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/LogonForm?storeId=12556&catalogId=33057",
+    "trackOrderStatusUrl": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TrackOrderStatus?storeId=12556&catalogId=33057&langId=-1",
+    "trackRmaStatusUrl": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TrackRMAStatus?storeId=12556&catalogId=33057&langId=-1",
+    "myreferer": "null",
+    "BreadCrumbHomeUrl": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TopCategoriesDisplay?catalogId=33057&storeId=12556&langId=-1",
+    "pageNameThirdATAGText": "Returns Status",
+    "currentPage": "Order Status for 1473808",
+    "orderStatusCode": "D",
+    "carrierAndTracking": "OrderDetailDisplay",
+    "OrderDetailUrlLink": "http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/OrderDetail?storeId=12556&langId=-1&catalogId=33057&orderId=1473808&orderStatusCode=D&CarrierAndTracking=OrderDetailDisplay1473808",
+    "returnDetailsPrintSummary": "Your return is summarised below",
+    "returnItemsCheckout": {
+        "returnKey": [],
+        "symbol": "&pound;",
+        "returnSummaryLabel": "Returns Summary",
+        "orderItem": [
+            {
+                "orderItemId": 7590525,
+                "rmaItemTotalCredit": 20,
+                "rmaItemQuantity": 1,
+                "reasonReturn": "Colour not as description",
+                "catEntryId": 28340494,
+                "productId": 28340494,
+                "imageURL": "https://ts.sandpit.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS19L03LBLK_Small_F_1.jpg",
+                "catalogId": 33057,
+                "dataLanguageIds": -1,
+                "definingAttribute1": [
+                    {
+                        "size": "XS/S"
+                    }
+                ],
+                "displayDiscountedPrice": null,
+                "orderItemListPriceString": 20,
+                "showListPrice": true,
+                "currencySymbol": "&pound;",
+                "unitPrice": 20,
+                "definingAttributes1": {
+                    "productColour": "BLACK",
+                    "size": "XS/S"
+                },
+                "OrderDescriptionName": "Single Buckle PU Corset",
+                "productColour": "BLACK",
+                "lineNumber": "19L03LBLK"
+            }
+        ],
+        "rmaAdjustmentCredit": 0,
+        "rmaSubTotal": 20,
+        "rmaTotalCredit": 20,
+        "Subtotal": 20,
+        "Discount": -2,
+        "deliveryAmount": 0,
+        "total": 18
+    },
+    "type": "Account",
+    "contactReason": "Returns Query",
+    "cardBrandTextLabel": "Visa",
+    "returnPaymentDetailsText": "Card Details",
+    "refundType": "Visa",
+    "hasCardNumber": true,
+    "refundAmount": 20,
+    "userType": "R"
+}

@@ -1,0 +1,24 @@
+/** @define GiftCard */
+
+.GiftCard {
+  padding-top: 10px;
+
+  &-remove {
+    text-align: right;
+  }
+
+  &-row {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-number {
+    margin-right: auto;
+    font-size: inherit;
+  }
+
+  &-amountUsed {
+    color: $success-color;
+    text-align: right;
+  }
+}

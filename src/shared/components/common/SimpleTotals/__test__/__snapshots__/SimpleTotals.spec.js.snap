@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleTotals /> @renders does not render the delivery field if there is no label 1`] = `
+<div
+  className="SimpleTotals "
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-subTotal"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Subtotal before Delivery
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SimpleTotals /> @renders in default state 1`] = `
+<div
+  className="SimpleTotals "
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-subTotal"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Subtotal before Delivery
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-delivery"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      UK Standard
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      Free
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SimpleTotals /> @renders with a class being passed in 1`] = `
+<div
+  className="SimpleTotals SomeComponent-totals"
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-subTotal"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Subtotal before Delivery
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-delivery"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      UK Standard
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      Free
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SimpleTotals /> @renders with discounts 1`] = `
+<div
+  className="SimpleTotals "
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-subTotal"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Subtotal before Delivery
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-discount"
+    key="0"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Topshop Card- £5 Welcome offer
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      -£5.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-discount"
+    key="1"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Topshop Card- £1 Offer
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      -£1.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-delivery"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      UK Standard
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      Free
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £6.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SimpleTotals /> @renders with isDDPStandaloneOrder 1`] = `
+<div
+  className="SimpleTotals "
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SimpleTotals /> @renders with isDDPStandaloneOrder 2`] = `
+<div
+  className="SimpleTotals "
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SimpleTotals /> @renders with the cost prop being passed 1`] = `
+<div
+  className="SimpleTotals "
+>
+  <div
+    className="SimpleTotals-section SimpleTotals-subTotal"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Subtotal before Delivery
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £12.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-delivery"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      UK Standard
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £4.00
+    </span>
+  </div>
+  <div
+    className="SimpleTotals-section SimpleTotals-total"
+  >
+    <span
+      className="SimpleTotals-groupLeft"
+    >
+      Total to pay
+    </span>
+    <span
+      className="SimpleTotals-groupRight"
+    >
+      £16.00
+    </span>
+  </div>
+</div>
+`;

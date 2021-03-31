@@ -1,0 +1,10 @@
+@media $min-tablet{
+
+  /* postcss-bem-linter: ignore */
+  .FindInStore .ProductSizes-sizes .Select-label {
+    font-size: 1em;
+    font-family: $font-family-label;
+    font-weight: $font-weight-label;
+  }
+
+}

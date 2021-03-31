@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialProofOrderProductBadge /> should match the snapshot 1`] = `
+<div
+  className="SocialProofOrderProductBadge"
+>
+  <div
+    className="SocialProofOrderProductBadge--sellingFast"
+  />
+</div>
+`;

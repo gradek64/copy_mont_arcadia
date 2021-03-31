@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CmsPage /> @renders <CmsComponent /> should render if page item is a CMS type 1`] = `
+<div
+  className="CmsPage"
+>
+  <Connect(CmsComponent)
+    data={
+      Object {
+        "source": "foo",
+      }
+    }
+    key="0"
+    name="Sale Editors Picks SS160"
+    type="imagelist"
+  />
+  <Connect(CmsComponent)
+    data={
+      Object {
+        "source": "bar",
+      }
+    }
+    key="1"
+    name="Sale Editors Picks SS161"
+    type="video"
+  />
+  <Connect(CmsComponent)
+    data={
+      Object {
+        "source": "baz",
+      }
+    }
+    key="2"
+    name="Sale Editors Picks SS162"
+    type="iframe"
+  />
+</div>
+`;
+
+exports[`<CmsPage /> @renders Template Component should render if page item type is \`custom\` 1`] = `
+<div
+  className="CmsPage"
+>
+  <Connect(Quiz)
+    data={
+      Object {
+        "source": "foo",
+        "template": "quiz",
+      }
+    }
+    id="Sale Editors Picks SS160"
+    key="0"
+    name="Sale Editors Picks SS160"
+    type="custom"
+  />
+</div>
+`;

@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryMethods /> Shallow @render should render default state 1`] = `
+Array [
+  "",
+  <Accordion
+    accordionName=""
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--checkoutDeliveryTypeAccordion"
+    expanded={false}
+    header={
+      <CheckoutPrimaryTitle
+        isAugmented={false}
+        title="Delivery Type"
+      />
+    }
+    isDisabled={false}
+    noContentBorderTop={true}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noHeaderPadding={true}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText="CHANGE"
+    subHeader={
+      <CheckoutSubPrimaryTitle
+        subTitle="Get it by Wednesday 22 April"
+        title="Named or Next Day Delivery - £3.95"
+      />
+    }
+    withoutBorders={true}
+  >
+    <ActiveDDPBanner
+      brandName="topshop"
+      ddpProductName="DDP VIP Subscription"
+    />
+    <div
+      className="DeliveryMethods-deliveryTypesContainer"
+    >
+      <Component
+        deliveryMethods={
+          Array [
+            Object {
+              "additionalDescription": "Up to 5 working days",
+              "cost": "0.00",
+              "deliveryOptions": Array [],
+              "deliveryType": "HOME_STANDARD",
+              "enabled": true,
+              "estimatedDeliveryDate": "Wednesday 22 April 2020",
+              "label": "Standard UK Delivery",
+              "selected": true,
+              "shipCode": "S",
+              "shipModeId": 26504,
+            },
+          ]
+        }
+        id="qubit-checkout-deliveryMethods"
+        onDeliveryMethodChange={[MockFunction]}
+      >
+        <div
+          className="DeliveryMethods-options"
+        >
+          <DeliveryMethod
+            additionalDescription="Up to 5 working days"
+            cost="0.00"
+            deliveryCountry="United Kingdom"
+            deliveryOptions={Array []}
+            deliveryText="Get it by Wednesday 22 April"
+            deliveryType="HOME_STANDARD"
+            enabled={true}
+            estimatedDeliveryDate="Wednesday 22 April 2020"
+            key="HOME_STANDARD"
+            label="Standard UK Delivery"
+            onChange={[Function]}
+            selected={true}
+            shipCode="S"
+            shipModeId={26504}
+            showDeliveryOptions={false}
+          />
+        </div>
+      </Component>
+    </div>
+  </Accordion>,
+]
+`;
+
+exports[`<DeliveryMethods /> Shallow @render should render delivery methods 1`] = `
+Array [
+  "",
+  <Accordion
+    accordionName=""
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--checkoutDeliveryTypeAccordion"
+    expanded={false}
+    header={
+      <CheckoutPrimaryTitle
+        isAugmented={false}
+        title="Delivery Type"
+      />
+    }
+    isDisabled={false}
+    noContentBorderTop={true}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noHeaderPadding={true}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText="CHANGE"
+    subHeader={
+      <CheckoutSubPrimaryTitle
+        subTitle="Get it by Saturday 12th July"
+        title="Named or Next Day Delivery - £3.95"
+      />
+    }
+    withoutBorders={true}
+  >
+    <ActiveDDPBanner
+      brandName="topshop"
+      ddpProductName="DDP VIP Subscription"
+    />
+    <div
+      className="DeliveryMethods-deliveryTypesContainer"
+    >
+      <Component
+        deliveryMethods={
+          Array [
+            Object {
+              "additionalDescription": "Get it by Saturday 12th July",
+              "cost": "4.00",
+              "deliveryOptions": Array [],
+              "deliveryType": "HOME_STANDARD",
+              "enabled": true,
+              "label": "UK Standard up to 4 days",
+              "selected": true,
+            },
+            Object {
+              "additionalDescription": "",
+              "deliveryOptions": Array [
+                Object {
+                  "dateText": "07 Sep",
+                  "dayText": "Thu",
+                  "enabled": true,
+                  "nominatedDate": "2020-09-07",
+                  "price": "6.00",
+                  "selected": true,
+                  "shipModeId": 28005,
+                },
+                Object {
+                  "dateText": "08 Sep",
+                  "dayText": "Fri",
+                  "enabled": false,
+                  "nominatedDate": "2020-09-08",
+                  "price": "6.00",
+                  "selected": false,
+                  "shipModeId": 28006,
+                },
+              ],
+              "deliveryType": "HOME_EXPRESS",
+              "enabled": true,
+              "label": "Express / Nominated day delivery",
+              "selected": false,
+            },
+          ]
+        }
+        id="qubit-checkout-deliveryMethods"
+        onDeliveryMethodChange={[MockFunction]}
+      >
+        <div
+          className="DeliveryMethods-options"
+        >
+          <DeliveryMethod
+            additionalDescription="Get it by Saturday 12th July"
+            cost="4.00"
+            deliveryCountry="United Kingdom"
+            deliveryOptions={
+              Array [
+                Object {
+                  "dateText": "07 Sep",
+                  "dayText": "Thu",
+                  "enabled": true,
+                  "nominatedDate": "2020-09-07",
+                  "price": "6.00",
+                  "selected": true,
+                  "shipModeId": 28005,
+                },
+                Object {
+                  "dateText": "08 Sep",
+                  "dayText": "Fri",
+                  "enabled": false,
+                  "nominatedDate": "2020-09-08",
+                  "price": "6.00",
+                  "selected": false,
+                  "shipModeId": 28006,
+                },
+              ]
+            }
+            deliveryType="HOME_STANDARD"
+            enabled={true}
+            key="HOME_STANDARD"
+            label="UK Standard up to 4 days"
+            onChange={[Function]}
+            selected={true}
+            showDeliveryOptions={false}
+          />
+          <DeliveryMethod
+            additionalDescription=""
+            deliveryCountry="United Kingdom"
+            deliveryOptions={
+              Array [
+                Object {
+                  "dateText": "07 Sep",
+                  "dayText": "Thu",
+                  "enabled": true,
+                  "nominatedDate": "2020-09-07",
+                  "price": "6.00",
+                  "selected": true,
+                  "shipModeId": 28005,
+                },
+                Object {
+                  "dateText": "08 Sep",
+                  "dayText": "Fri",
+                  "enabled": false,
+                  "nominatedDate": "2020-09-08",
+                  "price": "6.00",
+                  "selected": false,
+                  "shipModeId": 28006,
+                },
+              ]
+            }
+            deliveryText="Get it on Monday 7 September"
+            deliveryType="HOME_EXPRESS"
+            enabled={true}
+            key="HOME_EXPRESS"
+            label="Express / Nominated day delivery"
+            onChange={[Function]}
+            selected={false}
+            showDeliveryOptions={false}
+          />
+        </div>
+      </Component>
+    </div>
+  </Accordion>,
+]
+`;

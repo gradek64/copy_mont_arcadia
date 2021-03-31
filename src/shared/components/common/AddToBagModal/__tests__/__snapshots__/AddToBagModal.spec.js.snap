@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddToBagModal /> @renders should render correct default state 1`] = `
+<div
+  className="AddToBagModal"
+>
+  <p
+    data-modal-focus={true}
+    tabIndex="0"
+  >
+    Your item has been added to your bag
+  </p>
+  <Connect(AddToBagConfirm)
+    onClose={[MockFunction]}
+  />
+  <Button
+    className="AddToBagModal-button Button--secondary"
+    clickHandler={[MockFunction]}
+  >
+    Continue shopping
+  </Button>
+</div>
+`;

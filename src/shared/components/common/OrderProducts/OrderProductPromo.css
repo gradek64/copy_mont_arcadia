@@ -1,0 +1,12 @@
+/** @define OrderProductPromo **/
+
+.OrderProductPromo {
+  margin: 5px 0 10px;
+
+  &-link {
+     color: $promocode-color;
+     font-family: $mini-bag-content-font-family;
+     letter-spacing: $mini-bag-content-letter-spacing;
+     font-weight: $mini-bag-content-font-weight;
+   }
+}

@@ -1,0 +1,7 @@
+export { default as topshop } from './HeaderTopshop'
+export { default as topman } from './HeaderTopman'
+export { default as burton } from './HeaderBurton'
+export { default as evans } from './HeaderEvans'
+export { default as dorothyperkins } from './HeaderDorothyPerkins'
+export { default as missselfridge } from './HeaderMissSelfridge'
+export { default as wallis } from './HeaderWallis'

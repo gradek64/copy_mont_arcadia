@@ -1,0 +1,5 @@
+{
+    "statusCode": 422,
+    "error": "Unprocessable Entity",
+    "message": "You have already used this gift card on your current order, please add a different card."
+}

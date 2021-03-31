@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonLoader /> @renders should render \`<Loader />\` within \`<Button />\` if form is loading 1`] = `
+<Loader
+  className=""
+  fillColor="#FFFFFF"
+  isButton={true}
+/>
+`;
+
+exports[`<ButtonLoader /> @renders should render in default state 1`] = `
+<Button
+  forms={Object {}}
+>
+  Apply
+</Button>
+`;

@@ -1,0 +1,10 @@
+{
+  "cardBrand": "PYPAL",
+  "title": "Topshop - Please wait...",
+  "checkoutImg": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/ConsumerDirectStorefrontAssetStore/v3/loading.gif",
+  "checkoutAltText": "???PROGRESS_BAR_REQUEST_PROCESSED???",
+  "paymentRedirectURL": "https://www.sandbox.paypal.com/cgi-bin/webscr?useraction=commit&token=EC-59P34623PM9719132&cmd=_express-checkout-mobile",
+  "punchOutRepayURL": "PunchoutPaymentRepay?orderId=700402896&piId=987485&requesttype=ajax",
+  "orderId": 700402896,
+  "piId": "987485"
+}

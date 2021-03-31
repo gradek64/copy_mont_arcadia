@@ -1,0 +1,862 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RefinementList/> @functions @returnInitiallyExpanded should handle duplicate desktop refinements 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={false}
+/>
+`;
+
+exports[`<RefinementList/> @functions @returnInitiallyExpanded should handle duplicate labels 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+/>
+`;
+
+exports[`<RefinementList/> @functions @returnInitiallyExpanded should handle duplicate mobile refinements 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+/>
+`;
+
+exports[`<RefinementList/> @functions @selectionText with type as RANGE 1`] = `
+<div>
+  <Price
+    className=""
+    price={80}
+  />
+   - 
+  <Price
+    className=""
+    price={90}
+  />
+</div>
+`;
+
+exports[`<RefinementList/> @renders if not isMobile, AccordionGroup should be singleOpen 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={
+    Array [
+      "Price",
+    ]
+  }
+  onAccordionToggle={[Function]}
+  singleOpen={false}
+>
+  <Accordion
+    accordionName="Colour"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Colour"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-value"
+        >
+          Colour
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Colour"
+    label="Colour"
+    noContentBorderTop={true}
+    noContentPadding={false}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={true}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={false}
+      label="Colour"
+      options={
+        Array [
+          Object {
+            "label": "black",
+            "type": "VALUE",
+            "value": "black",
+          },
+        ]
+      }
+      selections={Array []}
+      type="VALUE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Size"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Size"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-size"
+        >
+          Size
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Size"
+    label="Size"
+    noContentBorderTop={true}
+    noContentPadding={false}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={true}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={false}
+      label="Size"
+      options={
+        Array [
+          Object {
+            "label": 4,
+            "type": "VALUE",
+            "value": 4,
+          },
+          Object {
+            "label": 6,
+            "type": "VALUE",
+            "value": 6,
+          },
+        ]
+      }
+      selections={Array []}
+      type="SIZE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Price"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Price"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-range"
+        >
+          Price
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Price"
+    label="Price"
+    noContentBorderTop={true}
+    noContentPadding={false}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={true}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={false}
+      label="Price"
+      options={
+        Array [
+          Object {
+            "label": 0,
+            "type": "RANGE",
+            "value": 0,
+          },
+        ]
+      }
+      selections={Array []}
+      type="RANGE"
+    />
+  </Accordion>
+</AccordionGroup>
+`;
+
+exports[`<RefinementList/> @renders in default state 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+>
+  <Accordion
+    accordionName="Colour"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Colour"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-value"
+        >
+          Colour
+        </span>
+        <span
+          className="RefinementList-selection is-value"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Colour"
+    label="Colour"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Colour"
+      options={
+        Array [
+          Object {
+            "label": "black",
+            "type": "VALUE",
+            "value": "black",
+          },
+        ]
+      }
+      selections={Array []}
+      type="VALUE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Size"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Size"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-size"
+        >
+          Size
+        </span>
+        <span
+          className="RefinementList-selection is-size"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Size"
+    label="Size"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Size"
+      options={
+        Array [
+          Object {
+            "label": 4,
+            "type": "VALUE",
+            "value": 4,
+          },
+          Object {
+            "label": 6,
+            "type": "VALUE",
+            "value": 6,
+          },
+        ]
+      }
+      selections={Array []}
+      type="SIZE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Price"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Price"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-range"
+        >
+          Price
+        </span>
+        <span
+          className="RefinementList-selection is-range"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Price"
+    label="Price"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Price"
+      options={
+        Array [
+          Object {
+            "label": 0,
+            "type": "RANGE",
+            "value": 0,
+          },
+        ]
+      }
+      selections={Array []}
+      type="RANGE"
+    />
+  </Accordion>
+</AccordionGroup>
+`;
+
+exports[`<RefinementList/> @renders with no refinementOptions 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+>
+  <Accordion
+    accordionName="Size"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Size"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-size"
+        >
+          Size
+        </span>
+        <span
+          className="RefinementList-selection is-size"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Size"
+    label="Size"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Size"
+      options={Array []}
+      selections={Array []}
+      type="SIZE"
+    />
+  </Accordion>
+</AccordionGroup>
+`;
+
+exports[`<RefinementList/> @renders with not correct refinement label 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+/>
+`;
+
+exports[`<RefinementList/> @renders with not correct refinement label and not mobile 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={false}
+/>
+`;
+
+exports[`<RefinementList/> @renders with onChange function 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+>
+  <Accordion
+    accordionName="Colour"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Colour"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-value"
+        >
+          Colour
+        </span>
+        <span
+          className="RefinementList-selection is-value"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Colour"
+    label="Colour"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Colour"
+      options={
+        Array [
+          Object {
+            "label": "black",
+            "type": "VALUE",
+            "value": "black",
+          },
+        ]
+      }
+      selections={Array []}
+      type="VALUE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Size"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Size"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-size"
+        >
+          Size
+        </span>
+        <span
+          className="RefinementList-selection is-size"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Size"
+    label="Size"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Size"
+      options={
+        Array [
+          Object {
+            "label": 4,
+            "type": "VALUE",
+            "value": 4,
+          },
+          Object {
+            "label": 6,
+            "type": "VALUE",
+            "value": 6,
+          },
+        ]
+      }
+      selections={Array []}
+      type="SIZE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Price"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Price"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-range"
+        >
+          Price
+        </span>
+        <span
+          className="RefinementList-selection is-range"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Price"
+    label="Price"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Price"
+      options={
+        Array [
+          Object {
+            "label": 0,
+            "type": "RANGE",
+            "value": 0,
+          },
+        ]
+      }
+      selections={Array []}
+      type="RANGE"
+    />
+  </Accordion>
+</AccordionGroup>
+`;
+
+exports[`<RefinementList/> @renders with selectedOptions 1`] = `
+<AccordionGroup
+  className="RefinementList"
+  groupName="refinements"
+  initiallyExpanded={Array []}
+  onAccordionToggle={[Function]}
+  singleOpen={true}
+>
+  <Accordion
+    accordionName="Colour"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Colour"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-value"
+        >
+          Colour
+        </span>
+        <span
+          className="RefinementList-selection is-value"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Colour"
+    label="Colour"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Colour"
+      options={
+        Array [
+          Object {
+            "label": "black",
+            "type": "VALUE",
+            "value": "black",
+          },
+        ]
+      }
+      selections={Array []}
+      type="VALUE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Size"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Size"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-size"
+        >
+          Size
+        </span>
+        <span
+          className="RefinementList-selection is-size"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Size"
+    label="Size"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Size"
+      options={
+        Array [
+          Object {
+            "label": 4,
+            "type": "VALUE",
+            "value": 4,
+          },
+          Object {
+            "label": 6,
+            "type": "VALUE",
+            "value": 6,
+          },
+        ]
+      }
+      selections={Array []}
+      type="SIZE"
+    />
+  </Accordion>
+  <Accordion
+    accordionName="Price"
+    arrowPosition="right"
+    arrowStyle="secondary"
+    className="Accordion--Price"
+    expanded={false}
+    header={
+      <div
+        className="RefinementList-accordionHeader"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <span
+          className="RefinementList-label  is-range"
+        >
+          Price
+        </span>
+        <span
+          className="RefinementList-selection is-range"
+        >
+          
+        </span>
+      </div>
+    }
+    isDisabled={false}
+    key="Price"
+    label="Price"
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={true}
+    noHeaderPadding={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    scrollPaneSelector=".RefinementList"
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <RefinementOptions
+      activeRefinements={0}
+      hidden={false}
+      isMobile={true}
+      label="Price"
+      options={
+        Array [
+          Object {
+            "label": 0,
+            "type": "RANGE",
+            "value": 0,
+          },
+        ]
+      }
+      selections={Array []}
+      type="RANGE"
+    />
+  </Accordion>
+</AccordionGroup>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Subcategory /> @renders should render default state 1`] = `
+<div
+  className="MegaNav-item MegaNav-subcategory"
+>
+  <h3
+    className="MegaNav-subcategoryHeader"
+  >
+    Jeans
+  </h3>
+  <ul
+    className="MegaNav-subcategoryItems"
+  >
+    <Memo(Subcategory)
+      subcategory={
+        Object {
+          "image": Object {
+            "span": 1,
+            "url": "http://topman.com",
+          },
+          "label": "This is a label",
+          "paddingTop": 20,
+          "url": "http://www.topman.com",
+        }
+      }
+    />
+    <Memo(Subcategory)
+      subcategory={
+        Object {
+          "image": Object {
+            "span": 1,
+            "url": "http://topman.com",
+          },
+          "label": "This is a label",
+          "paddingTop": 20,
+          "url": "http://www.topman.com",
+        }
+      }
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Subcategory /> @renders should render without a subcategory header 1`] = `
+<div
+  className="MegaNav-item MegaNav-subcategory"
+>
+  <ul
+    className="MegaNav-subcategoryItems"
+  >
+    <Memo(Subcategory)
+      subcategory={
+        Object {
+          "image": Object {
+            "span": 1,
+            "url": "http://topman.com",
+          },
+          "label": "This is a label",
+          "paddingTop": 20,
+          "url": "http://www.topman.com",
+        }
+      }
+    />
+    <Memo(Subcategory)
+      subcategory={
+        Object {
+          "image": Object {
+            "span": 1,
+            "url": "http://topman.com",
+          },
+          "label": "This is a label",
+          "paddingTop": 20,
+          "url": "http://www.topman.com",
+        }
+      }
+    />
+  </ul>
+</div>
+`;

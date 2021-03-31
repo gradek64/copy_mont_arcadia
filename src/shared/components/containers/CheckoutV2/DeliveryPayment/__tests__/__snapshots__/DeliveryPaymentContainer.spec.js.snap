@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryPaymentContainer /> @renders AddressBook when isFeaturedAddressBookEnabled 1`] = `
+<div
+  className="DeliveryPaymentContainer"
+>
+  <Connect(CheckoutContentContainer)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Delivery and Payment"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="0 0 30px"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={false}
+    />
+    <Connect(StoreDeliveryContainer) />
+    <div>
+      <Connect(AddressBook) />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0"
+      />
+      <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+      <Connect(Espot)
+        identifier="toBeDefined"
+      />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0 0"
+      />
+      <div
+        className="DeliveryPaymentContainer-wrapper"
+      >
+        <Connect(GiftCards)
+          showTotal={true}
+        />
+      </div>
+      <Connect(PaymentDetailsContainer) />
+      <Connect(SavePaymentDetailsCheckboxContainer) />
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={Array []}
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={false}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "918.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "additionalDescription": "Up to 4 days",
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME_STANDARD",
+            "estimatedDelivery": undefined,
+            "label": "UK Standard up to 4 days",
+            "shipModeId": 26504,
+          }
+        }
+      />
+      <Connect(OrderErrorMessageContainer) />
+    </div>
+  </Connect(CheckoutContentContainer)>
+</div>
+`;
+
+exports[`<DeliveryPaymentContainer /> @renders DeliveryAddressDetailsContainer when not isFeaturedAddressBookEnabled 1`] = `
+<div
+  className="DeliveryPaymentContainer"
+>
+  <Connect(CheckoutContentContainer)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Delivery and Payment"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="0 0 30px"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={false}
+    />
+    <Connect(StoreDeliveryContainer) />
+    <div>
+      <Connect(DeliveryAddressDetailsContainer) />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0"
+      />
+      <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+      <Connect(Espot)
+        identifier="toBeDefined"
+      />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0 0"
+      />
+      <div
+        className="DeliveryPaymentContainer-wrapper"
+      >
+        <Connect(GiftCards)
+          showTotal={true}
+        />
+      </div>
+      <Connect(PaymentDetailsContainer) />
+      <Connect(SavePaymentDetailsCheckboxContainer) />
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={Array []}
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={false}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "918.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "additionalDescription": "Up to 4 days",
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME_STANDARD",
+            "estimatedDelivery": undefined,
+            "label": "UK Standard up to 4 days",
+            "shipModeId": 26504,
+          }
+        }
+      />
+      <Connect(OrderErrorMessageContainer) />
+    </div>
+  </Connect(CheckoutContentContainer)>
+</div>
+`;
+
+exports[`<DeliveryPaymentContainer /> @renders should not render PaymentDetailsContainer if there is a giftCard that covers the basket total 1`] = `
+<div
+  className="DeliveryPaymentContainer"
+>
+  <Connect(CheckoutContentContainer)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Delivery and Payment"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="0 0 30px"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={false}
+    />
+    <Connect(StoreDeliveryContainer) />
+    <div>
+      <Connect(DeliveryAddressDetailsContainer) />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0"
+      />
+      <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+      <Connect(Espot)
+        identifier="toBeDefined"
+      />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0 0"
+      />
+      <div
+        className="DeliveryPaymentContainer-wrapper"
+      >
+        <Connect(GiftCards)
+          showTotal={true}
+        />
+      </div>
+      <Connect(SavePaymentDetailsCheckboxContainer) />
+      <PaymentBtnWithTC
+        discounts={
+          Array [
+            Object {
+              "value": "918.00",
+            },
+          ]
+        }
+        formErrors={Object {}}
+        formNames={Array []}
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={false}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "918.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "additionalDescription": "Up to 4 days",
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME_STANDARD",
+            "estimatedDelivery": undefined,
+            "label": "UK Standard up to 4 days",
+            "shipModeId": 26504,
+          }
+        }
+      />
+      <Connect(OrderErrorMessageContainer) />
+    </div>
+  </Connect(CheckoutContentContainer)>
+</div>
+`;
+
+exports[`<DeliveryPaymentContainer /> @renders should render the widgets specific to the delivery and payments page 1`] = `
+<div
+  className="DeliveryPaymentContainer"
+>
+  <Connect(CheckoutContentContainer)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Delivery and Payment"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="0 0 30px"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={false}
+    />
+    <Connect(StoreDeliveryContainer) />
+    <div>
+      <Connect(DeliveryAddressDetailsContainer) />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0"
+      />
+      <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+      <Connect(Espot)
+        identifier="toBeDefined"
+      />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0 0"
+      />
+      <div
+        className="DeliveryPaymentContainer-wrapper"
+      >
+        <Connect(GiftCards)
+          showTotal={true}
+        />
+      </div>
+      <Connect(PaymentDetailsContainer) />
+      <Connect(SavePaymentDetailsCheckboxContainer) />
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={Object {}}
+        formNames={Array []}
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={false}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "918.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "additionalDescription": "Up to 4 days",
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME_STANDARD",
+            "estimatedDelivery": undefined,
+            "label": "UK Standard up to 4 days",
+            "shipModeId": 26504,
+          }
+        }
+      />
+      <Connect(OrderErrorMessageContainer) />
+    </div>
+  </Connect(CheckoutContentContainer)>
+</div>
+`;
+
+exports[`<DeliveryPaymentContainer /> @renders with errors next button is not active 1`] = `
+<div
+  className="DeliveryPaymentContainer"
+>
+  <Connect(CheckoutContentContainer)>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Delivery and Payment"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(PromotionCode)))
+      gtmCategory="checkout"
+      isContentPadded={false}
+      isOpenIfPopulated={true}
+    />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="0 0 30px"
+    />
+    <Connect(WithRestrictedActionDispatch(Connect(DeliveryOptionsContainer))) />
+    <Separator
+      backgroundColor="#e1e1e1"
+      className=""
+      margin="30px 0"
+    />
+    <OrderSummaryEspot
+      isFeatureMobileCheckoutEspotEnabled={false}
+      isMobile={false}
+    />
+    <Connect(StoreDeliveryContainer) />
+    <div>
+      <Connect(DeliveryAddressDetailsContainer) />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0"
+      />
+      <Connect(WithRestrictedActionDispatch(Connect(DeliveryMethods))) />
+      <Connect(Espot)
+        identifier="toBeDefined"
+      />
+      <Separator
+        backgroundColor="#e1e1e1"
+        className=""
+        margin="30px 0 0"
+      />
+      <div
+        className="DeliveryPaymentContainer-wrapper"
+      >
+        <Connect(GiftCards)
+          showTotal={true}
+        />
+      </div>
+      <Connect(PaymentDetailsContainer) />
+      <Connect(SavePaymentDetailsCheckboxContainer) />
+      <PaymentBtnWithTC
+        discounts={Array []}
+        formErrors={
+          Object {
+            "yourAddress": Object {
+              "address1": "This field is required",
+            },
+          }
+        }
+        formNames={Array []}
+        isDDPStandaloneOrder={false}
+        isGuestOrder={false}
+        isGuestRecaptchaEnabled={false}
+        isMobile={false}
+        paymentType="VISA"
+        paypalSmartButtons={false}
+        priceInfo={
+          Object {
+            "subTotal": "918.00",
+          }
+        }
+        shippingInfo={
+          Object {
+            "additionalDescription": "Up to 4 days",
+            "cost": 0,
+            "deliveryMethod": "HOME",
+            "deliveryType": "HOME_STANDARD",
+            "estimatedDelivery": undefined,
+            "label": "UK Standard up to 4 days",
+            "shipModeId": 26504,
+          }
+        }
+      />
+      <Connect(OrderErrorMessageContainer) />
+    </div>
+  </Connect(CheckoutContentContainer)>
+</div>
+`;

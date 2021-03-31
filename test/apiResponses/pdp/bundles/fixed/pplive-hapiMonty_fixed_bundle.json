@@ -1,0 +1,633 @@
+{
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "001Fixed Bundles TSUK"
+    }
+  ],
+  "contentSlotContentHTML": "%3C%21--+CMS+Page+Version%3A+static-0000104259+baseline%3A+3+revision%3A+0+published%3A+2015-11-25+14%3A44%3A30.98948%3Acogz+cogz%0A+++++++++CMS+Temp+Version%3A+template-0000011825+baseline%3A+1+revision%3A+0+description%3A+Home+Page+Module+-+Basic+%28REF+0000011783%29+published%3A+2015-06-25+10%3A42%3A08.412652+--%3E%0A%0A%0A++%0A%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000011825%2Fcss%2Ftheme1.css%22+%2F%3E%3Cstyle+type%3D%22text%2Fcss%22%3E%0A%2F*%3C%21%5BCDATA%5B*%2F%0A%2F*%5D%5D%3E*%2F%0A%3C%2Fstyle%3E%0A%0A++++%0A++%0A%0A++%0A++++%3Cdiv+id%3D%22static-0000104259%22+class%3D%27theme1+masonry-item+module-basic%27%3E%0A++++++%3Cdiv+class%3D%22masonry-item-inner%22%3E%0A++++++++%3Cimg+src%3D%22http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor7%2Fcms%2Fpages%2Fstatic%2Fstatic-0000104259%2Fimages%2F35B66IBLK_2_thumb.jpg%22+alt%3D%22image%22+width%3D%22170%22+height%3D%22255%22+%2F%3E%0A++++++%3C%2Fdiv%3E%0A++++%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000011783+--%3E%0A++%0A%0A",
+  "grouping": "BUNDLE_001FIXEDBUNDLES_TSUK",
+  "lineNumber": "BUNDLE_001FIXEDBUNDLES_TSUK",
+  "name": "001Fixed Bundles TSUK",
+  "unitPrice": "24.70",
+  "bnplPaymentOptions": {
+    "clearpay": {
+      "amount": "6.17",
+      "instalments": 4
+    },
+    "klarna": {
+      "amount": "8.23",
+      "instalments": 3
+    }
+  },
+  "stockEmail": false,
+  "storeDelivery": false,
+  "stockThreshold": 10,
+  "assets": [
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 1,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 1,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 1,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 1,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 2,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_F_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 2,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_F_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 2,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_F_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 2,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_F_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 3,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_F_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 3,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_F_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 3,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_F_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 3,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_F_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 4,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_F_4.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 4,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_F_4.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 4,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_F_4.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 4,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_F_4.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 5,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_F_5.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 5,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_F_5.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 5,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_F_5.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 5,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_F_5.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 6,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_O_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 6,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_O_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 6,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_O_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 6,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_O_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 7,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Thumb_V_1.mp4"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 7,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Small_V_1.mp4"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 7,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_2col_V_1.mp4"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 7,
+      "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/BUNDLE_001FIXEDBUNDLES_TSUK_Zoom_V_1.mp4"
+    }
+  ],
+  "bundleProducts": [
+    {
+      "grouping": "TS24R13IBLK",
+      "lineNumber": "24R13IBLK",
+      "name": "Velvet Crossbody Bag",
+      "description": "Plush velvet brings the elegance with this crossbody bag. A compact size ideal for partying, adorned with pin stud embellishment for a subtle metallic touch. Includes a chain strap to carry and closes with a mag dot fastening. 100% Polyester. Spot clean only.",
+      "unitPrice": "26.00",
+      "stockEmail": true,
+      "storeDelivery": false,
+      "stockThreshold": 10,
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_thumb.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_small.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_2col.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_zoom.jpg"
+        }
+      ],
+      "items": [
+        {
+          "catEntryId": 21974048,
+          "sku": "602015000892418",
+          "size": "ONE",
+          "quantity": 0,
+          "selected": false
+        }
+      ],
+      "bundleProducts": [],
+      "attributes": {
+        "ECMC_PROD_SIZE_GUIDE_1": "NoSizeGuide",
+        "b_hasImage": "N",
+        "CEThumbnailSuffixes": "",
+        "b_has360": "N",
+        "EmailBackInStock": "N",
+        "BundleType": "Fixed",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "",
+        "CE3BThumbnailSuffixes": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "ThresholdMessage": "",
+        "IFSeason": "SS16",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_COLOUR_1": "",
+        "StyleCode": "0",
+        "COLOUR_CODE": "",
+        "STYLE_CODE": "",
+        "NotifyMe": "N",
+        "countryExclusion": "",
+        "SizeFit": "",
+        "ProductDefaultCopy": "",
+        "shopTheOutfitBundleCode": ""
+      },
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": true,
+      "productId": 21974034,
+      "wcsColourKey": "108434254",
+      "wcsSizeKey": "108434255",
+      "colour": "BLACK"
+    },
+    {
+      "grouping": "TS12X01IWHT",
+      "lineNumber": "12X01IWHT",
+      "name": "Berlin High Neck Tee by adidas Originals",
+      "description": "Invest in a classic with this logo front printed tee. Crafted from a light cotton blend with a chiffon back and a very-now high neck. By adidas Originals. 60% Cotton, 40% Modal. Machine wash. &lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39; 9&quot;&lt;br&gt;",
+      "wasPrice": "26.00",
+      "unitPrice": "24.70",
+      "stockEmail": false,
+      "storeDelivery": false,
+      "stockThreshold": 10,
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_thumb.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_small.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_2col.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_zoom.jpg"
+        }
+      ],
+      "items": [
+        {
+          "catEntryId": 21995965,
+          "sku": "602015000892648",
+          "size": "6",
+          "quantity": 0,
+          "selected": false
+        },
+        {
+          "catEntryId": 21995977,
+          "sku": "602015000892649",
+          "size": "8",
+          "quantity": 996,
+          "selected": false
+        },
+        {
+          "catEntryId": 21995993,
+          "sku": "602015000892650",
+          "size": "10",
+          "quantity": 998,
+          "selected": false
+        },
+        {
+          "catEntryId": 21996018,
+          "sku": "602015000892651",
+          "size": "12",
+          "quantity": 0,
+          "selected": false
+        },
+        {
+          "catEntryId": 21996035,
+          "sku": "602015000892652",
+          "size": "14",
+          "quantity": 0,
+          "selected": false
+        },
+        {
+          "catEntryId": 21996054,
+          "sku": "602015000892653",
+          "size": "16",
+          "quantity": 0,
+          "selected": false
+        }
+      ],
+      "bundleProducts": [],
+      "attributes": {
+        "ECMC_PROD_SIZE_GUIDE_1": "Conversions",
+        "b_hasImage": "N",
+        "CEThumbnailSuffixes": "",
+        "b_has360": "N",
+        "EmailBackInStock": "N",
+        "BundleType": "Fixed",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "",
+        "CE3BThumbnailSuffixes": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "ThresholdMessage": "",
+        "IFSeason": "SS16",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_COLOUR_1": "",
+        "StyleCode": "0",
+        "COLOUR_CODE": "",
+        "STYLE_CODE": "",
+        "NotifyMe": "N",
+        "countryExclusion": "",
+        "SizeFit": "",
+        "ProductDefaultCopy": "",
+        "shopTheOutfitBundleCode": ""
+      },
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": true,
+      "productId": 21995939,
+      "wcsColourKey": "108638207",
+      "wcsSizeKey": "108638219",
+      "colour": "WHITE"
+    }
+  ],
+  "attributes": {},
+  "colourSwatches": [],
+  "tpmLinks": [],
+  "bundleSlots": [
+    {
+      "slotNumber": 1,
+      "products": [
+        {
+          "grouping": "TS24R13IBLK",
+          "lineNumber": "24R13IBLK",
+          "name": "Velvet Crossbody Bag",
+          "description": "Plush velvet brings the elegance with this crossbody bag. A compact size ideal for partying, adorned with pin stud embellishment for a subtle metallic touch. Includes a chain strap to carry and closes with a mag dot fastening. 100% Polyester. Spot clean only.",
+          "unitPrice": "26.00",
+          "stockEmail": true,
+          "storeDelivery": false,
+          "stockThreshold": 10,
+          "assets": [
+            {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_thumb.jpg"
+            },
+            {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_small.jpg"
+            },
+            {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_2col.jpg"
+            },
+            {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/24R13IBLK_zoom.jpg"
+            }
+          ],
+          "items": [
+            {
+              "catEntryId": 21974048,
+              "sku": "602015000892418",
+              "size": "ONE",
+              "quantity": 0,
+              "selected": false
+            }
+          ],
+          "bundleProducts": [],
+          "attributes": {
+            "ECMC_PROD_SIZE_GUIDE_1": "NoSizeGuide",
+            "b_hasImage": "N",
+            "CEThumbnailSuffixes": "",
+            "b_has360": "N",
+            "EmailBackInStock": "N",
+            "BundleType": "Fixed",
+            "b_hasVideo": "N",
+            "STORE_DELIVERY": "true",
+            "hasVideo": "N",
+            "Department": "",
+            "CE3BThumbnailSuffixes": "",
+            "has360": "N",
+            "SearchKeywords": "",
+            "ThresholdMessage": "",
+            "IFSeason": "SS16",
+            "thumbnailImageSuffixes": "_",
+            "ECMC_PROD_COLOUR_1": "",
+            "StyleCode": "0",
+            "COLOUR_CODE": "",
+            "STYLE_CODE": "",
+            "NotifyMe": "N",
+            "countryExclusion": "",
+            "SizeFit": "",
+            "ProductDefaultCopy": "",
+            "shopTheOutfitBundleCode": ""
+          },
+          "colourSwatches": [],
+          "tpmLinks": [],
+          "bundleSlots": [],
+          "ageVerificationRequired": false,
+          "isBundleOrOutfit": true,
+          "productId": 21974034,
+          "wcsColourKey": "108434254",
+          "wcsSizeKey": "108434255",
+          "colour": "BLACK"
+        }
+      ]
+    },
+    {
+      "slotNumber": 2,
+      "products": [
+        {
+          "grouping": "TS12X01IWHT",
+          "lineNumber": "12X01IWHT",
+          "name": "Berlin High Neck Tee by adidas Originals",
+          "description": "Invest in a classic with this logo front printed tee. Crafted from a light cotton blend with a chiffon back and a very-now high neck. By adidas Originals. 60% Cotton, 40% Modal. Machine wash. &lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39; 9&quot;&lt;br&gt;",
+          "wasPrice": "26.00",
+          "unitPrice": "24.70",
+          "stockEmail": false,
+          "storeDelivery": false,
+          "stockThreshold": 10,
+          "assets": [
+            {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_thumb.jpg"
+            },
+            {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_small.jpg"
+            },
+            {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_2col.jpg"
+            },
+            {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/12X01IWHT_zoom.jpg"
+            }
+          ],
+          "items": [
+            {
+              "catEntryId": 21995965,
+              "sku": "602015000892648",
+              "size": "6",
+              "quantity": 0,
+              "selected": false
+            },
+            {
+              "catEntryId": 21995977,
+              "sku": "602015000892649",
+              "size": "8",
+              "quantity": 996,
+              "selected": false
+            },
+            {
+              "catEntryId": 21995993,
+              "sku": "602015000892650",
+              "size": "10",
+              "quantity": 998,
+              "selected": false
+            },
+            {
+              "catEntryId": 21996018,
+              "sku": "602015000892651",
+              "size": "12",
+              "quantity": 0,
+              "selected": false
+            },
+            {
+              "catEntryId": 21996035,
+              "sku": "602015000892652",
+              "size": "14",
+              "quantity": 0,
+              "selected": false
+            },
+            {
+              "catEntryId": 21996054,
+              "sku": "602015000892653",
+              "size": "16",
+              "quantity": 0,
+              "selected": false
+            }
+          ],
+          "bundleProducts": [],
+          "attributes": {
+            "ECMC_PROD_SIZE_GUIDE_1": "Conversions",
+            "b_hasImage": "N",
+            "CEThumbnailSuffixes": "",
+            "b_has360": "N",
+            "EmailBackInStock": "N",
+            "BundleType": "Fixed",
+            "b_hasVideo": "N",
+            "STORE_DELIVERY": "true",
+            "hasVideo": "N",
+            "Department": "",
+            "CE3BThumbnailSuffixes": "",
+            "has360": "N",
+            "SearchKeywords": "",
+            "ThresholdMessage": "",
+            "IFSeason": "SS16",
+            "thumbnailImageSuffixes": "_",
+            "ECMC_PROD_COLOUR_1": "",
+            "StyleCode": "0",
+            "COLOUR_CODE": "",
+            "STYLE_CODE": "",
+            "NotifyMe": "N",
+            "countryExclusion": "",
+            "SizeFit": "",
+            "ProductDefaultCopy": "",
+            "shopTheOutfitBundleCode": ""
+          },
+          "colourSwatches": [],
+          "tpmLinks": [],
+          "bundleSlots": [],
+          "ageVerificationRequired": false,
+          "isBundleOrOutfit": true,
+          "productId": 21995939,
+          "wcsColourKey": "108638207",
+          "wcsSizeKey": "108638219",
+          "colour": "WHITE"
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "http://ts.pplive.arcadiagroup.ltd.uk/en/tsuk/product/001fixed-bundles-tsuk-4910347",
+  "canonicalUrl": "",
+  "canonicalUrlSet": false,
+  "ageVerificationRequired": false,
+  "isBundleOrOutfit": true,
+  "version": "",
+  "productId": 22044747,
+  "description": "Done",
+  "items": [
+    {
+      "catEntryId": 21974048,
+      "sku": "602015000892418",
+      "size": "ONE",
+      "quantity": 0,
+      "selected": false
+    },
+    {
+      "catEntryId": 21995965,
+      "sku": "602015000892648",
+      "size": "6",
+      "quantity": 0,
+      "selected": false
+    },
+    {
+      "catEntryId": 21995977,
+      "sku": "602015000892649",
+      "size": "8",
+      "quantity": 996,
+      "selected": false
+    },
+    {
+      "catEntryId": 21995993,
+      "sku": "602015000892650",
+      "size": "10",
+      "quantity": 998,
+      "selected": false
+    },
+    {
+      "catEntryId": 21996018,
+      "sku": "602015000892651",
+      "size": "12",
+      "quantity": 0,
+      "selected": false
+    },
+    {
+      "catEntryId": 21996035,
+      "sku": "602015000892652",
+      "size": "14",
+      "quantity": 0,
+      "selected": false
+    },
+    {
+      "catEntryId": 21996054,
+      "sku": "602015000892653",
+      "size": "16",
+      "quantity": 0,
+      "selected": false
+    }
+  ],
+  "bundleType": "Fixed",
+  "deliveryMessage": "Order in 4 hrs 50 mins for next day delivery"
+}

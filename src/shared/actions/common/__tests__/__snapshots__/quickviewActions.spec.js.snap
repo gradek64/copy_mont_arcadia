@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quickviewActions setProductIdQuickview should return action to set the productId state 1`] = `
+Object {
+  "productId": "abc123",
+  "type": "SET_PRODUCT_ID_QUICKVIEW",
+}
+`;
+
+exports[`quickviewActions setProductQuickview should return action to set the product state 1`] = `
+Object {
+  "product": Object {
+    "product": true,
+  },
+  "type": "SET_PRODUCT_QUICKVIEW",
+}
+`;
+
+exports[`quickviewActions updateQuickViewActiveItem should return an action to set the active product state 1`] = `
+Object {
+  "activeItem": Object {
+    "activeItem": true,
+  },
+  "type": "UPDATE_QUICK_VIEW_ACTIVE_ITEM",
+}
+`;
+
+exports[`quickviewActions updateQuickViewActiveItemQuantity should return an action to update selected quantity 1`] = `
+Object {
+  "selectedQuantity": 10,
+  "type": "UPDATE_QUICK_VIEW_ACTIVE_ITEM_QUANTITY",
+}
+`;
+
+exports[`quickviewActions updateQuickviewShowItemsError should return an action to set the show error state 1`] = `
+Object {
+  "showError": false,
+  "type": "UPDATE_QUICK_VIEW_SHOW_ITEMS_ERROR",
+}
+`;

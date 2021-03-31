@@ -1,0 +1,186 @@
+#!/usr/bin/env groovy
+@Library('devops_repo_shared_library')_
+
+// to avoid all the funky %2F in the BUILD_TAG strings we do this. yay
+def NICE_TAG = env.JOB_BASE_NAME.replaceAll("%2F", "-") + "-" + env.BUILD_ID
+// The credentialsId is based on the ID of credentials in the specific Jenkins instance
+def JENKINS_CREDS_ID  = "d0227154-e54b-4f4c-b48f-48d5d691c334"
+def eb_job_path       = "${EVENT_JOB_PATH}"
+
+pipeline {
+    agent {
+        label 'spot'
+    }
+
+    parameters {
+        string(name: 'ECR_TAG', defaultValue: '', description: 'Tag of monty docker image from ECR')
+        string(name: 'MAX_WORKERS', defaultValue: '8', description: 'Number of workers for jest - DO NOT CHANGE')
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+        timestamps()
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
+        timeout(time: 30, unit: 'MINUTES')
+    }
+
+    stages {
+
+        stage("Pre-Flight") {
+            steps {
+                script {
+                    println(ssh_conn.get_ssh_conn())
+                }
+            }
+        }
+
+        stage('Github Notify - PR Init ') {
+            steps {
+                //Notify github PR of the initiation of the scan
+                githubNotify context: 'full-monty/SonarQube_Scan',
+                  credentialsId: "${JENKINS_CREDS_ID}",
+                  repo: 'full-monty',
+                  account: 'ag-digital',
+                  sha: "${env.GIT_COMMIT}",
+                  description: 'Running SonarScanner...',
+                  status: 'PENDING',
+                  targetUrl: env.BUILD_URL
+            }
+        }
+
+        stage('Pull from ECR') {
+
+            steps {
+                echo "cleanup a bit of space hopefully"
+                sh 'docker image prune -f || echo "INFO - Docker is already pruning"'
+                sh 'rm -f eslint_src.stylish.txt && rm -rf coverage/ && rm -rf test-report.xml'
+                echo "Getting latest monty docker image from ECR"
+                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'JenkinsSlaveDeploymentRole']]) {
+                    script {
+                        sh 'set +x; $(aws ecr get-login --no-include-email --region eu-west-1)'
+                        def MONTY_TAG = (params.ECR_TAG == '') ? env.GIT_COMMIT : params.ECR_TAG
+                        if (MONTY_TAG.contains("/")) {
+                          MONTY_TAG = MONTY_TAG.replace("/", "-")
+                          println("INFO - Replaced forward slash [/] in branch name with dash [-] to pull from ECR")
+                        }
+                        sh "docker pull ${ECR_URL}/monty:${MONTY_TAG}"
+                        // tag it with something predictable and unique so we can use it easily at later stages
+                        sh "docker tag ${ECR_URL}/monty:${MONTY_TAG} monty_tests_unit:${NICE_TAG}"
+                    }
+                }
+            }
+        }
+
+        stage('Run Tests') {
+
+            parallel {
+
+                stage('Unit') {
+                    stages {
+                        stage('Unit Sequence') {
+                            agent {
+                                docker {
+                                    image "monty_tests_unit:${NICE_TAG}"
+                                    args '-u root'
+                                    reuseNode true
+                                    label 'spot'
+                                }
+                            }
+
+                            environment {
+                                NODE_ENV          = 'development'
+                                CMS_TEST_MODE     = 'true'
+                                FUNCTIONAL_TESTS  = 'true'
+                                BABEL_ENV         = 'test'
+                            }
+
+                            steps {
+                                sh 'rm -rf /monty/coverage && rm -rf /monty/test-report.xml'
+                                sh 'cd /monty && /monty/node_modules/.bin/jest --config=/monty/build/unit/jest.config.json --ci --logHeapUsage --coverage --maxWorkers="${MAX_WORKERS}"'
+                            }
+
+                            post {
+                                always {
+                                    sh 'cp /monty/test-report.xml ./test-report.xml'
+                                    junit 'test-report.xml'
+                                    sh 'cp -a /monty/coverage/* ./'
+                                    sh 'sed -i.bak "s@^SF:/monty@SF:$(pwd)@" lcov.info'
+                                    sh 'ls -la'
+                                }
+                            }
+                        }
+
+                        stage('Scan Sequence') {
+                            steps {
+                                script {
+                                        // sonarqube plugin doesn't give a declarative pipeline shortcut so we have to do that script
+                                        def scannerHome = tool 'SonarScanner4-0';
+                                        withSonarQubeEnv('DevSonarQube') {
+                                            sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectVersion=${params.ECR_TAG}"
+                                        }
+                                    }
+                                // withSonarQubeEnv('DevSonarQube') { waitForQualityGate abortPipeline: false }
+                            }
+                            post {
+                                always {
+                                    archiveArtifacts artifacts: '.scannerwork/report-task.txt', allowEmptyArchive: true
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Lint') {
+                    agent {
+                        docker {
+                            image "monty_tests_unit:${NICE_TAG}"
+                            args "-u root"
+                            reuseNode true
+                            label 'spot'
+                        }
+                    }
+
+                    environment {
+                        NODE_ENV = 'development'
+                        CMS_TEST_MODE = 'true'
+                    }
+
+                    steps {
+                        echo 'running src lint'
+                        sh 'cd /monty && ./node_modules/.bin/eslint -f stylish --rulesdir=build/eslint-rules/ "src/**/*.js" "src/**/*.jsx" > eslint_src.stylish.txt'
+                        sh 'cd /monty && ./node_modules/.bin/eslint -f stylish --rulesdir=build/eslint-rules/ "test/unit/**/*.js" "test/unit/**/*.jsx" > eslint_unit.stylish.txt'
+                        sh 'cd /monty && ./node_modules/.bin/eslint -f stylish --rulesdir=build/eslint-rules/ "test/integration/**/*.js" "test/integration/**/*.jsx" > eslint_integration.stylish.txt'
+                    }
+
+                    post {
+                        always {
+                            sh 'cp /monty/eslint_*.stylish.txt ./'
+                            sh 'cat eslint_*.stylish.txt'
+                            archiveArtifacts 'eslint_*.stylish.txt'
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        success {
+            githubNotify context: 'full-monty/SonarQube_Scan', credentialsId: "${JENKINS_CREDS_ID}", repo: 'full-monty', account: 'ag-digital', sha: "${env.GIT_COMMIT}", status: 'SUCCESS', description: 'Finished sonar scan', targetUrl: env.BUILD_URL
+            // Notifying Event Bus
+            build job: eb_job_path, wait: false,
+                parameters: [
+                    string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                    string(name: 'JOB_STAGE', value: 'finish')
+                ]
+        }
+        failure {
+            githubNotify context: 'full-monty/SonarQube_Scan', credentialsId: "${JENKINS_CREDS_ID}", repo: 'full-monty', account: 'ag-digital', sha: "${env.GIT_COMMIT}", status: 'FAILURE', description: 'Failed sonar scan', targetUrl: env.BUILD_URL
+            // Notifying Event Bus
+            build job: eb_job_path, wait: false,
+                parameters: [
+                    string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                    string(name: 'JOB_STAGE', value: 'fail')
+                ]
+        }
+    }
+}

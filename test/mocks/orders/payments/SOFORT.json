@@ -1,0 +1,24 @@
+{
+    "cardCvv": 123,
+    "creditCard": {
+        "expiryYear": "2017",
+        "cardNumber": "1001280000000005",
+        "type": "SOFRT",
+        "expiryMonth": "09"
+    },
+    "billingDetails": {
+        "address": {
+            "address1": "Test",
+            "address2": "Test",
+            "city": "Test",
+            "country": "Germany",
+            "postcode": "12345"
+        },
+        "nameAndPhone": {
+            "title": "Frau",
+            "firstName": "Connor",
+            "lastName": "Thompson",
+            "telephone": "07193940075"
+        }
+    }
+}

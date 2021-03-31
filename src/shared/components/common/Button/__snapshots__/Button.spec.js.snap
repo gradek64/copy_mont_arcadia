@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> @renders in default state 1`] = `
+<button
+  className="Button notranslate"
+  onClick={[Function]}
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`<Button/> @renders in disabled state 1`] = `
+<button
+  aria-disabled={true}
+  aria-hidden={true}
+  className="Button notranslate"
+  disabled={true}
+  onClick={[Function]}
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`<Button/> @renders with children 1`] = `
+<button
+  className="Button notranslate"
+  onClick={[Function]}
+  role="button"
+  type="button"
+>
+  <span
+    key="text"
+  >
+    Text
+  </span>
+  <i
+    key="icon"
+  />
+</button>
+`;
+
+exports[`<Button/> @renders with className 1`] = `
+<button
+  className="Button fooButton notranslate"
+  onClick={[Function]}
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`<Button/> @renders with type 1`] = `
+<button
+  className="Button notranslate"
+  onClick={[Function]}
+  role="button"
+  type="foo"
+/>
+`;

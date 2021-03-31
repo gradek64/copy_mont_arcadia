@@ -1,0 +1,12 @@
+/** @define NotFound **/
+
+.NotFound {
+  text-align: center;
+  margin: 0;
+}
+
+@media $min-tablet {
+  .NotFound {
+    text-align: left;
+  }
+}

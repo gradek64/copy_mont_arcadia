@@ -1,0 +1,158 @@
+{
+  "type": "object",
+  "properties": {
+    "basket": {
+      "$ref": "#/definitions/basket"
+    },
+    "deliveryLocations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "deliveryLocationType": {
+            "type": "string",
+            "example": "HOME"
+          },
+          "label": {
+            "type": "string",
+            "example": "Home Delivery Standard (UK up to 4 working days; worldwide varies) Express (UK next or nominated day; worldwide varies)"
+          },
+          "selected": {
+            "type": "boolean",
+            "example": false
+          },
+          "enabled": {
+            "type": "boolean",
+            "example": false
+          },
+          "errorCode": {
+            "type": "string",
+            "example": "_API_CANT_RESOLVE_FFMCENTER.2"
+          },
+          "deliveryMethods": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "shipModeId": {
+                  "type:": "number",
+                  "example": 26504
+                },
+                "shipCode": {
+                  "type": "string",
+                  "example": "S"
+                },
+                "deliveryType": {
+                  "type": "string",
+                  "example": "HOME_STANDARD"
+                },
+                "label": {
+                  "type": "string",
+                  "example": "Standard Delivery"
+                },
+                "additionalDescription": {
+                  "type": "string",
+                  "example": "2 - 4 Working days"
+                },
+                "cost": {
+                  "type": "number",
+                  "example": 0
+                },
+                "selected": {
+                  "type": "boolean",
+                  "example": true
+                },
+                "enabled": {
+                  "type": "boolean",
+                  "example": false
+                },
+                "deliveryOptions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "shipModeId": {
+                        "type": "number",
+                        "example": 28004
+                      },
+                      "dayText": {
+                        "type": "string",
+                        "example": "Wed"
+                      },
+                      "dateText": {
+                        "type": "string",
+                        "example": "18 Oct"
+                      },
+                      "nominatedDate": {
+                        "type": "string",
+                        "example": "2017-10-18"
+                      },
+                      "price": {
+                        "type": "string",
+                        "example": "6.00"
+                      },
+                      "enabled": {
+                        "type": "boolean",
+                        "example": false
+                      },
+                      "selected": {
+                        "type": "boolean",
+                        "example": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "giftCards": {
+      "$ref": "#/definitions/giftCards"
+    },
+    "deliveryInstructions": {
+      "type": "string",
+      "example": "Leave under the porch."
+    },
+    "smsMobileNumber": {
+      "type": "string",
+      "example": ""
+    },
+    "shippingCountry": {
+      "type": "string",
+      "example": "United Kingdom"
+    },
+    "savedAddresses": {
+      "$ref": "#/definitions/savedAddresses"
+    },
+    "ageVerificationDeliveryConfirmationRequired": {
+      "type": "boolean",
+      "example": false
+    },
+    "estimatedDelivery": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "example": "No later than Monday 23 October 2017"
+      }
+    },
+    "cardNumberHash": {
+      "type": "string",
+      "example": "tjOBl4zzS+ueTZQWartO5l968iOmCOix"
+    },
+    "creditCard": {
+      "$ref": "#/definitions/creditCard"
+    },
+    "billingDetails": {
+      "$ref": "#/definitions/userDetails"
+    },
+    "deliveryDetails": {
+      "$ref": "#/definitions/userDetails"
+    },
+    "isGuestOrder": {
+      "type": "boolean",
+      "example": true
+    }
+  }
+}

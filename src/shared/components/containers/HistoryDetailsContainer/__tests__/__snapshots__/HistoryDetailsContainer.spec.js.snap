@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HistoryDetailsContainer /> @renders UK Track My Orders Only if FEATURE_TRACK_ORDERS not enabled Should render list of items like default 1`] = `
+<div
+  className="HistoryDetailsContainer"
+>
+  <section
+    className="HistoryDetailsContainer-header"
+  >
+    <div
+      className="HistoryDetailsContainer-headerCol"
+    >
+      <p
+        className="HistoryDetailsContainer-orderNumberLabel"
+      >
+        Order Number
+        :
+      </p>
+    </div>
+    <div
+      className="HistoryDetailsContainer-headerCol"
+    >
+      <p
+        className="HistoryDetailsContainer-orderNumber"
+      >
+        <PrivacyGuard>
+          <strong
+            className="HistoryDetailsContainer-orderId"
+          >
+            278hdhjhd
+          </strong>
+        </PrivacyGuard>
+      </p>
+    </div>
+  </section>
+  <section
+    className="HistoryDetailsContainer-list"
+  >
+    <OrderItem
+      data={
+        Object {
+          "item": Object {
+            "colour": "BLACK",
+            "discount": "",
+            "imageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS02J50LBLK_Small_F_1.jpg",
+            "lineNo": "02J50LBLK",
+            "name": "MOTO Hook & Eye Joni Jeans",
+            "nonRefundable": false,
+            "quantity": 1,
+            "size": "W2430",
+            "total": "52.00",
+            "trackingAvailable": false,
+            "unitPrice": "52.00",
+          },
+          "key": 0,
+        }
+      }
+    />
+    <OrderItem
+      data={
+        Object {
+          "item": Object {
+            "colour": "Ochre",
+            "discount": "",
+            "imageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS26B07MOCH_Small_F_1.jpg",
+            "lineNo": "26B07MOCH",
+            "name": "PETITE Knot Front Top",
+            "nonRefundable": false,
+            "quantity": 1,
+            "size": "4",
+            "total": "29.00",
+            "trackingAvailable": false,
+            "unitPrice": "29.00",
+          },
+          "key": 1,
+        }
+      }
+    />
+  </section>
+</div>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders in default state 1`] = `
+<div
+  className="HistoryDetailsContainer"
+>
+  <section
+    className="HistoryDetailsContainer-header"
+  >
+    <div
+      className="HistoryDetailsContainer-headerCol"
+    >
+      <p
+        className="HistoryDetailsContainer-orderNumberLabel"
+      >
+        Order Number
+        :
+      </p>
+    </div>
+    <div
+      className="HistoryDetailsContainer-headerCol"
+    >
+      <p
+        className="HistoryDetailsContainer-orderNumber"
+      >
+        <PrivacyGuard>
+          <strong
+            className="HistoryDetailsContainer-orderId"
+          >
+            fake-id
+          </strong>
+        </PrivacyGuard>
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with no orderDetails - orderId it should display paramId 1`] = `
+<p
+  className="HistoryDetailsContainer-orderNumber"
+>
+  <PrivacyGuard>
+    <strong
+      className="HistoryDetailsContainer-orderId"
+    >
+      fake-id
+    </strong>
+  </PrivacyGuard>
+</p>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with orderDetails - orderId it should display orderId 1`] = `
+<p
+  className="HistoryDetailsContainer-orderNumber"
+>
+  <PrivacyGuard>
+    <strong
+      className="HistoryDetailsContainer-orderId"
+    >
+      fake-order-id
+    </strong>
+  </PrivacyGuard>
+</p>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with orderDetails - orderStatus it should display orderStatus 1`] = `
+<p
+  className="HistoryDetailsContainer-orderStatus"
+>
+  <PrivacyGuard>
+    <strong
+      className="HistoryDetailsContainer-statusText"
+    >
+      Your order has been cancelled
+    </strong>
+  </PrivacyGuard>
+</p>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with orderLines 1`] = `
+<section
+  className="HistoryDetailsContainer-list"
+>
+  <OrderItem
+    data={
+      Object {
+        "item": Object {
+          "colour": "BLACK",
+          "discount": "",
+          "imageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS02J50LBLK_Small_F_1.jpg",
+          "lineNo": "02J50LBLK",
+          "name": "MOTO Hook & Eye Joni Jeans",
+          "nonRefundable": false,
+          "quantity": 1,
+          "size": "W2430",
+          "total": "52.00",
+          "trackingAvailable": false,
+          "unitPrice": "52.00",
+        },
+        "key": 0,
+      }
+    }
+  />
+  <OrderItem
+    data={
+      Object {
+        "item": Object {
+          "colour": "Ochre",
+          "discount": "",
+          "imageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS26B07MOCH_Small_F_1.jpg",
+          "lineNo": "26B07MOCH",
+          "name": "PETITE Knot Front Top",
+          "nonRefundable": false,
+          "quantity": 1,
+          "size": "4",
+          "total": "29.00",
+          "trackingAvailable": false,
+          "unitPrice": "29.00",
+        },
+        "key": 1,
+      }
+    }
+  />
+</section>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with orderLines as [] 1`] = `
+<section
+  className="HistoryDetailsContainer-notFound"
+>
+  Order not found
+</section>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with paymentDetails 1`] = `
+<OrderHistoryDetailsPayment
+  paymentDetails={
+    Array [
+      Object {
+        "cardNumberStar": "************1111",
+        "paymentMethod": "Visa",
+        "totalCost": "£174.00",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with paymentDetails and billingAddress 1`] = `
+<OrderHistoryDetailsAddress
+  address={
+    Object {
+      "address1": "Wallis",
+      "address2": "216 Oxford Street",
+      "address3": "LONDON",
+      "address4": "W1C 1DB",
+      "country": "United Kingdom",
+      "name": "Ms elroy antao",
+    }
+  }
+  className="OrderHistoryDetailsAddress--billing"
+  type="billing"
+/>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with paymentDetails and deliveryAddress 1`] = `
+<OrderHistoryDetailsAddress
+  address={
+    Object {
+      "address1": "Wallis",
+      "address2": "216 Oxford Street",
+      "address3": "LONDON",
+      "address4": "W1C 1DB",
+      "country": "United Kingdom",
+      "name": "Ms elroy antao",
+    }
+  }
+  className="OrderHistoryDetailsAddress--delivery"
+  deliveryMethod="UK Standard up to 4 working days"
+  type="shipping"
+/>
+`;
+
+exports[`<HistoryDetailsContainer /> @renders with paymentDetails and deliveryMethod, deliveryDate, deliveryCarrier 1`] = `null`;
+
+exports[`<HistoryDetailsContainer /> @renders with totalOrderPrice and deliveryPrice 1`] = `
+<OrderHistoryDetailsSummary
+  deliveryPrice="4"
+  totalOrderPrice="75"
+/>
+`;

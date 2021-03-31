@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Arrow /> @renders should render correctly 1`] = `
+<button
+  aria-hidden={true}
+  className="ProductCarousel-arrow ProductCarousel-arrow--forward"
+  onClick={[MockFunction]}
+/>
+`;
+
+exports[`<ProductCarousel /> @connected should render correctly 1`] = `
+<Connect(ProductCarousel)
+  axis="horizontal"
+  carouselSize={2}
+>
+  <ProductCarousel
+    axis="horizontal"
+    canRemoveProduct={false}
+    carouselSize={5}
+    dispatch={[Function]}
+    hammerOptions={Object {}}
+    hidePrice={false}
+    hideProductMeta={false}
+    hideProductName={false}
+    hideQuickViewIcon={false}
+    imageSize={
+      Object {
+        "desktop": 140,
+        "mobile": 140,
+        "tablet": 140,
+      }
+    }
+    isImageFallbackEnabled={false}
+    onCarouselArrowClick={[Function]}
+    onProductLinkClick={[Function]}
+    onProductRemove={[Function]}
+    onQuickViewClick={[Function]}
+    openQuickViewOnProductClick={false}
+    peepNextItem={false}
+    products={Array []}
+  />
+</Connect(ProductCarousel)>
+`;
+
+exports[`<ProductCarousel /> @renders should render supplied products 1`] = `
+<div
+  className="ProductCarousel ProductCarousel-horizontal"
+>
+  <Hammer
+    onSwipe={[Function]}
+    options={Object {}}
+  >
+    <div
+      className="ProductCarousel-container"
+    >
+      <Connect(ProductCarouselItem)
+        amplienceUrl="url"
+        axis="horizontal"
+        canRemoveProduct={false}
+        hidePrice={false}
+        hideProductMeta={false}
+        hideProductName={false}
+        hideQuickViewIcon={false}
+        imageSize={
+          Object {
+            "desktop": 140,
+            "mobile": 140,
+            "tablet": 140,
+          }
+        }
+        imageUrl="http://media.topshop.com/wcsstore/TopShop/images/catalog/TS20N01WNUD_2col_F_1.jpg"
+        isImageFallbackEnabled={false}
+        key="0"
+        lazyLoad={true}
+        name="Nails In Nice'N'Neutral"
+        onLinkClick={[Function]}
+        onProductRemove={[Function]}
+        onQuickViewButtonClick={[Function]}
+        openQuickViewOnProductClick={false}
+        productId={1708381}
+        salePrice="2"
+        style={
+          Object {
+            "width": "50%",
+          }
+        }
+        unitPrice="5"
+      />
+      <Connect(ProductCarouselItem)
+        amplienceUrl="url"
+        axis="horizontal"
+        canRemoveProduct={false}
+        hidePrice={false}
+        hideProductMeta={false}
+        hideProductName={false}
+        hideQuickViewIcon={false}
+        imageSize={
+          Object {
+            "desktop": 140,
+            "mobile": 140,
+            "tablet": 140,
+          }
+        }
+        imageUrl="http://media.topshop.com/wcsstore/TopShop/images/catalog/TS20N01WNUD_2col_F_1.jpg"
+        isImageFallbackEnabled={false}
+        key="1"
+        lazyLoad={true}
+        name="Nails In Nice'N'Neutral"
+        onLinkClick={[Function]}
+        onProductRemove={[Function]}
+        onQuickViewButtonClick={[Function]}
+        openQuickViewOnProductClick={false}
+        productId={1708381}
+        salePrice="2"
+        style={
+          Object {
+            "width": "50%",
+          }
+        }
+        unitPrice="5"
+      />
+    </div>
+  </Hammer>
+</div>
+`;

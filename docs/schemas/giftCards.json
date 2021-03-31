@@ -1,0 +1,28 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "amountUsed": {
+        "type": "string",
+        "example": "5.00"
+      },
+      "balance": {
+        "type": "string",
+        "example": "5.00"
+      },
+      "giftCardId": {
+        "type": "string",
+        "example": "123456"
+      },
+      "giftCardNumber": {
+        "type": "string",
+        "example": "1234123412341234"
+      },
+      "remainingBalance": {
+        "type": "string",
+        "example": "0.00"
+      }
+    }
+  }
+}

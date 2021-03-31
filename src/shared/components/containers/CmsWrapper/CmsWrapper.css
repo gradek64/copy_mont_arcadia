@@ -1,0 +1,10 @@
+/** @define CmsWrapper */
+.CmsWrapper {
+  &-espot {
+    padding: 0 $espot-padding;
+
+    &--tacticalMessage, &--noPadding {
+      padding: 0;
+    }
+  }
+}

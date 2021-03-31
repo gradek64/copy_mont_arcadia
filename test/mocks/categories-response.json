@@ -1,0 +1,652 @@
+{"navigationEntries": [
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+      "index": 1,
+      "label": "Find a store",
+      "categoryId": 2691022,
+      "categoryFilter": "2691022",
+      "seoUrl": "/en/tsuk/category/find-a-store-4912603",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 1,
+          "label": "Store Locator",
+          "categoryId": 2690015,
+          "categoryFilter": "2691022,2690015",
+          "seoUrl": "/en/tsuk/category/find-a-store-4912603/store-locator-4912611",
+          "redirectionUrl": "/store_locator",
+          "navigationEntries": []
+        }
+      ]
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+      "index": 2,
+      "label": "Shop By Category",
+      "categoryId": 2690994,
+      "categoryFilter": "2690994",
+      "seoUrl": "/en/tsuk/category/shop-by-category-4912579",
+      "navigationEntries": []
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 3,
+      "label": "New In",
+      "categoryId": 208491,
+      "categoryFilter": "208491",
+      "seoUrl": "/en/tsuk/category/new-in-this-week-2169932",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 1,
+          "label": "New In This Week",
+          "categoryId": 277012,
+          "categoryFilter": "208491,277012",
+          "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493",
+          "navigationEntries": [
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 1,
+              "label": "Playsuits & Jumpsuits",
+              "categoryId": 1782509,
+              "categoryFilter": "208491,277012,1782509",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/playsuits-jumpsuits-3105995",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 2,
+              "label": "Dresses",
+              "categoryId": 208503,
+              "categoryFilter": "208491,277012,208503",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/dresses-3123078",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 3,
+              "label": "Shoes",
+              "categoryId": 208505,
+              "categoryFilter": "208491,277012,208505",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/shoes-679",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 4,
+              "label": "Knitwear",
+              "categoryId": 208507,
+              "categoryFilter": "208491,277012,208507",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/knitwear-681",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 5,
+              "label": "Shorts",
+              "categoryId": 1782514,
+              "categoryFilter": "208491,277012,1782514",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/shorts-3106013",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 6,
+              "label": "Tops",
+              "categoryId": 208506,
+              "categoryFilter": "208491,277012,208506",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/tops-680",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 7,
+              "label": "Jackets & Coats",
+              "categoryId": 208508,
+              "categoryFilter": "208491,277012,208508",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/jackets-coats-682",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 8,
+              "label": "Trousers & Leggings",
+              "categoryId": 208509,
+              "categoryFilter": "208491,277012,208509",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/trousers-leggings-4201955",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 9,
+              "label": "Jeans",
+              "categoryId": 1787591,
+              "categoryFilter": "208491,277012,1787591",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/jeans-3114041",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 10,
+              "label": "Jewellery",
+              "categoryId": 208511,
+              "categoryFilter": "208491,277012,208511",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/jewellery-685",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 11,
+              "label": "Bags & Accessories",
+              "categoryId": 208510,
+              "categoryFilter": "208491,277012,208510",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/bags-accessories-3163079",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 12,
+              "label": "Lingerie & Nightwear",
+              "categoryId": 208512,
+              "categoryFilter": "208491,277012,208512",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/lingerie-nightwear-686",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 13,
+              "label": "Swimwear & Beachwear",
+              "categoryId": 208515,
+              "categoryFilter": "208491,277012,208515",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/swimwear-beachwear-3123119",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 14,
+              "label": "Tall",
+              "categoryId": 208516,
+              "categoryFilter": "208491,277012,208516",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/tall-688",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 15,
+              "label": "Petite",
+              "categoryId": 208517,
+              "categoryFilter": "208491,277012,208517",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/petite-689",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 16,
+              "label": "Brands at Topshop",
+              "categoryId": 208519,
+              "categoryFilter": "208491,277012,208519",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/brands-at-topshop-691",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 17,
+              "label": "Maternity",
+              "categoryId": 208518,
+              "categoryFilter": "208491,277012,208518",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/maternity-4883623",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 18,
+              "label": "View All",
+              "categoryId": 798058,
+              "categoryFilter": "208491,277012,798058",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/view-all-956",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 19,
+              "label": "Skirts",
+              "categoryId": 218500,
+              "categoryFilter": "208491,277012,218500",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/skirts-692",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 20,
+              "label": "Beauty",
+              "categoryId": 231043,
+              "categoryFilter": "208491,277012,231043",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/beauty-4272892",
+              "navigationEntries": []
+            },
+            {
+              "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+              "index": 21,
+              "label": "Socks & Tights",
+              "categoryId": 256486,
+              "categoryFilter": "208491,277012,256486",
+              "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-this-week-493/socks-tights-3283638",
+              "navigationEntries": []
+            }
+          ]
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 2,
+          "label": "New In Shoes",
+          "categoryId": 1780842,
+          "categoryFilter": "208491,1780842",
+          "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-shoes-3105666",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 3,
+          "label": "New In Bags & Accessories",
+          "categoryId": 1780853,
+          "categoryFilter": "208491,1780853",
+          "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-bags-accessories-3105675",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 4,
+          "label": "New In Brands",
+          "categoryId": 2290040,
+          "categoryFilter": "208491,2290040",
+          "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-brands-4293441",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 5,
+          "label": "Trending Now",
+          "categoryId": 1742164,
+          "categoryFilter": "208491,1742164",
+          "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/trending-now-2965577",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 6,
+          "label": "My Topshop Wardrobe",
+          "categoryId": 2532995,
+          "categoryFilter": "208491,2532995",
+          "seoUrl": "/en/tsuk/category/new-in-this-week-2169932/my-topshop-wardrobe-4674321",
+          "navigationEntries": []
+        }
+      ]
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 4,
+      "label": "Clothing",
+      "categoryId": 203984,
+      "categoryFilter": "203984",
+      "seoUrl": "/en/tsuk/category/clothing-427",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 1,
+          "label": "Coats",
+          "categoryId": 2542865,
+          "categoryFilter": "203984,2542865",
+          "seoUrl": "/en/tsuk/category/clothing-427/coats-4680353",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 2,
+          "label": "Jackets",
+          "categoryId": 2542815,
+          "categoryFilter": "203984,2542815",
+          "seoUrl": "/en/tsuk/category/clothing-427/jackets-4680203",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 3,
+          "label": "Dresses",
+          "categoryId": 208523,
+          "categoryFilter": "203984,208523",
+          "seoUrl": "/en/tsuk/category/clothing-427/dresses-442",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 4,
+          "label": "Tops",
+          "categoryId": 208524,
+          "categoryFilter": "203984,208524",
+          "seoUrl": "/en/tsuk/category/clothing-427/tops-443",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 5,
+          "label": "Knitwear",
+          "categoryId": 208525,
+          "categoryFilter": "203984,208525",
+          "seoUrl": "/en/tsuk/category/clothing-427/knitwear-444",
+          "navigationEntries": []
+        }
+      ]
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 5,
+      "label": "Shoes",
+      "categoryId": 208492,
+      "categoryFilter": "208492",
+      "seoUrl": "/en/tsuk/category/shoes-430",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 1,
+          "label": "Heels",
+          "categoryId": 208542,
+          "categoryFilter": "208492,208542",
+          "seoUrl": "/en/tsuk/category/shoes-430/heels-458",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 2,
+          "label": "Flats",
+          "categoryId": 208543,
+          "categoryFilter": "208492,208543",
+          "seoUrl": "/en/tsuk/category/shoes-430/flats-459",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 3,
+          "label": "Boots",
+          "categoryId": 208544,
+          "categoryFilter": "208492,208544",
+          "seoUrl": "/en/tsuk/category/shoes-430/boots-460",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 4,
+          "label": "Sandals",
+          "categoryId": 1782611,
+          "categoryFilter": "208492,1782611",
+          "seoUrl": "/en/tsuk/category/shoes-430/sandals-3106625",
+          "navigationEntries": []
+        }
+      ]
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 6,
+      "label": "Bags & Accessories",
+      "categoryId": 204484,
+      "categoryFilter": "204484",
+      "seoUrl": "/en/tsuk/category/bags-accessories-1702216",
+      "navigationEntries": []
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 7,
+      "label": "Beauty",
+      "categoryId": 208495,
+      "categoryFilter": "208495",
+      "seoUrl": "/en/tsuk/category/beauty-3326659",
+      "navigationEntries": []
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 8,
+      "label": "Brands",
+      "categoryId": 2244743,
+      "categoryFilter": "2244743",
+      "seoUrl": "/en/tsuk/category/brands-4210405",
+      "navigationEntries": []
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 9,
+      "label": "Gifts",
+      "categoryId": 223056,
+      "categoryFilter": "223056",
+      "seoUrl": "/en/tsuk/category/gifts-481",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 1,
+          "label": "Gift Guide",
+          "categoryId": 1487499,
+          "categoryFilter": "223056,1487499",
+          "seoUrl": "/en/tsuk/category/gifts-481/gift-guide-2472613",
+          "redirectionUrl": "/en/tsuk/category/dear-topshop-2436424/home?cat2=1444031",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 2,
+          "label": "Gift Wrap",
+          "categoryId": 1500103,
+          "categoryFilter": "223056,1500103",
+          "seoUrl": "/en/tsuk/category/gifts-481/gift-wrap-2502379",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+          "index": 3,
+          "label": "Gift Card",
+          "categoryId": 1503995,
+          "categoryFilter": "223056,1503995",
+          "seoUrl": "/en/tsuk/category/gifts-481/gift-card-2511953",
+          "navigationEntries": []
+        }
+      ]
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 10,
+      "label": "Sale & Offers",
+      "categoryId": 217217,
+      "categoryFilter": "217217",
+      "seoUrl": "/en/tsuk/category/sale-offers-4181277",
+      "navigationEntries": []
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_CATEGORY",
+      "index": 11,
+      "label": "Magazine",
+      "categoryId": 2091635,
+      "categoryFilter": "2091635",
+      "seoUrl": "/en/tsuk/category/magazine-3933384",
+      "navigationEntries": []
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+      "index": 12,
+      "label": "Your Details",
+      "categoryId": 2691003,
+      "categoryFilter": "2691003",
+      "seoUrl": "/en/tsuk/category/your-details-4912587",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 1,
+          "label": "Sign in or Register",
+          "categoryId": 2690023,
+          "categoryFilter": "2691003,2690023",
+          "seoUrl": "/en/tsuk/category/your-details-4912587/sign-in-or-register-4912452",
+          "redirectionUrl": "/login",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 2,
+          "label": "Change your Shipping Destination",
+          "categoryId": 2690123,
+          "categoryFilter": "2691003,2690123",
+          "seoUrl": "/en/tsuk/category/your-details-4912587/change-your-shipping-destination-4912550",
+          "redirectionUrl": "/change_shipping_destination",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 3,
+          "label": "My Account",
+          "categoryId": 2690031,
+          "categoryFilter": "2691003,2690031",
+          "seoUrl": "/en/tsuk/category/your-details-4912587/my-account-4912460",
+          "redirectionUrl": "/my_account",
+          "navigationEntries": []
+        }
+      ]
+    },
+    {
+      "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+      "index": 13,
+      "label": "Help & Information",
+      "categoryId": 2691008,
+      "categoryFilter": "2691008",
+      "seoUrl": "/en/tsuk/category/help-information-4912595",
+      "navigationEntries": [
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 1,
+          "label": "Delivery",
+          "categoryId": 2689993,
+          "categoryFilter": "2691008,2689993",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/delivery-4912420",
+          "redirectionUrl": "/system/templates/selfservice/topshop/#!portal/403700000001009/topic/403700000001078/Delivery?LANGUAGE=en&COUNTRY=uk",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 2,
+          "label": "Returns",
+          "categoryId": 2690006,
+          "categoryFilter": "2691008,2690006",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/returns-4912428",
+          "redirectionUrl": "/system/templates/selfservice/topshop/#!portal/403700000001009/topic/403700000001087/Returns-Online",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 3,
+          "label": "Size Guide and Washcare",
+          "categoryId": 2690041,
+          "categoryFilter": "2691008,2690041",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/size-guide-and-washcare-4912476",
+          "redirectionUrl": "/size_guide",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 4,
+          "label": "Help",
+          "categoryId": 2690048,
+          "categoryFilter": "2691008,2690048",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/help-4912477",
+          "redirectionUrl": "/system/templates/selfservice/topshop/#!portal/403700000001009?LANGUAGE=en&COUNTRY=us",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 5,
+          "label": "T&Cs",
+          "categoryId": 2690055,
+          "categoryFilter": "2691008,2690055",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/tcs-4912485",
+          "redirectionUrl": "/en/tsuk/category/terms-conditions-19/home?cat2=259987",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 6,
+          "label": "Contact us",
+          "categoryId": 2691495,
+          "categoryFilter": "2691008,2691495",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/contact-us-4912658",
+          "redirectionUrl": "/contact_us",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 7,
+          "label": "Follow Us:",
+          "categoryId": 2690063,
+          "categoryFilter": "2691008,2690063",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/follow-us-4912493",
+          "redirectionUrl": "/cms/page/name/navSocial",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 8,
+          "label": "Join in the Conversation",
+          "categoryId": 2690098,
+          "categoryFilter": "2691008,2690098",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/join-in-the-conversation-4912549",
+          "redirectionUrl": "/socialSlider",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 9,
+          "label": "E-Receipts",
+          "categoryId": 2690014,
+          "categoryFilter": "2691008,2690014",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/e-receipts-4912436",
+          "redirectionUrl": "/en/tsuk/category/e-receipts-5092460/home",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 10,
+          "label": "Students",
+          "categoryId": 2690109,
+          "categoryFilter": "2691008,2690109",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/students-4912533",
+          "redirectionUrl": "/students",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 11,
+          "label": "Gift Cards",
+          "categoryId": 2690083,
+          "categoryFilter": "2691008,2690083",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/gift-cards-4912509",
+          "redirectionUrl": "/en/tsuk/category/topshop-gift-card-247/home?cat2=695497",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 12,
+          "label": "Personal Shopping",
+          "categoryId": 2690089,
+          "categoryFilter": "2691008,2690089",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/personal-shopping-4912517",
+          "redirectionUrl": "/en/tsuk/category/personal-shopping-home-3/home?cat2=243986&intcmpid=W_FOOTER_MAIN_WK1_HP_UK_PERSONAL_SHOPPING",
+          "navigationEntries": []
+        },
+        {
+          "navigationEntryType": "NAV_ENTRY_TYPE_LABEL",
+          "index": 13,
+          "label": "Careers & Opportunities",
+          "categoryId": 2690114,
+          "categoryFilter": "2691008,2690114",
+          "seoUrl": "/en/tsuk/category/help-information-4912595/careers-opportunities-4912541",
+          "redirectionUrl": "/",
+          "navigationEntries": []
+        }
+      ]
+    }
+  ],
+  "updateTimestamp": 1462661401069,
+  "version": "1.5"
+}

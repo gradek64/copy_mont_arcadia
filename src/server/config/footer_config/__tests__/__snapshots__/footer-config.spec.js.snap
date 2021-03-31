@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer-config should have footer config relevant to "br" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "br" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "de" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "my" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "sg" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "th" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "dp" brand and "us" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ev" brand and "de" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ev" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ev" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ev" brand and "us" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ms" brand and "de" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ms" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ms" brand and "fr" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ms" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ms" brand and "us" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "de" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "fr" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "my" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "sg" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "th" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "tm" brand and "us" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "de" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "fr" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "my" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "sg" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "th" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "ts" brand and "us" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "wl" brand and "de" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "wl" brand and "eu" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "wl" brand and "uk" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;
+
+exports[`footer-config should have footer config relevant to "wl" brand and "us" region 1`] = `
+Object {
+  "bottomContent": Object {},
+  "newsletter": Object {},
+  "socialLinks": Object {},
+}
+`;

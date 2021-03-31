@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User locator actions completeRecentStores 1`] = `[Function]`;
+
+exports[`User locator actions fillRecentStores 1`] = `
+Object {
+  "recentStores": Array [
+    "Topshop, Oxford Street",
+  ],
+  "type": "FILL_RECENT_STORES",
+}
+`;
+
+exports[`User locator actions resetRecentStores 1`] = `
+Object {
+  "type": "RESET_RECENT_STORES",
+}
+`;
+
+exports[`User locator actions searchStores 1`] = `[Function]`;

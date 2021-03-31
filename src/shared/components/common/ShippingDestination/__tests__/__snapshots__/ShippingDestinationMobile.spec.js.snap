@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingDestinationMobile /> @renders should display "Europe" when shippingDestination is equal to "default" 1`] = `
+<div>
+  
+  <span
+    className="ShippingDestinationMobile-countryName"
+  >
+    Europe
+  </span>
+</div>
+`;
+
+exports[`<ShippingDestinationMobile /> @renders should display country name only when only 1 language available 1`] = `
+<div>
+  
+  <span
+    className="ShippingDestinationMobile-countryName"
+  >
+    United Kingdom
+  </span>
+</div>
+`;
+
+exports[`<ShippingDestinationMobile /> @renders should display language code and country name when more than 1 language 1`] = `
+<div>
+  (EN) 
+  <span
+    className="ShippingDestinationMobile-countryName"
+  >
+    France
+  </span>
+</div>
+`;
+
+exports[`<ShippingDestinationMobile /> @renders should render in default state 1`] = `
+<Link
+  className="ShippingDestinationMobile"
+  onClick={[Function]}
+  onlyActiveOnIndex={false}
+  style={Object {}}
+  to="/change-your-shipping-destination"
+>
+  <TopSectionItemLayout
+    expanded={false}
+    leftIcon={
+      <ShippingDestinationFlag
+        shippingDestination="France"
+      />
+    }
+    text={
+      <div>
+        (EN) 
+        <span
+          className="ShippingDestinationMobile-countryName"
+        >
+          France
+        </span>
+      </div>
+    }
+  />
+</Link>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInMessage /> @renders in default state 1`] = `
+<div
+  className="SignInMessage"
+>
+  <p
+    className="SignInMessage-header"
+  >
+    You’ve been inactive for a while
+  </p>
+  <p
+    className="SignInMessage-body"
+  >
+    Sign in again to pick up where you left off
+  </p>
+</div>
+`;
+
+exports[`<SignInMessage /> @renders should add a class to center align text 1`] = `
+<div
+  className="SignInMessage SignInMessage--center"
+>
+  <p
+    className="SignInMessage-header"
+  >
+    You’ve been inactive for a while
+  </p>
+  <p
+    className="SignInMessage-body"
+  >
+    Sign in again to pick up where you left off
+  </p>
+</div>
+`;

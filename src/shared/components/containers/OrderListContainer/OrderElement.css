@@ -1,0 +1,105 @@
+/** @define OrderElement **/
+
+.OrderElement {
+  border-bottom: 1px solid $myaccount-border-color;
+
+  &-link {
+     text-decoration: none;
+     padding: 10px calc(2 * $myaccount-arrow-width + 6px) 24px $page-padding;
+     display: block;
+     align-items: center;
+     position: relative;
+  }
+
+  &-link::after {
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: $page-padding;
+    height: $myaccount-arrow-height;
+    width: $myaccount-arrow-width;
+    margin-top: calc(-0.5 * $myaccount-arrow-height);
+    background: url("public/$brand/images/nav-arrow.svg") no-repeat center;
+    background-size: contain;
+    content: '';
+  }
+
+  &-orderNumber {
+    font-weight: $myaccount-item-order-number-font-weight;
+  }
+  
+  &-orderStatus {
+    font-weight: $myaccount-item-order-number-font-weight;
+    color: $myaccount-item-font-color;
+  }
+
+  &-listItem {
+    margin: 14px 0 0 0;
+  }
+
+  &-listItem:first-of-type {
+    display: inline-block;
+   }
+
+  &-listTitle {
+   display: inline-block;
+   margin: 14px 4px 0 0;
+  }
+}
+
+@media $min-tablet {
+  .OrderElement {
+    border: 1px solid $myaccount-border-color;
+    border-width: 0 1px 1px 1px;
+
+    &:first-of-type {
+      border-width: 1px;
+    }
+
+    &-list {
+      display: flex;
+    }
+
+    &-listItem {
+      padding: 0 15px 0 0;
+      width: 11%;
+      box-sizing: border-box;
+     }
+
+    &-listItem:nth-of-type(0n+2) {
+       width: 20%;
+     }
+
+    &-listItem:last-of-type {
+      width: 56%;
+      padding: 0;
+      text-align: right;
+     }
+
+    &-listTitle:first-of-type {
+      position: absolute;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      left: -1000px;
+     }
+  }
+}
+
+@media $min-laptop {
+  .OrderElement {
+    &-listItem {
+       padding: 0 20px 0 0;
+     }
+
+    &-listItem:nth-of-type(0n+2) {
+       width: 15%;
+     }
+
+    &-listItem:last-of-type {
+       width: 61%;
+       padding: 0;
+       text-align: right;
+     }
+  }
+}

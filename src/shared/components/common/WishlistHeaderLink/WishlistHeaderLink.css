@@ -1,0 +1,53 @@
+/** @define WishlistHeaderLink */
+.WishlistHeaderLink {
+  color: $font-color-base;
+  display: block;
+  margin: $wishlist-header-icon-margin-tablet;
+  text-decoration: none;
+
+  &-label {
+    display: none;
+    font-size: $wishlist-header-icon-label-font-size-tablet;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+  }
+
+  &-icon {
+    background-image: $wishlist-header-icon;
+    background-position: $wishlist-icon-background-position;
+    background-repeat: no-repeat;
+    background-size: $wishlist-header-icon-background-size;
+    display: inline-block;
+    height: $wishlist-header-icon-height-tablet;
+    width: $wishlist-header-icon-width-tablet;
+    text-align: center;
+    vertical-align: middle;
+
+    &.is-selected {
+      background-image: $wishlist-header-icon-selected;
+    }
+  }
+}
+
+@media $min-laptop {
+  .WishlistHeaderLink {
+    &-label {
+      display: inline;
+    }
+  }
+}
+
+@media $desktop {
+  .WishlistHeaderLink {
+    margin: $wishlist-header-icon-margin;
+    
+    &-label {
+      font-size: $wishlist-header-icon-label-font-size;
+    }
+
+    &-icon {
+      height: $wishlist-header-icon-height;
+      width: $wishlist-header-icon-width;
+    }
+  }
+}

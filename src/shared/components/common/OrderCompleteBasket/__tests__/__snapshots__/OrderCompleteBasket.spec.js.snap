@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderCompleteBasket /> @render Desktop should match desktop 1`] = `
+<div
+  className="OrderCompleteBasket"
+>
+  <div
+    className="OrderCompleteBasket-myBag sessioncamhidetext"
+  >
+    <Connect(WithRestrictedActionDispatch(Connect(CheckoutBagSide)))
+      canModify={false}
+      showDiscounts={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteBasket /> @render Mobile \`deliveryCost\` prop is undefined \`deliveryPrice\` should be passed down instead 1`] = `
+<div
+  className="OrderCompleteBasket"
+>
+  <div>
+    <div
+      className="OrderCompleteBasket-subheader"
+    >
+      <h3
+        className="OrderCompleteBasket-subheaderTitle"
+      >
+        Your order
+      </h3>
+    </div>
+    <Connect(OrderProducts)
+      canModify={false}
+      hasDiscountText={true}
+    />
+    <SimpleTotals
+      className="OrderCompleteBasket-totals"
+      discounts={Array []}
+      isDDPStandaloneOrder={false}
+      priceInfo={
+        Object {
+          "subTotal": "18.01",
+        }
+      }
+      shippingInfo={
+        Object {
+          "cost": "3.00",
+          "label": "Standard UK Delivery",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteBasket /> @render Mobile We have a \`deliveryCost\` prop should match mobile 1`] = `
+<div
+  className="OrderCompleteBasket"
+>
+  <div>
+    <div
+      className="OrderCompleteBasket-subheader"
+    >
+      <h3
+        className="OrderCompleteBasket-subheaderTitle"
+      >
+        Your order
+      </h3>
+    </div>
+    <Connect(OrderProducts)
+      canModify={false}
+      hasDiscountText={true}
+    />
+    <SimpleTotals
+      className="OrderCompleteBasket-totals"
+      discounts={Array []}
+      isDDPStandaloneOrder={false}
+      priceInfo={
+        Object {
+          "subTotal": "18.00",
+        }
+      }
+      shippingInfo={
+        Object {
+          "cost": "2.99",
+          "label": "Standard UK Delivery",
+        }
+      }
+    />
+  </div>
+</div>
+`;

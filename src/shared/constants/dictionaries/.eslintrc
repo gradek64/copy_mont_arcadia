@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "comma-dangle": [
+      2,
+      "always-multiline"
+    ],
+    "quote-props": 0,
+    "quotes": 0,
+    "max-len": 0
+  }
+}

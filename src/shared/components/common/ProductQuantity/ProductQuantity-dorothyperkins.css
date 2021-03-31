@@ -1,0 +1,19 @@
+/** @define ProductQuantity; weak */
+
+.ProductQuantity {
+  & .Select--inlineLabel .Select-label {
+    text-transform: uppercase;
+  }
+}
+
+@media $min-tablet {
+  .ProductQuantity {
+    &-selectContainer {
+      width: 85px;
+      max-width: 85px;
+    }
+    & .Select.is-disabled .Select-select {
+      background: #fff;
+    }
+  }
+}

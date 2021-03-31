@@ -1,0 +1,1350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderCompleteDelivery /> @render Collect from order Desktop \`postcode\` and \`address4\` mismatch should not display opening times 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+          <p
+            className="OrderCompleteDelivery-collectWithin"
+          >
+            We'll email you when it's ready to collect.
+             (
+            Please collect within 10 days
+            )
+          </p>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/hermes-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Arcadia Group Ltd"
+            >
+              <PrivacyGuard>
+                <span>
+                  Arcadia Group Ltd
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Colegrave House, 70 Berners Street"
+            >
+              <PrivacyGuard>
+                <span>
+                  Colegrave House, 70 Berners Street
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="LONDON"
+            >
+              <PrivacyGuard>
+                <span>
+                  LONDON
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W1T 3NL"
+            >
+              <PrivacyGuard>
+                <span>
+                  W1T 3NL
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render Collect from order Desktop The store does not have opening hours should not show opening times 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+          <p
+            className="OrderCompleteDelivery-collectWithin"
+          >
+            We'll email you when it's ready to collect.
+             (
+            Please collect within 10 days
+            )
+          </p>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/hermes-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="HERMES - Grove Park Wine"
+            >
+              <PrivacyGuard>
+                <span>
+                  HERMES - Grove Park Wine
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="30 Fauconberg Road"
+            >
+              <PrivacyGuard>
+                <span>
+                  30 Fauconberg Road
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Chiswick"
+            >
+              <PrivacyGuard>
+                <span>
+                  Chiswick
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W4 3JY"
+            >
+              <PrivacyGuard>
+                <span>
+                  W4 3JY
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              className="OrderCompleteDelivery-storeContainer"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render Collect from order Desktop The store has opening times should show opening times 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+          <p
+            className="OrderCompleteDelivery-collectWithin"
+          >
+            We'll email you when it's ready to collect.
+             (
+            Please collect within 10 days
+            )
+          </p>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/hermes-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="HERMES - Grove Park Wine"
+            >
+              <PrivacyGuard>
+                <span>
+                  HERMES - Grove Park Wine
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="30 Fauconberg Road"
+            >
+              <PrivacyGuard>
+                <span>
+                  30 Fauconberg Road
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Chiswick"
+            >
+              <PrivacyGuard>
+                <span>
+                  Chiswick
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W4 3JY"
+            >
+              <PrivacyGuard>
+                <span>
+                  W4 3JY
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              className="OrderCompleteDelivery-storeContainer"
+            >
+              <div
+                className="OrderCompleteDelivery--store"
+              >
+                <div
+                  className="OrderCompleteDelivery-openingHoursTitle"
+                >
+                  Store opening times
+                </div>
+                <span>
+                  <div
+                    className="OrderCompleteDelivery-openingHoursRow"
+                  >
+                    <span>
+                      Monday to Friday: 07:00-23:00
+                    </span>
+                  </div>
+                </span>
+                <span>
+                  <div
+                    className="OrderCompleteDelivery-openingHoursRow"
+                  >
+                    <span>
+                      Saturday: 07:00-23:00
+                    </span>
+                  </div>
+                </span>
+                <span>
+                  <div
+                    className="OrderCompleteDelivery-openingHoursRow"
+                  >
+                    <span>
+                      Sunday: 07:00-22:00
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render Collect from order Desktop There is no estimate delivery should not display delivery estimation 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/lorry-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Arcadia Group Ltd"
+            >
+              <PrivacyGuard>
+                <span>
+                  Arcadia Group Ltd
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Colegrave House, 70 Berners Street"
+            >
+              <PrivacyGuard>
+                <span>
+                  Colegrave House, 70 Berners Street
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="LONDON"
+            >
+              <PrivacyGuard>
+                <span>
+                  LONDON
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W1T 3NL"
+            >
+              <PrivacyGuard>
+                <span>
+                  W1T 3NL
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render Collect from order Non desktop should show opening times 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+          <p
+            className="OrderCompleteDelivery-collectWithin"
+          >
+            We'll email you when it's ready to collect.
+             (
+            Please collect within 10 days
+            )
+          </p>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/hermes-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="HERMES - Grove Park Wine"
+            >
+              <PrivacyGuard>
+                <span>
+                  HERMES - Grove Park Wine
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="30 Fauconberg Road"
+            >
+              <PrivacyGuard>
+                <span>
+                  30 Fauconberg Road
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Chiswick"
+            >
+              <PrivacyGuard>
+                <span>
+                  Chiswick
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W4 3JY"
+            >
+              <PrivacyGuard>
+                <span>
+                  W4 3JY
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              className="OrderCompleteDelivery-storeContainer"
+            >
+              <div
+                className="OrderCompleteDelivery--store"
+              >
+                <div
+                  className="OrderCompleteDelivery-openingHoursTitle"
+                >
+                  Opening hours
+                </div>
+                <span>
+                  <div
+                    className="OrderCompleteDelivery-openingHoursRow"
+                  >
+                    <span>
+                      Monday to Friday: 07:00-23:00
+                    </span>
+                  </div>
+                </span>
+                <span>
+                  <div
+                    className="OrderCompleteDelivery-openingHoursRow"
+                  >
+                    <span>
+                      Saturday: 07:00-23:00
+                    </span>
+                  </div>
+                </span>
+                <span>
+                  <div
+                    className="OrderCompleteDelivery-openingHoursRow"
+                  >
+                    <span>
+                      Sunday: 07:00-22:00
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render DDP order should show DDP subscription section 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+        <div>
+          <span
+            className="OrderCompleteDelivery-ddpSubscription"
+          >
+            You can manage your Topshop Premier subscription in
+             
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/my-account"
+            >
+              My Account.
+            </Link>
+          </span>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/lorry-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Arcadia Group Ltd"
+            >
+              <PrivacyGuard>
+                <span>
+                  Arcadia Group Ltd
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Colegrave House, 70 Berners Street"
+            >
+              <PrivacyGuard>
+                <span>
+                  Colegrave House, 70 Berners Street
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="LONDON"
+            >
+              <PrivacyGuard>
+                <span>
+                  LONDON
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W1T 3NL"
+            >
+              <PrivacyGuard>
+                <span>
+                  W1T 3NL
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render DDP standalone order should match standalone DDP 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render Guest checkout order should show the guest checkout components 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly to
+            </span>
+          </div>
+          <span
+            className="OrderCompleteDelivery-guestUserEmail"
+          >
+            guest.user@arcadia.co.uk
+          </span>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/lorry-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Arcadia Group Ltd"
+            >
+              <PrivacyGuard>
+                <span>
+                  Arcadia Group Ltd
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Colegrave House, 70 Berners Street"
+            >
+              <PrivacyGuard>
+                <span>
+                  Colegrave House, 70 Berners Street
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="LONDON"
+            >
+              <PrivacyGuard>
+                <span>
+                  LONDON
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W1T 3NL"
+            >
+              <PrivacyGuard>
+                <span>
+                  W1T 3NL
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<OrderCompleteDelivery /> @render Regular order should show components for regular order 1`] = `
+<div
+  className="OrderCompleteDelivery"
+>
+  <div
+    className="OrderCompleteDelivery-orderDetailsHeader"
+  >
+    <h1
+      className="OrderCompleteDelivery-orderDetailsHeader--item"
+    >
+      Thank You For Your Order
+    </h1>
+  </div>
+  <div
+    className="OrderCompleteDelivery-orderDetailsContainer"
+  >
+    <div
+      className="OrderCompleteDelivery-orderDetails"
+    >
+      <div
+        className="OrderCompleteDelivery-details"
+      >
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <div>
+            <span
+              className="OrderCompleteDelivery-field"
+            >
+              Order Number
+               
+            </span>
+            <PrivacyGuard>
+              <span
+                className="OrderCompleteDelivery-orderNumber"
+              >
+                3464616
+              </span>
+            </PrivacyGuard>
+          </div>
+          <div>
+            <span
+              className="OrderCompleteDelivery-confirmationMail"
+            >
+              You'll get an order confirmation email shortly.
+            </span>
+          </div>
+        </div>
+        <div
+          className="OrderCompleteDelivery-fields"
+        >
+          <p
+            className="OrderCompleteDelivery-collectFrom"
+          >
+            Your order will be delivered no later than
+          </p>
+          <PrivacyGuard>
+            <p
+              className="OrderCompleteDelivery-estimatedDelivery"
+            >
+              Wednesday 10 June 2020
+            </p>
+          </PrivacyGuard>
+        </div>
+      </div>
+      <div
+        className="OrderCompleteDelivery-addressContainer"
+      >
+        <h3
+          className="OrderCompleteDelivery-addressHeader"
+        >
+          Your order will be delivered to
+        </h3>
+        <div
+          className="OrderCompleteDelivery-address"
+        >
+          <div
+            className="OrderCompleteDelivery-deliveryIconContainer"
+          >
+            <Connect(Image)
+              className="OrderCompleteDelivery-deliveryIcon"
+              src="/assets/topshop/images/lorry-icon.svg?version=19102018"
+            />
+          </div>
+          <div>
+            <div
+              key="Test Test"
+            >
+              <PrivacyGuard>
+                <span>
+                  Test Test
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Arcadia Group Ltd"
+            >
+              <PrivacyGuard>
+                <span>
+                  Arcadia Group Ltd
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="Colegrave House, 70 Berners Street"
+            >
+              <PrivacyGuard>
+                <span>
+                  Colegrave House, 70 Berners Street
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="LONDON"
+            >
+              <PrivacyGuard>
+                <span>
+                  LONDON
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="W1T 3NL"
+            >
+              <PrivacyGuard>
+                <span>
+                  W1T 3NL
+                </span>
+              </PrivacyGuard>
+            </div>
+            <div
+              key="United Kingdom"
+            >
+              <PrivacyGuard>
+                <span>
+                  United Kingdom
+                </span>
+              </PrivacyGuard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UiProgressTracker /> @renders in default state 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "border": "1px dotted grey",
+        "padding": "0 10px",
+      }
+    }
+  >
+    <ProgressTracker
+      steps={
+        Array [
+          Object {
+            "active": false,
+            "title": "Delivery",
+          },
+          Object {
+            "active": false,
+            "title": "Billing",
+          },
+          Object {
+            "active": false,
+            "title": "Confirm",
+          },
+        ]
+      }
+    />
+  </div>
+  <div>
+    <div
+      className="Select is-selected"
+    >
+      <div
+        className="Select-head"
+      >
+        <label
+          className="Select-label"
+          htmlFor="examples"
+        >
+          ProgressTracker example:
+           
+        </label>
+      </div>
+      <div
+        className="Select-container"
+      >
+        <select
+          className="Select-select"
+          name="examples"
+          onChange={[Function]}
+        >
+          <option
+            key="CheckoutV1 3 Steps"
+            value="CheckoutV1 3 Steps"
+          >
+            CheckoutV1 3 Steps
+          </option>
+          <option
+            key="CheckoutV2 3 Steps"
+            value="CheckoutV2 3 Steps"
+          >
+            CheckoutV2 3 Steps
+          </option>
+          <option
+            key="CheckoutV2 4 Steps"
+            value="CheckoutV2 4 Steps"
+          >
+            CheckoutV2 4 Steps
+          </option>
+          <option
+            key="CheckoutV2 D&P 2 Steps"
+            value="CheckoutV2 D&P 2 Steps"
+          >
+            CheckoutV2 D&P 2 Steps
+          </option>
+          <option
+            key="Example 4 Steps"
+            value="Example 4 Steps"
+          >
+            Example 4 Steps
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="Select is-selected"
+    >
+      <div
+        className="Select-head"
+      >
+        <label
+          className="Select-label"
+          htmlFor="indexes"
+        >
+          ProgressTracker active step:
+           
+        </label>
+      </div>
+      <div
+        className="Select-container"
+      >
+        <select
+          className="Select-select"
+          name="indexes"
+          onChange={[Function]}
+          value="none"
+        >
+          <option
+            key="none"
+            value="none"
+          >
+            none
+          </option>
+          <option
+            key="0"
+            value={0}
+          >
+            0
+          </option>
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+`;

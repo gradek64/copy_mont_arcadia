@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingImage/> @renders in default state - rating number 1`] = `
+<div
+  className="RatingImage "
+>
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="1"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="2"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="3"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="4"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="5"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+</div>
+`;
+
+exports[`<RatingImage/> @renders in default state - rating string 1`] = `
+<div
+  className="RatingImage "
+>
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="1"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="2"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="3"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="4"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="4 out of 5 stars"
+    className="RatingImage-star"
+    key="5"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+</div>
+`;
+
+exports[`<RatingImage/> @renders with a > 2 decimal place rating - rating number 1`] = `
+<div
+  className="RatingImage "
+>
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="1"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="2"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="3"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="4"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="5"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+</div>
+`;
+
+exports[`<RatingImage/> @renders with a > 2 decimal place rating - rating string 1`] = `
+<div
+  className="RatingImage "
+>
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="1"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="2"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="3"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="4"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="5"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+</div>
+`;
+
+exports[`<RatingImage/> @renders with a rating with zeros in the decimal places - rating number 1`] = `
+<div
+  className="RatingImage "
+>
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="1"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="2"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="3"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="4"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="5"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+</div>
+`;
+
+exports[`<RatingImage/> @renders with a rating with zeros in the decimal places - rating string 1`] = `
+<div
+  className="RatingImage "
+>
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="1"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="2"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="3"
+    src="/assets/undefined/images/rating-filled.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="4"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+  <Connect(Image)
+    alt="3 out of 5 stars"
+    className="RatingImage-star"
+    key="5"
+    src="/assets/undefined/images/rating-empty.svg"
+  />
+</div>
+`;

@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "message": "View Minibag details.",
+  "items": 1,
+  "total": 34.0,
+  "orderId": 700333025,
+  "productDetails": [
+    {
+      "orderItemId": 7715608,
+      "productId": 21919934,
+      "catentryId": "21919940",
+      "title": "**Suedette Tuxedo Dress by Love",
+      "imageUrl":
+        "http://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/62Z39IGRY_thumb.jpg",
+      "size": "XS",
+      "quantity": 1,
+      "avlQuantity": 4,
+      "price": {
+        "was1Price": 36.0,
+        "was2Price": null,
+        "nowPrice": 34.0
+      },
+      "total": 34.0
+    }
+  ],
+  "espot":
+    "%3C%21--+Start-+JSP+File+Name%3A+eMarketingSpotDisplay.jsp+--%3E%0A%09%09%09%09%09%09%3Cdiv+class%3D%22espot_advertisement+activity_1%22%3E%0A%09%09%09%09%09%09%09%3CB%3E+Buy+products+amounting+greater+than+100+and+get+free+shipping+%3C%2FB%3E%0A%09%09%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%09%09%3C%21--+End+-+JSP+File+Name%3A+eMarketingSpotDisplay.jsp+--%3E"
+}

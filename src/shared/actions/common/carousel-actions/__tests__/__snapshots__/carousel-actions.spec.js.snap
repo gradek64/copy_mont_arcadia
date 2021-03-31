@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Actions carouselPan() should return the correct action 1`] = `
+Object {
+  "key": "miniProductCarousel0",
+  "panX": 123,
+  "panY": 456,
+  "type": "PAN_CAROUSEL",
+}
+`;
+
+exports[`Carousel Actions carouselZoom() should return the correct action 1`] = `
+Object {
+  "key": "miniProductCarousel0",
+  "type": "ZOOM_CAROUSEL",
+  "zoom": 123,
+}
+`;
+
+exports[`Carousel Actions initCarousel() should return the correct action 1`] = `
+Object {
+  "initialIndex": 3,
+  "key": "miniProductCarousel0",
+  "max": 123,
+  "type": "INIT_CAROUSEL",
+}
+`;
+
+exports[`Carousel Actions moveCarouselBack() should return the correct action 1`] = `
+Object {
+  "key": "miniProductCarousel0",
+  "type": "BACK_CAROUSEL",
+}
+`;
+
+exports[`Carousel Actions moveCarouselForward() should return the correct action 1`] = `
+Object {
+  "key": "miniProductCarousel0",
+  "type": "FORWARD_CAROUSEL",
+}
+`;
+
+exports[`Carousel Actions setCarouselIndex() should return the correct action 1`] = `
+Object {
+  "current": "foo",
+  "key": "miniProductCarousel0",
+  "type": "SET_CAROUSEL_INDEX",
+}
+`;
+
+exports[`Carousel Actions setCurrentItemReference() should return the correct action 1`] = `
+Object {
+  "currentItemReference": "fooo",
+  "key": "miniProductCarousel0",
+  "type": "SET_CURRENT_ITEM_REFERENCE",
+}
+`;

@@ -1,0 +1,56 @@
+/** @define StoreDeliveryV2; weak; */
+
+.StoreDeliveryV2 {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  &-storeHeader {
+    position: relative;
+  }
+  &-storeName {
+    margin: 0 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  &-storeAddress {
+    padding: $checkout-content-padding 0;
+  }
+  &-storeAddressLine {
+    margin: 0;
+    font-size: 16px;
+  }
+  &-collectFromTitle {
+    border-bottom: 1px solid $lt-gray;
+    padding-bottom: 15px;
+  }
+  &-selectStoreCTA {
+    width: auto;
+    min-width: 170px;
+    padding: 0 20px;
+    margin-bottom: 0;
+  }
+  &-changeStoreCTA {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #363636;
+    padding-bottom: 4px;
+    height: 23px;
+  }
+  &-storeInfo {
+    padding-bottom: 30px;
+  }
+}
+
+@media $min-laptop {
+  .StoreDeliveryV2 {
+    .DeliveryDetailsForm, 
+    .GuestUserEmailForm-email {
+      width: 60%;
+    }
+  }
+}

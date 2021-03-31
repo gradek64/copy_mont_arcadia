@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> @renders should check the component tree stays the same 1`] = `
+<Form
+  autoComplete="off"
+  className="SearchInput-form "
+  name="SearchInput"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="SearchInput-wrapper"
+  >
+    <input
+      autoComplete="off"
+      className="Input-field SearchInput-search "
+      name="q"
+      onChange={[Function]}
+      placeholder="Search"
+      type="search"
+      value=""
+    />
+    <button
+      aria-label="Search"
+      className="SearchInput-button"
+      onClick={[Function]}
+      type="submit"
+    >
+      <Connect(Image)
+        alt="Search"
+        className="SearchInput-icon"
+        src="/assets/{brandName}/images/search-icon.svg"
+      />
+    </button>
+  </div>
+</Form>
+`;

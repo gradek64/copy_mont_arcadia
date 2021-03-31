@@ -1,0 +1,125 @@
+{
+  "newsletter": {
+    "label": "Fancy 25% off? Sign up to our newsletter",
+    "placeholder": "Enter your email",
+    "button": "",
+    "signUpUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd",
+    "openNewWindow": false
+  },
+  "categories": [
+    {
+      "label": "Help:",
+      "links": [
+        {
+          "label": "Delivery",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Returns",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Terms & Conditions",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "E-Receipts",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Gift card",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "links": [
+        {
+          "label": "Affiliates",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Privacy & Cookies",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Accessibility",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Fashion Footprint",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Careers",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "links": [
+        {
+          "label": "Modern Slavery Act",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "FAQs",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "links": [
+        {
+          "label": "Contact us",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Download our App",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Store locator",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "images": [
+        {
+          "imageUrl": "/assets/missselfridge/images/footer/delivery.png",
+          "imageSize": "small",
+          "alt": "",
+          "linkUrl": "",
+          "openNewWindow": false
+        },
+        {
+          "imageUrl": "/assets/missselfridge/images/footer/student.png",
+          "imageSize": "small",
+          "alt": "google play",
+          "linkUrl": "",
+          "openNewWindow": false
+        }
+      ]
+    }
+  ]
+}

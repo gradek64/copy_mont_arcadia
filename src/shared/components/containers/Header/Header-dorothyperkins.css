@@ -1,0 +1,47 @@
+/** @define HeaderDorothyPerkins; weak */
+
+.HeaderDorothyPerkins {
+  &-content {
+   opacity: 1;
+  }
+  &.is-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    max-width: inherit;
+    align-items: center;
+    background-color: $header-background;
+
+    & .AccountIcon,
+    & .ShippingDestination,
+    & .WishlistHeaderLink,
+    & .ShoppingCart {
+      margin: 0 0 0 10px;
+    }
+    & .HeaderDorothyPerkins-brand,
+    & .HeaderDorothyPerkins-content {
+      display: none;
+    }
+    & .HeaderDorothyPerkins-navigation {
+      background-color: $header-background;
+      padding: 0 12px;
+    }
+    & .HeaderDorothyPerkins-megaNav {
+      margin: 0;
+    }
+  }
+}
+
+@media $min-laptop {
+  .HeaderDorothyPerkins {
+    &.is-sticky {
+      & .AccountIcon,
+      & .ShippingDestination,
+      & .WishlistHeaderLink,
+      & .ShoppingCart {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+}

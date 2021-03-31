@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`product-inventory-utilities getBasketProductsWithInventory(basket) should return product list with mapped SKU and inventoryPositions 1`] = `
+Array [
+  Object {
+    "catEntryId": 21919948,
+    "inventoryPositions": Object {
+      "inventorys": Array [
+        Object {
+          "quantity": 1000,
+        },
+      ],
+    },
+    "name": "**Suedette Tuxedo Dress by Love",
+    "productId": 21919934,
+    "quantity": 1,
+    "size": "L",
+    "sku": "602015000890861",
+  },
+  Object {
+    "catEntryId": 21499230,
+    "inventoryPositions": Object {
+      "inventorys": Array [
+        Object {},
+      ],
+    },
+    "name": "**Krusty Print Backpack by Skinnydip",
+    "productId": 21499229,
+    "quantity": 1,
+    "size": "ONE",
+    "sku": "602015000885582",
+  },
+  Object {
+    "catEntryId": 21919940,
+    "inventoryPositions": Object {
+      "invavls": Array [
+        Object {},
+      ],
+    },
+    "name": "**Suedette Tuxedo Dress by Love",
+    "productId": 21919934,
+    "quantity": 2,
+    "size": "XS",
+    "sku": "602015000890858",
+  },
+]
+`;

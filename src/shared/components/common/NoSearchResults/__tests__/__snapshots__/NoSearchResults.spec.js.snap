@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoSearchResults/> @render has isFiltered 1`] = `
+<div
+  className="NoSearchResults NoSearchResults--isFiltered"
+>
+  <div>
+    <div
+      className="NoSearchResults-messageContainer"
+    >
+      <p
+        className="NoSearchResults-message"
+      >
+        There are no products matching your current search criteria.
+      </p>
+      <p
+        className="NoSearchResults-message"
+      >
+        Try clearing some filters to view more results
+      </p>
+    </div>
+    <Button
+      className="NoSearchResults-continueShoppingButton"
+      clickHandler={[Function]}
+    >
+      Continue shopping
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render has no button when desktop 1`] = `
+<div
+  className="NoSearchResults"
+>
+  <div>
+    <div
+      className="NoSearchResults-messageContainer"
+    >
+      <p
+        className="NoSearchResults-message"
+      >
+        There are no products matching your current search criteria.
+      </p>
+      <p
+        className="NoSearchResults-message"
+      >
+        Try clearing some filters to view more results
+      </p>
+    </div>
+    <Button
+      className="NoSearchResults-continueShoppingButton"
+      clickHandler={[Function]}
+    >
+      Continue shopping
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render in default state 1`] = `
+<div
+  className="NoSearchResults"
+>
+  <div>
+    <div
+      className="NoSearchResults-messageContainer"
+    >
+      <p
+        className="NoSearchResults-message"
+      >
+        There are no products matching your current search criteria.
+      </p>
+      <p
+        className="NoSearchResults-message"
+      >
+        Try clearing some filters to view more results
+      </p>
+    </div>
+    <Button
+      className="NoSearchResults-continueShoppingButton"
+      clickHandler={[Function]}
+    >
+      Continue shopping
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render non mobile with isFiltered 1`] = `
+<div
+  className="NoSearchResults NoSearchResults--isFiltered"
+>
+  <div>
+    <div
+      className="NoSearchResults-messageContainer"
+    >
+      <p
+        className="NoSearchResults-message"
+      >
+        There are no products matching your current search criteria.
+      </p>
+      <p
+        className="NoSearchResults-message"
+      >
+        Try clearing some filters to view more results
+      </p>
+    </div>
+    <Button
+      className="NoSearchResults-continueShoppingButton"
+      clickHandler={[Function]}
+    >
+      Continue shopping
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render when NO_SEARCH_RESULT feature flag is present when dp brand should render sections correctly 1`] = `
+<div
+  className="NoSearchResults"
+>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Sorry your search didn’t match any products."
+    />
+    <h1
+      className="NoSearchResults-title"
+    >
+      Hmm... We couldn't find any results for 'does not exist'
+    </h1>
+    <Connect(SearchInput)
+      placeholder="Search again?"
+    />
+    <Connect(Espot)
+      identifier="NO_SEARCH_RESULT_ESPOT"
+      isResponsive={true}
+    />
+    <Connect(RecommendationsABTestWrapper)
+      headerText="Open to persuasion? Try these..."
+      setPredecessorPage={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render when NO_SEARCH_RESULT feature flag is present when no matching brand should not render paragraph 1`] = `
+<div
+  className="NoSearchResults"
+>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Your search did not return any results"
+    />
+    <h1
+      className="NoSearchResults-title"
+    >
+      YOUR SEARCH DID NOT RETURN ANY RESULTS
+    </h1>
+    <Connect(SearchInput) />
+    <Connect(Espot)
+      identifier="NO_SEARCH_RESULT_ESPOT"
+      isResponsive={true}
+    />
+    <Connect(RecommendationsABTestWrapper)
+      setPredecessorPage={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render when NO_SEARCH_RESULT feature flag is present when ts brand should render sections correctly 1`] = `
+<div
+  className="NoSearchResults"
+>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Your search did not return any results"
+    />
+    <h1
+      className="NoSearchResults-title"
+    >
+      YOUR SEARCH DID NOT RETURN ANY RESULTS
+    </h1>
+    <p
+      className="NoSearchResults-subtitle"
+    >
+      Try using fewer words and make sure all words are spelled correctly.
+    </p>
+    <Connect(SearchInput) />
+    <Connect(Espot)
+      identifier="NO_SEARCH_RESULT_ESPOT"
+      isResponsive={true}
+    />
+    <Connect(RecommendationsABTestWrapper)
+      setPredecessorPage={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<NoSearchResults/> @render when NO_SEARCH_RESULT feature flag is present when wl brand should render sections correctly 1`] = `
+<div
+  className="NoSearchResults"
+>
+  <div>
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      title="Your search did not return any results"
+    />
+    <h1
+      className="NoSearchResults-title"
+    >
+      YOU SEARCHED FOR... "does not exist"
+    </h1>
+    <p
+      className="NoSearchResults-subtitle"
+    >
+      Unfortunately there were no results matching your request
+    </p>
+    <Connect(SearchInput)
+      label="Try using fewer words and make sure all words are spelled correctly."
+    />
+    <Connect(Espot)
+      identifier="NO_SEARCH_RESULT_ESPOT"
+      isResponsive={true}
+    />
+    <Connect(RecommendationsABTestWrapper)
+      setPredecessorPage={[Function]}
+    />
+  </div>
+</div>
+`;

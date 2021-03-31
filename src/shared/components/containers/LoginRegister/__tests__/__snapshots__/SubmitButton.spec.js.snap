@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubmitButton /> @renders in default state 1`] = `
+<Button
+  className="Login-submitButton"
+  isActive={false}
+  isDisabled={true}
+  type="submit"
+>
+  Continue
+</Button>
+`;

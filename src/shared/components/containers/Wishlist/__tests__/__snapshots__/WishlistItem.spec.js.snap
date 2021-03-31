@@ -1,0 +1,638 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connect @render should render Button as active when selectedCatEntryId is set 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/19H30IGRY_3col_M_1.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+      value="24"
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={true}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;
+
+exports[`Connect @render should render correctly 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/19H30IGRY_3col_M_1.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={false}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;
+
+exports[`Connect @render should render the default image when given no asset props 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/19H30IGRY_3col_M_1.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={false}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;
+
+exports[`Connect @render should render the expected image when given asset props 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="http://clark.kent/superman.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={false}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;
+
+exports[`Connect @render should render the expected image when given less preferred asset props 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="http://karen.starr/powergirl.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={false}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;
+
+exports[`Connect @render should render the expected image when given no preferred asset props 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="http://bruce.wayne/batman.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={false}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;
+
+exports[`Connect @render should render validation error message when passed validation error prop 1`] = `
+<li
+  className="WishlistItem WishlistItem--col2"
+>
+  <Link
+    className="WishlistItem-imageLink"
+    onClick={[MockFunction]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/en/tsuk/product/555666"
+  >
+    <Connect(Image)
+      className="WishlistItem-image"
+      src="https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/19H30IGRY_3col_M_1.jpg"
+    />
+  </Link>
+  <button
+    className="WishlistItem-remove"
+    onClick={[Function]}
+  />
+  <div
+    className="WishlistItem-titleAndPriceSection"
+  >
+    <div
+      className="WishlistItem-titleSection"
+    >
+      <Link
+        className="WishlistItem-title"
+        onClick={[MockFunction]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/en/tsuk/product/555666"
+      >
+        <p
+          className="WishlistItem-titleText"
+        />
+      </Link>
+      <div
+        className="WishlistItem-quickViewIcon"
+      >
+        <ProductQuickViewButton
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <HistoricalPrice
+      className="WishlistItem-price"
+      price="1.00000"
+      shouldShowSaving={false}
+      wasPrice="3.00"
+      wasWasPrice="300.00"
+    />
+  </div>
+  <Form
+    className="WishlistItem-form AddToBag"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Select)
+      className="WishlistItem-select"
+      firstDisabled=""
+      isDisabled={false}
+      isRequired={true}
+      name="Size selection"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Size M",
+            "value": "1234",
+          },
+        ]
+      }
+    />
+    <Message
+      className="WishlistItem-sizeValidationError"
+      isCompact={false}
+      message="Please select your size to continue"
+      type="error"
+    />
+    <Button
+      className="WishlistItem-button"
+      clickHandler={[Function]}
+      isActive={false}
+      isDisabled={false}
+    >
+      <span
+        className="translate"
+      >
+        Add to bag
+      </span>
+    </Button>
+  </Form>
+</li>
+`;

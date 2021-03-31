@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "isLoggedIn": true,
+  "userRegistrationFormURL": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangeLogonIDFlag=Y",
+  "changePasswordUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangePasswordFlag=Y&page=MyAccount&ChangeLogonIDFlag=N&editSection=CP",
+  "changeLogonIdUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangeLogonIDFlag=Y",
+  "changeNameOrEmailUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangePasswordFlag=N&ChangeLogonIDFlag=Y&page=MyAccount&editSection=CP",
+  "Account": [
+    {
+      "billingDetails": {
+        "address": {
+          "email": "monty@desktop.com",
+          "address1": "Emirates Stadium",
+          "address2": "Queensland Road",
+          "city": "LONDON",
+          "country": "United Kingdom",
+          "postcode": "N7 7AJ",
+          "state": ""
+        },
+        "addressDetailsId": "1782463",
+        "nameAndPhone": {
+          "lastName": "D",
+          "firstName": "Karthi",
+          "telephone": "1231231231",
+          "title": "Mr"
+        }
+      },
+      "userOrderStatusUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TrackOrderStatus?storeId=12556&catalogId=33057&langId=-1",
+      "userReturnTrackingUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TrackRMAStatus?storeId=12556&catalogId=33057&orderId=&langId=-1",
+      "creditCard": {
+        "cardNumberHash": "3J8Vw1B5YPIr0fgHS8y/p8aDoXgbbq/u",
+        "cardNumberStar": "************0000",
+        "expiryYear": "2018",
+        "expiryMonth": "01",
+        "type": "PYPAL"
+      },
+      "deliveryDetails": {
+        "addressDetailsId": "1782464",
+        "nameAndPhone": {
+          "lastName": "D",
+          "telephone": "1231231231",
+          "title": "Mr",
+          "firstName": "Karthi"
+        },
+        "address": {
+          "state": "",
+          "city": "LONDON",
+          "country": "United Kingdom",
+          "address1": "Emirates Stadium",
+          "address2": "Queensland Road",
+          "zipCode": "N7 7AJ"
+        }
+      }
+    }
+  ],
+  "quickCheckoutUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ProfileFormView?storeId=12556&catalogId=33057&langId=-1",
+  "viewShoppingBagUrl": "https://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/OrderCalculate?langId=-1&amp;storeId=12556&amp;catalogId=33057&amp;updatePrices=1&amp;calculationUsageId=-1&amp;orderId=.&amp;URL=OrderItemDisplay",
+  "subscriptionId": "",
+  "basketItemsCount": "0",
+  "userTrackingId": "1848001",
+  "omnitureEnabled": "Y",
+  "omnitureItems": {
+    "s.pageName": "TS:My Account",
+    "s.channel": "TS:Account",
+    "s.prop3": "TS:My Account",
+    "s.eVar6": "1848001",
+    "s.eVar7": "monty@desktop.com",
+    "s.eVar14": "logged-in",
+    "s.prop4": "logged-in"
+  }
+}

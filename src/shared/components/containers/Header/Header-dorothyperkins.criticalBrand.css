@@ -1,0 +1,144 @@
+/** @define HeaderDorothyPerkins; weak */
+
+.HeaderDorothyPerkins {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $laptop-end-width;
+  position: relative;
+
+  &-brand {
+    margin: 0;
+    order: 2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &-brandLink {
+    display: block;
+    height: 22px;
+    margin: 10px auto;
+    position: relative;
+    width: 280px;
+    z-index: 2;
+  }
+
+  & .BrandLogo-img {
+    width: 100%;
+  }
+
+  &-content {
+    opacity: 0;
+    align-items: center;
+    display: flex;
+    height: 22px;
+    margin: 10px;
+    order: 1;
+    position: relative;
+  }
+
+  &-shipping {
+    flex: 1;
+  }
+
+  &-search,
+  &.is-sticky &-search {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 17%;
+
+    & .SearchBar--big {
+      border-width: 0;
+
+      & .SearchBar-form {
+        height: 22px;
+      }
+
+      & .SearchBar-iconParent,
+      & .SearchBar-iconParent.is-focused {
+        order: 2;
+      }
+
+      & .SearchBar-iconParent,
+      & .SearchBar-button,
+      & .SearchBar-icon {
+        padding: 0;
+        width: 22px;
+      }
+
+      & .SearchBar-queryInput,
+      & .SearchBar-queryInput:focus {
+        color: $dk-gray;
+        flex: 1;
+        min-width: 0;
+        order: 1;
+        padding: 0 5px;
+        text-align: right;
+      }
+    }
+  }
+
+  &-navigation {
+    order: 3;
+    position: relative;
+    display: flex;
+    max-width: $laptop-end-width;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media $min-laptop {
+  .HeaderDorothyPerkins {
+    &-brand {
+      position: relative;
+    }
+
+    &-brandLink {
+      height: 35px;
+      margin: 5px auto;
+      width: 420px;
+    }
+
+    &-search {
+      position: absolute;
+      right: 0;
+      top: 37px;
+      width: 20%;
+
+      & .SearchBar--big {
+        border-width: 1px;
+
+        & .SearchBar-form {
+          height: 33px;
+        }
+
+        & .SearchBar-iconParent,
+        & .SearchBar-button,
+        & .SearchBar-icon {
+          width: 30px;
+        }
+
+        & .SearchBar-icon {
+          padding: 8px;
+        }
+
+        & .SearchBar-queryInput,
+        & .SearchBar-queryInput:focus {
+          padding: 0 10px;
+          text-align: left;
+        }
+      }
+    }
+    & .AccountIcon,
+    & .WishlistHeaderLink,
+    & .ShoppingCart {
+      margin: 0 0 0 20px;
+    }
+  }
+}

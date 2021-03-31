@@ -1,0 +1,25 @@
+/** @define OrderCompleteBasket */
+
+.OrderCompleteBasket {
+  &-subheader {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    border-bottom: $checkout-divider-width solid $checkout-divider-color;
+  }
+  &-subheaderTitle {
+    margin-bottom: 0;
+  }
+  &-totals {
+    border-left: $order-complete-totals-border-left;
+    border-bottom: $order-complete-totals-border-bottom;
+    border-right: $order-complete-totals-border-right;
+  }
+}
+
+@media $min-laptop {
+  .OrderCompleteBasket {
+    &-myBag {
+      min-width: 380px;
+    }
+  }
+}

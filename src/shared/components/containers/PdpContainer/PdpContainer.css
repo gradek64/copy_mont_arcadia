@@ -1,0 +1,7 @@
+/** @define PdpContainer */
+
+.PdpContainer {
+  overflow-x: hidden;
+  max-width: $laptop-end-width;
+  margin: 0 auto;
+}

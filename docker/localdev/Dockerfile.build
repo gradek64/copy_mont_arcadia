@@ -1,0 +1,20 @@
+# Built Node 12
+FROM node:12.14.1-alpine
+
+WORKDIR /monty
+
+RUN apk update --no-cache \
+  && apk add python build-base tzdata git py-pip curl \
+  && apk upgrade --no-cache \
+  && rm -rf /var/cache/apk/*
+
+RUN pip install awscli
+
+RUN cp /usr/share/zoneinfo/Europe/London /etc/localtime \
+  && echo "Europe/London" > /etc/timezone \
+  && echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
+
+RUN cd ~ \
+  && NPM_TOKEN="" npm install -g nodemon
+
+ENTRYPOINT ["/monty/docker/entrypoint.sh"]

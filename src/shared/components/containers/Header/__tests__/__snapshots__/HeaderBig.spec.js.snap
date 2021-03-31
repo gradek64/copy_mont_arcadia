@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderBig /> @renders in default state 1`] = `
+<div
+  className="HeaderBig"
+>
+  <Connect(HeaderTopshop)
+    brandName="topshop"
+    centreCol="HeaderBig-centre"
+    contentWrapper="HeaderBig-content"
+    leftCol="HeaderBig-left"
+    rightCol="HeaderBig-right"
+    shoppingBagTotalItems={3}
+    sticky={false}
+  />
+</div>
+`;
+
+exports[`<HeaderBig /> @renders with featureMegaNav 1`] = `
+<div
+  className="HeaderBig"
+>
+  <Connect(HeaderTopshop)
+    brandName="topshop"
+    centreCol="HeaderBig-centre"
+    contentWrapper="HeaderBig-content"
+    featureMegaNav={true}
+    leftCol="HeaderBig-left"
+    rightCol="HeaderBig-right"
+    shoppingBagTotalItems={3}
+    sticky={false}
+  />
+</div>
+`;
+
+exports[`<HeaderBig /> @renders with sticky headers feature enabled with default props 1`] = `
+<div
+  className="HeaderBig"
+>
+  <Connect(HeaderTopshop)
+    brandName="topshop"
+    centreCol="HeaderBig-centre"
+    contentWrapper="HeaderBig-content"
+    leftCol="HeaderBig-left"
+    rightCol="HeaderBig-right"
+    shoppingBagTotalItems={3}
+    sticky={false}
+  />
+</div>
+`;
+
+exports[`<HeaderBig /> @renders with sticky headers feature enabled with sticky=true 1`] = `
+<div
+  className="HeaderBig"
+>
+  <Connect(HeaderTopshop)
+    brandName="topshop"
+    centreCol="HeaderBig-centre"
+    contentWrapper="HeaderBig-content"
+    leftCol="HeaderBig-left"
+    rightCol="HeaderBig-right"
+    shoppingBagTotalItems={3}
+    sticky={true}
+  />
+</div>
+`;

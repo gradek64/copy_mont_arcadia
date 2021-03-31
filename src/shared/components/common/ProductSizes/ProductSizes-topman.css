@@ -1,0 +1,39 @@
+/** @define ProductSizes */
+
+.ProductSizes {
+  &-item {
+    &.is-outOfStock {
+      &:after { 
+        display: none;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        /* Below is the unencoded version of the below, it must be base64 encoded to support IE
+          <svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 10 10'> 
+            <path d='M 10 0 L 0 10' fill='none' stroke='rgb(120,120,120)' stroke-width='0.05' />
+          </svg>
+        */
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgcHJlc2VydmVBc3BlY3RSYXRpbz0nbm9uZScgdmlld0JveD0nMCAwIDEwIDEwJz4gPHBhdGggZD0nTSAxMCAwIEwgMCAxMCcgZmlsbD0nbm9uZScgc3Ryb2tlPSdyZ2IoMTIwLDEyMCwxMjApJyBzdHJva2Utd2lkdGg9JzAuMDUnIC8+PC9zdmc+);
+        background-repeat: no-repeat;
+        background-position:center center;
+        background-size: 100% 100%, auto;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .ProductSizes {
+    &--sizeGuideBox {
+      width: 100%;
+    }
+    &--pdp &-list {
+      margin-bottom: 5px;
+    }
+  }
+}

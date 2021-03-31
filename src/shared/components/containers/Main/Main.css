@@ -1,0 +1,69 @@
+/** @define Main */
+.Main {
+  &-inner {
+    margin: 0 auto;
+    opacity: 1 !important;
+    transition: opacity 0.15s ease-in-out;
+    transition-timing-function: cubic-bezier(.15,.1,.15,1);
+
+    &--overlay {
+      position: relative;
+      overflow: hidden;
+    }
+  }
+  &-body {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    transform: none;
+
+    &.is-notScrollable {
+      position: fixed;
+    }
+
+    &.is-right, &.is-left {
+      overflow: hidden;
+    }
+
+    &.is-stickyHeader {
+      & .Main-inner {
+        margin-top: $header-big-sticky-margin-top;
+      }
+    }
+  }
+  &-hideWhenModalOpen {
+    display: none;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.Main *:active {
+  outline: none;
+}
+
+@media $min-tablet {
+  .Main {
+    &-body {
+      &.is-left {
+        transform: translateX(-$mini-bag-width-min-tablet);
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .Main {
+    position: relative;
+    &-body {
+      position: relative;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.Main > .MontyVisualIndicator {
+  position: relative;
+  padding: 20px 0 25px;
+  box-sizing: content-box;
+  background-color: $footer-container-bg-color;
+}

@@ -1,0 +1,80 @@
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRDisplayContentHeader {
+  position: static;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRRootElement .BVRROverallRatingContainer .BVRRRatingNormalImage {
+  padding-left: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRRootElement .BVRROverallRatingContainer {
+  margin-left: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRPrimarySummary .BVRRRatingSummaryLinks {
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRRatingSummaryLinkRead {
+  padding-right: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingSummary .BVRRRatingEntry {
+  padding: 5px 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRSortSelectWidget .BVRRDisplayContentSelect {
+  font-size: 16px;
+  width: auto !important;
+  border: 1px solid #DDD;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVSubmissionPopupContainer #BVRRDisplayContentBodyID.BVRRDisplayContentBody {
+  overflow: visible;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRDisplayContentBodyID #BVSubmissionPopupContainer.BVRRReviewDisplayStyle5 {
+  overflow: visible;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingSummaryStyle2 {
+  overflow: visible;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVSubmissionPopupContainer .BVRRReviewDisplayStyle5Footer {
+  padding-top: 0;
+  margin: 30px auto 24px;
+  width: 100%;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVSubmissionPopupContainer .BVDIHeader {
+  margin-left: 0;
+  margin-top: 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVSubmissionPopupContainer .BVDIHeader .BVDI_COLinkPostNoComments span {
+  font-size: 14px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVSubmissionPopupContainer .BVRRReviewDisplayStyle5Text {
+  padding-bottom: 20px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRDisplayContentBodyID .BVRRReviewDisplayStyle5 {
+  padding: 50px 0 30px 0;
+  overflow: hidden;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentHeaderID.BVRRDisplayContentHeader {
+  margin-top: 0;
+}
+
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  #BVRRDisplayContentHeaderID.BVRRDisplayContentHeader {
+    top: 130px !important;
+  }
+}

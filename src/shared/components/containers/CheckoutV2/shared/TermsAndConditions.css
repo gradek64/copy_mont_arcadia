@@ -1,0 +1,7 @@
+/** @define TermsAndConditions; weak */
+
+.TermsAndConditions {
+  padding: $checkout-payment-terms-and-conditions-padding;
+  text-align: $checkout-payment-terms-and-conditions-text-align;
+  font-size: $checkout-payment-terms-and-conditions-font-size;
+}

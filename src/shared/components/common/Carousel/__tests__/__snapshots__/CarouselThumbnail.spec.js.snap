@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselThumbnail /> @renders when desktop and zoomed in 1`] = `
+<div
+  className="Carousel Carousel--thumbnail "
+>
+  <Hammer
+    onSwipe={[Function]}
+  >
+    <div
+      className="Carousel-images"
+    >
+      <ul
+        className="Carousel-list"
+        style={Object {}}
+      >
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_1.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+          />
+        </li>
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_2.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+          />
+        </li>
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_3.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+          />
+        </li>
+      </ul>
+    </div>
+  </Hammer>
+</div>
+`;
+
+exports[`<CarouselThumbnail /> @renders with a default state 1`] = `
+<div
+  className="Carousel Carousel--thumbnail "
+>
+  <Hammer
+    onSwipe={[Function]}
+  >
+    <div
+      className="Carousel-images"
+    >
+      <ul
+        className="Carousel-list"
+        style={Object {}}
+      >
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_1.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+          />
+        </li>
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_2.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+          />
+        </li>
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_3.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+          />
+        </li>
+      </ul>
+    </div>
+  </Hammer>
+</div>
+`;
+
+exports[`<CarouselThumbnail /> @renders with empty assets 1`] = `
+<div
+  className="Carousel Carousel--thumbnail "
+>
+  <Hammer
+    onSwipe={[Function]}
+  >
+    <div
+      className="Carousel-images"
+    >
+      <ul
+        className="Carousel-list"
+        style={Object {}}
+      />
+    </div>
+  </Hammer>
+</div>
+`;
+
+exports[`<CarouselThumbnail /> @renders with mode thumbnail 1`] = `
+<div
+  className="Carousel Carousel--thumbnail "
+>
+  <Hammer
+    onSwipe={[Function]}
+  >
+    <div
+      className="Carousel-images"
+    >
+      <ul
+        className="Carousel-list"
+        style={Object {}}
+      >
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_1.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_1.jpg"
+          />
+        </li>
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_2.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_2.jpg"
+          />
+        </li>
+        <li
+          className="Carousel-item"
+          key="thumb-overlayThumbshttp://topshop.com/assets/demo_image_3.jpg"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <Connect(ResponsiveImage)
+            className="Carousel-image"
+            sizes={null}
+            src="http://topshop.com/assets/demo_image_3.jpg"
+          />
+        </li>
+      </ul>
+    </div>
+  </Hammer>
+</div>
+`;

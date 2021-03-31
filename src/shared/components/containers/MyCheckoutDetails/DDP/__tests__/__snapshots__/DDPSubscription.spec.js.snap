@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DDPSubscription/> @renders in default state 1`] = `
+<div
+  className="DDPSubscription"
+>
+  <h3>
+    DDP Subscription
+  </h3>
+  <div
+    className="DDPSubscription-container"
+  >
+    <span
+      className="DDPSubscription-icon"
+    />
+    <div
+      className="DDPSubscription-renewal"
+    >
+      <span
+        className="DDPSubscription-message"
+      >
+        Your delivery subscription expires on 30 September 2018
+      </span>
+      <a
+        className="DDPSubscription-cancel"
+        href="http://help.topshop.com/system/templates/selfservice/topshop/#!portal/403700000001048/article/Prod-34796/Can-I-cancel-my-Topshop-Unlimited-Delivery-membership"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Cancel
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DDPSubscription/> @renders should not render the cancel anchor tag if the user has no longer an active subscription 1`] = `
+<div
+  className="DDPSubscription"
+>
+  <h3>
+    DDP Subscription
+  </h3>
+  <div
+    className="DDPSubscription-container"
+  >
+    <span
+      className="DDPSubscription-icon"
+    />
+    <div
+      className="DDPSubscription-renewal"
+    >
+      <span
+        className="DDPSubscription-message"
+      >
+        Your subscription has expired
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DDPSubscription/> @renders should render the DDPSubscription component with the Renew button if isDDPRenewable is set to true 1`] = `
+<Button
+  className="DDPSubscription-renewButton Button--secondary"
+  clickHandler={[Function]}
+>
+  RENEW
+</Button>
+`;
+
+exports[`<DDPSubscription/> @renders should render the cancel anchor tag 1`] = `
+<a
+  className="DDPSubscription-cancel"
+  href="http://help.topshop.com/system/templates/selfservice/topshop/#!portal/403700000001048/article/Prod-34796/Can-I-cancel-my-Topshop-Unlimited-Delivery-membership"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  Cancel
+</a>
+`;
+
+exports[`<DDPSubscription/> @renders should render the expired message if isDDPUser is set to false and isDDPRenewable is set to true 1`] = `
+<span
+  className="DDPSubscription-message"
+>
+  Your subscription has expired
+</span>
+`;

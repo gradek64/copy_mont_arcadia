@@ -1,0 +1,288 @@
+export const expressDeliveryOrderSummary = {
+  basket: {
+    orderId: 820851,
+    subTotal: '81.00',
+    total: '87.00',
+    totalBeforeDiscount: '81.00',
+    deliveryOptions: [
+      {
+        deliveryOptionId: 26504,
+        label: 'Standard Delivery £4.00',
+        selected: false,
+      },
+      {
+        deliveryOptionId: 28004,
+        label: 'Express / Nominated Day Delivery from £6.00',
+        selected: true,
+      },
+      {
+        deliveryOptionId: 45020,
+        label: 'Collect From Store Express £3.00',
+        selected: false,
+      },
+      {
+        deliveryOptionId: 45019,
+        label: 'Free Collect From Store Standard £0.00',
+        selected: false,
+      },
+    ],
+    promotions: [],
+    discounts: [],
+    products: [
+      {
+        productId: 25658431,
+        catEntryId: 25658436,
+        orderItemId: 6281725,
+        shipModeId: 26504,
+        lineNumber: '13J04KIVR',
+        size: '4',
+        name: 'Sleeveless Asymmetric Drape Blouse - CREAM',
+        quantity: 1,
+        lowStock: false,
+        inStock: true,
+        wasPrice: '',
+        unitPrice: '32.00',
+        totalPrice: '32.00',
+        assets: [
+          {
+            assetType: 'IMAGE_SMALL',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13J04KIVR_Thumb_F_1.jpg',
+          },
+          {
+            assetType: 'IMAGE_THUMB',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13J04KIVR_Small_F_1.jpg',
+          },
+          {
+            assetType: 'IMAGE_NORMAL',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13J04KIVR_2col_F_1.jpg',
+          },
+          {
+            assetType: 'IMAGE_LARGE',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS13J04KIVR_Zoom_F_1.jpg',
+          },
+        ],
+        items: [],
+        bundleProducts: [],
+        attributes: {},
+        colourSwatches: [],
+        tpmLinks: [],
+        bundleSlots: [],
+        ageVerificationRequired: false,
+        isBundleOrOutfit: false,
+      },
+      {
+        productId: 24406815,
+        catEntryId: 24406823,
+        orderItemId: 6281726,
+        shipModeId: 26504,
+        lineNumber: '17K09JDNV',
+        size: '6',
+        name: 'Satin Bomber Jacket - Navy',
+        quantity: 1,
+        lowStock: false,
+        inStock: true,
+        wasPrice: '',
+        unitPrice: '49.00',
+        totalPrice: '49.00',
+        assets: [
+          {
+            assetType: 'IMAGE_SMALL',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17K09JDNV_Thumb_F_1.jpg',
+          },
+          {
+            assetType: 'IMAGE_THUMB',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17K09JDNV_Small_F_1.jpg',
+          },
+          {
+            assetType: 'IMAGE_NORMAL',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17K09JDNV_2col_F_1.jpg',
+          },
+          {
+            assetType: 'IMAGE_LARGE',
+            index: 1,
+            url:
+              'http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17K09JDNV_Zoom_F_1.jpg',
+          },
+        ],
+        items: [],
+        bundleProducts: [],
+        attributes: {},
+        colourSwatches: [],
+        tpmLinks: [],
+        bundleSlots: [],
+        ageVerificationRequired: false,
+        isBundleOrOutfit: false,
+      },
+    ],
+    savedProducts: [],
+    ageVerificationRequired: false,
+    restrictedDeliveryItem: false,
+  },
+  deliveryLocations: [
+    {
+      deliveryLocationType: 'HOME',
+      label: 'Home delivery',
+      selected: true,
+      deliveryMethods: [
+        {
+          shipModeId: 26504,
+          deliveryType: 'HOME_STANDARD',
+          label: 'Standard Delivery',
+          additionalDescription: '2 - 4 Working days',
+          cost: '4.00',
+          selected: false,
+          deliveryOptions: [],
+        },
+        {
+          shipCode: 'N3',
+          deliveryType: 'HOME_EXPRESS',
+          label: 'Express / Nominated day delivery',
+          additionalDescription: 'Charges vary depending on the day you choose',
+          cost: '6.00',
+          selected: true,
+          deliveryOptions: [
+            {
+              shipModeId: 28004,
+              dayText: 'Wed',
+              dateText: '20 Jul',
+              nominatedDate: '2016-07-20',
+              price: '6.00',
+              selected: true,
+            },
+            {
+              shipModeId: 28005,
+              dayText: 'Thu',
+              dateText: '21 Jul',
+              nominatedDate: '2016-07-21',
+              price: '6.00',
+              selected: false,
+            },
+            {
+              shipModeId: 28006,
+              dayText: 'Fri',
+              dateText: '22 Jul',
+              nominatedDate: '2016-07-22',
+              price: '6.00',
+              selected: false,
+            },
+            {
+              shipModeId: 28007,
+              dayText: 'Sat',
+              dateText: '23 Jul',
+              nominatedDate: '2016-07-23',
+              price: '6.00',
+              selected: false,
+            },
+            {
+              shipModeId: 28002,
+              dayText: 'Mon',
+              dateText: '25 Jul',
+              nominatedDate: '2016-07-25',
+              price: '6.00',
+              selected: false,
+            },
+            {
+              shipModeId: 28003,
+              dayText: 'Tue',
+              dateText: '26 Jul',
+              nominatedDate: '2016-07-26',
+              price: '6.00',
+              selected: false,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      deliveryLocationType: 'STORE',
+      label: 'Collect from store (UK only)',
+      selected: false,
+      deliveryMethods: [],
+    },
+  ],
+  giftCards: [
+    {
+      giftCardNumber: '12345',
+      amountUsed: '10',
+    },
+  ],
+  creditCard: {
+    type: 'PYPAL',
+    cardNumberStar: 'PayPal',
+  },
+  deliveryInstructions: '',
+  smsMobileNumber: '',
+  shippingCountry: 'United Kingdom',
+  deliveryDetails: {
+    addressDetailsId: 663068,
+    nameAndPhone: {
+      title: 'Mr',
+      firstName: 'pinco',
+      lastName: 'palla',
+      telephone: '',
+    },
+    address: {
+      address1: '60 Hockley Avenue',
+      address2: '',
+      city: 'LONDON',
+      state: '',
+      country: 'United Kingdom',
+      postcode: 'E6 3AN',
+    },
+  },
+  savedAddresses: [
+    {
+      id: 663068,
+      selected: true,
+      addressName: '60 Hockley Avenue, LONDON, E6 3AN, Un...',
+    },
+    {
+      id: 662727,
+      selected: false,
+      addressName: '60 Hockley Avenue, LONDON, E6 3AN, Un...',
+    },
+    {
+      id: 662037,
+      selected: false,
+      addressName: '60 Hockley Avenue, LONDON, E6 3AN, Un...',
+    },
+    {
+      id: 660862,
+      selected: false,
+      addressName: '60 Hockley Avenue, LONDON, E6 3AN, Un...',
+    },
+  ],
+  ageVerificationDeliveryConfirmationRequired: false,
+  estimatedDelivery: [],
+  version: '1.6',
+  billingDetails: {
+    nameAndPhone: {
+      title: 'Mr',
+      firstName: 'pinco',
+      lastName: 'palla',
+      telephone: '0123456789',
+    },
+    address: {
+      address1: '60 Hockley Avenue',
+      address2: '',
+      city: 'LONDON',
+      state: '',
+      country: 'United Kingdom',
+      postcode: 'E6 3AN',
+    },
+  },
+}

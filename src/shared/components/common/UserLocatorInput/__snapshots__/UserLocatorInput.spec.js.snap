@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserLocatorInput @renders enabled submit button if submitAlwaysEnabled 1`] = `
+<Button
+  className="UserLocator-goButton"
+  isDisabled={true}
+  title="Go"
+  type="submit"
+>
+  Go
+</Button>
+`;
+
+exports[`<UserLocatorInput @renders has geolocation 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                is-enabled
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                is-enabled
+              "
+      >
+        <button
+          className="
+                    UserLocatorInput-rightIcon
+                    UserLocatorInput-currentLocationButton
+                    
+                    
+                  "
+          onClick={[Function]}
+          title="Get my current location"
+          type="button"
+        >
+          <span
+            className="screen-reader-text"
+          >
+            Get my current location
+          </span>
+        </button>
+      </div>
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders has geolocation errors 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                
+              "
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+  <div
+    className="UserLocator-error"
+  >
+    <p>
+      Random geolocation
+    </p>
+    <span
+      className="screen-reader-text"
+    >
+      Random geolocation
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders has geolocation pending state 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                is-enabled
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                is-enabled
+              "
+      >
+        <button
+          className="
+                    UserLocatorInput-rightIcon
+                    UserLocatorInput-currentLocationButton
+                    is-pending
+                    
+                  "
+          onClick={[Function]}
+          title="Get my current location"
+          type="button"
+        >
+          <Loader
+            className="UserLocatorInput-loader"
+            fillColor="#000"
+            isButton={false}
+            isInInput={true}
+          />
+          <span
+            className="screen-reader-text"
+          >
+            Get my current location
+          </span>
+        </button>
+      </div>
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders has predictions 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer is-predictionsListOpen"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                
+              "
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+    <ul
+      className="UserLocatorInput-predictionsList"
+    >
+      <li
+        className="UserLocatorInput-predictionsListItem UserLocatorInput-active"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Somewhere
+      </li>
+      <li
+        className="UserLocatorInput-predictionsListItem UserLocatorInput-inActive"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Somewhere
+      </li>
+      <li
+        className="UserLocatorInput-predictionsListItem UserLocatorInput-inActive"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Somewhere
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders has selectedPlaceDetails 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                
+              "
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders has userLocatorSearch 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value="searchy mcSearchFace"
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                has-text
+                
+              "
+      >
+        <button
+          className="
+                    UserLocatorInput-rightIcon
+                    UserLocatorInput-clearButton
+                    
+                  "
+          onClick={[Function]}
+          title="Clear"
+          type="button"
+        >
+          <span
+            className="screen-reader-text"
+          >
+            Clear
+          </span>
+        </button>
+      </div>
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders in default state 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                
+              "
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders no userLocatorSearch and pending 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                
+              "
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<UserLocatorInput @renders selectedCountry=defaultCountry should show input field 1`] = `
+<div
+  className="UserLocatorInput"
+>
+  <div
+    className="UserLocatorInput-inputContainer is-visible"
+  >
+    <div
+      className="UserLocatorInput-queryInput"
+    >
+      <label
+        className="screen-reader-text"
+        htmlFor="UserLocatorInput"
+      >
+        Enter town/postcode
+      </label>
+      <input
+        autoComplete="off"
+        className="
+                UserLocatorInput-inputField
+                
+              "
+        id="UserLocatorInput"
+        name="searchTerm"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Enter town/postcode"
+        type="search"
+        value={null}
+      />
+      <div
+        className="
+                UserLocatorInput-suffix
+                
+                
+              "
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton"
+      isDisabled={true}
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+variable "aws_region" {}
+variable "aws_account_id" {}
+variable "es_domain_name" {}
+variable "es_instance_type" {}
+variable "es_version" {}
+variable "es_volume_size" {}
+variable "subnet_ids" {}
+variable "elasticsearch_node_security_group" {}
+variable "log_filter_destination_arn" {}

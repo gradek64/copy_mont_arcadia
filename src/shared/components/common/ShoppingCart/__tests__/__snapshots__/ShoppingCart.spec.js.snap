@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShoppingCart /> @renders should render in default state 1`] = `
+<button
+  className="ShoppingCart is-empty"
+  onClick={[Function]}
+>
+  <span
+    className="ShoppingCart-icon"
+  />
+</button>
+`;

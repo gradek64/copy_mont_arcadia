@@ -1,0 +1,94 @@
+[
+  {
+    "ancestors": [
+      {
+        "contentPath": "/browse",
+        "label": "Clothing",
+        "navigationState": "/en/tsuk/category/clothing-427/flared/_/N-82zZr8rZdgl?Nf=nowPrice%7CBTWN+20.0+50.0&Nrpp=20&siteId=%2F12556",
+        "properties": {
+          "DisplayOrder": "-1",
+          "SourceId": "203984",
+          "catNavigationState": "/en/tsuk/category/flared/_/N-r8rZdgl?Nf=nowPrice%7CBTWN+20.0+50.0&Nrpp=20&siteId=%2F12556",
+          "hiddenCategory": "1",
+          "hierarchical_level": "Level - 1",
+          "refinement_name": "Category",
+          "seoCategoryToken": "clothing-427",
+          "seoCommonToken": "en/tsuk/category",
+          "seo_description": "Get the ultimate fashion fix this season at Topshop. View the latest Spring/Summer women's fashion in dresses, jeans, skirts, tops, jackets and shoes.",
+          "seo_title": "Women's Clothing, Clothes & Fashion @@ Topshop"
+        },
+        "siteRootPath": "/pages"
+      }
+    ],
+    "count": 43,
+    "dimensionName": "TopShop_uk_category",
+    "displayName": "TopShop_uk_category",
+    "label": "Jeans",
+    "multiSelect": false,
+    "properties": {
+      "DisplayOrder": "-1",
+      "SourceId": "208527",
+      "catNavigationState": "/en/tsuk/category/clothing-427/flared/N-82zZr8rZdgl?Nf=nowPrice%7CBTWN+20.0+50.0&Nrpp=20&siteId=%2F12556&categoryId=208527",
+      "catpath_name": "Jeans",
+      "hiddenCategory": "0",
+      "hierarchical_level": "Level - 2",
+      "refinement_name": "Category",
+      "seoCategoryToken": "jeans-446",
+      "seo_description": "Find perfect-fitting jeans at Topshop. From skinny jeans to stylish high-risers, snap up new season denim now. With free delivery when you spend £50.",
+      "seo_title": "Jeans @@ Shop Women's Jeans Online @@ Topshop"
+    },
+    "removeAction": {
+      "contentPath": "/browse",
+      "navigationState": "/en/tsuk/category/flared/N-r8rZdgl?Nf=nowPrice%7CBTWN+20.0+50.0&Nrpp=20&siteId=%2F12556",
+      "siteRootPath": "/pages",
+      "siteState": {
+        "@class": "com.endeca.infront.site.model.SiteState",
+        "contentPath": "/browse/_/N-877Zr8rZdgl",
+        "properties": {},
+        "siteId": "/12556"
+      }
+    }
+  },
+  {
+    "ancestors": [],
+    "count": 43,
+    "dimensionName": "TopShop_uk_ce3_jean_fit",
+    "displayName": "TopShop_uk_ce3_jean_fit",
+    "label": "flared",
+    "multiSelect": true,
+    "properties": {
+      "DisplayOrder": "-1",
+      "SourceId": "ECMC_PROD_CE3_JEAN_FIT_1_flared",
+      "refinement_name": "Jeans Fit"
+    },
+    "removeAction": {
+      "contentPath": "/browse",
+      "navigationState": "/en/tsuk/category/clothing-427/jeans-446/N-877Zdgl?Nf=nowPrice%7CBTWN+20.0+50.0&Nrpp=20&siteId=%2F12556",
+      "siteRootPath": "/pages",
+      "siteState": {
+        "@class": "com.endeca.infront.site.model.SiteState",
+        "contentPath": "/browse/_/N-877Zr8rZdgl",
+        "properties": {},
+        "siteId": "/12556"
+      }
+    }
+  },
+  {
+    "lowerBound": "20.0",
+    "name": "nowPrice",
+    "operation": "BTWN",
+    "propertyName": "nowPrice",
+    "removeAction": {
+      "contentPath": "/browse",
+      "navigationState": "/en/tsuk/category/clothing-427/jeans-446/flared/_/N-877Zr8rZdgl?Nrpp=20&siteId=%2F12556",
+      "siteRootPath": "/pages",
+      "siteState": {
+        "@class": "com.endeca.infront.site.model.SiteState",
+        "contentPath": "/browse/_/N-877Zr8rZdgl",
+        "properties": {},
+        "siteId": "/12556"
+      }
+    },
+    "upperBound": "50.0"
+  }
+]

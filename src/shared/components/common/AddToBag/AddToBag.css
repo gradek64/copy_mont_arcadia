@@ -1,0 +1,82 @@
+/** @define AddToBag; weak */
+
+/* postcss-bem-linter: ignore */
+@keyframes ellipsis {
+  /* postcss-bem-linter: ignore */
+  to {
+    width: $add-to-bag-keyframes-width-ellipsis;
+  }
+}
+/* postcss-bem-linter: ignore */
+@-webkit-keyframes ellipsis {
+  /* postcss-bem-linter: ignore */
+  to {
+    width: $add-to-bag-keyframes-width-ellipsis;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+@define-mixin ellipsisAnimation $timing, $delay, $interationCount: infinite {
+  -webkit-animation: ellipsis $timing $delay $interationCount;
+  animation: ellipsis $timing $delay $interationCount;
+}
+
+.AddToBag {
+  & .Button {
+    text-transform: $add-to-bag-button-text-transform;
+    background-color: $add-to-bag-button-background-color;
+    border-color: $add-to-bag-button-border-color;
+    color: $add-to-bag-button-font-color;
+
+    & .ellipsis {
+        width: $add-to-bag-button-ellipsis-width;
+        text-align: $add-to-bag-button-ellipsis-text-align;
+        display: $add-to-bag-button-ellipsis-display;
+        &::after {
+           overflow: hidden;
+           display: $add-to-bag-button-ellipsis-display-after;
+           @mixin ellipsisAnimation steps(4,end) $add-to-bag-button-ellipsis-animation-delay;
+           content: '...';
+           width: $add-to-bag-button-ellipsis-display-after-width;
+         }
+      }
+    &.is-active {
+      background-color: $add-to-bag-button-is-active-background-color;
+      border-color: $add-to-bag-button-is-active-border-color;
+      color: $add-to-bag-button-is-active-font-color;
+    }
+  }
+}
+
+@media $min-laptop {
+  .AddToBag {
+    & .Button {
+      &:enabled:hover {
+        background: $add-to-bag-button-hover-background-color;
+        border-color: $add-to-bag-button-hover-border-color;
+        color: $add-to-bag-button-hover-font-color;
+      }
+      &.is-active {
+        &:enabled:hover {
+          background: $add-to-bag-button-is-active-hover-background-color;
+          border-color: $add-to-bag-button-is-active-hover-border-color;
+          color: $add-to-bag-button-is-active-hover-font-color;
+        }
+      }
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .AddToBag .Button:enabled:hover {
+  background: $add-to-bag-button-hover-background-color;
+  border-color: $add-to-bag-button-hover-border-color;
+  color: $add-to-bag-button-hover-font-color;
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .AddToBag .Button.is-active:enabled:hover {
+  background: $add-to-bag-button-is-active-hover-background-color;
+  border-color: $add-to-bag-button-is-active-hover-border-color;
+  color: $add-to-bag-button-is-active-hover-font-color;
+}

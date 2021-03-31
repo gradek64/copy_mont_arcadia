@@ -1,0 +1,59 @@
+/** @define GiftCards; weak */
+@lost flexbox flex;
+@lost gutter 10px;
+
+.GiftCards {
+  &-accordion {
+    border-top: 0;
+  }
+
+  &-warning {
+    margin: 18px 0 0 0;
+    border-top:  1px solid #F79E1B;
+    border-bottom:  1px solid #F79E1B;
+    background-color: #FFF9DE;
+    padding: 17px 15px;
+    font-size: 13px;
+
+    &.is-shown {
+      max-height: 330px;
+    }
+
+    .GiftCards-warningInner {
+      margin: 0;
+      display: flex;
+      text-align: left;
+
+      &::before {
+        content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z' fill='%23FFB200'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 15.3333C12.7364 15.3333 13.3334 15.9303 13.3334 16.6667C13.3334 17.403 12.7364 18 12 18C11.2636 18 10.6667 17.403 10.6667 16.6667C10.6667 15.9303 11.2636 15.3333 12 15.3333ZM13.3334 6V14H10.6667V6H13.3334Z' fill='white'/%3E%3C/svg%3E%0A");
+        display: inherit;
+        margin: 0 13px 0 0;
+        align-items: center;
+      }
+    }
+  }
+
+  &-row {
+    lost-flex-container: row;
+    align-items: center;
+
+    & .Input-pin {
+      lost-column: 1/2;
+      margin-top: -2px;
+    }
+    & .Button {
+      lost-column: 1/2;
+      max-height: 21px;
+    }
+  }
+
+  &-newTotalLabel {
+    lost-column: 1/2;
+  }
+
+  &-newTotalValue {
+    lost-column: 1/2;
+    lost-align: right;
+    font-weight: bold;
+  }
+}

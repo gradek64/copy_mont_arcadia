@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WishlistHeaderLink /> @renders displays in default state 1`] = `
+<Link
+  className="WishlistHeaderLink"
+  onClick={[Function]}
+  onlyActiveOnIndex={false}
+  style={Object {}}
+  to="/wishlist"
+>
+  <div
+    className="WishlistHeaderLink-icon"
+  />
+</Link>
+`;

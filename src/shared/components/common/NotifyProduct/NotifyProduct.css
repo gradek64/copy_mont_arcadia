@@ -1,0 +1,7 @@
+/** @define NotifyProduct */
+
+.NotifyProduct {
+  &-button {
+    margin-top: 5px;
+  }
+}

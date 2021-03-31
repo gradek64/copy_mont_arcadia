@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RefinementList/> @renders in default state 1`] = `
+<div
+  className="Refinements is-hidden"
+>
+  <div
+    className="Refinements-content is-hidden"
+  >
+    <div
+      className="Refinements-header"
+    >
+      <h3
+        className="Refinements-title"
+      >
+        Filter
+      </h3>
+      <AccessibleText>
+        This is the filters modal. Select any required filters and press apply to return to a filtered product list.
+      </AccessibleText>
+      <button
+        className="Refinements-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close filters modal
+        </span>
+      </button>
+      <button
+        className="Refinements-clearButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Clear all
+      </button>
+    </div>
+    <Connect(RefinementList)
+      handleCollapseAll={[Function]}
+    />
+    <EnhancedMessage
+      duration={false}
+      isError={false}
+      isFromFilter={true}
+      isVisible={true}
+      message="There are no products matching your current search criteria."
+      onTransitionComplete={[Function]}
+      renderChildrenOn="bottom"
+      showOnce={false}
+    />
+    <div
+      className="Refinements-applyButtonWrapper"
+    >
+      <Button
+        className="Refinements-applyButton"
+        clickHandler={[Function]}
+        isDisabled={true}
+      >
+        Apply
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RefinementList/> @renders renders overlay when loading and featureflag on 1`] = `
+<div
+  className="Refinements is-hidden"
+>
+  <div
+    className="Refinements-content is-hidden"
+  >
+    <div
+      className="Refinements-header"
+    >
+      <h3
+        className="Refinements-title"
+      >
+        Filter
+      </h3>
+      <AccessibleText>
+        This is the filters modal. Select any required filters and press apply to return to a filtered product list.
+      </AccessibleText>
+      <button
+        className="Refinements-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close filters modal
+        </span>
+      </button>
+      <button
+        className="Refinements-clearButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Clear all
+      </button>
+    </div>
+    <Connect(RefinementList)
+      handleCollapseAll={[Function]}
+    />
+    <EnhancedMessage
+      duration={false}
+      isError={false}
+      isFromFilter={true}
+      isVisible={true}
+      message="There are no products matching your current search criteria."
+      onTransitionComplete={[Function]}
+      renderChildrenOn="bottom"
+      showOnce={false}
+    />
+    <div
+      className="Refinements-applyButtonWrapper"
+    >
+      <Button
+        className="Refinements-applyButton"
+        clickHandler={[Function]}
+        isDisabled={true}
+      >
+        Apply
+      </Button>
+    </div>
+    <Connect(LoaderOverlay)
+      className="Refinements-loader"
+    />
+  </div>
+</div>
+`;
+
+exports[`<RefinementList/> @renders with isMobile as false 1`] = `""`;
+
+exports[`<RefinementList/> @renders with isShown 1`] = `
+<div
+  className="Refinements is-shown"
+>
+  <div
+    className="Refinements-content is-shown"
+  >
+    <div
+      className="Refinements-header"
+    >
+      <h3
+        className="Refinements-title"
+      >
+        Filter
+      </h3>
+      <AccessibleText>
+        This is the filters modal. Select any required filters and press apply to return to a filtered product list.
+      </AccessibleText>
+      <button
+        className="Refinements-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close filters modal
+        </span>
+      </button>
+      <button
+        className="Refinements-clearButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Clear all
+      </button>
+    </div>
+    <Connect(RefinementList)
+      handleCollapseAll={[Function]}
+    />
+    <EnhancedMessage
+      duration={false}
+      isError={false}
+      isFromFilter={true}
+      isVisible={true}
+      message="There are no products matching your current search criteria."
+      onTransitionComplete={[Function]}
+      renderChildrenOn="bottom"
+      showOnce={false}
+    />
+    <div
+      className="Refinements-applyButtonWrapper"
+    >
+      <Button
+        className="Refinements-applyButton"
+        clickHandler={[Function]}
+        isDisabled={true}
+      >
+        Apply
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RefinementList/> @renders with location 1`] = `
+<div
+  className="Refinements is-hidden"
+>
+  <div
+    className="Refinements-content is-hidden"
+  >
+    <div
+      className="Refinements-header"
+    >
+      <h3
+        className="Refinements-title"
+      >
+        Filter
+      </h3>
+      <AccessibleText>
+        This is the filters modal. Select any required filters and press apply to return to a filtered product list.
+      </AccessibleText>
+      <button
+        className="Refinements-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close filters modal
+        </span>
+      </button>
+      <button
+        className="Refinements-clearButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Clear all
+      </button>
+    </div>
+    <Connect(RefinementList)
+      handleCollapseAll={[Function]}
+    />
+    <EnhancedMessage
+      duration={false}
+      isError={false}
+      isFromFilter={true}
+      isVisible={true}
+      message="There are no products matching your current search criteria."
+      onTransitionComplete={[Function]}
+      renderChildrenOn="bottom"
+      showOnce={false}
+    />
+    <div
+      className="Refinements-applyButtonWrapper"
+    >
+      <Button
+        className="Refinements-applyButton"
+        clickHandler={[Function]}
+        isDisabled={true}
+      >
+        Apply
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RefinementList/> @renders with refinements 1`] = `
+<div
+  className="Refinements is-hidden"
+>
+  <div
+    className="Refinements-content is-hidden"
+  >
+    <div
+      className="Refinements-header"
+    >
+      <h3
+        className="Refinements-title"
+      >
+        Filter
+      </h3>
+      <AccessibleText>
+        This is the filters modal. Select any required filters and press apply to return to a filtered product list.
+      </AccessibleText>
+      <button
+        className="Refinements-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close filters modal
+        </span>
+      </button>
+      <button
+        className="Refinements-clearButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Clear all
+      </button>
+    </div>
+    <Connect(RefinementList)
+      handleCollapseAll={[Function]}
+    />
+    <EnhancedMessage
+      duration={false}
+      isError={false}
+      isFromFilter={true}
+      isVisible={true}
+      message="There are no products matching your current search criteria."
+      onTransitionComplete={[Function]}
+      renderChildrenOn="bottom"
+      showOnce={false}
+    />
+    <div
+      className="Refinements-applyButtonWrapper"
+    >
+      <Button
+        className="Refinements-applyButton"
+        clickHandler={[Function]}
+        isDisabled={true}
+      >
+        Apply
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<RefinementList/> @renders with refinements and selectedOptions 1`] = `
+<div
+  className="Refinements is-hidden"
+>
+  <div
+    className="Refinements-content is-hidden"
+  >
+    <div
+      className="Refinements-header"
+    >
+      <h3
+        className="Refinements-title"
+      >
+        Filter
+      </h3>
+      <AccessibleText>
+        This is the filters modal. Select any required filters and press apply to return to a filtered product list.
+      </AccessibleText>
+      <button
+        className="Refinements-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close filters modal
+        </span>
+      </button>
+      <button
+        className="Refinements-clearButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Clear all
+      </button>
+    </div>
+    <Connect(RefinementList)
+      handleCollapseAll={[Function]}
+    />
+    <EnhancedMessage
+      duration={false}
+      isError={false}
+      isFromFilter={true}
+      isVisible={true}
+      message="There are no products matching your current search criteria."
+      onTransitionComplete={[Function]}
+      renderChildrenOn="bottom"
+      showOnce={false}
+    />
+    <div
+      className="Refinements-applyButtonWrapper"
+    >
+      <Button
+        className="Refinements-applyButton"
+        clickHandler={[Function]}
+        isDisabled={true}
+      >
+        Apply
+      </Button>
+    </div>
+  </div>
+</div>
+`;

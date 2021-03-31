@@ -1,0 +1,19 @@
+/** @define CheckoutPrimaryTitle */
+
+.CheckoutPrimaryTitle {
+  display: flex;
+  justify-content: space-between;
+  font-family: $font-family-h3;
+  font-size: 16px;
+  line-height: $line-height-h3;
+  padding-bottom:15px;
+  color: #888888;
+  letter-spacing: 0;
+
+  &-augmented {
+    color: #232323;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}

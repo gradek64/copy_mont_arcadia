@@ -1,0 +1,81 @@
+/** @define HeaderWallis; weak */
+
+.HeaderWallis {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-header-responsive;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $laptop-end-width;
+  position: relative;
+
+  &-brand {
+    margin: 0;
+    position: relative;
+  }
+
+  &-brandLink {
+    display: block;
+    margin: 10px auto 0;
+    position: relative;
+    width: 80px;
+    z-index: 2;
+  }
+
+  &-content {
+    opacity: 0;
+    align-items: center;
+    color: $font-color-base;
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    height: 27px;
+    margin: 10px auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &-shipping {
+    align-items: center;
+    display: flex;
+    flex: 1;
+  }
+
+  &-search {
+    min-width: 125px;
+    position: relative;
+    width: 17%;
+  }
+  
+  & .MegaNav {
+    position: relative;
+  }
+}
+
+@media $min-laptop {
+  .HeaderWallis {
+    &-brandLink {
+      width: 120px;
+    }
+
+    &-search {
+      min-width: 125px;
+      width: 13%;
+    }
+    
+    & .ShippingInfo {
+      margin: 0 0 0 20px;
+    }
+  }
+}
+
+@media $desktop {
+  .HeaderWallis {
+    &-search {
+      min-width: 150px;
+      width: 15%;
+    }
+  }
+}

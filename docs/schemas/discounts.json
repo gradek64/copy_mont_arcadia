@@ -1,0 +1,16 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string",
+        "example": "Promotion - £5 off"
+      },
+      "value": {
+        "type": "string",
+        "example": "5.00"
+      }
+    }
+  }
+}

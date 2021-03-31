@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutViewBagMobile /> @renders renders the checkout view bag without error 1`] = `
+<div
+  className="CheckoutViewBagMobile"
+>
+  <div
+    className="CheckoutViewBagMobile--header"
+  >
+    <span
+      className="CheckoutViewBagMobile--orderTotal"
+    >
+      Order Total
+       
+      £128.00
+    </span>
+    <Link
+      className="CheckoutViewBagMobile--viewBag"
+      onClick={[Function]}
+    >
+      <span
+        className="CheckoutViewBagMobile--viewBagCopy"
+      >
+        View bag
+      </span>
+    </Link>
+  </div>
+  <ul
+    className="CheckoutViewBagMobile--productListImages"
+  >
+    <li
+      className="CheckoutViewBagMobile--productListImagesItem"
+      key="product1"
+    >
+      <Link
+        className="CheckoutViewBagMobile--productLink"
+        onClick={[Function]}
+      >
+        <Connect(Image)
+          alt="product1"
+          className="CheckoutViewBagMobile--productImage"
+          src="IMAGE_THUMB_URL"
+        />
+      </Link>
+    </li>
+    <li
+      className="CheckoutViewBagMobile--productListImagesItem"
+      key="product0"
+    >
+      <Link
+        className="CheckoutViewBagMobile--productLink"
+        onClick={[Function]}
+      >
+        <Connect(Image)
+          alt="product0"
+          className="CheckoutViewBagMobile--productImage"
+          src="IMAGE_THUMB_URL"
+        />
+      </Link>
+    </li>
+  </ul>
+</div>
+`;

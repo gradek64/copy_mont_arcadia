@@ -1,0 +1,20 @@
+/** @define DeliveryCutoff; weak */
+.DeliveryCutoff {
+  margin-top: 10px;
+  padding: $delivery-cutoff-message-padding;
+  text-align: center;
+  border: $delivery-cutoff-message-border;
+  background: $delivery-cutoff-message-background-image center 7px/20px no-repeat $delivery-cutoff-message-background-colour;
+
+  &-message {
+    margin: 0;
+    font-weight: $delivery-cutoff-message-font-weight;
+    font-size: $delivery-cutoff-message-font-size;
+    line-height: $delivery-cutoff-message-line-height;
+    color: $delivery-cutoff-message-colour;
+
+    & strong {
+      color: $delivery-cutoff-message-countdown-colour;
+    }
+  }
+}

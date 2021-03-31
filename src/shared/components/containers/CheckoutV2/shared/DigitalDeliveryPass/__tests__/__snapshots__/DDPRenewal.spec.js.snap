@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DDPRenewal /> Mounted renders 1`] = `
+<Connect(DDPRenewal)>
+  <DDPRenewal
+    addToBag={[Function]}
+    ddpActiveLogoSrc="/assets/topshop/images/ddp-icon.svg"
+    ddpAddedLogoSrc="/assets/topshop/images/ddp-added.gif"
+    ddpEndDate="15 May 2020"
+    ddpExpressDeliveryPrice={6}
+    ddpLogoSrc="/assets/topshop/images/ddp-icon.svg"
+    ddpPrice={4}
+    ddpProductName="DDP VIP Subscription"
+    ddpSavingsValue={2.05}
+    getDDPDefaultSku={
+      Object {
+        "catentryId": "32482151",
+        "default": true,
+        "description": "DDP VIP 12 Months",
+        "name": "DDP VIP Subscription",
+        "sku": "100000012",
+        "timePeriod": "12",
+        "unitPrice": 4,
+        "wasPrice": 7,
+        "wasWasPrice": 10,
+      }
+    }
+    getDDPRenewalEspots={[Function]}
+    getDDPTermsAndConditions={[Function]}
+    hasDDPExpired={false}
+    isMyAccount={false}
+    isMyAccountDetail={false}
+    isRenewingDDP={false}
+    showActiveDDP={true}
+    showDDPRenewal={true}
+    showDDPRenewalWithinDefaultExpiringBoundaries={true}
+    showDDPSavings={false}
+    showTAndCModal={[Function]}
+    storeCode="tsuk"
+    withMoreDetailsLink={false}
+    withOuterDDPTitleAndSeparator={false}
+  >
+    <DDPRenewalExpiry
+      DDPIcon={
+        <DDPIcon
+          ddpAdded={false}
+          ddpLogoSrc="/assets/topshop/images/ddp-icon.svg"
+        />
+      }
+      addToBag={[Function]}
+      ddpEndDate="15 May 2020"
+      ddpExpressDeliveryPrice="£6.00"
+      ddpFormattedPrice="£4.00"
+      ddpProductName="DDP VIP Subscription"
+      ddpSavingsValue="£2.05"
+      ddpSku="100000012"
+      getDDPRenewalEspots={[Function]}
+      hasDDPExpired={false}
+      isMyAccount={false}
+      isMyAccountDetail={false}
+      l={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Array [
+                "DDP expiring title ",
+                " ",
+                "",
+              ],
+              "DDP VIP Subscription",
+              "15 May 2020",
+            ],
+            Array [
+              Array [
+                "DDP Extend Msg ",
+                "",
+              ],
+              "15 May 2021",
+            ],
+            Array [
+              Array [
+                "DDP Button Extend ",
+                "",
+              ],
+              "£4.00",
+            ],
+            Array [
+              Array [
+                "DDP Express Saving ",
+                "",
+              ],
+              "£6.00",
+            ],
+            Array [
+              Array [
+                "Terms & Conditions",
+              ],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "DDP expiring title DDP VIP Subscription 15 May 2020",
+            },
+            Object {
+              "type": "return",
+              "value": "DDP Extend Msg 15 May 2021",
+            },
+            Object {
+              "type": "return",
+              "value": "DDP Button Extend £4.00",
+            },
+            Object {
+              "type": "return",
+              "value": "DDP Express Saving £6.00",
+            },
+            Object {
+              "type": "return",
+              "value": "Terms & Conditions",
+            },
+          ],
+        }
+      }
+      openModal={[Function]}
+      showDDPSavings={false}
+      storeCode="tsuk"
+      withMoreDetailsLink={false}
+      withOuterDDPTitleAndSeparator={false}
+    >
+      <div
+        className="DDPRenewal"
+      >
+        <div
+          className="DDPRenewal-container"
+        >
+          <DDPHeaderContent
+            DDPIcon={
+              <DDPIcon
+                ddpAdded={false}
+                ddpLogoSrc="/assets/topshop/images/ddp-icon.svg"
+              />
+            }
+            headerText="DDP expiring title DDP VIP Subscription 15 May 2020"
+            isContentCentered={false}
+          >
+            <div
+              className="DDPRenewal-titleContainer"
+            >
+              <DDPIcon
+                ddpAdded={false}
+                ddpLogoSrc="/assets/topshop/images/ddp-icon.svg"
+              >
+                <Connect(Image)
+                  className="DDPRenewal-image"
+                  src="/assets/topshop/images/ddp-icon.svg"
+                >
+                  <Image
+                    brandCode="ts"
+                    brandName="topshop"
+                    className="DDPRenewal-image"
+                    dispatch={[Function]}
+                    imageRef={[Function]}
+                    lazyLoad={false}
+                    onError={[Function]}
+                    onLoad={[Function]}
+                    src="/assets/topshop/images/ddp-icon.svg"
+                  >
+                    <img
+                      className="DDPRenewal-image"
+                      onError={[Function]}
+                      onLoad={[Function]}
+                      src="/assets/topshop/images/ddp-icon.svg"
+                    />
+                  </Image>
+                </Connect(Image)>
+              </DDPIcon>
+              <h3
+                className="DDPRenewal-title"
+              >
+                DDP expiring title DDP VIP Subscription 15 May 2020
+              </h3>
+            </div>
+          </DDPHeaderContent>
+          <div
+            className="DDPRenewal-bodyContainer"
+          >
+            <div
+              className="DDPRenewal-messageContainer"
+            >
+              <DDPMessage
+                isContentCentered={false}
+                message="DDP Express Saving £6.00"
+              >
+                <span
+                  className="DDPRenewal-message"
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "DDP Express Saving £6.00",
+                      }
+                    }
+                  />
+                </span>
+              </DDPMessage>
+              <DDPMessage
+                isContentCentered={false}
+                message="DDP Extend Msg 15 May 2021"
+              >
+                <span
+                  className="DDPRenewal-message"
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "DDP Extend Msg 15 May 2021",
+                      }
+                    }
+                  />
+                </span>
+              </DDPMessage>
+              <DDPMessage
+                isContentCentered={false}
+              >
+                <span
+                  className="DDPRenewal-message"
+                >
+                  <DDPEspot
+                    getDDPRenewalEspots={[Function]}
+                    hasDDPExpired={false}
+                  >
+                    <div
+                      data-espot="ddp_renewal_expiring"
+                    >
+                      <Connect(Espot)
+                        identifier="ddp_renewal_expiring"
+                        isResponsive={true}
+                      >
+                        <Espot
+                          customClassName=""
+                          identifier="ddp_renewal_expiring"
+                          isMobile={true}
+                          isResponsive={true}
+                          qubitid={null}
+                          responsiveCMSUrl="test-expiring/Url"
+                        >
+                          <Connect(SandBox)
+                            contentType="espot"
+                            isFinalResponsiveEspotSolution={true}
+                            location={
+                              Object {
+                                "pathname": "test-expiring/Url",
+                              }
+                            }
+                            qubitid={null}
+                            sandBoxClassName=""
+                            shouldGetContentOnFirstLoad={true}
+                          >
+                            <SandBox
+                              cmsPageName={null}
+                              contentType="espot"
+                              forceMobile={false}
+                              getContent={[Function]}
+                              getHomePageContent={[Function]}
+                              getSegmentedContent={[Function]}
+                              hideTacticalMessage={[Function]}
+                              isFinalResponsiveEspotSolution={true}
+                              isMobile={true}
+                              isResponsiveCatHeader={false}
+                              lazyLoad={false}
+                              location={
+                                Object {
+                                  "pathname": "test-expiring%2FUrl",
+                                  "search": undefined,
+                                }
+                              }
+                              pages={Object {}}
+                              qubitid={null}
+                              removeContent={[Function]}
+                              resetContent={[Function]}
+                              sandBoxClassName=""
+                              segmentationRequestData={null}
+                              setContent={[Function]}
+                              setFormDefaultSchema={[Function]}
+                              setPageStatusCode={[Function]}
+                              shouldGetContentOnFirstLoad={true}
+                              showTacticalMessage={[Function]}
+                              visited={Array []}
+                            />
+                          </Connect(SandBox)>
+                        </Espot>
+                      </Connect(Espot)>
+                    </div>
+                  </DDPEspot>
+                </span>
+              </DDPMessage>
+              <DDPRenewalCta
+                buttonText="DDP Button Extend £4.00"
+                clickHandler={[Function]}
+                isContentCentered={false}
+              >
+                <button
+                  className="Button DDPRenewal-button"
+                  onClick={[Function]}
+                >
+                  DDP Button Extend £4.00
+                </button>
+              </DDPRenewalCta>
+            </div>
+            <span
+              className="DDPRenewal-terms"
+            >
+              <DDPTermsAndConditions
+                buttonText="Terms & Conditions"
+                openModal={[Function]}
+              >
+                <div
+                  className="DDPTermsAndConditions"
+                >
+                  <button
+                    className="DDPTermsAndConditions-button"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Terms & Conditions
+                  </button>
+                </div>
+              </DDPTermsAndConditions>
+            </span>
+          </div>
+        </div>
+      </div>
+    </DDPRenewalExpiry>
+  </DDPRenewal>
+</Connect(DDPRenewal)>
+`;

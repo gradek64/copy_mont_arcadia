@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderContainer /> @renders @desktop in checkout page 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={false}
+    hasSearchBar={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @desktop in checkout page and featureResponsive is enabled 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={false}
+    hasMenuButton={false}
+    hasSearchBar={false}
+    isCheckoutBig={true}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @desktop in default state 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={true}
+    hasSearchBar={true}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @desktop in product page and featureResponsive is enabled 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={true}
+    hasSearchBar={false}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+  <Connect(HeaderBig) />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @mobile in checkout page 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={false}
+    hasSearchBar={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @mobile in checkout page and featureResponsive is enabled 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={false}
+    hasSearchBar={false}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @mobile in default state 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={true}
+    hasSearchBar={true}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @mobile in login page 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={true}
+    hasSearchBar={true}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @mobile in product page and featureResponsive is enabled 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={true}
+    hasSearchBar={true}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;
+
+exports[`<HeaderContainer /> @renders @mobile in summary page 1`] = `
+<Fragment>
+  <Header
+    forceDisplay={false}
+    hasCartIcon={true}
+    hasMenuButton={true}
+    hasSearchBar={true}
+    isCheckoutBig={false}
+    isStickyMobile={false}
+  />
+</Fragment>
+`;

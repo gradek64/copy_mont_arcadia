@@ -1,0 +1,103 @@
+/** @define NoSearchResults; weak */
+.NoSearchResults {
+  padding: $plp-no-results-padding;
+  max-width: 100vw;
+  text-align: center;
+
+  &-clearfilters {
+    width: $plp-no-results-clear-filters-width;
+    padding: $plp-no-results-clear-filters-padding;
+    border: $plp-no-results-clear-filters-border;
+    text-decoration: $plp-no-results-clear-filters-decoration;
+    text-transform: $plp-no-results-clear-filters-text-transform;
+    text-align: $plp-no-results-clear-filters-text-align;
+    font-weight: $plp-no-results-clear-filters-font-weight;
+    font-size: $plp-no-results-clear-filters-font-size;
+    letter-spacing: $plp-no-results-clear-filters-letter-spacing;
+
+    &:before {
+      content: $plp-no-results-clear-filters-before-content;
+      margin-right: $plp-no-results-clear-filters-before-margin-right;
+      margin-left: $plp-no-results-clear-filters-before-margin-left;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  &-title {
+    font-family: $font-family-body;
+    letter-spacing: $letter-spacing-h1;
+    word-spacing: $word-spacing-h1;
+    text-transform: none;
+    font-size: $font-size-h1;
+  }
+
+  &-errorImage {
+    display: $plp-no-results-error-image-display;
+    width: $plp-no-results-error-image-size;
+    margin: 0 auto;
+  }
+
+  &-messageContainer {
+    padding: $plp-no-results-filter-type-message-container-padding;
+  }
+
+  &-message {
+    text-align: $plp-no-results-message-text-align;
+    font-weight: $plp-no-results-message-font-weight;
+    margin: $plp-no-results-message-margin-bottom;
+
+    &:last-child {
+      margin: $plp-no-results-filter-type-message-last-child;
+    }
+  }
+
+  &-continueShoppingButton {
+    width: $plp-no-results-continue-shopping-button-width-desktop;
+    margin: 10px auto;
+  }
+
+  &--isFiltered {
+    padding-top: $plp-no-results-filter-type-padding-top;
+
+    & .NoSearchResults-message {
+      text-align: $plp-no-results-filter-type-text-align;
+      padding: $plp-no-results-filter-type-message-padding;
+    }
+
+
+    & .NoSearchResults-errorImage {
+      display: $plp-no-results-filter-type-error-image-display;
+    }
+  }
+}
+
+.NoSearchResults .Recommendations {
+  margin-top: 60px;
+
+  &-header {
+    text-transform: $recommendations-header-nosearch-text-transform;
+  }
+}
+
+@media $min-tablet {
+  .NoSearchResults {
+    margin: 0 auto;
+  }
+}
+
+@media $mobile{
+  .NoSearchResults {
+    &-messageContainer {
+      padding: $plp-no-results-filter-type-message-container-padding-mobile;
+    }
+
+    &-message {
+      margin: $plp-no-results-message-margin-mobile;
+    }
+
+    &-continueShoppingButton {
+      width: $plp-no-results-continue-shopping-button-width-mobile;
+    }
+  }
+}

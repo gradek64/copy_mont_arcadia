@@ -1,0 +1,42 @@
+{
+  "burton": {
+    "eu": "https://eu.burton-menswear.com/en/breu/category/privacy-policy-5633185/home",
+    "uk": "https://www.burton.co.uk/en/bruk/category/privacy-policy-4529213/home"
+  },
+  "dorothyperkins": {
+    "eu": "https://euro.dorothyperkins.com/en/dpeu/category/help-information-5598871/privacy-cookies-policy-7727124",
+    "uk": "https://dorothyperkins.com/en/dpuk/category/privacy-policy-3077345/home",
+    "us": "https://us.dorothyperkins.com/en/dpus/category/privacy-9115385/home"
+  },
+  "evans": {
+    "de": "https://www.evansmode.de/de/evde/kategorie/help-information-5724504/datenschutzhinweise-7733544",
+    "eu": "https://euro.evansfashion.com/en/eveu/category/privacypolicy-7699232/home?TS=1527153501624",
+    "uk": "https://evans.co.uk/en/evuk/category/help-information-5598468/privacy-policy-5758006"
+  },
+  "missselfridge": {
+    "de": "https://missselfridge.de/de/msde/kategorie/help-information-5595419/datenschutz-5770115",
+    "eu": "https://euro.missselfridge.com/en/mseu/category/terms-and-conditions-9059270/home?segment=PRIVACY+POLICY",
+    "fr": "https://missselfridge.fr/fr/msfr/cat%C3%A9gorie/help-information-5595421/privacy-policy-5752168",
+    "uk": "https://missselfridge.com/en/msuk/category/privacy-policy-cookie-policy-7736111/home",
+    "us": "https://us.missselfridge.com/en/msus/category/terms-conditions-892930/home"
+  },
+  "topman": {
+    "de": "https://de.topman.com/de/tmde/kategorie/de-terms-conditions-554865/heimat?TS=1526482790331#fragment-14",
+    "eu": "https://eu.topman.com/en/tmeu/category/euterms-and-conditions-617718/home#fragment-9",
+    "fr": "https://fr.topman.com/fr/tmfr/cat%C3%A9gorie/fr-terms-conditions-586292/pays#fragment-13",
+    "uk": "https://www.topman.com/en/tmuk/category/privacy-and-cookies-3180184/home",
+    "us": "https://us.topman.com/en/tmus/category/privacy-cookies-9682505/home?TS=1582821092900"
+  },
+  "topshop": {
+    "de": "https://de.topshop.com/de/tsde/kategorie/datenschutzrichtlinie-und-cookies-345316/heimat?cat2=528993#fragment-2",
+    "eu": "https://eu.topshop.com/en/tseu/category/privacy-cookies-485016/home",
+    "fr": "https://fr.topshop.com/fr/tsfr/cat%C3%A9gorie/politique-de-confidentialite-7722257/pays",
+    "uk": "https://topshop.com/en/tsuk/category/privacy-cookies-157/home#fragment-2",
+    "us": "https://us.topshop.com/en/tsus/category/topshop-privacy-policy-7722226/home?"
+  },
+  "wallis": {
+    "de": "https://wallismode.de/de/wlde/kategorie/datenschutzrichtlinie-958163/heimat",
+    "eu": "https://euro.wallisfashion.com/en/wleu/category/privacy-policy-pop-up-989221/home",
+    "uk": "https://wallis.co.uk/en/wluk/category/help-information-5593456/privacy-policy-5757922"
+  }
+}

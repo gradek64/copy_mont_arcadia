@@ -1,0 +1,40 @@
+{
+  "title": "ProductInventory",
+  "properties": {
+    "catEntryId": {
+      "type": "integer",
+      "description": "unique id - per size and product"
+    },
+    "inventoryPositions": {
+      "type": "object",
+      "properties": {
+        "inventorys": {
+          "type": "array",
+          "items": "object"
+        },
+        "invavls": {
+          "type": "array",
+          "items": "object"
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "productId": {
+      "type": "integer",
+      "description": "same for all product sizes"
+    },
+    "quantity": {
+      "type": "number",
+      "description": "quantity of products in basket. Just 1 for PDP"
+    },
+    "size": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string",
+      "description": "also referred as partNumber"
+    }
+  }
+}

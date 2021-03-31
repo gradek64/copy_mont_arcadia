@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderTopshop /> @renders in default state 1`] = `
+<div
+  className="HeaderTopshop"
+>
+  <div
+    className="HeaderTopshop-brand"
+  >
+    <Link
+      className="HeaderTopshop-brandLink"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/"
+    >
+      <BrandLogo
+        brandName="topshop"
+      />
+    </Link>
+  </div>
+  <div
+    className="HeaderTopshop-content"
+  >
+    <div
+      className="HeaderTopshop-shippingInfo"
+      key="shippingInfo"
+    >
+      <Connect(Espot)
+        identifier="brandHeaderEspotName"
+      />
+    </div>
+    <div
+      className="HeaderTopshop-search"
+      key="search"
+    >
+      <Connect(SearchBar)
+        isDesktop={true}
+      />
+    </div>
+    <div
+      className="HeaderTopshop-account"
+      key="account"
+    >
+      <Connect(AccountIcon)
+        myAccountText="View profile"
+        popoverMenu={true}
+        signOutText="Sign out"
+      />
+    </div>
+    <div
+      className="HeaderTopshop-shipping"
+      key="shipping"
+    >
+      <Connect(ShippingDestination) />
+    </div>
+    <div
+      className="HeaderTopshop-wishlist"
+      key="wishlist"
+    >
+      <Connect(WishlistHeaderLink) />
+    </div>
+    <div
+      className="HeaderTopshop-shoppingCart"
+      key="shoppingCart"
+    >
+      <Connect(ShoppingCart) />
+      <Connect(MiniBagConfirm)
+        className="HeaderTopshop-right--el"
+      />
+    </div>
+  </div>
+  <div
+    className="HeaderTopshop-separator"
+  />
+  <div
+    className="HeaderTopshop-navigation"
+  >
+    <Connect(TopNavMenuBig) />
+  </div>
+</div>
+`;

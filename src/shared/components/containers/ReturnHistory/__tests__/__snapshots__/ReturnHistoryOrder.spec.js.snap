@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReturnHistoryOrder @renders in default state 1`] = `
+<section
+  className="ReturnHistoryOrder"
+>
+  <Connect(Image)
+    alt="Pizza Princess Padded Sticker"
+    className="ReturnHistoryOrder-image"
+    src="http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS19M43JRED_Small_F_1.jpg"
+  />
+  <div
+    className="ReturnHistoryOrder-content"
+  >
+    <div
+      className="ReturnHistoryOrder-cont"
+      key="0"
+    >
+      <h2
+        className="ReturnHistoryOrder-text ReturnHistoryOrder-productName"
+      >
+        Pizza Princess Padded Sticker
+      </h2>
+      <p
+        className="ReturnHistoryOrder-text ReturnHistoryOrder-line-no"
+        key="0"
+      >
+        <PrivacyGuard>
+          <span>
+            Item code
+            : 
+            19M43JRED
+          </span>
+        </PrivacyGuard>
+      </p>
+      <p
+        className="ReturnHistoryOrder-text"
+        key="1"
+      >
+        <PrivacyGuard>
+          <span>
+            Size
+            : 
+            ONE
+          </span>
+        </PrivacyGuard>
+      </p>
+      <p
+        className="ReturnHistoryOrder-text"
+        key="2"
+      >
+        <PrivacyGuard>
+          <span>
+            Quantity
+            : 
+            1
+          </span>
+        </PrivacyGuard>
+      </p>
+    </div>
+    <div
+      className="ReturnHistoryOrder-cont"
+      key="1"
+    >
+      <p
+        className="ReturnHistoryOrder-text"
+        key="0"
+      >
+        <span>
+          Item price
+          : 
+          <Price
+            className=""
+            price={0.5}
+            privacyProtected={true}
+          />
+        </span>
+      </p>
+    </div>
+    <div
+      className="ReturnHistoryOrder-cont"
+      key="2"
+    />
+    <div
+      className="ReturnHistoryOrder-cont"
+      key="3"
+    >
+      <p
+        className="ReturnHistoryOrder-text"
+        key="0"
+      >
+        <span>
+          Total credited
+          : 
+          <Price
+            className=""
+            price="0.50"
+            privacyProtected={true}
+          />
+        </span>
+      </p>
+    </div>
+  </div>
+</section>
+`;

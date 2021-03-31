@@ -1,0 +1,598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotifyProductForm /> @render default 1`] = `
+<section>
+  <h4>
+    Embroidered Poplin Top
+  </h4>
+  <p>
+    Provide us with your email address and we’ll let you know when this item arrives on Topshop UK
+  </p>
+  <Connect(ProductSizes)
+    activeItem={Object {}}
+    error={false}
+    items={
+      Array [
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "40",
+          "sku": "602017001100552",
+        },
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "41",
+          "sku": "602017001100553",
+        },
+      ]
+    }
+    label="Select size"
+    notifyEmail={true}
+    onSelectSize={[MockFunction]}
+    selectedOosItem={Object {}}
+    showOosOnly={true}
+    showOutOfStockLabel={false}
+    stockThreshold={0}
+  />
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="NotifyProduct-submitButton"
+      type="submit"
+    >
+      Submit
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<NotifyProductForm /> @render has Provide us with your email address.. message 1`] = `
+<section>
+  <h4>
+    Embroidered Poplin Top
+  </h4>
+  <p>
+    Provide us with your email address and we’ll let you know when this item arrives on Topshop UK
+  </p>
+  <Connect(ProductSizes)
+    activeItem={Object {}}
+    error={false}
+    items={
+      Array [
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "40",
+          "sku": "602017001100552",
+        },
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "41",
+          "sku": "602017001100553",
+        },
+      ]
+    }
+    label="Select size"
+    notifyEmail={true}
+    onSelectSize={[MockFunction]}
+    selectedOosItem={Object {}}
+    showOosOnly={true}
+    showOutOfStockLabel={false}
+    stockThreshold={0}
+  />
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="NotifyProduct-submitButton"
+      type="submit"
+    >
+      Submit
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<NotifyProductForm /> @render has backInStock message 1`] = `
+<section>
+  <h4>
+    Embroidered Poplin Top
+  </h4>
+  <p>
+    Provide us with your email address and we’ll let you know when the item becomes available.
+  </p>
+  <Connect(ProductSizes)
+    activeItem={Object {}}
+    error={false}
+    items={
+      Array [
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "40",
+          "sku": "602017001100552",
+        },
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "41",
+          "sku": "602017001100553",
+        },
+      ]
+    }
+    label="Select size"
+    notifyEmail={true}
+    onSelectSize={[MockFunction]}
+    selectedOosItem={Object {}}
+    showOosOnly={true}
+    showOutOfStockLabel={false}
+    stockThreshold={0}
+  />
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="NotifyProduct-submitButton"
+      type="submit"
+    >
+      Submit
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<NotifyProductForm /> @render has only one size 1`] = `
+<section>
+  <h4>
+    Embroidered Poplin Top
+  </h4>
+  <p>
+    Provide us with your email address and we’ll let you know when this item arrives on Topshop UK
+  </p>
+  <Connect(ProductSizes)
+    activeItem={Object {}}
+    error={false}
+    items={
+      Array [
+        Object {
+          "quantity": 0,
+          "selected": false,
+          "size": "ONE",
+          "sku": "602017001076279",
+        },
+      ]
+    }
+    label="Select size"
+    notifyEmail={true}
+    onSelectSize={[MockFunction]}
+    selectedOosItem={Object {}}
+    showOosOnly={true}
+    showOutOfStockLabel={false}
+    stockThreshold={0}
+  />
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="NotifyProduct-submitButton"
+      type="submit"
+    >
+      Submit
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<NotifyProductForm /> @render should show size error when state.showSizeError is true and selectedOosItem is empty 1`] = `
+<section>
+  <h4>
+    Embroidered Poplin Top
+  </h4>
+  <p>
+    Provide us with your email address and we’ll let you know when this item arrives on Topshop UK
+  </p>
+  <Connect(ProductSizes)
+    activeItem={Object {}}
+    error="Please select your size to continue"
+    items={
+      Array [
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "40",
+          "sku": "602017001100552",
+        },
+        Object {
+          "quantity": 10,
+          "selected": false,
+          "size": "41",
+          "sku": "602017001100553",
+        },
+      ]
+    }
+    label="Select size"
+    notifyEmail={true}
+    onSelectSize={[MockFunction]}
+    selectedOosItem={Object {}}
+    showOosOnly={true}
+    showOutOfStockLabel={false}
+    stockThreshold={0}
+  />
+  <Form
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Last Name"
+      name="surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "firstName": "This field is required",
+          "selectedOosItem": "Please select your size to continue",
+          "surname": "This field is required",
+        }
+      }
+      field={
+        Object {
+          "isDirty": false,
+          "isTouched": false,
+          "value": "",
+        }
+      }
+      isRequired={true}
+      label="Email address"
+      name="email"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Button
+      className="NotifyProduct-submitButton"
+      type="submit"
+    >
+      Submit
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<NotifyProductForm /> @render shows form submitting 1`] = `
+<div>
+  Submitting
+  ...
+</div>
+`;
+
+exports[`<NotifyProductForm /> @render shows submitted form 1`] = `
+<section>
+  <h1>
+    Submitted
+  </h1>
+  <p>
+    notfalse
+  </p>
+  <Button
+    clickHandler={[MockFunction]}
+  >
+    Back to shopping
+  </Button>
+</section>
+`;

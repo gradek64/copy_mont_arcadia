@@ -1,0 +1,22 @@
+{
+  "rootDir": "../../",
+  "roots": ["<rootDir>/src", "<rootDir>/test/unit"],
+  "verbose": true,
+  "setupFilesAfterEnv": ["./test/unit/setup.js"],
+  "testResultsProcessor": "./node_modules/jest-junit-reporter",
+  "testRegex": "./(src|test|.githooks)/.+\\.spec\\.jsx?$",
+  "testURL": "https://www.topshop.com/",
+  "modulePaths": [
+    "<rootDir>"
+  ],
+  "coveragePathIgnorePatterns": [
+    "./(src|test|.githooks)/.+\\.spec\\.jsx?$",
+    "/node_modules/"
+  ],
+  "coverageReporters": [
+    "json",
+    "lcov",
+    "text",
+    "json-summary"
+  ]
+}

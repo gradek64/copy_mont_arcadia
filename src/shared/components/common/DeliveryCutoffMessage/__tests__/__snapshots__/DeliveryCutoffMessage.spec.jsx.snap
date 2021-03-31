@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryCutoffMessage /> @renders should render if there is a \`message\` prop 1`] = `
+<Connect(FeatureCheck)
+  flag="FEATURE_DELIVERY_CUTOFF_MESSAGE"
+>
+  <div
+    className="DeliveryCutoff"
+  >
+    <p
+      className="DeliveryCutoff-message"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Order in 9 hrs 23 mins for next day delivery",
+        }
+      }
+    />
+  </div>
+</Connect(FeatureCheck)>
+`;

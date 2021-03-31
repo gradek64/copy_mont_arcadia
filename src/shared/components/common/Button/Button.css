@@ -1,0 +1,184 @@
+/** @define Button */
+
+@define-mixin buttonColor $color: null, $bgcolor: null, $bordercolor: null {
+  background-color: $bgcolor;
+  border: $cta-border-width solid $bordercolor;
+  color: $color;
+  @mixin-content;
+}
+
+.Button {
+  display: block;
+  font-family: $font-family-button;
+  width: 100%;
+  min-height: $form-element-height;
+  padding: 5px;
+  margin: 0;
+  border: $cta-border-width solid $cta-primary-border-color;
+  border-radius: $cta-border-radius;
+  background-color: $cta-primary-background;
+  color: $cta-primary-font-color;
+  font-size: $font-size-button;
+  font-weight: $font-weight-button;
+  text-align: center;
+  text-transform: $cta-primary-text-transform;
+  touch-action: manipulation;
+  cursor: pointer;
+  box-shadow: $cta-box-shadow;
+  letter-spacing: $cta-letter-spacing;
+
+  &.is-hidden {
+    display: none;
+  }
+
+  &.is-active {
+    @mixin buttonColor $cta-primary-is-active-font-color, $cta-primary-is-active-background, $cta-primary-is-active-border-color {
+      outline: 0;
+    }
+  }
+
+  &[disabled] {
+    @mixin buttonColor $cta-primary-inactive-font-color, $cta-primary-inactive-background, $cta-primary-inactive-border-color {}
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  &--secondary {
+    @mixin buttonColor $cta-secondary-font-color, $cta-secondary-background, $cta-secondary-border-color {
+      text-transform: $cta-secondary-text-transform;
+      font-size: $cta-secondary-font-size;
+
+    }
+
+    &[disabled] {
+      @mixin buttonColor $cta-secondary-inactive-font-color, $cta-secondary-inactive-background, $cta-secondary-inactive-border-color {}
+    }
+  }
+
+  &--tertiary {
+    @mixin buttonColor $cta-tertiary-font-color, $cta-tertiary-background, $cta-tertiary-border-color {
+      text-transform: $cta-tertiary-text-transform;
+      text-decoration: $cta-tertiary-text-decoration;
+      text-align: $cta-tertiary-text-align;
+      width: $cta-tertiary-width;
+      font-size: $cta-tertiary-font-size;
+    }
+
+    &[disabled] {
+      @mixin buttonColor $cta-tertiary-inactive-font-color, $cta-tertiary-inactive-background, $cta-tertiary-inactive-border-color {}
+    }
+  }
+
+  &--link {
+    text-decoration: underline;
+  }
+
+  &--fullWidth {
+    width: 100%;
+  }
+
+  &--halfWidth {
+    flex: 1 0;
+    margin-right: $cta-gutter;
+  }
+
+  &--threeFifthWidth {
+    flex: 3 0;
+    margin-right: $cta-gutter;
+  }
+
+  &--twoFifthWidth {
+    flex: 2 0;
+    margin-right: $cta-gutter;
+  }
+
+  &--linkButton {
+    text-decoration: none;
+    line-height: 1.9em;
+    min-height: inherit;
+    width: inherit;
+  }
+
+  &--isDisabled {
+    @mixin buttonColor $cta-primary-inactive-font-color, $cta-primary-inactive-background, $cta-primary-inactive-border-color {}
+
+    cursor: not-allowed
+  }
+
+}
+
+@media $min-laptop {
+  .Button {
+    &:enabled:hover {
+      @mixin buttonColor $cta-primary-hover-font-color, $cta-primary-hover-background, $cta-primary-hover-border-color {
+        font-weight: $cta-primary-hover-font-weight;
+      }
+    }
+    &.is-active:enabled:hover {
+      @mixin buttonColor $cta-primary-is-active-hover-font-color, $cta-primary-is-active-hover-background, $cta-primary-is-active-hover-border-color {
+        outline: 0;
+      }
+    }
+    &-secondary {
+      &:enabled:hover {
+        @mixin buttonColor $cta-secondary-hover-font-color, $cta-secondary-hover-background, $cta-secondary-hover-border-color {
+          font-weight: $cta-secondary-hover-font-weight;
+        }
+      }
+    }
+    &-tertiary {
+      &:enabled:hover {
+        @mixin buttonColor $cta-tertiary-hover-font-color, $cta-tertiary-hover-background, $cta-tertiary-hover-border-color {
+          font-weight: $cta-tertiary-hover-font-weight;
+        }
+      }
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .Button:enabled:hover {
+ @mixin buttonColor $cta-primary-hover-font-color, $cta-primary-hover-background, $cta-primary-hover-border-color {
+   font-weight: $cta-primary-hover-font-weight;
+ }
+}
+/* postcss-bem-linter: ignore */
+.no-touch .Button:enabled:active {
+  @mixin buttonColor $cta-primary-active-font-color, $cta-primary-active-background, $cta-primary-active-border-color {
+    font-weight: $cta-primary-active-font-weight;
+    outline: 0;
+  }
+}
+/* postcss-bem-linter: ignore */
+.no-touch .Button.is-active:enabled:hover {
+  @mixin buttonColor $cta-primary-is-active-hover-font-color, $cta-primary-is-active-hover-background, $cta-primary-is-active-hover-border-color {
+    font-weight: $cta-primary-active-font-weight;
+    outline: 0;
+  }
+}
+/* postcss-bem-linter: ignore */
+.no-touch .Button-secondary:enabled:hover {
+ @mixin buttonColor $cta-secondary-hover-font-color, $cta-secondary-hover-background, $cta-secondary-hover-border-color {
+   font-weight: $cta-secondary-hover-font-weight;
+ }
+}
+/* postcss-bem-linter: ignore */
+.no-touch .Button-secondary:enabled:active {
+  @mixin buttonColor $cta-secondary-active-font-color, $cta-secondary-active-background, $cta-secondary-active-border-color {
+    font-weight: $ cta-secondary-active-font-weight;
+  }
+}
+/* postcss-bem-linter: ignore */
+.no-touch .Button-tertiary:enabled:hover {
+ @mixin buttonColor $cta-tertiary-hover-font-color, $cta-tertiary-hover-background, $cta-tertiary-hover-border-color {
+   font-weight: $cta-tertiary-hover-font-weight;
+ }
+}
+/* postcss-bem-linter: ignore */
+.no-touch .Button-tertiary:enabled:active {
+  @mixin buttonColor $cta-tertiary-active-font-color, $cta-tertiary-active-background, $cta-tertiary-active-border-color {
+    font-weight: $cta-tertiary-active-font-weight;
+  }
+}

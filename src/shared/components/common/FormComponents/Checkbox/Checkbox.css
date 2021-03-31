@@ -1,0 +1,16 @@
+/** @define Checkbox */
+
+.Checkbox {
+  &-check:after { /*this is the check mark*/
+    content: '';
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 2px solid $checkbox-checked-padding-color;
+    background: transparent none no-repeat 50%/100%;
+    @if $checkbox-show-tick {
+      background-image: url('public/$brand/images/check-tick.svg');
+    }
+  }
+}

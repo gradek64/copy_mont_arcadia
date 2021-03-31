@@ -1,0 +1,72 @@
+{
+  "pageSize": 250,
+  "pageNo": 1,
+  "name": "default2",
+  "giftListId": 15542,
+  "type": "public",
+  "itemDetails": [
+    {
+      "parentProductId": "31222750",
+      "size": "4",
+      "sizeAndQuantity": [
+        {
+          "size": "4",
+          "catentryId": 31222757,
+          "quantity": 10
+        },
+        {
+          "size": "6",
+          "catentryId": 31222763,
+          "quantity": 10
+        },
+        {
+          "size": "8",
+          "catentryId": 31222774,
+          "quantity": 10
+        },
+        {
+          "size": "10",
+          "catentryId": 31221982,
+          "quantity": 10
+        },
+        {
+          "size": "12",
+          "catentryId": 31222796,
+          "quantity": 10
+        },
+        {
+          "size": "14",
+          "catentryId": 31222808,
+          "quantity": 10
+        },
+        {
+          "size": "16",
+          "catentryId": 31222821,
+          "quantity": 10
+        },
+        {
+          "size": "18",
+          "catentryId": 31222831,
+          "quantity": 10
+        }
+      ],
+      "avlQuantity": 10,
+      "price": {
+        "was2Price": null,
+        "was1Price": null,
+        "nowPrice": "39.00000"
+      },
+      "quantity": "1",
+      "listItemId": "17068",
+      "colour": "BLACK",
+      "colourKey": "180072695",
+      "productImageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_3col_F_1.jpg",
+      "outfitImageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_3col_M_1.jpg",
+      "catEntryId": "31222757",
+      "title": "Polka Dot Lace Satin Slip Dress",
+      "rating": null,
+      "sizeKey": "180072704"
+    }
+  ],
+  "noOfItemsInList": 1
+}

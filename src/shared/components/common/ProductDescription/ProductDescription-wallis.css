@@ -1,0 +1,52 @@
+/** @define ProductDescription; weak */
+
+.ProductDescription {
+  margin-bottom: 20px;
+
+  & ul {
+    display: inline-block;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  & li {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+}
+
+@media $min-tablet {
+  .ProductDescription {
+    background: #f8f8f8;
+    padding: 30px;
+    text-align: left;
+    margin-left: 0px;
+
+    &-title {
+      margin: 0 0 20px 0;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &-productDetailText {
+      margin: 0 auto;
+      max-width: 614px;
+      font-size: 14px;
+      color: #33333e;
+    }
+
+    & p {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+
+    & ul {
+      margin: 20px 0 0 0;
+      display: block;
+      width: 400px;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+  }
+}

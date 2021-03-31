@@ -1,0 +1,188 @@
+/** @define MiniBag */
+
+.MiniBag {
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &-header {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: $mini-bag-header-text-style;
+    color: $mini-bag-header-color;
+    background-color: $mini-bag-header-background-color;
+    border: $mini-bag-header-border-width solid $mini-bag-header-border-color;
+    font-size: $mini-bag-header-text-size;
+    font-weight: $mini-bag-header-text-weight;
+    padding: $mini-bag-padding;
+    z-index: 5;
+  }
+
+  &-closeButton {
+    position: absolute;
+    right: $mini-bag-padding;
+    top: $mini-bag-padding;
+    height: $mini-bag-header-text-size;
+  }
+
+  &-closeButtonImg {
+    height: 100%;
+  }
+
+  &-content {
+    flex-grow: 1px;
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto;
+    font-size: $mini-bag-content-font-size;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $scrollbar-thumb-background-color;
+      border-radius: $scrollbar-border-radius;
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      background-color: $scrollbar-background-color;
+      border-radius: $scrollbar-border-radius;
+    }
+  }
+
+  &-summary {
+    flex-shrink: 0;
+    margin: auto 0 0;
+    width: 100%;
+    box-shadow: 0 1px $mini-bag-summary-shadow-strength $mini-bag-summary-shadow-color;
+    border-top: $mini-bag-summary-border-top;
+    background-color: $white;
+    padding: 5px 0;
+    box-sizing: border-box;
+    z-index: 0;
+    color: $mini-bag-summary-font-color;
+    font-weight: $mini-bag-summary-font-weight;
+  }
+
+  &-summarySection,
+  &-summaryButtonSection {
+    box-sizing: border-box;
+    padding: $mini-bag-summary-padding;
+  }
+
+  &-summarySection {
+    font-size: $mini-bag-summary-font-size;
+  }
+
+  &-summaryRow {
+    display: flex;
+    margin-bottom: $mini-bag-summary-row-margin-bottom;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-deliveryOption {
+    font-weight: $mini-bag-delivery-text-weight;
+  }
+
+  &-bagTotal {
+    margin-top: $mini-bag-summary-total-margin-top;
+    font-weight: $mini-bag-total-text-weight;
+    color: $mini-bag-total-color;
+    display: flex;
+  }
+
+  &-bagSubtotal {
+    color: $mini-bag-sub-total-color;
+  }
+
+  &-leftCol {
+    margin-right: 0.25em;
+    color: $mini-left-col-color;
+    flex-shrink: 0;
+  }
+
+  &-rightCol {
+    text-align: right;
+    flex-grow: 1;
+  }
+
+  &-totalCost {
+    flex: auto;
+    font-weight: $mini-bag-content-subtotal-font-weight;
+  }
+
+  &-continueButton {
+    background: $mini-bag-summary-button-background;
+    border: 1px solid $mini-bag-summary-button-border-color;
+    
+    &:enabled:active {
+      background: $mini-bag-summary-button-hover-background;
+      color: $mini-bag-summary-button-hover-font-color;
+      border: 1px solid $mini-bag-summary-button-border-color;
+    }
+  }
+
+  &-emptyBag {
+    padding: 0 $mini-bag-padding;
+  }
+
+  &-emptyLabel {
+    font-family: $mini-bag-empty-font-family;
+    font-size: $mini-bag-empty-font-size;
+    font-weight: $mini-bag-empty-font-weight;
+    text-align: $mini-bag-empty-text-align;
+    margin: $mini-bag-empty-margin;
+  }
+
+  &-lock {
+    background-image: $mini-bag-lockimage-background;
+    background-size: $mini-bag-lockimage-size;
+    background-repeat: $mini-bag-lockimage-no-repeat;
+    background-position: $mini-bag-lockimage-position;
+    text-align: left;
+    padding-right: 20px;
+
+    @media (min-width: 321px) {
+      padding-right: 30px;
+    }
+  }
+
+  &-backToCheckout:before {
+    position: absolute;
+    content: '<';
+    left: 15px;
+  }
+
+  &-espot {
+    margin: 10px;
+  }
+
+  &-messages {
+    margin: 0 10px;
+  }
+}
+
+@media $min-laptop {
+  .MiniBag {
+    &-continueButton {
+      &:enabled:hover {
+        background: $mini-bag-summary-button-hover-background;
+        color: $mini-bag-summary-button-hover-font-color;
+        border: 1px solid $mini-bag-summary-button-border-color;
+      }
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.no-touch .MiniBag-continueButton:enabled:hover {
+  background: $mini-bag-summary-button-hover-background;
+  color: $mini-bag-summary-button-hover-font-color;
+  border: 1px solid $mini-bag-summary-button-border-color;
+}

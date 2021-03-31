@@ -1,0 +1,165 @@
+{
+  "newsletter": {
+    "label": "Sign up now to get the latest news and deals",
+    "placeholder": "",
+    "button": "SIGN UP",
+    "signUpUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd",
+    "openNewWindow": false
+  },
+  "categories": [
+    {
+      "label": "Shop With Us",
+      "links": [
+        {
+          "label": "Gift Cards",
+          "linkUrl": "/en/bruk/category/gift-card-281495/home?cat2=411573",
+          "openNewWindow": false
+        },
+        {
+          "label": "Student Discount",
+          "linkUrl": "/en/bruk/category/student-discount-281463/home?cat2=282018",
+          "openNewWindow": true
+        },
+        {
+          "label": "Student Discount",
+          "linkUrl": "/en/bruk/category/student-discount-281463/home?cat2=282018",
+          "openNewWindow": true
+        },
+        {
+          "label": "Military Discount",
+          "linkUrl": "/en/tsuk/category/topshop-size-guide-6728093/home?intcmpid\u003dW_FOOTER_SIZEGUIDE",
+          "openNewWindow": false
+        },
+        {
+          "label": "Black Friday",
+          "linkUrl": "/en/bruk/category/black-friday-clothing-4911205/home",
+          "openNewWindow": false
+        },
+        {
+          "label": "Mobile",
+          "linkUrl": "/en/tsuk/category/accessibility-8/home?intcmpid\u003dW_FOOTER_ACCESSIBILITY",
+          "openNewWindow": false
+        },
+        {
+          "label": "Try Now Pay Later",
+          "linkUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?isLoggedIn=false&pageSize=20&catalogId=33052&viewAllFlag=false&langId=-1&categoryId=3402497&beginIndex=1&sort_field=Relevance&storeId=12551&interstitial=true&dimSelected=/en/bruk/category/klarna-buy-now-pay-later-5778125/home?TS=1470142463109",
+          "openNewWindow": true
+        },
+        {
+          "label": "Burton Blog",
+          "linkUrl": "http://www.burton.co.uk/blog/",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "About Us",
+      "links": [
+        {
+          "label": "Company Info",
+          "linkUrl": "/en/bruk/category/company-info-5464143/home?TS=1460112837686&cat2=282497",
+          "openNewWindow": false
+        },
+        {
+          "label": "Careers",
+          "linkUrl": "/en/bruk/category/student-discount-281463/home?cat2=282018",
+          "openNewWindow": true
+        },
+        {
+          "label": "Press",
+          "linkUrl": "/en/bruk/category/press-281468/home?cat2=282498",
+          "openNewWindow": false
+        },
+        {
+          "label": "Affiliates",
+          "linkUrl": "/en/bruk/category/affiliates-281471/home?cat2=282503",
+          "openNewWindow": false
+        },
+        {
+          "label": "Fashion Footprint",
+          "linkUrl": "http://arcadiafashionfootprint.co.uk/",
+          "openNewWindow": true
+        },
+        {
+          "label": "Write a Review",
+          "linkUrl": "/en/bruk/category/write-a-review-1987636/home?cat2=1194991",
+          "openNewWindow": true
+        },
+        {
+          "label": "Site Map",
+          "linkUrl": "/en/bruk/category/site-map-2597529/home?TS=1414757558923&cat2=1543518",
+          "openNewWindow": true
+        },
+        {
+          "label": "Modern Slavery Act",
+          "linkUrl": "https://arcadiagroup.co.uk/modernslaverystatement",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "Customer Service",
+      "links": [
+        {
+          "label": "Contact Us",
+          "linkUrl": "http://help.burton.co.uk/system/templates/selfservice/burton/#!portal/403700000001071/article/Prod-2470/How-do-I-contact-Customer-Care",
+          "openNewWindow": true
+        },
+        {
+          "label": "Delivery & Returns",
+          "linkUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?pageSize=20&catalogId=33052&viewAllFlag=false&categoryId=2646175&beginIndex=1&sort_field=Relevance&langId=-1&interstitial=true&storeId=12551",
+          "openNewWindow": true
+        },
+        {
+          "label": "Help",
+          "linkUrl": "http://help.burton.co.uk/system/templates/selfservice/burton/#!portal/1009?LANGUAGE=en&COUNTRY=us",
+          "openNewWindow": true
+        },
+        {
+          "label": "Terms & Conditions",
+          "linkUrl": "/en/bruk/category/terms-conditions-281543/home?cat2=752143",
+          "openNewWindow": false
+        },
+        {
+          "label": "Privacy & Cookie Policy",
+          "linkUrl": "/en/bruk/category/privacy-policy-4529213/home?TS=1435832177994",
+          "openNewWindow": true
+        },
+        {
+          "label": "Site Security",
+          "linkUrl": "/en/bruk/category/terms-conditions-281543/home?cat2=752143#fragment-5",
+          "openNewWindow": true
+        },
+        {
+          "label": "Accessibility",
+          "linkUrl": "/en/bruk/category/accessibility-281549/home?cat2=282499",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "",
+      "images": [
+        {
+          "imageUrl": "http://media.burton.co.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color2/cms/pages/static/static-0000128987/images/BLOGhomepage.jpg",
+          "imageSize": "large",
+          "linkUrl": "http://www.burton.co.uk/blog/?geoip=home",
+          "alt": "",
+          "openNewWindow": true
+        }
+      ]
+    },
+    {
+      "label": "",
+      "images": [
+        {
+          "imageUrl": "http://media.burton.co.uk/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color2/cms/pages/static/static-0000128987/images/Winter18_desktop_hp_New_Footer_HIIT.png",
+          "imageSize": "large",
+          "linkUrl": "/en/bruk/category/hiit-7324128/home?TS=1515516193809",
+          "alt": "",
+          "openNewWindow": true
+        }
+      ]
+    }
+  ]
+}

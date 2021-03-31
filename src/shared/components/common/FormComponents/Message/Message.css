@@ -1,0 +1,59 @@
+/** @define Message */
+.Message {
+  width: 100%;
+  box-sizing: border-box;
+  transition: opacity 0.5s;
+  margin: $message-margin-vertical $message-margin-horizontal;
+  text-align: $message-text-align;
+  font-size: $message-font-size;
+
+  &-message {
+    font-family: $message-font-family;
+    padding: $message-padding-vertical $message-padding-horizontal;
+    font-size: $message-message-font-size;
+    letter-spacing: $message-message-letter-spacing;
+    line-height: $message-message-line-height;
+  }
+
+  &--compact {
+    margin: 0;
+
+    & .Message-message {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &.is-shown {
+    max-height: 200px;
+    opacity: 1;
+  }
+  &.is-hidden {
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    & .Message {
+      &-message {
+        padding: 0;
+      }
+    }
+  }
+  &.is-error {
+    background-color: $message-error-background-color;
+    & > .Message-message {
+      color: $message-error-color;
+      font-size: $message-error-font-size;
+      letter-spacing: $message-error-letter-spacing;
+      line-height: $message-error-line-height;
+    }
+  }
+  &.is-confirm {
+    background-color: $message-confirm-background-color;
+    & > .Message-message {
+      color: $message-confirm-color;
+      font-size: $message-confirm-font-size;
+      letter-spacing: $message-confirm-letter-spacing;
+      line-height: $message-confirm-line-height;
+    }
+  }
+}

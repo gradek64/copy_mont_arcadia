@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WishlistButtonComponent /> @renders should render default state 1`] = `
+<button
+  className="WishlistButton notranslate"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={false}
+      />
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render renderAddToWishlistText 1`] = `
+<button
+  className="WishlistButton notranslate"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={false}
+      />
+    </span>
+    <span
+      className="translate"
+    >
+      <span>
+        Move to wishlist
+      </span>
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render renderRemoveFromWishlistText 1`] = `
+<button
+  className="WishlistButton notranslate"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={true}
+      />
+    </span>
+    <span
+      className="translate"
+    >
+      <span>
+        Remove from wishlist
+      </span>
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render with isSelected=true 1`] = `
+<button
+  className="WishlistButton notranslate"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={true}
+      />
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render with minibag modifier 1`] = `
+<button
+  className="WishlistButton notranslate WishlistButton--minibag"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={false}
+        modifier="minibag"
+      />
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render with pdp modifier 1`] = `
+<button
+  className="WishlistButton notranslate WishlistButton--pdp"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={false}
+        modifier="pdp"
+      />
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render with plp modifier 1`] = `
+<button
+  className="WishlistButton notranslate WishlistButton--plp"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={false}
+        modifier="plp"
+      />
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<WishlistButtonComponent /> @renders should render with quickview modifier 1`] = `
+<button
+  className="WishlistButton notranslate WishlistButton--quickview"
+  onClick={[MockFunction]}
+>
+  <div>
+    <span
+      className="WishlistButton-icon"
+    >
+      <WishListIcon
+        id="wishlistIcon"
+        isAdding={false}
+        isSelected={false}
+        modifier="quickview"
+      />
+    </span>
+  </div>
+</button>
+`;

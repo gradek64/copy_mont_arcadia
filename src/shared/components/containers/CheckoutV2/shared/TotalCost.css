@@ -1,0 +1,9 @@
+/** @define TotalCost */
+
+.TotalCost {
+  font-family: $font-family-h3;
+  font-size: $font-size-h3;
+  padding-top: $checkout-container-margin-vertical;
+  text-align: right;
+  margin-bottom: 10px;
+}

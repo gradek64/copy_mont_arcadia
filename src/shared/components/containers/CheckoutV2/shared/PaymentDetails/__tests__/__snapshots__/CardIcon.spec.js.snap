@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardIcon/> @renders should render default state correctly 1`] = `
+<img
+  alt=""
+  className="PaymentMethodOption-icon"
+  key="icon.svg"
+  src="/assets/common/images/icon.svg"
+/>
+`;

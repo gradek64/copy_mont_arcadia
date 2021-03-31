@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutContainer V2/> @renders in children state 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row "
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    >
+      <Connect(CheckoutMessage) />
+      children
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders in default state 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row "
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    >
+      <Connect(CheckoutMessage) />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders in stage other than login and having a populated basket 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row "
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    >
+      <Connect(CheckoutMessage) />
+    </div>
+    <div
+      className="CheckoutContainer-groupRight"
+    >
+      <Connect(WithRestrictedActionDispatch(Connect(CheckoutBagSide)))
+        orderSummary={
+          Object {
+            "basket": Object {
+              "orderId": 1661608,
+            },
+          }
+        }
+        showDiscounts={true}
+      />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders in threeDSecurePrompt state 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row "
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    >
+      <Connect(CheckoutMessage) />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders on collect-from-store page 1`] = `
+<section
+  className="CheckoutContainer CheckoutContainer-collectFromStore"
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row is-hidden"
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    >
+      <Connect(CheckoutMessage) />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders on login page 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row is-hidden"
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    />
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders should not render CheckoutMessage component when there is a sessionError 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row "
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    />
+  </div>
+</section>
+`;
+
+exports[`<CheckoutContainer V2/> @renders should render the ContactBanner component 1`] = `
+<section
+  className="CheckoutContainer "
+  role="main"
+>
+  <div
+    className="CheckoutContainer-row "
+  >
+    <div
+      className="CheckoutContainer-fullWidth"
+    >
+      <Connect(CheckoutProgressTracker) />
+    </div>
+  </div>
+  <Connect(ContactBanner) />
+  <div
+    className="CheckoutContainer-row"
+  >
+    <div
+      className="CheckoutContainer-groupLeft"
+    />
+  </div>
+</section>
+`;

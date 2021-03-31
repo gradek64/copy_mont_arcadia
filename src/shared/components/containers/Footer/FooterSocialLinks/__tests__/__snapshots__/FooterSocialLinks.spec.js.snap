@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterSocialLinks /> @renders in default state 1`] = `
+<div
+  className="FooterSocialLinks undefined"
+>
+  <a
+    className="FooterSocialLinks-icon"
+    href="//www.facebook.com/topman"
+    key="facebook00.svg"
+    target="_blank"
+  >
+    <Connect(Image)
+      className="FooterSocialLinks-image"
+      lazyLoad={true}
+      src="/assets/topman/images/social/facebook00.svg"
+    />
+  </a>
+  <a
+    className="FooterSocialLinks-icon"
+    href="//www.twitter.com/topman"
+    key="twitter00.svg"
+    target="_blank"
+  >
+    <Connect(Image)
+      className="FooterSocialLinks-image"
+      lazyLoad={true}
+      src="/assets/topman/images/social/twitter00.svg"
+    />
+  </a>
+  <a
+    className="FooterSocialLinks-icon"
+    href="//www.instagram.com/topman/"
+    key="instagram000.svg"
+    target="_blank"
+  >
+    <Connect(Image)
+      className="FooterSocialLinks-image"
+      lazyLoad={true}
+      src="/assets/topman/images/social/instagram000.svg"
+    />
+  </a>
+  <a
+    className="FooterSocialLinks-icon"
+    href="//www.snapchat.com/add/topman_snaps"
+    key="snapchat00.svg"
+    target="_blank"
+  >
+    <Connect(Image)
+      className="FooterSocialLinks-image"
+      lazyLoad={true}
+      src="/assets/topman/images/social/snapchat00.svg"
+    />
+  </a>
+  <a
+    className="FooterSocialLinks-icon"
+    href="//pinterest.com/topman/"
+    key="pintrest00.svg"
+    target="_blank"
+  >
+    <Connect(Image)
+      className="FooterSocialLinks-image"
+      lazyLoad={true}
+      src="/assets/topman/images/social/pintrest00.svg"
+    />
+  </a>
+  <a
+    className="FooterSocialLinks-icon"
+    href="//topman.tumblr.com/"
+    key="tumbler00.svg"
+    target="_blank"
+  >
+    <Connect(Image)
+      className="FooterSocialLinks-image"
+      lazyLoad={true}
+      src="/assets/topman/images/social/tumbler00.svg"
+    />
+  </a>
+</div>
+`;

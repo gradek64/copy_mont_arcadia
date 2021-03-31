@@ -1,0 +1,248 @@
+pipeline {
+    agent { label 'monty-e2e' }
+
+    parameters {
+        string(name: 'GIT_BUILD', defaultValue: '',
+               description: 'Build a specific commit id')
+        booleanParam(name: 'QUBIT_DISABLED', defaultValue: true,
+               description: 'Disable all Qubit experiences/tests')
+        booleanParam(name: 'COOKIE_MESSAGE', defaultValue: true,
+               description: 'Disable the cookie message overlay')
+        choice(name: 'API',    choices: 'STAGE\nMONTYPROD\nEBT\nTOMCATEBT\nPPLIVE\nDEVELOPMENT\nLIVE\nTOMCATPROD\nREDIS\nPPLIVEFFS\nWCSPOC',
+               description: 'Which API to use')
+        choice(name: 'WDIO_ENVIRONMENT', choices: 'local\nstage\nstage-aws\nintegration\ncheckout\nshowcase\nproduction\nepam\nmonty-ebt-test\nperf\nmrcms\npreprod\nno-cdn\nstage-json\nshowcase-json\nintegration-json\nstage-scrapi\nshowcase-scrapi\nintegration-scrapi',
+               description: 'Environment to run test against. NB: branch is only used when testing locally.\nIMPORTANT - This repoints the test suite and the browser to the URL or this hosted environment, for instance selecting "production" will use the URL "http://m.topshop.com"\n                         selecting anything other than local will over right the API selection made.')
+        choice(name: 'CUCUMBER_TAGS', choices: '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop,~@sofort,~@klarna\n' +
+                                               '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop,~@not_stage_env\n' +
+                                               '~@wip,~@broken,~@smoke,~@desktop\n' +
+                                               '@browserStackMobile,~@wip,~@broken\n' +
+                                               '@brand_testing,~@wip,~@broken\n' +
+                                               '@regression,~@wip,~@broken\n' +
+                                               '@smoke,~@wip,~@broken',
+               description: '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop ==> Default set of tests\n' +
+                            '~@wip,~@broken,~@realCheckout,~@smoke,~@desktop,~@not_stage_env ==> Showcase\n' +
+                            '~@wip,~@broken,~@smoke,~@desktop ==> default set of tests plus additional checkout tests\n' +
+                            '@browserStackMobile,~@wip,~@broken ==>  BrowserStack only tests\n' +
+                            '@brand_testing,~@wip,~@broken ==> runs brand sites test - opens the home page for all brand urls configured in the hosts file\n' +
+                            '@regression,~@wip,~@broken ==> Nightly regression tests\n' +
+                            '@smoke,~@wip,~@broken ==> Production smoke tests')
+        choice(name: 'WDIO_BRAND', choices: 'tsuk\nbreu\nbruk\nevde\neveu\nevuk\nevus\nmseu\nmsfr\nmsde\nmsus\nmsuk\ndpeu\ndpus\ndpuk\ntmeu\ntmfr\ntmuk\ntmde\ntmus\ntseu\ntsfr\ntsde\ntsus\ntsuk\nwlde\nwluk\nwleu\nwlus',
+               description: 'Brand to run test against')
+        choice(name: 'BREAKPOINT', choices: 'mobileM\nmobileL\nmobileS\ntablet\ndesktop',
+               description: 'Device type breakpoints for responsive layout:\n  mobileS: [320, 480]\n  mobileM: [375, 667]\n  mobileL: [425, 974]\n  tablet: [768, 1024]\n  desktop: [1080, 1920]')
+        choice(name: 'MAX_INSTANCES', choices: '4\n1\n2\n3\n5\n6\n7',
+               description: '')
+        choice(name: 'WDIO_LOG_LEVEL', choices: 'error\nsilent\nverbose\ncommand\ndata\nresult',
+               description: 'WebDriverIO level of logging verbosity. Default to \'error\'')
+        booleanParam(name: 'ENABLE_DEBUG', defaultValue: true,
+               description: 'Enable or disable the debug output of the application')
+        string(name: 'JENKINS_PRODUCTS', defaultValue: '',
+               description: 'this allows you to provide a set of products (, deliminated with no spaces) to override the standard brand products that will be used by jenkins. leave this blank to run the standard products in the test suite.\n\nThis should only be used when having real problems on endecca and have to scale the products to one (or more) known good product types for the environment you wish to run on.')
+        choice(name: 'BROWSER_NAME', choices: 'chrome\nphantomjs',
+               description: '')
+        choice(name: 'WDIO_FORCE_MOBILE_ONLY_TEST', choices: 'false\ntrue',
+               description: 'Force build to run mobile only test code. Please make sure CUCUMBER_TAGS and BREAKPOINT is set correctly')
+        booleanParam(name: 'WDIO_BROWSERSTACK', defaultValue: false,
+               description: 'Run test on Browserstack. Overrides BROWSER_NAME as we\'re setting a fixed list of devices to test on')
+        booleanParam(name: 'CMS_TEST_MODE', defaultValue: false,
+               description: 'Mock all CMS content')
+        string(name: 'LEGACY_CMS_URL', defaultValue: 'stage-monty-scraper.digital.arcadiagroup.co.uk',
+               description: 'Legacy CMS URL')
+        string(name: 'LEGACY_CMS_PORT', defaultValue: '443',
+               description: 'Legacy CMS PORT')
+        booleanParam(name: 'LEGACY_CMS_TEST_MODE', defaultValue: true,
+               description: 'Mock all Legacy CMS content')
+        string(name: 'LEGACY_CMS_PROTOCOL', defaultValue: 'https',
+               description: 'Legacy CMS PROTOCOL')
+        choice(name: 'USE_NEW_HANDLER', choices: 'true\nfalse', description: 'Enable the use of CoreAPI with v1 e2e test suite.')
+        choice(name: 'WCS_ENVIRONMENT', choices: 'tst1\nacc1\nperf1\nprd1live\nprd1stage\nprod\ntst1live\ntst1stage',
+               description: 'WCS JSON environment, Please make sure USE_NEW_HANDLER is set to TRUE as well.')
+        string(name: 'FEATURE_FLAG_BRANCH', defaultValue: 'develop',
+               description: 'monty-feature-flags git branch')
+    }
+    options {
+        // discard old builds: 30 days / 200 builds
+        buildDiscarder(logRotator(numToKeepStr: '200', artifactNumToKeepStr: '200'))
+
+        timestamps()
+
+        skipDefaultCheckout()
+    }
+
+    stages {
+        stage('GH') {
+            steps {
+              script {
+                  checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    currentBuild.description = "${params.API}.api on ${params.WDIO_ENVIRONMENT}"
+                    //workaround for https://issues.jenkins-ci.org/browse/JENKINS-40574
+                    println "Dumping following parameters into environment variables"
+                    for(entry in params) {
+                        println entry.key + " - " + entry.value
+                        env."${entry.key}" = entry.value
+                    }
+                }
+
+                githubNotify context: 'jenkins e2e tests', status: 'PENDING', description: 'Starting e2e tests', targetUrl: env.BUILD_URL
+            }
+        }
+
+        stage("Docker monty, monty_tests") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    // NOTE: This is stage is different to the other checkout stages, we need to look for a matching feature branch and fallback to develop, if there is no monty-feature-flag branch
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    sh 'mkdir -p packages/monty-feature-flags'
+                    dir('packages/monty-feature-flags') {
+                      checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'feature-config-deployment', remote: 'git@github.com:ag-digital/monty-feature-flags.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [params.FEATURE_FLAG_BRANCH, 'develop'])
+                    }
+                    withCredentials([string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                      sh 'scripts/build_and_push_ecr.sh monty monty_tests'
+                    }
+                }
+            }
+        }
+
+        stage("My Account, Checkout-Summary") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH="test/e2e/features/myAccount/**/*.feature test/e2e/features/checkout/summary/**/*.feature" scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        stage("Checkout-Billing, Checkout-Confirm, Checkout-Login") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH="test/e2e/features/checkout/billing/**/*.feature test/e2e/features/checkout/confirm/**/*.feature test/e2e/features/checkout/login/**/*.feature" scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        stage("Checkout-Delivery") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH=test/e2e/features/checkout/delivery/**/*.feature scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        stage("Checkout-Success") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH=test/e2e/features/checkout/success/**/*.feature scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        stage("Product") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH=test/e2e/features/product*/**/*.feature scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        stage("Shopping Bag") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH=test/e2e/features/shoppingBag/**/*.feature scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        stage("Everything else") {
+            steps {
+                timeout(time: 35, unit: 'MINUTES') {
+                    checkout resolveScm(source: [$class: 'GitSCMSource', credentialsId: 'full-monty-write-deploy-key', remote: 'git@github.com:ag-digital/full-monty.git', traits: [[$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'], [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]], targets: [GIT_BUILD, 'develop'])
+                    ansiColor('xterm') {
+                        sh 'FEATURES_PATH="$(for x in $(ls -d test/e2e/features/*/|grep -v -e shoppingBag -e product -e checkout -e myAccount -e step_definitions) ; do echo $x**/*.feature ; done)" scripts/build_on_demand.sh e2e'
+                    }
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/bdd*/**/*.xml'
+                    cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'test/reports/bdd'
+
+                    archiveArtifacts artifacts: 'test/e2e/screenshots/*.png', allowEmptyArchive: true
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+    }
+    post {
+        success {
+            githubNotify context: 'Jenkins e2e tests', status: 'SUCCESS', description: 'Finished e2e tests', targetUrl: env.BUILD_URL
+        }
+        failure {
+            githubNotify context: 'Jenkins e2e tests', status: 'FAILURE', description: 'Failed e2e tests', targetUrl: env.BUILD_URL
+        }
+    }
+}

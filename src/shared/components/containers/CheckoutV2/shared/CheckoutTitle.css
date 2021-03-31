@@ -1,0 +1,19 @@
+/** @define CheckoutTitle */
+
+.CheckoutTitle {
+  display: flex;
+  justify-content: space-between;
+  font-family: $font-family-h3;
+  font-size: $font-size-h3;
+  font-weight: $font-weight-h3;
+  line-height: $line-height-h3;
+  padding: $checkout-separator-height 0;
+
+  &--separator {
+     border-bottom: $checkout-divider-width solid $checkout-divider-color;
+  }
+
+  &--subheader {
+    font-size: $checkout-payment-subheader-font-size;
+  }
+}

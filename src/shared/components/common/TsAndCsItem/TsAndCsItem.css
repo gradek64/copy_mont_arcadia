@@ -1,0 +1,22 @@
+/** @define TsAndCsItem */
+
+.TsAndCsItem {
+
+  &-secondLevelItem {
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  &-secondLevelItemSubHeading {
+    text-align: center;
+    background-color: $lt-gray;
+    padding: 3px;
+    color: $md-dk-gray;
+  }
+
+  &-secondLevelItemSubHeadingText {
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+}

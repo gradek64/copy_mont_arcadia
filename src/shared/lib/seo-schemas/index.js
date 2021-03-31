@@ -1,0 +1,6 @@
+export { default as productSchema } from './productSchema'
+export { default as aggregateRatingSchema } from './aggregateRatingSchema'
+export { default as breadcrumbListSchema } from './breadcrumbListSchema'
+export { default as listItemSchema } from './listItemSchema'
+export { default as storeSchema } from './storeSchema'
+export { default as offerSchema } from './offerSchema'

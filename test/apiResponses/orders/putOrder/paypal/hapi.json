@@ -1,0 +1,5 @@
+{
+  "paypalUrl": "https://www.sandbox.paypal.com/cgi-bin/webscr?useraction=commit&token=EC-0SP81091JP484301X&cmd=_express-checkout-mobile",
+  "paymentUrl": "https://www.sandbox.paypal.com/cgi-bin/webscr?useraction=commit&token=EC-0SP81091JP484301X&cmd=_express-checkout-mobile",
+  "version": "1.10"
+}

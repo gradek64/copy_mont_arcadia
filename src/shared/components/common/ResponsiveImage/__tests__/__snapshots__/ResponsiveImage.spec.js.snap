@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponsiveImage /> @render renders correctly 1`] = `
+<Connect(Image)
+  sizes="(max-width: 767px) 1px, (max-width: 991px) 2px, 3px"
+  src="http://images.com.jpg?$w700$&qlt=80"
+  srcSet="http://images.com.jpg?$w75$&fmt.jpeg.interlaced=false&qlt=80 75w, http://images.com.jpg?$w75$&fmt.jpeg.interlaced=false&qlt=80 75w, http://images.com.jpg?$w75$&fmt.jpeg.interlaced=false&qlt=80 75w"
+  webpSrcSet="http://images.com.jpg?$w75$&fmt=webp&qlt=80 75w, http://images.com.jpg?$w75$&fmt=webp&qlt=80 75w, http://images.com.jpg?$w75$&fmt=webp&qlt=80 75w"
+/>
+`;
+
+exports[`<ResponsiveImage /> @render should provide appropriate query params to image url if useProgressiveJPG is true 1`] = `"http://images.com.jpg?$w75$&fmt.jpeg.interlaced=true&qlt=80 75w, http://images.com.jpg?$w75$&fmt.jpeg.interlaced=true&qlt=80 75w, http://images.com.jpg?$w75$&fmt.jpeg.interlaced=true&qlt=80 75w"`;
+
+exports[`<ResponsiveImage /> @render should render Image with srcSet and sizes props if isAmplienceEnabled is true 1`] = `"http://images.com.jpg?$w75$&fmt.jpeg.interlaced=false&qlt=80 75w, http://images.com.jpg?$w75$&fmt.jpeg.interlaced=false&qlt=80 75w, http://images.com.jpg?$w75$&fmt.jpeg.interlaced=false&qlt=80 75w"`;
+
+exports[`<ResponsiveImage /> @render should render Image with srcSet and sizes props if isAmplienceEnabled is true 2`] = `"(max-width: 767px) 1px, (max-width: 991px) 2px, 3px"`;
+
+exports[`<ResponsiveImage /> @render should render Image with srcSet and sizes props if isAmplienceEnabled is true 3`] = `"http://images.com.jpg?$w75$&fmt=webp&qlt=80 75w, http://images.com.jpg?$w75$&fmt=webp&qlt=80 75w, http://images.com.jpg?$w75$&fmt=webp&qlt=80 75w"`;

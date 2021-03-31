@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SandBox/> @renders renders "CMS content mocked" in case of page as object with "cmsTestMode" property set to true 1`] = `
+<div
+  className="CmsMock"
+>
+  CMS content mocked
+</div>
+`;
+
+exports[`<SandBox/> @renders renders <CmsFrame /> and the Sandbox-pageId DOM node 1`] = `
+<div
+  className="CmsFrame "
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    onChangeClientState={[Function]}
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": Object {},
+      }
+    }
+    id="Sandbox-pageUrl"
+  />
+</div>
+`;
+
+exports[`<SandBox/> @renders renders <CmsNotAvailable /> in case of page as object with no property initialBody 1`] = `<CmsNotAvailable />`;
+
+exports[`<SandBox/> @renders renders <CmsWrapper /> in case of props associated to CMS form page 1`] = `
+<Connect(CmsWrapper)
+  dataAlreadyFetchedByMrCMS={true}
+  params={
+    Object {
+      "cmsPageName": "abc",
+    }
+  }
+/>
+`;
+
+exports[`<SandBox/> @renders renders QubitReact when qubitid is provided and isFinalResponsiveEspotSolution is true 1`] = `
+<Component
+  id="id"
+>
+  <div
+    className="CmsFrame "
+  >
+    <HelmetWrapper
+      defer={true}
+      encodeSpecialCharacters={true}
+      onChangeClientState={[Function]}
+    />
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+      id="Sandbox-espotPageId"
+    />
+  </div>
+</Component>
+`;
+
+exports[`<SandBox/> @renders renders default sandbox content when qubitid is not provided and isFinalResponsiveEspotSolution is false 1`] = `
+<div
+  className="CmsFrame "
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    onChangeClientState={[Function]}
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+    id="Sandbox-espotPageId"
+  />
+</div>
+`;
+
+exports[`<SandBox/> @renders renders the <Loader /> in case of no page data available 1`] = `
+<Loader
+  className="PlpContainer-plpHeader"
+  fillColor="#000"
+  isButton={false}
+/>
+`;
+
+exports[`<SandBox/> @renders responsive CMS content 1`] = `
+<div
+  className="CmsFrame "
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    onChangeClientState={[Function]}
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<div>initial body</div>",
+      }
+    }
+    id="Sandbox-cmsPage"
+  />
+</div>
+`;

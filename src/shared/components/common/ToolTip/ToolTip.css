@@ -1,0 +1,40 @@
+/** @define ToolTip */
+
+.ToolTip {
+  position: relative;
+
+  &-content {
+    border: $tooltip-border-width solid $tooltip-border-colour;
+    background-color: $tooltip-background-colour;
+
+    &:after, &:before {
+      width: 0;
+      height: 0;
+      position: absolute;
+      border: solid transparent;
+      bottom: 100%;
+
+      content: " ";
+      margin-bottom: -$tooltip-border-width;
+    }
+
+    &:before {
+      border-width: $tooltip-arrow-border-width;
+      border-bottom-color: $tooltip-border-colour;
+      left: $tooltip-arrow-left-offset;
+    }
+
+    &:after {
+      border-width: calc($tooltip-arrow-border-width - $tooltip-border-width);
+      border-bottom-color: $tooltip-background-colour;
+      left: calc($tooltip-arrow-left-offset + $tooltip-border-width);
+    }
+
+    &.is-centered:before {
+      left: calc(50% - ($tooltip-arrow-border-width / 2));
+    }
+    &.is-centered:after {
+      left: calc(50% - ($tooltip-arrow-border-width / 2 - $tooltip-border-width));
+    }
+  }
+}

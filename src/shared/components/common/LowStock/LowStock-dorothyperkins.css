@@ -1,0 +1,54 @@
+/** @define LowStock */
+
+@media $tablet {
+  .LowStock {
+    font-size: 11px;
+  }
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  @keyframes slidein {
+    /* postcss-bem-linter: ignore */
+    0% {
+      transform: translate(20px);
+      opacity: 0;
+    }
+    /* postcss-bem-linter: ignore */
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  
+  .LowStock {
+    width: 100%;
+    line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+    padding: 0;
+
+    &-withQuantity {
+      animation-name: slidein;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      /* Disable animation for IE11 */
+      -ms-animation-name: none;
+      right: 0;
+      position: absolute;
+      width: calc(100% - 155px);
+      bottom: -45px;
+
+      &::after {
+        right: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: ' ';
+        position: absolute;
+        border-right-color: #f65757;
+        border-width: 15px;
+        margin-top: -15px;
+      }
+    }
+  }
+}

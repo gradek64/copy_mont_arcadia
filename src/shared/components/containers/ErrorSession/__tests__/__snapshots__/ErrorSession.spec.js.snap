@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorSession /> @renders should render if \`error.sessionExpired\` prop is \`true\` 1`] = `
+<div
+  className="ErrorSession ErrorSession-container "
+>
+  <div
+    className="ErrorSession-content"
+  >
+    <div
+      className="ErrorSession-icon"
+    >
+      <Connect(Image)
+        className="ErrorSession-errorImage"
+        src="/assets/{brandName}/images/error.svg"
+      />
+    </div>
+    <p
+      className="ErrorSession-details"
+    >
+      Unfortunately your session has timed out.
+    </p>
+    <Button
+      clickHandler={[Function]}
+    >
+      <span
+        className="translate"
+      >
+        Continue Shopping
+      </span>
+    </Button>
+  </div>
+</div>
+`;

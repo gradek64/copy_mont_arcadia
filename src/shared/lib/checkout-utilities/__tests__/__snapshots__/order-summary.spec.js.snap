@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order Summary fix utils removeCFSIFromOrderSummary(orderSummary) should remove Collect from Store Delivery Type from orderSummary 1`] = `
+Object {
+  "ageVerificationDeliveryConfirmationRequired": false,
+  "basket": Object {
+    "ageVerificationRequired": false,
+    "deliveryOptions": Array [
+      Object {
+        "deliveryOptionId": 28007,
+        "label": "Express / Nominated Day Delivery £6.00",
+        "selected": false,
+      },
+      Object {
+        "deliveryOptionId": 47524,
+        "label": "Collect from ParcelShop £4.00",
+        "selected": false,
+      },
+      Object {
+        "deliveryOptionId": 45020,
+        "label": "Collect From Store Express £3.00",
+        "selected": false,
+      },
+      Object {
+        "deliveryOptionId": 26504,
+        "label": "UK Standard up to 4 working days £4.00",
+        "selected": false,
+      },
+      Object {
+        "deliveryOptionId": 45019,
+        "label": "Free Collect From Store Standard £0.00",
+        "selected": true,
+      },
+    ],
+    "discounts": Array [],
+    "orderId": 345682957,
+    "products": Array [
+      Object {
+        "ageVerificationRequired": false,
+        "assets": Array [
+          Object {
+            "assetType": "IMAGE_SMALL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS32G33MPNK_Thumb_F_1.jpg",
+          },
+          Object {
+            "assetType": "IMAGE_THUMB",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS32G33MPNK_Small_F_1.jpg",
+          },
+          Object {
+            "assetType": "IMAGE_NORMAL",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS32G33MPNK_2col_F_1.jpg",
+          },
+          Object {
+            "assetType": "IMAGE_LARGE",
+            "index": 1,
+            "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS32G33MPNK_Zoom_F_1.jpg",
+          },
+        ],
+        "attributes": Object {},
+        "bundleProducts": Array [],
+        "bundleSlots": Array [],
+        "catEntryId": 29127435,
+        "colourSwatches": Array [],
+        "inStock": true,
+        "isBundleOrOutfit": false,
+        "items": Array [],
+        "lineNumber": "32G33MPNK",
+        "lowStock": true,
+        "name": "GIGGLE GHILLIE Pointed Tie-Up Heel Court Shoes",
+        "orderItemId": 911612200,
+        "productId": 29127396,
+        "quantity": 1,
+        "shipModeId": 45020,
+        "size": "35",
+        "totalPrice": "49.00",
+        "tpmLinks": Array [],
+        "unitPrice": "49.00",
+        "wasPrice": "",
+      },
+    ],
+    "promotions": Array [],
+    "restrictedDeliveryItem": false,
+    "savedProducts": Array [],
+    "subTotal": "49.00",
+    "total": "52.00",
+    "totalBeforeDiscount": "49.00",
+  },
+  "deliveryInstructions": "",
+  "deliveryLocations": Array [
+    Object {
+      "deliveryLocationType": "HOME",
+      "deliveryMethods": Array [],
+      "label": "Home Delivery Standard (UK up to 4 working days; worldwide varies)  Express (UK next or nominated day; worldwide varies)",
+      "selected": false,
+    },
+    Object {
+      "deliveryLocationType": "STORE",
+      "deliveryMethods": Array [
+        Object {
+          "additionalDescription": "Collection date Wednesday 6 September 2017",
+          "deliveryOptions": Array [],
+          "deliveryType": "STORE_STANDARD",
+          "label": "Collect From Store Standard",
+          "selected": true,
+          "shipCode": "Retail Store Standard",
+          "shipModeId": 45019,
+        },
+      ],
+      "label": "Collect from Store Standard (3-7 working days) Express (next day)",
+      "selected": true,
+    },
+  ],
+  "estimatedDelivery": Array [
+    "No later than Saturday 5 August 2017",
+  ],
+  "giftCards": Array [],
+  "savedAddresses": Array [],
+  "shippingCountry": "United Kingdom",
+  "smsMobileNumber": "",
+  "version": "1.6",
+}
+`;

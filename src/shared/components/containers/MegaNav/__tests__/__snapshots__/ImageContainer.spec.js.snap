@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageContainer /> @renders should render default state 1`] = `
+<div>
+  <Connect(Image)
+    alt="This is a label"
+    className="MegaNav-image"
+    lazyLoad={true}
+    src="https://www.topman.com/image/imageName"
+    style={
+      Object {
+        "paddingTop": 20,
+      }
+    }
+  />
+</div>
+`;

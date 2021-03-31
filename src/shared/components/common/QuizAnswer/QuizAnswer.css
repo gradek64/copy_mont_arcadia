@@ -1,0 +1,83 @@
+/** @define QuizAnswer */
+@lost flexbox flex;
+
+.QuizAnswer {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 0 20px 10px;
+  box-sizing: border-box;
+  z-index: -1;
+  background: $white;
+  
+  &.is-shown {
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+
+  &-image {
+    margin: 0 -20px;
+    width: calc(100% + 40px);
+  }
+
+  &-name {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: $quiz-color;
+    padding: 10px 0 5px;
+    margin: 10px 0;
+    border-top: 1px solid $quiz-color;
+    border-bottom: 1px solid $quiz-color;
+  }
+
+  &-description {
+    text-transform: uppercase;
+    font-family: $font-family-quiz;
+    color: $quiz-color;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    white-space: pre-line;
+  }
+
+  &-listTitle {
+    color: $quiz-color;
+    text-transform: uppercase;
+  }
+
+  &-list {
+    padding: 0;
+    list-style: none;
+    margin-top: 5px;
+    font-family: $font-family-secondary;
+  }
+
+  &-listItem {
+    margin-bottom: 5px;
+  }
+
+  &-buttonContainer {
+    display: flex;
+  }
+
+  &-button, &-retryButton {
+    font-family: $font-family-quiz;
+    min-height: 0;
+  }
+
+  &-button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-retryButton {
+    text-align: left;
+    padding: 5px;
+    background: $quiz-color;
+    border-color: $quiz-color;
+    font-size: 0.95em;
+  }
+}

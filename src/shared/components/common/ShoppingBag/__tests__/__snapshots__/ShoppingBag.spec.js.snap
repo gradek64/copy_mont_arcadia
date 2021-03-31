@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShoppingBag /> Render should match snapshot 1`] = `
+<div
+  className="ShoppingBag class"
+>
+  <Connect(OrderProducts)
+    allowEmptyBag={true}
+    allowMoveToWishlist={true}
+    products={Array []}
+    scrollOnEdit={[Function]}
+    shouldProductsLinkToPdp={true}
+    socialProofView="minibag"
+  />
+  <Component
+    id="qubit-minibag-shopping-bag-espot"
+  />
+</div>
+`;

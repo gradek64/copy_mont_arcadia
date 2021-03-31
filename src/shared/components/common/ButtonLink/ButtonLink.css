@@ -1,0 +1,12 @@
+/** @define ButtonLink */
+
+.ButtonLink {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
+  &-button {
+    text-decoration: underline;
+    padding: $cta-gutter 0;
+  }
+}

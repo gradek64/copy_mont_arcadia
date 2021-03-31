@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Categories/> renders empty div when no data given 1`] = `
+<Connect(Categories)>
+  <Categories
+    clearInfinityPage={[Function]}
+    navigation={
+      Object {
+        "categoryHistory": Array [],
+        "error": Object {},
+        "footerCategories": Array [],
+        "helpAndInfoGroup": Array [],
+        "megaNav": Object {},
+        "megaNavHeight": 0,
+        "megaNavSelectedCategory": "",
+        "menuLinks": Array [],
+        "productCategories": Array [],
+        "userDetailsGroup": Array [],
+      }
+    }
+    pushCategoryHistory={[Function]}
+    resetCategoryHistory={[Function]}
+    toggleScrollToTop={[Function]}
+    toggleTopNavMenu={[Function]}
+  >
+    <div />
+  </Categories>
+</Connect(Categories)>
+`;

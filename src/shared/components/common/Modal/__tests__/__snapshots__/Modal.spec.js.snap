@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal/> @renders in closed state 1`] = `
+<div
+  aria-label="Modal"
+  className="Modal Modal--normal"
+  onKeyDown={[Function]}
+>
+  <button
+    className="Modal-closeIcon"
+    onClick={[Function]}
+  >
+    <span
+      aria-hidden={true}
+    >
+      ×
+    </span>
+    <AccessibleText>
+      Close modal (can also press escape key to close).
+    </AccessibleText>
+  </button>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<div>this is a demo modal</div>",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Modal/> @renders in default state 1`] = `
+<div
+  aria-label="Modal"
+  className="Modal is-shown Modal--normal"
+  onKeyDown={[Function]}
+>
+  <button
+    className="Modal-closeIcon"
+    onClick={[Function]}
+  >
+    <span
+      aria-hidden={true}
+    >
+      ×
+    </span>
+    <AccessibleText>
+      Close modal (can also press escape key to close).
+    </AccessibleText>
+  </button>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<div>this is a demo modal</div>",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Modal/> @renders in dialog state 1`] = `
+<div
+  aria-label="Modal"
+  className="Modal is-shown Modal--normal"
+  onKeyDown={[Function]}
+  role="dialog"
+>
+  <button
+    className="Modal-closeIcon"
+    onClick={[Function]}
+  >
+    <span
+      aria-hidden={true}
+    >
+      ×
+    </span>
+    <AccessibleText>
+      Close modal (can also press escape key to close).
+    </AccessibleText>
+  </button>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<div>this is a demo modal</div>",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Modal/> @renders when modalChildren is a node 1`] = `
+<div
+  aria-label="Modal"
+  className="Modal is-shown Modal--normal"
+  onKeyDown={[Function]}
+>
+  <button
+    className="Modal-closeIcon"
+    onClick={[Function]}
+  >
+    <span
+      aria-hidden={true}
+    >
+      ×
+    </span>
+    <AccessibleText>
+      Close modal (can also press escape key to close).
+    </AccessibleText>
+  </button>
+  <div
+    className="Modal-children"
+  >
+    <span
+      prop1={32}
+      prop2={44}
+    >
+      hello world
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,42 @@
+/* postcss-bem-linter: ignore */
+h1:first-letter {
+  text-transform: $text-transform-h1-first-letter;
+}
+
+/* postcss-bem-linter: ignore */
+h2:first-letter {
+  text-transform: $text-transform-h2-first-letter
+}
+
+/* postcss-bem-linter: ignore */
+h3:first-letter,
+.h3:first-letter {
+  text-transform: $text-transform-h3-first-letter
+}
+
+/* postcss-bem-linter: ignore */
+h4 {
+  font-family: $font-family-h4;
+  font-size: $font-size-h4;
+  line-height: $line-height-h4;
+  font-weight: $font-weight-h4;
+  text-transform: $text-transform-h4;
+  color: $font-color-h4;
+  text-shadow: $text-shadow-h4;
+  letter-spacing: $letter-spacing-h4;
+}
+
+/* postcss-bem-linter: ignore */
+h5 {
+  font-family: $font-family-h5;
+  font-size: $font-size-h5;
+  line-height: $line-height-h5;
+  font-weight: $font-weight-h5;
+  text-shadow: $text-shadow-h5;
+  letter-spacing: $letter-spacing-h5;
+}
+
+/* postcss-bem-linter: ignore */
+h4:first-letter {
+  text-transform: $text-transform-h4-first-letter
+}

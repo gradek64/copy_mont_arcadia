@@ -1,0 +1,5 @@
+{
+    "statusCode": 422,
+    "error": "Unprocessable Entity",
+    "message": "The email address or password you entered has not been found. Please enter them again."
+}

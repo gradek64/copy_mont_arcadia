@@ -1,0 +1,22 @@
+/** @define QuickViewOrderSummary */
+
+.QuickViewOrderSummary {
+  &-button {
+    margin: -10px -$page-padding 0;
+    width: calc(100% + 2 * $page-padding);
+
+    &:after {
+      position: absolute;
+      content: '>';
+      right: 20px;
+    }
+  }
+}
+
+@media $min-tablet {
+  .QuickViewOrderSummary {
+    &-button {
+      display: none;
+    }
+  }
+}

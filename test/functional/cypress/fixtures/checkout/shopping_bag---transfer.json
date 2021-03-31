@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "message": "Item(s) successfully added to your shopping bag.",
+  "items": 1,
+  "total": 13,
+  "orderId": 444379368,
+  "productDetails": [
+    {
+      "orderItemId": 1159864494,
+      "productId": 34944043,
+      "catentryId": 34947402,
+      "lineNumber": "19K02RBLK",
+      "title": "Black Topstitch Bucket Hat",
+      "imageUrl": "https://images.topshop.com/i/TopShop/TS19K02RBLK_M_1.jpg?$Thumb$",
+      "baseImageUrl": "https://images.topshop.com/i/TopShop/TS19K02RBLK_M_1",
+      "size": "ONE",
+      "quantity": 1,
+      "avlQuantity": 10,
+      "From": "",
+      "offerPriceFromFlag": "",
+      "miniBagWasPrice": 26,
+      "miniBagNowPrice": 13,
+      "price": {
+        "was1Price": null,
+        "was2Price": null,
+        "nowPrice": 13
+      },
+      "total": 13
+    }
+  ],
+  "espot": ""
+}

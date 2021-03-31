@@ -1,0 +1,2218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressForm /> @renders should render default with isDesktopMultiColumnStyle=false 1`] = `
+AddressForm {
+  "context": Object {
+    "l": [MockFunction],
+  },
+  "handleAccordionToggle": [Function],
+  "handleAddressChange": [Function],
+  "handleFindAddressRequest": [Function],
+  "handleSwitchToFindAddress": [Function],
+  "handleSwitchToManualAddress": [Function],
+  "props": Object {
+    "addressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "addressType": "billingCheckout",
+    "addressValidationSchema": Object {},
+    "canFindAddress": true,
+    "clearFormErrors": [Function],
+    "clearFormFieldError": [Function],
+    "countries": Array [],
+    "country": "United Kingdom",
+    "countryCode": "GBR",
+    "detailsForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "detailsValidationSchema": Object {},
+    "findAddress": [Function],
+    "findAddressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "findAddressValidationSchema": Object {},
+    "findExactAddressByMoniker": [Function],
+    "formNames": Object {
+      "address": "billingAddress",
+      "details": "billingDetails",
+      "findAddress": "billingFindAddress",
+    },
+    "isCheckout": false,
+    "isDesktopMultiColumnStyle": false,
+    "isFindAddressVisible": false,
+    "onSelectCountry": [Function],
+    "postCodeRules": Object {
+      "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+      "postcodeLabel": "Postcode",
+      "postcodeRequired": true,
+      "premisesLabel": "House number",
+      "premisesRequired": false,
+      "stateFieldType": false,
+    },
+    "resetForm": [Function],
+    "resetFormPartial": [Function],
+    "schemaHash": "",
+    "sendEventAnalytics": [Function],
+    "setAndValidateFormField": [MockFunction],
+    "setFormField": [Function],
+    "shouldDisplayDeliveryInstructions": true,
+    "showModal": [Function],
+    "siteDeliveryISOs": Array [
+      "GB",
+      "AU",
+      "DK",
+      "SE",
+      "NZ",
+      "BG",
+      "CA",
+      "CN",
+      "HR",
+      "CZ",
+      "HU",
+      "IN",
+      "ID",
+      "LT",
+      "MY",
+      "PL",
+      "RO",
+      "TR",
+      "HK",
+      "KR",
+      "AL",
+      "AM",
+      "BA",
+      "FO",
+      "MD",
+      "AZ",
+      "KZ",
+      "KG",
+      "AI",
+      "BS",
+      "BD",
+      "BB",
+      "BM",
+      "BO",
+      "BN",
+      "KH",
+      "KY",
+      "CF",
+      "CO",
+      "CK",
+      "DJ",
+      "ER",
+      "FK",
+      "GF",
+      "GM",
+      "GL",
+      "GP",
+      "GY",
+      "JM",
+      "KE",
+      "KI",
+      "MO",
+      "MG",
+      "MV",
+      "MH",
+      "MX",
+      "MA",
+      "NP",
+      "NC",
+      "NE",
+      "PK",
+      "PA",
+      "PR",
+      "WS",
+      "ST",
+      "SC",
+      "SB",
+      "ZA",
+      "LK",
+      "KN",
+      "LC",
+      "PM",
+      "SR",
+      "TW",
+      "TG",
+      "TN",
+      "TM",
+      "TV",
+      "VU",
+      "VN",
+      "VG",
+      "VC",
+      "GS",
+      "RS",
+      "JE",
+      "GG",
+      "JP",
+    ],
+    "titleHidden": true,
+    "touchedFormField": [Function],
+    "usStates": Array [],
+    "validateDDPForCountry": [Function],
+    "validateForm": [Function],
+  },
+  "refs": Object {},
+  "setAndValidateAddressField": [Function],
+  "setAndValidateFindAddressField": [Function],
+  "state": Object {
+    "deliveryAccordion": false,
+    "monikers": Array [],
+  },
+  "touchField": [Function],
+  "trimOnBlur": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {
+        "l": [MockFunction],
+      },
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <AddressForm
+        addressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        addressType="billingCheckout"
+        addressValidationSchema={Object {}}
+        canFindAddress={true}
+        clearFormErrors={[Function]}
+        clearFormFieldError={[Function]}
+        countries={Array []}
+        country="United Kingdom"
+        countryCode="GBR"
+        detailsForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        detailsValidationSchema={Object {}}
+        findAddress={[Function]}
+        findAddressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        findAddressValidationSchema={Object {}}
+        findExactAddressByMoniker={[Function]}
+        formNames={
+          Object {
+            "address": "billingAddress",
+            "details": "billingDetails",
+            "findAddress": "billingFindAddress",
+          }
+        }
+        isCheckout={false}
+        isDesktopMultiColumnStyle={false}
+        isFindAddressVisible={false}
+        onSelectCountry={[Function]}
+        postCodeRules={
+          Object {
+            "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+            "postcodeLabel": "Postcode",
+            "postcodeRequired": true,
+            "premisesLabel": "House number",
+            "premisesRequired": false,
+            "stateFieldType": false,
+          }
+        }
+        resetForm={[Function]}
+        resetFormPartial={[Function]}
+        schemaHash=""
+        sendEventAnalytics={[Function]}
+        setAndValidateFormField={[MockFunction]}
+        setFormField={[Function]}
+        shouldDisplayDeliveryInstructions={true}
+        showModal={[Function]}
+        siteDeliveryISOs={
+          Array [
+            "GB",
+            "AU",
+            "DK",
+            "SE",
+            "NZ",
+            "BG",
+            "CA",
+            "CN",
+            "HR",
+            "CZ",
+            "HU",
+            "IN",
+            "ID",
+            "LT",
+            "MY",
+            "PL",
+            "RO",
+            "TR",
+            "HK",
+            "KR",
+            "AL",
+            "AM",
+            "BA",
+            "FO",
+            "MD",
+            "AZ",
+            "KZ",
+            "KG",
+            "AI",
+            "BS",
+            "BD",
+            "BB",
+            "BM",
+            "BO",
+            "BN",
+            "KH",
+            "KY",
+            "CF",
+            "CO",
+            "CK",
+            "DJ",
+            "ER",
+            "FK",
+            "GF",
+            "GM",
+            "GL",
+            "GP",
+            "GY",
+            "JM",
+            "KE",
+            "KI",
+            "MO",
+            "MG",
+            "MV",
+            "MH",
+            "MX",
+            "MA",
+            "NP",
+            "NC",
+            "NE",
+            "PK",
+            "PA",
+            "PR",
+            "WS",
+            "ST",
+            "SC",
+            "SB",
+            "ZA",
+            "LK",
+            "KN",
+            "LC",
+            "PM",
+            "SR",
+            "TW",
+            "TG",
+            "TN",
+            "TM",
+            "TV",
+            "VU",
+            "VN",
+            "VG",
+            "VC",
+            "GS",
+            "RS",
+            "JE",
+            "GG",
+            "JP",
+          ]
+        }
+        titleHidden={true}
+        touchedFormField={[Function]}
+        usStates={Array []}
+        validateDDPForCountry={[Function]}
+        validateForm={[Function]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <section
+        aria-label="AddressForm"
+        className="AddressForm"
+      >
+        <div
+          className="AddressForm-row"
+        >
+          <WithQubit
+            id="qubit-hide-delivery-country"
+            shouldUseQubit={false}
+          >
+            <Connect(CountrySelect)
+              addressType="billingCheckout"
+            />
+          </WithQubit>
+          <div
+            className="AddressForm-col"
+          >
+             
+          </div>
+        </div>
+        <React.Fragment>
+          <ManualAddress
+            addressForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            addressType="billingCheckout"
+            addressValidationSchema={Object {}}
+            canFindAddress={true}
+            clearFormErrors={[Function]}
+            clearFormFieldError={[Function]}
+            countries={Array []}
+            country="United Kingdom"
+            countryCode="GBR"
+            detailsForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            detailsValidationSchema={Object {}}
+            findAddress={[Function]}
+            findAddressForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            findAddressValidationSchema={Object {}}
+            findExactAddressByMoniker={[Function]}
+            formNames={
+              Object {
+                "address": "billingAddress",
+                "details": "billingDetails",
+                "findAddress": "billingFindAddress",
+              }
+            }
+            handleSwitchToFindAddress={[Function]}
+            isCheckout={false}
+            isDesktopMultiColumnStyle={false}
+            isFindAddressVisible={false}
+            onBlur={[Function]}
+            onSelectCountry={[Function]}
+            postCodeRules={
+              Object {
+                "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+                "postcodeLabel": "Postcode",
+                "postcodeRequired": true,
+                "premisesLabel": "House number",
+                "premisesRequired": false,
+                "stateFieldType": false,
+              }
+            }
+            resetForm={[Function]}
+            resetFormPartial={[Function]}
+            schemaHash=""
+            sendEventAnalytics={[Function]}
+            setAndValidateAddressField={[Function]}
+            setAndValidateFormField={[MockFunction]}
+            setFormField={[Function]}
+            shouldDisplayDeliveryInstructions={true}
+            shouldResetFormOnUnmount={false}
+            showModal={[Function]}
+            siteDeliveryISOs={
+              Array [
+                "GB",
+                "AU",
+                "DK",
+                "SE",
+                "NZ",
+                "BG",
+                "CA",
+                "CN",
+                "HR",
+                "CZ",
+                "HU",
+                "IN",
+                "ID",
+                "LT",
+                "MY",
+                "PL",
+                "RO",
+                "TR",
+                "HK",
+                "KR",
+                "AL",
+                "AM",
+                "BA",
+                "FO",
+                "MD",
+                "AZ",
+                "KZ",
+                "KG",
+                "AI",
+                "BS",
+                "BD",
+                "BB",
+                "BM",
+                "BO",
+                "BN",
+                "KH",
+                "KY",
+                "CF",
+                "CO",
+                "CK",
+                "DJ",
+                "ER",
+                "FK",
+                "GF",
+                "GM",
+                "GL",
+                "GP",
+                "GY",
+                "JM",
+                "KE",
+                "KI",
+                "MO",
+                "MG",
+                "MV",
+                "MH",
+                "MX",
+                "MA",
+                "NP",
+                "NC",
+                "NE",
+                "PK",
+                "PA",
+                "PR",
+                "WS",
+                "ST",
+                "SC",
+                "SB",
+                "ZA",
+                "LK",
+                "KN",
+                "LC",
+                "PM",
+                "SR",
+                "TW",
+                "TG",
+                "TN",
+                "TM",
+                "TV",
+                "VU",
+                "VN",
+                "VG",
+                "VC",
+                "GS",
+                "RS",
+                "JE",
+                "GG",
+                "JP",
+              ]
+            }
+            titleHidden={true}
+            touchField={[Function]}
+            touchedFormField={[Function]}
+            usStates={Array []}
+            validateDDPForCountry={[Function]}
+            validateForm={[Function]}
+          />
+        </React.Fragment>
+      </section>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`<AddressForm /> @renders should render multi column form when isDesktopMultiColumnStyle prop is true 1`] = `
+AddressForm {
+  "context": Object {
+    "l": [MockFunction],
+  },
+  "handleAccordionToggle": [Function],
+  "handleAddressChange": [Function],
+  "handleFindAddressRequest": [Function],
+  "handleSwitchToFindAddress": [Function],
+  "handleSwitchToManualAddress": [Function],
+  "props": Object {
+    "addressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "addressType": "billingCheckout",
+    "addressValidationSchema": Object {},
+    "canFindAddress": true,
+    "clearFormErrors": [Function],
+    "clearFormFieldError": [Function],
+    "countries": Array [],
+    "country": "United Kingdom",
+    "countryCode": "GBR",
+    "detailsForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "detailsValidationSchema": Object {},
+    "findAddress": [Function],
+    "findAddressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "findAddressValidationSchema": Object {},
+    "findExactAddressByMoniker": [Function],
+    "formNames": Object {
+      "address": "billingAddress",
+      "details": "billingDetails",
+      "findAddress": "billingFindAddress",
+    },
+    "isCheckout": false,
+    "isDesktopMultiColumnStyle": true,
+    "isFindAddressVisible": false,
+    "onSelectCountry": [Function],
+    "postCodeRules": Object {
+      "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+      "postcodeLabel": "Postcode",
+      "postcodeRequired": true,
+      "premisesLabel": "House number",
+      "premisesRequired": false,
+      "stateFieldType": false,
+    },
+    "resetForm": [Function],
+    "resetFormPartial": [Function],
+    "schemaHash": "",
+    "sendEventAnalytics": [Function],
+    "setAndValidateFormField": [MockFunction],
+    "setFormField": [Function],
+    "shouldDisplayDeliveryInstructions": true,
+    "showModal": [Function],
+    "siteDeliveryISOs": Array [
+      "GB",
+      "AU",
+      "DK",
+      "SE",
+      "NZ",
+      "BG",
+      "CA",
+      "CN",
+      "HR",
+      "CZ",
+      "HU",
+      "IN",
+      "ID",
+      "LT",
+      "MY",
+      "PL",
+      "RO",
+      "TR",
+      "HK",
+      "KR",
+      "AL",
+      "AM",
+      "BA",
+      "FO",
+      "MD",
+      "AZ",
+      "KZ",
+      "KG",
+      "AI",
+      "BS",
+      "BD",
+      "BB",
+      "BM",
+      "BO",
+      "BN",
+      "KH",
+      "KY",
+      "CF",
+      "CO",
+      "CK",
+      "DJ",
+      "ER",
+      "FK",
+      "GF",
+      "GM",
+      "GL",
+      "GP",
+      "GY",
+      "JM",
+      "KE",
+      "KI",
+      "MO",
+      "MG",
+      "MV",
+      "MH",
+      "MX",
+      "MA",
+      "NP",
+      "NC",
+      "NE",
+      "PK",
+      "PA",
+      "PR",
+      "WS",
+      "ST",
+      "SC",
+      "SB",
+      "ZA",
+      "LK",
+      "KN",
+      "LC",
+      "PM",
+      "SR",
+      "TW",
+      "TG",
+      "TN",
+      "TM",
+      "TV",
+      "VU",
+      "VN",
+      "VG",
+      "VC",
+      "GS",
+      "RS",
+      "JE",
+      "GG",
+      "JP",
+    ],
+    "titleHidden": true,
+    "touchedFormField": [Function],
+    "usStates": Array [],
+    "validateDDPForCountry": [Function],
+    "validateForm": [Function],
+  },
+  "refs": Object {},
+  "setAndValidateAddressField": [Function],
+  "setAndValidateFindAddressField": [Function],
+  "state": Object {
+    "deliveryAccordion": false,
+    "monikers": Array [],
+  },
+  "touchField": [Function],
+  "trimOnBlur": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {
+        "l": [MockFunction],
+      },
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <AddressForm
+        addressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        addressType="billingCheckout"
+        addressValidationSchema={Object {}}
+        canFindAddress={true}
+        clearFormErrors={[Function]}
+        clearFormFieldError={[Function]}
+        countries={Array []}
+        country="United Kingdom"
+        countryCode="GBR"
+        detailsForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        detailsValidationSchema={Object {}}
+        findAddress={[Function]}
+        findAddressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        findAddressValidationSchema={Object {}}
+        findExactAddressByMoniker={[Function]}
+        formNames={
+          Object {
+            "address": "billingAddress",
+            "details": "billingDetails",
+            "findAddress": "billingFindAddress",
+          }
+        }
+        isCheckout={false}
+        isDesktopMultiColumnStyle={true}
+        isFindAddressVisible={false}
+        onSelectCountry={[Function]}
+        postCodeRules={
+          Object {
+            "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+            "postcodeLabel": "Postcode",
+            "postcodeRequired": true,
+            "premisesLabel": "House number",
+            "premisesRequired": false,
+            "stateFieldType": false,
+          }
+        }
+        resetForm={[Function]}
+        resetFormPartial={[Function]}
+        schemaHash=""
+        sendEventAnalytics={[Function]}
+        setAndValidateFormField={[MockFunction]}
+        setFormField={[Function]}
+        shouldDisplayDeliveryInstructions={true}
+        showModal={[Function]}
+        siteDeliveryISOs={
+          Array [
+            "GB",
+            "AU",
+            "DK",
+            "SE",
+            "NZ",
+            "BG",
+            "CA",
+            "CN",
+            "HR",
+            "CZ",
+            "HU",
+            "IN",
+            "ID",
+            "LT",
+            "MY",
+            "PL",
+            "RO",
+            "TR",
+            "HK",
+            "KR",
+            "AL",
+            "AM",
+            "BA",
+            "FO",
+            "MD",
+            "AZ",
+            "KZ",
+            "KG",
+            "AI",
+            "BS",
+            "BD",
+            "BB",
+            "BM",
+            "BO",
+            "BN",
+            "KH",
+            "KY",
+            "CF",
+            "CO",
+            "CK",
+            "DJ",
+            "ER",
+            "FK",
+            "GF",
+            "GM",
+            "GL",
+            "GP",
+            "GY",
+            "JM",
+            "KE",
+            "KI",
+            "MO",
+            "MG",
+            "MV",
+            "MH",
+            "MX",
+            "MA",
+            "NP",
+            "NC",
+            "NE",
+            "PK",
+            "PA",
+            "PR",
+            "WS",
+            "ST",
+            "SC",
+            "SB",
+            "ZA",
+            "LK",
+            "KN",
+            "LC",
+            "PM",
+            "SR",
+            "TW",
+            "TG",
+            "TN",
+            "TM",
+            "TV",
+            "VU",
+            "VN",
+            "VG",
+            "VC",
+            "GS",
+            "RS",
+            "JE",
+            "GG",
+            "JP",
+          ]
+        }
+        titleHidden={true}
+        touchedFormField={[Function]}
+        usStates={Array []}
+        validateDDPForCountry={[Function]}
+        validateForm={[Function]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <section
+        aria-label="AddressForm"
+        className="AddressForm AddressForm--multiColumn"
+      >
+        <div
+          className="AddressForm-row"
+        >
+          <WithQubit
+            id="qubit-hide-delivery-country"
+            shouldUseQubit={false}
+          >
+            <Connect(CountrySelect)
+              addressType="billingCheckout"
+            />
+          </WithQubit>
+          <div
+            className="AddressForm-col"
+          >
+             
+          </div>
+        </div>
+        <React.Fragment>
+          <ManualAddress
+            addressForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            addressType="billingCheckout"
+            addressValidationSchema={Object {}}
+            canFindAddress={true}
+            clearFormErrors={[Function]}
+            clearFormFieldError={[Function]}
+            countries={Array []}
+            country="United Kingdom"
+            countryCode="GBR"
+            detailsForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            detailsValidationSchema={Object {}}
+            findAddress={[Function]}
+            findAddressForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            findAddressValidationSchema={Object {}}
+            findExactAddressByMoniker={[Function]}
+            formNames={
+              Object {
+                "address": "billingAddress",
+                "details": "billingDetails",
+                "findAddress": "billingFindAddress",
+              }
+            }
+            handleSwitchToFindAddress={[Function]}
+            isCheckout={false}
+            isDesktopMultiColumnStyle={true}
+            isFindAddressVisible={false}
+            onBlur={[Function]}
+            onSelectCountry={[Function]}
+            postCodeRules={
+              Object {
+                "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+                "postcodeLabel": "Postcode",
+                "postcodeRequired": true,
+                "premisesLabel": "House number",
+                "premisesRequired": false,
+                "stateFieldType": false,
+              }
+            }
+            resetForm={[Function]}
+            resetFormPartial={[Function]}
+            schemaHash=""
+            sendEventAnalytics={[Function]}
+            setAndValidateAddressField={[Function]}
+            setAndValidateFormField={[MockFunction]}
+            setFormField={[Function]}
+            shouldDisplayDeliveryInstructions={true}
+            shouldResetFormOnUnmount={false}
+            showModal={[Function]}
+            siteDeliveryISOs={
+              Array [
+                "GB",
+                "AU",
+                "DK",
+                "SE",
+                "NZ",
+                "BG",
+                "CA",
+                "CN",
+                "HR",
+                "CZ",
+                "HU",
+                "IN",
+                "ID",
+                "LT",
+                "MY",
+                "PL",
+                "RO",
+                "TR",
+                "HK",
+                "KR",
+                "AL",
+                "AM",
+                "BA",
+                "FO",
+                "MD",
+                "AZ",
+                "KZ",
+                "KG",
+                "AI",
+                "BS",
+                "BD",
+                "BB",
+                "BM",
+                "BO",
+                "BN",
+                "KH",
+                "KY",
+                "CF",
+                "CO",
+                "CK",
+                "DJ",
+                "ER",
+                "FK",
+                "GF",
+                "GM",
+                "GL",
+                "GP",
+                "GY",
+                "JM",
+                "KE",
+                "KI",
+                "MO",
+                "MG",
+                "MV",
+                "MH",
+                "MX",
+                "MA",
+                "NP",
+                "NC",
+                "NE",
+                "PK",
+                "PA",
+                "PR",
+                "WS",
+                "ST",
+                "SC",
+                "SB",
+                "ZA",
+                "LK",
+                "KN",
+                "LC",
+                "PM",
+                "SR",
+                "TW",
+                "TG",
+                "TN",
+                "TM",
+                "TV",
+                "VU",
+                "VN",
+                "VG",
+                "VC",
+                "GS",
+                "RS",
+                "JE",
+                "GG",
+                "JP",
+              ]
+            }
+            titleHidden={true}
+            touchField={[Function]}
+            touchedFormField={[Function]}
+            usStates={Array []}
+            validateDDPForCountry={[Function]}
+            validateForm={[Function]}
+          />
+        </React.Fragment>
+      </section>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`<AddressForm /> @renders should render only FindAddress form 1`] = `
+AddressForm {
+  "context": Object {
+    "l": [MockFunction],
+  },
+  "handleAccordionToggle": [Function],
+  "handleAddressChange": [Function],
+  "handleFindAddressRequest": [Function],
+  "handleSwitchToFindAddress": [Function],
+  "handleSwitchToManualAddress": [Function],
+  "props": Object {
+    "addressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "addressType": "billingCheckout",
+    "addressValidationSchema": Object {},
+    "canFindAddress": true,
+    "clearFormErrors": [Function],
+    "clearFormFieldError": [Function],
+    "countries": Array [],
+    "country": "United Kingdom",
+    "countryCode": "GBR",
+    "detailsForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "detailsValidationSchema": Object {},
+    "findAddress": [Function],
+    "findAddressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "findAddressValidationSchema": Object {},
+    "findExactAddressByMoniker": [Function],
+    "formNames": Object {
+      "address": "billingAddress",
+      "details": "billingDetails",
+      "findAddress": "billingFindAddress",
+    },
+    "isCheckout": false,
+    "isDesktopMultiColumnStyle": false,
+    "isFindAddressVisible": true,
+    "onSelectCountry": [Function],
+    "postCodeRules": Object {
+      "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+      "postcodeLabel": "Postcode",
+      "postcodeRequired": true,
+      "premisesLabel": "House number",
+      "premisesRequired": false,
+      "stateFieldType": false,
+    },
+    "resetForm": [Function],
+    "resetFormPartial": [Function],
+    "schemaHash": "",
+    "sendEventAnalytics": [Function],
+    "setAndValidateFormField": [MockFunction],
+    "setFormField": [Function],
+    "shouldDisplayDeliveryInstructions": true,
+    "showModal": [Function],
+    "siteDeliveryISOs": Array [
+      "GB",
+      "AU",
+      "DK",
+      "SE",
+      "NZ",
+      "BG",
+      "CA",
+      "CN",
+      "HR",
+      "CZ",
+      "HU",
+      "IN",
+      "ID",
+      "LT",
+      "MY",
+      "PL",
+      "RO",
+      "TR",
+      "HK",
+      "KR",
+      "AL",
+      "AM",
+      "BA",
+      "FO",
+      "MD",
+      "AZ",
+      "KZ",
+      "KG",
+      "AI",
+      "BS",
+      "BD",
+      "BB",
+      "BM",
+      "BO",
+      "BN",
+      "KH",
+      "KY",
+      "CF",
+      "CO",
+      "CK",
+      "DJ",
+      "ER",
+      "FK",
+      "GF",
+      "GM",
+      "GL",
+      "GP",
+      "GY",
+      "JM",
+      "KE",
+      "KI",
+      "MO",
+      "MG",
+      "MV",
+      "MH",
+      "MX",
+      "MA",
+      "NP",
+      "NC",
+      "NE",
+      "PK",
+      "PA",
+      "PR",
+      "WS",
+      "ST",
+      "SC",
+      "SB",
+      "ZA",
+      "LK",
+      "KN",
+      "LC",
+      "PM",
+      "SR",
+      "TW",
+      "TG",
+      "TN",
+      "TM",
+      "TV",
+      "VU",
+      "VN",
+      "VG",
+      "VC",
+      "GS",
+      "RS",
+      "JE",
+      "GG",
+      "JP",
+    ],
+    "titleHidden": true,
+    "touchedFormField": [Function],
+    "usStates": Array [],
+    "validateDDPForCountry": [Function],
+    "validateForm": [Function],
+  },
+  "refs": Object {},
+  "setAndValidateAddressField": [Function],
+  "setAndValidateFindAddressField": [Function],
+  "state": Object {
+    "deliveryAccordion": false,
+    "monikers": Array [],
+  },
+  "touchField": [Function],
+  "trimOnBlur": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {
+        "l": [MockFunction],
+      },
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <AddressForm
+        addressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        addressType="billingCheckout"
+        addressValidationSchema={Object {}}
+        canFindAddress={true}
+        clearFormErrors={[Function]}
+        clearFormFieldError={[Function]}
+        countries={Array []}
+        country="United Kingdom"
+        countryCode="GBR"
+        detailsForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        detailsValidationSchema={Object {}}
+        findAddress={[Function]}
+        findAddressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        findAddressValidationSchema={Object {}}
+        findExactAddressByMoniker={[Function]}
+        formNames={
+          Object {
+            "address": "billingAddress",
+            "details": "billingDetails",
+            "findAddress": "billingFindAddress",
+          }
+        }
+        isCheckout={false}
+        isDesktopMultiColumnStyle={false}
+        isFindAddressVisible={true}
+        onSelectCountry={[Function]}
+        postCodeRules={
+          Object {
+            "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+            "postcodeLabel": "Postcode",
+            "postcodeRequired": true,
+            "premisesLabel": "House number",
+            "premisesRequired": false,
+            "stateFieldType": false,
+          }
+        }
+        resetForm={[Function]}
+        resetFormPartial={[Function]}
+        schemaHash=""
+        sendEventAnalytics={[Function]}
+        setAndValidateFormField={[MockFunction]}
+        setFormField={[Function]}
+        shouldDisplayDeliveryInstructions={true}
+        showModal={[Function]}
+        siteDeliveryISOs={
+          Array [
+            "GB",
+            "AU",
+            "DK",
+            "SE",
+            "NZ",
+            "BG",
+            "CA",
+            "CN",
+            "HR",
+            "CZ",
+            "HU",
+            "IN",
+            "ID",
+            "LT",
+            "MY",
+            "PL",
+            "RO",
+            "TR",
+            "HK",
+            "KR",
+            "AL",
+            "AM",
+            "BA",
+            "FO",
+            "MD",
+            "AZ",
+            "KZ",
+            "KG",
+            "AI",
+            "BS",
+            "BD",
+            "BB",
+            "BM",
+            "BO",
+            "BN",
+            "KH",
+            "KY",
+            "CF",
+            "CO",
+            "CK",
+            "DJ",
+            "ER",
+            "FK",
+            "GF",
+            "GM",
+            "GL",
+            "GP",
+            "GY",
+            "JM",
+            "KE",
+            "KI",
+            "MO",
+            "MG",
+            "MV",
+            "MH",
+            "MX",
+            "MA",
+            "NP",
+            "NC",
+            "NE",
+            "PK",
+            "PA",
+            "PR",
+            "WS",
+            "ST",
+            "SC",
+            "SB",
+            "ZA",
+            "LK",
+            "KN",
+            "LC",
+            "PM",
+            "SR",
+            "TW",
+            "TG",
+            "TN",
+            "TM",
+            "TV",
+            "VU",
+            "VN",
+            "VG",
+            "VC",
+            "GS",
+            "RS",
+            "JE",
+            "GG",
+            "JP",
+          ]
+        }
+        titleHidden={true}
+        touchedFormField={[Function]}
+        usStates={Array []}
+        validateDDPForCountry={[Function]}
+        validateForm={[Function]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <section
+        aria-label="AddressForm"
+        className="AddressForm"
+      >
+        <div
+          className="AddressForm-row"
+        >
+          <WithQubit
+            id="qubit-hide-delivery-country"
+            shouldUseQubit={false}
+          >
+            <Connect(CountrySelect)
+              addressType="billingCheckout"
+            />
+          </WithQubit>
+          <div
+            className="AddressForm-col"
+          >
+             
+          </div>
+        </div>
+        <FindAddress
+          addressForm={
+            Object {
+              "errors": Object {},
+              "fields": Object {},
+              "message": Object {},
+            }
+          }
+          addressType="billingCheckout"
+          addressValidationSchema={Object {}}
+          canFindAddress={true}
+          clearFormErrors={[Function]}
+          clearFormFieldError={[Function]}
+          countries={Array []}
+          country="United Kingdom"
+          countryCode="GBR"
+          detailsForm={
+            Object {
+              "errors": Object {},
+              "fields": Object {},
+              "message": Object {},
+            }
+          }
+          detailsValidationSchema={Object {}}
+          findAddress={[Function]}
+          findAddressForm={
+            Object {
+              "errors": Object {},
+              "fields": Object {},
+              "message": Object {},
+            }
+          }
+          findAddressValidationSchema={Object {}}
+          findExactAddressByMoniker={[Function]}
+          formNames={
+            Object {
+              "address": "billingAddress",
+              "details": "billingDetails",
+              "findAddress": "billingFindAddress",
+            }
+          }
+          handleAddressChange={[Function]}
+          handleFindAddressRequest={[Function]}
+          handleSwitchToManualAddress={[Function]}
+          isCheckout={false}
+          isDesktopMultiColumnStyle={false}
+          isFindAddressVisible={true}
+          monikers={Array []}
+          onBlur={[Function]}
+          onSelectCountry={[Function]}
+          postCodeRules={
+            Object {
+              "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+              "postcodeLabel": "Postcode",
+              "postcodeRequired": true,
+              "premisesLabel": "House number",
+              "premisesRequired": false,
+              "stateFieldType": false,
+            }
+          }
+          resetForm={[Function]}
+          resetFormPartial={[Function]}
+          schemaHash=""
+          sendEventAnalytics={[Function]}
+          setAndValidateAddressField={[Function]}
+          setAndValidateFindAddressField={[Function]}
+          setAndValidateFormField={[MockFunction]}
+          setFormField={[Function]}
+          shouldDisplayDeliveryInstructions={true}
+          showModal={[Function]}
+          siteDeliveryISOs={
+            Array [
+              "GB",
+              "AU",
+              "DK",
+              "SE",
+              "NZ",
+              "BG",
+              "CA",
+              "CN",
+              "HR",
+              "CZ",
+              "HU",
+              "IN",
+              "ID",
+              "LT",
+              "MY",
+              "PL",
+              "RO",
+              "TR",
+              "HK",
+              "KR",
+              "AL",
+              "AM",
+              "BA",
+              "FO",
+              "MD",
+              "AZ",
+              "KZ",
+              "KG",
+              "AI",
+              "BS",
+              "BD",
+              "BB",
+              "BM",
+              "BO",
+              "BN",
+              "KH",
+              "KY",
+              "CF",
+              "CO",
+              "CK",
+              "DJ",
+              "ER",
+              "FK",
+              "GF",
+              "GM",
+              "GL",
+              "GP",
+              "GY",
+              "JM",
+              "KE",
+              "KI",
+              "MO",
+              "MG",
+              "MV",
+              "MH",
+              "MX",
+              "MA",
+              "NP",
+              "NC",
+              "NE",
+              "PK",
+              "PA",
+              "PR",
+              "WS",
+              "ST",
+              "SC",
+              "SB",
+              "ZA",
+              "LK",
+              "KN",
+              "LC",
+              "PM",
+              "SR",
+              "TW",
+              "TG",
+              "TN",
+              "TM",
+              "TV",
+              "VU",
+              "VN",
+              "VG",
+              "VC",
+              "GS",
+              "RS",
+              "JE",
+              "GG",
+              "JP",
+            ]
+          }
+          titleHidden={true}
+          touchField={[Function]}
+          touchedFormField={[Function]}
+          usStates={Array []}
+          validateDDPForCountry={[Function]}
+          validateForm={[Function]}
+        />
+      </section>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`<AddressForm /> @renders should render only ManualAddress form 1`] = `
+AddressForm {
+  "context": Object {
+    "l": [MockFunction],
+  },
+  "handleAccordionToggle": [Function],
+  "handleAddressChange": [Function],
+  "handleFindAddressRequest": [Function],
+  "handleSwitchToFindAddress": [Function],
+  "handleSwitchToManualAddress": [Function],
+  "props": Object {
+    "addressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "addressType": "billingCheckout",
+    "addressValidationSchema": Object {},
+    "canFindAddress": true,
+    "clearFormErrors": [Function],
+    "clearFormFieldError": [Function],
+    "countries": Array [],
+    "country": "United Kingdom",
+    "countryCode": "GBR",
+    "detailsForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "detailsValidationSchema": Object {},
+    "findAddress": [Function],
+    "findAddressForm": Object {
+      "errors": Object {},
+      "fields": Object {},
+      "message": Object {},
+    },
+    "findAddressValidationSchema": Object {},
+    "findExactAddressByMoniker": [Function],
+    "formNames": Object {
+      "address": "billingAddress",
+      "details": "billingDetails",
+      "findAddress": "billingFindAddress",
+    },
+    "isCheckout": false,
+    "isDesktopMultiColumnStyle": false,
+    "isFindAddressVisible": false,
+    "onSelectCountry": [Function],
+    "postCodeRules": Object {
+      "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+      "postcodeLabel": "Postcode",
+      "postcodeRequired": true,
+      "premisesLabel": "House number",
+      "premisesRequired": false,
+      "stateFieldType": false,
+    },
+    "resetForm": [Function],
+    "resetFormPartial": [Function],
+    "schemaHash": "",
+    "sendEventAnalytics": [Function],
+    "setAndValidateFormField": [MockFunction],
+    "setFormField": [Function],
+    "shouldDisplayDeliveryInstructions": true,
+    "showModal": [Function],
+    "siteDeliveryISOs": Array [
+      "GB",
+      "AU",
+      "DK",
+      "SE",
+      "NZ",
+      "BG",
+      "CA",
+      "CN",
+      "HR",
+      "CZ",
+      "HU",
+      "IN",
+      "ID",
+      "LT",
+      "MY",
+      "PL",
+      "RO",
+      "TR",
+      "HK",
+      "KR",
+      "AL",
+      "AM",
+      "BA",
+      "FO",
+      "MD",
+      "AZ",
+      "KZ",
+      "KG",
+      "AI",
+      "BS",
+      "BD",
+      "BB",
+      "BM",
+      "BO",
+      "BN",
+      "KH",
+      "KY",
+      "CF",
+      "CO",
+      "CK",
+      "DJ",
+      "ER",
+      "FK",
+      "GF",
+      "GM",
+      "GL",
+      "GP",
+      "GY",
+      "JM",
+      "KE",
+      "KI",
+      "MO",
+      "MG",
+      "MV",
+      "MH",
+      "MX",
+      "MA",
+      "NP",
+      "NC",
+      "NE",
+      "PK",
+      "PA",
+      "PR",
+      "WS",
+      "ST",
+      "SC",
+      "SB",
+      "ZA",
+      "LK",
+      "KN",
+      "LC",
+      "PM",
+      "SR",
+      "TW",
+      "TG",
+      "TN",
+      "TM",
+      "TV",
+      "VU",
+      "VN",
+      "VG",
+      "VC",
+      "GS",
+      "RS",
+      "JE",
+      "GG",
+      "JP",
+    ],
+    "titleHidden": true,
+    "touchedFormField": [Function],
+    "usStates": Array [],
+    "validateDDPForCountry": [Function],
+    "validateForm": [Function],
+  },
+  "refs": Object {},
+  "setAndValidateAddressField": [Function],
+  "setAndValidateFindAddressField": [Function],
+  "state": Object {
+    "deliveryAccordion": false,
+    "monikers": Array [],
+  },
+  "touchField": [Function],
+  "trimOnBlur": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {
+        "l": [MockFunction],
+      },
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <AddressForm
+        addressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        addressType="billingCheckout"
+        addressValidationSchema={Object {}}
+        canFindAddress={true}
+        clearFormErrors={[Function]}
+        clearFormFieldError={[Function]}
+        countries={Array []}
+        country="United Kingdom"
+        countryCode="GBR"
+        detailsForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        detailsValidationSchema={Object {}}
+        findAddress={[Function]}
+        findAddressForm={
+          Object {
+            "errors": Object {},
+            "fields": Object {},
+            "message": Object {},
+          }
+        }
+        findAddressValidationSchema={Object {}}
+        findExactAddressByMoniker={[Function]}
+        formNames={
+          Object {
+            "address": "billingAddress",
+            "details": "billingDetails",
+            "findAddress": "billingFindAddress",
+          }
+        }
+        isCheckout={false}
+        isDesktopMultiColumnStyle={false}
+        isFindAddressVisible={false}
+        onSelectCountry={[Function]}
+        postCodeRules={
+          Object {
+            "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+            "postcodeLabel": "Postcode",
+            "postcodeRequired": true,
+            "premisesLabel": "House number",
+            "premisesRequired": false,
+            "stateFieldType": false,
+          }
+        }
+        resetForm={[Function]}
+        resetFormPartial={[Function]}
+        schemaHash=""
+        sendEventAnalytics={[Function]}
+        setAndValidateFormField={[MockFunction]}
+        setFormField={[Function]}
+        shouldDisplayDeliveryInstructions={true}
+        showModal={[Function]}
+        siteDeliveryISOs={
+          Array [
+            "GB",
+            "AU",
+            "DK",
+            "SE",
+            "NZ",
+            "BG",
+            "CA",
+            "CN",
+            "HR",
+            "CZ",
+            "HU",
+            "IN",
+            "ID",
+            "LT",
+            "MY",
+            "PL",
+            "RO",
+            "TR",
+            "HK",
+            "KR",
+            "AL",
+            "AM",
+            "BA",
+            "FO",
+            "MD",
+            "AZ",
+            "KZ",
+            "KG",
+            "AI",
+            "BS",
+            "BD",
+            "BB",
+            "BM",
+            "BO",
+            "BN",
+            "KH",
+            "KY",
+            "CF",
+            "CO",
+            "CK",
+            "DJ",
+            "ER",
+            "FK",
+            "GF",
+            "GM",
+            "GL",
+            "GP",
+            "GY",
+            "JM",
+            "KE",
+            "KI",
+            "MO",
+            "MG",
+            "MV",
+            "MH",
+            "MX",
+            "MA",
+            "NP",
+            "NC",
+            "NE",
+            "PK",
+            "PA",
+            "PR",
+            "WS",
+            "ST",
+            "SC",
+            "SB",
+            "ZA",
+            "LK",
+            "KN",
+            "LC",
+            "PM",
+            "SR",
+            "TW",
+            "TG",
+            "TN",
+            "TM",
+            "TV",
+            "VU",
+            "VN",
+            "VG",
+            "VC",
+            "GS",
+            "RS",
+            "JE",
+            "GG",
+            "JP",
+          ]
+        }
+        titleHidden={true}
+        touchedFormField={[Function]}
+        usStates={Array []}
+        validateDDPForCountry={[Function]}
+        validateForm={[Function]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <section
+        aria-label="AddressForm"
+        className="AddressForm"
+      >
+        <div
+          className="AddressForm-row"
+        >
+          <WithQubit
+            id="qubit-hide-delivery-country"
+            shouldUseQubit={false}
+          >
+            <Connect(CountrySelect)
+              addressType="billingCheckout"
+            />
+          </WithQubit>
+          <div
+            className="AddressForm-col"
+          >
+             
+          </div>
+        </div>
+        <React.Fragment>
+          <ManualAddress
+            addressForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            addressType="billingCheckout"
+            addressValidationSchema={Object {}}
+            canFindAddress={true}
+            clearFormErrors={[Function]}
+            clearFormFieldError={[Function]}
+            countries={Array []}
+            country="United Kingdom"
+            countryCode="GBR"
+            detailsForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            detailsValidationSchema={Object {}}
+            findAddress={[Function]}
+            findAddressForm={
+              Object {
+                "errors": Object {},
+                "fields": Object {},
+                "message": Object {},
+              }
+            }
+            findAddressValidationSchema={Object {}}
+            findExactAddressByMoniker={[Function]}
+            formNames={
+              Object {
+                "address": "billingAddress",
+                "details": "billingDetails",
+                "findAddress": "billingFindAddress",
+              }
+            }
+            handleSwitchToFindAddress={[Function]}
+            isCheckout={false}
+            isDesktopMultiColumnStyle={false}
+            isFindAddressVisible={false}
+            onBlur={[Function]}
+            onSelectCountry={[Function]}
+            postCodeRules={
+              Object {
+                "pattern": "^ *(([gG][iI][rR] {0,}0[aA]{2})|(([aA][sS][cC][nN]|[sS][tT][hH][lL]|[tT][dD][cC][uU]|[bB][bB][nN][dD]|[bB][iI][qQ][qQ]|[fF][iI][qQ][qQ]|[pP][cC][rR][nN]|[sS][iI][qQ][qQ]|[iT][kK][cC][aA]) {0,}1[zZ]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yxA-HK-XY]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2})) *$",
+                "postcodeLabel": "Postcode",
+                "postcodeRequired": true,
+                "premisesLabel": "House number",
+                "premisesRequired": false,
+                "stateFieldType": false,
+              }
+            }
+            resetForm={[Function]}
+            resetFormPartial={[Function]}
+            schemaHash=""
+            sendEventAnalytics={[Function]}
+            setAndValidateAddressField={[Function]}
+            setAndValidateFormField={[MockFunction]}
+            setFormField={[Function]}
+            shouldDisplayDeliveryInstructions={true}
+            shouldResetFormOnUnmount={false}
+            showModal={[Function]}
+            siteDeliveryISOs={
+              Array [
+                "GB",
+                "AU",
+                "DK",
+                "SE",
+                "NZ",
+                "BG",
+                "CA",
+                "CN",
+                "HR",
+                "CZ",
+                "HU",
+                "IN",
+                "ID",
+                "LT",
+                "MY",
+                "PL",
+                "RO",
+                "TR",
+                "HK",
+                "KR",
+                "AL",
+                "AM",
+                "BA",
+                "FO",
+                "MD",
+                "AZ",
+                "KZ",
+                "KG",
+                "AI",
+                "BS",
+                "BD",
+                "BB",
+                "BM",
+                "BO",
+                "BN",
+                "KH",
+                "KY",
+                "CF",
+                "CO",
+                "CK",
+                "DJ",
+                "ER",
+                "FK",
+                "GF",
+                "GM",
+                "GL",
+                "GP",
+                "GY",
+                "JM",
+                "KE",
+                "KI",
+                "MO",
+                "MG",
+                "MV",
+                "MH",
+                "MX",
+                "MA",
+                "NP",
+                "NC",
+                "NE",
+                "PK",
+                "PA",
+                "PR",
+                "WS",
+                "ST",
+                "SC",
+                "SB",
+                "ZA",
+                "LK",
+                "KN",
+                "LC",
+                "PM",
+                "SR",
+                "TW",
+                "TG",
+                "TN",
+                "TM",
+                "TV",
+                "VU",
+                "VN",
+                "VG",
+                "VC",
+                "GS",
+                "RS",
+                "JE",
+                "GG",
+                "JP",
+              ]
+            }
+            titleHidden={true}
+            touchField={[Function]}
+            touchedFormField={[Function]}
+            usStates={Array []}
+            validateDDPForCountry={[Function]}
+            validateForm={[Function]}
+          />
+        </React.Fragment>
+      </section>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

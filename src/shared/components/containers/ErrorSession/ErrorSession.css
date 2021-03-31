@@ -1,0 +1,57 @@
+/** @define ErrorSession */
+
+.ErrorSession {
+  padding: 10px;
+  text-align: center;
+
+  &-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    opacity: 1;
+    background: rgba(51, 51, 51, 0.8);
+  }
+
+  &-content {
+    background-color: #FFFFFF;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -80%);
+    left: 50%;
+    width: 90%;
+    padding: 40px 10px 10px;
+  }
+
+  &-errorImage {
+    width: $checkout-error-session-image-size;
+    margin: 0 auto;
+  }
+
+  &--miniBag {
+    background: none;
+    & > .ErrorSession-content {
+      top: 35px;
+      left: 0;
+      transform: none;
+      background-color: $mini-bag-background-color;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  }
+
+  &--modal {
+    padding: 0;
+    position: static;
+    transition: none;
+    background: none;
+    & > .ErrorSession-content {
+      position: static;
+      width: auto;
+      padding: 0;
+      transform: none;
+    }
+  }
+}

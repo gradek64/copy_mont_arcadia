@@ -1,0 +1,74 @@
+{
+    "completedOrder": {
+        "orderId": 8333875,
+        "subTotal": "24.00",
+        "returnPossible": false,
+        "returnRequested": false,
+        "deliveryMethod": "Saturday Nominated Day Delivery:",
+        "deliveryDate": "Saturday 6 October 2018",
+        "deliveryCost": "0.00",
+        "deliveryCarrier": "Home Delivery Network",
+        "deliveryPrice": "0.00",
+        "totalOrderPrice": "24.00",
+        "totalOrdersDiscountLabel": "",
+        "totalOrdersDiscount": "",
+        "ddpPromotion": {},
+        "billingAddress": {
+            "address1": "20 Rucklidge Avenue",
+            "name": "Mr Thamu Gurung",
+            "country": "United Kingdom",
+            "address2": "LONDON",
+            "address3": "NW10 4PS"
+        },
+        "deliveryAddress": {
+            "address1": "20 Rucklidge Avenue",
+            "name": "Mr Thamu Gurung",
+            "country": "United Kingdom",
+            "address2": "LONDON",
+            "address3": "NW10 4PS"
+        },
+        "orderLines": [
+            {
+                "lineNo": "19H11NBLK",
+                "name": "Black Bucket Hat",
+                "size": "",
+                "colour": "BLACK",
+                "imageUrl": "https://images.topshop.com/i/TopShop/TS19H11NBLK_M_1.jpg?$Small$",
+                "quantity": 1,
+                "unitPrice": "14.00",
+                "discount": "",
+                "discountPrice": "0.00",
+                "total": "14.00",
+                "nonRefundable": false,
+                "baseImageUrl": "https://images.topshop.com/i/TopShop/TS19H11NBLK_M_1",
+                "isDDPProduct": false
+            },
+            {
+                "lineNo": "Subscription-ddp",
+                "name": "DDP VIP Subscription",
+                "size": "12",
+                "colour": "NONE",
+                "imageUrl": "https://ts-tst1live.tst.digital.arcadiagroup.co.uk/wcsstore/TopShop/images/catalog/TSARCDDP_thumb.jpg",
+                "quantity": 1,
+                "unitPrice": "10.00",
+                "discount": "",
+                "discountPrice": "0.00",
+                "total": "10.00",
+                "nonRefundable": false,
+                "isDDPProduct": true
+            }
+        ],
+        "paymentDetails": [
+            {
+                "paymentMethod": "Visa",
+                "cardNumberStar": "************1111",
+                "totalCost": "£24.00"
+            }
+        ],
+        "currencyConversion": {
+            "currencyRate": "GBP"
+        },
+        "returning_buyer": false
+    }
+
+}

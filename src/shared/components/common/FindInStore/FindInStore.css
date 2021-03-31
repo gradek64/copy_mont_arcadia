@@ -1,0 +1,202 @@
+/** @define FindInStore; weak */
+
+.FindInStore {
+  width: 100%;
+  z-index: 3;
+  background-color: $store-locator-find-in-store-background-color;
+  transition: transform 0.3s, height 0.5s ease;
+  text-align: left;
+
+  &.is-storesListOpen {
+    z-index: 9;
+    height: 100%;
+  }
+
+  &-content {
+    padding: 0;
+  }
+
+  &-storeList {
+    padding-top: 30px;
+  }
+
+  &-title {
+    margin: 0;
+  }
+
+  &-row {
+    margin-top: 1em;
+  }
+
+  &-recentStoreList {
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  &-recentStoreListItem {
+    border: solid $lt-gray;
+    border-width: 0 1px 1px 1px;
+    background-color: $white;
+    box-sizing: border-box;
+    line-height: 2.8;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+   }
+   &-disclaimer {
+     font-size:13px;
+     letter-spacing: 0.14px;
+     max-width: 250px;
+   }
+}
+
+@media $mobile{
+    .FindInStore {
+      &-disclaimer {
+        max-width: none;
+      }
+      .FindInStore-productSizes {
+        margin-bottom: 0;
+      }
+      .FindInStore-productSizes .ProductSizes-sizes:last-of-type {
+        margin-bottom: 0;
+      }
+  }
+}
+
+@media $min-tablet{
+  .FindInStore {
+    display: flex;
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 25px;
+    bottom: 25px;
+    width: auto;
+    z-index: auto;
+
+    &-title {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    &-price {
+      margin-right: 10px;
+    }
+
+    &-infoProduct, &-productCode {
+      padding: 10px 0 0 0;
+      margin: 0;
+    }
+
+    &-name {
+      font-size: 18px;
+      line-height: 24px;
+      margin: 0;
+    }
+
+    &-row {
+      align-items: stretch;
+      display: flex;
+      flex: 1;
+      min-height: 0;
+    }
+
+    &-columnLeft {
+      display: flex;
+      flex: .55;
+      flex-direction: column;
+      margin-right: 10px;
+    }
+
+    &-columnRight {
+      flex: .45;
+      position: relative;
+    }
+
+    &-columnLeftStores {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &-image {
+      height: auto;
+      margin: 0 auto;
+      max-height: 180px;
+      width: auto;
+    }
+
+    &-espotContainer {
+      background-color: $store-locator-espot-background-color;
+      flex-basis: $store-locator-modal-right-width-desktop;
+      margin-top: $page-padding;
+    }
+    
+    &-listContainer {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      margin-top: $page-padding;
+      min-height: 0;
+    }
+
+    &-overflowContainer {
+      border: 1px solid $collect-from-store-list-boder-color;
+      flex: 1;
+      overflow: auto;
+    }
+
+    &-storeList {
+      padding-top: 0;
+    }
+
+    &-filters {
+      background-color: $collect-from-store-filter-bg-color;
+    }
+
+    &-productDetails {
+      flex: 1;
+      margin-left: 10px;
+    }
+
+    &-productSizes {
+      width: 200px;
+
+      & .ProductSizes-errorMessage {
+        margin-top: 8px;
+        padding-bottom: 7px;
+        padding-left: 0;
+        text-align: left;
+        white-space: normal;
+      }
+    }
+  }
+
+    /* postcss-bem-linter: ignore */
+    .FindInStore .ProductSizes-sizes:last-of-type {
+      margin-bottom: 0;
+    }
+
+  /* postcss-bem-linter: ignore */
+  .FindInStore .ProductSizes-sizes .Select-label:after {
+    content: ':'
+  }
+
+  /* postcss-bem-linter: ignore */
+  .FindInStore .GoogleMap {
+    border-bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DiscountText/> @renders returns a message if "discountText" is defined hasDiscountText is true 1`] = `
+<p
+  className="OrderProductPromo-link"
+>
+  This is part of a promotion!
+</p>
+`;
+
+exports[`<DiscountText/> @renders returns null returns null if "discountText" is defined hasDiscountText is false 1`] = `""`;
+
+exports[`<DiscountText/> @renders returns null returns null if "discountText" is undefined hasDiscountText is true 1`] = `""`;
+
+exports[`<OrderProductPromo/> @renders doesn't render discountText when "discountText" is defined and "hasDiscountText" is false 1`] = `
+<div
+  className="OrderProductPromo OrderProductPromo--applied"
+>
+  <DiscountText
+    discountText="3 for £8 Socks Promotion"
+    hasDiscountText={false}
+  />
+  <a
+    className="OrderProductPromo-link"
+  />
+</div>
+`;
+
+exports[`<OrderProductPromo/> @renders renders a link when "promoTitle" is defined 1`] = `""`;
+
+exports[`<OrderProductPromo/> @renders renders discountText when "discountText" is defined and "hasDiscountText" is true 1`] = `
+<div
+  className="OrderProductPromo OrderProductPromo--applied"
+>
+  <DiscountText
+    discountText="3 for £8 Socks Promotion"
+    hasDiscountText={true}
+  />
+  <a
+    className="OrderProductPromo-link"
+  />
+</div>
+`;
+
+exports[`<OrderProductPromo/> @renders returns null when the "promoTitle" is undefined 1`] = `""`;
+
+exports[`<OrderProductPromo/> @renders returns null when the "promotionDisplayURL" is undefined 1`] = `""`;

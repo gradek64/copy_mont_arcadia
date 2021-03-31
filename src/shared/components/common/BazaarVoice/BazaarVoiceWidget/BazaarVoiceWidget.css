@@ -1,0 +1,269 @@
+/* postcss-bem-linter: ignore */
+.BazaarVoice {
+  max-width: 364px;
+  margin: 0 auto;
+  display: inline-block;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRContentContainerID {
+  padding-top: 20px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRQuickTakeTitle {
+  padding-top: 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingSummary .BVRROverallRatingContainer,
+.BazaarVoice .BVRRSecondaryRatingsContainer,
+.BazaarVoice .BVRRReviewDisplayStyle5Header .BVRROverallRatingContainer,
+.BazaarVoice .BVRROverallRatingContainer .BVRRRatingContainerStar,
+.BazaarVoice .BVRRCustomColumnWrapper,
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContentSecondary,
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContent,
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContentPrimary,
+.BazaarVoice .BVRRContainer .BVRRRatingSummaryStyle2,
+.BazaarVoice .BVRRRatingOverall .BVRRRatingNormalImage,
+.BazaarVoice .BVRRQuickTakeSummary .BVRRRatingSummary .BVRROverallRatingContainer .BVRRLabel {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: auto;
+  padding: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRSecondaryRatingsContainer {
+  margin-top: 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingContainerStar {
+  margin: 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRRootElement {
+  height: auto !important;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContentPrimary {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRBottomLinkWrite {
+  padding-left: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRQuickTakeHeader {
+  padding-top: 20px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRReviewDisplayStyle5Ratings {
+  overflow: visible;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRSecondaryRatingsContainer {
+  display: none !important;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRPrimarySummary .BVRRRatingSummaryLinks {
+  display: block;
+}
+
+/* postcss-bem-linter: ignore */
+.BVRRRatingSummary.BVRRPrimarySummary {
+  margin-left: 0 !important;
+  padding-bottom: 0 !important;
+  height: auto !important;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingOverall .BVRRRatingNormalOutOf {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingSummary .BVRROverallRatingContainer .BVRRRatingNormalImage,
+.BazaarVoice .BVRRRatingOverall .BVRRRatingNormalImage {
+  padding-right: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRROverallRatingContainer .BVRRRatingNormalImage {
+  padding-left: 8px;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentNoReviewsID .BVCustomNoReviews {
+  background-position: 50% 100%;
+  padding-right: 0;
+  padding-bottom: 20px;
+  display: block;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentID.BVRRDisplayContent {
+  padding-top: 1em;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentHeaderID.BVRRDisplayContentHeader {
+  position: static;
+  margin-top: -50px;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentFooterID.BVRRDisplayContentFooter .BVRRNextPage {
+  padding: 0;
+  float: none;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentSortID .BVRRSortSelectWidget {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* postcss-bem-linter: ignore */
+.BVRRReviewDisplayStyle5Footer {
+  width: 100% !important;
+  margin-top: 15px !important;
+}
+
+/* postcss-bem-linter: ignore */
+.BVRRRatingContainerSlider {
+  margin-left: 0;
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  .BazaarVoice {
+    max-width: 990px;
+    margin: 0 auto;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRContainer {
+    min-width: 600px;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRPrimarySummary {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRRatingSummaryStyle2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRRating.BVRRRatingNormal.BVRRRatingOverall {
+    text-align: left;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRContainer .BVRRRatingSummaryStyle2 .BVRRRatingNormalLabel {
+    display: block !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRRatingNormalImage {
+    padding-right: 20px;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRCustomColumnWrapper {
+    float: left !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRReviewDisplayStyle5 {
+    text-align: left;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRReviewDisplayStyle5BodyContent {
+    display: flex !important;
+    flex-direction: row-reverse;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRReviewDisplayStyle5BodyContentPrimary {
+    margin: 0 !important;
+    max-width: 300px !important;
+    padding-right: 40px !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRContentReview.BVRRDisplayContentReview .BVRRReviewDisplayStyle5BodyContent {
+    width: auto !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRReviewTextParagraph.BVRRReviewAbbreviatedText {
+    max-width: 490px;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BazaarVoice.BVRRRatingOverall.BVRRRatingNormalOutOf {
+    text-align: left;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRReviewDisplayStyle5Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRRatingSummary.BVRRSecondaryRatingSummary {
+    display: flex;
+    flex: 1;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRRatingSummary.BVRRPrimaryRatingSummary,
+  .BVRRRatingSummaryStyle2 {
+    width: 100% !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRROverallRatingContainer {
+    margin-left: 0 !important;
+    margin-right: 10px !important;
+    float: left !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRSecondaryRatingsContainer {
+    float: right !important;
+    margin-top: 0 !important;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .BVRRRatingNormalOutOf {
+    text-align: left !important;
+  }
+
+}
+
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  #BVRRDisplayContentHeaderID.BVRRDisplayContentHeader {
+    margin-top: 0;
+    position: absolute !important;
+    top: 105px !important;
+    left: 185px !important;
+    min-width: 200px !important;
+  }
+  /* postcss-bem-linter: ignore */
+  .BVRRReviewDisplayStyle5BodyContentPrimary {
+    margin: 0 !important;
+    max-width: 400px !important;
+    padding-right: 80px !important;
+  }
+}

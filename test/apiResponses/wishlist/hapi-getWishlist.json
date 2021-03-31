@@ -1,0 +1,70 @@
+{
+  "giftListId": 15542,
+  "itemDetails": [
+    {
+      "assets": [
+        {
+          "assetType": "IMAGE_THUMB",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_SMALL",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_Zoom_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_THUMB",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_Thumb_M_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_SMALL",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_Small_M_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_NORMAL",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_2col_M_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_OUTFIT_LARGE",
+          "url": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_Large_M_1.jpg"
+        }
+      ],
+      "avlQuantity": 10,
+      "catEntryId": "31222757",
+      "colour": "BLACK",
+      "colourKey": "180072695",
+      "productImageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_3col_F_1.jpg",
+      "outfitImageUrl": "http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS10H01NBLK_3col_M_1.jpg",
+      "listItemId": "17068",
+      "parentProductId": "31222750",
+      "price": { "nowPrice": "39.00000", "was1Price": null, "was2Price": null },
+      "quantity": "1",
+      "rating": null,
+      "size": "4",
+      "sizeAndQuantity": [
+        { "catentryId": 31222757, "quantity": 10, "size": "4" },
+        { "catentryId": 31222763, "quantity": 10, "size": "6" },
+        { "catentryId": 31222774, "quantity": 10, "size": "8" },
+        { "catentryId": 31221982, "quantity": 10, "size": "10" },
+        { "catentryId": 31222796, "quantity": 10, "size": "12" },
+        { "catentryId": 31222808, "quantity": 10, "size": "14" },
+        { "catentryId": 31222821, "quantity": 10, "size": "16" },
+        { "catentryId": 31222831, "quantity": 10, "size": "18" }
+      ],
+      "sizeKey": "180072704",
+      "title": "Polka Dot Lace Satin Slip Dress"
+    }
+  ],
+  "name": "default2",
+  "noOfItemsInList": 1,
+  "pageNo": 1,
+  "pageSize": 250,
+  "type": "public"
+}

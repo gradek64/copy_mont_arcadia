@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryEstimate /> @renders delivery address and shouldDisplayAddress passed (HOME_EXPRESS 'Nominated Delivery') 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-address"
+  >
+    <div
+      className="DeliveryEstimate-title"
+    >
+      <div
+        className="DeliveryEstimate-groupLeft"
+      >
+        <Connect(Image)
+          className="DeliveryEstimate-deliveryImage"
+          src="/assets/topshop/images/lorry-icon.svg"
+        />
+        <h3
+          className="DeliveryEstimate-deliveryTitle"
+        >
+          Delivery
+        </h3>
+      </div>
+      <Link
+        className="DeliveryEstimate-link"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/checkout/delivery"
+      >
+        Change
+      </Link>
+    </div>
+    <div
+      className="DeliveryEstimate-addressDetails"
+    >
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        Mr Steve Smith
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        34 Crescent Road
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        LONDON
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        N21 5RT
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        UK
+      </div>
+    </div>
+  </div>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Tuesday February 14 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders delivery address and shouldDisplayAddress passed (HOME_EXPRESS 'Tracked and Faster') 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-address"
+  >
+    <div
+      className="DeliveryEstimate-title"
+    >
+      <div
+        className="DeliveryEstimate-groupLeft"
+      >
+        <Connect(Image)
+          className="DeliveryEstimate-deliveryImage"
+          src="/assets/topshop/images/lorry-icon.svg"
+        />
+        <h3
+          className="DeliveryEstimate-deliveryTitle"
+        >
+          Delivery
+        </h3>
+      </div>
+      <Link
+        className="DeliveryEstimate-link"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/checkout/delivery"
+      >
+        Change
+      </Link>
+    </div>
+    <div
+      className="DeliveryEstimate-addressDetails"
+    >
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        Mr Steve Smith
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        34 Crescent Road
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        LONDON
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        N21 5RT
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        UK
+      </div>
+    </div>
+  </div>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders delivery address and shouldDisplayAddress passed (HOME_STANDARD) 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-address"
+  >
+    <div
+      className="DeliveryEstimate-title"
+    >
+      <div
+        className="DeliveryEstimate-groupLeft"
+      >
+        <Connect(Image)
+          className="DeliveryEstimate-deliveryImage"
+          src="/assets/topshop/images/lorry-icon.svg"
+        />
+        <h3
+          className="DeliveryEstimate-deliveryTitle"
+        >
+          Delivery
+        </h3>
+      </div>
+      <Link
+        className="DeliveryEstimate-link"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/checkout/delivery"
+      >
+        Change
+      </Link>
+    </div>
+    <div
+      className="DeliveryEstimate-addressDetails"
+    >
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        Mr Steve Smith
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        34 Crescent Road
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        LONDON
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        N21 5RT
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        UK
+      </div>
+    </div>
+  </div>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders in default state (HOME_EXPRESS 'Nominated Delivery', no address) 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Tuesday February 14 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders in default state (HOME_EXPRESS 'Tracked and Faster', no address) 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders in default state (HOME_STANDARD, no address) 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders in default state (HOME_STANDARD, no estimate) 1`] = `
+<div
+  className="DeliveryEstimate"
+/>
+`;
+
+exports[`<DeliveryEstimate /> @renders in default state with modifier className 1`] = `
+<div
+  className="DeliveryEstimate DeliveryEstimate--modifier"
+>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders should display the delivery address with the link to the guest checkout delivery 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-address"
+  >
+    <div
+      className="DeliveryEstimate-title"
+    >
+      <div
+        className="DeliveryEstimate-groupLeft"
+      >
+        <Connect(Image)
+          className="DeliveryEstimate-deliveryImage"
+          src="/assets/topshop/images/lorry-icon.svg"
+        />
+        <h3
+          className="DeliveryEstimate-deliveryTitle"
+        >
+          Delivery
+        </h3>
+      </div>
+      <Link
+        className="DeliveryEstimate-link"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/guest/checkout/delivery"
+      >
+        Change
+      </Link>
+    </div>
+    <div
+      className="DeliveryEstimate-addressDetails"
+    >
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        Mr Steve Smith
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        34 Crescent Road
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        LONDON
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        N21 5RT
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        UK
+      </div>
+    </div>
+  </div>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders when deliveryType is PARCELSHOP and should display address 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-address"
+  >
+    <div
+      className="DeliveryEstimate-title"
+    >
+      <div
+        className="DeliveryEstimate-groupLeft"
+      >
+        <Connect(Image)
+          className="DeliveryEstimate-deliveryImage"
+          src="/assets/topshop/images/hermes-icon.svg"
+        />
+        <h3
+          className="DeliveryEstimate-deliveryTitle"
+        >
+          Delivery
+        </h3>
+      </div>
+      <Link
+        className="DeliveryEstimate-link"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/checkout/delivery"
+      >
+        Change
+      </Link>
+    </div>
+    <div
+      className="DeliveryEstimate-addressDetails"
+    >
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        Mr Steve Smith
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        34 Crescent Road
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        LONDON
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        N21 5RT
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        UK
+      </div>
+    </div>
+  </div>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DeliveryEstimate /> @renders when deliveryType is STORE and should display address 1`] = `
+<div
+  className="DeliveryEstimate"
+>
+  <div
+    className="DeliveryEstimate-address"
+  >
+    <div
+      className="DeliveryEstimate-title"
+    >
+      <div
+        className="DeliveryEstimate-groupLeft"
+      >
+        <Connect(Image)
+          className="DeliveryEstimate-deliveryImage"
+          src="/assets/topshop/images/arcadia-store-icon.svg"
+        />
+        <h3
+          className="DeliveryEstimate-deliveryTitle"
+        >
+          Delivery
+        </h3>
+      </div>
+      <Link
+        className="DeliveryEstimate-link"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/checkout/delivery"
+      >
+        Change
+      </Link>
+    </div>
+    <div
+      className="DeliveryEstimate-addressDetails"
+    >
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        Mr Steve Smith
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        34 Crescent Road
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        LONDON
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        N21 5RT
+      </div>
+      <div
+        className="DeliveryEstimate-address--line"
+      >
+        UK
+      </div>
+    </div>
+  </div>
+  <div
+    className="DeliveryEstimate-label"
+  >
+    Your order will be delivered no later than
+     
+    <span
+      className="DeliveryEstimate-dateLabel"
+    >
+      Friday 27 January 2017
+    </span>
+  </div>
+</div>
+`;

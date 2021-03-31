@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been added to the basket (merging from quickview) 1`] = `
+Array [
+  Object {
+    "ecommerce": Object {
+      "add": Object {
+        "actionField": Object {
+          "addType": "Add to Basket",
+        },
+        "products": Array [
+          Object {
+            "brand": undefined,
+            "category": "Jeans",
+            "colour": "blue",
+            "department": undefined,
+            "ecmcCategory": "EASY",
+            "id": "20N01JCRL",
+            "isOnSale": true,
+            "list": "",
+            "markdown": "16.67",
+            "name": "(20N01JCRL) Nails in Siren",
+            "price": "5.00",
+            "productId": "27738367",
+            "quantity": "1",
+            "reviewRating": "4.2",
+            "size": "W2430",
+            "sizesAvailable": "60.00",
+            "sizesInStock": "W2430,W2530,W2630",
+            "totalSizes": "5",
+            "unitNowPrice": "5.00",
+            "unitWasPrice": "6.00",
+          },
+        ],
+      },
+      "currencyCode": "EUR",
+    },
+    "fullBasket": Object {
+      "productList": Array [
+        Object {
+          "brand": undefined,
+          "category": "Jeans",
+          "colour": "blue",
+          "department": undefined,
+          "ecmcCategory": "EASY",
+          "id": "20N01JCRL",
+          "isOnSale": true,
+          "list": "",
+          "markdown": "16.67",
+          "name": "(20N01JCRL) Nails in Siren",
+          "price": "5.00",
+          "productId": "27738367",
+          "quantity": "1",
+          "reviewRating": "4.2",
+          "size": "W2430",
+          "sizesAvailable": "60.00",
+          "sizesInStock": "W2430,W2530,W2630",
+          "totalSizes": "5",
+          "unitNowPrice": "5.00",
+          "unitWasPrice": "6.00",
+        },
+      ],
+      "totalPrice": 5,
+      "totalQuantity": 1,
+    },
+  },
+  "basketSchema",
+  "addToBasket",
+]
+`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been added to the basket (merging from quickview) 2`] = `undefined`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been added to the basket 1`] = `
+Array [
+  Object {
+    "ecommerce": Object {
+      "add": Object {
+        "actionField": Object {
+          "addType": "Add to Basket",
+        },
+        "products": Array [
+          Object {
+            "brand": undefined,
+            "category": "Jeans",
+            "colour": "blue",
+            "department": undefined,
+            "ecmcCategory": "EASY",
+            "id": "20N01JCRL",
+            "isOnSale": true,
+            "list": "",
+            "markdown": "16.67",
+            "name": "(20N01JCRL) Nails in Siren",
+            "price": "5.00",
+            "productId": "27738367",
+            "quantity": "1",
+            "reviewRating": "4.2",
+            "size": "W2430",
+            "sizesAvailable": "60.00",
+            "sizesInStock": "W2430,W2530,W2630",
+            "totalSizes": "5",
+            "unitNowPrice": "5.00",
+            "unitWasPrice": "6.00",
+          },
+        ],
+      },
+      "currencyCode": "EUR",
+    },
+    "fullBasket": Object {
+      "productList": Array [
+        Object {
+          "brand": undefined,
+          "category": "Jeans",
+          "colour": "blue",
+          "department": undefined,
+          "ecmcCategory": "EASY",
+          "id": "20N01JCRL",
+          "isOnSale": true,
+          "list": "",
+          "markdown": "16.67",
+          "name": "(20N01JCRL) Nails in Siren",
+          "price": "5.00",
+          "productId": "27738367",
+          "quantity": "1",
+          "reviewRating": "4.2",
+          "size": "W2430",
+          "sizesAvailable": "60.00",
+          "sizesInStock": "W2430,W2530,W2630",
+          "totalSizes": "5",
+          "unitNowPrice": "5.00",
+          "unitWasPrice": "6.00",
+        },
+      ],
+      "totalPrice": 5,
+      "totalQuantity": 1,
+    },
+  },
+  "basketSchema",
+  "addToBasket",
+]
+`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been added to the basket 2`] = `undefined`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been removed from the basket (merging from currentProduct) 1`] = `
+Array [
+  Object {
+    "ecommerce": Object {
+      "currencyCode": "EUR",
+      "remove": Object {
+        "products": Array [
+          Object {
+            "brand": undefined,
+            "category": "Jeans",
+            "colour": "blue",
+            "department": undefined,
+            "ecmcCategory": "EASY",
+            "id": "20N01JCRL",
+            "isOnSale": true,
+            "list": "",
+            "markdown": "16.67",
+            "name": "(20N01JCRL) Nails in Siren",
+            "price": "5.00",
+            "productId": "27738367",
+            "quantity": "1",
+            "reviewRating": "4.2",
+            "size": "W2430",
+            "sizesAvailable": "60.00",
+            "sizesInStock": "W2430,W2530,W2630",
+            "totalSizes": "5",
+            "unitNowPrice": "5.00",
+            "unitWasPrice": "6.00",
+          },
+        ],
+      },
+    },
+    "fullBasket": Object {
+      "productList": Array [],
+      "totalPrice": 0,
+      "totalQuantity": 0,
+    },
+  },
+  "basketSchema",
+  "removeFromBasket",
+]
+`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been removed from the basket (merging from currentProduct) 2`] = `undefined`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been removed from the basket 1`] = `
+Array [
+  Object {
+    "ecommerce": Object {
+      "currencyCode": "EUR",
+      "remove": Object {
+        "products": Array [
+          Object {
+            "brand": undefined,
+            "category": "Jeans",
+            "colour": "blue",
+            "department": undefined,
+            "ecmcCategory": "EASY",
+            "id": "20N01JCRL",
+            "isOnSale": true,
+            "list": "",
+            "markdown": "16.67",
+            "name": "(20N01JCRL) Nails in Siren",
+            "price": "5.00",
+            "productId": "27738367",
+            "quantity": "1",
+            "reviewRating": "4.2",
+            "size": "W2430",
+            "sizesAvailable": "60.00",
+            "sizesInStock": "W2430,W2530,W2630",
+            "totalSizes": "5",
+            "unitNowPrice": "5.00",
+            "unitWasPrice": "6.00",
+          },
+        ],
+      },
+    },
+    "fullBasket": Object {
+      "productList": Array [],
+      "totalPrice": 0,
+      "totalQuantity": 0,
+    },
+  },
+  "basketSchema",
+  "removeFromBasket",
+]
+`;
+
+exports[`basket analytics tracking analytics triggering basketStateListener() records analytics when items have been removed from the basket 2`] = `undefined`;

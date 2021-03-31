@@ -1,0 +1,45 @@
+/** @define ShippingPreferencesSelector; weak */
+
+$default-spacing: 20px;
+
+.ShippingPreferencesSelector-subHeading {
+  font-family: $font-family-h3;
+  font-size: $font-size-h3;
+  font-weight: $font-weight-h3;
+}
+
+.ShippingPreferencesSelector-submitButton {
+  margin: $default-spacing 0;
+  margin-left: $default-spacing;
+  text-transform: uppercase;
+}
+
+.ShippingPreferencesSelector-dropdowns {
+  margin-bottom: $default-spacing;
+}
+
+.ShippingPreferencesSelector-inputGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.ShippingPreferencesSelector-inputGroupSelect {
+  flex: 1;
+  & > div {
+    margin: 20px 0;
+  }
+}
+
+.ShippingPreferencesSelector-inputGroupButton {
+  flex: 0 0 auto;
+  vertical-align: bottom;
+  align-self: flex-end;
+}
+
+.ShippingPreferencesSelector-submitButton {
+  width: 100px;
+}
+
+/*.ShippingPreferencesSelector-languageSelector {*/
+  /*flex: 1*/
+/*}*/

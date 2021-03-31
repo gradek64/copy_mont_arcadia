@@ -1,0 +1,150 @@
+{
+  "newsletter": {
+    "label": "SIGN UP TO RECEIVE 10% OFF YOUR FIRST ORDER",
+    "placeholder": "enter your email address",
+    "button": "sign up",
+    "signUpUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?storeId\u003d12556\u0026amp;catalogId\u003d33057\u0026amp;langId\u003d-1\u0026amp;viewAllFlag\u003dfalse\u0026amp;categoryId\u003d277562\u0026amp;interstitial\u003dtrue\u0026amp;emailid\u003ddfkjghdfgh%40ksdfjgh.com",
+    "openNewWindow": false
+  },
+  "categories": [
+    {
+      "label": "Help",
+      "links": [
+        {
+          "label": "Store finder",
+          "linkUrl": "/en/tsuk/category/store-finder-1824332/home?intcmpid\u003dW_FOOTER_MAIN_%20STORE_FINDER",
+          "openNewWindow": false
+        },
+        {
+          "label": "Help",
+          "linkUrl": "http://help.topshop.com/system/templates/selfservice/topshop/#!portal/403700000001048?intcmpid\u003dW_FOOTER_CONTACT_US",
+          "openNewWindow": true
+        },
+        {
+          "label": "Topshop size guide",
+          "linkUrl": "/en/tsuk/category/topshop-size-guide-6728093/home?intcmpid\u003dW_FOOTER_SIZEGUIDE",
+          "openNewWindow": false
+        },
+        {
+          "label": "Washcare and after care",
+          "linkUrl": "/en/tsuk/category/washcare-and-aftercare-6831779/home",
+          "openNewWindow": false
+        },
+        {
+          "label": "Accessibility",
+          "linkUrl": "/en/tsuk/category/accessibility-8/home?intcmpid\u003dW_FOOTER_ACCESSIBILITY",
+          "openNewWindow": false
+        },
+        {
+          "label": "Topshop site map",
+          "linkUrl": "/en/tsuk/category/topshop-site-map-6636497/home?intcmpid\u003dW_FOOTER_SITEMAP",
+          "openNewWindow": false
+        },
+        {
+          "label": "Topshop at oxford circus",
+          "linkUrl": "/en/tsuk/category/topshop-at-oxford-circus-6530258/home?intcmpid\u003dW_FOOTER_214",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "Delivery and Returns",
+      "links": [
+        {
+          "label": "track your order",
+          "linkUrl": "http://help.topshop.com/system/templates/selfservice/topshop/#!portal/403700000001048/topic/403700000001089/Track-Your-Order\u0026amp;intcmpid\u003dW_FOOTER_TRACK_ORDER",
+          "openNewWindow": true
+        },
+        {
+          "label": "UK delivery",
+          "linkUrl": "/en/tsuk/category/uk-delivery-4043283/home?intcmpid\u003dW_FOOTER_DELIVERY",
+          "openNewWindow": true
+        },
+        {
+          "label": "Returns",
+          "linkUrl": "/en/tsuk/category/returns-4043372/home?intcmpid\u003dW_FOOTER_RETURNS",
+          "openNewWindow": false
+        },
+        {
+          "label": "Topshop receipt",
+          "linkUrl": "/en/tsuk/category/topshop-receipt-4957579/home?intcmpid\u003dW_FOOTER_ERECEIPTS",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "Cards \u0026 Offers",
+      "links": [
+        {
+          "label": "Student discount",
+          "linkUrl": "/en/tsuk/category/topshop-students-student-discount-2316596/home?intcmpid\u003dW_FOOTER_MAIN_%20STUDENTS",
+          "openNewWindow": false
+        },
+        {
+          "label": "Gift cards",
+          "linkUrl": "/en/tsuk/category/topshop-gift-card-247/home?intcmpid\u003dW_FOOTER_MAIN_GIFT_CARDS",
+          "openNewWindow": false
+        },
+        {
+          "label": "Topshop card",
+          "linkUrl": "/en/tsuk/category/topshop-card-20/home?intcmpid\u003dW_FOOTER_TS_CARD",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "about us",
+      "links": [
+        {
+          "label": "Topshop says donate charity",
+          "linkUrl": "/en/tsuk/category/future-voices-topshop-and-the-business-of-fashion-6476799/wcs/stores/servlet/CatalogNavigationSearchResultCmd?catalogId\u003d33057\u0026amp;viewAllFlag\u003dfalse\u0026amp;categoryId\u003d500021\u0026amp;langId\u003d-1\u0026amp;storeId\u003d12556\u0026amp;interstitial\u003dtrue\u0026amp;intcmpid\u003dW_FOOTER_TS_SUPPORTS",
+          "openNewWindow": false
+        },
+        {
+          "label": "Arcadia",
+          "linkUrl": "http://arcadiafashionfootprint.co.uk/",
+          "openNewWindow": true
+        },
+        {
+          "label": "Topshop topman careers",
+          "linkUrl": "http://www.careers.topshop.com/",
+          "openNewWindow": true
+        },
+        {
+          "label": "Terms \u0026 conditions",
+          "linkUrl": "/en/tsuk/category/terms-conditions-19/home?intcmpid\u003dW_FOOTER_%20TERMS_CONDITIONS",
+          "openNewWindow": false
+        },
+        {
+          "label": "Modern slavery act",
+          "linkUrl": "https://www.arcadiagroup.co.uk/modernslaverystatement",
+          "openNewWindow": true
+        },
+        {
+          "label": "Topshop london fashion week",
+          "linkUrl": "/en/tsuk/category/topshop-london-fashion-week-show-6964543/home?intcmpid\u003dW_FOOTER_LFW",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "Get the topshop app",
+      "images": [
+        {
+          "imageUrl": "/assets/topshop/images/footer/apple-store.png",
+          "imageSize": "small",
+          "alt": "app store",
+          "linkUrl": "https://itunes.apple.com/gb/app/id355683626?mt\u003d8",
+          "openNewWindow": true
+        },
+        {
+          "imageUrl": "/assets/topshop/images/footer/google-play.png",
+          "imageSize": "small",
+          "alt": "google play",
+          "linkUrl": "https://play.google.com/store/apps/details?id\u003dcom.arcadia.topshop",
+          "openNewWindow": true
+        }
+      ]
+    }
+  ]
+}

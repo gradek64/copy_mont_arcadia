@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReturnHistoryDetails @instance setOrderComponent returns not found if there are no orders 1`] = `
+<NotFound
+  message="There are no returns found"
+/>
+`;
+
+exports[`ReturnHistoryDetails @instance setOrderComponent returns with the orders if there is any 1`] = `
+Array [
+  <OrderHistoryOrder
+    colour="RED"
+    discount=""
+    imageUrl="http://ts.stage.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/TS19M43JRED_Small_F_1.jpg"
+    lineNo="19M43JRED"
+    name="Pizza Princess Padded Sticker"
+    nonRefundable={false}
+    returnQuantity={1}
+    returnReason="Colour not as description"
+    size="ONE"
+    total="0.50"
+    unitPrice=""
+  />,
+]
+`;
+
+exports[`ReturnHistoryDetails @renders in default state 1`] = `""`;

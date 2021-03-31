@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderFailure /> @renders displays a failure message 1`] = `
+<div
+  className="OrderFailure"
+>
+  Your order could not be completed
+</div>
+`;

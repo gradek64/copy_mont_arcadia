@@ -1,0 +1,216 @@
+/** @define StoreLocator */
+
+.StoreLocator {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &.is-landing {
+    padding: 10px;
+  }
+
+  &-isYext{
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
+
+  &-googleMapContainer {
+    position: relative;
+    transition: height 0.3s;
+    height: 55%;
+
+    &--withEnabledHeader {
+      height: 50%;
+    }
+
+    &--expanded {
+      height: calc(100% - 40px);
+    }
+
+    &--withEnabledHeader.StoreLocator-googleMapContainer--expanded {
+      height: calc(100% - 31px);
+    }
+  }
+
+  &-resultsContainer {
+    box-sizing: border-box;
+    flex: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid $store-locator-accordion-list-border-color;
+
+    &--fullHeight {
+      height: 100%;
+    }
+  }
+
+  &-fullHeightContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &--collectFromStore {
+    height: calc(100vh - $header-height);
+    width: 100%;
+
+    & .StoreLocator {
+      &-googleMapContainer {
+        margin-top: 0;
+        &--expanded {
+          height: 100%;
+        }
+      }
+
+      &-fullHeightContainer {
+        height: calc(100% - $store-locator-footer-height);
+      }
+    }
+  }
+
+  &-userLocatorContainer {
+    padding: 0 15px 15px;
+  }
+
+  &-interUserLocatorContainer {
+    padding: 0 15px 15px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 1;
+  }
+
+  &-findItemInStoreText {
+    margin: 0;
+  }
+
+  &-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-top: 1px solid;
+    height: $store-locator-footer-height;
+    align-items: center;
+    background: $store-locator-footer-background;
+    color: $store-locator-footer-color;
+  }
+
+  &-showFiltersButton {
+    height: 100%;
+    text-transform: uppercase;
+  }
+
+  &-footerText {
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  &-userLocatorInputContainer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  &-noSearchResults {
+    padding: 10px;
+  }
+}
+
+@media $mobile {
+
+  .StoreLocator {
+    &-isYext{
+      margin: 0 2%;
+    }
+
+    &-fullHeightContainer {
+      height: calc(100% - 80px);
+    }
+
+    &-userLocatorContainer {
+      padding: 0 0 15px 0;
+    }
+
+    &-interUserLocatorContainer {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+
+@media $min-tablet {
+  .StoreLocator {
+    height: auto;
+    max-width: 1199px;
+
+    &.is-landing {
+      height: 800px;
+      min-height: 400px;
+      position: relative;
+    }
+
+    &-userLocatorContainer {
+      padding: 0;
+      position: absolute;
+      width: calc(50% - 15px);
+      z-index: 1;
+    }
+
+    &-fullHeightContainer {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      position: absolute;
+      width: calc(50% - 15px);
+      right: $store-locator-user-locator-margin;
+      top: $store-locator-user-locator-margin;
+      bottom: $store-locator-user-locator-margin;
+
+      &--withEnabledHeader {
+        margin-top: 0;
+      }
+    }
+
+    &-resultsContainer {
+      flex: 1;
+      margin-right: 0;
+      overflow: scroll;
+      margin: 15px 0 0 0;
+      height: 545px;
+    }
+
+    &-googleMapContainer {
+      flex: 1;
+      height: auto;
+    }
+  }
+
+  /* postcss-bem-linter: ignore */
+  .StoreLocator .UserLocator-container {
+    padding: 0 0 10px;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .StoreLocator .CountryChooser {
+    flex: 1;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .StoreLocator .GoogleMap {
+    border-bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

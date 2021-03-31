@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EReceipt />  @renders in default state 1`] = `
+<section>
+  <AccountHeader
+    classNames=" screen-reader-text"
+    label="Back to My Account"
+    link="/my-account"
+    title="E-receipts"
+  />
+  <Connect(SandBox)
+    cmsPageName="eReceipts"
+    contentType="page"
+    fakeProp="fake prop"
+  />
+</section>
+`;

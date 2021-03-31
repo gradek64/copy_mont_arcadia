@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WishListIcon @renders should render default state 1`] = `
+<i
+  className="WishListIcon"
+/>
+`;
+
+exports[`WishListIcon @renders should render when icon is selected 1`] = `
+<i
+  className="WishListIcon is-selected"
+/>
+`;
+
+exports[`WishListIcon @renders should render with pdp modifier 1`] = `
+<i
+  className="WishListIcon WishListIcon--pdp"
+/>
+`;
+
+exports[`WishListIcon @renders should render with plp modifier 1`] = `
+<i
+  className="WishListIcon WishListIcon--plp"
+/>
+`;

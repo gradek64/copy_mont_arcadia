@@ -1,0 +1,84 @@
+/** @define HeaderTopman; weak */
+
+.HeaderTopman {
+  &-content {
+    opacity: 1;
+  }
+
+  &-search {
+    &  .SearchBar--big {
+      left: auto;
+    }
+  }
+
+  &.is-sticky {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: $header-background;
+
+    & .HeaderTopman-search {
+      & .SearchBar--big {
+
+        & .SearchBar-icon {
+          padding: 0 0 0 4px;
+        }
+
+        & .SearchBar-queryInput,
+        & .SearchBar-queryInput:focus {
+          width: 63px;
+        }
+      }
+    }
+    & .AccountIcon,
+    & .ShippingDestination,
+    & .WishlistHeaderLink,
+    & .ShoppingCart {
+      margin: 0 0 0 10px;
+    }
+
+    & .HeaderTopman-separator {
+      display: none;
+    }
+
+    & .HeaderTopman-megaNav {
+      margin: 0;
+    }
+    & .HeaderTopman-content {
+      display: none;
+    }
+    & .HeaderTopman-brand {
+      display: none;
+    }
+    & .HeaderTopman-navigation {
+      z-index: 2;
+      background-color: $header-background;
+      padding: 0 12px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .HeaderTopman {
+    &.is-sticky {
+      & .HeaderTopman-search {
+        & .SearchBar--big {
+
+          & .SearchBar-icon {
+            padding: 0 0 0 8px;
+          }
+
+        }
+      }
+      & .AccountIcon,
+      & .ShippingDestination,
+      & .WishlistHeaderLink,
+      & .ShoppingCart {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+}

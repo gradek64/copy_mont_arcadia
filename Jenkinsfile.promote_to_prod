@@ -1,0 +1,44 @@
+pipeline {
+  agent any
+
+  parameters {
+    string(name: 'BRANCH_OR_TAG_OR_HASH', defaultValue: 'develop',
+      description: 'The branch, tag or hash to promote')
+    string(name: 'MONTY_MEMORY_SIZE', defaultValue: '1500',
+      description: 'Size of memory allocated to monty, in MB. The application will fail to start if it cannot be allocated this much memory, so make sure it is available.')
+  }
+
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
+
+    timeout(time: 15, unit: 'MINUTES')
+
+    timestamps()
+  }
+
+  stages {
+    stage("GH") {
+      steps {
+        script {
+          currentBuild.description = "${params.BRANCH_OR_TAG_OR_HASH}"
+        }
+      }
+    }
+    stage("Deploy") {
+      steps {
+        ansiColor('xterm') {
+          withCredentials([string(credentialsId: 'npm-auth-token',
+                                                  variable: 'NPM_TOKEN')]) {
+            sh '''
+              #!/bin/bash -xe
+              docker ps -aq | xargs --no-run-if-empty docker stop
+              docker ps -aq | xargs --no-run-if-empty docker rm
+              docker images -q | grep arcadiagroup/full-monty | xargs --no-run-if-empty docker rmi
+              MONTY_DOCKERFILE=Dockerfile.branches NODE_ENV=production ./scripts/push_version_to_production_bucket.sh $BRANCH_OR_TAG_OR_HASH
+            '''
+          }
+        }
+      }
+    }
+  }
+}

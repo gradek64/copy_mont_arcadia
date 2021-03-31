@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressFormDetails /> @renders in default state 1`] = `
+<section
+  aria-label="deliveryCheckout Details"
+  className="AddressFormDetails AddressFormDetails--deliveryCheckout "
+>
+  <header
+    className="AddressFormDetails-header"
+  >
+    <h3
+      className="AddressFormDetails-headerText"
+    />
+  </header>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-firstName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="AddressFormDetails-lastName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-telephone"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <span
+      className="AddressFormDetails-telephoneCopy"
+    >
+      We'll only call you if there are issues with your order
+    </span>
+  </div>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="AddressFormDetails-checkbox"
+    isDisabled={false}
+    name="smsMobileNumber"
+    onChange={[Function]}
+    reverse={false}
+  >
+    Free SMS delivery updates (mobile only)
+  </Connect(Checkbox)>
+</section>
+`;
+
+exports[`<AddressFormDetails /> @renders with a h4 1`] = `
+<section
+  aria-label="deliveryCheckout Details"
+  className="AddressFormDetails AddressFormDetails--deliveryCheckout "
+>
+  <header
+    className="AddressFormDetails-header"
+  >
+    <h4
+      className="AddressFormDetails-headerText"
+    />
+  </header>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-firstName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="AddressFormDetails-lastName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-telephone"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <span
+      className="AddressFormDetails-telephoneCopy"
+    >
+      We'll only call you if there are issues with your order
+    </span>
+  </div>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="AddressFormDetails-checkbox"
+    isDisabled={false}
+    name="smsMobileNumber"
+    onChange={[Function]}
+    reverse={false}
+  >
+    Free SMS delivery updates (mobile only)
+  </Connect(Checkbox)>
+</section>
+`;
+
+exports[`<AddressFormDetails /> @renders with a label 1`] = `
+<section
+  aria-label="deliveryCheckout Details"
+  className="AddressFormDetails AddressFormDetails--deliveryCheckout "
+>
+  <header
+    className="AddressFormDetails-header"
+  >
+    <h3
+      className="AddressFormDetails-headerText"
+    >
+      Your Delivery Details
+    </h3>
+  </header>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-firstName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="AddressFormDetails-lastName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-telephone"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <span
+      className="AddressFormDetails-telephoneCopy"
+    >
+      We'll only call you if there are issues with your order
+    </span>
+  </div>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="AddressFormDetails-checkbox"
+    isDisabled={false}
+    name="smsMobileNumber"
+    onChange={[Function]}
+    reverse={false}
+  >
+    Free SMS delivery updates (mobile only)
+  </Connect(Checkbox)>
+</section>
+`;
+
+exports[`<AddressFormDetails /> @renders with a type 1`] = `
+<section
+  aria-label="deliveryCheckout Details"
+  className="AddressFormDetails AddressFormDetails--deliveryCheckout "
+>
+  <header
+    className="AddressFormDetails-header"
+  >
+    <h3
+      className="AddressFormDetails-headerText"
+    />
+  </header>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-firstName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="AddressFormDetails-lastName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-telephone"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <span
+      className="AddressFormDetails-telephoneCopy"
+    >
+      We'll only call you if there are issues with your order
+    </span>
+  </div>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="AddressFormDetails-checkbox"
+    isDisabled={false}
+    name="smsMobileNumber"
+    onChange={[Function]}
+    reverse={false}
+  >
+    Free SMS delivery updates (mobile only)
+  </Connect(Checkbox)>
+</section>
+`;
+
+exports[`<AddressFormDetails /> @renders with errors 1`] = `
+<section
+  aria-label="deliveryCheckout Details"
+  className="AddressFormDetails AddressFormDetails--deliveryCheckout "
+>
+  <header
+    className="AddressFormDetails-header"
+  >
+    <h3
+      className="AddressFormDetails-headerText"
+    />
+  </header>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-firstName"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="AddressFormDetails-lastName"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-telephone"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <span
+      className="AddressFormDetails-telephoneCopy"
+    >
+      We'll only call you if there are issues with your order
+    </span>
+  </div>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="AddressFormDetails-checkbox"
+    isDisabled={false}
+    name="smsMobileNumber"
+    onChange={[Function]}
+    reverse={false}
+  >
+    Free SMS delivery updates (mobile only)
+  </Connect(Checkbox)>
+</section>
+`;
+
+exports[`<AddressFormDetails /> @renders with isDesktopMultiColumnStyle prop 1`] = `
+<section
+  aria-label="deliveryCheckout Details"
+  className="AddressFormDetails AddressFormDetails--deliveryCheckout AddressFormDetails--multiColumn"
+>
+  <header
+    className="AddressFormDetails-header"
+  >
+    <h3
+      className="AddressFormDetails-headerText"
+    />
+  </header>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-firstName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="AddressFormDetails-lastName"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <Connect(Input)
+      className="AddressFormDetails-telephone"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="AddressFormDetails-col AddressFormDetails-telephoneCol"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="AddressFormDetails-row"
+  >
+    <span
+      className="AddressFormDetails-telephoneCopy"
+    >
+      We'll only call you if there are issues with your order
+    </span>
+    <div
+      className="AddressFormDetails-telephoneCol"
+    >
+       
+    </div>
+  </div>
+  <Connect(Checkbox)
+    checked={
+      Object {
+        "value": false,
+      }
+    }
+    className="AddressFormDetails-checkbox"
+    isDisabled={false}
+    name="smsMobileNumber"
+    onChange={[Function]}
+    reverse={false}
+  >
+    Free SMS delivery updates (mobile only)
+  </Connect(Checkbox)>
+</section>
+`;

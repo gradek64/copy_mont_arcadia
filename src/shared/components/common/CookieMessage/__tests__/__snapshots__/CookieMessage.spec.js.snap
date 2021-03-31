@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CookieMessage/> @renders when cookieManager feature flag is disabled should render cookie manager text with no adjust cookie preferences 1`] = `
+<div
+  className="CookieMessage"
+>
+  <div
+    className="CookieMessage-content"
+  >
+    <div
+      className="CookieMessage-message"
+    >
+      <span>
+        We use cookies to give you the best experience possible. Click accept to continue shopping or find out more in our cookie policy
+         
+        <Link
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="https://www.topman.com/en/tmuk/category/privacy-and-cookies-3180184/home"
+        >
+           
+          here
+        </Link>
+      </span>
+    </div>
+    <div
+      className="CookieMessage-button"
+    >
+      <Button
+        className="Button Button Button--secondary"
+        clickHandler={[Function]}
+      >
+        ACCEPT AND CLOSE
+      </Button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CookieMessage/> @renders when cookieManager feature flag is enabled should render cookie manager text with adjust cookie preferences 1`] = `
+<div
+  id="consent_blackbar"
+/>
+`;

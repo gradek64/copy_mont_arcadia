@@ -1,0 +1,57 @@
+{"type": "object",
+  "properties": {
+    "addressDetailsId": {
+      "type": "string",
+      "example": "789993"
+    },
+    "nameAndPhone": {
+      "type": "object",
+      "properties": {
+        "lastName": {
+          "type": "string",
+          "example": "asdfdsaf"
+        },
+        "telephone": {
+          "type": "string",
+          "example": "1231231231"
+        },
+        "title": {
+          "type": "string",
+          "example": "Mr"
+        },
+        "firstName": {
+          "type": "string",
+          "example": "asfdds"
+        }
+      }
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "address1": {
+          "type": "string",
+          "example": "3 Essex Road"
+        },
+        "address2": {
+          "type": "string",
+          "example": ""
+        },
+        "city": {
+          "type": "string",
+          "example": "LONDON"
+        },
+        "state": {
+          "type": "string",
+          "example": ""
+        },
+        "country": {
+          "type": "string",
+          "example": "United Kingdom"
+        },
+        "postcode": {
+          "type": "string",
+          "example": "E12 6RF"
+        }
+      }
+    }
+  }}

@@ -1,0 +1,29 @@
+/** @define ProductDetail; weak */
+
+@media $min-tablet {
+  .ProductDetail {
+
+    &-sizeGuide {
+      padding-left: 9px;
+
+      &--narrow {
+        width: auto;
+
+        & .SizeGuide {
+          &-link {
+            display: inline-block;
+            hyphens: auto;
+            word-break: break-word;
+            padding: 15px 5px;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .LowStock {
+      flex: auto;
+    }
+
+  }
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GuestRegisterForm /> default render 1`] = `
+<div
+  className="GuestRegisterForm"
+>
+  <div
+    className="GuestRegisterForm-header"
+  >
+    <h1
+      className="GuestRegisterForm-header--left"
+    >
+      Enter a password to checkout faster next time!
+    </h1>
+  </div>
+  <p
+    className="GuestRegisterForm-copy"
+  >
+    We recommend choosing a password that you haven't used for another online account
+  </p>
+  <Connect(Register)
+    className="Register--guest"
+    isGuestCheckoutForm={true}
+  />
+</div>
+`;

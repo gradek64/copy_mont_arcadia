@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineConfirm /> @renders should render correct default state 1`] = `
+<div
+  className="InlineConfirm"
+>
+  <ToolTip
+    arrowCentered={true}
+  >
+    <div
+      className="InlineConfirm-content"
+    >
+      <div
+        className="InlineConfirm-label"
+      >
+        <Connect(Image)
+          className="InlineConfirm-tick"
+          src="/assets/{brandName}/images/check-tick.svg"
+        />
+        1 item(s) added to bag
+      </div>
+      <Connect(AddToBagConfirm)
+        onClose={[Function]}
+      />
+    </div>
+  </ToolTip>
+</div>
+`;

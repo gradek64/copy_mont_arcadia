@@ -1,0 +1,16 @@
+/** @define RegisterSuccess */
+
+.RegisterSuccess {
+  margin-top : 20px;
+  padding: 0 $page-padding;
+  display: flex;
+  justify-content: center;
+}
+
+@media $min-laptop {
+  .RegisterSuccess {
+    &-inner {
+      width: 660px;
+    }
+  }
+}

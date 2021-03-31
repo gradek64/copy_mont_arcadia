@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TsAndCsItem /> @renders should render 2nd level items 1`] = `
+<div
+  className="TsAndCsItem"
+>
+  <Accordion
+    accordionName="tscs-fragment"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className=""
+    expanded={false}
+    header={
+      <p>
+        Header
+      </p>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="TsAndCsItem-secondLevelItem"
+      key="0"
+    >
+      <div
+        className="TsAndCsItem-secondLevelItemSubHeading"
+      >
+        <span
+          className="TsAndCsItem-secondLevelItemSubHeadingText"
+        >
+          UK Delivery
+        </span>
+      </div>
+      <div
+        className="TsAndCsItem-markup"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>abc</p>",
+          }
+        }
+      />
+    </div>
+    <div
+      className="TsAndCsItem-secondLevelItem"
+      key="1"
+    >
+      <div
+        className="TsAndCsItem-secondLevelItemSubHeading"
+      >
+        <span
+          className="TsAndCsItem-secondLevelItemSubHeadingText"
+        >
+          Free Standard Delivery
+        </span>
+      </div>
+      <div
+        className="TsAndCsItem-markup"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>lmn</p>",
+          }
+        }
+      />
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<TsAndCsItem /> @renders should render in default state 1`] = `
+<div
+  className="TsAndCsItem"
+>
+  <Accordion
+    accordionName="tscs-fragment"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className=""
+    expanded={false}
+    header={
+      <p>
+        Header
+      </p>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[Function]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;

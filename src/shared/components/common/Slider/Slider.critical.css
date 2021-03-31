@@ -1,0 +1,99 @@
+/** @define Slider */
+.Slider {
+  position: relative;
+  margin: $slider-margin;
+  user-select: none;
+  background-clip: content-box;
+  background-color: $slider-background-color;
+
+  @media $min-tablet {
+    width: 150px;
+    margin: $slider-margin-desktop;
+    background-color: $slider-background-color-desktop;
+  }
+
+  &-bar {
+    background-clip: content-box;
+    height: $slider-bar-height;
+    background-color: $slider-bar-background-color;
+
+    @media $min-tablet {
+      height: $slider-bar-height-desktop;
+      background-color: $slider-bar-background-color-desktop;
+    }
+  }
+
+  &-label {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    font-weight: $slider-label-font-weight;
+    font-size: $slider-label-font-size;
+    bottom: $slider-label-bottom;
+    width: $slider-label-width;
+    text-align: $slider-label-text-align;
+    padding: $slider-label-padding;
+    background: $slider-label-background;
+    color: $slider-label-color;
+
+    @media $min-tablet {
+      color: $slider-label-color-desktop;
+      font-size: $slider-label-font-size-desktop;
+      padding: $slider-label-padding-desktop;
+      background-color: transparent;
+      bottom: $slider-label-bottom-desktop;
+      width: auto;
+      font-weight: $slider-label-font-weight-desktop;
+    }
+
+    &--minHandle {
+      left: 0;
+    }
+
+    &--maxHandle {
+      right: 0;
+    }
+  }
+
+  &-icon {
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    width: $slider-icon-width;
+    height: $slider-icon-width;
+    background-color: $slider-icon-background-color;
+
+    @media $min-tablet {
+      width: $slider-icon-width-desktop;
+      height: $slider-icon-width-desktop;
+      background-color: $slider-icon-background-color-desktop;
+    }
+  }
+
+  &-handle {
+    will-change: transform;
+    cursor: pointer;
+    bottom: calc(-1 * $slider-icon-width / 2);
+    position: absolute;
+    width: $slider-icon-width;
+    height: $slider-icon-width;
+
+    &.is-active .Slider-icon {
+      background-color: $slider-icon-active-background-color;
+
+      @media $min-tablet {
+        background-color: $slider-icon-active-background-color-desktop;
+      }
+    }
+
+    @media $min-tablet {
+      width: $slider-icon-width-desktop;
+      height: $slider-icon-width-desktop;
+      bottom: calc(-1 * $slider-icon-width-desktop / 2);
+    }
+  }
+
+}
+

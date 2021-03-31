@@ -1,0 +1,53 @@
+/** @define HeaderBig */
+
+.HeaderBig {
+  display: none;
+  background-color: $header-big-background;
+  max-width: $header-big-max-width;
+  margin: $header-big-margin;
+  padding: $header-big-padding;
+
+  &-content {
+    background-color: $header-background;
+    height: $header-big-height;
+    position: relative;
+    width: 100%;
+    max-width: $laptop-end-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: $header-big-content-padding-top;
+  }
+
+  &-brandLogo {
+    height: $header-big-brand-logo-height;
+  }
+
+  &-centre {
+    flex: $header-big-centre-flex-grow;
+  }
+
+  &-left {
+    height: 100%;
+    flex: $header-big-left-flex-grow;
+    display: flex;
+    align-items: $header-big-left-align-items;
+    justify-content: $header-big-left-justify-content;
+  }
+
+  &-right {
+    height: 100%;
+    flex: $header-big-right-flex-grow;
+    display: flex;
+    align-items: $header-big-right-elements-alignment;
+    justify-content: flex-end;
+  }
+}
+
+@media $min-tablet {
+  .HeaderBig {
+    display: block;
+    min-height: $header-big-min-height;
+  }
+}

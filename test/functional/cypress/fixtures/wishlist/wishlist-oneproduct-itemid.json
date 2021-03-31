@@ -1,0 +1,64 @@
+{
+	"pageSize": 20,
+	"pageNo": 1,
+	"name": "default",
+	"giftListId": 55516,
+	"type": "public",
+	"itemDetails": [{
+		"parentProductId": 31825257,
+		"sizeAndQuantity": [{
+			"size": "ONE",
+			"catentryId": 31824460,
+			"quantity": 10
+		}],
+		"lineNumber":"TX456723U2",
+		"size": "ONE",
+		"avlQuantity": 10,
+		"productImageUrl": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1.jpg?$3col$",
+		"outfitBaseImageUrl": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1",
+		"price": {
+			"was2Price": null,
+			"was1Price": null,
+			"nowPrice": "20.00000"
+		},
+		"quantity": "1",
+		"colour": "GOLD",
+		"listItemId": "53005",
+		"productImage": "TS22Q07MGLD_F_1.jpg?$3col$",
+		"productAvailableForPurchase": true,
+		"colourKey": "196747552",
+		"productBaseImageUrl": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1",
+		"catEntryId": "31824460",
+		"outfitImageUrl": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_M_1.jpg?$3col$",
+		"outfitImage": "TS22Q07MGLD_M_1.jpg?$3col$",
+		"title": "Angular Aviators",
+		"rating": null,
+		"sizeKey": "196747477",
+		"assets": [{
+			"assetType": "IMAGE_THUMB",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1.jpg?$Thumb$"
+		}, {
+			"assetType": "IMAGE_SMALL",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1.jpg?$Small$"
+		}, {
+			"assetType": "IMAGE_NORMAL",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1.jpg?$2col$"
+		}, {
+			"assetType": "IMAGE_LARGE",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_F_1.jpg?$Zoom$"
+		}, {
+			"assetType": "IMAGE_OUTFIT_THUMB",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_M_1.jpg?$Thumb$"
+		}, {
+			"assetType": "IMAGE_OUTFIT_SMALL",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_M_1.jpg?$Small$"
+		}, {
+			"assetType": "IMAGE_OUTFIT_NORMAL",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_M_1.jpg?$2col$"
+		}, {
+			"assetType": "IMAGE_OUTFIT_LARGE",
+			"url": "https://images.topshop.com/i/TopShop/TS22Q07MGLD_M_1.jpg?$Large$"
+		}]
+	}],
+	"noOfItemsInList": 1
+}

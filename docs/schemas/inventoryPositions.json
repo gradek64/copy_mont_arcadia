@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "catentryId": {
+      "type": "string",
+      "example": "20298287"
+    },
+    "inventorys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cutofftime": {
+            "type": "string",
+            "example": "2100"
+          },
+          "quantity": {
+            "type": "number",
+            "example": 9
+          },
+          "ffmcenterId": {
+            "type": "number",
+            "example": 12556
+          },
+          "expressdates": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "example": "2017-10-26"
+            }
+          }
+        }
+      }
+    }
+  }
+}

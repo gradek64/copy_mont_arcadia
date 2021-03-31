@@ -1,0 +1,28 @@
+localhost,
+local.m.burton.co.uk,
+local.m.de.topshop.com,
+local.m.dorothyperkins.com,
+local.m.eu.burton-menswear.com,
+local.m.eu.topman.com,
+local.m.eu.topshop.com,
+local.m.euro.dorothyperkins.com,
+local.m.euro.evansfashion.com,
+local.m.euro.missselfridge.com,
+local.m.evans.co.uk,
+local.m.evansmode.de,
+local.m.evansusa.com,
+local.m.fr.topman.com,
+local.m.fr.topshop.com,
+local.m.missselfridge.com,
+local.m.missselfridge.de,
+local.m.missselfridge.fr,
+local.m.topman.com,
+local.m.topshop.com,
+local.m.us.missselfridge.com,
+local.m.us.topshop.com,
+local.m.wallis.co.uk,
+local.m.wallisfashion.com,
+local.m.wallismode.de {
+  tls internal
+  reverse_proxy localhost:8080
+}

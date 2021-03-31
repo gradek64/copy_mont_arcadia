@@ -1,0 +1,15 @@
+/** @define ProductAttributeBanner */
+
+.ProductAttributeBanner {
+  margin-bottom: $plp-product-attribute-banner-bottom;
+  width: $plp-product-attribute-banner-width;
+  margin-left: $plp-product-attribute-banner-left-property;
+}
+
+@media $mobile {
+  .ProductAttributeBanner {
+    margin-bottom: $plp-product-attribute-banner-bottom;
+    width: $plp-product-attribute-banner-mobile-width;
+    margin-left: $plp-product-attribute-banner-mobile-left-property;
+  }
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortSelector /> @renders \`Select\` child component has correct props 1`] = `
+<Component
+  id="EXP-373-hide-ratings"
+>
+  <Connect(Select)
+    className="SortSelector Select--sort "
+    hideLabel={true}
+    isDisabled={false}
+    label="Sort product list by"
+    name="sortSelector"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "test",
+          "value": "test",
+        },
+        Object {
+          "label": "test",
+          "value": "test",
+        },
+      ]
+    }
+    value="my sort option"
+  />
+</Component>
+`;
+
+exports[`<SortSelector /> @renders renders in default state 1`] = `
+<Component
+  id="EXP-373-hide-ratings"
+>
+  <Connect(Select)
+    className="SortSelector Select--sort "
+    hideLabel={true}
+    isDisabled={false}
+    label="Sort product list by"
+    name="sortSelector"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "test",
+          "value": "test",
+        },
+        Object {
+          "label": "test",
+          "value": "test",
+        },
+      ]
+    }
+    value="my sort option"
+  />
+</Component>
+`;

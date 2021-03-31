@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderList /> @render in default state 1`] = `
+<ol
+  className="OrderList-list"
+>
+  <OrderElement
+    key="undefined-1446704"
+    orderDate="03 May 2017"
+    orderId={1446704}
+    orderStatus="Your order is currently being packed by our warehouse."
+    orderTotal="£53.00"
+  />
+  <OrderElement
+    key="undefined-1438912"
+    orderDate="27 April 2017"
+    orderId={1438912}
+    orderStatus="Your order is currently being packed by our warehouse."
+    orderTotal="£42.00"
+  />
+</ol>
+`;
+
+exports[`<OrderList /> @render with header 1`] = `
+<ol
+  className="OrderList-list"
+>
+  <OrderElement
+    key="undefined-1446704"
+    orderDate="03 May 2017"
+    orderId={1446704}
+    orderStatus="Your order is currently being packed by our warehouse."
+    orderTotal="£53.00"
+  />
+  <OrderElement
+    key="undefined-1438912"
+    orderDate="27 April 2017"
+    orderId={1438912}
+    orderStatus="Your order is currently being packed by our warehouse."
+    orderTotal="£42.00"
+  />
+</ol>
+`;
+
+exports[`<OrderList /> @render with isOrderDDPOnly set to true 1`] = `
+<ol
+  className="OrderList-list"
+>
+  <OrderElement
+    key="undefined-1446704"
+    orderDate="03 May 2017"
+    orderId={1446704}
+    orderStatus="Your order is currently being packed by our warehouse."
+    orderTotal="£53.00"
+  />
+  <OrderElement
+    key="undefined-1438912"
+    orderDate="27 April 2017"
+    orderId={1438912}
+    orderStatus="Your order is currently being packed by our warehouse."
+    orderTotal="£42.00"
+  />
+  <OrderElement
+    key="undefined-8354892"
+    orderDate="05 June 2019"
+    orderId={8354892}
+    orderStatus="Completed."
+    orderTotal="£9.95"
+  />
+</ol>
+`;

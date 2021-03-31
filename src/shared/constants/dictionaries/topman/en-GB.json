@@ -1,0 +1,19 @@
+{
+  "Check your saved delivery, payment details and ${ddpProductName} Subscription": "Check your saved delivery, payment details and your ${ddpProductName} Subscription",
+  "Choose Country Statement": "Choose a country to find Topman stores worldwide",
+  "Find in store": "Check Stores",
+  "Product details": "Product Info",
+  "Select your items": "Select the items you wish to buy",
+  "Shop the set": "Complete the look",
+  "Size guide": "View size guide",
+  "Store Locator": "Store Finder",
+  "View The Set": "View The look",
+  "Qty": "Quantity",
+  
+  "DDP expired title": "Your Topman Premier has expired",
+  "DDP expiring title ${ddpExpiryDate}": "Your Topman Premier expires on ${ddpExpiryDate}",
+  "DDP Added Msg title": "Topman Premier successfully added",
+  "DDP Active": "Topman Premier delivery is active",
+  "DDP Express Saving ${ddpSaving}": "You've saved up to <b>${ddpSaving}</b> per delivery",
+  "Tick here to receive style inspiration and exclusives straight to your inbox.": "Tick here to receive style inspiration, exclusives, and grooming tips straight to your inbox."
+}

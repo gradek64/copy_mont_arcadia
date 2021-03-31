@@ -1,0 +1,31 @@
+/** @define ProductQuantity; weak */
+
+@media $min-tablet {
+  .ProductQuantity {
+    &-selectContainer {
+      max-width: 190px;
+
+      & select {
+        border: 1px solid #999;
+        height: 34px;
+      }
+      &::after {
+        border-left: 1px solid #999;
+      }
+    }
+
+    & .Select-head {
+      align-self: center;
+
+      & .Select-label {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+      }
+    }
+
+    &-quantities {
+      flex-flow: wrap;
+    }
+  }
+}

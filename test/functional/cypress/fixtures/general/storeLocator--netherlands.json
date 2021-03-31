@@ -1,0 +1,85 @@
+[{
+  "storeId": "TS3177",
+  "brandPrimaryEStoreId": 12556,
+  "brandName": "Topshop",
+  "name": "Den Haag",
+  "distance": 0,
+  "latitude": 0,
+  "longitude": 0,
+  "address": {
+    "line1": "Den Haag",
+    "line2": "Grote Marktstraat 48-50",
+    "city": "",
+    "postcode": "2511BG",
+    "country": "Netherlands"
+  },
+  "openingHours": {
+    "monday": "00:01-23:59",
+    "tuesday": "00:01-23:59",
+    "wednesday": "00:01-23:59",
+    "thursday": "00:01-23:59",
+    "friday": "00:01-23:59",
+    "saturday": "00:01-23:59",
+    "sunday": "00:01-23:59"
+  },
+  "telephoneNumber": "31850 657306",
+  "cfsiAvailableOn": "",
+  "ffsAvailableOn": "",
+  "cfsiPickCutOffTime": ""
+}, {
+  "storeId": "TS2892",
+  "brandPrimaryEStoreId": 12556,
+  "brandName": "Topshop",
+  "name": "Kalverstraat",
+  "distance": 0,
+  "latitude": 0,
+  "longitude": 0,
+  "address": {
+    "line1": "Unit 48/52",
+    "line2": "Kalverstraat",
+    "city": "Amsterdam",
+    "postcode": "1012PE",
+    "country": "Netherlands"
+  },
+  "openingHours": {
+    "monday": "11:00-19:00",
+    "tuesday": "10:00-19:00",
+    "wednesday": "10:00-19:00",
+    "thursday": "10:00-21:00",
+    "friday": "10:00-19:00",
+    "saturday": "10:00-19:00",
+    "sunday": "12:00-18:30"
+  },
+  "telephoneNumber": "31203 449440",
+  "cfsiAvailableOn": "",
+  "ffsAvailableOn": "",
+  "cfsiPickCutOffTime": ""
+}, {
+  "storeId": "TS3178",
+  "brandPrimaryEStoreId": 12556,
+  "brandName": "Topshop",
+  "name": "Rotterdam",
+  "distance": 0,
+  "latitude": 0,
+  "longitude": 0,
+  "address": {
+    "line1": "Rotterdam",
+    "line2": "Hoogstraat 158",
+    "city": "3011pm",
+    "postcode": "3011PM",
+    "country": "Netherlands"
+  },
+  "openingHours": {
+    "monday": "11:00-19:00",
+    "tuesday": "10:00-19:00",
+    "wednesday": "10:00-19:00",
+    "thursday": "10:00-19:00",
+    "friday": "10:00-21:00",
+    "saturday": "10:00-19:00",
+    "sunday": "12:00-19:00"
+  },
+  "telephoneNumber": "31850 657300",
+  "cfsiAvailableOn": "",
+  "ffsAvailableOn": "",
+  "cfsiPickCutOffTime": ""
+}]

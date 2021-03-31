@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> @renders in default state 1`] = `
+<section
+  className="Login "
+>
+  <h3
+    className="Login-header"
+  >
+    Sign In
+  </h3>
+  <Form
+    className="Login-form"
+    method="POST"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "elroy@arcadia.com",
+        }
+      }
+      id="Login-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "password1",
+        }
+      }
+      id="Login-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="Checkbox-remember-me"
+      name="rememberMe"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Button
+      className="Login-submitButton"
+      isActive={true}
+      isDisabled={false}
+      type="submit"
+    >
+      Sign In
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<Login /> @renders in error state 1`] = `
+<section
+  className="Login "
+>
+  <h3
+    className="Login-header"
+  >
+    Sign In
+  </h3>
+  <Form
+    className="Login-form"
+    method="POST"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "password": "A password is required.",
+        }
+      }
+      field={Object {}}
+      id="Login-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "password": "A password is required.",
+        }
+      }
+      field={Object {}}
+      id="Login-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <Connect(Checkbox)
+      className="Checkbox-remember-me"
+      name="rememberMe"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Button
+      className="Login-submitButton"
+      isActive={false}
+      isDisabled={true}
+      type="submit"
+    >
+      Sign In
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<Login /> @renders when password isfocused 1`] = `
+<section
+  className="Login "
+>
+  <h3
+    className="Login-header"
+  >
+    Sign In
+  </h3>
+  <Form
+    className="Login-form"
+    method="POST"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "password": "A password is required.",
+        }
+      }
+      field={Object {}}
+      id="Login-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={
+        Object {
+          "email": "An email address is required.",
+          "password": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "isFocused": true,
+        }
+      }
+      id="Login-password"
+      isFocused={true}
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <Connect(Checkbox)
+      className="Checkbox-remember-me"
+      name="rememberMe"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Button
+      className="Login-submitButton"
+      isActive={false}
+      isDisabled={true}
+      type="submit"
+    >
+      Sign In
+    </Button>
+  </Form>
+</section>
+`;
+
+exports[`<Login /> @renders with loginform having message 1`] = `
+<section
+  className="Login "
+>
+  <h3
+    className="Login-header"
+  >
+    Sign In
+  </h3>
+  <Form
+    className="Login-form"
+    method="POST"
+    noValidate={true}
+    onSubmit={[Function]}
+  >
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "elroy@arcadia.com",
+        }
+      }
+      id="Login-email"
+      isRequired={true}
+      label="Email address"
+      name="email"
+      placeholder="example@domain.com"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="email"
+    />
+    <Connect(Input)
+      errors={Object {}}
+      field={
+        Object {
+          "value": "password1",
+        }
+      }
+      id="Login-password"
+      isRequired={true}
+      label="Password"
+      name="password"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="password"
+    />
+    <Connect(Checkbox)
+      checked={
+        Object {
+          "value": false,
+        }
+      }
+      className="Checkbox-remember-me"
+      name="rememberMe"
+      onChange={[Function]}
+    >
+      Remember me
+    </Connect(Checkbox)>
+    <Button
+      className="Login-submitButton"
+      isActive={true}
+      isDisabled={false}
+      type="submit"
+    >
+      Sign In
+    </Button>
+    <Message
+      isCompact={false}
+      message="this is a fake Message"
+      type="normal"
+    />
+  </Form>
+</section>
+`;

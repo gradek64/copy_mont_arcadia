@@ -1,0 +1,20 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "paymentMethod": {
+        "type": "string",
+        "example": "Visa"
+      },
+      "cardNumberStar": {
+        "type": "string",
+        "example": "************1111"
+      },
+      "totalCost": {
+        "type": "string",
+        "example": "£58.25"
+      }
+    }
+  }
+}

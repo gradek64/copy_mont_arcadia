@@ -1,0 +1,64 @@
+/** @define ManualAddress */
+
+.ManualAddress {
+  border: none;
+  padding: none;
+
+  &-linkWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+  }
+
+  &-link {
+    color: $black;
+    text-decoration: underline;
+    font-size: 14px;
+    display: inline-block;
+
+    &--right {
+      margin-left: auto;
+    }
+  }
+}
+
+@media $min-laptop {
+  .ManualAddress {
+    &--multiColumn {
+      & .ManualAddress {
+        &-row {
+          display: flex;
+        }
+
+        &-address1 {
+          flex: 1;
+        }
+
+        &-address2 {
+          flex: 1;
+        }
+
+        &-postcode {
+          flex: 1;
+        }
+
+        &-city {
+          flex: 1;
+        }
+
+        &-telephone,
+        &-address1,
+        &-postcode {
+          margin-right: $right-col-margin;
+        }
+
+        &-country,
+        &-address2,
+        &-city {
+          margin-left: $left-col-margin;
+        }
+      }
+    }
+  }
+}

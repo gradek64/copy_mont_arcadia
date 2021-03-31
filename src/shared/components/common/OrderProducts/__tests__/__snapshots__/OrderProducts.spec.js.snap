@@ -1,0 +1,708 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderProducts should render with the default props 1`] = `
+<div
+  className="OrderProducts "
+>
+  <div
+    className="OrderProducts-wrapper"
+  >
+    <div
+      className="OrderProducts-product"
+      key="0"
+    >
+      <Connect(OrderProduct)
+        ageVerificationRequired={false}
+        assets={
+          Array [
+            Object {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_small.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_thumb.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_normal.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_large.jpg",
+            },
+          ]
+        }
+        attributes={Object {}}
+        bundleProducts={Array []}
+        bundleSlots={Array []}
+        catEntryId={27126578}
+        colourSwatches={Array []}
+        inStock={true}
+        inventoryPositions={Object {}}
+        isDDPProduct={false}
+        items={
+          Array [
+            Object {
+              "quantity": 1,
+              "size": "4",
+            },
+            Object {
+              "quantity": 10,
+              "size": "6",
+            },
+            Object {
+              "quantity": 0,
+              "size": "8",
+            },
+            Object {
+              "quantity": 3,
+              "size": "10",
+            },
+          ]
+        }
+        lineNumber="01W16JCRM"
+        lowStock={false}
+        name="Floral Embroidered PJ Set"
+        productId={23407622}
+        quantity={3}
+        quantitySelected="1"
+        shouldDisplaySocialProofLabel={false}
+        shouldLinkToPdp={false}
+        size="4"
+        sku="0000000001"
+        totalPrice={10}
+        tpmLinks={Array []}
+        unitPrice="30.00"
+      >
+        <p
+          className="OrderProducts-row OrderProducts-productSubtotal"
+        >
+          <span
+            className="OrderProducts-label OrderProducts-total"
+          >
+            Total
+            :
+          </span>
+          <Price
+            className="OrderProducts-price"
+            price={10}
+          />
+        </p>
+        <OrderProductPromo
+          product={
+            Object {
+              "ageVerificationRequired": false,
+              "assets": Array [
+                Object {
+                  "assetType": "IMAGE_SMALL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_small.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_THUMB",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_thumb.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_NORMAL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_normal.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_LARGE",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_large.jpg",
+                },
+              ],
+              "attributes": Object {},
+              "bundleProducts": Array [],
+              "bundleSlots": Array [],
+              "catEntryId": 27126578,
+              "colourSwatches": Array [],
+              "inStock": true,
+              "inventoryPositions": Object {},
+              "isDDPProduct": false,
+              "items": Array [
+                Object {
+                  "quantity": 1,
+                  "size": "4",
+                },
+                Object {
+                  "quantity": 10,
+                  "size": "6",
+                },
+                Object {
+                  "quantity": 0,
+                  "size": "8",
+                },
+                Object {
+                  "quantity": 3,
+                  "size": "10",
+                },
+              ],
+              "lineNumber": "01W16JCRM",
+              "lowStock": false,
+              "name": "Floral Embroidered PJ Set",
+              "productId": 23407622,
+              "quantity": 3,
+              "quantitySelected": "1",
+              "size": "4",
+              "sku": "0000000001",
+              "totalPrice": 10,
+              "tpmLinks": Array [],
+              "unitPrice": "30.00",
+            }
+          }
+        />
+        <div
+          className="OrderProducts-stockEditRemove"
+        >
+          <div
+            className="OrderProducts-productStockContainer"
+          >
+            <div
+              className="OrderProducts-productOutOfStockContainer"
+            >
+              <Connect(Image)
+                alt="Remove"
+                className="OrderProducts-errorIcon"
+                src="/assets/common/images/icon-info-error.svg"
+              />
+              <div
+                className="OrderProducts-productOutOfStockMessageContainer"
+              >
+                <span
+                  className="OrderProducts-productOutOfStockMessage"
+                >
+                  Only 0 available
+                </span>
+                <span
+                  className="OrderProducts-productOutOfStockMessage"
+                >
+                  Please edit or remove
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="OrderProducts-editContainer"
+          >
+            <button
+              className="OrderProducts-editText notranslate"
+              onClick={[Function]}
+              role="button"
+            >
+              <span
+                className="OrderProducts-editLabel translate"
+              >
+                Edit
+              </span>
+            </button>
+            <button
+              className="OrderProducts-deleteText notranslate"
+              onClick={[Function]}
+            >
+              <Connect(Image)
+                alt="Remove"
+                className="OrderProducts-deleteIcon"
+                src="/assets/{brandName}/images/trashcan-icon.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </Connect(OrderProduct)>
+      <OrderProductNotification
+        boldMessage=""
+        hasError={false}
+        message="Only available via Standard Delivery"
+      />
+    </div>
+    <div
+      className="OrderProducts-product"
+      key="1"
+    >
+      <Connect(OrderProduct)
+        ageVerificationRequired={false}
+        assets={
+          Array [
+            Object {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_small.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_thumb.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_normal.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_large.jpg",
+            },
+          ]
+        }
+        attributes={Object {}}
+        bundleProducts={Array []}
+        bundleSlots={Array []}
+        catEntryId={27126578}
+        colourSwatches={Array []}
+        inStock={true}
+        inventoryPositions={Object {}}
+        isDDPProduct={false}
+        items={Array []}
+        lineNumber="13M02JWHT"
+        lowStock={false}
+        name="Light Chambray Billie Shirt"
+        productId={23414247}
+        quantity={3}
+        quantitySelected="1"
+        shouldDisplaySocialProofLabel={false}
+        shouldLinkToPdp={false}
+        size="4"
+        sku="0000000002"
+        totalPrice={10}
+        tpmLinks={Array []}
+        unitPrice="25.00"
+      >
+        <p
+          className="OrderProducts-row OrderProducts-productSubtotal"
+        >
+          <span
+            className="OrderProducts-label OrderProducts-total"
+          >
+            Total
+            :
+          </span>
+          <Price
+            className="OrderProducts-price"
+            price={10}
+          />
+        </p>
+        <OrderProductPromo
+          product={
+            Object {
+              "ageVerificationRequired": false,
+              "assets": Array [
+                Object {
+                  "assetType": "IMAGE_SMALL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_small.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_THUMB",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_thumb.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_NORMAL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_normal.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_LARGE",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M02JWHT_large.jpg",
+                },
+              ],
+              "attributes": Object {},
+              "bundleProducts": Array [],
+              "bundleSlots": Array [],
+              "catEntryId": 27126578,
+              "colourSwatches": Array [],
+              "inStock": true,
+              "inventoryPositions": Object {},
+              "isDDPProduct": false,
+              "items": Array [],
+              "lineNumber": "13M02JWHT",
+              "lowStock": false,
+              "name": "Light Chambray Billie Shirt",
+              "productId": 23414247,
+              "quantity": 3,
+              "quantitySelected": "1",
+              "size": "4",
+              "sku": "0000000002",
+              "totalPrice": 10,
+              "tpmLinks": Array [],
+              "unitPrice": "25.00",
+            }
+          }
+        />
+        <div
+          className="OrderProducts-stockEditRemove"
+        >
+          <div
+            className="OrderProducts-productStockContainer"
+          >
+            <div
+              className="OrderProducts-productOutOfStockContainer"
+            >
+              <Connect(Image)
+                alt="Remove"
+                className="OrderProducts-errorIcon"
+                src="/assets/common/images/icon-info-error.svg"
+              />
+              <div
+                className="OrderProducts-productOutOfStockMessageContainer"
+              >
+                <span
+                  className="OrderProducts-productOutOfStockMessage"
+                >
+                  Only 0 available
+                </span>
+                <span
+                  className="OrderProducts-productOutOfStockMessage"
+                >
+                  Please edit or remove
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="OrderProducts-editContainer"
+          >
+            <button
+              className="OrderProducts-editText notranslate"
+              onClick={[Function]}
+              role="button"
+            >
+              <span
+                className="OrderProducts-editLabel translate"
+              >
+                Edit
+              </span>
+            </button>
+            <button
+              className="OrderProducts-deleteText notranslate"
+              onClick={[Function]}
+            >
+              <Connect(Image)
+                alt="Remove"
+                className="OrderProducts-deleteIcon"
+                src="/assets/{brandName}/images/trashcan-icon.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </Connect(OrderProduct)>
+      <OrderProductNotification
+        boldMessage=""
+        hasError={false}
+        message="Only available via Standard Delivery"
+      />
+    </div>
+    <div
+      className="OrderProducts-product"
+      key="2"
+    >
+      <Connect(OrderProduct)
+        ageVerificationRequired={false}
+        assets={
+          Array [
+            Object {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_small.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_thumb.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_normal.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_large.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_PRODUCT_ICON",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/made-in-britain.png",
+            },
+          ]
+        }
+        attributes={Object {}}
+        bundleProducts={Array []}
+        bundleSlots={Array []}
+        catEntryId={27126578}
+        colourSwatches={Array []}
+        inStock={true}
+        inventoryPositions={Object {}}
+        isDDPProduct={false}
+        items={Array []}
+        lineNumber="25T57JMUL"
+        lowStock={false}
+        name="Daisy Silk Shirt by Boutique"
+        productId={23416328}
+        quantitySelected="1"
+        shouldDisplaySocialProofLabel={false}
+        shouldLinkToPdp={false}
+        sku="0000000003"
+        totalPrice={10}
+        tpmLinks={Array []}
+        unitPrice="70.00"
+      >
+        <p
+          className="OrderProducts-row OrderProducts-productSubtotal"
+        >
+          <span
+            className="OrderProducts-label OrderProducts-total"
+          >
+            Total
+            :
+          </span>
+          <Price
+            className="OrderProducts-price"
+            price={10}
+          />
+        </p>
+        <OrderProductPromo
+          product={
+            Object {
+              "ageVerificationRequired": false,
+              "assets": Array [
+                Object {
+                  "assetType": "IMAGE_SMALL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_small.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_THUMB",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_thumb.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_NORMAL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_normal.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_LARGE",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/25T57JMUL_large.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_PRODUCT_ICON",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/category_icons/made-in-britain.png",
+                },
+              ],
+              "attributes": Object {},
+              "bundleProducts": Array [],
+              "bundleSlots": Array [],
+              "catEntryId": 27126578,
+              "colourSwatches": Array [],
+              "inStock": true,
+              "inventoryPositions": Object {},
+              "isDDPProduct": false,
+              "items": Array [],
+              "lineNumber": "25T57JMUL",
+              "lowStock": false,
+              "name": "Daisy Silk Shirt by Boutique",
+              "productId": 23416328,
+              "quantitySelected": "1",
+              "sku": "0000000003",
+              "totalPrice": 10,
+              "tpmLinks": Array [],
+              "unitPrice": "70.00",
+            }
+          }
+        />
+        <div
+          className="OrderProducts-stockEditRemove"
+        >
+          <div
+            className="OrderProducts-productStockContainer"
+          />
+          <div
+            className="OrderProducts-editContainer"
+          >
+            <button
+              className="OrderProducts-editText notranslate"
+              onClick={[Function]}
+              role="button"
+            >
+              <span
+                className="OrderProducts-editLabel translate"
+              >
+                Edit
+              </span>
+            </button>
+            <button
+              className="OrderProducts-deleteText notranslate"
+              onClick={[Function]}
+            >
+              <Connect(Image)
+                alt="Remove"
+                className="OrderProducts-deleteIcon"
+                src="/assets/{brandName}/images/trashcan-icon.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </Connect(OrderProduct)>
+    </div>
+    <div
+      className="OrderProducts-product"
+      key="3"
+    >
+      <Connect(OrderProduct)
+        ageVerificationRequired={false}
+        assets={
+          Array [
+            Object {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_small.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_thumb.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_normal.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_large.jpg",
+            },
+          ]
+        }
+        attributes={Object {}}
+        bundleProducts={Array []}
+        bundleSlots={Array []}
+        catEntryId={27126578}
+        colourSwatches={Array []}
+        inStock={true}
+        inventoryPositions={Object {}}
+        isDDPProduct={false}
+        items={Array []}
+        lineNumber="13M21JNAV"
+        lowStock={false}
+        name="Colour Block Sweatshirt"
+        productId={23414339}
+        quantitySelected="1"
+        shouldDisplaySocialProofLabel={false}
+        shouldLinkToPdp={false}
+        sku="0000000004"
+        totalPrice={10}
+        tpmLinks={Array []}
+        unitPrice="46.00"
+      >
+        <p
+          className="OrderProducts-row OrderProducts-productSubtotal"
+        >
+          <span
+            className="OrderProducts-label OrderProducts-total"
+          >
+            Total
+            :
+          </span>
+          <Price
+            className="OrderProducts-price"
+            price={10}
+          />
+        </p>
+        <OrderProductPromo
+          product={
+            Object {
+              "ageVerificationRequired": false,
+              "assets": Array [
+                Object {
+                  "assetType": "IMAGE_SMALL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_small.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_THUMB",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_thumb.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_NORMAL",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_normal.jpg",
+                },
+                Object {
+                  "assetType": "IMAGE_LARGE",
+                  "index": 1,
+                  "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/13M21JNAV_large.jpg",
+                },
+              ],
+              "attributes": Object {},
+              "bundleProducts": Array [],
+              "bundleSlots": Array [],
+              "catEntryId": 27126578,
+              "colourSwatches": Array [],
+              "inStock": true,
+              "inventoryPositions": Object {},
+              "isDDPProduct": false,
+              "items": Array [],
+              "lineNumber": "13M21JNAV",
+              "lowStock": false,
+              "name": "Colour Block Sweatshirt",
+              "productId": 23414339,
+              "quantitySelected": "1",
+              "sku": "0000000004",
+              "totalPrice": 10,
+              "tpmLinks": Array [],
+              "unitPrice": "46.00",
+            }
+          }
+        />
+        <div
+          className="OrderProducts-stockEditRemove"
+        >
+          <div
+            className="OrderProducts-productStockContainer"
+          />
+          <div
+            className="OrderProducts-editContainer"
+          >
+            <button
+              className="OrderProducts-editText notranslate"
+              onClick={[Function]}
+              role="button"
+            >
+              <span
+                className="OrderProducts-editLabel translate"
+              >
+                Edit
+              </span>
+            </button>
+            <button
+              className="OrderProducts-deleteText notranslate"
+              onClick={[Function]}
+            >
+              <Connect(Image)
+                alt="Remove"
+                className="OrderProducts-deleteIcon"
+                src="/assets/{brandName}/images/trashcan-icon.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </Connect(OrderProduct)>
+    </div>
+  </div>
+</div>
+`;

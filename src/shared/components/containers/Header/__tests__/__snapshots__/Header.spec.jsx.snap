@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> @renders should render correct default state 1`] = `
+<div
+  className="Header-container hideinapp"
+>
+  <div
+    className="Header"
+  >
+    <div
+      className="Header-center"
+    >
+      <button
+        onClick={[Function]}
+        title="Home"
+      >
+        <BrandLogo
+          brandName="TS"
+          className="Header-brandLogo"
+          imageAlt="TS homepage"
+          isRegionSpecific={false}
+        />
+      </button>
+    </div>
+    <QuickLinks />
+  </div>
+</div>
+`;
+
+exports[`<Header/> @renders should render the One Page Checkout Header 1`] = `
+<div
+  className="Header-container hideinapp"
+>
+  <HeaderCheckout
+    brandName="TS"
+    className="Header-brandLogo"
+    goToHomePage={[Function]}
+    isMobile={true}
+    isRegionSpecific={false}
+    l={[MockFunction]}
+  />
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WishlistButton /> @renders should render default state 1`] = `
+<Connect(WishlistButtonContainer)
+  isAddedToWishlist={false}
+  isAuthenticated={false}
+  isFromQuickView={false}
+  modifier="pdp"
+  productId={12345}
+/>
+`;

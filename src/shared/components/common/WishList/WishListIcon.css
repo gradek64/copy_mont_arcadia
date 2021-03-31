@@ -1,0 +1,75 @@
+/** @define WishListIcon **/
+
+.WishListIcon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: $wishlist-icon-minibag-background-position;
+  background-size: 100% 100%;
+
+  &--minibag {
+    background-image: $wishlist-icon;
+    width: $wishlist-icon-minibag-width;
+    height: $wishlist-icon-minibag-height;
+    &.is-selected {
+      background-image: $wishlist-icon-selected;
+    }
+  }
+
+  &--plp {
+    background-image: $wishlist-plp-icon;
+    width: $wishlist-plp-icon-width-medium;
+    height: $wishlist-plp-icon-height-medium;
+     &.is-selected {
+      background-image: $wishlist-plp-icon-selected;
+    }
+  }
+
+  &--pdp, &--bundle, &--quickview {
+    background-image: $wishlist-icon;
+    width: $wishlist-icon-width;
+    height: $wishlist-icon-height;
+    &.is-selected {
+      background-image: $wishlist-icon-selected;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.Product--col3 .WishListIcon--plp {
+  width: $wishlist-plp-icon-width-small;
+  height: $wishlist-plp-icon-height-small;
+}
+
+/* postcss-bem-linter: ignore */
+.Product--col1 .WishListIcon--plp {
+  width: $wishlist-plp-icon-width-large;
+  height: $wishlist-plp-icon-height-large;
+}
+
+@media $tablet {
+  /* postcss-bem-linter: ignore */
+  .Product--col2 .WishListIcon--plp {
+    width: $wishlist-plp-icon-width-large;
+    height: $wishlist-plp-icon-height-large;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .Product--col3 .WishListIcon--plp {
+    width: $wishlist-plp-icon-width-medium;
+    height: $wishlist-plp-icon-height-medium;
+  }
+}
+
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  .Product--col3 .WishListIcon--plp, .Product--col4 .WishListIcon--plp {
+    width: $wishlist-plp-icon-width-large;
+    height: $wishlist-plp-icon-height-large;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .Product--col2 .WishListIcon--plp {
+    width: $wishlist-plp-icon-width-mega;
+    height: $wishlist-plp-icon-height-mega;
+  }
+}

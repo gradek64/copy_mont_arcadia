@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutSubPrimaryTitle /> @renders in default state 1`] = `
+<span
+  className="CheckoutSubPrimaryTitle"
+>
+  <span
+    className="CheckoutSubPrimaryTitle--title"
+  >
+    To your chosen address
+  </span>
+</span>
+`;

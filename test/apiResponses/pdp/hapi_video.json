@@ -1,0 +1,1297 @@
+{
+  "contentSlotContentHTML": {
+    "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000112756+baseline%3A+14+revision%3A+0+published%3A+2018-01-31+09%3A15%3A24.346434%3ANatalie+Turco-Williams+CMS+Temp+Version%3A+template-0000011817+baseline%3A+2+revision%3A+0+description%3A+Home+Page+Module+-+Basic+%28REF+0000011783%29+published%3A+2015-06-25+10%3A35%3A18.422777+--%3E+%3Ca+href%3D%22%2Fen%2Ftmuk%2Fcategory%2Fjeans-fit-guide-landing-page-7381039%2Fhome%3Fintcmpid%3Dus-dsk_pdp_feature-content_310118_denim-fit-guide%22+title%3D%22View+our+Denim+Fit+Guide%22+target%3D%22_self%22%3E%3Cimg+src%3D%22http%3A%2F%2Ftm.stage.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor6%2Fcms%2Fpages%2Fstatic%2Fstatic-0000112756%2Fimages%2FPDP-Banners-Denim-UK.jpg%22+alt%3D%22View+our+Denim+Fit+Guide%22+width%3D%221020%22+height%3D%22200%22+%2F%3E%3C%2Fa%3E+%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000011783+--%3E+"
+  },
+  "productId": 21457272,
+  "grouping": "TM69E37KBLK",
+  "lineNumber": "69E37KBLK",
+  "colour": "Black",
+  "name": "Black Stretch Slim Jeans",
+  "description": "&lt;ul&gt; &lt;li&gt;Stretch slim fit  longer rise, slim thighs, tapered to hem&lt;/li&gt; &lt;li&gt;Button fly&lt;/li&gt; &lt;li&gt;Belt loops&lt;/li&gt; &lt;li&gt;Front and back pockets&lt;/li&gt; &lt;li&gt;98% Cotton,2% Elastane&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; &lt;/p&gt; &lt;ul&gt; &lt;li&gt;Our model Aaron wears a size 32&lt;/li&gt; &lt;li&gt;Model measurements: Height: 6&#x27;2&amp;quot;/1.88m, Chest: 39&amp;quot;/99cm, Waist: 31&amp;quot;/79cm&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; &lt;/p&gt;&lt;p&gt;Looking for your perfect style? Meet our &lt;strong&gt;&lt;a style=&quot;text-decoration: none; color: #000000;&quot; href=&quot;/en/tmuk/category/all-the-jeans-6492270/home?TS=1491819869956&amp;amp;cat2=3464128&quot;&gt;8 new jean fits&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt; &lt;/p&gt;",
+  "unitPrice": "30.00",
+  "stockEmail": false,
+  "storeDelivery": true,
+  "stockThreshold": 7,
+  "wcsColourKey": "103370020",
+  "wcsColourADValueId": "Black",
+  "wcsSizeKey": "103370021",
+  "assets": [
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Thumb_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Small_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Thumb_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Small_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Thumb_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Small_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Thumb_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Small_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Thumb_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Small_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_D_1.jpg"
+    },
+    {
+      "assetType": "VIDEO",
+      "index": 6,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/video/TM69E37KBLK_V_1.mp4"
+    }
+  ],
+  "items": [
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457284,
+      "attrValueId": 152263367,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "28S",
+      "size": "28S",
+      "sku": "242015000440522"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457287,
+      "attrValueId": 152263420,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "30S",
+      "size": "30S",
+      "sku": "242015000440523"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457291,
+      "attrValueId": 152263492,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "32S",
+      "size": "32S",
+      "sku": "242015000440524"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457298,
+      "attrValueId": 152263550,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "34S",
+      "size": "34S",
+      "sku": "242015000440525"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457307,
+      "attrValueId": 152263658,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "28R",
+      "size": "28R",
+      "sku": "242015000440526"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457315,
+      "attrValueId": 152263711,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "30R",
+      "size": "30R",
+      "sku": "242015000440527"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457325,
+      "attrValueId": 152263815,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "32R",
+      "size": "32R",
+      "sku": "242015000440528"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457332,
+      "attrValueId": 152263867,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "34R",
+      "size": "34R",
+      "sku": "242015000440529"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457340,
+      "attrValueId": 152263924,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "36R",
+      "size": "36R",
+      "sku": "242015000440530"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457348,
+      "attrValueId": 152264023,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "38R",
+      "size": "38R",
+      "sku": "242015000440531"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457356,
+      "attrValueId": 152264079,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "30L",
+      "size": "30L",
+      "sku": "242015000440532"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457364,
+      "attrValueId": 152264180,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "32L",
+      "size": "32L",
+      "sku": "242015000440533"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457373,
+      "attrValueId": 152264238,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "34L",
+      "size": "34L",
+      "sku": "242015000440534"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 21457381,
+      "attrValueId": 152264283,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "36L",
+      "size": "36L",
+      "sku": "242015000440535"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 27026886,
+      "attrValueId": 206426796,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "38L",
+      "size": "38L",
+      "sku": "242016000509280"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195562,
+      "attrValueId": 230604104,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "26L",
+      "size": "26L",
+      "sku": "242017000542859"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195578,
+      "attrValueId": 230604213,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "26R",
+      "size": "26R",
+      "sku": "242017000542774"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195588,
+      "attrValueId": 230604276,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "26S",
+      "size": "26S",
+      "sku": "242017000542773"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195599,
+      "attrValueId": 230604413,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "28L",
+      "size": "28L",
+      "sku": "242017000542860"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195609,
+      "attrValueId": 230604534,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "36S",
+      "size": "36S",
+      "sku": "242017000542857"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195618,
+      "attrValueId": 230604617,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "38S",
+      "size": "38S",
+      "sku": "242017000542858"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195626,
+      "attrValueId": 230604734,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "40R",
+      "size": "40R",
+      "sku": "242017000542784"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195640,
+      "attrValueId": 230604791,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "26XS",
+      "size": "26XS",
+      "sku": "242017000542779"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195651,
+      "attrValueId": 230604902,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "28XS",
+      "size": "28XS",
+      "sku": "242017000542780"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195658,
+      "attrValueId": 230604999,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "30XL",
+      "size": "30XL",
+      "sku": "242017000542775"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195663,
+      "attrValueId": 230605069,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "30XS",
+      "size": "30XS",
+      "sku": "242017000542781"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195673,
+      "attrValueId": 230605188,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "32XL",
+      "size": "32XL",
+      "sku": "242017000542776"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195678,
+      "attrValueId": 230605236,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "32XS",
+      "size": "32XS",
+      "sku": "242017000542782"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195683,
+      "attrValueId": 230605309,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "34XL",
+      "size": "34XL",
+      "sku": "242017000542777"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195689,
+      "attrValueId": 230605349,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "34XS",
+      "size": "34XS",
+      "sku": "242017000542783"
+    },
+    {
+      "attrName": "103370021",
+      "quantity": 10,
+      "catEntryId": 29195694,
+      "attrValueId": 230605408,
+      "selected": false,
+      "stockText": "In stock",
+      "attrValue": "36XL",
+      "size": "36XL",
+      "sku": "242017000542778"
+    }
+  ],
+  "bundleProducts": [],
+  "attributes": {
+    "COLOUR_CODE": "000321",
+    "hasVideo": "Y",
+    "IOThumbnailSuffixes": "B_1.jpg|C_1.jpg|D_1.jpg|F_1.jpg|M_1.jpg|V_1.mp4",
+    "ProductDefaultCopy": "",
+    "ECMC_PROD_CE3_BRANDS_3": "Topman",
+    "ECMC_PROD_CE3_DENIM_WASH_3": "Dark",
+    "AverageOverallRating": "3.8077",
+    "RRP": "0.0",
+    "b_has360": "N",
+    "SearchKeywords": "",
+    "has360": "N",
+    "NumReviews": "26",
+    "countryExclusion": "",
+    "STYLE_CODE": "NO_SWATCH_4003634",
+    "ECMC_PROD_COLOUR_3": "BLACK",
+    "b_hasImage": "Y",
+    "StyleCode": "0",
+    "IFSeason": "AW17",
+    "NotifyMe": "N",
+    "ecmcCreatedTimestamp": "2015-09-18-15.26.38.000872",
+    "REAL_COLOURS": "",
+    "ECMC_PROD_SEE_MORE_6_3": "Jeans",
+    "ECMC_PROD_CE3_PRODUCT_TYPE_3": "Jeans",
+    "b_thumbnailImageSuffixes": "_|_2|_3|_4|_5",
+    "ECMC_PROD_SEE_MORE_8_3": "Slim & Stretch Slim Jeans",
+    "ECMC_PROD_CE3_EXTRA_SIZES_3": "Trousers",
+    "shopTheOutfitBundleCode": "",
+    "EmailBackInStock": "N",
+    "thumbnailImageSuffixes": "_|_2|_3|_4|_5",
+    "ECMC_PROD_SIZE_GUIDE_3": "Bottoms",
+    "ecmcUpdatedTimestamp": "2018-02-09-17.19.07.000165",
+    "SizeFit": "",
+    "STORE_DELIVERY": "true",
+    "Department": "69",
+    "ECMC_PROD_CE3_FIT_3": "Slim & Stretch Slim",
+    "CE3ThumbnailSuffixes": "B_1.jpg|C_1.jpg|D_1.jpg|F_1.jpg|M_1.jpg|V_1.mp4",
+    "CE3BThumbnailSuffixes": "",
+    "ECMC_PROD_PRODUCT_TYPE_3": "Clothing",
+    "ThresholdMessage": "",
+    "b_hasVideo": "Y"
+  },
+  "colourSwatches": [],
+  "tpmLinks": [],
+  "bundleSlots": [],
+  "sourceUrl": "http://tm.stage.arcadiagroup.ltd.uk/en/tmuk/product/black-stretch-slim-jeans-5741999",
+  "ageVerificationRequired": false,
+  "isBundleOrOutfit": false,
+  "productDataQuantity": {
+    "colourAttributes": { "attrName": "103370020", "attrValue": "Black" },
+    "quantities": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "inventoryPositions": [
+      {
+        "catentryId": "21457284",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457287",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457291",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457298",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457307",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457315",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457325",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457332",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457340",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457348",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457356",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457364",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457373",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "21457381",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "27026886",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195562",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195578",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195588",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195599",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195609",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195618",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195626",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195640",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195651",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195658",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195663",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195673",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195678",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195683",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195689",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      },
+      {
+        "catentryId": "29195694",
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 10,
+            "ffmcenterId": 12555,
+            "expressdates": ["2018-04-04", "2018-04-05"]
+          }
+        ]
+      }
+    ],
+    "SKUs": [
+      {
+        "skuid": "21457284",
+        "value": "28S",
+        "availableinventory": "10",
+        "partnumber": "242015000440522",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457287",
+        "value": "30S",
+        "availableinventory": "10",
+        "partnumber": "242015000440523",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457291",
+        "value": "32S",
+        "availableinventory": "10",
+        "partnumber": "242015000440524",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457298",
+        "value": "34S",
+        "availableinventory": "10",
+        "partnumber": "242015000440525",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457307",
+        "value": "28R",
+        "availableinventory": "10",
+        "partnumber": "242015000440526",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457315",
+        "value": "30R",
+        "availableinventory": "10",
+        "partnumber": "242015000440527",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457325",
+        "value": "32R",
+        "availableinventory": "10",
+        "partnumber": "242015000440528",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457332",
+        "value": "34R",
+        "availableinventory": "10",
+        "partnumber": "242015000440529",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457340",
+        "value": "36R",
+        "availableinventory": "10",
+        "partnumber": "242015000440530",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457348",
+        "value": "38R",
+        "availableinventory": "10",
+        "partnumber": "242015000440531",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457356",
+        "value": "30L",
+        "availableinventory": "10",
+        "partnumber": "242015000440532",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457364",
+        "value": "32L",
+        "availableinventory": "10",
+        "partnumber": "242015000440533",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457373",
+        "value": "34L",
+        "availableinventory": "10",
+        "partnumber": "242015000440534",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "21457381",
+        "value": "36L",
+        "availableinventory": "10",
+        "partnumber": "242015000440535",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "27026886",
+        "value": "38L",
+        "availableinventory": "10",
+        "partnumber": "242016000509280",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195562",
+        "value": "26L",
+        "availableinventory": "10",
+        "partnumber": "242017000542859",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195578",
+        "value": "26R",
+        "availableinventory": "10",
+        "partnumber": "242017000542774",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195588",
+        "value": "26S",
+        "availableinventory": "10",
+        "partnumber": "242017000542773",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195599",
+        "value": "28L",
+        "availableinventory": "10",
+        "partnumber": "242017000542860",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195609",
+        "value": "36S",
+        "availableinventory": "10",
+        "partnumber": "242017000542857",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195618",
+        "value": "38S",
+        "availableinventory": "10",
+        "partnumber": "242017000542858",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195626",
+        "value": "40R",
+        "availableinventory": "10",
+        "partnumber": "242017000542784",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195640",
+        "value": "26XS",
+        "availableinventory": "10",
+        "partnumber": "242017000542779",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195651",
+        "value": "28XS",
+        "availableinventory": "10",
+        "partnumber": "242017000542780",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195658",
+        "value": "30XL",
+        "availableinventory": "10",
+        "partnumber": "242017000542775",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195663",
+        "value": "30XS",
+        "availableinventory": "10",
+        "partnumber": "242017000542781",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195673",
+        "value": "32XL",
+        "availableinventory": "10",
+        "partnumber": "242017000542776",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195678",
+        "value": "32XS",
+        "availableinventory": "10",
+        "partnumber": "242017000542782",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195683",
+        "value": "34XL",
+        "availableinventory": "10",
+        "partnumber": "242017000542777",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195689",
+        "value": "34XS",
+        "availableinventory": "10",
+        "partnumber": "242017000542783",
+        "attrName": "103370021"
+      },
+      {
+        "skuid": "29195694",
+        "value": "36XL",
+        "availableinventory": "10",
+        "partnumber": "242017000542778",
+        "attrName": "103370021"
+      }
+    ]
+  },
+  "version": "1.7",
+  "CEProductEspotCol1Pos1": "mobilePDPESpotPos2",
+  "deliveryMessage": "",
+  "shopTheLookProducts": false,
+  "bundleDisplayURL": "",
+  "seeMoreText": "See more",
+  "seeMoreValue": [
+    { "seeMoreLabel": "Jeans", "seeMoreLink": "/_/N-2aivZ1xjf" },
+    { "seeMoreLabel": "Slim & Stretch Slim Jeans", "seeMoreLink": "/_/N-2ajwZ1xjf" }
+  ],
+  "CEProductEspotCol2Pos2": {
+    "EspotContents": {
+      "cmsMobileContent": {
+        "pageId": 112504,
+        "pageName": "static-0000112504",
+        "breadcrumb": "",
+        "baseline": "188",
+        "revision": "0",
+        "lastPublished": "2018-03-28 14:38:04.182931",
+        "contentPath": "cms/pages/static/static-0000112504/static-0000112504.html",
+        "seoUrl": "",
+        "mobileCMSUrl": "",
+        "responsiveCMSUrl": ""
+      },
+      "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000112504+baseline%3A+188+revision%3A+0+published%3A+2018-03-28+14%3A38%3A04.182931%3AShaikh+Abdul+Khalif+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage112504+%3D+%7B+%22pageId%22%3A+112504%2C+%22pageName%22%3A+%22static-0000112504%22%2C+%22breadcrumb%22%3A+%22%22%2C+%22baseline%22%3A+%22188%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222018-03-28+14%3A38%3A04.182931%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000112504%2Fstatic-0000112504.html%22%2C+%22seoUrl%22%3A+%22%22%2C+%22mobileCMSUrl%22%3A+%22%22%2C+%22responsiveCMSUrl%22%3A+%22%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000003142+baseline%3A+17+revision%3A+0+description%3A+Basic+Espot+-+Unsecure+%28MASTER%29+%28REF+0000003135%29+published%3A+2010-12-02+14%3A35%3A33.380473+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Ftm.stage.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor6%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000003142%2Fcss%2Fdefault.css%22+%2F%3E+%3Cdiv+class%3D%22image+basic-espot%22%3E+%3Ca+href%3D%27%2Fen%2Ftmuk%2Fcategory%2Fnew-in-140500%2Fnew-this-week-2394139%3Fintcmpid%3Dpdp-espot_position1_newin%27+title%3D%27New+In+-+Shop+Now+%27%3E%3Cimg+src%3D%27http%3A%2F%2Ftm.stage.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor6%2Fcms%2Fpages%2Fstatic%2Fstatic-0000112504%2Fimages%2FUK_New_In_Espot28.jpg%27+alt%3D%27New+In+-+Shop+Now+%27+%2F%3E%3C%2Fa%3E+%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000003135+--%3E+"
+    }
+  },
+  "CEProductEspotCol2Pos4": {
+    "EspotContents": {
+      "cmsMobileContent": {
+        "pageId": 113628,
+        "pageName": "static-0000113628",
+        "breadcrumb": "",
+        "baseline": "134",
+        "revision": "0",
+        "lastPublished": "2018-01-26 15:07:01.447552",
+        "contentPath": "cms/pages/static/static-0000113628/static-0000113628.html",
+        "seoUrl": "",
+        "mobileCMSUrl": ""
+      },
+      "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000113628+baseline%3A+134+revision%3A+0+published%3A+2018-01-26+15%3A07%3A01.447552%3ANatalie+Turco-Williams+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage113628+%3D+%7B+%22pageId%22%3A+113628%2C+%22pageName%22%3A+%22static-0000113628%22%2C+%22breadcrumb%22%3A+%22%22%2C+%22baseline%22%3A+%22134%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222018-01-26+15%3A07%3A01.447552%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000113628%2Fstatic-0000113628.html%22%2C+%22seoUrl%22%3A+%22%22%2C+%22mobileCMSUrl%22%3A+%22%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000003142+baseline%3A+17+revision%3A+0+description%3A+Basic+Espot+-+Unsecure+%28MASTER%29+%28REF+0000003135%29+published%3A+2010-12-02+14%3A35%3A33.380473+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Ftm.stage.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor6%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000003142%2Fcss%2Fdefault.css%22+%2F%3E+%3Cdiv+class%3D%22+basic-espot%22%3E+%3Cp%3E%3Ca+style%3D%22text-decoration%3A+none%3B%22+href%3D%22%2Fen%2Ftmuk%2Fcategory%2Fuk-delivery-4579070%2Fhome%3FTS%3D1470825481482%26amp%3Bintcmpid%3Dpdp-espot_position2_delivery%22%3EFree+Delivery+%2B+Returns%3C%2Fa%3E%3C%2Fp%3E+%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000003135+--%3E+"
+    }
+  },
+  "CE3ContentEspot1": {
+    "EspotContents": {
+      "cmsMobileContent": {
+        "pageId": 112506,
+        "pageName": "static-0000112506",
+        "breadcrumb": "",
+        "baseline": "16",
+        "revision": "0",
+        "lastPublished": "2018-03-28 20:19:24.455431",
+        "contentPath": "cms/pages/static/static-0000112506/static-0000112506.html",
+        "seoUrl": "",
+        "mobileCMSUrl": "",
+        "responsiveCMSUrl": ""
+      },
+      "encodedcmsMobileContent": "%3C%21--+CMS+Page+Version%3A+static-0000112506+baseline%3A+16+revision%3A+0+published%3A+2018-03-28+20%3A19%3A24.455431%3ANatalie+Turco-Williams+--%3E+%3C%21--+CMS+Page+Data+Start+--%3E+%3Cscript+type%3D%22text%2Fjavascript%22%3E+%2F%2F%3C%21%5BCDATA%5B+var+cmsPage112506+%3D+%7B+%22pageId%22%3A+112506%2C+%22pageName%22%3A+%22static-0000112506%22%2C+%22breadcrumb%22%3A+%22%22%2C+%22baseline%22%3A+%2216%22%2C+%22revision%22%3A+%220%22%2C+%22lastPublished%22%3A+%222018-03-28+20%3A19%3A24.455431%22%2C+%22contentPath%22%3A+%22cms%2Fpages%2Fstatic%2Fstatic-0000112506%2Fstatic-0000112506.html%22%2C+%22seoUrl%22%3A+%22%22%2C+%22mobileCMSUrl%22%3A+%22%22%2C+%22responsiveCMSUrl%22%3A+%22%22+%7D+%2F%2F%5D%5D%3E+%3C%2Fscript%3E+%3C%21--+CMS+Page+Data+End+--%3E+%3C%21--+CMS+Temp+Version%3A+template-0000003142+baseline%3A+17+revision%3A+0+description%3A+Basic+Espot+-+Unsecure+%28MASTER%29+%28REF+0000003135%29+published%3A+2010-12-02+14%3A35%3A33.380473+--%3E+%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22http%3A%2F%2Ftm.stage.arcadiagroup.ltd.uk%2Fwcsstore%2FConsumerDirectStorefrontAssetStore%2Fimages%2Fcolors%2Fcolor6%2Fcms%2Ftemplates%2Fstatic%2Ftemplate-0000003142%2Fcss%2Fdefault.css%22+%2F%3E+%3Cdiv+class%3D%22+basic-espot%22%3E+%3Cdiv+class%3D%22info_item+delivery_info+grid+one_quarter%22%3E+%3Cdiv+class%3D%22grid_item+item_one%22%3E+%3Ch4%3EUK+Collect+from+Store%3C%2Fh4%3E+%3Cp%3EStandard+%283-7+working+days%29+-+Free%3C%2Fp%3E+%3Cp%3EExpress+%28Next%2FNominated+Day%29+-+%26%23163%3B3%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22grid_item+item_two%22%3E+%3Ch4%3EUK+myHermes+ParcelShop%3C%2Fh4%3E+%3Cp%3EExpress+Delivery+%28next+day%29+-+Free+for+orders%3Cbr+%2F%3E+over+%26%23163%3B50%2C+or+%26%23163%3B4%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22grid_item+item_three%22%3E+%3Ch4%3EUK+Home+Delivery%3C%2Fh4%3E+%3Cp%3EStandard+%28Up+to+4+working+days%29+-+Free%3C%2Fp%3E+%3Cp%3EExpress+%28Next%2FNominated+Day%29+-+from+%26%23163%3B6%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22grid_item+item_four%22%3E+%3Ch4%3EUK+Returns%3C%2Fh4%3E+%3Cp%3EFree+via+store%2C+post+%26amp%3B+Collect%2B%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cp+class%3D%22more-info%22%3EClick+%3Ca+href%3D%22http%3A%2F%2Fwww.topman.com%2Fen%2Ftmuk%2Fcategory%2Finternational-delivery-140261%2Fhome%3FTS%3D1437386574356%26amp%3Bcat2%3D237572%22+target%3D%22_blank%22%3Ehere%3C%2Fa%3E+for+more+information+and+International+delivery%3C%2Fp%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E%3C%21--Using+Master+Template%3A+%2Fstatic%2Ftemplate-0000003135+--%3E+"
+    }
+  },
+  "additionalAssets": [
+    {
+      "assetType": "IMAGE_ZOOM",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_ZOOM",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_ZOOM",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_ZOOM",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_ZOOM",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_ZOOM",
+      "index": 6,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_Zoom_V_1.mp4"
+    },
+    {
+      "assetType": "IMAGE_2COL",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_2COL",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_2COL",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_2COL",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_2COL",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_2COL",
+      "index": 6,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_2col_V_1.mp4"
+    },
+    {
+      "assetType": "IMAGE_3COL",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_3col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_3COL",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_3col_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_3COL",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_3col_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_3COL",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_3col_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_3COL",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_3col_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_3COL",
+      "index": 6,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_3col_V_1.mp4"
+    },
+    {
+      "assetType": "IMAGE_4COL",
+      "index": 1,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_4col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_4COL",
+      "index": 2,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_4col_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_4COL",
+      "index": 3,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_4col_C_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_4COL",
+      "index": 4,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_4col_B_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_4COL",
+      "index": 5,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_4col_D_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_4COL",
+      "index": 6,
+      "url": "http://tm.stage.arcadiagroup.ltd.uk/wcsstore/TopMan/images/catalog/TM69E37KBLK_4col_V_1.mp4"
+    }
+  ]
+}

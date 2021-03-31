@@ -1,0 +1,4724 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Store /> @renders Collect in Store and ParcelShop with DDP collect in store layout when a DDPProduct in shopping bag 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+        <div
+          className="Store-selectButtonContainer"
+        >
+          <Button
+            className="Store-headerSelectButton"
+            clickHandler={[Function]}
+          >
+            Select
+          </Button>
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders Collect in Store and ParcelShop with DDP collect in store layout when isDDPUser is true 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+        <div
+          className="Store-selectButtonContainer"
+        >
+          <Button
+            className="Store-headerSelectButton"
+            clickHandler={[Function]}
+          >
+            Select
+          </Button>
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders Collect in Store and ParcelShop with DDP parcelShop in store layout when a DDPProduct in shopping bag 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders Collect in Store and ParcelShop with DDP parcelShop in store layout when isDDPUser is true 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders capitalizes name for Miss Selfridge 1`] = `
+<div
+  className="Store Store-TS1030  Store--findInStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "miss selfridge",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Miss Selfridge Putney
+          </h2>
+          <div />
+          <p
+            className="Store-stockInformation"
+          >
+            <span
+              className="Store-success"
+            >
+              In Stock
+            </span>
+          </p>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <div
+        className="Store-address"
+      >
+        <span
+          className="Store-address"
+        >
+          Some street
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          London
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          SW11 NE2
+        </span>
+      </div>
+      <div
+        className="Store-detailsSection Store-phone"
+      >
+        <a
+          href="tel:020 7261 7283"
+        >
+          Call 020 7261 7283
+        </a>
+      </div>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-mapButtons Store-detailsSection"
+      >
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://google.com/maps/?q=51.463675,-0.215336"
+        >
+          View in maps
+        </a>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders collect in store layout when CFSi is disabled 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders collect in store layout when CFSi is enabled 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+        <div
+          className="Store-selectButtonContainer"
+        >
+          <Button
+            className="Store-headerSelectButton"
+            clickHandler={[Function]}
+          >
+            Select
+          </Button>
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders collect in store layout when CFSi is enabled and basket is available 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+        <div
+          className="Store-selectButtonContainer"
+        >
+          <Button
+            className="Store-headerSelectButton"
+            clickHandler={[Function]}
+          >
+            Select
+          </Button>
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders find in store layout when CFSi is disabled 1`] = `
+<div
+  className="Store Store-TS1030  Store--findInStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <p
+            className="Store-stockInformation"
+          >
+            <span
+              className="Store-success"
+            >
+              In Stock
+            </span>
+          </p>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <div
+        className="Store-address"
+      >
+        <span
+          className="Store-address"
+        >
+          Some street
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          London
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          SW11 NE2
+        </span>
+      </div>
+      <div
+        className="Store-detailsSection Store-phone"
+      >
+        <a
+          href="tel:020 7261 7283"
+        >
+          Call 020 7261 7283
+        </a>
+      </div>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-mapButtons Store-detailsSection"
+      >
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://google.com/maps/?q=51.463675,-0.215336"
+        >
+          View in maps
+        </a>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders find in store layout when CFSi is enabled 1`] = `
+<div
+  className="Store Store-TS1030  Store--findInStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <p
+            className="Store-stockInformation"
+          >
+            <span
+              className="Store-success"
+            >
+              In Stock
+            </span>
+          </p>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <div
+        className="Store-address"
+      >
+        <span
+          className="Store-address"
+        >
+          Some street
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          London
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          SW11 NE2
+        </span>
+      </div>
+      <div
+        className="Store-detailsSection Store-phone"
+      >
+        <a
+          href="tel:020 7261 7283"
+        >
+          Call 020 7261 7283
+        </a>
+      </div>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-mapButtons Store-detailsSection"
+      >
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://google.com/maps/?q=51.463675,-0.215336"
+        >
+          View in maps
+        </a>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders find in store locator layout 1`] = `
+<div
+  className="Store Store-TS1030  Store--findInStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <p
+            className="Store-stockInformation"
+          >
+            <span
+              className="Store-success"
+            >
+              In Stock
+            </span>
+          </p>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <div
+        className="Store-address"
+      >
+        <span
+          className="Store-address"
+        >
+          Some street
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          London
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          SW11 NE2
+        </span>
+      </div>
+      <div
+        className="Store-detailsSection Store-phone"
+      />
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Opening hours
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-mapButtons Store-detailsSection"
+      >
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://google.com/maps/?q=51.463675,-0.215336"
+        >
+          View in maps
+        </a>
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="tel:020 7261 7283"
+        >
+          Call 020 7261 7283
+        </a>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders in default state 1`] = `
+<div
+  className="Store Store-TS1030  Store--some-type"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<Store /> @renders in selected state 1`] = `
+<div
+  className="Store Store-TS1030 is-selected Store--some-type"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<Store /> @renders store locator layout 1`] = `
+<div
+  className="Store Store-TS1030  Store--storeSearch"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <div
+            className="Store-openNowInfo"
+          >
+            <span
+              className="Store-success"
+            >
+              Open today until
+               
+              17:00
+            </span>
+          </div>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <div
+        className="Store-address"
+      >
+        <span
+          className="Store-address"
+        >
+          Some street
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          London
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          SW11 NE2
+        </span>
+      </div>
+      <div
+        className="Store-detailsSection Store-phone"
+      >
+        <a
+          href="tel:020 7261 7283"
+        >
+          Call 020 7261 7283
+        </a>
+      </div>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-mapButtons Store-detailsSection"
+      >
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://google.com/maps/?q=51.463675,-0.215336"
+        >
+          View in maps
+        </a>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders store locator layout for overseas store 1`] = `
+<div
+  className="Store Store-TS1030  Store--storeSearch"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "isMobile": true,
+        "latitude": 51.463675,
+        "logoVersion": "2.0",
+        "longitude": -0.215336,
+        "name": "Putney",
+        "onHeaderClick": [MockFunction],
+        "onSelectClick": [MockFunction],
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "region": "uk",
+        "selectedCountry": "Russia",
+        "showModal": [MockFunction],
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeDetails": Object {
+          "address": Object {
+            "city": "Bondi Junction",
+            "line1": "Topshop Myer Bondi, 500 Oxford Street",
+            "line2": "",
+            "postcode": "NSW 2022",
+          },
+          "brandId": "12556",
+          "brandName": "Topshop",
+          "distance": 0,
+          "latitude": 0,
+          "longitude": 0,
+          "name": "Bondi Junction Sydney",
+          "openingHours": Object {
+            "friday": "",
+            "monday": "",
+            "saturday": "",
+            "sunday": "",
+            "thursday": "",
+            "tuesday": "",
+            "wednesday": "",
+          },
+          "storeId": "TS1815",
+          "telephoneNumber": "02 9300 1100",
+        },
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <div
+            className="Store-openNowInfo"
+          >
+            <span
+              className="Store-success"
+            >
+              Open today until
+               
+              17:00
+            </span>
+          </div>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <div
+        className="Store-address"
+      >
+        <span
+          className="Store-address"
+        >
+          Some street
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          London
+          , 
+        </span>
+        <span
+          className="Store-address"
+        >
+          SW11 NE2
+        </span>
+      </div>
+      <div
+        className="Store-detailsSection Store-phone"
+      >
+        <a
+          className="Button Store-button Button--linkButton"
+          href="tel:020 7261 7283"
+        >
+          Call 020 7261 7283
+        </a>
+      </div>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Opening hours
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-mapButtons Store-detailsSection"
+      >
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://google.com/maps/?q=51.463675,-0.215336"
+        >
+          View in maps
+        </a>
+        <a
+          className="Button Button--secondary Store-button Store-mapButton Button--linkButton"
+          href="http://maps.apple.com/?saddr=&daddr=51.463675,-0.215336"
+        >
+          Get Directions
+        </a>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders when storeLocatorType equals collectFromStore in default state 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders when storeLocatorType equals collectFromStore with mobile equals true 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          <Connect(Image)
+            className="Store-rightIcon"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+          />
+          3 miles
+        </p>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <button
+        className="Store-openingTimesButton"
+        onClick={[Function]}
+      >
+        Store opening times
+      </button>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders when storeLocatorType equals collectFromStore with selected 1`] = `
+<div
+  className="Store Store-TS1030 is-selected Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "collectFromStore": Object {
+          "express": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 20:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 14:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 3,
+          },
+          "standard": Object {
+            "dates": Array [
+              Object {
+                "availableUntil": "2017-03-31 21:30:00",
+                "collectFrom": "2017-04-01",
+              },
+              Object {
+                "availableUntil": "2017-04-02 16:30:00",
+                "collectFrom": "2017-04-03",
+              },
+            ],
+            "price": 0,
+          },
+        },
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <p
+            className="Store-info"
+          >
+            Collect from 1pm 1st April
+          </p>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  >
+    <div
+      className="Store-details"
+    >
+      <h3
+        className="Store-detailsTitle"
+      >
+        Some street
+        , 
+        London
+        , 
+        SW11 NE2
+      </h3>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         -
+         
+        (Express)
+      </p>
+      <p
+        className="Store-collectFrom"
+      >
+        Collect from 
+        1st April
+         - (Standard)
+      </p>
+      <div
+        className="Store-openingHours Store-detailsSection"
+      >
+        <h2
+          className="Store-openingHoursTitle"
+        >
+          Store opening times
+        </h2>
+        <div
+          className="Store-openingHoursRow"
+          key="monday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            monday
+          </span>
+          09:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="tuesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            tuesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="wednesday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            wednesday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="thursday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            thursday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="friday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            friday
+          </span>
+          10:30-18:00
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Saturday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Saturday
+          </span>
+          09:30-18:05
+        </div>
+        <div
+          className="Store-openingHoursRow"
+          key="Sunday"
+        >
+          <span
+            className="Store-openingHoursDay"
+          >
+            Sunday
+          </span>
+          11:00-17:00
+        </div>
+      </div>
+      <div
+        className="Store-selectButtonContainer Store-selectButtonDetails"
+      >
+        <Button
+          clickHandler={[MockFunction]}
+        >
+          Select store
+        </Button>
+      </div>
+    </div>
+  </Accordion>
+</div>
+`;
+
+exports[`<Store /> @renders when storeLocatorType equals findInStore with stock is 0 1`] = `
+<div
+  className="Store Store-TS1030  Store--findInStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <p
+            className="Store-stockInformation"
+          >
+            <span
+              className="Store-success"
+            >
+              In Stock
+            </span>
+          </p>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<Store /> @renders when storeLocatorType equals findInStore with stock is greater than 0 1`] = `
+<div
+  className="Store Store-TS1030  Store--findInStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 2,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          <p
+            className="Store-stockInformation"
+          >
+            <span
+              className="Store-success"
+            >
+              In Stock
+            </span>
+          </p>
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<Store /> @renders with no collect from store dates 1`] = `
+<div
+  className="Store Store-TS1030  Store--collectFromStore"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <Connect(Image)
+          className="Store-leftIcon Store-leftIcon--withHeight"
+          src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+        />
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+        </div>
+        <p
+          className="Store-iconDistance"
+        >
+          3 miles
+        </p>
+        <div
+          className="Store-selectButtonContainer"
+        >
+          <Button
+            className="Store-headerSelectButton"
+            clickHandler={[Function]}
+          >
+            Select
+          </Button>
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<Store /> @renders with no storeLocatorType 1`] = `
+<div
+  className="Store Store-TS1030  Store--"
+>
+  <Connect(SeoSchema)
+    data={
+      Object {
+        "address": Object {
+          "city": "London",
+          "line1": "Some street",
+          "postcode": "SW11 NE2",
+        },
+        "brandId": 12556,
+        "brandName": "topshop",
+        "cfsiAvailableOn": Array [
+          "YNYY",
+        ],
+        "cfsiPickCutOffTime": "14:00",
+        "distance": "3",
+        "latitude": 51.463675,
+        "longitude": -0.215336,
+        "name": "Putney",
+        "openingHours": Object {
+          "friday": "10:30-18:00",
+          "monday": "09:30-18:00",
+          "saturday": "09:30-18:05",
+          "sunday": "11:00-17:00",
+          "thursday": "10:30-18:00",
+          "tuesday": "10:30-18:00",
+          "wednesday": "10:30-18:00",
+        },
+        "stock": 1,
+        "stockList": Array [
+          Object {
+            "sku": "007",
+            "stock": 15,
+            "stockSymbol": "I",
+          },
+        ],
+        "storeId": "TS1030",
+        "telephoneNumber": "020 7261 7283",
+      }
+    }
+    type="Store"
+  />
+  <Accordion
+    accordionName="store-TS1030"
+    arrowPosition="left"
+    arrowStyle="primary"
+    className="Accordion--storeLocator"
+    expanded={false}
+    header={
+      <div
+        className="Store-header"
+      >
+        <div
+          className="Store-headerContainer"
+        >
+          <Connect(Image)
+            className="Store-iconDesktop"
+            height="20"
+            src="/assets/topshop/images/store-marker-icon.svg?version=2.0"
+            width="20"
+          />
+          <div
+            className="Store-distanceContainer"
+          >
+            <div
+              className="Store-distance"
+            >
+              3 miles
+            </div>
+          </div>
+        </div>
+        <div
+          className="Store-headerDetails"
+        >
+          <h2
+            className="Store-name"
+          >
+            Topshop Putney
+          </h2>
+          <div />
+          
+        </div>
+      </div>
+    }
+    isDisabled={false}
+    noContentBorderTop={false}
+    noContentPadding={true}
+    noExpandedHeaderBackground={false}
+    noMaxHeight={false}
+    onAccordionToggle={[MockFunction]}
+    showLoader={false}
+    statusIndicatorText=""
+    subHeader=""
+    withoutBorders={false}
+  />
+</div>
+`;
+
+exports[`<Store /> instance methods renderHeaderDetailsInfo renders Store-openNowInfo and does not call renderStockData() if storeLocatorType = storeSearch 1`] = `
+<div
+  className="Store-openNowInfo"
+>
+  <span
+    className="Store-success"
+  >
+    Open today until
+     
+    17:00
+  </span>
+</div>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryDetailsPayment /> @renders in default state 1`] = `
+<section
+  className="OrderHistoryDetailsPayment"
+>
+  <div
+    className="OrderHistoryDetailsPayment-body"
+    key="0"
+  >
+    <Connect(Image)
+      className="OrderHistoryDetailsPayment-icon"
+      src="/assets/{brandName}/images/credit-card.svg"
+    />
+    <div
+      className="OrderHistoryDetailsPayment-payment"
+    >
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsPayment-type"
+        >
+          Paypal
+        </span>
+      </PrivacyGuard>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsPayment /> @renders with card details 1`] = `
+<section
+  className="OrderHistoryDetailsPayment"
+>
+  <div
+    className="OrderHistoryDetailsPayment-body"
+    key="0"
+  >
+    <Connect(Image)
+      className="OrderHistoryDetailsPayment-icon"
+      src="/assets/{brandName}/images/credit-card.svg"
+    />
+    <div
+      className="OrderHistoryDetailsPayment-payment"
+    >
+      <PrivacyGuard>
+        <span
+          className="OrderHistoryDetailsPayment-type"
+        >
+          Visa
+        </span>
+      </PrivacyGuard>
+      <div
+        className="OrderHistoryDetailsPayment-cardDetails"
+      >
+        <span
+          className="OrderHistoryDetailsPayment-label"
+        >
+          Card Number
+          :
+        </span>
+        <PrivacyGuard>
+          <p
+            className="OrderHistoryDetailsPayment-cardNumber"
+          >
+            ************1111
+          </p>
+        </PrivacyGuard>
+      </div>
+    </div>
+  </div>
+</section>
+`;

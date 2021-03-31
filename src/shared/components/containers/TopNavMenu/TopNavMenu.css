@@ -1,0 +1,114 @@
+/** @define TopNavMenu */
+@lost flexbox flex;
+
+.TopNavMenu {
+  lost-flex-container: column;
+  position: fixed;
+  top: 0;
+  width: 80%; /* fallback no vw */
+  width: 80vw;
+  height: 100%;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-100%);
+  will-change: transform;
+  font-size: $font-size-navigation;
+  z-index: 4;
+  overflow: hidden;
+  pointer-events: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.is-open {
+    transform: none;
+    opacity: 1;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &-arrowBack {
+    position: absolute;
+    top: 50%;
+    left: $navigation-item-padding-vertical;
+    height: $navigation-item-arrow-height;
+    width: $navigation-item-arrow-width;
+    margin-top: calc(-0.5 * $navigation-item-arrow-height);
+    background: url("public/$brand/images/left-arrow.svg") no-repeat center;
+    background-size: contain;
+  }
+
+  &-home {
+     position: absolute;
+     left: $navigation-item-padding-vertical;
+     margin-top: $navigation-home-icon-margin-top;
+     height: $navigation-home-icon-height;
+     width: 18px;
+     background: url("public/$brand/images/home-icon.svg") no-repeat center;
+     background-size: contain;
+  }
+
+  &-popCategoryButton {
+    width: 100%;
+  }
+
+  &-homeButton {
+    width: 100%;
+  }
+
+  &-groupHeader {
+    margin: 0;
+    flex-grow: 0;
+    background-color: $navigation-group-header-background;
+    font-size: $navigation-group-header-font-size;
+    font-weight: $navigation-group-header-font-weight;
+    padding: $navigation-group-header-padding-vertical $navigation-item-padding-horizontal;
+    color: $navigation-group-header-font-color;
+    border-top: 1px solid $navigation-group-header-border-color;
+    border-bottom: 1px solid $navigation-group-header-border-color;
+    display: $navigation-group-header-visibility;
+  }
+
+  &-parentListBlock {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    overflow-y: scroll;
+    background: $white;
+    border-right: solid 1px $navigation-border-right-color;
+    pointer-events: auto;
+
+    & > :last-child {
+      border-bottom: none;
+    }
+  }
+
+  &-userLocatorContainer {
+    padding: 10px $navigation-item-padding-horizontal;
+    background-color: $white;
+  }
+
+  &-shopByCategory {
+    background: $navigation-category-section-background;
+  }
+  &-userDetails {
+    background: $navigation-details-section-background;
+  }
+  &-helpAndInfo {
+    background: $navigation-help-section-background;
+  }
+  &-close {
+    color: $navigation-item-font-color;
+    font-weight: 300;
+    text-decoration: underline;
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    padding: $navigation-item-padding-vertical $navigation-item-padding-horizontal;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.TopNavMenu.is-open .TopNavMenu-parentListBlock {
+  box-shadow: $navigation-box-shadow;
+}

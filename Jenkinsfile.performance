@@ -1,0 +1,51 @@
+pipeline {
+    agent { label 'perf' }
+
+    parameters {
+      choice(name: 'API',    choices: 'STAGE\nMONTYPROD\nEBT\nTOMCATEBT\nPPLIVE\nDEVELOPMENT\nLIVE\nTOMCATPROD\nREDIS\nPPLIVEFFS\nPERF',
+        description: 'Which API to use')
+    }
+
+    options {
+        // discard old builds: 30 days / 200 bulids
+        buildDiscarder(logRotator(numToKeepStr: '200', artifactNumToKeepStr: '200'))
+
+        timeout(time: 45, unit: 'MINUTES')
+        timestamps()
+    }
+
+    stages {
+        stage("Docker monty") {
+          steps {
+            script {
+              git = checkout scm
+              println("GIT="+git)
+            }
+          }
+        }
+        stage("Run the performance tests") {
+            steps {
+                withCredentials([[$class          : 'UsernamePasswordMultiBinding', credentialsId: 'capacitas_info',
+                                  usernameVariable: 'USER', passwordVariable: 'PASSWORD'],
+                                 string(credentialsId: 'capacitas_client_secret', variable: 'SECRET'),
+                                 string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                    dir('capacitas') {
+                        checkout([$class           : 'GitSCM',
+                                  branches         : [[name: 'develop']],
+                                  userRemoteConfigs: [[credentialsId: 'e9d1eba0-a06c-4f94-b461-1b816971a560', url: 'https://github.com/ag-digital/performance-test.git']]
+                        ])
+                    }
+                    ansiColor('xterm') {
+                        sh "BRANCH_NAME=${git.GIT_BRANCH} scripts/perf_test.sh"
+                    }
+                }
+            }
+            post {
+                always {
+                  archiveArtifacts artifacts: 'capacitas/results*.csv', allowEmptyArchive: true
+                  archiveArtifacts artifacts: 'capacitas/nmon/logs/*.nmon', allowEmptyArchive: true
+                }
+            }
+        }
+    }
+}

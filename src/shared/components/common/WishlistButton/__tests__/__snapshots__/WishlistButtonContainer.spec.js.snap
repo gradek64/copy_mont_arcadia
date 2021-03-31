@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WishlistButtonContainer /> @renders should render default state 1`] = `
+<WishlistButtonComponent
+  isAdding={false}
+  isSelected={false}
+  modifier="pdp"
+  onClick={[Function]}
+/>
+`;
+
+exports[`<WishlistButtonContainer /> @renders should render with plp modifier 1`] = `
+<WishlistButtonComponent
+  isAdding={false}
+  isSelected={false}
+  modifier="plp"
+  onClick={[Function]}
+/>
+`;

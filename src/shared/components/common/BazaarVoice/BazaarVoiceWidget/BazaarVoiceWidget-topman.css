@@ -1,0 +1,80 @@
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentID.BVRRDisplayContent {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRRatingSummaryLinkReadID.BVRRRatingSummaryLink {
+  margin-top: 6px;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRBottomLinkWriteID.BVRRBottomLinkWrite a {
+  padding: 0;
+}
+
+/* postcss-bem-linter: ignore */
+.BVRROverallRatingContainer .BVRRRating.BVRRRatingNormal.BVRRRatingOverall .BVRRLabel.BVRRRatingNormalLabel {
+  vertical-align: super;
+}
+
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRDisplayContentBodyID .BVRRCustomColumnWrapper {
+  width: 100%;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRContentContainerID .BVRRQuickTakeHeader {
+  background-size: auto 23%;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRReviewDisplayStyle5Header #BVRRRatingOverall_Review_Display {
+  width: 130px;
+  margin-top: 4px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingContainerStar .BVRRRatingNormalLabel {
+  width: 70px;
+  font-size: 14px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingContainerStar .BVRRRatingNormalImage {
+  width: 130px;
+  margin-top: 2px;
+  padding: 0 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingContainerStar .BVRRRatingNormalImage img {
+  width: 100%;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingContainerStar .BVRRRatingNormalOutOf .BVRRRatingNumber {
+  font-size: 14px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRReviewDisplayStyle5Footer {
+  margin: 0;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVDI_FV,
+.BazaarVoice .BVDI_FVVoting {
+  float: none;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRReviewDisplayStyle5Footer .BVDIHeader.BVDI_COHeader,
+.BazaarVoice .BVDI_FVReportLink.BVDI_FVReportLinkInappropriate {
+  padding-left: 0;
+  margin-top: 10px;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRBottomLinkWriteID {
+  text-align: center;
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  .BVRRRatingSummary.BVRRPrimaryRatingSummary,
+  .BVRRRatingSummaryStyle2 {
+    width: auto !important;
+  }
+}

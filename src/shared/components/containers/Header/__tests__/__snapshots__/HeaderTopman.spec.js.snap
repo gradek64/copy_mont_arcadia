@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderTopman /> @renders in default state 1`] = `
+<div
+  className="HeaderTopman"
+>
+  <div
+    className="HeaderTopman-brand"
+  >
+    <Link
+      className="HeaderTopman-brandLink"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/"
+    >
+      <BrandLogo
+        brandName="topman"
+      />
+    </Link>
+  </div>
+  <div
+    className="HeaderTopman-content"
+  >
+    <div
+      className="HeaderTopman-shippingInfo"
+      key="shippingInfo"
+    >
+      <Connect(Espot)
+        identifier="brandHeaderEspotName"
+      />
+    </div>
+    <div
+      className="HeaderTopman-search"
+      key="search"
+    >
+      <Connect(SearchBar)
+        isDesktop={true}
+      />
+    </div>
+    <div
+      className="HeaderTopman-account"
+      key="account"
+    >
+      <Connect(AccountIcon)
+        myAccountText="View profile"
+        popoverMenu={true}
+        signOutText="Sign out"
+      />
+    </div>
+    <div
+      className="HeaderTopman-shipping"
+      key="shipping"
+    >
+      <Connect(ShippingDestination) />
+    </div>
+    <div
+      className="HeaderTopman-wishlist"
+      key="wishlist"
+    >
+      <Connect(WishlistHeaderLink) />
+    </div>
+    <div
+      className="HeaderTopman-shoppingCart"
+      key="shoppingCart"
+    >
+      <Connect(ShoppingCart) />
+    </div>
+  </div>
+  <div
+    className="HeaderTopman-separator"
+  />
+  <div
+    className="HeaderTopman-navigation"
+  >
+    <Connect(TopNavMenuBig) />
+  </div>
+</div>
+`;

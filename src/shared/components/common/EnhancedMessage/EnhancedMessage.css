@@ -1,0 +1,118 @@
+/** @define EnhancedMessage; weak */
+
+.EnhancedMessage {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &-wrapper {
+    background-color: #fff;
+    border: 1px solid $dk-gray;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5px;
+  }
+
+  &-section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  &-icon {
+    background-image: $icon-info;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 10px 0 0;
+    width: 20px;
+  }
+
+  &-content {
+    margin: 0;
+  }
+
+  &-header {
+    color: $dk-gray;
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: 0;
+  }
+
+  &-message {
+    color: $dk-gray;
+    display: block;
+    font-size: 14px;
+  }
+
+  &.is-error {
+    & .EnhancedMessage-wrapper {
+      border: 1px solid #f00;
+    }
+
+    & .EnhancedMessage-icon {
+      background-image: $icon-info-error;
+    }
+
+    & .EnhancedMessage-content {
+      color: $error-color;
+    }
+
+    & .EnhancedMessage-header {
+      color: $error-color;
+    }
+
+    & .EnhancedMessage-message {
+      color: $error-color;
+    }
+  }
+
+}
+
+/* postcss-bem-linter: ignore */
+.EnhancedMessage.isFromFilter {
+  margin: 20px;
+}
+
+/* postcss-bem-linter: ignore */
+.EnhancedMessage-section.isFromFilter {
+  justify-content: center;
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  .EnhancedMessage-wrapper.isFromFilter {
+    padding: 10px;
+  }
+
+  /* postcss-bem-linter: ignore */
+  .Button.isFromFilter {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.EnhancedMessage-enter {
+  max-height: 0;
+  opacity: 0.01;
+}
+
+/* postcss-bem-linter: ignore */
+.EnhancedMessage-enter-active {
+  max-height: 500px;
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+}
+
+/* postcss-bem-linter: ignore */
+.EnhancedMessage-exit {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* postcss-bem-linter: ignore */
+.EnhancedMessage-exit-active {
+  max-height: 0;
+  opacity: 0.01;
+  transition: all 300ms ease-in-out;
+}

@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryOptions /> @renders Parcel Shop disabled 1`] = `
+<article
+  aria-label="Delivery Location Options"
+  className="DeliveryOptions"
+>
+  <div
+    className="DeliveryOption DeliveryOption--home"
+    key="HOME"
+  >
+    <button
+      className="DeliveryOption-content"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="DeliveryOption-title h3"
+      >
+        Home Delivery
+      </span>
+      <span
+        className="DeliveryOption-description"
+      >
+        Standard Delivery (UK up to 4 working days)
+      </span>
+      <span
+        className="DeliveryOption-additionalDescription"
+      >
+        Express or Nominated Delivery
+      </span>
+    </button>
+  </div>
+  <div
+    className="DeliveryOption DeliveryOption--store"
+    key="STORE"
+  >
+    <button
+      className="DeliveryOption-content DeliveryOption-content--selected"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="DeliveryOption-title h3"
+      >
+        Collect from Store
+      </span>
+      <span
+        className="DeliveryOption-description"
+      >
+        Standard Delivery (3-7 working days)
+      </span>
+      <span
+        className="DeliveryOption-additionalDescription"
+      >
+        Express Delivery (next day)
+      </span>
+    </button>
+  </div>
+  <div
+    className="DeliveryOption DeliveryOption--parcelshop"
+    key="PARCELSHOP"
+  >
+    <button
+      className="DeliveryOption-content"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <span
+        className="DeliveryOption-title h3"
+      >
+        Collect from ParcelShop
+      </span>
+      <span
+        className="DeliveryOption-description"
+      >
+        Thousands of local shops open early and late
+      </span>
+      <span
+        className="DeliveryOption-additionalDescription"
+      />
+    </button>
+  </div>
+</article>
+`;
+
+exports[`<DeliveryOptions /> @renders in default state 1`] = `
+<article
+  aria-label="Delivery Location Options"
+  className="DeliveryOptions"
+>
+  <div
+    className="DeliveryOption DeliveryOption--home"
+    key="HOME"
+  >
+    <button
+      className="DeliveryOption-content"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="DeliveryOption-title h3"
+      >
+        Home Delivery
+      </span>
+      <span
+        className="DeliveryOption-description"
+      >
+        Standard Delivery (UK up to 4 working days)
+      </span>
+      <span
+        className="DeliveryOption-additionalDescription"
+      >
+        Express or Nominated Delivery
+      </span>
+    </button>
+  </div>
+  <div
+    className="DeliveryOption DeliveryOption--store"
+    key="STORE"
+  >
+    <button
+      className="DeliveryOption-content DeliveryOption-content--selected"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="DeliveryOption-title h3"
+      >
+        Collect from Store
+      </span>
+      <span
+        className="DeliveryOption-description"
+      >
+        Standard Delivery (3-7 working days)
+      </span>
+      <span
+        className="DeliveryOption-additionalDescription"
+      >
+        Express Delivery (next day)
+      </span>
+    </button>
+  </div>
+  <div
+    className="DeliveryOption DeliveryOption--parcelshop"
+    key="PARCELSHOP"
+  >
+    <button
+      className="DeliveryOption-content"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <span
+        className="DeliveryOption-title h3"
+      >
+        Collect from ParcelShop
+      </span>
+      <span
+        className="DeliveryOption-description"
+      >
+        Thousands of local shops open early and late
+      </span>
+      <span
+        className="DeliveryOption-additionalDescription"
+      />
+    </button>
+  </div>
+</article>
+`;

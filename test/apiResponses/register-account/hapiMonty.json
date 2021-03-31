@@ -1,0 +1,55 @@
+{
+  "exists": true,
+  "email": "bob@mvrht.net",
+  "title": "",
+  "firstName": "",
+  "lastName": "",
+  "userTrackingId": 2082035,
+  "basketItemCount": 0,
+  "creditCard": {
+    "type": "",
+    "cardNumberHash": "",
+    "cardNumberStar": "",
+    "expiryMonth": "Month",
+    "expiryYear": "Year"
+  },
+  "deliveryDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "telephone": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "United Kingdom",
+      "postcode": ""
+    }
+  },
+  "billingDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "telephone": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "United Kingdom",
+      "postcode": ""
+    }
+  },
+  "version": "1.6",
+  "hasCardNumberHash": false,
+  "hasPayPal": false,
+  "hasDeliveryDetails": false,
+  "hasBillingDetails": false
+}

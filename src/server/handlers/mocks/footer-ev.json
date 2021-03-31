@@ -1,0 +1,132 @@
+{
+  "newsletter": {
+    "label": "SIGN UP AND RECEIVE 10% OFF YOUR FIRST ORDER",
+    "placeholder": "Enter your email here",
+    "button": "sign up",
+    "signUpUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?storeId\u003d12556\u0026amp;catalogId\u003d33057\u0026amp;langId\u003d-1\u0026amp;viewAllFlag\u003dfalse\u0026amp;categoryId\u003d277562\u0026amp;interstitial\u003dtrue\u0026amp;emailid\u003ddfkjghdfgh%40ksdfjgh.com",
+    "openNewWindow": false
+  },
+
+  "categories": [
+    {
+      "label": "Your order",
+      "links": [
+        {
+          "label": "Delivery Information",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Returns",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Order Tracking",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Write a review",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Find Us A Store",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "My Account",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "Help",
+      "links": [
+        {
+          "label": "Terms & Conditions",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "FAQs",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Cookies",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Accessibility",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "About Evans",
+      "links": [
+        {
+          "label": "Contact Us",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Our story",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Work for Evans",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Be Inspired",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "The finer details",
+      "links": [
+        {
+          "label": "Size Guide",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Evans Card",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Gift Card",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Student discount",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Fashion Footprint",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Modern Slavery Act",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    }
+  ]
+}

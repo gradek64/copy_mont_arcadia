@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Category /> @renders should not render links for touch devices 1`] = `
+<li
+  className="MegaNav-category category_12345 MegaNav-category--isTouch"
+  key="12345"
+  onMouseEnter={[Function]}
+  onTouchStart={[Function]}
+>
+  <span
+    className="MegaNav-categoryLink"
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  />
+  <div
+    className="MegaNav-subNavWrapper"
+  >
+    <SubNav
+      category={
+        Object {
+          "categoryId": "12345",
+          "columns": Array [
+            Object {
+              "span": "0",
+              "subcategories": Object {
+                "0": Object {
+                  "newIn": Array [
+                    Object {
+                      "image": Object {
+                        "span": "footer",
+                      },
+                    },
+                    Object {
+                      "label": "something to buy",
+                    },
+                  ],
+                },
+              },
+            },
+            Object {
+              "span": "1",
+              "subcategories": Object {
+                "0": Object {
+                  "0": Array [
+                    Object {
+                      "image": Object {
+                        "span": 1,
+                      },
+                    },
+                    Object {
+                      "label": "red jeans",
+                    },
+                  ],
+                  "jeans": Array [
+                    Object {
+                      "image": Object {
+                        "span": "footer",
+                      },
+                    },
+                    Object {
+                      "label": "blue jeans",
+                    },
+                  ],
+                },
+              },
+            },
+            Object {
+              "span": "2",
+              "subcategories": Object {
+                "0": Object {
+                  "jeans": Array [
+                    Object {
+                      "image": Object {
+                        "url": "",
+                      },
+                    },
+                  ],
+                  "socks": Array [
+                    Object {
+                      "label": "winter socks",
+                    },
+                  ],
+                },
+              },
+            },
+          ],
+          "redirectionUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?No=0&Nrpp=20&siteId=%2F12556",
+          "url": "http://www.topman.com",
+        }
+      }
+      isActive={false}
+      key="12345"
+      unselectCategory={[MockFunction]}
+    />
+  </div>
+</li>
+`;
+
+exports[`<Category /> @renders should not render sub category if columns is empty 1`] = `
+<li
+  className="MegaNav-category MegaNav-category--isNotTouch"
+  onMouseEnter={[Function]}
+  onTouchStart={[Function]}
+>
+  <Link
+    className="MegaNav-categoryLink"
+    isExternal={false}
+    onClick={[MockFunction]}
+    onTouchStart={[Function]}
+    title="category"
+  >
+    category
+  </Link>
+</li>
+`;
+
+exports[`<Category /> @renders should render for touch device with no sub categories 1`] = `
+<li
+  className="MegaNav-category category_12345 MegaNav-category--isNotTouch"
+  key="12345"
+  onMouseEnter={[Function]}
+  onTouchStart={[Function]}
+>
+  <Link
+    className="MegaNav-categoryLink"
+    isExternal={false}
+    onClick={[MockFunction]}
+    onTouchStart={[Function]}
+  />
+</li>
+`;
+
+exports[`<Category /> @renders should render links for touch devices if sub category columns is empty 1`] = `
+<li
+  className="MegaNav-category MegaNav-category--isTouch"
+  onMouseEnter={[Function]}
+  onTouchStart={[Function]}
+>
+  <Link
+    className="MegaNav-categoryLink"
+    isExternal={false}
+    onClick={[MockFunction]}
+    onTouchStart={[Function]}
+    title="category"
+  >
+    category
+  </Link>
+</li>
+`;
+
+exports[`<Category /> @renders should render without a className categoryId 1`] = `
+<li
+  className="MegaNav-category category_12345 MegaNav-category--isNotTouch"
+  key="12345"
+  onMouseEnter={[Function]}
+  onTouchStart={[Function]}
+>
+  <Link
+    className="MegaNav-categoryLink"
+    isExternal={false}
+    onClick={[MockFunction]}
+    onTouchStart={[Function]}
+    to="http://www.topman.com"
+  />
+  <div
+    className="MegaNav-subNavWrapper MegaNav-subNavWrapper--isNotTouch"
+  >
+    <SubNav
+      category={
+        Object {
+          "categoryId": "12345",
+          "columns": Array [
+            Object {
+              "span": "0",
+              "subcategories": Object {
+                "0": Object {
+                  "newIn": Array [
+                    Object {
+                      "image": Object {
+                        "span": "footer",
+                      },
+                    },
+                    Object {
+                      "label": "something to buy",
+                    },
+                  ],
+                },
+              },
+            },
+            Object {
+              "span": "1",
+              "subcategories": Object {
+                "0": Object {
+                  "0": Array [
+                    Object {
+                      "image": Object {
+                        "span": 1,
+                      },
+                    },
+                    Object {
+                      "label": "red jeans",
+                    },
+                  ],
+                  "jeans": Array [
+                    Object {
+                      "image": Object {
+                        "span": "footer",
+                      },
+                    },
+                    Object {
+                      "label": "blue jeans",
+                    },
+                  ],
+                },
+              },
+            },
+            Object {
+              "span": "2",
+              "subcategories": Object {
+                "0": Object {
+                  "jeans": Array [
+                    Object {
+                      "image": Object {
+                        "url": "",
+                      },
+                    },
+                  ],
+                  "socks": Array [
+                    Object {
+                      "label": "winter socks",
+                    },
+                  ],
+                },
+              },
+            },
+          ],
+          "redirectionUrl": "/en/tsuk/category/new-in-this-week-2169932/new-in-fashion-6367514/N-8d7Zdgl?No=0&Nrpp=20&siteId=%2F12556",
+          "url": "http://www.topman.com",
+        }
+      }
+      isActive={false}
+      key="12345"
+      unselectCategory={[MockFunction]}
+    />
+  </div>
+</li>
+`;

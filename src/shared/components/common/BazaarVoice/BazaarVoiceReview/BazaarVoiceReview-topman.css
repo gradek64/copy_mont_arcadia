@@ -1,0 +1,35 @@
+/* postcss-bem-linter: ignore */
+@media (max-width: 590px) {
+  /* postcss-bem-linter: ignore */
+  input.BVRRFieldTextReviewTitle.BVRRField.BVRRFieldText.BVRRFieldInput.BVRRFieldTextInput {
+    width: 95%!important;
+  }
+  /* postcss-bem-linter: ignore */
+  #BVRRReviewSubmissionID .BVRRFieldText.BVRRFieldTextArea {
+    width: 95%!important;
+  }
+  /* postcss-bem-linter: ignore */
+  .BVRRFieldTextWhereToWear.BVRRField.BVRRFieldText.BVRRFieldInput.BVRRFieldTextInput.BVSUFieldInput {
+    width: 95%!important;
+  }
+  /* postcss-bem-linter: ignore */ 
+  .BVRRWidget input[type="text"] {
+    width: 95%!important;
+  }
+  /* postcss-bem-linter: ignore */
+  .BVRRFieldHelper {
+    padding: 0!important; 
+  }
+  /* postcss-bem-linter: ignore */
+  #BVRRReviewEditEmailDisclaimerID {
+    padding: 0!important; 
+  }
+  /* postcss-bem-linter: ignore */
+  .BVRRButton#BVRRPreviewReviewButtonID {
+    float: left!important;
+  }
+  /* postcss-bem-linter: ignore */
+  #BVRRCancelReviewButtonID.BVRRButton {
+    float: left!important;
+  }
+}

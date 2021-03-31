@@ -1,0 +1,22 @@
+/** @define ProductDetail; weak */
+
+.ProductDetail {
+  /* remove price styling when TM decide to be consistent with price / label font weight*/
+  & .Price {
+    font-weight: $pdp-price-font-weight;
+    font-family: $pdp-product-size-font-family;
+    font-style: $pdp-font-style;
+    letter-spacing: $pdp-letter-spacing;
+    font-size: 1.143em;
+  }
+}
+
+@media $min-tablet {
+  .ProductDetail {
+
+    &-sizeGuide {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}

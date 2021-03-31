@@ -1,0 +1,29 @@
+/** @define OrderHistoryDetailsSummary */
+
+.OrderHistoryDetailsSummary {
+  padding: 15px $page-padding 15px;
+  border-top: 1px solid $myaccount-border-color;
+
+  display: flex;
+  flex-direction: column;
+
+  &-prices {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  &-left {
+    font-weight: $my-account-order-detail-summary-font-weight;
+  }
+}
+
+@media $min-tablet {
+  .OrderHistoryDetailsSummary {
+    border-top: none;
+    align-items: flex-end;
+    &-prices {
+      width: 20%;
+    }
+  }
+}

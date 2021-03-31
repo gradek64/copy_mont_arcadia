@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductInventory Selectors #getActiveProductWithInventory(state) should map product with its inventory positions 1`] = `
+Object {
+  "catEntryId": "29931452",
+  "inventoryPositions": Object {
+    "invavls": Array [
+      Object {},
+    ],
+    "inventorys": Array [
+      Object {},
+    ],
+  },
+  "name": "Wide Fit Taupe Mallory Boots",
+  "productId": 29931446,
+  "quantity": 1,
+  "size": "4",
+  "sku": "262017000922319",
+}
+`;

@@ -1,0 +1,63 @@
+/** @define CollectFromStore */
+
+.CollectFromStore {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: $page-padding;
+  right: $page-padding;
+  top: $page-padding;
+  bottom: $page-padding;
+
+  &-row {
+    align-items: stretch;
+    display: flex;
+    flex: 1;
+    min-height: 0;
+  }
+
+  &-columnLeft {
+    display: flex;
+    flex: .55;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  &-columnRight {
+    flex: .45;
+    position: relative;
+  }
+
+  &-espotContainer {
+    background-color: $store-locator-espot-background-color;
+    margin-top: $page-padding;
+    width: 100%;
+  }
+
+  &-listContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: $page-padding;
+    min-height: 0;
+  }
+
+  &-overflowContainer {
+    border: 1px solid $collect-from-store-list-boder-color;
+    flex: 1;
+    overflow: auto;
+  }
+  
+  &-filters {
+    background-color: $collect-from-store-filter-bg-color;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.CollectFromStore .GoogleMap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

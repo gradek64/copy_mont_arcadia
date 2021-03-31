@@ -1,0 +1,49 @@
+/** @define OrderCompleteButton */
+
+.OrderCompleteButton {
+  margin-top: 20px;
+  &--guest {
+    margin-top: 0;
+  }
+  &-button {
+    background-color: $order-complete-button-color;
+    color: $order-complete-button-text-color;
+    font-family: $order-complete-button-font-family;
+    font-weight: $order-complete-button-font-weight;
+    border: $order-complete-button-border;
+
+    &--guest {
+      background-color: $cta-tertiary-background;
+      color: $cta-tertiary-font-color;
+      border: $cta-tertiary-border-width $cta-tertiary-border-color;
+    }
+  }
+}
+
+@media $min-tablet {
+  .OrderCompleteButton {
+    max-width: 1060px;
+    width: 100%;
+    &-button {
+      min-width: 360px;
+      padding: 0 15px;
+      width: auto;
+      &.is-hidden {
+        display: none;
+      }
+    }
+    &-discoverMore {
+      margin-top: 25px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .OrderCompleteButton {
+    max-width: 1200px;
+    margin-top: 110px;
+    &--guest {
+      margin-top: 0;
+    }
+  }
+}

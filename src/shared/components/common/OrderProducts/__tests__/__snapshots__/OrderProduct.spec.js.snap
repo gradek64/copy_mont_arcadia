@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderProduct/> @renders in default state 1`] = `
+<div
+  className="OrderProducts-media"
+>
+  <div
+    className="OrderProducts-mediaLeft"
+  >
+    <Connect(ResponsiveImage)
+      alt="Floral Embroidered PJ Set"
+      amplienceUrl=""
+      className="OrderProducts-productImage"
+      sizes={
+        Object {
+          "desktop": 130,
+          "mobile": 90,
+          "tablet": 130,
+        }
+      }
+      src="http://media.topshop.com/wcsstore/TopShop/images/catalog/01W16JCRM_thumb.jpg"
+    />
+  </div>
+  <div
+    className="OrderProducts-mediaBody"
+  >
+    <header
+      className="OrderProducts-productName"
+    >
+      Floral Embroidered PJ Set
+    </header>
+    <div>
+      <div
+        className="OrderProducts-mediaBodyContent"
+      >
+        <p
+          className="OrderProducts-row OrderProducts-productSize"
+        >
+          <span
+            className="OrderProducts-label"
+          >
+            1 x One sized item
+          </span>
+        </p>
+        <p
+          className="OrderProducts-row OrderProducts-price"
+        >
+          <HistoricalPrice
+            className="HistoricalPrice--orderProducts"
+            shouldShowSaving={false}
+          />
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

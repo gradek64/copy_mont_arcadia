@@ -1,0 +1,91 @@
+/** @define Checkbox */
+
+.Checkbox {
+  display: flex;
+  padding: 0;
+  margin: $input-margin-vertical 0;
+  box-sizing: border-box;
+  position: relative;
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+
+  &-checkboxContainer {
+    position: relative;
+  }
+
+  &-check {
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    width: $checkbox-size;
+    height: $checkbox-size;
+    cursor: pointer;
+    border: 1px solid $checkbox-border-color;
+    background-color: $checkbox-background-color;
+  }
+
+  &-field {
+    opacity: 0;
+
+    /* Temporarily disable focus on all anchors and form fields */
+    /* &:focus + .Checkbox-check {
+      outline: -webkit-focus-ring-color auto 5px;
+    } */
+
+    &:checked {
+      & + .Checkbox-check {
+        border-color: $checkbox-checked-border-color;
+        background-color: $checkbox-checked-background-color;
+      }
+
+      & + .Checkbox-check:after {
+        display: block;
+      }
+    }
+  }
+
+  &-label {
+    margin-left: $checkbox-offset-label-left;
+    vertical-align: middle;
+    color: $checkbox-label-font-color;
+    font-weight: $checkbox-label-font-weight;
+    font-style: $checkbox-label-font-style;
+    text-transform: $checkbox-label-text-transform;
+    line-height: $checkbox-label-line-height;
+  }
+
+  &--reverse &-label {
+    margin-right: $checkbox-offset-label-left;
+    margin-left: 0;
+  }
+
+  &-required {
+    color: $input-required-color;
+  }
+
+  &-validationMessage {
+    display: block;
+    color: $error-color;
+  }
+
+  &.is-disabled {
+    & .Checkbox-check {
+      border-color: $checkbox-inactive-border-color;
+      background-color: $checkbox-inactive-background-color;
+      cursor: not-allowed;
+    }
+
+    & .Checkbox-label {
+      color: $checkbox-inactive-label-font-color;
+      font-weight: $checkbox-inactive-label-font-weight;
+    }
+  }
+
+  &.is-erroring {
+    & .Checkbox-check {
+      border-color: $checkbox-error-border-color
+    }
+  }
+}

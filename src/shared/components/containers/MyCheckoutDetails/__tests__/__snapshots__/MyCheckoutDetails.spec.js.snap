@@ -1,0 +1,1262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyCheckoutDetails /> @renders in default state 1`] = `
+<section
+  className="MyCheckoutDetails"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    onLinkClick={[Function]}
+    title="My Delivery & Payment Details"
+  />
+  <section
+    className="MyCheckoutDetails-address"
+  >
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--billing"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--delivery"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+  </section>
+  <section
+    className="MyCheckoutDetails-payment"
+  >
+    <Connect(PaymentMethodPreviewEditable)
+      scrollSelector=".MyCheckoutDetails-payment"
+      user={
+        Object {
+          "basketItemCount": 0,
+          "billingDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "hp3 9fs",
+              "state": "",
+            },
+            "addressDetailsId": 2245362,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "creditCard": Object {
+            "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+            "cardNumberStar": "************1152",
+            "expiryMonth": "09",
+            "expiryYear": "2018",
+            "type": "PYPAL",
+          },
+          "deliveryDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "se5 9hr",
+              "state": "",
+            },
+            "addressDetailsId": 2245363,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "email": "bradley.hughes.1505297683453@test.com",
+          "exists": true,
+          "firstName": "new first name",
+          "lastName": "Williams",
+          "subscriptionId": 2076266,
+          "title": "Mrs",
+          "userTrackingId": 2295393,
+          "version": "1.7",
+        }
+      }
+    />
+  </section>
+  <Connect(DDPRenewal)
+    isMyAccountDetail={true}
+    withMoreDetailsLink={true}
+    withOuterDDPTitleAndSeparator={true}
+  />
+</section>
+`;
+
+exports[`<MyCheckoutDetails /> @renders should have My Checkout Details header 1`] = `
+<AccountHeader
+  label="Back to My Account"
+  link="/my-account"
+  onLinkClick={[Function]}
+  title="My Delivery & Payment Details"
+/>
+`;
+
+exports[`<MyCheckoutDetails /> @renders should mount the DDPRenewal component when \`isEnabledEditing\` is equal to false 1`] = `
+<section
+  className="MyCheckoutDetails"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    onLinkClick={[Function]}
+    title="My Delivery & Payment Details"
+  />
+  <section
+    className="MyCheckoutDetails-address"
+  >
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--billing"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--delivery"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+  </section>
+  <section
+    className="MyCheckoutDetails-payment"
+  >
+    <Connect(PaymentMethodPreviewEditable)
+      scrollSelector=".MyCheckoutDetails-payment"
+      user={
+        Object {
+          "basketItemCount": 0,
+          "billingDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "hp3 9fs",
+              "state": "",
+            },
+            "addressDetailsId": 2245362,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "creditCard": Object {
+            "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+            "cardNumberStar": "************1152",
+            "expiryMonth": "09",
+            "expiryYear": "2018",
+            "type": "PYPAL",
+          },
+          "deliveryDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "se5 9hr",
+              "state": "",
+            },
+            "addressDetailsId": 2245363,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "email": "bradley.hughes.1505297683453@test.com",
+          "exists": true,
+          "firstName": "new first name",
+          "lastName": "Williams",
+          "subscriptionId": 2076266,
+          "title": "Mrs",
+          "userTrackingId": 2295393,
+          "version": "1.7",
+        }
+      }
+    />
+  </section>
+  <Connect(DDPRenewal)
+    isMyAccountDetail={true}
+    withMoreDetailsLink={true}
+    withOuterDDPTitleAndSeparator={true}
+  />
+</section>
+`;
+
+exports[`<MyCheckoutDetails /> @renders should not mount the DDPRenewal component when \`isEnabledEditing\` is equal to true 1`] = `
+<section
+  className="MyCheckoutDetails"
+>
+  <AccountHeader
+    label="Back to My Delivery & Payment Details"
+    link="/my-account"
+    onLinkClick={[Function]}
+    title="My Delivery & Payment Details"
+  />
+  <section
+    className="MyCheckoutDetails-address"
+  >
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--billing"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--delivery"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+  </section>
+  <section
+    className="MyCheckoutDetails-payment"
+  >
+    <Connect(PaymentMethodPreviewEditable)
+      scrollSelector=".MyCheckoutDetails-payment"
+      user={
+        Object {
+          "basketItemCount": 0,
+          "billingDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "hp3 9fs",
+              "state": "",
+            },
+            "addressDetailsId": 2245362,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "creditCard": Object {
+            "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+            "cardNumberStar": "************1152",
+            "expiryMonth": "09",
+            "expiryYear": "2018",
+            "type": "PYPAL",
+          },
+          "deliveryDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "se5 9hr",
+              "state": "",
+            },
+            "addressDetailsId": 2245363,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "email": "bradley.hughes.1505297683453@test.com",
+          "exists": true,
+          "firstName": "new first name",
+          "lastName": "Williams",
+          "subscriptionId": 2076266,
+          "title": "Mrs",
+          "userTrackingId": 2295393,
+          "version": "1.7",
+        }
+      }
+    />
+  </section>
+  <Button
+    className="PaymentContainer-paynow"
+    clickHandler={[Function]}
+    type="submit"
+  >
+    SAVE CHANGES
+  </Button>
+</section>
+`;
+
+exports[`<MyCheckoutDetails /> @renders should render Delivery Details, Billing Details and Payment Details 1`] = `
+<section
+  className="MyCheckoutDetails"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    onLinkClick={[Function]}
+    title="My Delivery & Payment Details"
+  />
+  <section
+    className="MyCheckoutDetails-address"
+  >
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--billing"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--delivery"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+  </section>
+  <section
+    className="MyCheckoutDetails-payment"
+  >
+    <Connect(PaymentMethodPreviewEditable)
+      scrollSelector=".MyCheckoutDetails-payment"
+      user={
+        Object {
+          "basketItemCount": 0,
+          "billingDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "hp3 9fs",
+              "state": "",
+            },
+            "addressDetailsId": 2245362,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "creditCard": Object {
+            "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+            "cardNumberStar": "************1152",
+            "expiryMonth": "09",
+            "expiryYear": "2018",
+            "type": "PYPAL",
+          },
+          "deliveryDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "se5 9hr",
+              "state": "",
+            },
+            "addressDetailsId": 2245363,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "email": "bradley.hughes.1505297683453@test.com",
+          "exists": true,
+          "firstName": "new first name",
+          "lastName": "Williams",
+          "subscriptionId": 2076266,
+          "title": "Mrs",
+          "userTrackingId": 2295393,
+          "version": "1.7",
+        }
+      }
+    />
+  </section>
+  <Connect(DDPRenewal)
+    isMyAccountDetail={true}
+    withMoreDetailsLink={true}
+    withOuterDDPTitleAndSeparator={true}
+  />
+</section>
+`;
+
+exports[`<MyCheckoutDetails /> @renders should show confirm Message when myCheckoutDetailsForm has confirm message 1`] = `
+<section
+  className="MyCheckoutDetails"
+>
+  <AccountHeader
+    label="Back to My Account"
+    link="/my-account"
+    onLinkClick={[Function]}
+    title="My Delivery & Payment Details"
+  />
+  <section
+    className="MyCheckoutDetails-message"
+  >
+    <Message
+      isCompact={false}
+      message="Changes Saved!"
+      type="confirm"
+    />
+  </section>
+  <section
+    className="MyCheckoutDetails-address"
+  >
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--billing"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--delivery"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+  </section>
+  <section
+    className="MyCheckoutDetails-payment"
+  >
+    <Connect(PaymentMethodPreviewEditable)
+      scrollSelector=".MyCheckoutDetails-payment"
+      user={
+        Object {
+          "basketItemCount": 0,
+          "billingDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "hp3 9fs",
+              "state": "",
+            },
+            "addressDetailsId": 2245362,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "creditCard": Object {
+            "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+            "cardNumberStar": "************1152",
+            "expiryMonth": "09",
+            "expiryYear": "2018",
+            "type": "PYPAL",
+          },
+          "deliveryDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "se5 9hr",
+              "state": "",
+            },
+            "addressDetailsId": 2245363,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "email": "bradley.hughes.1505297683453@test.com",
+          "exists": true,
+          "firstName": "new first name",
+          "lastName": "Williams",
+          "subscriptionId": 2076266,
+          "title": "Mrs",
+          "userTrackingId": 2295393,
+          "version": "1.7",
+        }
+      }
+    />
+  </section>
+  <Connect(DDPRenewal)
+    isMyAccountDetail={true}
+    withMoreDetailsLink={true}
+    withOuterDDPTitleAndSeparator={true}
+  />
+</section>
+`;
+
+exports[`<MyCheckoutDetails /> @renders should show error Message when myCheckoutDetailsForm has error message 1`] = `
+<section
+  className="MyCheckoutDetails"
+>
+  <AccountHeader
+    label="Back to My Delivery & Payment Details"
+    link="/my-account"
+    onLinkClick={[Function]}
+    title="My Delivery & Payment Details"
+  />
+  <section
+    className="MyCheckoutDetails-address"
+  >
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--billing"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+    <div
+      className="MyCheckoutDetails-addressItem"
+    >
+      <Connect(AddressPreviewEditable)
+        scrollSelector=".AddressFormDetails--delivery"
+        user={
+          Object {
+            "basketItemCount": 0,
+            "billingDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "hp3 9fs",
+                "state": "",
+              },
+              "addressDetailsId": 2245362,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "creditCard": Object {
+              "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+              "cardNumberStar": "************1152",
+              "expiryMonth": "09",
+              "expiryYear": "2018",
+              "type": "PYPAL",
+            },
+            "deliveryDetails": Object {
+              "address": Object {
+                "address1": "7 Hannah Close",
+                "address2": "Llanishen",
+                "city": "CARDIFF",
+                "country": "United Kingdom",
+                "postcode": "se5 9hr",
+                "state": "",
+              },
+              "addressDetailsId": 2245363,
+              "nameAndPhone": Object {
+                "firstName": "new first name",
+                "lastName": "Williams",
+                "telephone": "07971134030",
+                "title": "Mrs",
+              },
+            },
+            "email": "bradley.hughes.1505297683453@test.com",
+            "exists": true,
+            "firstName": "new first name",
+            "lastName": "Williams",
+            "subscriptionId": 2076266,
+            "title": "Mrs",
+            "userTrackingId": 2295393,
+            "version": "1.7",
+          }
+        }
+      />
+    </div>
+  </section>
+  <section
+    className="MyCheckoutDetails-payment"
+  >
+    <Connect(PaymentMethodPreviewEditable)
+      scrollSelector=".MyCheckoutDetails-payment"
+      user={
+        Object {
+          "basketItemCount": 0,
+          "billingDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "hp3 9fs",
+              "state": "",
+            },
+            "addressDetailsId": 2245362,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "creditCard": Object {
+            "cardNumberHash": "tjOBl4zzS+toHslPB+u0Z0x24+iMu0Qb",
+            "cardNumberStar": "************1152",
+            "expiryMonth": "09",
+            "expiryYear": "2018",
+            "type": "PYPAL",
+          },
+          "deliveryDetails": Object {
+            "address": Object {
+              "address1": "7 Hannah Close",
+              "address2": "Llanishen",
+              "city": "CARDIFF",
+              "country": "United Kingdom",
+              "postcode": "se5 9hr",
+              "state": "",
+            },
+            "addressDetailsId": 2245363,
+            "nameAndPhone": Object {
+              "firstName": "new first name",
+              "lastName": "Williams",
+              "telephone": "07971134030",
+              "title": "Mrs",
+            },
+          },
+          "email": "bradley.hughes.1505297683453@test.com",
+          "exists": true,
+          "firstName": "new first name",
+          "lastName": "Williams",
+          "subscriptionId": 2076266,
+          "title": "Mrs",
+          "userTrackingId": 2295393,
+          "version": "1.7",
+        }
+      }
+    />
+  </section>
+  <section
+    className="MyCheckoutDetails-message"
+  >
+    <Message
+      isCompact={false}
+      message="unexpected error"
+      type="error"
+    />
+  </section>
+  <Button
+    className="PaymentContainer-paynow"
+    clickHandler={[Function]}
+    type="submit"
+  >
+    SAVE CHANGES
+  </Button>
+</section>
+`;

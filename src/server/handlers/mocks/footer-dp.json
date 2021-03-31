@@ -1,0 +1,120 @@
+{
+  "newsletter": {
+    "label": "Want style ideas and special treats?",
+    "placeholder": "Enter your email address and get 10% off",
+    "button": "",
+    "signUpUrl": "/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd",
+    "openNewWindow": false
+  },
+  "categories": [
+    {
+      "label": "Shopping With Us",
+      "links": [
+        {
+          "label": "Delivery & returns",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Store locator",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Student discount",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Gift cards",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Dorothy Perkins card",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "My account",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Style advisor",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "How Can We Help?",
+      "links": [
+        {
+          "label": "FAQs",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Contact us",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "Good to Know",
+      "links": [
+        {
+          "label": "Our story",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Careers",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Terms & conditions",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Privacy & cookies",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Modern slavery statement",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        },
+        {
+          "label": "Accessibility",
+          "linkUrl": "/test",
+          "openNewWindow": false
+        }
+      ]
+    },
+    {
+      "label": "Get the App",
+      "images": [
+        {
+          "imageUrl": "/assets/topshop/images/footer/apple-store.png",
+          "imageSize": "small",
+          "alt": "",
+          "linkUrl": "",
+          "openNewWindow": true
+        },
+        {
+          "imageUrl": "/assets/topshop/images/footer/google-play.png",
+          "imageSize": "small",
+          "alt": "",
+          "linkUrl": "",
+          "openNewWindow": true
+        }
+      ]
+    }
+  ]
+}

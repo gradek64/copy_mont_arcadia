@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserLocator /> @renders in default state 1`] = `
+<Form
+  className="UserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="UserLocator-countryContainer"
+  >
+    <Connect(Image)
+      alt="Store locator map marker"
+      className="UserLocator-mapMarker"
+      src="/assets/{brandName}/images/map-marker.svg"
+    />
+    <div
+      className=""
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <Connect(CountryChooser)
+        name="CountrySelect"
+      />
+    </div>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="United Kingdom"
+    submitHandler={[Function]}
+  />
+</Form>
+`;
+
+exports[`<UserLocator /> @renders when selectedCountry is not the defaultCountry and it is not the landing page 1`] = `
+<Form
+  className="UserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="UserLocator-countryContainer"
+  >
+    <Connect(Image)
+      alt="Store locator map marker"
+      className="UserLocator-mapMarker"
+      src="/assets/{brandName}/images/map-marker.svg"
+    />
+    <div
+      className=""
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <Connect(CountryChooser)
+        name="CountrySelect"
+      />
+    </div>
+    <Button
+      className="UserLocator-goButton UserLocator-goButton--country"
+      title="Go"
+      type="submit"
+    >
+      Go
+    </Button>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="Portugal"
+    submitHandler={[Function]}
+  />
+</Form>
+`;
+
+exports[`<UserLocator /> @renders when selectedCountry is not the defaultCountry and it is the landing page 1`] = `
+<Form
+  className="UserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="UserLocator-countryContainer"
+  >
+    <div
+      className="UserLocator-container"
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <h1
+        className="UserLocator-storeFinderText"
+      >
+        Store Locator
+      </h1>
+      <Connect(CountryChooser)
+        isLandingPage={true}
+        name="StoreFinderCountrySelect"
+      />
+    </div>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="Portugal"
+    submitHandler={[Function]}
+  />
+</Form>
+`;
+
+exports[`<UserLocator /> @renders when selectedCountry is the defaultCountry and it is not the landing page 1`] = `
+<Form
+  className="UserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="UserLocator-countryContainer"
+  >
+    <Connect(Image)
+      alt="Store locator map marker"
+      className="UserLocator-mapMarker"
+      src="/assets/{brandName}/images/map-marker.svg"
+    />
+    <div
+      className=""
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <Connect(CountryChooser)
+        name="CountrySelect"
+      />
+    </div>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="United Kingdom"
+    submitHandler={[Function]}
+  />
+</Form>
+`;
+
+exports[`<UserLocator /> @renders when selectedCountry is the defaultCountry and it is the landing page 1`] = `
+<Form
+  className="UserLocator"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="UserLocator-countryContainer"
+  >
+    <div
+      className="UserLocator-container"
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      <h1
+        className="UserLocator-storeFinderText"
+      >
+        Store Locator
+      </h1>
+      <Connect(CountryChooser)
+        isLandingPage={true}
+        name="StoreFinderCountrySelect"
+      />
+    </div>
+  </div>
+  <Connect(UserLocatorInput)
+    selectedCountry="United Kingdom"
+    submitHandler={[Function]}
+  />
+</Form>
+`;

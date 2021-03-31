@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "example": "Mr asdfadsf adsfdsaf"
+    },
+    "address1": {
+      "type": "string",
+      "example": "Emirates Stadium"
+    },
+    "address2": {
+      "type": "string",
+      "example": "Queensland Road"
+    },
+    "address3": {
+      "type": "string",
+      "example": "LONDON"
+    },
+    "address4": {
+      "type": "string",
+      "example": "N7 7AJ"
+    },
+    "country": {
+      "type": "string",
+      "example": "United Kingdom"
+    }
+  }
+}

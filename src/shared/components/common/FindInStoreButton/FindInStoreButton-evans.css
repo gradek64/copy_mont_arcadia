@@ -1,0 +1,13 @@
+/** @define FindInStoreButton */
+
+@media $min-tablet {
+  .FindInStoreButton {
+    &-desktop {
+      font-size: 14px;
+    }
+
+    &-desktopWrapper::before {
+      width: 17px;
+    }
+  }
+}

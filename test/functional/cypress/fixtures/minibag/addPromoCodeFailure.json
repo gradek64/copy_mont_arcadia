@@ -1,0 +1,6 @@
+{
+    "statusCode": 406,
+    "error": "Not Acceptable",
+    "message": "The promotion code you have entered has not been recognised. Please confirm the code and try again.",
+    "wcsErrorCode": "ERR_PROMOTION_CODE_INVALID.-1200"
+}

@@ -1,0 +1,238 @@
+{
+    "type": "object",
+    "properties": {
+       "completedOrder": {
+          "type": "object",
+          "properties": {
+             "billingAddress": {
+                "type": "object",
+                "properties": {
+                   "address1": {
+                      "type": "string",
+                      "example": "123 Sesame Street"
+                   },
+                   "address2": {
+                      "type": "string",
+                      "example": ""
+                   },
+                   "address3": {
+                      "type": "string",
+                      "example": "London"
+                   },
+                   "country": {
+                      "type": "string",
+                      "example": "United Kingdom"
+                   },
+                   "name": {
+                      "type": "string",
+                      "example": "Bob Barker"
+                   }
+                }
+             },
+             "currencyConversion": {
+                "type": "object",
+                "properties": {
+                   "currencyRate": {
+                      "type": "string",
+                      "example": "GBP"
+                   }
+                }
+             },
+             "deliveryAddress": {
+                "type": "object",
+                "properties": {
+                   "address1": {
+                      "type": "string",
+                      "example": "1 Oxford Circus"
+                   },
+                   "address2": {
+                      "type": "string",
+                      "example": "West End"
+                   },
+                   "address3": {
+                      "type": "string",
+                      "example": "London"
+                   },
+                   "country": {
+                      "type": "string",
+                      "example": "United Kingdom"
+                   },
+                   "name": {
+                      "type": "string",
+                      "example": "Bob Barker"
+                   }
+                }
+             },
+             "deliveryCarrier": {
+                "type": "string",
+                "example": ""
+             },
+             "deliveryCost": {
+                "type": "string",
+                "example": "4.00"
+             },
+             "deliveryDate": {
+                "type": "string",
+                "example": "12 January 2018"
+             },
+             "deliveryMethod": {
+                "type": "string",
+                "example": "Standard Delivery"
+             },
+             "deliveryPrice": {
+                "type": "string",
+                "example": "4.00"
+             },
+             "orderId": {
+                "type": "number",
+                "example": 700381254
+             },
+             "orderLines": {
+                "type": "array",
+                "items": {
+                   "type": "object",
+                   "properties": {
+                      "colour": {
+                         "type": "string",
+                         "example": "BLUE"
+                      },
+                      "discount": {
+                         "type": "string",
+                         "example": "10.00"
+                      },
+                      "discountPrice": {
+                         "type": "string",
+                         "example": "30.00"
+                      },
+                      "imageUrl": {
+                         "type": "string",
+                         "example": "https://stage.topshop.com/image"
+                      },
+                      "lineNo": {
+                         "type": "string",
+                         "example": "1A1A1A"
+                      },
+                      "productId": {
+                        "type": "string",
+                        "example": "313131"
+                     },
+                      "name": {
+                         "type": "string",
+                         "example": "Blue dress"
+                      },
+                      "nonRefundable": {
+                         "type": "boolean",
+                         "example": false
+                      },
+                      "quantity": {
+                         "type": "quantity",
+                         "example": 1
+                      },
+                      "size": {
+                         "type": "string",
+                         "example": "12"
+                      },
+                      "total": {
+                         "type": "string",
+                         "example": "30.00"
+                      },
+                      "unitPrice": {
+                         "type": "string",
+                         "example": "40.00"
+                      },
+                      "wasPrice": {
+                         "type": "string",
+                         "example": "5.00"
+                      }
+                   }
+                }
+             },
+             "paymentDetails": {
+                "type": "array",
+                "items": {
+                   "type": "object",
+                   "properties": {
+                      "cardNumberStar": {
+                         "type": "string",
+                         "example": "************1111"
+                      },
+                      "paymentMethod": {
+                         "type": "string",
+                         "example": "VISA"
+                      },
+                      "totalCost": {
+                         "type": "string",
+                         "example": "34.00"
+                      }
+                   }
+                }
+             },
+             "returnPossible": {
+                "type": "boolean",
+                "example": false
+             },
+             "returnRequested": {
+                "type": "boolean",
+                "example": false
+             },
+             "returning_buyer": {
+                "type": "boolean",
+                "example": true
+             },
+             "subTotal": {
+                "type": "string",
+                "example": "30.00"
+             },
+             "totalOrderPrice": {
+                "type": "string",
+                "example": "34.00"
+             },
+             "totalOrdersDiscount": {
+                "type": "string",
+                "example": "10.00"
+             },
+             "totalOrdersDiscountLabel": {
+                "type": "string",
+                "example": ""
+             },
+             "userType": {
+               "description": "G: Guest order; R: Returning customer placed an order; A: Customer placed an order but not registered on same day; S: Customer placed an order registering on same day;",
+               "type": "string",
+               "enum": ["G", "R", "A", "S"],
+               "example": "S"
+             },
+             "ddpPromotion": {
+                "type": "object",
+                "example": {
+                   "label": "DDP_Shipping_Promotion",
+                   "value": -5.95
+                }
+             },
+             "promoCodes": {
+                "type": "array",
+                "items": {
+                   "type": "object",
+                   "properties": {
+                      "promotionCode": {
+                         "type": "string",
+                         "example": "F84MB92NV9"
+                      },
+                      "label": {
+                         "type": "string",
+                         "example": "Monty 5p off"
+                      }
+                   }
+                }
+             },
+            "isRegisteredEmail": {
+              "type": "boolean",
+              "example": true
+            },
+            "guestUserEmail": {
+              "type": "string",
+              "example": "guestuseremail@mail.com"
+            }
+          }
+       }
+    }
+ }

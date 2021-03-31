@@ -1,0 +1,74 @@
+/** @define WishlistLoginModal */
+
+.WishlistLoginModal {
+  &-forgetPassword {
+    margin-bottom: 10px;
+  }
+
+  &-forms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-header {
+    margin-bottom: 20px;
+  }
+
+  &-heartIcon {
+    display: block;
+    background-image: $wishlist-header-icon;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px auto;
+    width: 40px;
+    height: 36px;
+  }
+
+  &-loginForm,
+  &-register {
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
+
+  &-text {
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+  }
+}
+
+@media $min-tablet {
+  .WishlistLoginModal {
+    &-formContainer {
+      width: 50%;
+      overflow:hidden;
+    }
+
+    &-forms {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &-header {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &-heartIcon {
+      margin: 0 20px;
+      width: 23px;
+      height: 21px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .WishlistLoginModal {
+    &-formContainer {
+      padding: 0 50px;
+    }
+  }
+}

@@ -1,0 +1,1974 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Product/> @instance methods renderSwatches default case 1`] = `
+<div
+  className="Product-swatches Product-swatches--col5"
+>
+  <Swatches
+    maxSwatches={1}
+    name="name"
+    productId="parentProductId"
+    productUrl="parentProductUrl"
+    swatches="colourSwatches"
+  />
+</div>
+`;
+
+exports[`<Product/> @instance methods renderSwatches with componentWidth 1`] = `
+<div
+  className="Product-swatches Product-swatches--col5"
+>
+  <Swatches
+    maxSwatches={14}
+    name="name"
+    productId="parentProductId"
+    productUrl="parentProductUrl"
+    swatches="colourSwatches"
+  />
+</div>
+`;
+
+exports[`<Product/> @renders in default state 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders should hide product meta 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders should hide product name 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders should hide quick view icon 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1 HistoricalPrice--center"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders should not render Banners in 3 column view for mobile viewport 1`] = `
+<div
+  className="Product Product--col3"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={
+            Array [
+              Object {
+                "assetType": "IMAGE_BANNER_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color8/cms/pages/static/static-0000109785/images/Banner_Small_Petite3.png",
+              },
+              Object {
+                "assetType": "IMAGE_BANNER_MEDIUM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color8/cms/pages/static/static-0000109785/images/Banner_Medium_Petite3.png",
+              },
+              Object {
+                "assetType": "IMAGE_BANNER_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color8/cms/pages/static/static-0000109785/images/Banner_Large_Petite3.png",
+              },
+              Object {
+                "assetType": "IMAGE_BANNER_MOBILE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color8/cms/pages/static/static-0000109785/images/Banner_Mobile_Petite3.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_small.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_medium.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_large.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_mobile.png",
+              },
+            ]
+          }
+          assets={Array []}
+          grid={3}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col3"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col3"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders should render ProductPromoBanner 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={
+            Array [
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_small.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_medium.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_large.png",
+              },
+              Object {
+                "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_mobile.png",
+              },
+            ]
+          }
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={
+          Array [
+            Object {
+              "assetType": "IMAGE_PROMO_GRAPHIC_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_small.png",
+            },
+            Object {
+              "assetType": "IMAGE_PROMO_GRAPHIC_MEDIUM",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_medium.png",
+            },
+            Object {
+              "assetType": "IMAGE_PROMO_GRAPHIC_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_large.png",
+            },
+            Object {
+              "assetType": "IMAGE_PROMO_GRAPHIC_MOBILE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_mobile.png",
+            },
+          ]
+        }
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <ProductPromoBanner
+      isFeatureLogBadAttributeBannersEnabled={false}
+      productURL="/uk/testUrl"
+      src="http://media.topshop.com/wcsstore/Topshop/images/category_icons/promo_code_627587_mobile.png"
+    />
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders should render if \`isBundleOrOutfit\` and \`isMobile\` are both \`false\` 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isBundleOrOutfit={false}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={false}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <ProductQuickViewButton
+        onClick={[Function]}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders when is bundle 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isBundleOrOutfit={true}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with Wishlist Feature Flag enabled displays wishlist button 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={true}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with Wishlist Feature Flag enabled does not show wishlist button for bundles 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isBundleOrOutfit={true}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with Wishlist Feature Flag enabled does not show wishlist button for carousel items 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={true}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={true}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with additionalAssets 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={
+            Array [
+              Object {
+                "assetType": "IMAGE_ZOOM",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS09D31JAQA_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_2COL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS09D31JAQA_2col_F_1.jpg",
+              },
+            ]
+          }
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={
+          Array [
+            Object {
+              "assetType": "IMAGE_ZOOM",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS09D31JAQA_Zoom_F_1.jpg",
+            },
+            Object {
+              "assetType": "IMAGE_2COL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS09D31JAQA_2col_F_1.jpg",
+            },
+          ]
+        }
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with assets 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={
+            Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS09D31JAQA_Thumb_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_THUMB",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS09D31JAQA_Small_F_1.jpg",
+              },
+            ]
+          }
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with bazaarVoiceData.average and no rating 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+      <Connect(RatingImage)
+        className="Product-ratingImage"
+        rating="4.32"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with className 1`] = `
+<div
+  className="Product Product--col1 myClassName"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with rating 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+      <Connect(RatingImage)
+        className="Product-ratingImage"
+        rating={3}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with rrp 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        rrp="40.00"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with showProductView boolean 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with unitPrice 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": "30.00",
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        price="30.00"
+        shouldShowSaving={false}
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with wasPrice 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+        wasPrice="25.00"
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Product/> @renders with wasWasPrice 1`] = `
+<div
+  className="Product Product--col1"
+  data-product-number="productNumber"
+>
+  <div
+    className="Product-images-container"
+  >
+    <Link
+      className="Product-link"
+      onClick={[Function]}
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/uk/testUrl"
+    >
+      <div
+        className="Product-images"
+      >
+        <ProductImages
+          additionalAssets={Array []}
+          assets={Array []}
+          grid={1}
+          isCarouselItem={false}
+          isImageFallbackEnabled={false}
+          isMobile={true}
+          lazyLoad={false}
+          outfitBaseImageUrl=""
+          productDescription="productName"
+          productDetails={
+            Object {
+              "lineNumber": "DP56672900",
+              "price": undefined,
+            }
+          }
+          productId={24393842}
+          productRoute="/uk/testUrl"
+          showWishlistButton={false}
+          sizes={
+            Object {
+              "desktop": 1,
+              "mobile": 1,
+              "tablet": 1,
+            }
+          }
+          touchEnabled={false}
+        />
+      </div>
+      <Connect(ProductImagesOverlay)
+        additionalAssets={Array []}
+        hideTrendingProductLabel={false}
+        productId={24393842}
+        productUrl="/uk/testUrl"
+      />
+    </Link>
+  </div>
+  <div
+    className="Product-meta"
+  >
+    <div
+      className="Product-info Product-info--col1"
+    >
+      <header
+        className="Product-name"
+      >
+        <h2>
+          <Link
+            className="Product-nameLink"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/uk/testUrl"
+          >
+            productName
+          </Link>
+        </h2>
+      </header>
+      <HistoricalPrice
+        className="HistoricalPrice--product HistoricalPrice--col1"
+        shouldShowSaving={false}
+        wasWasPrice="35.00"
+      />
+      <Connect(SocialProofProductMetaLabel)
+        productId={24393842}
+      />
+    </div>
+  </div>
+</div>
+`;

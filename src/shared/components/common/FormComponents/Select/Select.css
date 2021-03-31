@@ -1,0 +1,256 @@
+/** @define Select */
+
+.Select {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: $input-margin-vertical 0;
+  font-family: $font-family-select;
+  flex-direction: column;
+  letter-spacing: $select-letter-spacing;
+
+  &-container {
+    position: relative;
+    color: $input-placeholder-font-color;
+    &::after {
+      content: '';
+      position: absolute;
+      right: $select-arrow-right;
+      height: 100%;
+      top: 0;
+      width: $select-arrow-width;
+      border-left: $select-arrow-border-width solid $input-pre-border-color;
+      background-image: url("public/$brand/images/down-arrow.svg");
+      background-repeat: no-repeat;
+      background-position: $plp-filters-sort-selector-arrow-position;
+      background-size: $select-arrow-size;
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+  }
+
+  &-label {
+    margin-right: auto;
+    margin-left: $input-label-margin-left;
+    color: $input-pre-label-font-color;
+    font-weight: $input-pre-label-font-weight;
+    font-style: $input-pre-label-font-style;
+    text-transform: $input-pre-label-text-transform;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+
+  &-required {
+    color: $input-required-color;
+  }
+
+  &-select {
+    height: $form-element-height;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: $input-padding;
+    padding-right: calc($select-arrow-width + 5px);
+    font-size: $select-pre-font-size;
+    letter-spacing: $select-pre-letter-spacing;
+    color: $select-pre-font-color;
+    background: $select-background;
+    border: $input-border-width solid $select-pre-border-color;
+
+    border-radius: $input-border-radius;
+    box-shadow: $input-box-shadow;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    &:active {
+      font-weight: $input-active-font-weight;
+      font-style: $input-active-font-style;
+      text-transform: $input-active-text-transform;
+      outline: $input-active-outline;
+
+      color: $select-active-font-color;
+      border: $input-border-width solid $select-active-border-color;
+    }
+
+    &:active + .Select-label {
+      color: $input-active-label-font-color;
+      font-weight: $input-active-label-font-weight;
+      font-style: $input-active-label-font-style;
+      text-transform: $input-active-label-text-transform;
+    }
+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+
+  &-head {
+    display: flex;
+  }
+
+  &-label, &-validationMessage {
+    margin-bottom: 5px;
+  }
+
+  &-validationMessage {
+    padding-left: 10px;
+    color: $error-color;
+    text-align: right;
+  }
+
+  &.is-selected {
+    & .Select-container::after {
+      border-color: $select-post-border-color;
+      opacity: 1;
+    }
+
+    & .Select-select {
+      color: $select-post-font-color;
+      border: $input-border-width solid $select-post-border-color;
+
+      &:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 $select-active-font-color;
+      }
+    }
+
+    & .Select-label {
+      color: $input-post-label-font-color;
+      font-weight: $input-post-label-font-weight;
+      font-style: $input-post-label-font-style;
+      text-transform: $input-post-label-text-transform;
+    }
+  }
+
+  &.is-disabled {
+    pointer-events: none;
+
+    & .Select-container::after {
+      border-color: $select-inactive-border-color;
+      opacity: $select-inactive-arrow-opacity;
+    }
+
+    & .Select-select {
+      background: $select-inactive-background;
+      color: $select-inactive-font-color;
+      border: $input-border-width solid $select-inactive-border-color;
+    }
+
+    & .Select-label {
+      color: $input-inactive-label-font-color;
+      font-weight: $input-inactive-label-font-weight;
+      font-style: $input-inactive-label-font-style;
+      text-transform: $input-inactive-label-text-transform;
+    }
+  }
+
+  &.is-erroring {
+    & .Select-container::after {
+      border-color: $select-error-border-color;
+      opacity: 1;
+    }
+
+    & .Select-select {
+      color: $select-post-font-color;
+      border-color: $select-error-border-color;
+    }
+
+    & .Select-label {
+      color: $input-post-label-font-color;
+    }
+  }
+
+  &--sort {
+    &.is-selected .Select-select {
+      border: 1px solid $plp-filters-sort-selector-border-color;
+      padding: $plp-filters-sort-selector-padding;
+      font-size: $plp-filters-sort-selector-font-size;
+      font-family: $plp-filters-sort-selector-font-family;
+      letter-spacing: $plp-filters-sort-selector-letter-spacing;
+    }
+
+    & .Select-container::after {
+      width: $plp-filters-sort-selector-arrow-width;
+      background-size: $plp-filters-sort-selector-arrow-background-size;
+    }
+  }
+
+  &--inlineLabel {
+    flex-direction: row;
+    & .Select {
+      &-head {
+        align-self: center;
+      }
+      &-label {
+        margin: 0 13px 0 0;
+      }
+      &-container {
+        flex: 1;
+      }
+    }
+  }
+
+  &--link {
+    margin: 0;
+    justify-content: center;
+    width: auto;
+
+    & .Select {
+      &-label {
+        font-size: 0.925em;
+      }
+      &-container {
+        &:after {
+          display: none;
+        }
+      }
+      &-select {
+        appearance: none;
+        height: auto;
+        background: transparent;
+        border: none;
+        padding: 0;
+        text-decoration: underline;
+        text-transform: capitalize;
+        white-space: normal;
+        width: 142px;
+      }
+    }
+    &.is-selected {
+      & .Select-select {
+        border: none;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .Select--sort {
+    &.is-selected .Select-select {
+      padding: $plp-filters-sort-selector-padding-desktop;
+      font-size: $plp-filters-sort-selector-font-size-desktop;
+    }
+
+    & .Select-container::after {
+      width: $plp-filters-sort-selector-arrow-width-desktop;
+      background-size: $plp-filters-sort-selector-arrow-background-size-desktop;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.Select-select--option  {
+  color: $select-post-font-color;
+}
+
+/* postcss-bem-linter: ignore */
+.Select-select option:disabled {
+  color: $select-inactive-font-color;
+}
+
+/* IE11 Patch to hide dropdown arrows */
+/* postcss-bem-linter: ignore */
+.Select-select::-ms-expand {
+  display: none;
+}

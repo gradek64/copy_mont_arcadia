@@ -1,0 +1,11 @@
+/** @define Bundles; weak */
+
+@media $min-tablet {
+  .Bundles-topWrapper {
+    margin-bottom: 70px;
+  }
+
+  .Bundles .ProductDescription {
+    display: none;
+  }
+}

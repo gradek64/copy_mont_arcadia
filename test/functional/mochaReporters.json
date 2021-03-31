@@ -1,0 +1,10 @@
+{
+    "reporterEnabled": "mocha-junit-reporter, mocha-allure-reporter",
+    "mochaJunitReporterReporterOptions": {
+        "mochaFile": "cypress/output/test-results.[hash].xml",
+        "toConsole": false
+    },
+    "mochaAllureReporterReporterOptions": {
+        "targetDir": "cypress/output/allure/"
+    }
+}

@@ -1,0 +1,46 @@
+/** @define AccountItem */
+
+.AccountItem {
+  border-bottom: 1px solid $myaccount-border-color;
+  cursor: pointer;
+  position: relative;
+  display: block;
+
+  &-title, &-description {
+    margin: $myaccount-item-title-spacing 0;
+  }
+
+  &-title {
+    font-weight: $myaccount-item-title-font-weight;
+    text-transform: $myaccount-item-title-text-transform;
+  }
+
+  &-link {
+    padding: 1em calc(2 * $myaccount-arrow-width + 6px) 1em $page-padding;
+    display: block;
+  }
+
+  &::after {
+     position: absolute;
+     display: block;
+     top: 50%;
+     right: calc(2 * $myaccount-arrow-width - 6px);
+     height: $myaccount-arrow-height;
+     width: $myaccount-arrow-width;
+     margin-top: calc(-0.5 * $myaccount-arrow-height);
+     background: url("public/$brand/images/nav-arrow.svg") no-repeat center;
+     background-size: contain;
+     content: '';
+   }
+}
+
+@media $min-tablet {
+  .AccountItem {
+    border: 1px solid $myaccount-border-color;
+    border-width: 0 1px 1px 1px;
+  }
+
+  .AccountItem:first-of-type {
+    border-width: 1px;
+  }
+}

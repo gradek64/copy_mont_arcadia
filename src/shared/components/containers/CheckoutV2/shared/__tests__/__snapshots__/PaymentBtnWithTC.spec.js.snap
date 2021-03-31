@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentBtnWithTC /> @render should render the SimpleTotals 1`] = `
+<div
+  className="PaymentBtnWithTC-termsConditionPayBtnWrapper"
+>
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "918.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "cost": 0,
+        "deliveryMethod": "HOME",
+        "deliveryType": "HOME",
+        "estimatedDelivery": Array [
+          "No later than Friday 22 July 2016",
+        ],
+        "label": "",
+        "shipModeId": 0,
+      }
+    }
+  />
+  <div
+    className="PaymentBtnWithTC-payNowButtonContainer"
+  >
+    <TermsAndConditions
+      brandName="topshop"
+      isGuestOrder={false}
+    />
+    <Connect(PaymentButtonContainer)
+      className="PaymentBtnWithTC-paynow"
+      formErrors={Object {}}
+      formNames={
+        Array [
+          "address",
+          "details",
+          "findAddress",
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<PaymentBtnWithTC /> @render should render with the initial props 1`] = `
+<div
+  className="PaymentBtnWithTC-termsConditionPayBtnWrapper"
+>
+  <SimpleTotals
+    className=""
+    discounts={Array []}
+    isDDPStandaloneOrder={false}
+    priceInfo={
+      Object {
+        "subTotal": "918.00",
+      }
+    }
+    shippingInfo={
+      Object {
+        "cost": 0,
+        "deliveryMethod": "HOME",
+        "deliveryType": "HOME",
+        "estimatedDelivery": Array [
+          "No later than Friday 22 July 2016",
+        ],
+        "label": "",
+        "shipModeId": 0,
+      }
+    }
+  />
+  <div
+    className="PaymentBtnWithTC-payNowButtonContainer"
+  >
+    <TermsAndConditions
+      brandName="topshop"
+      isGuestOrder={false}
+    />
+    <Connect(PaymentButtonContainer)
+      className="PaymentBtnWithTC-paynow"
+      formErrors={Object {}}
+      formNames={
+        Array [
+          "address",
+          "details",
+          "findAddress",
+        ]
+      }
+    />
+  </div>
+</div>
+`;

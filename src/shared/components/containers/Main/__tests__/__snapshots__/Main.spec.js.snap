@@ -1,0 +1,1439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main/> @lifecycle componentDidMount should call windowResizeEvent and updateTouch(), updateAgent() and initFeaturesListener() and should add event listeners if global.process.browser 1`] = `
+Array [
+  "resize",
+  [Function],
+]
+`;
+
+exports[`<Main/> @lifecycle componentDidMount should call windowResizeEvent and updateTouch(), updateAgent() and initFeaturesListener() and should add event listeners if global.process.browser 2`] = `
+Array [
+  "popstate",
+  [Function],
+]
+`;
+
+exports[`<Main/> @renders in default state 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with Helmet enabled 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": "this_is_a_fake_google_site-verification",
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with TacticalMessage enabled 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with debug 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body is-notScrollable"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(Debug) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with debugShown 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "href": "/assets/topshop/style.css",
+                "media": "(min-width: 0px)",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <div
+          className="Main-body is-notScrollable"
+        >
+          <Connect(Espot)
+            identifier="headerEspot"
+          />
+          <Connect(HeaderContainer)
+            location={
+              Object {
+                "pathname": "/",
+              }
+            }
+          />
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <Connect(FooterContainer) />
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(Debug) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with error message 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with iOS 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body ios"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with responsive feature active and media is desktop 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with responsive feature active and media is mobile 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with responsive feature inactive and media is desktop 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with sizeguideopen amd mobile true 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          isMobile={true}
+          onClick={[Function]}
+          showOverlay={true}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+            isMobile={true}
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <Drawer
+          isOpen={false}
+          isScrollable={true}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with sizeguideopen and mobile false 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main no-touch"
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={true}
+          isMobile={false}
+          onClick={[Function]}
+          showOverlay={true}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+            isMobile={false}
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={true}
+          isScrollable={true}
+        >
+          <Connect(SizeGuideDrawer) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={true}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;
+
+exports[`<Main/> @renders with touch as true 1`] = `
+<withRouter(ScrollToTop)>
+  <WindowEventProvider>
+    <WindowNavigationListener
+      closeModal={[MockFunction]}
+      modalOpen={false}
+    >
+      <div
+        className="Main "
+        role="presentation"
+      >
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": undefined,
+                "name": "google-site-verification",
+              },
+              Object {
+                "content": "Burton (UK)",
+                "name": "og:site_name",
+              },
+            ]
+          }
+          noscript={
+            Array [
+              Object {
+                "innerHTML": "<link rel=\\"stylesheet\\" media=\\"all\\" href=\\"/assets/topshop/style.css\\" />",
+              },
+            ]
+          }
+          title="Page title"
+          titleTemplate="%s | Burton"
+        />
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+          link={
+            Array [
+              Object {
+                "data-breakpoint": "(min-width: 0px)",
+                "href": "/assets/topshop/style.css",
+                "media": "defer-load",
+                "rel": "stylesheet",
+              },
+            ]
+          }
+          onChangeClientState={[Function]}
+        />
+        <Connect(ContentOverlay)
+          isDrawerOpen={false}
+          onClick={[Function]}
+          showOverlay={false}
+        />
+        <Connect(Espot)
+          identifier="headerEspot"
+        />
+        <Connect(HeaderContainer)
+          location={
+            Object {
+              "pathname": "/",
+            }
+          }
+        />
+        <div
+          className="Main-body"
+        >
+          <Connect(ErrorMessage) />
+          <div
+            id="Main-content"
+            tabIndex="0"
+          />
+          <WithQubit
+            ddpDefaultSku="100000001"
+            ddpEndDate="1 April 2020"
+            ddpLogoSrc="ddpLogoSrc/path"
+            id="qubit-toast-notification"
+          />
+          <div
+            className="Main-inner"
+          />
+        </div>
+        <Connect(TopNavMenu) />
+        <div
+          className=""
+        >
+          <Connect(FooterContainer) />
+        </div>
+        <Connect(MontyVisualIndicator) />
+        <Drawer
+          isOpen={false}
+          isScrollable={false}
+        >
+          <Connect(MiniBag) />
+        </Drawer>
+        <Connect(Modal)
+          onCloseModal={[Function]}
+        />
+        <Connect(LoaderOverlay) />
+        <Connect(DebugButton) />
+        <Connect(CookieMessage) />
+        <Connect(MarketingSlideUp)
+          areSideDrawersOpen={false}
+        />
+      </div>
+    </WindowNavigationListener>
+  </WindowEventProvider>
+</withRouter(ScrollToTop)>
+`;

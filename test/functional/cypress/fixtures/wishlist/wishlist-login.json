@@ -1,0 +1,62 @@
+{
+  "exists": true,
+  "email": "wishlisttest@arcardiagroup.co.uk",
+  "title": "",
+  "firstName": "",
+  "lastName": "",
+  "userTrackingId": 4790049,
+  "subscriptionId": "",
+  "basketItemCount": 0,
+  "creditCard": {
+    "type": "",
+    "cardNumberHash": "",
+    "cardNumberStar": "",
+    "expiryMonth": "",
+    "expiryYear": ""
+  },
+  "deliveryDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "lastName": "",
+      "telephone": "",
+      "title": "",
+      "firstName": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "billingDetails": {
+    "addressDetailsId": -1,
+    "nameAndPhone": {
+      "lastName": "",
+      "telephone": "",
+      "title": "",
+      "firstName": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postcode": ""
+    }
+  },
+  "version": "1.6",
+  "isDDPUser": false,
+  "isDDPRenewable": false,
+  "ddpStartDate": null,
+  "ddpEndDate": null,
+  "expId1": "4567e69ae0166b4a1c3eebe3bc7933b7d53aba23fecd025421ee8108058134fd",
+  "expId2": "c7c1ebfc816ec5ec11fa81ba0256a05e6be6623bde145fe3749987fcae66ff62",
+  "hasCardNumberHash": false,
+  "hasPayPal": false,
+  "hasDeliveryDetails": false,
+  "hasBillingDetails": false
+}

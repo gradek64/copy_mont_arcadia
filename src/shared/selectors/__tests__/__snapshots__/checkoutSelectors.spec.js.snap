@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout Selectors getDeliveryLocations should not return CFS options if CFS feature flags is disabled 1`] = `
+Array [
+  Object {
+    "deliveryLocationType": "HOME",
+    "deliveryMethods": Array [],
+    "label": "Home Delivery Standard (UK up to 4 days; worldwide varies)  Express (UK next or nominated day; worldwide varies)",
+    "selected": false,
+  },
+  Object {
+    "deliveryLocationType": "PARCELSHOP",
+    "deliveryMethods": Array [],
+    "label": "Collect from ParcelShop - UK only Thousands of local shops open early and late Next Day Delivery",
+    "selected": false,
+  },
+]
+`;
+
+exports[`Checkout Selectors getDeliveryLocations should not return PUDO options if PUDO feature flags is disabled 1`] = `
+Array [
+  Object {
+    "deliveryLocationType": "HOME",
+    "deliveryMethods": Array [],
+    "label": "Home Delivery Standard (UK up to 4 days; worldwide varies)  Express (UK next or nominated day; worldwide varies)",
+    "selected": false,
+  },
+  Object {
+    "deliveryLocationType": "STORE",
+    "deliveryMethods": Array [],
+    "label": "Collect from Store Standard (3-7 working days) Express (next day)",
+    "selected": true,
+  },
+]
+`;
+
+exports[`Checkout Selectors getDeliveryLocations should return only Home delivery options if CFS and PUDO feature flags are not enabled 1`] = `
+Array [
+  Object {
+    "deliveryLocationType": "HOME",
+    "deliveryMethods": Array [],
+    "label": "Home Delivery Standard (UK up to 4 days; worldwide varies)  Express (UK next or nominated day; worldwide varies)",
+    "selected": false,
+  },
+]
+`;
+
+exports[`Checkout Selectors getDeliveryLocations should return the unfiltered list of delivery locations when CFSI and PUDO feature flags is set to true 1`] = `
+Array [
+  Object {
+    "deliveryLocationType": "HOME",
+    "deliveryMethods": Array [],
+    "label": "Home Delivery Standard (UK up to 4 days; worldwide varies)  Express (UK next or nominated day; worldwide varies)",
+    "selected": false,
+  },
+  Object {
+    "deliveryLocationType": "STORE",
+    "deliveryMethods": Array [],
+    "label": "Collect from Store Standard (3-7 working days) Express (next day)",
+    "selected": true,
+  },
+  Object {
+    "deliveryLocationType": "PARCELSHOP",
+    "deliveryMethods": Array [],
+    "label": "Collect from ParcelShop - UK only Thousands of local shops open early and late Next Day Delivery",
+    "selected": false,
+  },
+]
+`;

@@ -1,0 +1,29 @@
+/** @define HeaderWallis; weak */
+
+.HeaderWallis {
+  & .ShippingInfo {
+    margin: 0 0 0 15px;
+  }
+
+  &-content {
+   opacity: 1;
+  }
+
+  &.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0 20px;
+    background-color: $white;
+    z-index: 2;
+
+    & .HeaderWallis-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: $laptop-end-width;
+      margin: 0 auto;
+    }
+  }
+}

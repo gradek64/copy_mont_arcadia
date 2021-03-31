@@ -1,0 +1,10 @@
+/** @define PaymentButtonContainer; weak */
+
+.PaymentButtonContainer {
+  &--hasError {
+    border: 1px solid $colorError;
+    padding: 15px 15px 0;
+  }
+
+  & .grecaptcha-badge { visibility: hidden; }
+}

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ValueOption /> @renders in default state 1`] = `
+<div
+  className="ValueOption ValueOption--valueType"
+>
+  <div
+    className="ValueOption-container"
+    key="/test-url"
+  >
+    <a
+      className="ValueOption-link"
+      href="/test-url"
+      onClick={[Function]}
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": false,
+          }
+        }
+        className="ValueOption-checkbox"
+        labelClassName="ValueOption-checkboxLabel"
+        name="waistsize-34"
+        onChange={[Function]}
+      >
+        <span
+          className="ValueOption-label"
+        >
+          34
+        </span>
+        <span
+          className="ValueOption-count"
+        >
+          (
+          3122
+          )
+        </span>
+      </Connect(Checkbox)>
+    </a>
+  </div>
+  <div
+    className="ValueOption-container"
+    key="/test-url"
+  >
+    <a
+      className="ValueOption-link"
+      href="/test-url"
+      onClick={[Function]}
+    >
+      <Connect(Checkbox)
+        checked={
+          Object {
+            "value": true,
+          }
+        }
+        className="ValueOption-checkbox"
+        labelClassName="ValueOption-checkboxLabel"
+        name="waistsize-38"
+        onChange={[Function]}
+      >
+        <span
+          className="ValueOption-label"
+        >
+          38
+        </span>
+        <span
+          className="ValueOption-count"
+        >
+          (
+          3123
+          )
+        </span>
+      </Connect(Checkbox)>
+    </a>
+  </div>
+</div>
+`;

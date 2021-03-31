@@ -1,0 +1,97 @@
+/** @define HistoricalPrice */
+
+.HistoricalPrice {
+  display: block;
+  color: $plp-product-unit-price-font-color;
+  font-family: $plp-product-price-font;
+  font-size: $plp-product-unit-price-font-size;
+  font-weight: $plp-product-unit-price-font-weight;
+  letter-spacing: $plp-product-price-letter-spacing;
+
+  &-old {
+    display: $plp-product-old-price-display;
+    color: $plp-product-old-price-font-color;
+    text-decoration: $plp-product-old-price-font-style;
+    padding: $plp-product-price-spacing;
+    margin-right: $plp-product-old-price-margin-right-mobile;
+  }
+
+  &-promotion {
+    color: $plp-product-now-price-font-color;
+    display: $plp-product-now-price-display;
+    margin-right: $plp-product-old-price-margin-right-mobile;
+  }
+
+  &-label {
+    display: none;
+  }
+
+  &--pdp {
+    font-size: $pdp-product-unit-price-font-size;
+    margin: 10px 0 10px;
+    & .HistoricalPrice-old {
+      display: $pdp-product-old-price-display;
+    }
+    & .HistoricalPrice-promotion {
+      display: $pdp-product-now-price-display;
+    }
+    & .HistoricalPrice-label {
+      display: $pdp-product-price-label;
+      font-size: $pdp-product-price-label-size;
+    }
+    & .HistoricalPrice-saving {
+      display: block;
+      font-weight: bold;
+      margin-top: 3px;
+    }
+  }
+
+  &--miniProduct {
+    margin: 0 0 15px;
+    font-size: 1.1em;
+
+    & .HistoricalPrice-old {
+      display: block;
+      margin-right: 5px;
+    }
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--orderProducts {
+    display: inline-block;
+    font-size: inherit;
+    font-family: $mini-bag-content-price-font-family;
+    font-weight: $mini-bag-content-price-font-weight;
+    text-align: $mini-bag-content-price-text-align;
+    color: $mini-bag-content-price-text-color;
+    & .HistoricalPrice-old, & .HistoricalPrice-promotion {
+      white-space: nowrap;
+      padding: 0;
+    }
+  }
+}
+
+@media $min-tablet {
+  .HistoricalPrice {
+    font-size: $plp-product-unit-price-font-size-desktop;
+    font-weight: $plp-product-unit-price-font-weight-desktop;
+    &--pdp {
+      font-size: $pdp-product-unit-price-font-size;
+      margin: 0;
+      margin-bottom: 20px;
+      line-height: 1;
+    }
+
+    &-old, &-rrp, &-wasWas, &-was, &-promotion {
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+    &--quickview {
+      font-size: $quickview-price-font-size;
+    }
+  }
+}

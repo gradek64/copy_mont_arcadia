@@ -1,0 +1,108 @@
+/** @define ProductQuickview; weak */
+
+.ProductQuickview {
+  text-align: center;
+  display: flex;
+
+  &-title {
+    font-size: 1.35em;
+    font-weight: normal;
+    margin: 20px 0 0;
+  }
+
+  &-description {
+    margin: 25px 0;
+    line-height: 1.8em;
+    text-align: left;
+  }
+
+  &-ratings {
+    display: $bundles-quickview-ratings-display;
+    margin-top: 20px;
+  }
+
+  &-ratingsImage {
+    margin-right: 5px;
+  }
+
+  &-left {
+    box-sizing: border-box;
+    margin-right: 40px;
+    padding: 10px 10px 0;
+    flex: 0 0 390px;
+  }
+
+  &-right {
+    flex: 1;
+  }
+
+  &-link {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: $quickview-link-text-transform;
+  }
+
+  &-productDescription {
+    text-align: left;
+    font-size: 13px;
+    display: $quickview-description-display;
+  }
+
+  &-sizeAndQuantity {
+    position: relative;
+    & .LowStock-container{
+      width: 100%;
+    }
+  }
+
+  &-secondaryButtonGroup {
+    display: flex;
+    margin-top: 30px;
+
+    & > .AddToBag {
+      flex: 1 1;
+    }
+  }
+
+  & .ProductVideo {
+    max-width: 370px;
+    height: 519px;
+    top: 30px;
+    left: 30px;
+  }
+
+  & .productVideoCTA {
+    margin-top: 27px;
+    margin-bottom: 0;
+  }
+
+  /* Overrides to give the quickview a consistent layout, i.e. one margin direction */
+  & .SwatchList,
+  & .ProductSizes {
+    margin-top: 20px;
+  }
+
+  & .HistoricalPrice {
+    margin-top: 10px;
+  }
+
+  & .SwatchList {
+    padding: 0;
+  }
+
+  & .ProductSizes {
+    &-list {
+      margin-bottom: 0;
+    }
+  }
+
+  & .ProductQuantity {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "cardCvv": 123,
+    "creditCard": {
+        "expiryYear": "2017",
+        "cardNumber": "0",
+        "type": "IDEAL",
+        "expiryMonth": "09"
+    },
+    "billingDetails": {
+        "address": {
+            "address1": "Test",
+            "address2": "Test",
+            "city": "Test",
+            "country": "Netherlands",
+            "postcode": "2595 AK"
+        },
+        "nameAndPhone": {
+            "title": "Mrs",
+            "firstName": "Connor",
+            "lastName": "Thompson",
+            "telephone": "07193940075"
+        }
+    }
+}

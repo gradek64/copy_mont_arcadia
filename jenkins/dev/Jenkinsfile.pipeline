@@ -1,0 +1,318 @@
+#!/usr/bin/env groovy
+
+@Library('devops_repo_shared_library')_
+
+
+def job_folder						= env.JOB_NAME.replaceAll(/\/monty\/.*$/, '')
+def eb_job_path						= "${EVENT_JOB_PATH}"
+def git								= null
+def monty_base_dir					= "."
+// ApplePay Certificate variables
+def apple_s3_bucket_name_certs		= "applepay-certificates"
+def apple_certs_container_path		= "${monty_base_dir}/applepay/certificates"
+def apple_s3_root_folder_certs		= "dev"
+// ApplePay Domain Validation file variables
+def apple_s3_bucket_name_domain		= "applepay-dev-domain-validation"
+def apple_dev_val_container_path	= "${monty_base_dir}/applepay/validation"
+def apple_s3_root_folder_domain		= "validation"
+def aws_apple_s3_creds_id			= "7c51aa96-d113-4a22-b8ba-cd2a1d3725e1"
+// E2E Test Parameters
+def e2e_params_brand				= "dorothyperkins"
+def e2e_params_env					= "local"
+def e2e_params_device				= "desktop"
+def e2e_params_region				= "uk"
+def e2e_params_wcs_env				= "tst1"
+// Functional Test parameters
+def func_params_wcs_env				= "tst1"
+def func_params_browser				= "electron"
+def func_params_tests				= "all_tests"
+// Clair Scanning variables
+def aws_ecr_creds_id				= "JenkinsSlaveDeploymentRole"
+def ecr_registry_id					= "623971903498"
+def aws_region						= "eu-west-1"
+// Branch Definition for the main trunk
+def main_trunk						= "develop"
+// Elastic Beanstalk environment to update when using main trunk
+def beanstalk_env					= "integration"
+// WCS Environment to use when deploying to Elastic Beanstalk for the main trunk
+def wcs_env_name					= "tst1"
+// Job Definitions in the Jenkins instance
+def job_sonarqube					= "SonarQube/full-monty-sonar-scan-github"
+def job_monty_deploy				= "Full Monty Development/full-monty CREATE"
+def job_test_base					= "Full Monty Test Packs"
+def job_tests_unit					= "${job_test_base}/Full Monty Tests - Unit"
+def job_tests_functional			= "${job_test_base}/full_monty_tests_functional"
+def job_tests_coreapi				= "${job_test_base}/Full Monty Tests - CoreAPI Integration"
+def job_tests_e2e					= "${job_test_base}/coz_e2e_multibranch"
+// The notify_teams boolean is dependent on the branch name being processed
+def notify_teams					= false
+def teams_notify_branches			= [
+										"develop",
+										"release/v"
+									]
+// Monty Release Channel in Teams
+def teams_channel         			= "https://outlook.office.com/webhook/f8ebebf5-afa7-4352-b000-7cbad85ec39c@ea282451-4346-4220-b853-044cad2c36c3/IncomingWebhook/e910a12d0631448ca4a9cf3b647e17c7/351cb1e7-1285-4868-baf6-db5634926cad"
+// Devops Integration Channel in Teams (for testing)
+// def teams_channel         = "https://outlook.office.com/webhook/45b80863-0bd6-4904-9437-fa7eaeb3c7e7@ea282451-4346-4220-b853-044cad2c36c3/IncomingWebhook/e3e9b347ccf345c9ac237c3e1688995c/d871ac88-7fa1-48de-b8c9-12e1c3649a70"
+
+
+
+pipeline {
+
+	agent {
+		label "spot"
+	}
+
+	options {
+		buildDiscarder(logRotator(daysToKeepStr: "31", artifactNumToKeepStr: "50"))
+		timestamps()
+		skipDefaultCheckout()
+		disableConcurrentBuilds()
+		durabilityHint "PERFORMANCE_OPTIMIZED"
+		ansiColor("xterm")
+	}
+
+	parameters {
+		booleanParam(name: "RUN_UNIT_TESTS", defaultValue: false, description: "run unit tests")
+		booleanParam(name: "RUN_INTEGRATION_TESTS", defaultValue: false, description: "run integration tests")
+		booleanParam(name: "RUN_FUNCTIONAL_TESTS", defaultValue: false, description: "run functional cypress tests")
+		booleanParam(name: "RUN_E2E_TESTS", defaultValue: false, description: "run end to end tests")
+	}
+
+	stages {
+
+		stage("Pre-Flight") {
+			steps {
+				script {
+					log.success(ssh_conn.get_ssh_conn())
+				}
+			}
+		}
+
+		stage("Checkout fflags and branch") {
+
+			steps {
+				githubNotify context: 'full-monty/pipeline_build',
+								description: 'Started full-monty pipeline job',
+								status: 'PENDING',
+								targetUrl: env.BUILD_URL
+				script {
+					git = checkout scm
+					// If the branch is in a PR state we don't want it tagged as PR-XXXX
+					if ("${env.CHANGE_ID}" != "null") {
+						git.GIT_BRANCH = "${env.CHANGE_BRANCH}"
+					}
+					log.marker("full-monty GIT=" + git)
+					// Checking to see if the checked out branch needs a Teams notification
+					for (notify_branch in teams_notify_branches) {
+						if (git.GIT_BRANCH.startsWith(notify_branch)) {
+							notify_teams = true
+						}
+					}
+					currentBuild.description = "full-monty: [${git.GIT_COMMIT}]"
+				}
+				sh "mkdir -p packages/monty-feature-flags"
+				dir("packages/monty-feature-flags") {
+					checkout resolveScm(source: [
+						$class: "GitSCMSource",
+						credentialsId: "feature-config-deployment",
+						remote: "git@github.com:ag-digital/monty-feature-flags.git",
+						traits: [
+							[$class: "jenkins.plugins.git.traits.BranchDiscoveryTrait"],
+							[$class: "jenkins.plugins.git.traits.TagDiscoveryTrait"]
+						]
+					], targets: [git.GIT_BRANCH, "${main_trunk}"])
+				}
+			}
+		}
+
+		stage("Build and push monty") {
+
+			environment {
+				BRANCH_NAME = "${git.GIT_BRANCH}"
+			}
+
+			steps {
+				script {
+					// Removing any existing ApplePay data in the filesystem before sync'ing with S3
+					sh "rm -rf ${apple_certs_container_path}"
+					sh "rm -rf ${apple_dev_val_container_path}"
+					// Fetching all ApplePay Certificates
+					sync_certs = aws_ag_s3.sync_bucket(apple_s3_bucket_name_certs,
+																apple_s3_root_folder_certs,
+																apple_certs_container_path,
+																aws_apple_s3_creds_id)
+					// Fetching all ApplePay Domain Validation Files
+					sync_domain_val = aws_ag_s3.sync_bucket(apple_s3_bucket_name_domain,
+																apple_s3_root_folder_domain,
+																apple_dev_val_container_path,
+																aws_apple_s3_creds_id)
+					// We should have a monty with feature flags all checked out by now
+					withCredentials([string(credentialsId: "npm-auth-token", variable: "NPM_TOKEN")]) {
+						withCredentials([[$class: "AmazonWebServicesCredentialsBinding", credentialsId: "${aws_ecr_creds_id}"]]) {
+							sh 'set +x; $(aws ecr get-login --no-include-email --region eu-west-1)'
+							sh "scripts/build_and_push_ecr.sh monty"
+						}
+					}
+				}
+			}
+		}
+
+		stage("Update EB environment") {
+
+			when {
+				anyOf {
+				  branch "${main_trunk}"
+				}
+			}
+
+			steps {
+				script {
+					// If we're building the test branch we'll also deploy to the test EB env
+					def actual_beanstalk_env
+					if (git.GIT_BRANCH == "${main_trunk}") {
+						actual_beanstalk_env = beanstalk_env
+					}
+
+					build job: "${job_monty_deploy}", wait: false,
+						parameters: [
+							string(name: 'EB_ENVIRONMENT_NAME', value: "${actual_beanstalk_env}"),
+							string(name: 'COMMIT_SHA_OR_BRANCH_NAME', value: git.GIT_COMMIT),
+							string(name: 'FEATURE_FLAG_BRANCH', value: "${main_trunk}"),
+							string(name: 'WCS_ENVIRONMENT', value: "${wcs_env_name}")
+						]
+				}
+			}
+		}
+
+		// unlike ECR build/push step, tests are not run on branch commits by default
+		// on the other hand, PRs will force all tests
+		stage("Parallel Tests") {
+			parallel {
+
+				stage("Clair Scan") {
+					steps {
+						catchError(buildResult: "SUCCESS", stageResult: "FAILURE", message: "CLAIR_SCAN_ISSUE") {
+							withCredentials([[$class: "AmazonWebServicesCredentialsBinding", credentialsId: "${aws_ecr_creds_id}"]]) {
+								script {
+									clair.scan("${ECR_URL}/monty:${git.GIT_COMMIT}", "${aws_region}", "${ecr_registry_id}", "${CLAIR_DYNAMODB_TABLE}")
+								}
+							}
+						}
+					}
+				}
+
+				stage("SonarQube Scanning") {
+					when {
+						changeRequest()
+					}
+					steps {
+						build job: "${job_sonarqube}",
+						wait: true, parameters: [ string(name: "ECR_TAG", value: git.GIT_COMMIT) ]
+					}
+				}
+
+				stage("Unit Tests") {
+					when {
+						anyOf {
+							branch "${main_trunk}"
+							changeRequest()
+							expression { params.RUN_UNIT_TESTS == true }
+						}
+						beforeAgent true
+					}
+					steps {
+						build job: "${job_tests_unit}/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+							wait: true, parameters: [ string(name: "ECR_TAG", value: git.GIT_COMMIT) ]
+					}
+				}
+
+				// stage("Functional Tests") {
+				// 	when {
+				// 		anyOf {
+				// 			branch "${main_trunk}"
+				// 			changeRequest()
+				// 			expression { params.RUN_FUNCTIONAL_TESTS == true }
+				//
+				// 		}
+				// 		beforeAgent true
+				// 	}
+				// 	steps {
+				// 		build job: "${job_tests_functional}/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+				// 			wait: true, parameters: [
+				// 				string(name: "WCS_ENVIRONMENT", value: "${func_params_wcs_env}"),
+				// 				string(name: "CYPRESS_BROWSER", value: "${func_params_browser}"),
+				// 				string(name: "RUN_TESTS", value: "${func_params_tests}"),
+				// 				string(name: "GIT_SHA", value: git.GIT_COMMIT)
+				// 			]
+				// 	}
+				// }
+
+				stage("CoreAPI Integration Tests") {
+					when {
+						anyOf {
+							branch "${main_trunk}"
+							changeRequest()
+							expression { params.RUN_INTEGRATION_TESTS == true }
+						}
+						beforeAgent true
+					}
+					steps {
+						build job: "${job_tests_coreapi}/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+							wait: true, parameters: [ string(name: "ECR_TAG", value: git.GIT_COMMIT) ]
+					}
+				}
+
+				stage("E2E tests") {
+					when {
+						anyOf {
+							branch "${main_trunk}"
+							changeRequest()
+							expression { params.RUN_E2E_TESTS == true }
+						}
+						beforeAgent true
+					}
+					steps {
+						build job: "${job_tests_e2e}/${env.BRANCH_NAME.replaceAll('/', '%2F')}",
+							wait: true, parameters: [
+								string(name: "BRAND", value: "${e2e_params_brand}"),
+								string(name: "ENVIRONMENT", value: "${e2e_params_env}"),
+								string(name: "DEVICE", value: "${e2e_params_device}"),
+								string(name: "REGION", value: "${e2e_params_region}"),
+								string(name: "WCS_ENVIRONMENT", value: "${e2e_params_wcs_env}")
+							]
+					}
+				}
+			}
+		}
+	}
+	post {
+		success {
+			githubNotify context: "full-monty/pipeline_build", description: "Finished full-monty pipeline job",
+				status: "SUCCESS", targetUrl: env.BUILD_URL
+			// Notifying Event Bus
+			build job: eb_job_path, wait: false,
+				parameters: [
+					string(name: "BUILD_URL_IN", value: "${BUILD_URL}"),
+					string(name: "JOB_STAGE", value: "finish")
+				]
+		}
+		failure {
+			githubNotify context: "full-monty/pipeline_build", description: "Failed full-monty pipeline job",
+				status: "FAILURE", targetUrl: env.BUILD_URL
+			// Notifying Event Bus
+			build job: eb_job_path, wait: false,
+				parameters: [
+					string(name: "BUILD_URL_IN", value: "${BUILD_URL}"),
+					string(name: "JOB_STAGE", value: "fail")
+				]
+			// Notify Teams channel (if selected)
+			script {
+				if (notify_teams) {
+					def teams_msg = "Monty Pipeline job for ${git.GIT_BRANCH} failed"
+					office365ConnectorSend color: "CC0000", message: "${teams_msg}", status: "failure", webhookUrl: "${teams_channel}"
+				}
+			}
+		}
+	}
+}

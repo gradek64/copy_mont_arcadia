@@ -1,0 +1,1211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailsForm /> @renders in default state 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--home"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with a h4 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--home"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h4
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with a label 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--home"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    >
+      Your Delivery Details
+    </h3>
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with a type 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--home"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with errors 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--home"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={
+        Object {
+          "firstName": "An email address is required.",
+          "lastName": "A password is required.",
+        }
+      }
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with home delivery 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--home"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with home delivery in billing 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--billing "
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with parcel delivery 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--parcelshop"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with parcel delivery in billing 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--billing "
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with store delivery 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--delivery DetailsForm--store"
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<DetailsForm /> @renders with store delivery in billing 1`] = `
+<section
+  aria-label="Delivery Details"
+  className="DetailsForm DetailsForm--billing "
+>
+  <header
+    className="DetailsForm-header"
+  >
+    <h3
+      className="DetailsForm-headerText"
+    />
+  </header>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Select)
+      autofocus={true}
+      className="DetailsForm-title left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Mr",
+        }
+      }
+      firstDisabled="Please select"
+      isRequired={true}
+      label="Title"
+      name="title"
+      onChange={[Function]}
+      options={
+        Array [
+          "Mr",
+          "Mrs",
+          "Ms",
+          "Miss",
+          "Dr",
+        ]
+      }
+      value="Mr"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="DetailsForm-row"
+  >
+    <Connect(Input)
+      className="DetailsForm-firstName left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "John",
+        }
+      }
+      isRequired={true}
+      label="First Name"
+      name="firstName"
+      placeholder="First Name"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+    <Connect(Input)
+      className="DetailsForm-lastName right-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "Smith",
+        }
+      }
+      isRequired={true}
+      label="Surname"
+      name="lastName"
+      placeholder="Surname"
+      setField={[Function]}
+      touchedField={[Function]}
+    />
+  </div>
+  <div
+    className="DetailsForm-row DetailsForm-telephoneRow"
+  >
+    <Connect(Input)
+      className="DetailsForm-telephone left-col-margin"
+      errors={Object {}}
+      field={
+        Object {
+          "value": "07123123123",
+        }
+      }
+      isRequired={true}
+      label="Primary Phone Number"
+      name="telephone"
+      placeholder="07123 123123"
+      setField={[Function]}
+      touchedField={[Function]}
+      type="tel"
+    />
+    <div
+      className="DetailsForm-col right-col-margin"
+    >
+       
+    </div>
+  </div>
+</section>
+`;

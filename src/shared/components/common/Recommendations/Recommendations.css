@@ -1,0 +1,7 @@
+/** @define Recommendations; weak */
+
+.Recommendations {
+  &-header {
+    text-transform: $recommendations-header-text-transform;
+  }
+}

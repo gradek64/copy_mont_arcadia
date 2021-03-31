@@ -1,0 +1,156 @@
+/** @define Header; weak */
+
+.Header {
+  position: relative;
+  width: 100%;
+  height: $header-height;
+  z-index: 2;
+  background-color: $header-background;
+  overflow: hidden;
+  border-bottom: $header-border-bottom;
+  &-container {
+    top: 0;
+    position: relative;
+    z-index: 0;
+    /* postcss-bem-linter: ignore */
+    &.is-stickyMobile {
+       position: sticky;
+       z-index: 2;
+       width: 100%!important;
+       opacity: 1;
+      /* postcss-bem-linter: ignore */
+        &.is-refinements-open{
+           z-index: 0;
+           opacity: 0;
+           transition: opacity 0.3s ease-in-out;
+         }
+     }
+    &.is-sticky {
+      z-index: 3;
+    }
+    transition: z-index 0s linear 0.4s;
+  }
+  &.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  &-left {
+    float: left;
+    display: block;
+    position: relative;
+    height: 100%;
+    padding: 0 $header-padding-horizontal;
+  }
+  &-right {
+    float: right;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    & button {
+      height: 100%;
+      padding: 0 $header-padding-horizontal;
+    }
+  }
+  &-center {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 44%;
+    left: 28%;
+    text-align: center;
+    & button {
+      height: 100%;
+    }
+  }
+  &-brandLogo {
+    position: relative;
+    height: $header-logo-height;
+  }
+  &-burgerButtonContainer {
+    display: inline-block;
+    height: 100%;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-left: $header-burger-button-padding-left;
+  }
+  &-shoppingCartBadgeIcon {
+    position: absolute;
+    background: $header-badge-icon-background;
+    right: $header-badge-icon-right;
+    top: $header-badge-icon-top;
+    min-width: $header-badge-icon-min-width;
+    width: $header-badge-icon-width;
+    color: $header-badge-icon-font-color;
+    text-align: center;
+    border-radius: $header-badge-icon-border-radius;
+    font-size: $header-badge-icon-font-size;
+    line-height: $header-badge-icon-line-height;
+    font-family: $header-badge-icon-font-family;
+  }
+  &-shoppingCartIconbutton {
+    position: relative;
+    margin-right: $header-cart-button-margin-right;
+  }
+  &-shoppingCartIcon {
+    position: relative;
+    height: $header-cart-icon-height;
+    margin-top: $header-cart-icon-margin-top;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: $shopping-cart-icon-active;
+    width: $header-cart-icon-width;
+    
+    /* bem-linter-ignore */
+    &.is-empty+.Header-shoppingCartBadgeIcon {
+      display: $header-badge-icon-empty-display;
+      background-image: $shopping-cart-icon;
+    }
+  }
+  &-searchIcon {
+    position: relative;
+    height: $header-search-icon-height;
+    margin-top: $header-search-icon-margin-top;
+  }
+}
+
+@media $min-tablet {
+  .Header {
+    height: $header-height-min-tablet;
+
+    &:not(.is-forceDisplay) {
+      display: none;
+    }
+    &.is-checkoutBig {
+      display: block;
+    }
+    &-brandLogo {
+      height: $header-logo-height-min-tablet;
+    }
+    &-continueShopping {
+      margin-top: $checkout-continue-shopping-margin-top-min-tablet;
+      margin-right: $checkout-continue-shopping-margin-right;
+    }
+  }
+}
+
+@media $min-laptop {
+  .Header {
+    &.is-checkoutBig {
+      display: block;
+      height: $header-height-min-laptop;
+    }
+    &-brandLogo {
+      height: $header-logo-height-min-laptop;
+    }
+    &-continueShopping {
+      margin-top: $checkout-continue-shopping-margin-top-min-laptop;
+    }
+    &-container > .SearchBar {
+      display: none;
+    }
+  }
+}

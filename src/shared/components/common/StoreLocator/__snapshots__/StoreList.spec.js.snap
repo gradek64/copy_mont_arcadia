@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreList/> @renders in default state 1`] = `
+<div
+  className="-listContainer"
+>
+  <div
+    className="-overflowContainer"
+  >
+    <div
+      className="-storeList"
+    >
+      <Connect(Store)
+        key="123"
+        onCFSIClick={[Function]}
+        onHeaderClick={[MockFunction]}
+        onSelectClick={[Function]}
+        parentElementRef={[Function]}
+        selected={true}
+        storeDetails={
+          Object {
+            "address": Object {
+              "city": "Greater London",
+              "line1": "214 Oxford Street",
+              "line2": "Oxford Circus",
+              "postcode": "W1W 8LG",
+            },
+            "brandName": "Topshop",
+            "distance": "0.82",
+            "latitude": "51.5157",
+            "longitude": "-0.141396",
+            "name": "Megastore",
+            "openingHours": Object {
+              "friday": "10:00-21:00",
+              "monday": "10:00-21:00",
+              "saturday": "11:00-21:00",
+              "sunday": "12:00-18:00",
+              "thursday": "10:00-21:00",
+              "tuesday": "10:00-21:00",
+              "wednesday": "10:00-21:00",
+            },
+            "stock": 8,
+            "storeId": "123",
+            "telephoneNumber": "03448 487487",
+          }
+        }
+      />
+      <Connect(Store)
+        key="123"
+        onCFSIClick={[Function]}
+        onHeaderClick={[Function]}
+        onSelectClick={[Function]}
+        parentElementRef={[Function]}
+        selected={false}
+        storeDetails={
+          Object {
+            "address": Object {
+              "city": "Greater London",
+              "line1": "214 Oxford Street",
+              "line2": "Oxford Circus",
+              "postcode": "W1W 8LG",
+            },
+            "brandName": "Topshop",
+            "distance": "0.82",
+            "latitude": "51.5157",
+            "longitude": "-0.141396",
+            "name": "Megastore",
+            "openingHours": Object {
+              "friday": "10:00-21:00",
+              "monday": "10:00-21:00",
+              "saturday": "11:00-21:00",
+              "sunday": "12:00-18:00",
+              "thursday": "10:00-21:00",
+              "tuesday": "10:00-21:00",
+              "wednesday": "10:00-21:00",
+            },
+            "stock": 8,
+            "storeId": "123",
+            "telephoneNumber": "03448 487487",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<StoreList/> @renders with brandName 1`] = `
+<div
+  className="-listContainer"
+>
+  <div
+    className="-overflowContainer"
+  >
+    <div
+      className="-storeList"
+    >
+      <Connect(Store)
+        brandName="Topshop"
+        key="123"
+        onCFSIClick={[Function]}
+        onHeaderClick={[MockFunction]}
+        onSelectClick={[Function]}
+        parentElementRef={[Function]}
+        selected={true}
+        storeDetails={
+          Object {
+            "address": Object {
+              "city": "Greater London",
+              "line1": "214 Oxford Street",
+              "line2": "Oxford Circus",
+              "postcode": "W1W 8LG",
+            },
+            "brandName": "Topshop",
+            "distance": "0.82",
+            "latitude": "51.5157",
+            "longitude": "-0.141396",
+            "name": "Megastore",
+            "openingHours": Object {
+              "friday": "10:00-21:00",
+              "monday": "10:00-21:00",
+              "saturday": "11:00-21:00",
+              "sunday": "12:00-18:00",
+              "thursday": "10:00-21:00",
+              "tuesday": "10:00-21:00",
+              "wednesday": "10:00-21:00",
+            },
+            "stock": 8,
+            "storeId": "123",
+            "telephoneNumber": "03448 487487",
+          }
+        }
+      />
+      <Connect(Store)
+        brandName="Topshop"
+        key="123"
+        onCFSIClick={[Function]}
+        onHeaderClick={[Function]}
+        onSelectClick={[Function]}
+        parentElementRef={[Function]}
+        selected={false}
+        storeDetails={
+          Object {
+            "address": Object {
+              "city": "Greater London",
+              "line1": "214 Oxford Street",
+              "line2": "Oxford Circus",
+              "postcode": "W1W 8LG",
+            },
+            "brandName": "Topshop",
+            "distance": "0.82",
+            "latitude": "51.5157",
+            "longitude": "-0.141396",
+            "name": "Megastore",
+            "openingHours": Object {
+              "friday": "10:00-21:00",
+              "monday": "10:00-21:00",
+              "saturday": "11:00-21:00",
+              "sunday": "12:00-18:00",
+              "thursday": "10:00-21:00",
+              "tuesday": "10:00-21:00",
+              "wednesday": "10:00-21:00",
+            },
+            "stock": 8,
+            "storeId": "123",
+            "telephoneNumber": "03448 487487",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<StoreList/> @renders with hasFilters=true 1`] = `
+<div
+  className="-listContainer"
+>
+  <div
+    className="-filters"
+  >
+    <Connect(StoreLocatorFilters)
+      applyOnChange={true}
+      onApply={[MockFunction]}
+    />
+  </div>
+  <div
+    className="-overflowContainer"
+  >
+    <div
+      className="-storeList"
+    >
+      <Connect(Store)
+        key="123"
+        onCFSIClick={[Function]}
+        onHeaderClick={[MockFunction]}
+        onSelectClick={[Function]}
+        parentElementRef={[Function]}
+        selected={true}
+        storeDetails={
+          Object {
+            "address": Object {
+              "city": "Greater London",
+              "line1": "214 Oxford Street",
+              "line2": "Oxford Circus",
+              "postcode": "W1W 8LG",
+            },
+            "brandName": "Topshop",
+            "distance": "0.82",
+            "latitude": "51.5157",
+            "longitude": "-0.141396",
+            "name": "Megastore",
+            "openingHours": Object {
+              "friday": "10:00-21:00",
+              "monday": "10:00-21:00",
+              "saturday": "11:00-21:00",
+              "sunday": "12:00-18:00",
+              "thursday": "10:00-21:00",
+              "tuesday": "10:00-21:00",
+              "wednesday": "10:00-21:00",
+            },
+            "stock": 8,
+            "storeId": "123",
+            "telephoneNumber": "03448 487487",
+          }
+        }
+      />
+      <Connect(Store)
+        key="123"
+        onCFSIClick={[Function]}
+        onHeaderClick={[Function]}
+        onSelectClick={[Function]}
+        parentElementRef={[Function]}
+        selected={false}
+        storeDetails={
+          Object {
+            "address": Object {
+              "city": "Greater London",
+              "line1": "214 Oxford Street",
+              "line2": "Oxford Circus",
+              "postcode": "W1W 8LG",
+            },
+            "brandName": "Topshop",
+            "distance": "0.82",
+            "latitude": "51.5157",
+            "longitude": "-0.141396",
+            "name": "Megastore",
+            "openingHours": Object {
+              "friday": "10:00-21:00",
+              "monday": "10:00-21:00",
+              "saturday": "11:00-21:00",
+              "sunday": "12:00-18:00",
+              "thursday": "10:00-21:00",
+              "tuesday": "10:00-21:00",
+              "wednesday": "10:00-21:00",
+            },
+            "stock": 8,
+            "storeId": "123",
+            "telephoneNumber": "03448 487487",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

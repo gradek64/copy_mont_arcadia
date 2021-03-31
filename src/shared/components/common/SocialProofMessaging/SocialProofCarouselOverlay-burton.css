@@ -1,0 +1,51 @@
+/** @define SocialProofCarouselOverlay */
+
+.SocialProofCarouselOverlay {
+  background: rgba(33, 151, 220, 0.75);
+  width: 70%;
+  text-align: center;
+  bottom: 48.5%;
+
+  &-container {
+    width: 100%;
+    padding: 13px 3px 13px;
+    display: inline-block;
+  }
+
+  &-title,
+  &-text,
+  &-close {
+    color: #ffffff;
+    line-height: 1.1;
+  }
+
+  &-title {
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    padding: 0 0 5px 0;
+    text-transform: none;
+  }
+
+
+  &-text {
+    font-size: 13px;
+    padding: 5px 0 0 0;
+  }
+
+  &-close {
+    display: none;
+  }
+
+}
+
+@media $min-tablet {
+  .SocialProofCarouselOverlay {
+    width: 65%;
+  }
+}
+
+@media $min-laptop {
+  .SocialProofCarouselOverlay {
+    width: 50%;
+  }
+}

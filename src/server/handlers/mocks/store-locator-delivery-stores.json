@@ -1,0 +1,213 @@
+[{
+    "storeId": "TM8137",
+    "brandPrimaryEStoreId": 12555,
+    "name": "Strand",
+    "distance": 0.25,
+    "latitude": 51.509599,
+    "longitude": -0.123095,
+    "brandName": "Topman",
+    "address": {
+        "line1": "c/o Top Shop, 60/64 The Strand",
+        "line2": "",
+        "city": "Strand",
+        "postcode": "WC2N 5LR",
+        "country": "United Kingdom"
+    },
+    "openingHours": {
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "09:00-20:00",
+        "thursday": "09:00-20:00",
+        "friday": "09:00-20:00",
+        "saturday": "09:00-20:00",
+        "sunday": "12:00-18:00"
+    },
+    "telephoneNumber": "020 7839 4144",
+    "collectFromStore": {
+        "standard": {
+            "dates": [{
+                "availableUntil": "2017-04-25 11:30:00",
+                "collectFrom": "2017-04-28"
+            }, {
+                "availableUntil": "2017-04-26 11:30:00",
+                "collectFrom": "2017-04-29"
+            }, {
+                "availableUntil": "2017-04-28 11:30:00",
+                "collectFrom": "2017-05-02"
+            }],
+            "price": 0
+        },
+        "express": {
+            "dates": [{
+                "availableUntil": "2017-04-25 20:30:00",
+                "collectFrom": "2017-04-26"
+            }, {
+                "availableUntil": "2017-04-26 20:30:00",
+                "collectFrom": "2017-04-27"
+            }, {
+                "availableUntil": "2017-04-27 20:30:00",
+                "collectFrom": "2017-04-28"
+            }],
+            "price": 3
+        }
+    }
+}, {
+    "storeId": "TS0032",
+    "brandPrimaryEStoreId": 12556,
+    "name": "Strand",
+    "distance": 0.25,
+    "latitude": 51.509599,
+    "longitude": -0.123069,
+    "brandName": "Topshop",
+    "address": {
+        "line1": "60/64 The Strand",
+        "line2": "",
+        "city": "Strand",
+        "postcode": "WC2N 5LR",
+        "country": "United Kingdom"
+    },
+    "openingHours": {
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "09:00-20:00",
+        "thursday": "09:00-20:00",
+        "friday": "09:00-20:00",
+        "saturday": "09:00-20:00",
+        "sunday": "12:00-18:00"
+    },
+    "telephoneNumber": "020 7839 4144",
+    "collectFromStore": {
+        "standard": {
+            "dates": [{
+                "availableUntil": "2017-04-25 11:30:00",
+                "collectFrom": "2017-04-28"
+            }, {
+                "availableUntil": "2017-04-26 11:30:00",
+                "collectFrom": "2017-04-29"
+            }, {
+                "availableUntil": "2017-04-28 11:30:00",
+                "collectFrom": "2017-05-02"
+            }],
+            "price": 0
+        },
+        "express": {
+            "dates": [{
+                "availableUntil": "2017-04-25 20:30:00",
+                "collectFrom": "2017-04-26"
+            }, {
+                "availableUntil": "2017-04-26 20:30:00",
+                "collectFrom": "2017-04-27"
+            }, {
+                "availableUntil": "2017-04-27 20:30:00",
+                "collectFrom": "2017-04-28"
+            }],
+            "price": 3
+        }
+    }
+}, {
+    "storeId": "TS0001",
+    "brandPrimaryEStoreId": 12556,
+    "name": "Oxford Circus",
+    "distance": 0.82,
+    "latitude": 51.5157,
+    "longitude": -0.141396,
+    "brandName": "Topshop",
+    "address": {
+        "line1": "214 Oxford Street",
+        "line2": "Oxford Circus",
+        "city": "West End",
+        "postcode": "W1W 8LG",
+        "country": "United Kingdom"
+    },
+    "openingHours": {
+        "monday": "09:30-21:00",
+        "tuesday": "09:30-21:00",
+        "wednesday": "09:30-21:00",
+        "thursday": "09:30-21:00",
+        "friday": "09:30-22:00",
+        "saturday": "09:00-21:00",
+        "sunday": "11:30-18:00"
+    },
+    "telephoneNumber": "03448 487487",
+    "collectFromStore": {
+        "standard": {
+            "dates": [{
+                "availableUntil": "2017-04-25 11:30:00",
+                "collectFrom": "2017-04-28"
+            }, {
+                "availableUntil": "2017-04-26 11:30:00",
+                "collectFrom": "2017-04-29"
+            }, {
+                "availableUntil": "2017-04-27 11:30:00",
+                "collectFrom": "2017-04-30"
+            }],
+            "price": 0
+        },
+        "express": {
+            "dates": [{
+                "availableUntil": "2017-04-25 20:30:00",
+                "collectFrom": "2017-04-26"
+            }, {
+                "availableUntil": "2017-04-26 20:30:00",
+                "collectFrom": "2017-04-27"
+            }, {
+                "availableUntil": "2017-04-27 20:30:00",
+                "collectFrom": "2017-04-28"
+            }],
+            "price": 3
+        }
+    }
+}, {
+    "storeId": "TS0755",
+    "brandPrimaryEStoreId": 12556,
+    "name": "Victoria Cardinal Place",
+    "distance": 0.88,
+    "latitude": 51.497252,
+    "longitude": -0.140043,
+    "brandName": "Topshop",
+    "address": {
+        "line1": "Unit 18 Cardinal Place",
+        "line2": "Victoria Street",
+        "city": "London",
+        "postcode": "SW1E 5JL",
+        "country": "United Kingdom"
+    },
+    "openingHours": {
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "09:00-20:00",
+        "thursday": "09:00-20:00",
+        "friday": "09:00-20:00",
+        "saturday": "10:00-19:00",
+        "sunday": "11:00-17:00"
+    },
+    "telephoneNumber": "020 7828 6139",
+    "collectFromStore": {
+        "standard": {
+            "dates": [{
+                "availableUntil": "2017-04-26 11:30:00",
+                "collectFrom": "2017-04-29"
+            }, {
+                "availableUntil": "2017-04-28 11:30:00",
+                "collectFrom": "2017-05-02"
+            }, {
+                "availableUntil": "2017-05-01 11:30:00",
+                "collectFrom": "2017-05-04"
+            }],
+            "price": 0
+        },
+        "express": {
+            "dates": [{
+                "availableUntil": "2017-04-25 20:30:00",
+                "collectFrom": "2017-04-26"
+            }, {
+                "availableUntil": "2017-04-26 20:30:00",
+                "collectFrom": "2017-04-27"
+            }, {
+                "availableUntil": "2017-04-27 20:30:00",
+                "collectFrom": "2017-04-28"
+            }],
+            "price": 3
+        }
+    }
+}]

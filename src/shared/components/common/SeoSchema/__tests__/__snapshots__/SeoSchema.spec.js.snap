@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SeoSchema /> @renders should render \`breadcrumbListSchema\` if \`type\` is \`BreadcrumbList\` 1`] = `
+<script
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "{\\"@type\\":\\"BreadcrumbList\\"}",
+    }
+  }
+  type="application/ld+json"
+/>
+`;
+
+exports[`<SeoSchema /> @renders should render \`productSchema\` if \`type\` is \`Product\` 1`] = `
+<script
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "{\\"@type\\":\\"Product\\"}",
+    }
+  }
+  type="application/ld+json"
+/>
+`;
+
+exports[`<SeoSchema /> @renders should render \`storeSchema\` if \`type\` is \`Store\` 1`] = `
+<script
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "{\\"@type\\":\\"ClothingStore\\"}",
+    }
+  }
+  type="application/ld+json"
+/>
+`;

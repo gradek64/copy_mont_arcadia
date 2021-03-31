@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DDPTCModal /> Mounted renders 1`] = `
+<DDPTCModal>
+  <div
+    data-espot="ddp_terms_and_conditions"
+  >
+    <Connect(Espot)
+      identifier="ddp_terms_and_conditions"
+      isResponsive={true}
+    >
+      <Espot
+        customClassName=""
+        identifier="ddp_terms_and_conditions"
+        isMobile={true}
+        isResponsive={true}
+        qubitid={null}
+        responsiveCMSUrl="test-t-and-c/Url"
+      >
+        <Connect(SandBox)
+          contentType="espot"
+          isFinalResponsiveEspotSolution={true}
+          location={
+            Object {
+              "pathname": "test-t-and-c/Url",
+            }
+          }
+          qubitid={null}
+          sandBoxClassName=""
+          shouldGetContentOnFirstLoad={true}
+        >
+          <SandBox
+            cmsPageName={null}
+            contentType="espot"
+            forceMobile={false}
+            getContent={[Function]}
+            getHomePageContent={[Function]}
+            getSegmentedContent={[Function]}
+            hideTacticalMessage={[Function]}
+            isFinalResponsiveEspotSolution={true}
+            isMobile={true}
+            isResponsiveCatHeader={false}
+            lazyLoad={false}
+            location={
+              Object {
+                "pathname": "test-t-and-c%2FUrl",
+                "search": undefined,
+              }
+            }
+            pages={Object {}}
+            qubitid={null}
+            removeContent={[Function]}
+            resetContent={[Function]}
+            sandBoxClassName=""
+            segmentationRequestData={null}
+            setContent={[Function]}
+            setFormDefaultSchema={[Function]}
+            setPageStatusCode={[Function]}
+            shouldGetContentOnFirstLoad={true}
+            showTacticalMessage={[Function]}
+            visited={Array []}
+          />
+        </Connect(SandBox)>
+      </Espot>
+    </Connect(Espot)>
+  </div>
+</DDPTCModal>
+`;

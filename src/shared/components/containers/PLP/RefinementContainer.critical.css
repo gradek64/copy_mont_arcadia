@@ -1,0 +1,62 @@
+/** @define RefinementContainer */
+
+.RefinementContainer {
+  display: none;
+  width: $plp-refinementContainer-width;
+  margin-right: $plp-refinementContainer-margin-right;
+  margin-left: $plp-refinementContainer-margin-left;
+
+  &.is-stickyHeader &-refinementListContainer--fixed {
+    top: 50px;
+  }
+  &-refinementListContainer {
+    display: none;
+    flex: 0 0 $plp-refinementListContainer-width;
+    overflow: hidden;
+    position: initial;
+    width: $plp-refinementListContainer-width;
+    padding-right: $plp-refinementListContainer-padding-right;
+
+    &--fixed {
+      width: $plp-refinementListContainerFixed-width;
+      position: fixed;
+      left: auto;
+      top: 0;
+      bottom: 0;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding-right: $plp-refinementListContainerFixed-padding-right;
+
+      &::-webkit-scrollbar-thumb {
+        background-color: $scrollbar-thumb-background-color;
+        border-radius: $scrollbar-border-radius;
+      }
+
+      &::-webkit-scrollbar {
+        width: $scrollbar-width;
+        display: block;
+        background-color: $scrollbar-background-color;
+        border-radius: $scrollbar-border-radius;
+      }
+    }
+  }
+
+  &-title {
+    margin: $plp-refinementContainer-title-margin;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.RefinementContainer .MontyVisualIndicator {
+  margin: 40px 0 40px;
+}
+
+@media $min-tablet {
+  .RefinementContainer {
+    display: block;
+
+    &-refinementListContainer {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+/** @define TopNavMenuBig */
+
+.TopNavMenuBig {
+  display: none;
+  background-color: $topnavmenu-big-background-color;
+  color: $topnavmenu-big-font-color;
+  width: 100%;
+
+  &-categories {
+    display: flex;
+    align-items: center;
+    justify-content: $topnavmenu-big-justify-content;
+    max-width: $laptop-end-width;
+    margin: 0 auto;
+  }
+
+  &-category {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: $topnavmenu-big-font-size;
+    padding: $topnavmenu-big-padding;
+  }
+}
+
+@media $min-tablet {
+  .TopNavMenuBig {
+    display: block;
+  }
+}

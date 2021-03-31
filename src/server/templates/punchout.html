@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="{{{lang}}}">
+  <head>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.parent.postMessage({
+        punchout: true,
+        nextUrl: '{{{nextUrl}}}',
+      }, window.parent.location.origin)
+    </script>
+  </body>
+</html>

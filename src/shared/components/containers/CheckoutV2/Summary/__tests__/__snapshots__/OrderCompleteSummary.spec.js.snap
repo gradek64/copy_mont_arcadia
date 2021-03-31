@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderCompleteSummary /> @render Guest Checkout should not render the registration form if it is a guest order with a registered email 1`] = `
+<section
+  className="OrderCompleteSummary"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Your Order is Complete"
+  />
+  <div
+    className="OrderCompleteSummary-success"
+  >
+    <div
+      className="OrderCompleteSummary-container"
+    >
+      <div
+        className="OrderCompleteSummary-left"
+      >
+        <OrderCompleteDelivery
+          brandName="topshop"
+          ddpDefaultName="Topshop Premier"
+          deliveryDate="Wednesday 10 June 2020"
+          isCollectFromOrder={false}
+          isDDPOrderCompleted={false}
+          isDDPStandaloneOrderCompleted={false}
+          logoVersion="19102018"
+          minLaptop={true}
+          orderCompleted={
+            Object {
+              "deliveryCost": "4.00",
+              "deliveryPrice": "4.01",
+              "isGuestOrder": true,
+              "isRegisteredEmail": true,
+              "orderId": 3464614,
+              "paymentDetails": Array [
+                Object {
+                  "cardNumberStar": "************1111",
+                  "paymentMethod": "Visa",
+                  "selectedPaymentMethod": "VISA",
+                  "totalCost": "£30.00",
+                  "totalCostAfterDiscount": "£10.00",
+                },
+              ],
+              "subTotal": "33.00",
+            }
+          }
+          stores={Array []}
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot1"
+        />
+        <PaymentSummary
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1111",
+                "isCardType": true,
+                "method": "Visa",
+                "price": "30.00",
+                "priceAfterDiscount": "10.00",
+                "type": "VISA",
+              },
+            ]
+          }
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot2"
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot3"
+        />
+      </div>
+      <OrderCompleteBasket
+        discountInfo={Array []}
+        isDDPStandaloneOrderCompleted={false}
+        isMobile={false}
+        orderCompleted={
+          Object {
+            "deliveryCost": "4.00",
+            "deliveryPrice": "4.01",
+            "isGuestOrder": true,
+            "isRegisteredEmail": true,
+            "orderId": 3464614,
+            "paymentDetails": Array [
+              Object {
+                "cardNumberStar": "************1111",
+                "paymentMethod": "Visa",
+                "selectedPaymentMethod": "VISA",
+                "totalCost": "£30.00",
+                "totalCostAfterDiscount": "£10.00",
+              },
+            ],
+            "subTotal": "33.00",
+          }
+        }
+        orderSubtotal="33.00"
+      />
+    </div>
+    <OrderCompleteButton
+      buttonClickHandler={[MockFunction]}
+      isDiscoverMoreEnabled={true}
+      orderCompleted={
+        Object {
+          "deliveryCost": "4.00",
+          "deliveryPrice": "4.01",
+          "isGuestOrder": true,
+          "isRegisteredEmail": true,
+          "orderId": 3464614,
+          "paymentDetails": Array [
+            Object {
+              "cardNumberStar": "************1111",
+              "paymentMethod": "Visa",
+              "selectedPaymentMethod": "VISA",
+              "totalCost": "£30.00",
+              "totalCostAfterDiscount": "£10.00",
+            },
+          ],
+          "subTotal": "33.00",
+        }
+      }
+      orderError={false}
+    />
+  </div>
+</section>
+`;
+
+exports[`<OrderCompleteSummary /> @render Guest Checkout should render the registration form if it is a guest order with a non-registered email 1`] = `
+<section
+  className="OrderCompleteSummary"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Your Order is Complete"
+  />
+  <div
+    className="OrderCompleteSummary-success"
+  >
+    <div
+      className="OrderCompleteSummary-container"
+    >
+      <div
+        className="OrderCompleteSummary-left"
+      >
+        <OrderCompleteDelivery
+          brandName="topshop"
+          ddpDefaultName="Topshop Premier"
+          deliveryDate="Wednesday 10 June 2020"
+          isCollectFromOrder={false}
+          isDDPOrderCompleted={false}
+          isDDPStandaloneOrderCompleted={false}
+          logoVersion="19102018"
+          minLaptop={true}
+          orderCompleted={
+            Object {
+              "deliveryCost": "4.00",
+              "deliveryPrice": "4.01",
+              "isGuestOrder": true,
+              "isRegisteredEmail": false,
+              "orderId": 3464614,
+              "paymentDetails": Array [
+                Object {
+                  "cardNumberStar": "************1111",
+                  "paymentMethod": "Visa",
+                  "selectedPaymentMethod": "VISA",
+                  "totalCost": "£30.00",
+                  "totalCostAfterDiscount": "£10.00",
+                },
+              ],
+              "subTotal": "33.00",
+            }
+          }
+          stores={Array []}
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot1"
+        />
+        <GuestRegisterForm
+          l={
+            [MockFunction] {
+              "calls": Array [
+                Array [
+                  Array [
+                    "Your Order is Complete",
+                  ],
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": "Your Order is Complete",
+                },
+              ],
+            }
+          }
+        />
+        <PaymentSummary
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1111",
+                "isCardType": true,
+                "method": "Visa",
+                "price": "30.00",
+                "priceAfterDiscount": "10.00",
+                "type": "VISA",
+              },
+            ]
+          }
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot2"
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot3"
+        />
+      </div>
+      <OrderCompleteBasket
+        discountInfo={Array []}
+        isDDPStandaloneOrderCompleted={false}
+        isMobile={false}
+        orderCompleted={
+          Object {
+            "deliveryCost": "4.00",
+            "deliveryPrice": "4.01",
+            "isGuestOrder": true,
+            "isRegisteredEmail": false,
+            "orderId": 3464614,
+            "paymentDetails": Array [
+              Object {
+                "cardNumberStar": "************1111",
+                "paymentMethod": "Visa",
+                "selectedPaymentMethod": "VISA",
+                "totalCost": "£30.00",
+                "totalCostAfterDiscount": "£10.00",
+              },
+            ],
+            "subTotal": "33.00",
+          }
+        }
+        orderSubtotal="33.00"
+      />
+    </div>
+    <OrderCompleteButton
+      buttonClickHandler={[MockFunction]}
+      isDiscoverMoreEnabled={true}
+      orderCompleted={
+        Object {
+          "deliveryCost": "4.00",
+          "deliveryPrice": "4.01",
+          "isGuestOrder": true,
+          "isRegisteredEmail": false,
+          "orderId": 3464614,
+          "paymentDetails": Array [
+            Object {
+              "cardNumberStar": "************1111",
+              "paymentMethod": "Visa",
+              "selectedPaymentMethod": "VISA",
+              "totalCost": "£30.00",
+              "totalCostAfterDiscount": "£10.00",
+            },
+          ],
+          "subTotal": "33.00",
+        }
+      }
+      orderError={false}
+    />
+  </div>
+</section>
+`;
+
+exports[`<OrderCompleteSummary /> @render Order has error should render title only 1`] = `
+<section
+  className="OrderCompleteSummary"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Your Order is Complete"
+  />
+</section>
+`;
+
+exports[`<OrderCompleteSummary /> @render Order is complete with no errors default 1`] = `
+<section
+  className="OrderCompleteSummary"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Your Order is Complete"
+  />
+  <div
+    className="OrderCompleteSummary-success"
+  >
+    <div
+      className="OrderCompleteSummary-container"
+    >
+      <div
+        className="OrderCompleteSummary-left"
+      >
+        <OrderCompleteDelivery
+          brandName="topshop"
+          ddpDefaultName="Topshop Premier"
+          deliveryDate="Wednesday 10 June 2020"
+          isCollectFromOrder={false}
+          isDDPOrderCompleted={false}
+          isDDPStandaloneOrderCompleted={false}
+          logoVersion="19102018"
+          minLaptop={true}
+          orderCompleted={
+            Object {
+              "deliveryCost": "4.00",
+              "deliveryPrice": "4.01",
+              "orderId": 3464614,
+              "paymentDetails": Array [
+                Object {
+                  "cardNumberStar": "************1111",
+                  "paymentMethod": "Visa",
+                  "selectedPaymentMethod": "VISA",
+                  "totalCost": "£30.00",
+                  "totalCostAfterDiscount": "£10.00",
+                },
+              ],
+              "subTotal": "33.00",
+            }
+          }
+          stores={Array []}
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot1"
+        />
+        <PaymentSummary
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1111",
+                "isCardType": true,
+                "method": "Visa",
+                "price": "30.00",
+                "priceAfterDiscount": "10.00",
+                "type": "VISA",
+              },
+            ]
+          }
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot2"
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot3"
+        />
+      </div>
+      <OrderCompleteBasket
+        discountInfo={Array []}
+        isDDPStandaloneOrderCompleted={false}
+        isMobile={false}
+        orderCompleted={
+          Object {
+            "deliveryCost": "4.00",
+            "deliveryPrice": "4.01",
+            "orderId": 3464614,
+            "paymentDetails": Array [
+              Object {
+                "cardNumberStar": "************1111",
+                "paymentMethod": "Visa",
+                "selectedPaymentMethod": "VISA",
+                "totalCost": "£30.00",
+                "totalCostAfterDiscount": "£10.00",
+              },
+            ],
+            "subTotal": "33.00",
+          }
+        }
+        orderSubtotal="33.00"
+      />
+    </div>
+    <OrderCompleteButton
+      buttonClickHandler={[MockFunction]}
+      isDiscoverMoreEnabled={true}
+      orderCompleted={
+        Object {
+          "deliveryCost": "4.00",
+          "deliveryPrice": "4.01",
+          "orderId": 3464614,
+          "paymentDetails": Array [
+            Object {
+              "cardNumberStar": "************1111",
+              "paymentMethod": "Visa",
+              "selectedPaymentMethod": "VISA",
+              "totalCost": "£30.00",
+              "totalCostAfterDiscount": "£10.00",
+            },
+          ],
+          "subTotal": "33.00",
+        }
+      }
+      orderError={false}
+    />
+  </div>
+</section>
+`;
+
+exports[`<OrderCompleteSummary /> @render Order is complete with no errors is mobile should show the mobile espot 1`] = `
+<section
+  className="OrderCompleteSummary"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="Your Order is Complete"
+  />
+  <div
+    className="OrderCompleteSummary-success"
+  >
+    <div
+      className="OrderCompleteSummary-container"
+    >
+      <div
+        className="OrderCompleteSummary-left"
+      >
+        <OrderCompleteDelivery
+          brandName="topshop"
+          ddpDefaultName="Topshop Premier"
+          deliveryDate="Wednesday 10 June 2020"
+          isCollectFromOrder={false}
+          isDDPOrderCompleted={false}
+          isDDPStandaloneOrderCompleted={false}
+          logoVersion="19102018"
+          minLaptop={true}
+          orderCompleted={
+            Object {
+              "deliveryCost": "4.00",
+              "deliveryPrice": "4.01",
+              "orderId": 3464614,
+              "paymentDetails": Array [
+                Object {
+                  "cardNumberStar": "************1111",
+                  "paymentMethod": "Visa",
+                  "selectedPaymentMethod": "VISA",
+                  "totalCost": "£30.00",
+                  "totalCostAfterDiscount": "£10.00",
+                },
+              ],
+              "subTotal": "33.00",
+            }
+          }
+          stores={Array []}
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot1"
+        />
+        <Connect(SandBox)
+          cmsPageName="mobileOrderConfirmationESpotPos1"
+          contentType="espot"
+          isInPageContent={true}
+        />
+        <PaymentSummary
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1111",
+                "isCardType": true,
+                "method": "Visa",
+                "price": "30.00",
+                "priceAfterDiscount": "10.00",
+                "type": "VISA",
+              },
+            ]
+          }
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot2"
+        />
+        <Connect(Espot)
+          identifier="thankyouESpot3"
+        />
+      </div>
+      <OrderCompleteBasket
+        discountInfo={Array []}
+        isDDPStandaloneOrderCompleted={false}
+        isMobile={true}
+        orderCompleted={
+          Object {
+            "deliveryCost": "4.00",
+            "deliveryPrice": "4.01",
+            "orderId": 3464614,
+            "paymentDetails": Array [
+              Object {
+                "cardNumberStar": "************1111",
+                "paymentMethod": "Visa",
+                "selectedPaymentMethod": "VISA",
+                "totalCost": "£30.00",
+                "totalCostAfterDiscount": "£10.00",
+              },
+            ],
+            "subTotal": "33.00",
+          }
+        }
+        orderSubtotal="33.00"
+      />
+    </div>
+    <OrderCompleteButton
+      buttonClickHandler={[MockFunction]}
+      isDiscoverMoreEnabled={true}
+      orderCompleted={
+        Object {
+          "deliveryCost": "4.00",
+          "deliveryPrice": "4.01",
+          "orderId": 3464614,
+          "paymentDetails": Array [
+            Object {
+              "cardNumberStar": "************1111",
+              "paymentMethod": "Visa",
+              "selectedPaymentMethod": "VISA",
+              "totalCost": "£30.00",
+              "totalCostAfterDiscount": "£10.00",
+            },
+          ],
+          "subTotal": "33.00",
+        }
+      }
+      orderError={false}
+    />
+  </div>
+</section>
+`;

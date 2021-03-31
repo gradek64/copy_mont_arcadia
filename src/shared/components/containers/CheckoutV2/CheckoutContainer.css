@@ -1,0 +1,41 @@
+/** @define CheckoutContainer */
+.CheckoutContainer {
+  height: 100%;
+  &-goToCheckout {
+    display: inline-block;
+  }
+  &-collectFromStore {
+    overflow: hidden;
+    height: calc(100% - $header-height)
+  }
+  &-groupLeft {
+    height: 100%;
+  }
+  &-row {
+    &.is-hidden {
+      display: none;
+    }
+  }
+}
+
+@media $min-tablet {
+  .CheckoutContainer {
+    max-width: $laptop-end-width;
+    margin: 0 auto;
+    &-row {
+      display: flex;
+      flex-flow: row;
+    }
+    &-fullWidth {
+      flex: 1;
+    }
+    &-groupLeft {
+      flex: 1;
+      position: initial;
+      height: auto;
+    }
+    &-groupRight {
+      margin: $checkout-container-margin-vertical $page-padding $checkout-container-margin-vertical 0;
+    }
+  }
+}

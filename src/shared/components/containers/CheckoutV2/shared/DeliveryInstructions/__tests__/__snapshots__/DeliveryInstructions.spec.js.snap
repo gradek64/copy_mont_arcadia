@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryInstructions /> @renders should render default state 1`] = `
+<section
+  className="DeliveryInstructions"
+>
+  <Form
+    className="DeliveryInstructions-form"
+    noValidate={true}
+  >
+    <div
+      className="DeliveryInstructions-row"
+    >
+      <div
+        className="DeliveryInstructions-left left-col-margin"
+      >
+        <p
+          className="DeliveryInstructions-subTitle"
+        >
+          Let us know where we can leave your order if you are not in.
+        </p>
+        <Connect(Input)
+          errors={
+            Object {
+              "deliveryInstructions": "",
+            }
+          }
+          field={
+            Object {
+              "isTouched": false,
+              "value": "",
+            }
+          }
+          maxLength={30}
+          name="deliveryInstructions"
+          placeholder="Delivery Instructions"
+          setField={[Function]}
+          touchedField={[Function]}
+        />
+        <span
+          className="DeliveryInstructions-charsRemaining"
+        >
+          0/30
+        </span>
+      </div>
+      <div
+        className="DeliveryInstructions-right right-col-margin"
+      />
+    </div>
+  </Form>
+</section>
+`;

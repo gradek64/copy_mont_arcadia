@@ -1,0 +1,56 @@
+/** @define SizeGuide; weak */
+
+@media $min-tablet {
+  .SizeGuide {
+    &--pdp {
+      width: 100%;
+      margin-top: 0;
+      & .SizeGuide {
+        &-link {
+          border: none;
+        }
+      }
+    }
+    &--pdp,
+    &--bundles,
+    &--box {
+      & .SizeGuide {
+        &-link {
+          height: auto;
+          background: #ccc;
+          padding: 3px;
+        }
+        &-label {
+          font-size: 15px;
+          color: #333;
+          font-weight: 600;
+          padding: 0;
+          margin-top: 4px;
+        }
+      }
+    }
+    &--bundles {
+      & .SizeGuide-link {
+        padding: 8px 10px 6px;
+        border: none;
+        display: inline-block;
+      }
+      & .SizeGuide-label {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+@media $min-laptop {
+  .SizeGuide {
+    &--bundles {
+      width: 80px;
+      text-align: center;
+      align-self: flex-end;
+      position: absolute;
+      top: 20px;
+      right: 0;
+    }
+  }
+}

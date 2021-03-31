@@ -1,0 +1,134 @@
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'DEPLOY_BRANCH_OR_TAG_OR_HASH', defaultValue: '',
+            description: 'Defaults to latest commits of current branch. Can be overridden here.')
+        booleanParam(name: 'UPDATE_ENVS', defaultValue: true,
+            description: 'Deployment will be propagated to a number of other environments such as qubit and staging')
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
+
+        timestamps()
+    }
+
+    stages {
+        stage("GH") {
+            steps {
+                script {
+                    currentBuild.description = "NextProd - ${params.DEPLOY_BRANCH_OR_TAG_OR_HASH}"
+                }
+            }
+        }
+        stage("Feature Config") {
+            steps {
+                ansiColor('xterm') {
+                    checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'preprod']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'packages/monty-feature-flags']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'feature-config-deployment', url: 'git@github.com:ag-digital/monty-feature-flags.git']]]
+                }
+            }
+        }
+        stage("Deploy") {
+            parallel {
+                stage("Deploy-JSON") {
+                    steps {
+                        timeout(time: 40, unit: 'MINUTES') {
+                        ansiColor('xterm') {
+                            withCredentials([string(credentialsId: 'npm-auth-token', variable: 'NPM_TOKEN')]) {
+                            sh 'scripts/deploy_next_prodjson.sh'
+                            }
+                        }
+                    }
+                    }
+                }
+                stage("Deploy-PRODSTAGE") {
+                    steps {
+                        build job: "jenkins2/monty deploy prodstage",
+                        wait: true, parameters: [ string(name: 'DEPLOY_BRANCH_OR_TAG_OR_HASH', value: "${DEPLOY_BRANCH_OR_TAG_OR_HASH}") ]
+                    }
+                }
+            }
+        }
+        // we kick those off after the main deploy, since there is a race condition on build+push into dockerhub
+        // from preprod and monty_deploy on the same tag. this could have odd results in terms of feature flags and whatnot
+        // so the solution is to build+push "real" release and after that monty_deploy would realise that the tag is there and wont push
+        stage("Update dev environments") {
+            when {
+                expression { params.UPDATE_ENVS == true }
+            }
+            steps {
+                ansiColor('xterm') {
+                    echo "deploying to qubit environment"
+                    triggerRemoteJob job: 'jenkins2/monty deploy',
+                        blockBuildUntilComplete: false,
+                        remoteJenkinsName: 'monty-dev_jenkins',
+                        useCrumbCache: true,
+                        useJobInfoCache: true,
+                        parameters: '''
+                        DEPLOY_BRANCH_OR_TAG_OR_HASH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        EB_ENVIRONMENT_NAME=qubit
+                        FEATURE_FLAG_BRANCH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        '''
+
+                    echo "deploying to acc1 environment"
+                    triggerRemoteJob job: 'jenkins2/monty deploy',
+                        blockBuildUntilComplete: false,
+                        remoteJenkinsName: 'monty-dev_jenkins',
+                        useCrumbCache: true,
+                        useJobInfoCache: true,
+                        parameters: '''
+                        DEPLOY_BRANCH_OR_TAG_OR_HASH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        EB_ENVIRONMENT_NAME=acc1
+                        FEATURE_FLAG_BRANCH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        '''
+
+                    echo "deploying to stage environment"
+                    triggerRemoteJob job: 'jenkins2/monty deploy',
+                        blockBuildUntilComplete: false,
+                        remoteJenkinsName: 'monty-dev_jenkins',
+                        useCrumbCache: true,
+                        useJobInfoCache: true,
+                        parameters: '''
+                        DEPLOY_BRANCH_OR_TAG_OR_HASH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        EB_ENVIRONMENT_NAME=stage
+                        FEATURE_FLAG_BRANCH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        '''
+
+                    echo "deploying to analytics environment"
+                    triggerRemoteJob job: 'jenkins2/monty deploy',
+                        blockBuildUntilComplete: false,
+                        remoteJenkinsName: 'monty-dev_jenkins',
+                        useCrumbCache: true,
+                        useJobInfoCache: true,
+                        parameters: '''
+                        DEPLOY_BRANCH_OR_TAG_OR_HASH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        EB_ENVIRONMENT_NAME=analytics
+                        FEATURE_FLAG_BRANCH=${DEPLOY_BRANCH_OR_TAG_OR_HASH}
+                        '''
+                }
+            }
+        }
+        stage("Smoke Test") {
+            steps {
+                timeout(time: 30, unit: 'MINUTES') {
+                    // due to the plugin having a bug where it is using a wrong url (one which jenkins returns and not the one we configure)
+                    // we are unable to block the run and wait for the result. so just outputing the url with the build in console
+                    triggerRemoteJob abortTriggeredJob: true,
+                        blockBuildUntilComplete: false,
+                        job: 'jenkins2/full-monty-e2ev2/master',
+                        remoteJenkinsName: 'monty-dev_jenkins',
+                        useCrumbCache: true,
+                        useJobInfoCache: true,
+                        parameters: '''
+                        TARGET=preprod
+                        RUN_TESTS=true
+                        '''
+
+                    echo 'e2ev2 smoke tests are running. progress could be checked at https://jenkins.digital.arcadiagroup.co.uk/blue/organizations/jenkins/jenkins2%2Ffull-monty-e2ev2/activity?branch=master'
+
+                }
+            }
+        }
+    }
+}

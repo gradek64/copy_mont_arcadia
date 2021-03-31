@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderErrorMessageContainer/> @renders when the message is rendered renders with the appropriate props 1`] = `
+<Message
+  isCompact={false}
+  message="Something went wrong..."
+  onDidMount={[Function]}
+  type="error"
+/>
+`;

@@ -1,0 +1,12 @@
+/** @define DeliveryMethods */
+
+.DeliveryMethods {
+
+  &-calendarView {
+    border-left: $checkout-delivery-method-selected-tile-border;
+    border-right: $checkout-delivery-method-selected-tile-border;
+    border-bottom: $checkout-delivery-method-selected-tile-border;
+    margin-bottom: 15px;
+    margin-top: -15px;
+  }
+}

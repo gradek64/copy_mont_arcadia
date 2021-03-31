@@ -1,0 +1,6 @@
+FROM ubuntu:17.10
+
+RUN apt-get -y update \
+ && apt-get -y install wget git curl unzip openjdk-8-jre xvfb chromium-codecs-ffmpeg-extra chromium-browser python build-essential \
+ && curl -sL https://deb.nodesource.com/setup_8.x | bash - \
+ && apt-get install -y nodejs

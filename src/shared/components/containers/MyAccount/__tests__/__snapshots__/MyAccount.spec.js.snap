@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyAccount /> @renders has checkOutProfile returns false 1`] = `
+<div
+  className="MyAccount"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="My account"
+  />
+  <div
+    className="MyAccount-inner"
+  >
+    <h1
+      className="screen-reader-text"
+    >
+      My account
+    </h1>
+    <Connect(DDPRenewal)
+      isMyAccount={true}
+      withMoreDetailsLink={true}
+    />
+    <ul
+      className="MyAccount-list MyAccount-listleft"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Add your name or change your email address"
+        isExternal={false}
+        key="0"
+        link="/my-account/my-details"
+        title="My details"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Change your account password"
+        isExternal={false}
+        key="1"
+        link="/my-account/my-password"
+        title="My password"
+      />
+    </ul>
+    <ul
+      className="MyAccount-list MyAccount-listright"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current orders, view your order history and start a return"
+        isExternal={false}
+        key="0"
+        link="/my-account/order-history"
+        title="My orders"
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<MyAccount /> @renders is not mobile 1`] = `
+<div
+  className="MyAccount"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="My account"
+  />
+  <div
+    className="MyAccount-inner"
+  >
+    <h1
+      className=""
+    >
+      My account
+    </h1>
+    <Connect(DDPRenewal)
+      isMyAccount={true}
+      withMoreDetailsLink={true}
+    />
+    <ul
+      className="MyAccount-list MyAccount-listleft"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Add your name or change your email address"
+        isExternal={false}
+        key="0"
+        link="/my-account/my-details"
+        title="My details"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Change your account password"
+        isExternal={false}
+        key="1"
+        link="/my-account/my-password"
+        title="My password"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Check your saved delivery and payment details"
+        isExternal={false}
+        key="2"
+        link="/my-account/details"
+        title="My Delivery & Payment Details"
+      />
+    </ul>
+    <ul
+      className="MyAccount-list MyAccount-listright"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current orders, view your order history and start a return"
+        isExternal={false}
+        key="0"
+        link="/my-account/order-history"
+        title="My orders"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current returns and view your return history"
+        isExternal={false}
+        key="1"
+        link="/my-account/return-history"
+        title="My Returns"
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<MyAccount /> @renders should show e-receipts when region is uk 1`] = `
+<div
+  className="MyAccount"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="My account"
+  />
+  <div
+    className="MyAccount-inner"
+  >
+    <h1
+      className="screen-reader-text"
+    >
+      My account
+    </h1>
+    <Connect(DDPRenewal)
+      isMyAccount={true}
+      withMoreDetailsLink={true}
+    />
+    <ul
+      className="MyAccount-list MyAccount-listleft"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Add your name or change your email address"
+        isExternal={false}
+        key="0"
+        link="/my-account/my-details"
+        title="My details"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Change your account password"
+        isExternal={false}
+        key="1"
+        link="/my-account/my-password"
+        title="My password"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Check your saved delivery and payment details"
+        isExternal={false}
+        key="2"
+        link="/my-account/details"
+        title="My Delivery & Payment Details"
+      />
+    </ul>
+    <ul
+      className="MyAccount-list MyAccount-listright"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current orders, view your order history and start a return"
+        isExternal={false}
+        key="0"
+        link="/my-account/order-history"
+        title="My orders"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current returns and view your return history"
+        isExternal={false}
+        key="1"
+        link="/my-account/return-history"
+        title="My Returns"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Manage your E-receipts here"
+        isExternal={false}
+        key="2"
+        link="/my-account/e-receipts"
+        title="E-receipts"
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<MyAccount /> @renders should update My Delivery and Payment description when \`ddpRenewalEnabled\` is true 1`] = `
+<div
+  className="MyAccount"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="My account"
+  />
+  <div
+    className="MyAccount-inner"
+  >
+    <h1
+      className="screen-reader-text"
+    >
+      My account
+    </h1>
+    <Connect(DDPRenewal)
+      isMyAccount={true}
+      withMoreDetailsLink={true}
+    />
+    <ul
+      className="MyAccount-list MyAccount-listleft"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Add your name or change your email address"
+        isExternal={false}
+        key="0"
+        link="/my-account/my-details"
+        title="My details"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Change your account password"
+        isExternal={false}
+        key="1"
+        link="/my-account/my-password"
+        title="My password"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Check your saved delivery, payment details and DDP Subscription Subscription"
+        isExternal={false}
+        key="2"
+        link="/my-account/details"
+        title="My Delivery & Payment Details"
+      />
+    </ul>
+    <ul
+      className="MyAccount-list MyAccount-listright"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current orders, view your order history and start a return"
+        isExternal={false}
+        key="0"
+        link="/my-account/order-history"
+        title="My orders"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current returns and view your return history"
+        isExternal={false}
+        key="1"
+        link="/my-account/return-history"
+        title="My Returns"
+      />
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<MyAccount /> @renders shows all options for user with checkout profile 1`] = `
+<div
+  className="MyAccount"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="My account"
+  />
+  <div
+    className="MyAccount-inner"
+  >
+    <h1
+      className="screen-reader-text"
+    >
+      My account
+    </h1>
+    <Connect(DDPRenewal)
+      isMyAccount={true}
+      withMoreDetailsLink={true}
+    />
+    <ul
+      className="MyAccount-list MyAccount-listleft"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Add your name or change your email address"
+        isExternal={false}
+        key="0"
+        link="/my-account/my-details"
+        title="My details"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Change your account password"
+        isExternal={false}
+        key="1"
+        link="/my-account/my-password"
+        title="My password"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Check your saved delivery and payment details"
+        isExternal={false}
+        key="2"
+        link="/my-account/details"
+        title="My Delivery & Payment Details"
+      />
+    </ul>
+    <ul
+      className="MyAccount-list MyAccount-listright"
+      tabIndex="-1"
+    >
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current orders, view your order history and start a return"
+        isExternal={false}
+        key="0"
+        link="/my-account/order-history"
+        title="My orders"
+      />
+      <AccountItem
+        clickHandler={[Function]}
+        description="Track your current returns and view your return history"
+        isExternal={false}
+        key="1"
+        link="/my-account/return-history"
+        title="My Returns"
+      />
+    </ul>
+  </div>
+</div>
+`;

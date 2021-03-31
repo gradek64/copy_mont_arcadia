@@ -1,0 +1,17 @@
+/** @define OrderHistoryList **/
+
+.OrderHistoryList {
+  &-orderLimitMessage {
+    border-bottom: 1px solid $myaccount-border-color;
+    padding: 10px $page-padding;
+    margin: 0;
+  }
+}
+
+@media $min-tablet {
+  .OrderHistoryList {
+    &-orderLimitMessage {
+       border-bottom: none
+     }
+  }
+}

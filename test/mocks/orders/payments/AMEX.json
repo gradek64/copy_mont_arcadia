@@ -1,0 +1,24 @@
+{
+  "cardCvv": 1234,
+  "creditCard": {
+    "expiryYear": "2017",
+    "cardNumber": "343434343434343",
+    "type": "AMEX",
+    "expiryMonth": "09"
+  },
+  "billingDetails": {
+      "address": {
+          "address1": "3 The Crescent",
+          "address2": "Compton Pauncefoot",
+          "city": "YEOVIL",
+          "country": "United Kingdom",
+          "postcode": "BA22 7EN"
+      },
+      "nameAndPhone": {
+          "title": "Dr",
+          "firstName": "Connor",
+          "lastName": "Thompson",
+          "telephone": "07193940075"
+      }
+  }
+}

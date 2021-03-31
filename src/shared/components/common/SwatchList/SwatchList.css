@@ -1,0 +1,72 @@
+/** @define SwatchList */
+
+.SwatchList {
+  display: flex;
+  justify-content: $plp-product-swatch-list-justify;
+  align-items: center;
+  padding: $plp-product-swatch-list-padding;
+  margin-top: $plp-product-swatch-list-margin-top;
+  margin-left: $plp-product-swatch-list-margin-left;
+
+  &-button {
+    background: $plp-product-swatch-button-image no-repeat;
+    background-size: $plp-product-swatch-button-image-size;
+    background-position: center center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    font-size: $plp-product-swatch-button-font-size;
+    line-height: 1.1;
+    vertical-align: middle;
+    text-transform: $plp-product-swatch-button-text-transform;
+    text-decoration: $plp-product-swatch-button-text-decoration;
+    color: $plp-product-swatch-button-font-color;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+    cursor: pointer;
+    user-select: none;
+
+    &--next {
+      margin: $plp-product-swatch-button-next-margin;
+    }
+    &--prev {
+      margin: $plp-product-swatch-button-prev-margin;
+      transform: $plp-product-swatch-button-prev-transform;
+    }
+  }
+  &-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  &-cell {
+    width: 28px;
+    margin: 0 10px;
+    justify-content: center;
+  }
+  &--pdp {
+    justify-content: flex-start;
+    padding: $pdp-product-swatch-list-padding;
+
+    & .SwatchList-row {
+      flex-wrap: wrap;
+      margin-bottom: $pdp-product-swatch-row-margin-bottom;
+    }
+
+    & .SwatchList-cell {
+      margin-bottom: $pdp-product-swatch-margin-bottom;
+    }
+  }
+}
+
+@media $min-tablet {
+  .SwatchList {
+    &-button {
+      background-size: $plp-product-swatch-button-image-size-tablet;
+      width: 28px;
+      height: 28px;
+    }
+  }
+}

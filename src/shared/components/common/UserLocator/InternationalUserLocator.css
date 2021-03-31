@@ -1,0 +1,104 @@
+/** @define IntUserLocator */
+
+.IntUserLocator {
+    &-form {
+      display: flex;
+      position: relative;
+      height: $user-locator-height;
+      z-index: 1;
+    }
+    &-predictionsContainer {
+      position: relative;
+      width: 100%;
+      z-index: 50;
+    }
+    
+    &-goButton {
+      flex-basis: calc(100% - $user-locator-input-width);
+      position: relative;
+      padding: 0;
+      height: $user-locator-height;
+      min-height: $user-locator-height;
+      line-height: $user-locator-height;
+      box-sizing: border-box;
+      border-radius: 0 $input-border-radius $input-border-radius 0;
+      text-align: center;
+      overflow: hidden;
+    }
+  
+    &-clearIcon {
+      height: 100%;
+    }
+  
+    &-currentLocationImage {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  
+    &-container {
+      display: block;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    &-countryContainer {
+      position: relative;
+      display: flex;
+      z-index: 2;
+    }
+  
+    &-enterSearchText {
+      font-size: 0.925em;
+    }
+
+    &-findText {
+      margin-bottom: 15px;
+    }
+
+    &-chooseCountryStatement {
+      margin: 29px 0 11px 0;
+    }
+  
+    &-storeFinderText {
+      font-size: 1.5em;
+      margin: 70px 0 6px 0;
+      font-family: inherit;
+      text-transform: none;
+      letter-spacing: inherit;
+      word-spacing: inherit;
+    }
+  
+    &-mapMarker {
+      height: $user-locator-map-marker-height;
+      margin-top: $user-locator-map-marker-margin-top;
+      margin-right: 10px;
+    }
+  
+  }
+  
+  @keyframes IntUserLocator-slideIn {
+      /* postcss-bem-linter: ignore */
+      from {
+        opacity: 0;
+        transform: translateX(-100%)
+      }
+      /* postcss-bem-linter: ignore */
+      to {
+        opacity: 1;
+        transform: translateX(0)
+      }
+}
+@media $mobile {
+  .IntUserLocator {
+    &-container {
+      padding: 0;
+    }
+
+    &-storeFinderText {
+      margin: 25px 0 6px 0;
+    }
+  }
+}
+
+  

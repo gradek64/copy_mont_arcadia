@@ -1,0 +1,19 @@
+# node_modules ignored by default
+node_modules/**
+
+# auto-generated project folders
+build/
+dist/
+
+# custom
+src/custom/*/test/**
+
+src/shared/lib/analytics/adobe-analytics-plugins.js
+packages/monty-feature-flags/
+
+# Extra libs
+public/common/vendors/Arcadia_TL_DEV_v5_7_20042020.js
+public/common/vendors/Arcadia_TL_PROD_v5_7_20042020.js
+
+# Polyfill
+public/common/vendors/polyfill-ie11.js

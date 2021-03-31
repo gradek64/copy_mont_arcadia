@@ -1,0 +1,31 @@
+/** @define ActiveDDPBanner */
+
+.ActiveDDPBanner {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background: $ddp-is-active-banner-bg-color;
+  justify-content: $ddp-is-active-banner-content-horizontal-alignment;
+
+  &-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+  }
+
+  &-titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: $ddp-is-active-banner-content-horizontal-alignment;
+  }
+
+  &-title {
+    text-transform: none;
+    color: $ddp-is-active-banner-text-color;
+  }
+
+  &-discountCode {
+    font-weight: 800;
+  }
+}

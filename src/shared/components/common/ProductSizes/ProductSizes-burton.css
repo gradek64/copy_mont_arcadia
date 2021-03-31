@@ -1,0 +1,41 @@
+/** @define ProductSizes; weak */
+
+.ProductSizes {
+  &-button {
+    margin-bottom: 0;
+  }
+  &-item {
+    &.is-outOfStock {
+      &:after {
+        display: block;
+        top: 50%;
+        left: -5px;
+        border-top: 1px solid #d8d8d8;
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+        margin: 50% 0 0 -50%;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .ProductSizes {
+    &--pdp {
+      & .ProductSizes {
+        &-button {
+          padding: 0 3px;
+          margin-bottom: 20px;
+        }
+        &-item {
+          border: 1px solid #d0d0d0;
+          height: 30px;
+          &.is-active {
+            border: none;
+            background: #333;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Drawer></Drawer> @render has a direction and is not open and not scrollable 1`] = `
+<div
+  className="Drawer direction-bottom"
+>
+  Hello World!
+</div>
+`;
+
+exports[`<Drawer></Drawer> @render has a direction and is not open but scrollable 1`] = `
+<div
+  className="Drawer is-scrollable direction-bottom"
+>
+  Hello World!
+</div>
+`;
+
+exports[`<Drawer></Drawer> @render has a direction and is open and scrollable 1`] = `
+<div
+  className="Drawer is-scrollable is-open direction-bottom"
+>
+  Hello World!
+</div>
+`;
+
+exports[`<Drawer></Drawer> @render is closed 1`] = `
+<div
+  className="Drawer"
+>
+  Hello World!
+</div>
+`;
+
+exports[`<Drawer></Drawer> @render is open 1`] = `
+<div
+  className="Drawer is-open"
+>
+  Hello World!
+</div>
+`;
+
+exports[`<Drawer></Drawer> @render is open and not scrollable 1`] = `
+<div
+  className="Drawer"
+>
+  Hello World!
+</div>
+`;
+
+exports[`<Drawer></Drawer> @render is open and scrollable 1`] = `
+<div
+  className="Drawer is-scrollable is-open"
+>
+  Hello World!
+</div>
+`;

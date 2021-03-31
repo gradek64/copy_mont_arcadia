@@ -1,0 +1,76 @@
+{
+  "fields": {
+    "forename": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "surname": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "emailid": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "confirmemailaddress": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "phone": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "dd": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "mm": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "yy": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "town": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "postcode": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "brandcomms": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "fielMandatoryFields": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "okay": {
+      "value": "",
+      "isDirty": false,
+      "isTouched": false
+    },
+    "areyouastudent": {
+      "value": "Yes",
+      "isDirty": false,
+      "isTouched": false
+    }
+  },
+  "errors": {},
+  "message": {}
+}

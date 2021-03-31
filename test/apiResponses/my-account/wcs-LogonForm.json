@@ -1,0 +1,52 @@
+{
+   "success":true,
+   "isLoggedIn":true,
+   "userRegistrationFormURL":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangeLogonIDFlag=Y",
+   "changePasswordUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangePasswordFlag=Y&page=MyAccount&ChangeLogonIDFlag=N",
+   "changeLogonIdUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangeLogonIDFlag=Y",
+   "Account":[
+      {
+         "lastName":"asdfdsf",
+         "firstName":"adsffd",
+         "billingDetails":{
+            "city":"asdfds",
+            "country":"China",
+            "address1":"asdfdsf",
+            "address2":"asdfadsf",
+            "zipCode":"12344"
+         },
+         "email":"monty@desktop.com",
+         "userOrderStatusUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TrackOrderStatus?storeId=12556&catalogId=33057&langId=-1",
+         "userReturnTrackingUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/TrackRMAStatus?storeId=12556&catalogId=33057&orderId=&langId=-1",
+         "changeNameOrEmailUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/UserRegistrationForm?storeId=12556&catalogId=33057&langId=-1&editRegistration=Y&ChangePasswordFlag=N&ChangeLogonIDFlag=Y&page=MyAccount",
+         "NameAndPhone":{
+            "lastName":"asdfdsf",
+            "telephone":"01231231234",
+            "title":"Mr",
+            "firstName":"adsffd"
+         },
+         "AddressDetails":{
+            "state":"",
+            "city":"LONDON",
+            "country":"United Kingdom",
+            "address1":"Emirates Stadium",
+            "address2":"Queensland Road",
+            "zipCode":"N7 7AJ",
+            "addressDetailsId":"1779464",
+            "quickCheckoutUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/ProfileFormView?storeId=12556&catalogId=33057&langId=-1"
+         }
+      }
+   ],
+   "viewShoppingBagUrl":"http://ts.sandpit.arcadiagroup.ltd.uk/webapp/wcs/stores/servlet/OrderCalculate?langId=-1&amp;storeId=12556&amp;catalogId=33057&amp;updatePrices=1&amp;calculationUsageId=-1&amp;orderId=.&amp;URL=OrderItemDisplay",
+   "subscriptionId":"",
+   "omnitureEnabled":"Y",
+   "omnitureItems":{
+      "s.pageName":"TS:My Account",
+      "s.channel":"TS:Account",
+      "s.prop3":"TS:My Account",
+      "s.eVar6":"1848001",
+      "s.eVar7":"monty@desktop.com",
+      "s.eVar14":"logged-in",
+      "s.prop4":"logged-in"
+   }
+}

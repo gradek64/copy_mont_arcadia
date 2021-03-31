@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddToBag /> @renders should render default state 1`] = `
+<div
+  className="AddToBag  "
+>
+  <Button
+    className="is-active"
+    clickHandler={[Function]}
+    isDisabled={false}
+  >
+    <span
+      className="translate"
+    >
+      Add to bag
+    </span>
+  </Button>
+  <DeliveryCutoffMessage
+    message=""
+  />
+</div>
+`;

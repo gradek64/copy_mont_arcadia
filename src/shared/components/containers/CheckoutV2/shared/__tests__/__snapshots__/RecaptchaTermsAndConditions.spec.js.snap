@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecaptchaTermsAndConditions /> @renders should render default state 1`] = `
+<div
+  className="TermsAndConditions"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "This site is protected by reCAPTCHA and the Google <a
+          rel=\\"noopener noreferrer\\"
+          target=\\"_blank\\"
+          href=https://policies.google.com/privacy
+        >
+          Recaptcha Privacy Policy
+        </a> and <a
+          rel=\\"noopener noreferrer\\"
+          target=\\"_blank\\"
+          href=https://policies.google.com/terms
+        >
+          Recaptcha Terms of Service
+        </a> apply.",
+    }
+  }
+/>
+`;

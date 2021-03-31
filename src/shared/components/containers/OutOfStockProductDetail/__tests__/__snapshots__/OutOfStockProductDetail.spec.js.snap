@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OutOfStockProductDetail /> @renders Product Section Button View All categories should not render Shop All button if the product has no category 1`] = `
+<div
+  className="OutOfStockProductDetail"
+>
+  <h1
+    className="OutOfStockProductDetail-pageHeading"
+  >
+    Item not available
+  </h1>
+  <div
+    className="OutOfStockProductDetail-productWrapper"
+  >
+    <div
+      className="OutOfStockProductDetail-productWrapperImage"
+    >
+      <Connect(ResponsiveImage)
+        amplienceUrl="http://www.images.com/root"
+        aria-hidden="true"
+        className="MiniProduct-image"
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+      />
+    </div>
+    <div
+      className="OutOfStockProductDetail-productWrapperDescription"
+    >
+      <div
+        className="OutOfStockProductDetail-productWrapperDescriptionMinimal"
+      >
+        <h2>
+          Tencel Buffalo Duster Coat
+        </h2>
+        <Price
+          className=""
+          price="85.00"
+        />
+      </div>
+      <OOSProductDescription
+        description="Invest in a statement coat this season. We’re loving this Tencel buffalo duster coat, crafted in a soft blend, it features a midi length and button down placket to the front. Finished with multiple pockets. 100% Lyocell. Machine wash. &lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39;10&#39;&#39;"
+        header="Product Details"
+      />
+    </div>
+  </div>
+  <Connect(RecommendationsABTestWrapper)
+    currentProductGroupingId="GroupingA"
+    referringProduct={
+      Object {
+        "lineNumber": "07L04JWNA",
+        "name": "Tencel Buffalo Duster Coat",
+        "productId": 23074019,
+      }
+    }
+    setPredecessorPage={[MockFunction]}
+    shouldRenderDressipiQubitExperience={true}
+  />
+  <Connect(RecentlyViewed)
+    currentProductId={23074019}
+    referringProduct={
+      Object {
+        "lineNumber": "07L04JWNA",
+        "name": "Tencel Buffalo Duster Coat",
+        "productId": 23074019,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<OutOfStockProductDetail /> @renders should render in default state 1`] = `
+<div
+  className="OutOfStockProductDetail"
+>
+  <h1
+    className="OutOfStockProductDetail-pageHeading"
+  >
+    Item not available
+  </h1>
+  <div
+    className="OutOfStockProductDetail-productWrapper"
+  >
+    <div
+      className="OutOfStockProductDetail-productWrapperImage"
+    >
+      <Connect(ResponsiveImage)
+        amplienceUrl="http://www.images.com/root"
+        aria-hidden="true"
+        className="MiniProduct-image"
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+      />
+    </div>
+    <div
+      className="OutOfStockProductDetail-productWrapperDescription"
+    >
+      <div
+        className="OutOfStockProductDetail-productWrapperDescriptionMinimal"
+      >
+        <h2>
+          Tencel Buffalo Duster Coat
+        </h2>
+        <Price
+          className=""
+          price="85.00"
+        />
+      </div>
+      <OOSProductDescription
+        description="Invest in a statement coat this season. We’re loving this Tencel buffalo duster coat, crafted in a soft blend, it features a midi length and button down placket to the front. Finished with multiple pockets. 100% Lyocell. Machine wash. &lt;br&gt;&lt;b&gt;Model&#39;s height is 5&#39;10&#39;&#39;"
+        header="Product Details"
+      />
+    </div>
+  </div>
+  <Connect(RecommendationsABTestWrapper)
+    currentProductGroupingId="GroupingA"
+    referringProduct={
+      Object {
+        "lineNumber": "07L04JWNA",
+        "name": "Tencel Buffalo Duster Coat",
+        "productId": 23074019,
+      }
+    }
+    setPredecessorPage={[MockFunction]}
+    shouldRenderDressipiQubitExperience={true}
+  />
+  <Button
+    className="Button--primary OutOfStockProductDetail-shopAllBtn"
+    clickHandler={[Function]}
+  >
+    <span
+      className="translate"
+    >
+      SHOP ALL Dresses
+    </span>
+  </Button>
+  <Connect(RecentlyViewed)
+    currentProductId={23074019}
+    referringProduct={
+      Object {
+        "lineNumber": "07L04JWNA",
+        "name": "Tencel Buffalo Duster Coat",
+        "productId": 23074019,
+      }
+    }
+  />
+</div>
+`;

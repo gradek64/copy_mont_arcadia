@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentMethodOption/> @renders should render default state correctly 1`] = `
+<div
+  className="PaymentMethodOption"
+>
+  <button
+    checked={false}
+    className="PaymentMethodOption-button"
+    onClick={[Function]}
+    value="CARD"
+  >
+    <span
+      className="PaymentMethodOption-content"
+    >
+      <label
+        className="PaymentMethodOption-label"
+      >
+        <WithQubit
+          id="qubit-credit-card-title"
+          shouldUseQubit={true}
+        >
+          Debit and Credit Card
+        </WithQubit>
+      </label>
+    </span>
+  </button>
+</div>
+`;

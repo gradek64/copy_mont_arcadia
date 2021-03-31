@@ -1,0 +1,165 @@
+version: "3.2"
+services:
+    monty:
+      build:
+        args:
+          NPM_TOKEN: ${NPM_TOKEN}
+        context: .
+        dockerfile: Dockerfile.branches
+        cache_from:
+          - ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/monty:${FORMATTED_BRANCH_NAME}
+          # - ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/monty:develop
+      image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/monty:${GIT_COMMIT}
+      ports:
+        - "3000:3000"
+      environment:
+        API_URL:
+        API_KEY:
+        USE_NEW_HANDLER:
+        WCS_ENVIRONMENT:
+        API_FIND_ADDRESS:
+        API_URL_STORE_LOCATOR:
+        API_URL_COUNTRIES_V2:
+        API_URL_STORE_LOCATOR_V2:
+        API_URL_COUNTRIES:
+        GOOGLE_API_KEY:
+        BASIC_AUTH_ENABLED:
+        COOKIE_TTL:
+        JWT_SECRET:
+        NODE_ENV:
+        CMS_TEST_MODE:
+        BV_SHAREDKEY:
+        NEWRELIC_KEY:
+        NEWRELIC_APP_NAME:
+        REDIS_URL: tcp://monty_cache:6379
+        MOCK_CMS_FORM_HANDLER:
+        DEBUG:
+        CI:
+        FEATURES_POLLING_INTERVAL:
+        MR_CMS_URL:
+        MR_CMS_PORT:
+        MR_CMS_PROTOCOL:
+        NPM_TOKEN:
+        QUBIT_DISABLED:
+        DO_NOT_MOCK_NAV:
+        REDIS_PORT_FOR_SESSION_STORE: 6379
+        REDIS_HOST_FOR_SESSION_STORE: monty_cache
+      env_file:
+        - ".env"
+      links:
+        - monty_cache
+
+    monty_tests:
+      build:
+        args:
+          NPM_TOKEN: ${NPM_TOKEN}
+        context: .
+        dockerfile: ./Dockerfile.test-runner
+        cache_from:
+          - ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/monty_tests:${FORMATTED_BRANCH_NAME}
+          # - ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/monty_tests:develop
+      image: ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/monty_tests:${GIT_COMMIT}
+      privileged: true
+      links:
+        - monty
+        - monty:local.m.eu.burton-menswear.com
+        - monty:local.m.burton.co.uk
+        - monty:local.m.evansmode.de
+        - monty:local.m.euro.evansfashion.com
+        - monty:local.m.evans.co.uk
+        - monty:local.m.evansusa.com
+        - monty:local.m.euro.missselfridge.com
+        - monty:local.m.missselfridge.fr
+        - monty:local.m.missselfridge.de
+        - monty:local.m.us.missselfridge.com
+        - monty:local.m.missselfridge.com
+        - monty:local.m.euro.dorothyperkins.com
+        - monty:local.m.us.dorothyperkins.com
+        - monty:local.m.dorothyperkins.com
+        - monty:local.m.eu.topman.com
+        - monty:local.m.fr.topman.com
+        - monty:local.m.topman.com
+        - monty:local.m.de.topman.com
+        - monty:local.m.us.topman.com
+        - monty:local.m.eu.topshop.com
+        - monty:local.m.fr.topshop.com
+        - monty:local.m.de.topshop.com
+        - monty:local.m.us.topshop.com
+        - monty:local.m.topshop.com
+        - monty:local.m.wallismode.de
+        - monty:local.m.wallis.co.uk
+        - monty:local.m.euro.wallisfashion.com
+        - monty:local.m.wallisfashion.com
+        - monty:opentag-stats.qubit.com
+        - monty:gong-eb.qubit.com
+        - monty:stash.qubitproducts.com
+        - monty:tally-1.qubitproducts.com
+        - monty_tests_cache
+      environment:
+        BASE_URL:
+        BASE_URL_PORT: 3000
+        ENABLE_LINT:
+        ENABLE_UNIT:
+        ENABLE_INTEGRATION:
+        ENABLE_E2E:
+        E2E_ONLY:
+        FEATURES_PATH:
+        WDIO_CONFIG_FILEPATH:
+        CIRCLE_TEST_REPORTS: /monty/test/reports
+        CI:
+        BROWSER_NAME:
+        BREAKPOINT:
+        CUCUMBER_FAIL_FAST:
+        REPORTERS:
+        MAX_INSTANCES:
+        CUCUMBER_TAGS:
+        API_URL:
+        API_KEY:
+        API_URL_PPLIVE:
+        API_KEY_PPLIVE:
+        JWT_SECRET:
+        CMS_TEST_MODE:
+        API_FIND_ADDRESS:
+        API_URL_STORE_LOCATOR:
+        API_URL_COUNTRIES:
+        API_URL_STORE_LOCATOR_V2:
+        API_URL_COUNTRIES_V2:
+        KLARNA_USERNAME:
+        KLARNA_PASSWORD:
+        WDIO_ENVIRONMENT:
+        WDIO_BRAND:
+        WDIO_LOG_LEVEL:
+        WDIO_FORCE_MOBILE_ONLY_TEST:
+        JENKINS_PRODUCTS:
+        FEATURES_POLLING_INTERVAL:
+        REDIS_URL: tcp://monty_tests_cache:6379
+        NPM_TOKEN:
+        DO_NOT_MOCK_NAV:
+      env_file:
+        - ".env-test-runner"
+      volumes:
+        - "./test/reports/:/monty/test/reports/"
+        - "./test/e2e/:/monty/test/e2e/"
+        - "/dev/shm:/dev/shm"
+
+    monty_monitor:
+      image: 'newrelic/nrsysmond:2.3.0.132'
+      privileged: true
+      pid: host
+      network_mode: host
+      volumes:
+        - '/sys:/sys'
+        - '/dev:/dev'
+        - '/var/run/docker.sock:/var/run/docker.sock'
+        - '/var/log:/var/log:rw'
+      environment:
+        NRSYSMOND_logfile: /var/log/nrsysmond.log
+        NRSYSMOND_license_key:
+
+    monty_cache:
+      image: 'redis:3-alpine'
+      ports:
+        - "6379:6379"
+
+    monty_tests_cache:
+      image: 'redis:3-alpine'

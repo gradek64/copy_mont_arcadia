@@ -1,0 +1,91 @@
+/** @define Swatch */
+
+$SwatchSizeMobile: 22px;
+$SwatchSizeDesktop: 28px;
+$SwatchMarginMobile: 0 6px;
+$SwatchMarginMobile-firstChild: 0 6px 0 0;
+$SwatchMarginDesktop: 0 10px;
+$SwatchMarginDesktop-firstChild: 0 10px 0 0;
+
+.Swatch {
+  margin: $SwatchMarginMobile;
+  position: relative;
+  box-sizing: border-box;
+  width: $SwatchSizeMobile;
+  height: $SwatchSizeMobile;
+  border-radius: $plp-product-swatch-radius;
+  transform: translate3d(0, 0, 0);
+
+  &:first-child {
+    margin: $SwatchMarginMobile-firstChild;
+  }
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: $plp-product-swatch-button-after-border;
+    border-radius: $plp-product-swatch-radius;
+    pointer-events: none;
+    transition: $plp-product-swatch-button-selected-after-transition;
+    transform: $plp-product-swatch-button-after-transform;
+  }
+
+  &.is-selected {
+    &:after {
+      border: $plp-product-swatch-button-selected-after-border;
+      border-bottom: $plp-product-swatch-button-selected-after-border-bottom;
+      top: $plp-product-swatch-button-selected-after-top;
+      left: 0px;
+      transform: $plp-product-swatch-button-selected-after-transform;
+    }
+  }
+
+  &-link {
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: $plp-product-swatch-radius;
+  }
+
+  &--pdp {
+    margin: 0;
+  }
+
+  &-linkImage {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    user-select: none;
+  }
+}
+
+@media $min-tablet {
+  .Swatch {
+    &--pdp {
+      margin: 0;
+      width: $SwatchSizeDesktop;
+      height: $SwatchSizeDesktop;
+    }
+  }
+}
+
+@media $desktop {
+  .Swatch {
+    margin: $SwatchMarginDesktop;
+    width: $SwatchSizeDesktop;
+    height: $SwatchSizeDesktop;
+
+    &:first-child {
+      margin: $SwatchMarginDesktop-firstChild;
+    }
+  }
+}

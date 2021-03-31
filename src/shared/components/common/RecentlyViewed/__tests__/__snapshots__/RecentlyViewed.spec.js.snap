@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecentlyViewed /> @renders if \`recentlyViewed\` prop supplied should render recently viewed items 1`] = `
+<div
+  className="RecentlyViewed"
+>
+  <h3
+    className="RecentlyViewed-header"
+  >
+    Recently viewed
+  </h3>
+  <Connect(ProductCarousel)
+    hideProductMeta={true}
+    onProductLinkClick={[Function]}
+    onProductRemove={[Function]}
+    products={
+      Array [
+        Object {
+          "amplienceUrl": "http://www.images.com",
+          "imageUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS02P03MIND_Small_F_1.jpg",
+          "iscmCategory": "JEAN",
+          "name": "MOTO Indigo Holding Power Jeans",
+          "productId": 30348471,
+          "unitPrice": "40.00",
+        },
+        Object {
+          "amplienceUrl": "http://www.images.com",
+          "imageUrl": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS03P13MLIL_Small_F_1.jpg",
+          "iscmCategory": "SWIM",
+          "name": "Marble Reversible Crop Bikini Top",
+          "productId": 29434229,
+          "unitPrice": "10.00",
+        },
+      ]
+    }
+  />
+</div>
+`;

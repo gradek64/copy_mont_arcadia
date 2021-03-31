@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentDetails/> @renders in default state (no validations error) 1`] = `
+<section
+  className="PaymentDetails"
+>
+  <h3>
+    Payment details
+  </h3>
+  <p>
+    Please note, for security reasons you will need to update your payment details each time you update your delivery information.
+  </p>
+  <Connect(Select)
+    isRequired={true}
+    label="Payment type"
+    name="paymentOption"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "description": "Pay with VISA",
+          "label": "Visa",
+          "type": "CARD",
+          "value": "VISA",
+        },
+        Object {
+          "description": "Pay with MasterCard",
+          "label": "MasterCard",
+          "type": "CARD",
+          "value": "MCARD",
+        },
+      ]
+    }
+    value="VISA"
+  />
+  <div>
+    <Connect(Input)
+      errors={Object {}}
+      isRequired={true}
+      label="Card Number"
+      name="cardNumber"
+      placeholder="Card Number"
+      privacyProtected={true}
+      setField={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "type",
+            ],
+            Array [
+              "expiryMonth",
+            ],
+            Array [
+              "expiryYear",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+          ],
+        }
+      }
+      touchedField={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "type",
+            ],
+            Array [
+              "expiryMonth",
+            ],
+            Array [
+              "expiryYear",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+          ],
+        }
+      }
+      type="tel"
+    />
+    <div
+      className="PaymentDetails-row"
+    >
+      <Connect(Select)
+        className="PaymentDetails-expiryMonth"
+        isRequired={true}
+        label="Expiry: month"
+        name="expiryMonth"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+        options={Array []}
+        privacyProtected={true}
+        value="undefined"
+      />
+      <Connect(Select)
+        className="PaymentDetails-expiryYear"
+        isRequired={true}
+        label="Expiry: year"
+        name="expiryYear"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+        options={Array []}
+        privacyProtected={true}
+        value="undefined"
+      />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<PaymentDetails/> @renders with expire validation message 1`] = `
+<section
+  className="PaymentDetails"
+>
+  <h3>
+    Payment details
+  </h3>
+  <p>
+    Please note, for security reasons you will need to update your payment details each time you update your delivery information.
+  </p>
+  <Connect(Select)
+    isRequired={true}
+    label="Payment type"
+    name="paymentOption"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "description": "Pay with VISA",
+          "label": "Visa",
+          "type": "CARD",
+          "value": "VISA",
+        },
+        Object {
+          "description": "Pay with MasterCard",
+          "label": "MasterCard",
+          "type": "CARD",
+          "value": "MCARD",
+        },
+      ]
+    }
+    value="VISA"
+  />
+  <div>
+    <Connect(Input)
+      errors={
+        Object {
+          "expiryMonth": "Enter a valid Year",
+        }
+      }
+      isRequired={true}
+      label="Card Number"
+      name="cardNumber"
+      placeholder="Card Number"
+      privacyProtected={true}
+      setField={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "type",
+            ],
+            Array [
+              "expiryMonth",
+            ],
+            Array [
+              "expiryYear",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+          ],
+        }
+      }
+      touchedField={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "type",
+            ],
+            Array [
+              "expiryMonth",
+            ],
+            Array [
+              "expiryYear",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+            Object {
+              "type": "return",
+              "value": [MockFunction],
+            },
+          ],
+        }
+      }
+      type="tel"
+    />
+    <div
+      className="PaymentDetails-row"
+    >
+      <Connect(Select)
+        className="PaymentDetails-expiryMonth"
+        isRequired={true}
+        label="Expiry: month"
+        name="expiryMonth"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+        options={Array []}
+        privacyProtected={true}
+        value="undefined"
+      />
+      <Connect(Select)
+        className="PaymentDetails-expiryYear"
+        isRequired={true}
+        label="Expiry: year"
+        name="expiryYear"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+        options={Array []}
+        privacyProtected={true}
+        value="undefined"
+      />
+    </div>
+  </div>
+  <div
+    className="PaymentDetails-expiryValidationMessage"
+  >
+    Enter a valid Year
+  </div>
+</section>
+`;
+
+exports[`<PaymentDetails/> @renders with other type of payments 1`] = `
+<section
+  className="PaymentDetails"
+>
+  <h3>
+    Payment details
+  </h3>
+  <p>
+    Please note, for security reasons you will need to update your payment details each time you update your delivery information.
+  </p>
+  <Connect(Select)
+    isRequired={true}
+    label="Payment type"
+    name="paymentOption"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "description": "Pay with Paypal",
+          "label": "Paypal",
+          "type": "OTHER",
+          "value": "PYPAL",
+        },
+      ]
+    }
+    value="VISA"
+  />
+</section>
+`;
+
+exports[`<PaymentDetails/> @renders without payments methods 1`] = `
+<section
+  className="PaymentDetails"
+>
+  <h3>
+    Payment details
+  </h3>
+  <p>
+    Please note, for security reasons you will need to update your payment details each time you update your delivery information.
+  </p>
+  <Connect(Select)
+    isRequired={true}
+    label="Payment type"
+    name="paymentOption"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    options={Array []}
+    value="VISA"
+  />
+</section>
+`;

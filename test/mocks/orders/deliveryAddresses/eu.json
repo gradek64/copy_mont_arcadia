@@ -1,0 +1,23 @@
+{
+    "smsMobileNumber": "",
+    "remoteIpAddress": "127.0.0.1",
+    "orderDeliveryOption": {
+        "shippingCountry": "Germany"
+    },
+    "deliveryInstructions": "",
+    "returnUrl": "http://0.0.0.0:8080/order/summary?complete=true",
+    "deliveryAddress": {
+        "address1": "Test",
+        "address2": null,
+        "city": "Place",
+        "state": null,
+        "country": "Germany",
+        "postcode": "12344"
+    },
+    "deliveryNameAndPhone": {
+        "firstName": "Test",
+        "lastName": "Test",
+        "telephone": "01234123123",
+        "title": "Frau"
+    }
+}

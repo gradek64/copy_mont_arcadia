@@ -1,0 +1,39 @@
+/** @define Register */
+
+.Register {
+  box-sizing: border-box;
+  margin-top: 28px;
+  padding: 0 $page-padding;
+  &--guest {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media $min-tablet {
+  .Register {
+    &--signin {
+      & .Register {
+        &-header {
+          border-bottom: 1px solid $signin-title-border-color;
+          padding-bottom: 20px;
+        }
+      }
+    }
+    &--guest {
+      max-width: 360px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .Register {
+    &--signin {
+      & .Register {
+        &-form {
+          width: 60%;
+        }
+      }
+    }
+  }
+}

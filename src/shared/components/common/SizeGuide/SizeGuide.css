@@ -1,0 +1,121 @@
+/** @define SizeGuide */
+
+.SizeGuide {
+  position: $pdp-size-guide-position;
+  top: $pdp-size-guide-offset-top;
+  bottom: $pdp-size-guide-offset-bottom;
+  left: $pdp-size-guide-offset-left;
+  right: $pdp-size-guide-offset-right;
+  width: 100%;
+  text-align: center;
+
+  &-link {
+    color: $pdp-size-guide-color;
+    text-decoration: none;
+    text-transform: $pdp-size-guide-text-transform;
+    border-bottom: $pdp-size-guide-border-width solid $pdp-size-guide-border-color;
+  }
+
+  &-label {
+    font-size: $pdp-size-guide-font-size;
+    font-weight: $pdp-size-guide-font-weight;
+    font-family: $pdp-size-guide-font-family;
+    letter-spacing: $pdp-size-guide-letter-spacing;
+    vertical-align: top;
+  }
+
+  &-icon {
+    display: $pdp-size-guide-icon-display;
+    height: $pdp-size-guide-icon-height;
+    width: 32px;
+    margin-right: $pdp-size-guide-icon-margin-right;
+    background-image: url('public/common/images/size_guide.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--bundles {
+    text-align: left;
+    position: static;
+  }
+
+  &--box {
+    width: 70px;
+
+    & .SizeGuide {
+      &-link {
+        height: 90px;
+        border: 1px solid $pdp-size-guide-border-color;
+        font-size: 10px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 3.8px;
+        box-sizing: border-box;
+      }
+      &-label {
+        hyphens: auto;
+        word-break: break-word;
+      }
+      &-icon {
+        margin: 0 0 5px;
+        width: 100%;
+      }
+    }
+  }
+  &--pdp {
+    margin-top: $pdp-size-guide-margin-top-pdp;
+  }
+}
+
+@media $min-tablet {
+  /* postcss-bem-linter: ignore */
+  .MiniProduct-details .SizeGuide--bundles {
+    padding-bottom: 10px;
+  }
+
+  .SizeGuide {
+    &--pdp {
+      text-align: end;
+    }
+    &--box {
+      text-align: center;
+      padding-top: 0;
+    }
+
+    &--sizeGuideButtonAsSizeTile {
+      margin: 0 auto;
+      padding: 0;
+      width: 50px;
+
+      & .SizeGuide-link {
+        position: relative;
+        height: 50px;
+        border: none;
+      }
+
+      & .SizeGuide-icon {
+        position: absolute;
+        bottom: -5px;
+        left: 13px;
+      }
+
+      & .SizeGuide-label {
+        position: absolute;
+        left: 0;
+        padding: 5px;
+        bottom: 10px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+@media $mobile {
+  .SizeGuide {
+    &--pdp {
+      margin-top: $pdp-size-guide-margin-top-pdp-mobile;
+    }
+  }
+}

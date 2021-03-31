@@ -1,0 +1,7 @@
+/** @define SocialProofProductOverlay; weak */
+
+.SocialProofProductOverlay {
+  margin-bottom: 14px;
+  width: 40%;
+  min-width: 110px;
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingAddressPreview /> @renders in default state 1`] = `
+<div
+  className="DeliveryAddressPreview"
+>
+  <h3
+    className="DeliveryAddressPreview-title"
+  >
+    Billing Details
+  </h3>
+  <AddressPreview
+    address={
+      Object {
+        "address1": "3 Britten Close",
+        "address2": "",
+        "city": "LONDON",
+        "country": "United Kingdom",
+        "postcode": "NW11 7HQ",
+        "state": "",
+      }
+    }
+    details={
+      Object {
+        "firstName": "Man",
+        "lastName": "Mo",
+        "telephone": "0980090980",
+        "title": "Mr",
+      }
+    }
+    heading={false}
+    onClickChangeButton={[Function]}
+    rightAlignedButton={false}
+  />
+</div>
+`;

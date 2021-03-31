@@ -1,0 +1,99 @@
+/** @define FooterCheckout */
+
+.FooterCheckout {
+  opacity: 1;
+  border-top: $footer-checkout-container-horizontal-line-border-top;
+  margin-top: 20px;
+
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4px auto;
+    max-width: 1200px;
+    padding: 0 $left-col-margin;
+  }
+
+  &-paymentIconContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 21px;
+    align-items: center;
+  }
+
+  &-weaccept {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  &-paymentIconWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-paymentIcon {
+    width: 50px;
+    height: 34px;
+  }
+
+  &-linksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 18px;
+    font-size: 12px;
+  }
+
+  &-link:not(:last-child) {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+}
+
+
+@media $tablet {
+  .FooterCheckout {
+    &-container {
+      justify-content: center;
+    }
+  }
+}
+
+@media $mobile {
+  .FooterCheckout {
+
+    &-container {
+      justify-content: center;
+      margin-bottom: 47px;
+    }
+
+    &-paymentIconContainer {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &-paymentIcon {
+      width: 11%;
+    }
+
+    &-linksContainer {
+      justify-content: center;
+      margin-top: 17px;
+    }
+
+    &-link {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 2px;
+    }
+
+    &-weaccept {
+      margin: unset;
+      margin-bottom: 20px;
+    }
+  }
+}
+

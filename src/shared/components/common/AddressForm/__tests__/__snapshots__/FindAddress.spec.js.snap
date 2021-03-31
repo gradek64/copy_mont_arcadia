@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FindAddress /> @renders should render default state 1`] = `
+<section
+  aria-label="Find Address"
+  className="FindAddressV1 FindAddressV1--multiColumn"
+>
+  <div
+    className="FindAddressV1-form"
+  >
+    <div
+      className="FindAddressV1-row"
+    >
+      <Connect(Input)
+        className="FindAddressV1-postcode"
+        errors={Object {}}
+        field={Object {}}
+        isRequired={true}
+        label="Postcode"
+        name="postcode"
+        onBlur={[Function]}
+        placeholder="Eg. W1T 3NL"
+        setField={[Function]}
+      />
+      <Connect(Input)
+        className="FindAddressV1-houseNumber"
+        errors={Object {}}
+        field={Object {}}
+        label="House number"
+        name="houseNumber"
+        placeholder="Eg. 214"
+        setField={[Function]}
+      />
+    </div>
+    <FormButton
+      className="FindAddressV1-button"
+      customClass="FindAddressV1-cta"
+      isDisabled={false}
+      name="findAddress"
+      onClick={[Function]}
+    >
+      Find Address
+    </FormButton>
+    <button
+      className="FindAddressV1-link"
+      onClick={[Function]}
+      type="button"
+    >
+      or manually enter address
+    </button>
+    <Connect(Select)
+      className="FindAddressV1-selectAddress is-hidden"
+      errors={Object {}}
+      firstDisabled="Please select your address..."
+      isRequired={true}
+      label="Click to select your address"
+      name="selectAddress"
+      onChange={[Function]}
+      options={Array []}
+    />
+  </div>
+</section>
+`;

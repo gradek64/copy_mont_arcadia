@@ -1,0 +1,33 @@
+/** @define DigitalDeliveryPass */
+.DigitalDeliveryPass {
+  border-width: 1px $ddp-border-width;
+
+  &-headerContainer {
+    background-color: $ddp-header-container-colour;
+  }
+
+  &.is-expanded {
+    & .DigitalDeliveryPass {
+      &-headerContainer {
+        background-color: $ddp-header-container-colour;
+      }
+    }
+  }
+  &-content {
+    border-top: $ddp-content-border-top;
+  }
+
+  &-header {
+    margin: 0;
+  }
+
+  &-icon {
+    width: 35px;
+    margin-right: 10px;
+  }
+
+  &-container {
+    display: flex;
+    align-items: center;
+  }
+}

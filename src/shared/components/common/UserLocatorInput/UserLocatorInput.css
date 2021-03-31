@@ -1,0 +1,172 @@
+/** @define UserLocatorInput */
+
+/* postcss-bem-linter: ignore */
+.UserLocatorInput-loader .Loader-image {
+  width: 20px;
+  height: auto;
+}
+
+.UserLocatorInput {
+  /** important required to override generic CSS */
+  &-loader {
+    height: 16px;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  &-label {
+    display: none;
+  }
+  &-inputContainer {
+    position: relative;
+    display: flex;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.3s ease;
+    &.is-visible {
+      visibility: visible;
+      height: $user-locator-height;
+      margin-top: $user-locator-margin-top;
+    }
+    &.is-predictionsListOpen {
+      overflow: visible;
+    }
+  }
+  &-predictionsList {
+    position: absolute;
+    width: 100%;
+    top: $user-locator-height;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  &-predictionsListItem {
+    border: solid $md-gray;
+    border-width: 0 1px 1px 1px;
+    background-color: $white;
+    box-sizing: border-box;
+    line-height: 2.8;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  &-active {
+    background-color: $store-locator-prediction-active;
+    box-shadow: 0 2px 0px 0 rgba(0, 0, 0, .2);
+  }
+  &-inActive {
+    animation: fadeOut 0.3s;
+  }
+  &-queryInput {
+    display: flex;
+    flex-basis: $user-locator-input-width;
+    font-weight: $user-locator-input-font-weight;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    height: 100%;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 $user-locator-input-padding;
+    border: solid $user-locator-input-border-color $user-locator-input-border-width;
+    border-radius: $input-border-radius 0 0 $input-border-radius;
+    border-right: none;
+    &:active, &:focus {
+      border-color: $user-locator-input-border-focus-color;
+    }
+  }
+  &-inputField {
+    flex-grow: 1;
+    height: 100%;
+    outline: 0;
+    font-size: $font-size-input;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    &::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+    }
+    &::-ms-clear {
+      display: none;
+    }
+  }
+  &-suffix {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &-rightIcon {
+    width: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: $clear-icon-button;
+  }
+  &-loader {
+    margin: 0;
+  }
+  &-clearButton {
+    height: 16px;
+    width: 16px;
+    background-image: url('public/common/images/location-clear-icon.svg');
+  }
+  &-currentLocationButton {
+    background-image: url('public/common/images/location-generic-off.svg');
+    width: 16px;
+    height: 16px;
+    margin-left: $user-locator-input-padding;
+    &.is-located {
+      background-image: url('public/common/images/location-generic-on.svg')
+    }
+    &.is-pending {
+      background-image: none;
+    }
+  }
+  &-useMyLocation {
+    padding: 15px 10px 0 0;
+  }
+  &-btn {
+    position: relative;
+    padding: 0 0 0 20px;
+    color: #333333;
+    letter-spacing: -0.25px;
+    text-decoration: underline;
+  }
+  &-btn:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 16px;
+    width: 16px;
+    transform: translateY(-50%);
+    background-image: url('public/common/images/icon_geolocation.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
+
+
+@keyframes fadeOut {
+  /* postcss-bem-linter: ignore */
+  0% { 
+    background-color:#e6e6e6;
+  }
+  /* postcss-bem-linter: ignore */
+  100% {
+    background-color: null;
+  }
+}

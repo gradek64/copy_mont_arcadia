@@ -1,0 +1,102 @@
+{
+  "deliveryLocations": [
+    {
+      "deliveryLocationType": "HOME",
+      "selected": true,
+      "enabled": true,
+      "label": "undefined ",
+      "deliveryMethods": [
+        {
+          "shipModeId": 26504,
+          "deliveryType": "HOME_STANDARD",
+          "label": "UK Standard up to 4 days",
+          "additionalDescription": "Up to 4 days",
+          "selected": false,
+          "deliveryOptions": [],
+          "enabled": true,
+          "cost": "3.95",
+          "shipCode": "S"
+        },
+        {
+          "label": "Next or Named Day Delivery",
+          "additionalDescription": "",
+          "selected": true,
+          "deliveryType": "HOME_EXPRESS",
+          "deliveryOptions": [
+            {
+              "dayText": "Sat",
+              "dateText": "15 Sep",
+              "nominatedDate": "2018-09-15",
+              "selected": true,
+              "shipModeId": 28007,
+              "price": "6.00",
+              "enabled": true
+            },
+            {
+              "dayText": "Mon",
+              "dateText": "17 Sep",
+              "nominatedDate": "2018-09-17",
+              "selected": false,
+              "shipModeId": 28002,
+              "price": "6.00",
+              "enabled": true
+            },
+            {
+              "dayText": "Tue",
+              "dateText": "18 Sep",
+              "nominatedDate": "2018-09-18",
+              "selected": false,
+              "shipModeId": 28003,
+              "price": "6.00",
+              "enabled": true
+            },
+            {
+              "dayText": "Wed",
+              "dateText": "19 Sep",
+              "nominatedDate": "2018-09-19",
+              "selected": false,
+              "shipModeId": 28004,
+              "price": "6.00",
+              "enabled": true
+            },
+            {
+              "dayText": "Thu",
+              "dateText": "20 Sep",
+              "nominatedDate": "2018-09-20",
+              "selected": false,
+              "shipModeId": 28005,
+              "price": "6.00",
+              "enabled": true
+            },
+            {
+              "dayText": "Fri",
+              "dateText": "21 Sep",
+              "nominatedDate": "2018-09-21",
+              "selected": false,
+              "shipModeId": 28006,
+              "price": "6.00",
+              "enabled": true
+            }
+          ],
+          "enabled": true,
+          "cost": "6.00",
+          "shipCode": "N6"
+        }
+      ]
+    },
+    {
+      "deliveryLocationType": "STORE",
+      "selected": false,
+      "enabled": true,
+      "label": "undefined ",
+      "deliveryMethods": []
+    },
+    {
+      "deliveryLocationType": "PARCELSHOP",
+      "selected": false,
+      "enabled": true,
+      "label": "undefined ",
+      "deliveryMethods": []
+    }
+  ]
+}

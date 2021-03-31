@@ -1,0 +1,232 @@
+/** @define Input */
+
+@lost flexbox flex;
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin: $input-margin-vertical 0;
+  font-family: $font-family-input;
+
+  &-field {
+    height: $form-element-height;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: $input-padding;
+    font-size: $input-field-font-size;
+    letter-spacing: $input-field-letter-spacing;
+    border-radius: $input-border-radius;
+    box-shadow: $input-box-shadow;
+    -webkit-appearance: none;
+
+    background: $input-background;
+    border: $input-border-width solid $input-pre-border-color;
+
+    /* IE11 FIX
+     * The clear button is only shown on focused, non-empty text controls.
+     * https://developer.mozilla.org/en-US/docs/Web/CSS/::-ms-clear
+     */
+    &::-ms-clear {
+      display: none;
+    }
+
+    &--paddingRight {
+      padding-right: 59px;
+    }
+    &::placeholder {
+      font-weight: $input-placeholder-font-weight;
+      font-style: $input-placeholder-font-style;
+      color: $input-placeholder-font-color;
+      text-transform: $input-placeholder-text-transform;
+    }
+  }
+
+  &-head {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  &-badge {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+  }
+
+  &-label {
+    margin-left: $input-label-margin-left;
+    color: $input-pre-label-font-color;
+    font-weight: $input-pre-label-font-weight;
+    font-style: $input-pre-label-font-style;
+    text-transform: $input-pre-label-text-transform;
+    margin-right: auto;
+    flex-shrink: 0;
+  }
+
+  &-required {
+    color: $input-required-color;
+  }
+
+  &-validationMessage {
+    color: $error-color;
+    line-height: $message-message-line-height;
+    font-size: $input-error-message-font-size;
+    text-align: right;
+    flex-grow: 1;
+
+    &--bottom {
+      display: block;
+      margin-top: 5px;
+      text-align: left;
+    }
+  }
+
+  &-container {
+    position: relative;
+    flex-grow: 1;
+  }
+
+  &-validateIcon {
+    position: absolute;
+    top: calc( $form-element-height * 0.2 );
+    right: $input-validation-icon-right;
+    height: calc( $form-element-height * 0.6 );
+    width:  calc( $form-element-height * 0.6 );
+  }
+
+  &-revealPasswordImage {
+    height: calc( $form-element-height * 0.7 );
+    width:  calc( $form-element-height * 0.7 );
+  }
+
+  &.is-touched {
+    & .Input-field {
+      font-weight: $input-post-font-weight;
+      font-style: $input-post-font-style;
+      color: $input-post-font-color;
+      text-transform: $input-post-text-transform;
+      border: $input-border-width solid $input-post-border-color;
+    }
+    & .Input-label {
+      color: $input-post-label-font-color;
+      font-weight: $input-post-label-font-weight;
+      font-style: $input-post-label-font-style;
+      text-transform: $input-post-label-text-transform;
+    }
+    & .Input-toggleButton {
+      border-color: $input-post-border-color;
+    }
+  }
+
+  &.is-active {
+    & .Input-field {
+      font-weight: $input-active-font-weight;
+      font-style: $input-active-font-style;
+      text-transform: $input-active-text-transform;
+      color: $input-active-font-color;
+      border: $input-border-width solid $input-active-border-color;
+      background: $input-active-background;
+      outline: $input-active-outline;
+
+      &::placeholder {
+        color: transparent;
+      }
+    }
+    & .Input-label {
+      color: $input-active-label-font-color;
+      font-weight: $input-active-label-font-weight;
+      font-style: $input-active-label-font-style;
+      text-transform: $input-active-label-text-transform;
+    }
+    & .Input-toggleButton {
+      border-color: $input-active-border-color;
+      outline: $input-active-outline;
+    }
+  }
+
+  &.is-disabled {
+    & .Input-field {
+      font-weight: $input-inactive-font-weight;
+      font-style: $input-inactive-font-style;
+      text-transform: $input-inactive-text-transform;
+      color: $input-inactive-font-color;
+      background: $input-inactive-background;
+      border: $input-border-width solid $input-inactive-border-color;
+    }
+    & .Input-label {
+      color: $input-inactive-label-font-color;
+      font-weight: $input-inactive-label-font-weight;
+      font-style: $input-inactive-label-font-style;
+      text-transform: $input-inactive-label-text-transform;
+    }
+    & .Input-toggleButton {
+      border-color: $input-inactive-border-color;
+    }
+  }
+
+  &.is-erroring {
+    & .Input-field {
+      border: $input-border-width solid $input-error-border-color;
+    }
+    & .Input-toggleButton {
+      border-color: $input-error-border-color;
+    }
+  }
+
+  &-promotionCode {
+    margin-top: 10px;
+
+    & .Input-validateSuccess {
+      display: none;
+    }
+  }
+
+  &-row {
+    display: flex;
+  }
+
+  &-toggleButton {
+    align-items: center;
+    background: $input-background;
+    border-color: $input-pre-border-color;
+    border-left: solid 1px #CCC;
+    border-style: solid;
+    border-width: $input-border-width;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    height: $form-element-height;
+    justify-content: center;
+    margin-left: -2px;
+    order: 2;
+    outline-offset: -2px;
+    position: relative;
+    width: 40px;
+  }
+
+  &-toggleButtonText {
+    display: block;
+    text-align: center;
+    line-height: calc($form-element-height - (2*$input-border-width));
+
+    &.is-hidden {
+      visibility: hidden;
+    }
+  }
+
+  &-toggleButtonHide {
+    transform: translateY(-100%)
+  }
+
+  &-toggleButton + &-container &-field {
+    border-right: solid 1px #CCC;
+  }
+
+}
+
+.Input:last-of-type {
+  margin-bottom: 20px;
+}

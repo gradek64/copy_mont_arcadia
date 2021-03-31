@@ -1,0 +1,870 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentSummary /> should not render the gift card remaining amount if no gift card is used 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Visa
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1111
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £52.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should only render the gift card amount paid if order total is covered by gift card 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £52.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "52.00",
+                "remainingBalance": "0.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should render as expected when all props have been specified 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Visa
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1111
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £52.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="1"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £10.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1111",
+                "isCardType": true,
+                "method": "Visa",
+                "price": "52.00",
+                "type": "VISA",
+              },
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "10.00",
+                "remainingBalance": "42.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should render the gift card remaining amount 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £10.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "10.00",
+                "remainingBalance": "42.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should render the total account card amount to be paid for order partially covered with gift card 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Account Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                0005
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £8.45
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="1"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £10.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************0005",
+                "isCardType": true,
+                "method": "Account Card",
+                "price": "8.45",
+                "type": "ACCNT",
+              },
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "10.00",
+                "remainingBalance": "0.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should render the total klarna amount to be paid for order partially covered with gift card 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Klarna
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £32.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="1"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £10.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "",
+                "isCardType": false,
+                "method": "Klarna",
+                "price": "52.00",
+                "priceAfterDiscount": "32.00",
+                "type": "KLRNA",
+              },
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "10.00",
+                "remainingBalance": "0.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should render the total paypal amount to be paid for order partially covered with gift card 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Paypal
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £32.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="1"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £10.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "",
+                "isCardType": false,
+                "method": "Paypal",
+                "price": "52.00",
+                "priceAfterDiscount": "32.00",
+                "type": "PYPAL",
+              },
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "10.00",
+                "remainingBalance": "0.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;
+
+exports[`<PaymentSummary /> should render the total visa amount to be paid for order partially covered with gift card 1`] = `
+<article
+  className="PaymentSummary"
+>
+  <header
+    className="PaymentSummary-header"
+  >
+    <h1
+      className="PaymentSummary-headerText qa-heading"
+    >
+      Payment details
+    </h1>
+  </header>
+  <div
+    className="PaymentSummary-body"
+  >
+    <table
+      className="PaymentSummary-table"
+    >
+      <thead
+        className="PaymentSummary-tableHead qa-thead"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row PaymentSummary-totalRow"
+        >
+          <th
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            Total Cost
+          </th>
+          <th
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight PaymentSummary-totalPrice qa-column"
+          >
+            £52.00
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="qa-tbody"
+      >
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="0"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Visa
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1111
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £32.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <tr
+          className="PaymentSummary-tableRow qa-row"
+          key="1"
+        >
+          <td
+            className="PaymentSummary-tableColumn qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                Gift Card
+              </span>
+            </PrivacyGuard>
+            <PrivacyGuard>
+              <span>
+                **** **** **** 
+                1234
+              </span>
+            </PrivacyGuard>
+          </td>
+          <td
+            className="PaymentSummary-tableColumn PaymentSummary-tableColumnRight qa-column"
+          >
+            <PrivacyGuard>
+              <span>
+                £10.00
+              </span>
+            </PrivacyGuard>
+          </td>
+        </tr>
+        <GiftCardsRemainingBalance
+          payments={
+            Array [
+              Object {
+                "cardNumber": "************1111",
+                "isCardType": true,
+                "method": "Visa",
+                "price": "52.00",
+                "priceAfterDiscount": "32.00",
+                "type": "VISA",
+              },
+              Object {
+                "cardNumber": "************1234",
+                "isCardType": true,
+                "method": "Gift Card",
+                "price": "10.00",
+                "remainingBalance": "0.00",
+                "type": "GCARD",
+              },
+            ]
+          }
+        />
+      </tbody>
+    </table>
+  </div>
+</article>
+`;

@@ -1,0 +1,67 @@
+/** @define ProductCarousel */
+
+.ProductCarousel {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 25px;
+
+  &-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &-arrow--left,
+  &-arrow--right {
+    width: calc($carousel-arrow-width + $carousel-arrow-position);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url('public/$brand/images/carousel-arrow-left.svg') 50% no-repeat;
+  }
+
+  &-arrow--left {
+    left: 0;
+  }
+
+  &-arrow--right {
+    right: 0;
+    transform: scaleX(-1);
+  }
+
+  &-arrow--top,
+  &-arrow--bottom {
+    width: 100%;
+    height: $carousel-vertical-arrow-height;
+    background: url('public/common/images/carousel-vertical-arrow.png') center no-repeat;
+    background-size: $carousel-vertical-arrow-width auto;
+    z-index: 1;
+    margin: 5px 0;
+    flex-shrink: 0;
+  }
+  &-arrow--bottom {
+    transform: rotate(180deg);
+  }
+
+  &-vertical {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    .ProductCarousel-container {
+      white-space: pre-wrap;
+      height: 350px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .ProductCarousel {
+    &-arrow--left,
+    &-arrow--right {
+      height: 80%;
+    }
+  }
+}

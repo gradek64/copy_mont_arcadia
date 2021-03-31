@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getWishlistTransform transform functions assetsFragment should generate asset URLs 1`] = `
+Array [
+  Object {
+    "assetType": "IMAGE_THUMB",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_F_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_SMALL",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_F_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_NORMAL",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_F_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_LARGE",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_F_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_OUTFIT_THUMB",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_M_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_OUTFIT_SMALL",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_M_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_OUTFIT_NORMAL",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_M_1.jpg",
+  },
+  Object {
+    "assetType": "IMAGE_OUTFIT_LARGE",
+    "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS10N07NRED_Small_M_1.jpg",
+  },
+]
+`;

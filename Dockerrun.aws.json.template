@@ -1,0 +1,118 @@
+{
+  "AWSEBDockerrunVersion": "2",
+  "volumes" : [
+    {
+      "name": "root",
+      "host": {
+        "sourcePath": "/"
+      }
+    },
+    {
+      "name": "var_run",
+      "host": {
+        "sourcePath": "/var/run"
+      }
+    },
+    {
+      "name": "sys",
+      "host": {
+        "sourcePath": "/sys"
+      }
+    },
+    {
+      "name": "cgroup",
+      "host": {
+        "sourcePath": "/cgroup"
+      }
+    },
+    {
+      "name": "var_lib_docker",
+      "host": {
+        "sourcePath": "/var/lib/docker"
+      }
+    },
+    {
+      "name": "dev_disk",
+      "host": {
+        "sourcePath": "/dev/disk"
+      }
+    }
+  ],
+  "containerDefinitions": [
+    {
+      "name": "monty",
+      "image": "arcadiagroup/full-monty:<TAG>",
+      "esential": true,
+      "memoryReservation": <MONTY_MEMORY_SIZE>,
+      "environment": [
+        { "name": "CONTAINER_SNS_PORT", "value": "9001" }
+      ],
+      "portMappings": [
+        { "hostPort": 80, "containerPort": 3000 },
+        { "hostPort": 9001, "containerPort": 9000 }
+      ],
+      "linuxParameters": {
+        "capabilities": {
+          "add": ["SYS_PTRACE"]
+        }
+      },
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "full-monty-app",
+          "awslogs-stream-prefix": "<APP_NAME>",
+          "awslogs-region": "eu-west-1"
+        }
+      }
+    },
+    {
+      "name": "cadvisor",
+      "image": "google/cadvisor:v0.28.3",
+      "essential": true,
+      "memoryReservation": 128,
+      "privileged": "true",
+      "mountPoints": [
+        {
+          "sourceVolume": "root",
+          "containerPath": "/rootfs",
+          "readOnly": true
+        },
+        {
+          "sourceVolume": "var_run",
+          "containerPath": "/var/run",
+          "readOnly": false
+        },
+        {
+          "sourceVolume": "sys",
+          "containerPath": "/sys",
+          "readOnly": true
+        },
+        {
+          "sourceVolume": "cgroup",
+          "containerPath": "/sys/fs/cgroup",
+          "readOnly": true
+        },
+        {
+          "sourceVolume": "var_lib_docker",
+          "containerPath": "/var/lib/docker",
+          "readOnly": true
+        },
+        {
+          "sourceVolume": "dev_disk",
+          "containerPath": "/dev/disk",
+          "readOnly": true
+        }
+      ],
+      "portMappings": [
+        {
+          "hostPort": 8080,
+          "containerPort": 8080
+        }
+      ]
+    }
+  ],
+  "Authentication": {
+    "Bucket": "<EB_BUCKET>",
+    "Key": ".dockercfg"
+  }
+}

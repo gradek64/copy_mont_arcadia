@@ -1,0 +1,6 @@
+FROM docker.elastic.co/beats/metricbeat:5.6.2
+
+USER root
+COPY docker/logging/metricbeat.yml /usr/share/metricbeat/metricbeat.yml
+RUN yum update -y; yum upgrade -y; yum clean all \
+    && chown root /usr/share/metricbeat/metricbeat.yml

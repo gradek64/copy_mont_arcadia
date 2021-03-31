@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withRestrictedActionDispatch does not have any visual impact matches snapshot 1`] = `
+<Connect(WithRestrictedActionDispatch(TestComponentAnonymous))>
+  <WithRestrictedActionDispatch(TestComponentAnonymous)
+    userEmail="abc@123.com"
+  >
+    <TestComponentAnonymous>
+      <div>
+        Hello, World!
+      </div>
+    </TestComponentAnonymous>
+  </WithRestrictedActionDispatch(TestComponentAnonymous)>
+</Connect(WithRestrictedActionDispatch(TestComponentAnonymous))>
+`;

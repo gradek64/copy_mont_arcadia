@@ -1,0 +1,8 @@
+@media $min-tablet{
+
+  /* postcss-bem-linter: ignore */
+  .FindInStore .ProductSizes-errorMessage {
+    margin-top: 2px;
+  }
+
+}

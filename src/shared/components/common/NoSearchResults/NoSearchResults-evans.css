@@ -1,0 +1,8 @@
+/** @define NoSearchResults; weak */
+
+.NoSearchResults { 
+  &-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,15 @@
+/** @define KlarnaForm */
+
+.KlarnaForm {
+  margin-top: 10px;
+}
+
+/* postcss-bem-linter: ignore */
+.KlarnaForm > iframe {
+  max-width: none!important;
+}
+
+/* postcss-bem-linter: ignore */
+.KlarnaForm > #klarna-credit-main {
+  min-width: 100% !important;
+}

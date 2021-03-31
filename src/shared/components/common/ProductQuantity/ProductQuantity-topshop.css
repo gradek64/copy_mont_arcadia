@@ -1,0 +1,11 @@
+/** @define ProductQuantity; weak */
+
+.ProductQuantity {
+  & .Select--inlineLabel .Select-label {
+    text-transform: uppercase;
+  }
+
+  & .Select {
+    margin: 0;
+  }
+}

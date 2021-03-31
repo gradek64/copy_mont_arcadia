@@ -1,0 +1,10 @@
+#!/bin/bash
+
+MONTY_PORT="${MONTY_PORT:-8080}"
+
+curl -s "http://local.m.topshop.com:$MONTY_PORT/health" 1>/dev/null
+
+while [ $? -ne 0 ]; do
+  sleep 5
+  curl -s "http://local.m.topshop.com:$MONTY_PORT/health" 1>/dev/null
+done

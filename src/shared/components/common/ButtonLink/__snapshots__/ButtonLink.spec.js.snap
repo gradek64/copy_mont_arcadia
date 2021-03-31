@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonLink/> @renders in default state 1`] = `
+<div
+  className="ButtonLink"
+>
+  <button
+    aria-disabled={false}
+    aria-hidden={false}
+    className="ButtonLink-button"
+    disabled={false}
+    onClick={[Function]}
+    role="button"
+    type="button"
+  />
+</div>
+`;
+
+exports[`<ButtonLink/> @renders in disabled state 1`] = `
+<div
+  className="ButtonLink"
+>
+  <button
+    aria-disabled={true}
+    aria-hidden={true}
+    className="ButtonLink-button"
+    disabled={true}
+    onClick={[Function]}
+    role="button"
+    type="button"
+  />
+</div>
+`;
+
+exports[`<ButtonLink/> @renders with children 1`] = `
+<div
+  className="ButtonLink"
+>
+  <button
+    aria-disabled={false}
+    aria-hidden={false}
+    className="ButtonLink-button"
+    disabled={false}
+    onClick={[Function]}
+    role="button"
+    type="button"
+  >
+    <span
+      key="text"
+    >
+      Text
+    </span>
+    <i
+      key="icon"
+    />
+  </button>
+</div>
+`;
+
+exports[`<ButtonLink/> @renders with className 1`] = `
+<div
+  className="ButtonLink"
+>
+  <button
+    aria-disabled={false}
+    aria-hidden={false}
+    className="ButtonLink-button fooButton"
+    disabled={false}
+    onClick={[Function]}
+    role="button"
+    type="button"
+  />
+</div>
+`;
+
+exports[`<ButtonLink/> @renders with type 1`] = `
+<div
+  className="ButtonLink"
+>
+  <button
+    aria-disabled={false}
+    aria-hidden={false}
+    className="ButtonLink-button"
+    disabled={false}
+    onClick={[Function]}
+    role="button"
+    type="foo"
+  />
+</div>
+`;

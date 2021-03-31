@@ -1,0 +1,1127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FindInStore /> @events @functions getRecentStores with recentStores 1`] = `
+<ul
+  className="FindInStore-recentStoreList"
+/>
+`;
+
+exports[`<FindInStore /> @events @functions getRecentStores without recentStores 1`] = `
+<ul
+  className="FindInStore-recentStoreList"
+/>
+`;
+
+exports[`<FindInStore /> @renders desktop in default state 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": "auto",
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Find in store
+        </h3>
+        <div
+          className="FindInStore-row"
+        >
+          <div>
+            <Connect(Image)
+              className="FindInStore-image"
+              src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+            />
+          </div>
+          <div
+            className="FindInStore-productDetails"
+          >
+            <p
+              className="FindInStore-name"
+            >
+              Name Product
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span>
+                Price
+                : 
+              </span>
+              <Price
+                className="FindInStore-price"
+                price="85.00"
+              />
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span
+                className="FindInStore-colour"
+              >
+                Colour
+                : 
+              </span>
+              <span>
+                Blue
+              </span>
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <div>
+                <Connect(ProductSizes)
+                  activeItem={
+                    Object {
+                      "quantity": 5,
+                      "size": "3",
+                    }
+                  }
+                  className="FindInStore-productSizes"
+                  clickHandler={[MockFunction]}
+                  enableOutOfStockSelectedItems={true}
+                  error=""
+                  forceToUseSelect={true}
+                  items={
+                    Array [
+                      Object {
+                        "quantity": 5,
+                        "size": "3",
+                      },
+                      Object {
+                        "quantity": 5,
+                        "size": "4",
+                      },
+                    ]
+                  }
+                  label="Size"
+                  productId={23074019}
+                  showLowStockLabel={false}
+                  showOutOfStockLabel={false}
+                />
+              </div>
+            </p>
+            <p
+              className="FindInStore-productCode"
+            >
+              Item code
+              : 
+              07L04JWNA
+            </p>
+            <p
+              className="FindInStore-disclaimer"
+            >
+              Please note stock moves quickly and we cannot guarantee availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  />
+</div>
+`;
+
+exports[`<FindInStore /> @renders desktop with error 1`] = `null`;
+
+exports[`<FindInStore /> @renders desktop with isStoresListOpen 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": "auto",
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Find in store
+        </h3>
+        <div
+          className="FindInStore-row"
+        >
+          <div>
+            <Connect(Image)
+              className="FindInStore-image"
+              src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+            />
+          </div>
+          <div
+            className="FindInStore-productDetails"
+          >
+            <p
+              className="FindInStore-name"
+            >
+              Name Product
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span>
+                Price
+                : 
+              </span>
+              <Price
+                className="FindInStore-price"
+                price="85.00"
+              />
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span
+                className="FindInStore-colour"
+              >
+                Colour
+                : 
+              </span>
+              <span>
+                Blue
+              </span>
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <div>
+                <Connect(ProductSizes)
+                  activeItem={
+                    Object {
+                      "quantity": 5,
+                      "size": "3",
+                    }
+                  }
+                  className="FindInStore-productSizes"
+                  clickHandler={[MockFunction]}
+                  enableOutOfStockSelectedItems={true}
+                  error=""
+                  forceToUseSelect={true}
+                  items={
+                    Array [
+                      Object {
+                        "quantity": 5,
+                        "size": "3",
+                      },
+                      Object {
+                        "quantity": 5,
+                        "size": "4",
+                      },
+                    ]
+                  }
+                  label="Size"
+                  productId={23074019}
+                  showLowStockLabel={false}
+                  showOutOfStockLabel={false}
+                />
+              </div>
+            </p>
+            <p
+              className="FindInStore-productCode"
+            >
+              Item code
+              : 
+              07L04JWNA
+            </p>
+            <p
+              className="FindInStore-disclaimer"
+            >
+              Please note stock moves quickly and we cannot guarantee availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  />
+</div>
+`;
+
+exports[`<FindInStore /> @renders desktop with isStoresLoading 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": "auto",
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Find in store
+        </h3>
+        <div
+          className="FindInStore-row"
+        >
+          <div>
+            <Connect(Image)
+              className="FindInStore-image"
+              src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+            />
+          </div>
+          <div
+            className="FindInStore-productDetails"
+          >
+            <p
+              className="FindInStore-name"
+            >
+              Name Product
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span>
+                Price
+                : 
+              </span>
+              <Price
+                className="FindInStore-price"
+                price="85.00"
+              />
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span
+                className="FindInStore-colour"
+              >
+                Colour
+                : 
+              </span>
+              <span>
+                Blue
+              </span>
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <div>
+                <Connect(ProductSizes)
+                  activeItem={
+                    Object {
+                      "quantity": 5,
+                      "size": "3",
+                    }
+                  }
+                  className="FindInStore-productSizes"
+                  clickHandler={[MockFunction]}
+                  enableOutOfStockSelectedItems={true}
+                  error=""
+                  forceToUseSelect={true}
+                  items={
+                    Array [
+                      Object {
+                        "quantity": 5,
+                        "size": "3",
+                      },
+                      Object {
+                        "quantity": 5,
+                        "size": "4",
+                      },
+                    ]
+                  }
+                  label="Size"
+                  productId={23074019}
+                  showLowStockLabel={false}
+                  showOutOfStockLabel={false}
+                />
+              </div>
+            </p>
+            <p
+              className="FindInStore-productCode"
+            >
+              Item code
+              : 
+              07L04JWNA
+            </p>
+            <p
+              className="FindInStore-disclaimer"
+            >
+              Please note stock moves quickly and we cannot guarantee availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  />
+</div>
+`;
+
+exports[`<FindInStore /> @renders desktop with one size 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": "auto",
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Find in store
+        </h3>
+        <div
+          className="FindInStore-row"
+        >
+          <div>
+            <Connect(Image)
+              className="FindInStore-image"
+              src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+            />
+          </div>
+          <div
+            className="FindInStore-productDetails"
+          >
+            <p
+              className="FindInStore-name"
+            >
+              Name Product
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span>
+                Price
+                : 
+              </span>
+              <Price
+                className="FindInStore-price"
+                price="85.00"
+              />
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span
+                className="FindInStore-colour"
+              >
+                Colour
+                : 
+              </span>
+              <span>
+                Blue
+              </span>
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            />
+            <p
+              className="FindInStore-productCode"
+            >
+              Item code
+              : 
+              07L04JWNA
+            </p>
+            <p
+              className="FindInStore-disclaimer"
+            >
+              Please note stock moves quickly and we cannot guarantee availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  />
+</div>
+`;
+
+exports[`<FindInStore /> @renders desktop with stores state 1`] = `
+<div
+  className="FindInStore is-storesListOpen"
+  style={
+    Object {
+      "height": "auto",
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Find in store
+        </h3>
+        <div
+          className="FindInStore-row"
+        >
+          <div>
+            <Connect(Image)
+              className="FindInStore-image"
+              src="http://media.topshop.com/wcsstore/TopShop/images/catalog/07L04JWNA_thumb.jpg"
+            />
+          </div>
+          <div
+            className="FindInStore-productDetails"
+          >
+            <p
+              className="FindInStore-name"
+            >
+              Name Product
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span>
+                Price
+                : 
+              </span>
+              <Price
+                className="FindInStore-price"
+                price="85.00"
+              />
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <span
+                className="FindInStore-colour"
+              >
+                Colour
+                : 
+              </span>
+              <span>
+                Blue
+              </span>
+            </p>
+            <p
+              className="FindInStore-infoProduct"
+            >
+              <div>
+                <Connect(ProductSizes)
+                  activeItem={
+                    Object {
+                      "quantity": 5,
+                      "size": "3",
+                    }
+                  }
+                  className="FindInStore-productSizes"
+                  clickHandler={[MockFunction]}
+                  enableOutOfStockSelectedItems={true}
+                  error=""
+                  forceToUseSelect={true}
+                  items={
+                    Array [
+                      Object {
+                        "quantity": 5,
+                        "size": "3",
+                      },
+                      Object {
+                        "quantity": 5,
+                        "size": "4",
+                      },
+                    ]
+                  }
+                  label="Size"
+                  productId={23074019}
+                  showLowStockLabel={false}
+                  showOutOfStockLabel={false}
+                />
+              </div>
+            </p>
+            <p
+              className="FindInStore-productCode"
+            >
+              Item code
+              : 
+              07L04JWNA
+            </p>
+            <p
+              className="FindInStore-disclaimer"
+            >
+              Please note stock moves quickly and we cannot guarantee availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+        <Connect(StoreList)
+          name="FindInStore"
+          productDataQuantity={Object {}}
+          selectCFSIStore={[Function]}
+          sizeIndex={0}
+          storeType="findInStore"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  />
+</div>
+`;
+
+exports[`<FindInStore /> @renders mobile in default state 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": undefined,
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Name Product
+        </h3>
+        <div>
+          <p
+            data-modal-focus={true}
+            tabIndex="0"
+          >
+            Which size are you looking for?
+          </p>
+          <Connect(ProductSizes)
+            activeItem={
+              Object {
+                "quantity": 5,
+                "size": "3",
+              }
+            }
+            className="FindInStore-productSizes"
+            clickHandler={[MockFunction]}
+            enableOutOfStockSelectedItems={true}
+            error=""
+            forceToUseSelect={false}
+            items={
+              Array [
+                Object {
+                  "quantity": 5,
+                  "size": "3",
+                },
+                Object {
+                  "quantity": 5,
+                  "size": "4",
+                },
+              ]
+            }
+            label="Size"
+            productId={23074019}
+            showLowStockLabel={false}
+            showOutOfStockLabel={false}
+          />
+          <p
+            className="FindInStore-disclaimer"
+          >
+            Please note stock moves quickly and we cannot guarantee availability.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  >
+    <DynamicGoogleMap
+      initMapWhenGoogleMapsAvailable={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<FindInStore /> @renders mobile with error 1`] = `null`;
+
+exports[`<FindInStore /> @renders mobile with isStoresListOpen 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": undefined,
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Name Product
+        </h3>
+        <div>
+          <p
+            data-modal-focus={true}
+            tabIndex="0"
+          >
+            Which size are you looking for?
+          </p>
+          <Connect(ProductSizes)
+            activeItem={
+              Object {
+                "quantity": 5,
+                "size": "3",
+              }
+            }
+            className="FindInStore-productSizes"
+            clickHandler={[MockFunction]}
+            enableOutOfStockSelectedItems={true}
+            error=""
+            forceToUseSelect={false}
+            items={
+              Array [
+                Object {
+                  "quantity": 5,
+                  "size": "3",
+                },
+                Object {
+                  "quantity": 5,
+                  "size": "4",
+                },
+              ]
+            }
+            label="Size"
+            productId={23074019}
+            showLowStockLabel={false}
+            showOutOfStockLabel={false}
+          />
+          <p
+            className="FindInStore-disclaimer"
+          >
+            Please note stock moves quickly and we cannot guarantee availability.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  >
+    <DynamicGoogleMap
+      initMapWhenGoogleMapsAvailable={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<FindInStore /> @renders mobile with isStoresLoading 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": undefined,
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Name Product
+        </h3>
+        <div>
+          <p
+            data-modal-focus={true}
+            tabIndex="0"
+          >
+            Which size are you looking for?
+          </p>
+          <Connect(ProductSizes)
+            activeItem={
+              Object {
+                "quantity": 5,
+                "size": "3",
+              }
+            }
+            className="FindInStore-productSizes"
+            clickHandler={[MockFunction]}
+            enableOutOfStockSelectedItems={true}
+            error=""
+            forceToUseSelect={false}
+            items={
+              Array [
+                Object {
+                  "quantity": 5,
+                  "size": "3",
+                },
+                Object {
+                  "quantity": 5,
+                  "size": "4",
+                },
+              ]
+            }
+            label="Size"
+            productId={23074019}
+            showLowStockLabel={false}
+            showOutOfStockLabel={false}
+          />
+          <p
+            className="FindInStore-disclaimer"
+          >
+            Please note stock moves quickly and we cannot guarantee availability.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  >
+    <DynamicGoogleMap
+      initMapWhenGoogleMapsAvailable={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<FindInStore /> @renders mobile with one size 1`] = `
+<div
+  className="FindInStore"
+  style={
+    Object {
+      "height": undefined,
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Name Product
+        </h3>
+      </div>
+    </div>
+    <p
+      className="FindInStore-disclaimer"
+    >
+      Please note stock moves quickly and we cannot guarantee availability.
+    </p>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  >
+    <DynamicGoogleMap
+      initMapWhenGoogleMapsAvailable={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<FindInStore /> @renders mobile with stores state 1`] = `
+<div
+  className="FindInStore is-storesListOpen"
+  style={
+    Object {
+      "height": 440,
+    }
+  }
+>
+  <div
+    className="FindInStore-columnLeft"
+  >
+    <div
+      className="FindInStore-content"
+    >
+      <div>
+        <h3
+          className="FindInStore-title"
+        >
+          Name Product
+        </h3>
+        <div>
+          <p
+            data-modal-focus={true}
+            tabIndex="0"
+          >
+            Which size are you looking for?
+          </p>
+          <Connect(ProductSizes)
+            activeItem={
+              Object {
+                "quantity": 5,
+                "size": "3",
+              }
+            }
+            className="FindInStore-productSizes"
+            clickHandler={[MockFunction]}
+            enableOutOfStockSelectedItems={true}
+            error=""
+            forceToUseSelect={false}
+            items={
+              Array [
+                Object {
+                  "quantity": 5,
+                  "size": "3",
+                },
+                Object {
+                  "quantity": 5,
+                  "size": "4",
+                },
+              ]
+            }
+            label="Size"
+            productId={23074019}
+            showLowStockLabel={false}
+            showOutOfStockLabel={false}
+          />
+          <p
+            className="FindInStore-disclaimer"
+          >
+            Please note stock moves quickly and we cannot guarantee availability.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FindInStore-row"
+    >
+      <div
+        className="FindInStore-columnLeftStores"
+      >
+        <Form
+          className="FindInStore-search"
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <Connect(UserLocatorInput)
+            selectedCountry="United Kingdom"
+            submitHandler={[Function]}
+          />
+        </Form>
+        <Connect(StoreList)
+          name="FindInStore"
+          productDataQuantity={Object {}}
+          selectCFSIStore={[Function]}
+          sizeIndex={0}
+          storeType="findInStore"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="FindInStore-columnRight"
+  >
+    <DynamicGoogleMap
+      initMapWhenGoogleMapsAvailable={[MockFunction]}
+    />
+  </div>
+</div>
+`;

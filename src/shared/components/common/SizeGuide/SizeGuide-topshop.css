@@ -1,0 +1,51 @@
+/** @define SizeGuide; weak */
+
+.SizeGuide {
+  &-label {
+    font-size: 0.86em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  &-icon {
+    height: 12px;
+  }
+  &--box {
+    & .SizeGuide {
+      &-label {
+        font-size: 1.2em;
+        white-space: inherit;
+      }
+      &-link {
+        height: 95px;
+        margin-top: 2.5px;
+        padding: 0 6px;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .SizeGuide {
+    &--pdp {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    &-link {
+      border: 1px solid #d8d8d8;
+      padding: 11px 5px;
+      display: block;
+    }
+    &--box {
+      width: 100%;
+      padding-left: 7px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .SizeGuide {
+    &-link {
+      padding: 11px 15px;
+    }
+  }
+}

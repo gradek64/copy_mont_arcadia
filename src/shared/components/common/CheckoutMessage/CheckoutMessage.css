@@ -1,0 +1,5 @@
+/** @define CheckoutMessage */
+.CheckoutMessage {
+  position: relative;
+  padding: 0 $page-padding;
+}

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiniBagConfirm /> @renders should render \`products\` correctly 1`] = `
+<ul
+  className="MiniBagConfirm-products"
+>
+  <li
+    key="29750936"
+  >
+    <Connect(OrderProduct)
+      assets={Array []}
+      inStock={true}
+      lowStock={false}
+      name="TALL Black Leigh Jeans"
+      productId={29750936}
+      quantity={2}
+      size="14"
+      totalPrice={76}
+      unitPrice="38.00"
+    />
+  </li>
+  <li
+    key="29752415"
+  >
+    <Connect(OrderProduct)
+      assets={Array []}
+      inStock={true}
+      lowStock={false}
+      name="Chain Belted Jacket"
+      productId={29752415}
+      quantity={2}
+      size="10"
+      totalPrice={130}
+      unitPrice="65.00"
+    />
+  </li>
+</ul>
+`;
+
+exports[`<MiniBagConfirm /> @renders should render in default state 1`] = `
+<div
+  className="MiniBagConfirm"
+>
+  <ToolTip>
+    <div
+      className="MiniBagConfirm-content"
+    >
+      <button
+        className="MiniBagConfirm-closeIcon Modal-closeIcon"
+        onClick={[Function]}
+      >
+        <span
+          className="screen-reader-text"
+        >
+          Close confirmation
+        </span>
+      </button>
+      <ul
+        className="MiniBagConfirm-products"
+      />
+      <Button
+        className="MiniBagConfirm-goToCheckout"
+        clickHandler={[Function]}
+      >
+        Checkout now
+      </Button>
+      <Button
+        className="MiniBagConfirm-viewBag Button--secondary"
+        clickHandler={[Function]}
+      >
+        View bag
+      </Button>
+    </div>
+  </ToolTip>
+</div>
+`;

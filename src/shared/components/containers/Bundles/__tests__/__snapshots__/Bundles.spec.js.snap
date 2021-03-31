@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bundles /> @renders fixed bundle 1`] = `
+<div
+  className="Bundles is-fixed"
+>
+  <div
+    className="Bundles-topWrapper"
+  >
+    <div
+      className="Bundles-topWrapperPart Bundles-carousel"
+    >
+      <div
+        className=""
+      >
+        <FeatureCheck(ProductCarouselThumbnails)
+          amplienceAssets={
+            Object {
+              "images": Array [
+                "image url 1",
+                "image url 2",
+              ],
+              "videos": Array [
+                "video url 1",
+              ],
+            }
+          }
+          amplienceImages={
+            Array [
+              "image url 1",
+              "image url 2",
+            ]
+          }
+          className="ProductCarouselThumbnails"
+          maxVisible={5}
+          setCarouselIndex={[Function]}
+          thumbs={
+            Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X02MMON36X01MMON_Thumb_M_1.jpg",
+              },
+            ]
+          }
+        />
+        <ProductMedia
+          amplienceAssets={
+            Object {
+              "images": Array [
+                "image url 1",
+                "image url 2",
+              ],
+              "videos": Array [
+                "video url 1",
+              ],
+            }
+          }
+          assets={
+            Array [
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X02MMON36X01MMON_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X02MMON36X01MMON_Thumb_M_1.jpg",
+              },
+            ]
+          }
+          className="Bundles-productMedia"
+          enableImageOverlay={true}
+          enableVideo={false}
+          name="bundles"
+          productId={29774047}
+        />
+      </div>
+      <Connect(Espot)
+        className="Bundles-espot"
+        identifier="CEProductEspotCol1Pos1"
+      />
+      <Connect(Espot)
+        className="Bundles-espot"
+        identifier="KlarnaPDPEspot1"
+      />
+      <Connect(Espot)
+        className="Bundles-espot"
+        identifier="KlarnaPDPEspot2"
+      />
+    </div>
+    <div
+      className="Bundles-topWrapperPart"
+    >
+      <div
+        className="Bundles-header"
+      >
+        <h1
+          className="Bundles-title"
+        >
+          Humbug Stripe Suit Jacket & Trousers Set
+        </h1>
+        <p
+          className="Bundles-price"
+        >
+          <span
+            className="Bundles-priceFrom"
+          >
+            From
+          </span>
+           
+          <Price
+            className="Bundles-priceValue"
+            price="115.00"
+          />
+        </p>
+      </div>
+      <Connect(BundleProducts)
+        items={
+          Array [
+            Object {
+              "products": Array [
+                Object {
+                  "productId": 29140305,
+                },
+              ],
+              "slotNumber": 1,
+            },
+          ]
+        }
+      />
+      <Connect(BundlesAddAll)
+        bundleProductIds={
+          Array [
+            29140305,
+          ]
+        }
+        productId={29774047}
+      />
+    </div>
+  </div>
+  <ProductDescription
+    className="ProductDescription--bundle"
+    description="Add modern bold stripes to your suiting with this black and white Humbug stripe suit."
+    seeMoreValue={Array []}
+  >
+    <ProductDescriptionExtras
+      attributes={
+        Array [
+          Object {
+            "label": "Code",
+            "value": "BUNDLE_03P13MLIL03P14MLIL",
+          },
+        ]
+      }
+    />
+  </ProductDescription>
+  <Connect(Espot)
+    className="Bundles-espot"
+    identifier="CE3ContentEspot1"
+  />
+  <Connect(RecommendationsABTestWrapper)
+    referringProduct={
+      Object {
+        "lineNumber": "BUNDLE_03P13MLIL03P14MLIL",
+        "name": "Humbug Stripe Suit Jacket & Trousers Set",
+        "productId": 29774047,
+      }
+    }
+    shouldRenderDressipiQubitExperience={true}
+  />
+  <Connect(RecentlyViewed)
+    currentProductId={29774047}
+    referringProduct={
+      Object {
+        "lineNumber": "BUNDLE_03P13MLIL03P14MLIL",
+        "name": "Humbug Stripe Suit Jacket & Trousers Set",
+        "productId": 29774047,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Bundles /> @renders flexible bundle (default) 1`] = `
+<div
+  className="Bundles is-flexible"
+>
+  <div
+    className="Bundles-topWrapper"
+  >
+    <div
+      className="Bundles-topWrapperPart Bundles-carousel"
+    >
+      <div
+        className=""
+      >
+        <FeatureCheck(ProductCarouselThumbnails)
+          amplienceAssets={
+            Object {
+              "images": Array [
+                "image url 1",
+                "image url 2",
+              ],
+              "videos": Array [
+                "video url 1",
+              ],
+            }
+          }
+          amplienceImages={
+            Array [
+              "image url 1",
+              "image url 2",
+            ]
+          }
+          className="ProductCarouselThumbnails"
+          maxVisible={5}
+          setCarouselIndex={[Function]}
+          thumbs={
+            Array [
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X02MMON36X01MMON_Thumb_M_1.jpg",
+              },
+            ]
+          }
+        />
+        <ProductMedia
+          amplienceAssets={
+            Object {
+              "images": Array [
+                "image url 1",
+                "image url 2",
+              ],
+              "videos": Array [
+                "video url 1",
+              ],
+            }
+          }
+          assets={
+            Array [
+              Object {
+                "assetType": "IMAGE_LARGE",
+                "index": 1,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X02MMON36X01MMON_Zoom_F_1.jpg",
+              },
+              Object {
+                "assetType": "IMAGE_SMALL",
+                "index": 2,
+                "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X02MMON36X01MMON_Thumb_M_1.jpg",
+              },
+            ]
+          }
+          className="Bundles-productMedia"
+          enableImageOverlay={true}
+          enableVideo={false}
+          name="bundles"
+          productId={29774047}
+        />
+      </div>
+      <Connect(Espot)
+        className="Bundles-espot"
+        identifier="CEProductEspotCol1Pos1"
+      />
+      <Connect(Espot)
+        className="Bundles-espot"
+        identifier="KlarnaPDPEspot1"
+      />
+      <Connect(Espot)
+        className="Bundles-espot"
+        identifier="KlarnaPDPEspot2"
+      />
+    </div>
+    <div
+      className="Bundles-topWrapperPart"
+    >
+      <div
+        className="Bundles-header"
+      >
+        <h1
+          className="Bundles-title"
+        >
+          Humbug Stripe Suit Jacket & Trousers Set
+        </h1>
+        <p
+          className="Bundles-price"
+        >
+          <span
+            className="Bundles-priceFrom"
+          >
+            From
+          </span>
+           
+          <Price
+            className="Bundles-priceValue"
+            price="115.00"
+          />
+        </p>
+      </div>
+      <Connect(BundleProducts)
+        items={
+          Array [
+            Object {
+              "products": Array [
+                Object {
+                  "productId": 29140305,
+                },
+              ],
+              "slotNumber": 1,
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+  <ProductDescription
+    className="ProductDescription--bundle"
+    description="Add modern bold stripes to your suiting with this black and white Humbug stripe suit."
+    seeMoreValue={Array []}
+  >
+    <ProductDescriptionExtras
+      attributes={
+        Array [
+          Object {
+            "label": "Code",
+            "value": "BUNDLE_03P13MLIL03P14MLIL",
+          },
+        ]
+      }
+    />
+  </ProductDescription>
+  <Connect(Espot)
+    className="Bundles-espot"
+    identifier="CE3ContentEspot1"
+  />
+  <Connect(RecommendationsABTestWrapper)
+    referringProduct={
+      Object {
+        "lineNumber": "BUNDLE_03P13MLIL03P14MLIL",
+        "name": "Humbug Stripe Suit Jacket & Trousers Set",
+        "productId": 29774047,
+      }
+    }
+    shouldRenderDressipiQubitExperience={true}
+  />
+  <Connect(RecentlyViewed)
+    currentProductId={29774047}
+    referringProduct={
+      Object {
+        "lineNumber": "BUNDLE_03P13MLIL03P14MLIL",
+        "name": "Humbug Stripe Suit Jacket & Trousers Set",
+        "productId": 29774047,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<Bundles /> @renders with isFeatureCarouselThumbnailEnabled 1`] = `null`;

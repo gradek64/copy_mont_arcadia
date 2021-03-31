@@ -1,0 +1,13 @@
+/** @define BurgerButton */
+
+.BurgerButton {
+  &-hasMenuTextIcon {
+    height: 22px;
+    width: 26px;
+    background-size: 150%;
+    top: 26%;
+    background-image: url('public/common/images/burger-menu-with-text.svg');
+    background-position: 50%;
+  }
+
+}

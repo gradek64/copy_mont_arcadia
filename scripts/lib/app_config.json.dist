@@ -1,0 +1,280 @@
+{
+    "<appConfig>": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_FIND_ADDRESS"
+                    },
+                    "value": {
+                        "S": "<API_FIND_ADDRESS>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_KEY"
+                    },
+                    "value": {
+                        "S": "<API_KEY>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_URL"
+                    },
+                    "value": {
+                        "S": "<API_URL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_URL_COUNTRIES"
+                    },
+                    "value": {
+                        "S": "<API_URL_COUNTRIES>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_URL_COUNTRIES_V2"
+                    },
+                    "value": {
+                        "S": "<API_URL_COUNTRIES_V2>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_URL_STORE_LOCATOR"
+                    },
+                    "value": {
+                        "S": "<API_URL_STORE_LOCATOR>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "API_URL_STORE_LOCATOR_V2"
+                    },
+                    "value": {
+                        "S": "<API_URL_STORE_LOCATOR_V2>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "BASIC_AUTH_ENABLED"
+                    },
+                    "value": {
+                        "S": "<BASIC_AUTH_ENABLED>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "BASIC_AUTH_USERNAME"
+                    },
+                    "value": {
+                        "S": "<BASIC_AUTH_USERNAME>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "BASIC_AUTH_PASSWORD"
+                    },
+                    "value": {
+                        "S": "<BASIC_AUTH_PASSWORD>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "BV_SHAREDKEY"
+                    },
+                    "value": {
+                        "S": "<BV_SHAREDKEY>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "DEBUG"
+                    },
+                    "value": {
+                        "S": "<DEBUG>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "GOOGLE_API_KEY"
+                    },
+                    "value": {
+                        "S": "<GOOGLE_API_KEY>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "JWT_SECRET"
+                    },
+                    "value": {
+                        "S": "<JWT_SECRET>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "MOCK_CMS_FORM_HANDLER"
+                    },
+                    "value": {
+                        "S": "<MOCK_CMS_FORM_HANDLER>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "DO_NOT_MOCK_NAV"
+                    },
+                    "value": {
+                        "S": "<DO_NOT_MOCK_NAV>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "REDIS_URL"
+                    },
+                    "value": {
+                        "S": "<REDIS_URL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "REDIS_HOST_FOR_SESSION_STORE"
+                    },
+                    "value": {
+                        "S": "<REDIS_HOST_FOR_SESSION_STORE>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "REDIS_PORT_FOR_SESSION_STORE"
+                    },
+                    "value": {
+                        "S": "<REDIS_PORT_FOR_SESSION_STORE>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "USE_NEW_HANDLER"
+                    },
+                    "value": {
+                        "S": "<USE_NEW_HANDLER>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "WCS_ENVIRONMENT"
+                    },
+                    "value": {
+                        "S": "<WCS_ENVIRONMENT>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "LEGACY_CMS_URL"
+                    },
+                    "value": {
+                        "S": "<LEGACY_CMS_URL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "LEGACY_CMS_PORT"
+                    },
+                    "value": {
+                        "S": "<LEGACY_CMS_PORT>"
+                    }
+                }
+            }
+        }
+    ]
+}

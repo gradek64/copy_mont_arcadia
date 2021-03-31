@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BurgerButton /> @renders should render in default state 1`] = `
+<button
+  aria-label="Open categories menu"
+  className="BurgerButton"
+  title="Open categories menu"
+>
+  <span
+    className="BurgerButton-bar"
+  />
+  <span
+    className="BurgerButton-bar"
+  />
+  <span
+    className="BurgerButton-bar"
+  />
+</button>
+`;

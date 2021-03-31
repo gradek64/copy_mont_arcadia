@@ -1,0 +1,57 @@
+[{
+  "storeId": "TS1220",
+  "brandPrimaryEStoreId": 12556,
+  "brandName": "Topshop",
+  "name": "Aura Novosibirsk",
+  "distance": 0,
+  "latitude": 0,
+  "longitude": 0,
+  "address": {
+    "line1": "5 Ulica Voennaya St",
+    "line2": "",
+    "city": "Novosibirsk",
+    "postcode": "630099",
+    "country": "Russia"
+  },
+  "openingHours": {
+    "monday": "",
+    "tuesday": "",
+    "wednesday": "",
+    "thursday": "",
+    "friday": "",
+    "saturday": "",
+    "sunday": ""
+  },
+  "telephoneNumber": "(+007) 383-230-1053",
+  "cfsiAvailableOn": "",
+  "ffsAvailableOn": "",
+  "cfsiPickCutOffTime": ""
+}, {
+  "storeId": "TS0792",
+  "brandPrimaryEStoreId": 12556,
+  "brandName": "Topshop",
+  "name": "Evropeisky",
+  "distance": 0,
+  "latitude": 0,
+  "longitude": 0,
+  "address": {
+    "line1": "Evropeisky Shopping Center",
+    "line2": "Kiyevsky Station Square, 2",
+    "city": "Location Number 2-a14",
+    "postcode": "121059",
+    "country": "Russia"
+  },
+  "openingHours": {
+    "monday": "",
+    "tuesday": "",
+    "wednesday": "",
+    "thursday": "",
+    "friday": "",
+    "saturday": "",
+    "sunday": ""
+  },
+  "telephoneNumber": "(+007) 495-980-5172",
+  "cfsiAvailableOn": "",
+  "ffsAvailableOn": "",
+  "cfsiPickCutOffTime": ""
+}]

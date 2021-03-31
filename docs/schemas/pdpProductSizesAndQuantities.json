@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "size": {
+      "type": "string",
+      "example": "36"
+    },
+    "sku": {
+      "type": "string",
+      "example": "602015000851659"
+    },
+    "quantity": {
+      "type": "number",
+      "example": 4
+    },
+    "selected": {
+      "type": "boolean",
+      "example": false
+    }
+  }
+}

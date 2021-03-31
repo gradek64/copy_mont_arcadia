@@ -1,0 +1,64 @@
+/** @define OutOfStockProductDetail; weak */
+
+
+.OutOfStockProductDetail {
+    padding: $pdp-vertical-padding 0;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    &-pageHeading{
+      @media $mobile {
+        margin-bottom: 30px;
+      }
+      margin-bottom: 50px;
+    }
+    
+    &-productWrapper {
+      max-width: 800px;
+      margin: 0 auto 50px;
+      padding: 0 25px;
+      display: flex;
+      flex-wrap: nowrap;
+      
+      & .OutOfStockProductDetail-productWrapperDescriptionMinimal {
+        text-align: left;
+      }
+      
+      & h2 {
+        margin-top: 0;
+      }
+      
+      & .OutOfStockProductDetail-productWrapperImage {
+        
+        flex: 0 0 19%;
+        @media $mobile {
+          flex: 0 0 50%;
+          max-width: 170px;
+        }
+        cursor: default !important;
+      }
+      
+      & .OutOfStockProductDetail-productWrapperDescription {
+        padding-left: 25px;
+        flex: 0 0 81%;
+        @media $mobile {
+          flex: 0 0 56%;  
+        }
+      }
+      
+      & .OutOfStockProductDetail-productWrapperDescriptionMain {
+        text-align: left;
+      }
+    }
+    
+    &-shopAllBtn{
+      width: 310px;
+      margin:0 auto 50px;
+      @media $mobile {
+        margin:50px auto;
+      }
+      text-transform: uppercase;
+    }
+  }
+  
+  

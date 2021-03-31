@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Analytics Decorator Async Component should match snapshot 1`] = `
+<Connect(AnalyticsDecorator)>
+  <AnalyticsDecorator
+    Analyticslocation={
+      Object {
+        "pathname": "/checkout/login",
+      }
+    }
+    clearPageType={[Function]}
+    hasCachedCategory={false}
+    isDisabled={false}
+    isInitialRender={false}
+    isLoading={false}
+    isTrackingPageType={true}
+    modal={
+      Object {
+        "mode": "normal",
+        "open": false,
+      }
+    }
+    pageLoadedAction={[Function]}
+    queryString=""
+    setPageType={[Function]}
+    user={Object {}}
+  >
+    <MockComponent
+      pageLoadedAction={[Function]}
+    >
+      <div>
+        Mock Component
+      </div>
+    </MockComponent>
+  </AnalyticsDecorator>
+</Connect(AnalyticsDecorator)>
+`;
+
+exports[`Analytics Decorator Sync Component should match snapshot 1`] = `
+<Connect(AnalyticsDecorator)>
+  <AnalyticsDecorator
+    Analyticslocation={
+      Object {
+        "pathname": "/checkout/login",
+      }
+    }
+    clearPageType={[Function]}
+    hasCachedCategory={false}
+    isDisabled={false}
+    isInitialRender={false}
+    isLoading={false}
+    isTrackingPageType={true}
+    modal={
+      Object {
+        "mode": "normal",
+        "open": false,
+      }
+    }
+    pageLoadedAction={[Function]}
+    queryString=""
+    setPageType={[Function]}
+    user={Object {}}
+  >
+    <MockComponent
+      pageLoadedAction={[Function]}
+    >
+      <div>
+        Mock Component
+      </div>
+    </MockComponent>
+  </AnalyticsDecorator>
+</Connect(AnalyticsDecorator)>
+`;

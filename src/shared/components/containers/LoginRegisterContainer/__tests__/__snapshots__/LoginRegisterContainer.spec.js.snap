@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginRegisterContainer /> @renders when the path is /checkout/login it renders with the correct nextLoginRoute and nextRegisterRoute 1`] = `
+<div
+  className="LoginRegisterContainer"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": "http://www.topshop.com/checkout/login",
+          "rel": "canonical",
+        },
+      ]
+    }
+    title="Sign In"
+  />
+  <Connect(ContactBanner) />
+  <section
+    className="LoginRegisterContainer-wrapper"
+  >
+    <LoginRegister
+      getNextLoginRoute={[Function]}
+      getNextRegisterRoute={[Function]}
+      loginSuccessCallback={[MockFunction]}
+    />
+  </section>
+</div>
+`;
+
+exports[`<LoginRegisterContainer /> @renders when the path is /login it renders in the default state (empty nextLoginRoute and nextRegisterRoute) 1`] = `
+<div
+  className="LoginRegisterContainer"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": "http://www.topshop.com/login",
+          "rel": "canonical",
+        },
+      ]
+    }
+    title="Sign In"
+  />
+  <Connect(ContactBanner) />
+  <section
+    className="LoginRegisterContainer-wrapper"
+  >
+    <LoginRegister
+      getNextLoginRoute={[Function]}
+      getNextRegisterRoute={[Function]}
+    />
+  </section>
+</div>
+`;
+
+exports[`<LoginRegisterContainer /> @renders when the path is /login it renders with a search param and passes the correct nextRegisterRoute and nextLoginRoute to the <LoginRegister/> component 1`] = `
+<div
+  className="LoginRegisterContainer"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    link={
+      Array [
+        Object {
+          "href": "http://www.topshop.com/login",
+          "rel": "canonical",
+        },
+      ]
+    }
+    title="Sign In"
+  />
+  <Connect(ContactBanner) />
+  <section
+    className="LoginRegisterContainer-wrapper"
+  >
+    <LoginRegister
+      getNextLoginRoute={[Function]}
+      getNextRegisterRoute={[Function]}
+    />
+  </section>
+</div>
+`;

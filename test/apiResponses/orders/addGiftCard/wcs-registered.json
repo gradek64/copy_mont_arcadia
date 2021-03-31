@@ -1,0 +1,470 @@
+{
+  "action": "add",
+  "success": true,
+  "orderId": 700286041,
+  "langId": -1,
+  "message": "Gift card has been added",
+  "message_key": "PPTGC_RES_ADD_SUCCESSFULL",
+  "identifier": "2391328",
+  "cardNo": "XXXX XXXX XXXX 6765",
+  "balance": "5.00",
+  "deposit": "5.00",
+  "totalDeposit": "5.00",
+  "totalBalance": "5.00",
+  "Basket": {
+    "products": {
+      "Product": [
+        {
+          "partNumber": "602015000891226",
+          "lineNumber": "63I31IROS",
+          "name": "**Olivia Burton Painterly Prints  OB15PP07 watch",
+          "size": "ONE",
+          "productId": "21926974",
+          "quantity": "2",
+          "imageUrl":
+            "https%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FTopShop%2Fimages%2Fcatalog%2F63I31IROS_small.jpg",
+          "sourceUrl":
+            "http%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductDisplay%3FlangId%3D-1%26storeId%3D12556%26catalogId%3D33057%26productId%3D21926974%26categoryId%3D208519%26parent_category_rn%3D277012",
+          "productName": "**Olivia Burton Painterly Prints  OB15PP07 watch",
+          "unitPrice": 85,
+          "Quantity": 2,
+          "shipModeId": "26504",
+          "orderItemId": "7470367",
+          "color": "ROSE GOLD",
+          "freeItem": false
+        }
+      ]
+    },
+    "productDataQuantity": {
+      "item_1": {
+        "partNumber": "602015000891226",
+        "catentryId": 21926978,
+        "inventorys": null,
+        "invavls": [
+          {
+            "stlocIdentifier": "STANDARD",
+            "cutofftime": "2259",
+            "quantity": 93,
+            "expressdates": ["2017-09-27", "2017-09-28"]
+          }
+        ]
+      }
+    },
+    "orderId": 700286044,
+    "sourcePage": "OrderSubmitForm",
+    "addAddress": "",
+    "isBasketDisplay": true,
+    "isBasketResponse": true,
+    "showDeliveryAddress": "true",
+    "showDeliveryDate": "true",
+    "estimatedDeliveryWhenText": "When:",
+    "estimatedDelivery": "No later than&nbsp;Monday 9 October 2017",
+    "nominatedDeliveryDate": "Monday 9 October 2017",
+    "storeSelected": "N",
+    "selectedCountry": "United Kingdom",
+    "countrySetInAddress": false,
+    "productSubTotalTxt": "Subtotal before Delivery",
+    "totalBeforeDiscount": 170,
+    "deliverySectionLabel": "DeliveryCostSection",
+    "deliveryOptions": {
+      "BasketDeliveryOption": [
+        {
+          "selected": false,
+          "deliveryOptionId": 28004,
+          "deliveryOptionPrice": 6,
+          "deliveryShipCode": "N3",
+          "label": "Express / Nominated Day Delivery "
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 50517,
+          "deliveryOptionPrice": 4,
+          "deliveryShipCode": "Retail Store Collection",
+          "label": "Collect from ParcelShop"
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 45020,
+          "deliveryOptionPrice": 3,
+          "deliveryShipCode": "Retail Store Express",
+          "label": "Collect From Store Express"
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 51017,
+          "deliveryOptionPrice": 3,
+          "deliveryShipCode": "Retail Store Immediate",
+          "label": "Collect From Store Today"
+        },
+        {
+          "selected": true,
+          "deliveryOptionId": 26504,
+          "deliveryOptionPrice": 0,
+          "deliveryShipCode": "S",
+          "label": "Standard Delivery"
+        },
+        {
+          "selected": false,
+          "deliveryOptionId": 45019,
+          "deliveryOptionPrice": 0,
+          "deliveryShipCode": "Retail Store Standard",
+          "type": "store_standard",
+          "label": "Collect From Store Standard"
+        }
+      ]
+    },
+    "deliveryCostTxt": "Delivery cost",
+    "deliveryOptionId": 26504,
+    "label": "",
+    "selected": "true",
+    "deliveryOptionCode": "S",
+    "deliveryOptionPrice": 4,
+    "deliveryCostDetailTxt": "",
+    "noOfGiftCards": 1,
+    "productTotalTxt": "Total cost",
+    "total_product_before_giftcard": 170,
+    "giftCards": [
+      {
+        "giftCardId": "gift_card_2391328",
+        "giftCardNumber": "XXXX XXXX XXXX 6765",
+        "pin": "8003",
+        "remainingBalance": 0,
+        "balance": 5,
+        "amountUsed": 5
+      }
+    ],
+    "giftCardApplyStatus": "true",
+    "priceWithGiftCardTxt": "Total remaining to pay",
+    "total": 169,
+    "qubitBasket": {
+      "window.universal_variable": {
+        "version": "1.2.0",
+        "page": {
+          "type": "Checkout"
+        },
+        "user": {
+          "user_id": 1244274,
+          "email": "samedeliverybilling@address.com"
+        },
+        "basket": {
+          "id": 700286044,
+          "currency": "GBP",
+          "subtotal": 170,
+          "total": 169,
+          "line_items": [
+            {
+              "product": {
+                "id": "63I31IROS",
+                "name": "**Olivia Burton Painterly Prints  OB15PP07 watch",
+                "sku_code": "602015000891226",
+                "image_url":
+                  "https%3A%2F%2Fts.pplive.arcadiagroup.ltd.uk%2Fwcsstore%2FTopShop%2Fimages%2Fcatalog%2F63I31IROS_small.jpg",
+                "category": "New In This Week",
+                "currency": "GBP",
+                "unit_sale_price": 85,
+                "unit_price": 85
+              },
+              "quantity": 2,
+              "subtotal": 170
+            }
+          ]
+        }
+      }
+    }
+  },
+  "selectedShipCode": "S",
+  "isPUDOEnabled": "true",
+  "isCSRUsr": false,
+  "deliveryLocationTypeForm": {
+    "deliveryCountry": "United Kingdom",
+    "pageAction": "ProcessDeliveryDetails",
+    "formMethod": "post",
+    "outOrderItemName": "",
+    "actionType": "updateShipping",
+    "sourcePage": "OrderSubmitForm",
+    "page": "account",
+    "storeId": 12556,
+    "catalogId": 33057,
+    "orderId": 700286041,
+    "shipping_country": "United Kingdom",
+    "deliverToStoreText": "Choose from",
+    "homeDeliveryText": "Home Delivery",
+    "storeDeliveryText": "Collect from Store",
+    "hermesDeliveryText": "Collect from ParcelShop - UK only",
+    "homeDeliveryContent":
+      "%3Cdd+class%3D%22home_del+std_del%22%3EStandard+%28UK+up+to+4+working+days%3B+worldwide+varies%29%3Cdd%3E%3Cdd+class%3D%22home_del+next_day_del%22%3EExpress+%28UK+next+or+nominated+day%3B+worldwide+varies%29%3C%2Fdd%3E",
+    "collectFromStoreContent":
+      "%3Cdd+class%3D%22store_del+std_store_del%22%3EStandard+%283-7+working+days%29%3C%2Fdd%3E%3Cdd+class%3D%22store_del+next_day_store_del%22%3EExpress+%28next+day%29%3C%2Fdd%3E++",
+    "hermesContent":
+      "%3Cdd+class%3D%22parcel_del%22%3EThousands+of+local+shops+open+early+and+late%3C%2Fdd%3E%3Cdd+class%3D%22parcel_del+next_day_parcel_del%22%3ENext+Day+Delivery%3C%2Fdd%3E",
+    "deliveryLocations": [
+      {
+        "deliveryLocationType": "HOME",
+        "selected": true
+      },
+      {
+        "deliveryLocationType": "STORE",
+        "selected": false
+      },
+      {
+        "deliveryLocationType": "PARCELSHOP",
+        "parcelShopStore": "hermes",
+        "selected": false
+      }
+    ]
+  },
+  "deliveryOptionsDetails": {
+    "nominatedDateValue": "",
+    "orderId": 700286041,
+    "deliveryoptionsform": {
+      "pageAction": "ProcessDeliveryDetails",
+      "formMethod": "post",
+      "formName": "deliveryoptionsform",
+      "storeId": 12556,
+      "catalogId": 33057,
+      "langId": -1,
+      "orderId": 700286041,
+      "status": "P",
+      "errorViewName": "UserRegistrationForm",
+      "outOrderItemName": "",
+      "nominatedDate": "",
+      "actionType": "updateOrderItemsOnly",
+      "sourcePage": "OrderSubmitForm",
+      "deliveryOptionType": "H",
+      "deliveryMethods": [
+        {
+          "Country": "United Kingdom",
+          "shipModeId": "26504",
+          "storeId": 12556,
+          "shipCode": "S",
+          "label": "Standard Delivery",
+          "selected": true,
+          "price": 4,
+          "additionalDescription": "2 - 4 Working days"
+        }
+      ],
+      "expressDelivery": {
+        "Country": "United Kingdom",
+        "shipModeId": "",
+        "storeId": 12556,
+        "shipCode": "",
+        "label": "Express / Nominated day delivery",
+        "selected": "",
+        "price": 0,
+        "additionalDescription": "",
+        "deliveryTimeDescription": "",
+        "deliveryDates": {
+          "deliveryDateSelectText": "Select an available delivery date",
+          "deliveryOptions": [
+            {
+              "dayText": "Wed",
+              "dateText": "04 Oct",
+              "shipModeId": "28004",
+              "nominatedDate": "2017-10-04",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "true",
+              "available_date": "28004",
+              "shipmode_28004": "2017-10-04"
+            },
+            {
+              "dayText": "Thu",
+              "dateText": "05 Oct",
+              "shipModeId": "28005",
+              "nominatedDate": "2017-10-05",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28005",
+              "shipmode_28005": "2017-10-05"
+            },
+            {
+              "dayText": "Fri",
+              "dateText": "06 Oct",
+              "shipModeId": "28006",
+              "nominatedDate": "2017-10-06",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28006",
+              "shipmode_28006": "2017-10-06"
+            },
+            {
+              "dayText": "Sat",
+              "dateText": "07 Oct",
+              "shipModeId": "28007",
+              "nominatedDate": "2017-10-07",
+              "price": 7.5,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28007",
+              "shipmode_28007": "2017-10-07"
+            },
+            {
+              "dayText": "Sun",
+              "dateText": "08 Oct",
+              "price": "N/A",
+              "shipModeId": "28008",
+              "nominatedDate": "2017-10-08",
+              "selected": "",
+              "shipmode_28008": "2017-10-08"
+            },
+            {
+              "dayText": "Mon",
+              "dateText": "09 Oct",
+              "shipModeId": "28002",
+              "nominatedDate": "2017-10-09",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28002",
+              "shipmode_28002": "2017-10-09"
+            },
+            {
+              "dayText": "Tue",
+              "dateText": "10 Oct",
+              "shipModeId": "28003",
+              "nominatedDate": "2017-10-10",
+              "price": 6,
+              "currencySymbol": "&pound;",
+              "selected": "",
+              "available_date": "28003",
+              "shipmode_28003": "2017-10-10"
+            }
+          ]
+        }
+      },
+      "AllshipModeIdList": "26504,28002,28003,28004,28005,28006,28007,28008,",
+      "deliveryInstructions": "null",
+      "deliveryInsLabelTxt": "Delivery Instructions:",
+      "deliveryInsCharTxt": "Max 30 characters",
+      "deliveryMobNumLabel": "Mobile number:",
+      "deliverySMSupdateTxt":
+        "Enter your mobile number to receive SMS updates on your delivery.",
+      "smsMobileNumber": "null",
+      "smsAlerts": "",
+      "orderItemShipMode": "26504",
+      "orderItemShipCode": "S",
+      "trackingType": "Y-Y-Y"
+    }
+  },
+  "giftCards": {
+    "GiftCardsManagerForm": {
+      "pageAction": "PPTGiftCardsManager",
+      "formMethod": "post",
+      "giftCardTxt": "Gift cards",
+      "giftCards": [
+        {
+          "giftCardId": "gift_card_2391328",
+          "giftCardNumber": "XXXX XXXX XXXX 6765",
+          "pin": "8003",
+          "balance": 5,
+          "amountUsed": 5,
+          "remainingBalance": 0,
+          "lastGiftCardDeposit": 5,
+          "giftCardAddedTxt": "Gift card has been added",
+          "giftCardRemainingTxt": "Remaining gift card balance",
+          "giftCardRemoveUrl":
+            "PPTGiftCardsManager?action=remove&identifier=2391328&orderId=700286041&catalogId=33057&storeId=12556&langId=-1&URL=GiftCardsAjaxView&errorViewName=GiftCardsErrorAjaxView&sourcePage=OrderSubmitForm",
+          "giftCardRemoveTitleTxt": "Remove this gift card",
+          "giftCardNoTxt": "Gift card number",
+          "giftCardRemoveTxt": "giftCardRemoveTxt"
+        }
+      ],
+      "addAnotherGCDetails": {
+        "pageAction": "add",
+        "orderId": "700286041",
+        "langId": "-1",
+        "catalogId": "33057",
+        "storeId": "12556",
+        "URL": "GiftCardsAjaxView",
+        "errorViewName": "GiftCardsErrorAjaxView",
+        "sourcePage": "OrderSubmitForm",
+        "giftCardNoTxt": "Gift card number",
+        "giftCardNoEntered": "",
+        "gcMaxLength": "16",
+        "giftCardPinTxt": "Gift card number",
+        "giftCardPinEntered": "",
+        "gcPinMaxlength": "4",
+        "gcVerifyCodeTitle": "Apply Card",
+        "gcVerifyCode": "Apply Card"
+      },
+      "gcAddAnotherTitleTxt": "Add another",
+      "gcAddAnotherTxt": "Add another gift card"
+    }
+  },
+  "paymentDetailsDisplay": {
+    "OrderCalculateForm": {
+      "pageAction": "OrderCalculate",
+      "formMethod": "post",
+      "formId": "",
+      "formName": "",
+      "ipAddress": "10.136.109.251",
+      "orderId": 700286041,
+      "storeId": 12556,
+      "catalogId": 33057,
+      "langId": -1,
+      "errorViewName": "DoPaymentErrorView",
+      "userAgent": "PostmanRuntime%2F6.3.2",
+      "contentType": "*/*",
+      "notifyShopper": "0",
+      "notifyOrderSubmitted": "0",
+      "deliveryInstructions": "",
+      "smsAlerts": "",
+      "billing_address_id": "",
+      "addressId": "",
+      "shipCode": "S",
+      "nominatedDate": "",
+      "URL": "OrderPrepare?URL=ConfirmAndPay",
+      "CARD_PYPAL_TEXT": "PayPal",
+      "CARD_BRAND_TEXT": "Visa",
+      "CARD_BRAND_WP": "VISA",
+      "IS_WP_CARD_BRAND": "N",
+      "PaymentDetailUpdateViewUrl":
+        "PaymentDetailUpdateView?orderId=700286041&amp;storeId=12556&amp;catalogId=33057&amp;langId=-1&amp;selectedCountry=United+Kingdom",
+      "CreditCard": {
+        "type": "VISA",
+        "cardNumber": "tjOBl4zzS+ueTZQWartO5l968iOmCOix",
+        "cardNumberStar": "************1111",
+        "expiryMonth": "02",
+        "expiryYear": "2018"
+      },
+      "abtToPayCardTxt": "You are about to pay with the following card:",
+      "billingAddrTxt": "Billing Address",
+      "billingDetails": {
+        "nameAndPhone": {
+          "title": "Mr",
+          "firstName": "Foo",
+          "lastName": "Bar"
+        },
+        "address": {
+          "address1": "1 London Eye",
+          "city": "London",
+          "postcode": "SE1 1SE",
+          "country": "UNITED KINGOM"
+        }
+      },
+      "changeBillingAddressURL":
+        "AddBillingAddressView?langId=-1&storeId=12556&orderId=700286041&catalogId=33057",
+      "changeBillingAddrTitle": "Change address",
+      "changeBillingAddrTxt": "Change",
+      "savedCardTxt": "Card number",
+      "savedCardValue": "************1111",
+      "changePaymentUrl":
+        "PaymentDetailUpdateView?orderId=700286041&amp;storeId=12556&amp;catalogId=33057&amp;langId=-1&amp;selectedCountry=United+Kingdom",
+      "changePaymentLinkTitle": "Change payment details",
+      "changePaymentLinkTxt": "Change",
+      "securityId": "sec1507018455960",
+      "cardSecurityNumber": "",
+      "securityNumberTxt": "Security number",
+      "BNPL_Top_Content":
+        "%3Cb%3EGreat+news%21+This+order+is+eligible+for+BNPLReplaceString.+%3C%2Fb%3E%3Ca+href%3D%22http%3A%2F%2Fwww.topshop.com%2Fen%2Ftsuk%2Fcategory%2Ftopshop-card-20%2Fhome%3Fcat2%3D277988%26intcmpid%3DW_FOOTER_TS_CARD%22+target%3D%22_blank%22+title%3D%22BNPLReplaceString%22%3EFind+out+more.%3C%2Fa%3E",
+      "BNPL_CheckBox_content":
+        "I+would+like+my+order+to+be+placed+as+a+BNPLReplaceString+Order.",
+      "BNPL_TermsAndConditions":
+        "%3Cp%3EBNPLReplaceString%3C%2Fp%3E%3Cp%3EWhere+you+have+clicked+the+box+above+to+confirm+you+want+this+purchase+to+be+BNPLReplaceString+the+following+will+apply%3A%3C%2Fp%3E%3Cp%3E-+++++If+you+currently+pay+your+balance+in+full+by+%3Cb%3EDirect+Debit%3C%2Fb%3E+each+month+your+BNPLReplaceString+balance+will+be+collected+with+your+next+payment.+If+you+do+not+wish+to+pay+the+BNPLReplaceString+amount+please+contact+NewDay+on+0333+220+2504+to+change+your+%3Cb%3EDirect+Debit%3C%2Fb%3E+instruction.+You+will+have+the+option+to+pay+the+full+balance+excluding+any+BNPLReplaceString+Balance%2C+a+fixed+amount+or+the+minimum+payment+due.%3Cbr%2F%3E%3Cbr%2F%3E-++++++If+you+do+not+make+at+least+your+minimum+payment+on+time+each+month+or+if+you+go+over+your+credit+limit%2C+your+BNPLReplaceString+promotion+will+come+to+an+end+and%2C+from+this+date%2C+any+BNPLReplaceString+Balance+will+be+transferred+to+your+Standard+Balance+and+will+form+part+of+the+outstanding+balance.+These+transferred+transactions+will+be+taken+into+account+when+calculating+your+minimum+payment+and+interest+will+be+charged+at+the+purchase+rate+shown+on+your+statement.%3Cbr%2F%3E%3Cbr%2F%3E-++You+will+not+pay+any+interest+on+these+transactions+for+three+months+from+the+date+on+which+you+make+your+purchase.+These+transactions+form+part+of+your+BNPLReplaceString+Balance+and+do+not+form+part+of+your+outstanding+balance.+No+payments+are+required+in+relation+to+your+BNPLReplaceString+balance+during+the+three+month+promotional+period.%3Cbr%2F%3E%3Cbr%2F%3E-+++++++Your+BNPLReplaceString+transactions+will+be+shown+as+transferred+from+your+BNPLReplaceString+Balance+to+your+Standard+Balance+on+the+statement+following+the+last+day+of+the+three+month+period.+From+this+date%2C+interest+will+be+charged+on+your+BNPLReplaceString+transactions+at+the+purchase+rate+shown+on+your+statement+and+your+BNPLReplaceString+transactions+will+be+included+in+the+minimum+payment+calculation%3Cbr%2F%3E%3Cbr%2F%3E-++++If+you+have+a+Standard+Balance+on+your+account+you+must+still+make+at+least+your+minimum+payment+in+full+and+on+time.%3Cbr%2F%3E%3Cbr%2F%3E-++++If+you+have+no+Standard+Balance+on+the+account%2C+but+your+account+is+protected+by+Payment+Protection+Insurance%2C+you+must+pay+your+payment+protection+insurance+premium+each+month+when+requested+in+your+statement.+%3Cbr%2F%3E%3Cbr%2F%3E-++++++When+you+make+a+payment+we+will+always+allocate+it+to+the+part+of+your+balance+on+which+you+pay+the+highest+rate+of+interest+which+means+that+we+will+always+pay+off+your+non+BNPLReplaceString+transactions+first%2C+even+if+they+have+not+yet+appeared+on+your+statement.%3Cbr%2F%3E%3Cbr%2F%3E-++++We+may+withdraw+the+availability+of+BNPLReplaceString+at+any+time%2C+but+we+will+let+you+know+if+we+do.%3Cbr%2F%3E%3Cbr%2F%3ECalls+to+NewDay+are+charged+at+a+standard+national+rate.+Call+costs+from+mobiles+and+other+operators+may+vary+so+please+check+before+calling.%3Cbr%2F%3E%3Cbr%2F%3ENewDay+lines+are+open+seven+days+a+week%2C+8am+to+9pm.+Calls+may+be+recorded+or+monitored+for+training+and+security+purposes+and+to+help+us+manage+your+account.%3C%2Fp%3E",
+      "paymentTermsAndCondTxt": "Terms and conditions",
+      "paymentSaveDetailsTxt": "Save payment details?"
+    }
+  }
+}

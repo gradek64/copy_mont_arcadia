@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingDestinationFlag /> @renders should render in default state 1`] = `
+<span
+  className="FlagIcons FlagIcons--unitedKingdom"
+/>
+`;

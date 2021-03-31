@@ -1,0 +1,52 @@
+/** @define CheckoutMiniBag */
+
+.CheckoutMiniBag {
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+
+  &-header {
+    text-transform: $mini-bag-header-text-style;
+    color: $mini-bag-header-color;
+    background-color: $mini-bag-header-background-color;
+    border: $mini-bag-header-border-width solid $mini-bag-header-border-color;
+    font-size: $mini-bag-header-text-size;
+    font-weight: $mini-bag-header-text-weight;
+    margin: 0;
+    padding: $mini-bag-padding;
+  }
+
+  &-closeButton {
+    position: absolute;
+    right: $mini-bag-padding;
+    top: $mini-bag-padding;
+    height: $mini-bag-header-text-size;
+  }
+
+  &-closeButtonImg {
+    height: 100%;
+  }
+
+  &-content {
+    flex: auto;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $scrollbar-thumb-background-color;
+      border-radius: $scrollbar-border-radius;
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      background-color: $scrollbar-background-color;
+      border-radius: $scrollbar-border-radius;
+    }
+  }
+
+  &-backToCheckout:before {
+    position: absolute;
+    content: '<';
+    left: 15px;
+  }
+}

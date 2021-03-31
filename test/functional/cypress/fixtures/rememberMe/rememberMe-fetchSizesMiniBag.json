@@ -1,0 +1,67 @@
+{
+    "items": [
+        {
+            "size": "4",
+            "quantity": 10,
+            "catEntryId": 33827852,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        },
+        {
+            "size": "6",
+            "quantity": 10,
+            "catEntryId": 33827853,
+            "selected": true,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        },
+        {
+            "size": "8",
+            "quantity": 10,
+            "catEntryId": 33828757,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        },
+        {
+            "size": "10",
+            "quantity": 10,
+            "catEntryId": 33826602,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        },
+        {
+            "size": "12",
+            "quantity": 10,
+            "catEntryId": 33826603,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        },
+        {
+            "size": "14",
+            "quantity": 10,
+            "catEntryId": 33826103,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        },
+        {
+            "size": "16",
+            "quantity": 0,
+            "catEntryId": 33828759,
+            "selected": false,
+            "wasPrice": "",
+            "wasWasPrice": "",
+            "unitPrice": "0.00"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+/** @define AddressPreview */
+
+.AddressPreview {
+  position: relative;
+  margin:10px 0;
+  padding-left: 63px;
+  background: url('public/$brand/images/checkout-home.svg') 8px 0/35px no-repeat;
+  box-sizing: content-box;
+
+  &-header {
+    margin: 0 0 10px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: normal;
+  }
+
+  &-col {
+    flex: 1;
+    position: relative;
+      & > .AddressPreview {
+        &-button {
+          width: auto;
+          padding:0 2em 0 2em;
+          margin-top: 10px;
+        }
+      }
+  }
+  
+  &-detailsTerm {
+    /* NOTE: visually hidden, if used elsewhere should be moved into utility class */
+    clip-path: inset(100%);
+    clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; /* added line */
+    width: 1px;
+  }
+
+  &-detailsDescription {
+    margin: 0;
+  }
+}
+
+@media $min-laptop {
+  .AddressPreview {
+    &-button {
+      &--rightAligned {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}

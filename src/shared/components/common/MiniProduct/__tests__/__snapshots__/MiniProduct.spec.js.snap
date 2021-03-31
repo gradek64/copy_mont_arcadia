@@ -1,0 +1,935 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiniProduct /> @render <AddToBag /> should render if \`bundleType\` prop is ‘Flexible’  1`] = `
+<Connect(AddToBag)
+  className="AddToBag--bundles"
+  deliveryMessage=""
+  productId={19411969}
+  quantity={1}
+  shouldAddToBag={[Function]}
+  shouldShowInlineConfirm={true}
+  shouldShowMiniBagConfirm={true}
+/>
+`;
+
+exports[`<MiniProduct /> @render in default state 1`] = `
+<div
+  className="MiniProduct MiniProduct--en"
+>
+  <div
+    className="MiniProduct-container"
+  >
+    <div
+      className="MiniProduct-imageContainer"
+    >
+      <Connect(ResponsiveImage)
+        aria-hidden="true"
+        className="MiniProduct-image"
+        onClick={[Function]}
+        onLoad={[Function]}
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Small_F_1.jpg"
+      />
+    </div>
+    <div
+      className="MiniProduct-details"
+    >
+      <h3
+        className="MiniProduct-title"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Black Essential Tailored Fit Suit Jacket
+      </h3>
+      <HistoricalPrice
+        className="HistoricalPrice--miniProduct"
+        price="49.00"
+        shouldShowSaving={false}
+      />
+      <Connect(BundlesSizes)
+        attributes={
+          Object {
+            "BundleType": "Flexible",
+            "CE3BThumbnailSuffixes": "",
+            "CEThumbnailSuffixes": "",
+            "COLOUR_CODE": "",
+            "Department": "",
+            "ECMC_PROD_COLOUR_1": "",
+            "ECMC_PROD_SIZE_GUIDE_1": "SuitsAndTailoring",
+            "EmailBackInStock": "N",
+            "IFSeason": "SS16",
+            "NotifyMe": "N",
+            "ProductDefaultCopy": "",
+            "STORE_DELIVERY": "true",
+            "STYLE_CODE": "",
+            "SearchKeywords": "",
+            "SizeFit": "",
+            "StyleCode": "0",
+            "ThresholdMessage": "",
+            "b_has360": "N",
+            "b_hasImage": "N",
+            "b_hasVideo": "N",
+            "countryExclusion": "",
+            "has360": "N",
+            "hasVideo": "N",
+            "shopTheOutfitBundleCode": "",
+            "thumbnailImageSuffixes": "_",
+          }
+        }
+        items={
+          Array [
+            Object {
+              "quantity": 51,
+              "selected": false,
+              "size": "40S",
+              "sku": "152015000263214",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42S",
+              "sku": "152015000263215",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "34S",
+              "sku": "152015000263211",
+            },
+            Object {
+              "quantity": 18,
+              "selected": false,
+              "size": "36S",
+              "sku": "152015000263212",
+            },
+            Object {
+              "quantity": 44,
+              "selected": false,
+              "size": "38S",
+              "sku": "152015000263213",
+            },
+            Object {
+              "quantity": 12,
+              "selected": false,
+              "size": "44S",
+              "sku": "152015000263216",
+            },
+            Object {
+              "quantity": 60,
+              "selected": false,
+              "size": "40R",
+              "sku": "152015000263220",
+            },
+            Object {
+              "quantity": 49,
+              "selected": false,
+              "size": "38R",
+              "sku": "152015000263219",
+            },
+            Object {
+              "quantity": 29,
+              "selected": false,
+              "size": "36R",
+              "sku": "152015000263218",
+            },
+            Object {
+              "quantity": 5,
+              "selected": false,
+              "size": "34R",
+              "sku": "152015000263217",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "36L",
+              "sku": "152015000263226",
+            },
+            Object {
+              "quantity": 14,
+              "selected": false,
+              "size": "38L",
+              "sku": "152015000263227",
+            },
+            Object {
+              "quantity": 27,
+              "selected": false,
+              "size": "40L",
+              "sku": "152015000263228",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42L",
+              "sku": "152015000263229",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "46L",
+              "sku": "152015000263231",
+            },
+            Object {
+              "quantity": 36,
+              "selected": false,
+              "size": "44L",
+              "sku": "152015000263230",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "48L",
+              "sku": "152015000263232",
+            },
+            Object {
+              "quantity": 79,
+              "selected": false,
+              "size": "42R",
+              "sku": "152015000263221",
+            },
+            Object {
+              "quantity": 99,
+              "selected": false,
+              "size": "44R",
+              "sku": "152015000263222",
+            },
+            Object {
+              "quantity": 100,
+              "selected": false,
+              "size": "46R",
+              "sku": "152015000263223",
+            },
+            Object {
+              "quantity": 19,
+              "selected": false,
+              "size": "48R",
+              "sku": "152015000263224",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "50R",
+              "sku": "152015000263225",
+            },
+          ]
+        }
+        productId={19411969}
+        stockThreshold={10}
+      />
+    </div>
+  </div>
+  <div
+    className="MiniProduct-secondaryButtonGroup"
+  />
+</div>
+`;
+
+exports[`<MiniProduct /> @render in flexible bundle state 1`] = `
+<div
+  className="MiniProduct MiniProduct--en"
+>
+  <div
+    className="MiniProduct-container"
+  >
+    <div
+      className="MiniProduct-imageContainer"
+    >
+      <Connect(ResponsiveImage)
+        aria-hidden="true"
+        className="MiniProduct-image"
+        onClick={[Function]}
+        onLoad={[Function]}
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Small_F_1.jpg"
+      />
+    </div>
+    <div
+      className="MiniProduct-details"
+    >
+      <h3
+        className="MiniProduct-title"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Black Essential Tailored Fit Suit Jacket
+      </h3>
+      <HistoricalPrice
+        className="HistoricalPrice--miniProduct"
+        price="49.00"
+        shouldShowSaving={false}
+      />
+      <Connect(BundlesSizes)
+        attributes={
+          Object {
+            "BundleType": "Fixed",
+            "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+          }
+        }
+        items={
+          Array [
+            Object {
+              "quantity": 51,
+              "selected": false,
+              "size": "40S",
+              "sku": "152015000263214",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42S",
+              "sku": "152015000263215",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "34S",
+              "sku": "152015000263211",
+            },
+            Object {
+              "quantity": 18,
+              "selected": false,
+              "size": "36S",
+              "sku": "152015000263212",
+            },
+            Object {
+              "quantity": 44,
+              "selected": false,
+              "size": "38S",
+              "sku": "152015000263213",
+            },
+            Object {
+              "quantity": 12,
+              "selected": false,
+              "size": "44S",
+              "sku": "152015000263216",
+            },
+            Object {
+              "quantity": 60,
+              "selected": false,
+              "size": "40R",
+              "sku": "152015000263220",
+            },
+            Object {
+              "quantity": 49,
+              "selected": false,
+              "size": "38R",
+              "sku": "152015000263219",
+            },
+            Object {
+              "quantity": 29,
+              "selected": false,
+              "size": "36R",
+              "sku": "152015000263218",
+            },
+            Object {
+              "quantity": 5,
+              "selected": false,
+              "size": "34R",
+              "sku": "152015000263217",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "36L",
+              "sku": "152015000263226",
+            },
+            Object {
+              "quantity": 14,
+              "selected": false,
+              "size": "38L",
+              "sku": "152015000263227",
+            },
+            Object {
+              "quantity": 27,
+              "selected": false,
+              "size": "40L",
+              "sku": "152015000263228",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42L",
+              "sku": "152015000263229",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "46L",
+              "sku": "152015000263231",
+            },
+            Object {
+              "quantity": 36,
+              "selected": false,
+              "size": "44L",
+              "sku": "152015000263230",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "48L",
+              "sku": "152015000263232",
+            },
+            Object {
+              "quantity": 79,
+              "selected": false,
+              "size": "42R",
+              "sku": "152015000263221",
+            },
+            Object {
+              "quantity": 99,
+              "selected": false,
+              "size": "44R",
+              "sku": "152015000263222",
+            },
+            Object {
+              "quantity": 100,
+              "selected": false,
+              "size": "46R",
+              "sku": "152015000263223",
+            },
+            Object {
+              "quantity": 19,
+              "selected": false,
+              "size": "48R",
+              "sku": "152015000263224",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "50R",
+              "sku": "152015000263225",
+            },
+          ]
+        }
+        productId={19411969}
+        stockThreshold={10}
+      />
+    </div>
+  </div>
+  <div
+    className="MiniProduct-secondaryButtonGroup"
+  >
+    <Connect(AddToBag)
+      className="AddToBag--bundles"
+      deliveryMessage=""
+      productId={19411969}
+      quantity={1}
+      shouldAddToBag={[Function]}
+      shouldShowInlineConfirm={true}
+      shouldShowMiniBagConfirm={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`<MiniProduct /> @render in flexible bundle state with SKU as "" 1`] = `
+<div
+  className="MiniProduct MiniProduct--en"
+>
+  <div
+    className="MiniProduct-container"
+  >
+    <div
+      className="MiniProduct-imageContainer"
+    >
+      <Connect(ResponsiveImage)
+        aria-hidden="true"
+        className="MiniProduct-image"
+        onClick={[Function]}
+        onLoad={[Function]}
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Small_F_1.jpg"
+      />
+    </div>
+    <div
+      className="MiniProduct-details"
+    >
+      <h3
+        className="MiniProduct-title"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Black Essential Tailored Fit Suit Jacket
+      </h3>
+      <HistoricalPrice
+        className="HistoricalPrice--miniProduct"
+        price="49.00"
+        shouldShowSaving={false}
+      />
+      <Connect(BundlesSizes)
+        attributes={
+          Object {
+            "BundleType": "Fixed",
+            "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+          }
+        }
+        items={
+          Array [
+            Object {
+              "quantity": 51,
+              "selected": false,
+              "size": "40S",
+              "sku": "152015000263214",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42S",
+              "sku": "152015000263215",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "34S",
+              "sku": "152015000263211",
+            },
+            Object {
+              "quantity": 18,
+              "selected": false,
+              "size": "36S",
+              "sku": "152015000263212",
+            },
+            Object {
+              "quantity": 44,
+              "selected": false,
+              "size": "38S",
+              "sku": "152015000263213",
+            },
+            Object {
+              "quantity": 12,
+              "selected": false,
+              "size": "44S",
+              "sku": "152015000263216",
+            },
+            Object {
+              "quantity": 60,
+              "selected": false,
+              "size": "40R",
+              "sku": "152015000263220",
+            },
+            Object {
+              "quantity": 49,
+              "selected": false,
+              "size": "38R",
+              "sku": "152015000263219",
+            },
+            Object {
+              "quantity": 29,
+              "selected": false,
+              "size": "36R",
+              "sku": "152015000263218",
+            },
+            Object {
+              "quantity": 5,
+              "selected": false,
+              "size": "34R",
+              "sku": "152015000263217",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "36L",
+              "sku": "152015000263226",
+            },
+            Object {
+              "quantity": 14,
+              "selected": false,
+              "size": "38L",
+              "sku": "152015000263227",
+            },
+            Object {
+              "quantity": 27,
+              "selected": false,
+              "size": "40L",
+              "sku": "152015000263228",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42L",
+              "sku": "152015000263229",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "46L",
+              "sku": "152015000263231",
+            },
+            Object {
+              "quantity": 36,
+              "selected": false,
+              "size": "44L",
+              "sku": "152015000263230",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "48L",
+              "sku": "152015000263232",
+            },
+            Object {
+              "quantity": 79,
+              "selected": false,
+              "size": "42R",
+              "sku": "152015000263221",
+            },
+            Object {
+              "quantity": 99,
+              "selected": false,
+              "size": "44R",
+              "sku": "152015000263222",
+            },
+            Object {
+              "quantity": 100,
+              "selected": false,
+              "size": "46R",
+              "sku": "152015000263223",
+            },
+            Object {
+              "quantity": 19,
+              "selected": false,
+              "size": "48R",
+              "sku": "152015000263224",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "50R",
+              "sku": "152015000263225",
+            },
+          ]
+        }
+        productId={19411969}
+        stockThreshold={10}
+      />
+    </div>
+  </div>
+  <div
+    className="MiniProduct-secondaryButtonGroup"
+  >
+    <Connect(AddToBag)
+      className="AddToBag--bundles"
+      deliveryMessage=""
+      partNumber=""
+      productId={19411969}
+      quantity={1}
+      shouldAddToBag={[Function]}
+      shouldShowInlineConfirm={true}
+      shouldShowMiniBagConfirm={true}
+      sku=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<MiniProduct /> @render in flexible bundle state with sku 1`] = `
+<div
+  className="MiniProduct MiniProduct--en"
+>
+  <div
+    className="MiniProduct-container"
+  >
+    <div
+      className="MiniProduct-imageContainer"
+    >
+      <Connect(ResponsiveImage)
+        aria-hidden="true"
+        className="MiniProduct-image"
+        onClick={[Function]}
+        onLoad={[Function]}
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Small_F_1.jpg"
+      />
+    </div>
+    <div
+      className="MiniProduct-details"
+    >
+      <h3
+        className="MiniProduct-title"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Black Essential Tailored Fit Suit Jacket
+      </h3>
+      <HistoricalPrice
+        className="HistoricalPrice--miniProduct"
+        price="49.00"
+        shouldShowSaving={false}
+      />
+      <Connect(BundlesSizes)
+        attributes={
+          Object {
+            "BundleType": "Fixed",
+            "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+          }
+        }
+        items={
+          Array [
+            Object {
+              "catEntryid": 123,
+              "sku": "152015000263214",
+            },
+          ]
+        }
+        productId={19411969}
+        stockThreshold={10}
+      />
+    </div>
+  </div>
+  <div
+    className="MiniProduct-secondaryButtonGroup"
+  >
+    <Connect(AddToBag)
+      className="AddToBag--bundles"
+      deliveryMessage=""
+      partNumber="152015000263214"
+      productId={19411969}
+      quantity={1}
+      shouldAddToBag={[Function]}
+      shouldShowInlineConfirm={true}
+      shouldShowMiniBagConfirm={true}
+      sku="152015000263214"
+    />
+  </div>
+</div>
+`;
+
+exports[`<MiniProduct /> @render with quickview button 1`] = `
+<div
+  className="MiniProduct MiniProduct--en MiniProduct--hasQuickView"
+>
+  <div
+    className="MiniProduct-container"
+  >
+    <div
+      className="MiniProduct-imageContainer"
+    >
+      <Connect(ResponsiveImage)
+        aria-hidden="true"
+        className="MiniProduct-image"
+        onClick={[Function]}
+        onLoad={[Function]}
+        sizes={
+          Object {
+            "desktop": 170,
+            "mobile": 170,
+            "tablet": 170,
+          }
+        }
+        src="http://media.burton.co.uk/wcsstore/Burton/images/catalog/BR02T01GBLK_Small_F_1.jpg"
+      />
+    </div>
+    <div
+      className="MiniProduct-details"
+    >
+      <h3
+        className="MiniProduct-title"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Black Essential Tailored Fit Suit Jacket
+      </h3>
+      <HistoricalPrice
+        className="HistoricalPrice--miniProduct"
+        price="49.00"
+        shouldShowSaving={false}
+      />
+      <Connect(BundlesSizes)
+        attributes={
+          Object {
+            "BundleType": "Flexible",
+            "CE3BThumbnailSuffixes": "",
+            "CEThumbnailSuffixes": "",
+            "COLOUR_CODE": "",
+            "Department": "",
+            "ECMC_PROD_COLOUR_1": "",
+            "ECMC_PROD_SIZE_GUIDE_1": "SuitsAndTailoring",
+            "EmailBackInStock": "N",
+            "IFSeason": "SS16",
+            "NotifyMe": "N",
+            "ProductDefaultCopy": "",
+            "STORE_DELIVERY": "true",
+            "STYLE_CODE": "",
+            "SearchKeywords": "",
+            "SizeFit": "",
+            "StyleCode": "0",
+            "ThresholdMessage": "",
+            "b_has360": "N",
+            "b_hasImage": "N",
+            "b_hasVideo": "N",
+            "countryExclusion": "",
+            "has360": "N",
+            "hasVideo": "N",
+            "shopTheOutfitBundleCode": "",
+            "thumbnailImageSuffixes": "_",
+          }
+        }
+        items={
+          Array [
+            Object {
+              "quantity": 51,
+              "selected": false,
+              "size": "40S",
+              "sku": "152015000263214",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42S",
+              "sku": "152015000263215",
+            },
+            Object {
+              "quantity": 4,
+              "selected": false,
+              "size": "34S",
+              "sku": "152015000263211",
+            },
+            Object {
+              "quantity": 18,
+              "selected": false,
+              "size": "36S",
+              "sku": "152015000263212",
+            },
+            Object {
+              "quantity": 44,
+              "selected": false,
+              "size": "38S",
+              "sku": "152015000263213",
+            },
+            Object {
+              "quantity": 12,
+              "selected": false,
+              "size": "44S",
+              "sku": "152015000263216",
+            },
+            Object {
+              "quantity": 60,
+              "selected": false,
+              "size": "40R",
+              "sku": "152015000263220",
+            },
+            Object {
+              "quantity": 49,
+              "selected": false,
+              "size": "38R",
+              "sku": "152015000263219",
+            },
+            Object {
+              "quantity": 29,
+              "selected": false,
+              "size": "36R",
+              "sku": "152015000263218",
+            },
+            Object {
+              "quantity": 5,
+              "selected": false,
+              "size": "34R",
+              "sku": "152015000263217",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "36L",
+              "sku": "152015000263226",
+            },
+            Object {
+              "quantity": 14,
+              "selected": false,
+              "size": "38L",
+              "sku": "152015000263227",
+            },
+            Object {
+              "quantity": 27,
+              "selected": false,
+              "size": "40L",
+              "sku": "152015000263228",
+            },
+            Object {
+              "quantity": 50,
+              "selected": false,
+              "size": "42L",
+              "sku": "152015000263229",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "46L",
+              "sku": "152015000263231",
+            },
+            Object {
+              "quantity": 36,
+              "selected": false,
+              "size": "44L",
+              "sku": "152015000263230",
+            },
+            Object {
+              "quantity": 1,
+              "selected": false,
+              "size": "48L",
+              "sku": "152015000263232",
+            },
+            Object {
+              "quantity": 79,
+              "selected": false,
+              "size": "42R",
+              "sku": "152015000263221",
+            },
+            Object {
+              "quantity": 99,
+              "selected": false,
+              "size": "44R",
+              "sku": "152015000263222",
+            },
+            Object {
+              "quantity": 100,
+              "selected": false,
+              "size": "46R",
+              "sku": "152015000263223",
+            },
+            Object {
+              "quantity": 19,
+              "selected": false,
+              "size": "48R",
+              "sku": "152015000263224",
+            },
+            Object {
+              "quantity": 2,
+              "selected": false,
+              "size": "50R",
+              "sku": "152015000263225",
+            },
+          ]
+        }
+        productId={19411969}
+        stockThreshold={10}
+      />
+    </div>
+  </div>
+  <div
+    className="MiniProduct-secondaryButtonGroup"
+  />
+</div>
+`;

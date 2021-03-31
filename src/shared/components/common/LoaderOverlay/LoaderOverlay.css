@@ -1,0 +1,17 @@
+/** @define LoaderOverlay */
+@lost flexbox flex;
+
+.LoaderOverlay {
+  position: fixed;
+  background: rgba(0, 0, 0, $overlay-opacity);
+  top: 0;
+  height: 100%;
+  z-index: 100;
+  width: 100%;
+  pointer-events: auto;
+  display: none;
+
+  &.is-shown {
+    display: block;
+  }
+}

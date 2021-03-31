@@ -1,0 +1,168 @@
+/** @define Product; weak */
+
+@lost flexbox flex;
+@lost gutter $plp-product-gutter;
+
+/* the following fixes click issues on touch devices for products on PLP */
+@media (hover: none) and (pointer: coarse) {
+  .Product {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+.Product {
+  box-sizing: border-box;
+  width: 100%;
+  border: $plp-product-borders;
+  text-align: $plp-product-alignment;
+  padding: $plp-product-top-padding $plp-product-horizontal-padding;
+  font-size: $plp-product-font-size;
+
+  .RatingImage-star {
+    width: $plp-product-rating-image-star-size;
+    height: $plp-product-rating-image-star-size;
+  }
+
+  &-link {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    padding-top: $plp-product-link-padding-top;
+    position: relative;
+    /* IE11 spacing fix */
+    flex: 0 0 auto;
+  }
+
+  &-meta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-info {
+    position: relative;
+    padding: $plp-product-info-padding-top $plp-product-info-padding-horizontal $plp-product-info-padding-bottom;
+    order: $plp-product-info-order;
+    text-decoration: none;
+
+    &--col3,
+    &--col4 {
+      display: none;
+    }
+  }
+
+  &-nameLink {
+    text-decoration: none;
+  }
+
+  &-swatches {
+    &--col3,
+    &--col4 {
+      display: none;
+    }
+  }
+
+  &-name {
+    margin-bottom: $plp-product-name-margin-bottom;
+    font-family: $plp-product-title-font;
+    font-size: $plp-product-title-font-size;
+    color: $plp-product-title-font-color;
+    font-weight: $plp-product-title-font-weight;
+    letter-spacing: $plp-product-title-letter-spacing;
+    line-height: $plp-product-title-line-height;
+    text-transform: $plp-product-title-text-transform;
+    word-break: break-word;
+
+      h2 {
+      margin: 0;
+      font-size: inherit;
+      letter-spacing: inherit;
+      line-height: inherit;
+      font-weight: inherit;
+      color: inherit;
+    }
+  }
+
+  &-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    border-top: 1px solid $lt-gray;
+  }
+
+  &-ratingImage {
+    margin-top: $plp-product-rating-image-margin-top;
+  }
+
+  &--col1 {
+    width: 100%;
+    font-size: $plp-product-font-size-col-1;
+  }
+
+  &--col2 {
+    lost-column: 1/2;
+  }
+
+  &--col3 {
+    lost-column: 1/3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  &--col4 {
+    lost-column: 1/4;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media $min-tablet {
+  .Product {
+    margin-bottom: $plp-product-info-margin-bottom-desktop;
+
+    &-info {
+      padding: $plp-product-info-padding-top $plp-product-info-padding-horizontal $plp-product-info-padding-bottom-desktop;
+
+      &--col2, 
+      &--col3,
+      &--col4 {
+        display: block;
+        line-height: $plp-product-line-height;
+        padding-left: $plp-product-info-padding-left-desktop;
+      }
+    }
+
+    &-swatches {
+      &--col2,
+      &--col3,
+      &--col4 {
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media $min-tablet {
+  .Product {
+    &-name {
+      font-weight: $plp-product-title-font-weight-desktop;
+      margin-right: $plp-product-title-margin-right;
+      margin-bottom: $plp-product-name-margin-bottom-desktop;
+      font-size: $plp-product-title-font-size-desktop;
+    }
+
+    &-nameLink {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &-ratingImage {
+      margin-top: 10px;
+    }
+  }
+}

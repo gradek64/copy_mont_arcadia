@@ -1,0 +1,136 @@
+{
+    "<appConfig>": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "LEGACY_CMS_PROTOCOL"
+                    },
+                    "value": {
+                        "S": "<LEGACY_CMS_PROTOCOL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "QUBIT_DISABLED"
+                    },
+                    "value": {
+                        "S": "<QUBIT_DISABLED>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "LOGGING_LEVEL"
+                    },
+                    "value": {
+                        "S": "<LOGGING_LEVEL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "COOKIE_MESSAGE"
+                    },
+                    "value": {
+                        "S": "true"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "FEATURE_FLAG_BUCKET"
+                    },
+                    "value": {
+                        "S": "<FEATURE_FLAG_BUCKET>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "FEATURE_FLAG_TOPIC_ARN"
+                    },
+                    "value": {
+                        "S": "<FEATURE_FLAG_TOPIC_ARN>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "FEATURE_FLAG_KEY"
+                    },
+                    "value": {
+                        "S": "<FEATURE_FLAG_KEY>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "MR_CMS_URL"
+                    },
+                    "value": {
+                        "S": "<MR_CMS_URL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "MR_CMS_PORT"
+                    },
+                    "value": {
+                        "S": "<MR_CMS_PORT>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "MR_CMS_PROTOCOL"
+                    },
+                    "value": {
+                        "S": "<MR_CMS_PROTOCOL>"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {
+                        "S": "CLEAR_SESSION_KEY_ON_TIMEOUT"
+                    },
+                    "value": {
+                        "S": "true"
+                    }
+                }
+            }
+        }
+    ]
+}

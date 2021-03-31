@@ -1,0 +1,52 @@
+/** @define CheckoutBagSide */
+
+.CheckoutBagSide {
+  display: none;
+
+  &-title {
+    display: none;
+  }
+
+  &-espot {
+    margin: 10px 30px;
+  }
+
+  &-messages {
+    margin: 10px 30px;
+  }
+
+  &--drawer {
+    display: block;
+    max-width: none;
+    min-width: 0;
+    border: none;
+    height: 100%;
+  }
+}
+
+@media $min-tablet {
+  .CheckoutBagSide {
+    border: 1px solid $checkout-bag-side-border-color;
+    display: block;
+    max-width: 360px;
+    min-width: 300px;
+
+    &-title {
+      display: block;
+      font-size: $checkout-bag-side-title-font-size;
+      font-weight: $checkout-bag-side-title-font-weight;
+      margin: $checkout-bag-side-title-margin-vertical $checkout-bag-side-title-margin-horizontal $checkout-bag-side-title-margin-vertical $checkout-bag-side-title-margin-horizontal;
+      padding: $checkout-bag-side-title-padding-vertical $checkout-bag-side-title-padding-horizontal $checkout-bag-side-title-padding-vertical $checkout-bag-side-title-padding-horizontal;
+      background-color: $checkout-bag-side-background-color;
+      border-bottom: 1px solid $checkout-bag-side-border-color;
+    }
+  }
+}
+
+@media $mobile {
+  .CheckoutBagSide {
+    &-messages {
+      margin: 10px;
+    }
+  }
+}

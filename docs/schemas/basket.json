@@ -1,0 +1,238 @@
+{
+  "type": "object",
+  "properties": {
+    "ageVerificationRequired": {
+      "type": "boolean"
+    },
+    "isBasketResponse": {
+      "type": "boolean"
+    },
+    "isGiftCardRedemptionEnabled": {
+      "type": "boolean"
+    },
+    "isGiftCardValueThresholdMet": {
+      "type": "boolean"
+    },
+    "giftCardRedemptionPercentage": {
+      "type": "number"
+    },
+    "isOrderCoveredByGiftCards": {
+      "type": "boolean"
+    },
+    "deliveryOptions": {
+      "type": "array",
+      "description": "List of available delivery options for the basket",
+      "items": {
+        "type": "object",
+        "properties": {
+          "deliveryOptionId": {
+            "type": "number",
+            "description": "Internal code representing the delivery option",
+            "example": 28004
+          },
+          "label": {
+            "type": "string",
+            "description": "UI label for the delivery option",
+            "example": "Express / Nominated Delivery £6.00"
+          },
+          "plainLabel": {
+            "type": "string",
+            "description": "UI label for the delivery option",
+            "example": "Express / Nominated Delivery"
+          },
+          "selected": {
+            "type": "boolean",
+            "description": "Whether the option is currently selected or not",
+            "example": false
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Whether the delivery method is currently enabled or not",
+            "example": true
+          },
+          "type": {
+            "type": "string",
+            "description": "one of delivery methods/types",
+            "example": "store_express"
+          },
+          "shippingCost": {
+            "type": "number",
+            "description": "Cost of delivery",
+            "example": 6.00
+          }
+        }
+      }
+    },
+    "discounts": {
+      "type": "array",
+      "description": "Array of discounts applied to the order (including gift cards)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "description": "UI label for the discount",
+            "example": "Gift Card - XXXX XXXX XXXX 6765"
+          },
+          "value": {
+            "type": "string",
+            "description": "The value of the discount",
+            "example": "5.00"
+          }
+        }
+      }
+    },
+    "inventoryPositions": {
+      "description": "List of items with details for FFS fulfillment. This will contain as many properties as there are items in the bag, but due to Swagger limitations only one is shown.",
+      "$ref": "#/definitions/inventoryPositions"
+    },
+    "orderId": {
+      "type": "number",
+      "description": "Identification number for the order",
+      "example": 12345678
+    },
+    "products": {
+      "type": "array",
+      "description": "Array of items in the basket.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ageVerificationRequired": {
+            "type": "boolean",
+            "description": "Shows if the item requires the customer to verify if they are an adult.",
+            "example": false
+          },
+          "assets": {
+            "type": "array",
+            "description": "Array of image assets for the product",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assetType": {
+                  "type": "string",
+                  "description": "The size of the image",
+                  "example": "THUMBNAIL"
+                },
+                "index": { "type": "number", "example": 1 },
+                "url": {
+                  "type": "string",
+                  "description": "URL of the image asset",
+                  "example": "https://ts.pplive.arcadiagroup.ltd.uk/wcsstore/TopShop/images/catalog/63I31IROS_zoom.jpg"
+                }
+              }
+            }
+          },
+          "attributes": {
+            "type": "object",
+            "description": "The attributes of the product, if any",
+            "properties": {}
+          },
+          "bundleProducts": {
+            "type": "array",
+            "description": "Other products included in the bundle, if any",
+            "items": {}
+          },
+          "bundleSlots": { "type": "array", "items": {} },
+          "catEntryId": {
+            "type": "number",
+            "description": "The category entry ID number of the product",
+            "example": 12341234
+          },
+          "colourSwatches": {
+            "type": "array",
+            "description": "Swatch colours for this product, if any",
+            "items": {}
+          },
+          "inStock": {
+            "type": "boolean",
+            "description": "Flag showing if the product is in stock",
+            "example": true
+          },
+          "isBundleOrOutfit": {
+            "type": "boolean",
+            "description": "Flag showing if the product is part of a bundle",
+            "example": false
+          },
+          "items": { "type": "array", "items": "false" },
+          "lineNumber": {
+            "type": "string",
+            "description": "Unique code determining what line the product is in the basket",
+            "example": "63I31IROS"
+          },
+          "lowStock": {
+            "type": "boolean",
+            "description": "Flag showing if stock for the product is low",
+            "example": false
+          },
+          "name": {
+            "type": "string",
+            "description": "The product's name as shown to consumers",
+            "example": "**Olivia Burton Painterly Prints  OB15PP07 watch"
+          },
+          "orderItemId": {
+            "type": "string",
+            "description": "Unique number relating the item to the order it is placed in. Differs for each item",
+            "example": "7470367"
+          },
+          "productId": {
+            "type": "string",
+            "description": "Code for the product encompassing all sizes, swatches etc.",
+            "example": "21926974"
+          },
+          "quantity": {
+            "type": "number",
+            "description": "Amount of the product added to the basket",
+            "example": 2
+          },
+          "shipModeId": { "type": "string", "example": "26504" },
+          "size": { "type": "string", "description": "Size of the item", "example": "ONE" },
+          "totalPrice": {
+            "type": "string",
+            "description": "The price for the entire quantity of the item, after discounts or promotions applied",
+            "example": "85.00"
+          },
+          "tpmLinks": { "type": "array", "items": {} },
+          "unitPrice": {
+            "type": "string",
+            "description": "The price for one of the item, including any discounts but not factoring in promotions applied",
+            "example": "170.00"
+          },
+          "promotionId": {
+            "type": "string",
+            "description": "If the product is included in a promotion, the ID of that specific promotion",
+            "example": "11166542"
+          },
+          "promotionLabel": {
+            "type": "string",
+            "description": "Text describing the specific promotion the product is included in",
+            "example": "3 for £8 Ankle Socks Promotion"
+          },
+          "promotionText": {
+            "type": "string",
+            "description": "Text that is displayed if the item is on a promotion",
+            "example": "This is part of a promotion!"
+          }
+        }
+      }
+    },
+    "promotions": { "type": "array", "items": {} },
+    "PromotionDisplayURL": {
+      "type": "string",
+      "example": "http://foo.bar?promoId=123456&foo=bar"
+    },
+    "promoTitle": {
+      "type": "string",
+      "example": "3 for £8 ankle socks"
+    },
+    "unfulfilledPromotionLabel": {
+      "type": "string",
+      "example": "Hurry! Act now!"
+    },
+    "restrictedDeliveryItem": { "type": "boolean", "example": false },
+    "savedProducts": { "type": "array", "example": {} },
+    "subTotal": { "type": "string", "example": "168.00" },
+    "totalBeforeDiscount": { "type": "string", "example": "170.00" },
+    "total": { "type": "string", "example": "170.00" },
+    "version": { "type": "string", "example": "1.7" }
+  }
+}

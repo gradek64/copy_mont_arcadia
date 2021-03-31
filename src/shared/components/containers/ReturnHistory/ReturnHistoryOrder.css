@@ -1,0 +1,65 @@
+/** @define ReturnHistoryOrder */
+
+.ReturnHistoryOrder {
+  padding: 10px $page-padding;
+  display: flex;
+
+  &-image {
+     max-width: calc((99.9% - $myorder-details-products-list-margin-horizontal) * 2/5);
+     margin-right: $myorder-details-products-list-margin-horizontal;
+     background-color: $md-gray;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 0;
+  }
+
+  &-text {
+    font-size: 15px;
+    margin: 0 0 15px 0;
+    &.is-hidden {
+      visibility: hidden;
+    }
+  }
+
+  &-productName {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+@media $min-tablet {
+  .ReturnHistoryOrder {
+    display: flex;
+    padding: 15px;
+    border: 1px solid $myaccount-border-color;
+    margin: 10px 0;
+
+    &-image {
+      height: 100%;
+      width: 120px;
+    }
+
+    &-content {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: flex-start;
+      padding: 0;
+    }
+
+    &-cont {
+      margin: 0
+    }
+
+    &-imageDesktop {
+       vertical-align: top;
+       text-align: center;
+       width: 120px;
+    }
+  }
+}

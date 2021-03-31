@@ -1,0 +1,117 @@
+/** @define ProgressTracker */
+@lost flexbox flex;
+
+.ProgressTracker {
+  display: $progresstracker-display;
+  justify-content: $progresstracker-justify-content;
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  margin: $progresstracker-margin;
+  overflow: $progresstracker-overflow;
+  lost-flex-container: row;
+
+  &::after {
+    content: "";
+    border-top: $progresstracker-line-width $progresstracker-line-type $progresstracker-line-color;
+    width: calc(100% - ($progresstracker-item-margin-horizontal * 2));
+    margin: calc($progresstracker-item-width * -0.5) auto 0;
+  }
+
+  &-item {
+    position: relative;
+    height: $progresstracker-item-height;
+    width: $progresstracker-item-width;
+    flex: $progresstracker-item-flex;
+    margin: 0 $progresstracker-item-margin-horizontal;
+    text-align: $progresstracker-item-text-align;
+    padding: $progresstracker-item-padding;
+    border-radius: $progresstracker-item-border-radius;
+    box-sizing: border-box;
+    background: $progresstracker-item-background-color;
+    border: $progresstracker-item-border;
+
+    &::after {
+      border-left-color: $progresstracker-item-background-color;
+    }
+    & > .ProgressTracker-label {
+      color: $progresstracker-label-color;
+    }
+    & > .ProgressTracker-number {
+      color: $progresstracker-number-color;
+    }
+
+    &:nth-child(2), &:nth-child(3) {
+      width: $progresstracker-item-sibling-width;
+      padding-left: $progresstracker-item-sibling-padding-left;
+    }
+
+    &::after, &::before {
+      content: "";
+      display: $progresstracker-arrow-display;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      height: 0;
+      line-height: 0;
+      border-style: solid;
+      border-width: $progresstracker-arrow-size 0 $progresstracker-arrow-size $progresstracker-arrow-calc;
+      border-color: transparent;
+      margin-top: calc(($progresstracker-item-height / 2) - $progresstracker-arrow-size);
+      margin-left: -1px;
+    }
+
+    &::after {
+      border-left-color: $progresstracker-item-background-color;
+      z-index: 2;
+    }
+
+    &::before {
+      border-left-color: $progresstracker-arrow-border-color;
+      margin-left: $progresstracker-arrow-border-width;
+      z-index: 1;
+    }
+  }
+
+  &-item--active, &-item--complete {
+    background: $progresstracker-item-active-background-color;
+    border: $progresstracker-item-active-border;
+    & > .ProgressTracker-label {
+      color: $progresstracker-label-active-color;
+      font-weight: $progresstracker-label-active-font-weight;
+    }
+    & > .ProgressTracker-number {
+      color: $progresstracker-number-active-color;
+    }
+    &::after {
+      border-left-color: $progresstracker-item-active-background-color;
+    }
+  }
+
+
+  &-number {
+    display: $progresstracker-number-display;
+    font-weight: $progresstracker-number-font-weight;
+    font-size: $progresstracker-number-font-size;
+    margin-top: $progresstracker-number-margin-top;
+  }
+
+  &-label {
+    position: $progresstracker-label-position;
+    top: $progresstracker-label-position-top;
+    left: $progresstracker-label-position-left;
+    display: $progresstracker-label-display;
+    font-weight: $progresstracker-label-font-weight;
+    font-size: $progresstracker-label-font-size;
+    text-transform: $progresstracker-label-text-transform;
+    width: calc($progresstracker-item-margin-horizontal * 2 + 100%);
+    white-space: nowrap;
+    padding: 0 1px;
+  }
+}
+
+@media $min-tablet {
+  .ProgressTracker {
+    margin: $progresstracker-margin-desktop;
+  }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItemLink /> @renders should render default state 1`] = `<div />`;
+
+exports[`<ListItemLink /> @renders should render supplied \`children\` 1`] = `
+<div>
+  <p>
+    Child
+  </p>
+</div>
+`;

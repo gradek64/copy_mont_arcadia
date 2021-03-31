@@ -1,0 +1,20 @@
+/** @define ProductPromoBanner */
+
+.ProductPromoBanner {
+  align-self: $plp-product-promo-banner-align;
+  margin-top: $plp-product-promo-banner-margin-top;
+  width: $plp-product-promo-banner-width;
+  min-height: 1px; /*IE Fix https://github.com/philipwalton/flexbugs/issues/75*/
+
+  &-image {
+    width: 100%;
+  }
+}
+
+@media $mobile {
+  .ProductPromoBanner {
+    align-self: $plp-product-promo-banner-align;
+    margin-top: $plp-product-promo-banner-margin-top;
+    width: $plp-product-promo-banner-mobile-width;
+  }
+}

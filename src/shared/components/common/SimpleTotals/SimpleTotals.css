@@ -1,0 +1,35 @@
+/** @define SimpleTotals */
+
+.SimpleTotals {
+  background-color: $checkout-bag-side-simple-total-background-color;
+  padding: $checkout-bag-side-simple-total-section-padding;
+  font-size: $checkout-bag-side-simple-total-section-font-size;
+
+  &-section {
+    display: flex;
+    line-height: 28px;
+  }
+
+  &-groupLeft {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &-groupRight {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-total {
+    margin-top: 10px;
+    font-size: $checkout-bag-side-total-font-size;
+    font-weight: $checkout-bag-side-total-font-weight;
+    line-height: 22px;
+  }
+
+  &-discount {
+    color: $mini-bag-promocode-confirmed-text-color;
+  }
+}

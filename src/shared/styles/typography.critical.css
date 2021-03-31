@@ -1,0 +1,89 @@
+/* postcss-bem-linter: ignore */
+body {
+  font-family: $font-family-body;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: $font-weight-base;
+  color: $font-color-base;
+}
+
+/* postcss-bem-linter: ignore */
+h1 {
+  font-family: $font-family-h1;
+  font-size: $font-size-h1;
+  line-height: $line-height-h1;
+  font-weight: $font-weight-h1;
+  text-transform: $text-transform-h1;
+  color: $font-color-h1;
+  text-shadow: $text-shadow-h1;
+  letter-spacing: $letter-spacing-h1;
+  word-spacing: $word-spacing-h1;
+}
+
+/* postcss-bem-linter: ignore */
+h2 {
+  font-family: $font-family-h2;
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+  font-weight: $font-weight-h2;
+  text-transform: $text-transform-h2;
+  color: $font-color-h2;
+  text-shadow: $text-shadow-h2;
+  letter-spacing: $letter-spacing-h2;
+}
+
+/* postcss-bem-linter: ignore */
+h3,
+.h3 {
+  font-family: $font-family-h3;
+  font-size: $font-size-h3;
+  line-height: $line-height-h3;
+  font-weight: $font-weight-h3;
+  text-transform: $text-transform-h3;
+  color: $font-color-h3;
+  text-shadow: $text-shadow-h3;
+  letter-spacing: $letter-spacing-h3;
+}
+
+/* postcss-bem-linter: ignore */
+p {
+  font-family: $font-family-p;
+  font-size: $font-size-p;
+  line-height: $line-height-p;
+  font-weight: $font-weight-p;
+  text-transform: $text-transform-p;
+  color: $font-color-p;
+  letter-spacing: $letter-spacing-p;
+}
+
+/* postcss-bem-linter: ignore */
+label {
+  font-family: $font-family-label;
+  font-size: $font-size-label;
+  line-height: $line-height-label;
+  font-weight: $font-weight-label;
+  text-transform: $text-transform-label;
+  color: $font-color-label;
+  letter-spacing: $letter-spacing-label;
+}
+
+/* postcss-bem-linter: ignore */
+input:-ms-input-placeholder {
+  color: $font-color-placeholder;
+}
+
+/* postcss-bem-linter: ignore */
+a {
+  color: $dk-gray;
+}
+
+/* postcss-bem-linter: ignore */
+input, select {
+  font-family: $font-family-input;
+  font-size: $font-size-input;
+  line-height: $line-height-input;
+  font-weight: $font-weight-input;
+  text-transform: $text-transform-input;
+  color: $font-color-input;
+  letter-spacing: $letter-spacing-input;
+}

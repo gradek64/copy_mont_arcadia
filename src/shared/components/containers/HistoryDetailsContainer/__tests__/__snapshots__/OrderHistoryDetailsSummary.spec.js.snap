@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderHistoryDetailsSummary /> @renders in default state 1`] = `""`;
+
+exports[`<OrderHistoryDetailsSummary /> @renders should not display the deliveryPrice if it is a DDP Order 1`] = `
+<section
+  className="OrderHistoryDetailsSummary"
+>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Total
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £25.00
+      </span>
+    </PrivacyGuard>
+  </p>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsSummary /> @renders with deliveryPrice 1`] = `
+<section
+  className="OrderHistoryDetailsSummary"
+>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Delivery
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £4.00
+      </span>
+    </PrivacyGuard>
+  </p>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Total
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £NaN
+      </span>
+    </PrivacyGuard>
+  </p>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsSummary /> @renders with totalOrderPrice 1`] = `
+<section
+  className="OrderHistoryDetailsSummary"
+>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Delivery
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £NaN
+      </span>
+    </PrivacyGuard>
+  </p>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Total
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £25.00
+      </span>
+    </PrivacyGuard>
+  </p>
+</section>
+`;
+
+exports[`<OrderHistoryDetailsSummary /> @renders with totalOrderPrice and deliveryPrice 1`] = `
+<section
+  className="OrderHistoryDetailsSummary"
+>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Delivery
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £4.00
+      </span>
+    </PrivacyGuard>
+  </p>
+  <p
+    className="OrderHistoryDetailsSummary-prices"
+  >
+    <strong
+      className="OrderHistoryDetailsSummary-left"
+    >
+      Total
+      :
+    </strong>
+    <PrivacyGuard>
+      <span
+        className="OrderHistoryDetailsSummary-right"
+      >
+        £25.00
+      </span>
+    </PrivacyGuard>
+  </p>
+</section>
+`;

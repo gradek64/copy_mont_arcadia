@@ -1,0 +1,51 @@
+/** @define DeliveryEstimate */
+.DeliveryEstimate {
+
+  &--checkoutBagSide {
+    padding: $checkout-bag-side-padding-vertical $checkout-bag-side-padding-horizontal calc($checkout-bag-side-padding-vertical + $checkout-separator-height);
+  }
+
+  &--miniBag {
+    padding: $mini-bag-padding;
+  }
+
+  &-address {
+    margin-bottom: 10px;
+  }
+
+  /*&-addressDetails {
+    display: flex;
+  }*/
+
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-deliveryImage {
+    width: $checkout-bag-side-delivery-icon-width;
+    max-height: $checkout-bag-side-delivery-icon-width;
+    margin-right: 10px;
+  }
+
+  &-deliveryTitle {
+    font-weight: bold;
+  }
+
+  &-groupLeft {
+    display: flex;
+    align-items: center;
+  }
+
+  &-link {
+    font-size: 100%;
+    font-weight: $mini-bag-content-edit-font-weight;
+    line-height: 1.5;
+    color: $mini-bag-content-edit-color;
+  }
+
+  &-dateLabel {
+    color: $colorSuccess;
+  }
+}

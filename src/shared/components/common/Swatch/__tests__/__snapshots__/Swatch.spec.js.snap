@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Swatch /> @render renders in the default state 1`] = `
+<div
+  className="Swatch"
+>
+  <Link
+    className="Swatch-link"
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to=""
+  >
+    <Connect(Image)
+      className="Swatch-linkImage"
+    />
+  </Link>
+</div>
+`;

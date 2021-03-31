@@ -1,0 +1,657 @@
+{
+  "productId": 28402147,
+  "grouping": "BUNDLE_17X01LPCH36X01LPCH",
+  "lineNumber": "BUNDLE_17X01LPCH36X01LPCH",
+  "name": "Metallic Suit Jacket and Trousers",
+  "description": "A sophisticated metallic suit jacket and coordinating suit trousers. 54% Polyamide, 30% Viscose, 10% Metallic Fibre, 6% Elastane. Dry clean only.",
+  "unitPrice": "60.00",
+  "stockEmail": false,
+  "storeDelivery": false,
+  "stockThreshold": 10,
+  "assets": [
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Thumb_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Small_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_2col_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 1,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Zoom_F_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Thumb_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Small_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_2col_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 2,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Zoom_M_1.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 3,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Thumb_M_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 3,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Small_M_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 3,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_2col_M_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 3,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Zoom_M_2.jpg"
+    },
+    {
+      "assetType": "IMAGE_SMALL",
+      "index": 4,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Thumb_M_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_THUMB",
+      "index": 4,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Small_M_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_NORMAL",
+      "index": 4,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_2col_M_3.jpg"
+    },
+    {
+      "assetType": "IMAGE_LARGE",
+      "index": 4,
+      "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/BUNDLE_17X01LPCH36X01LPCH_Zoom_M_3.jpg"
+    }
+  ],
+  "items": [
+    {
+      "sku": "602017001099932",
+      "size": "4",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099933",
+      "size": "6",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099934",
+      "size": "8",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099935",
+      "size": "10",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099936",
+      "size": "12",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099937",
+      "size": "14",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099938",
+      "size": "16",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099797",
+      "size": "4",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099798",
+      "size": "6",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099799",
+      "size": "8",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099800",
+      "size": "10",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099801",
+      "size": "12",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099802",
+      "size": "14",
+      "quantity": 10,
+      "selected": false
+    },
+    {
+      "sku": "602017001099803",
+      "size": "16",
+      "quantity": 10,
+      "selected": false
+    }
+  ],
+  "bundleProducts": [
+    {
+      "productId": 28361263,
+      "grouping": "TS17X01LPCH",
+      "lineNumber": "17X01LPCH",
+      "colour": "PEACH",
+      "name": "Metallic Suit Jacket",
+      "description": "",
+      "wasWasPrice": "69.00",
+      "unitPrice": "45.00",
+      "stockEmail": false,
+      "storeDelivery": false,
+      "stockThreshold": 10,
+      "wcsColourKey": "156889348",
+      "wcsSizeKey": "156889350",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_Zoom_F_1.jpg"
+        }
+      ],
+      "items": [
+        {
+          "sku": "602017001099932",
+          "size": "4",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099933",
+          "size": "6",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099934",
+          "size": "8",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099935",
+          "size": "10",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099936",
+          "size": "12",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099937",
+          "size": "14",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099938",
+          "size": "16",
+          "quantity": 10,
+          "selected": false
+        }
+      ],
+      "bundleProducts": [],
+      "attributes": {
+        "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+        "b_hasImage": "N",
+        "CEThumbnailSuffixes": "",
+        "b_has360": "N",
+        "EmailBackInStock": "N",
+        "BundleType": "Fixed",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "",
+        "CE3BThumbnailSuffixes": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "ThresholdMessage": "",
+        "IFSeason": "SS16",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_COLOUR_1": "",
+        "StyleCode": "0",
+        "COLOUR_CODE": "",
+        "STYLE_CODE": "",
+        "NotifyMe": "N",
+        "countryExclusion": "",
+        "SizeFit": "",
+        "ProductDefaultCopy": "",
+        "shopTheOutfitBundleCode": ""
+      },
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": true
+    },
+    {
+      "productId": 28359754,
+      "grouping": "TS36X01LPCH",
+      "lineNumber": "36X01LPCH",
+      "colour": "PEACH",
+      "name": "Metallic Suit Trousers",
+      "description": "",
+      "wasWasPrice": "45.00",
+      "unitPrice": "15.00",
+      "stockEmail": false,
+      "storeDelivery": false,
+      "stockThreshold": 10,
+      "wcsColourKey": "156872440",
+      "wcsSizeKey": "156872441",
+      "assets": [
+        {
+          "assetType": "IMAGE_SMALL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_Thumb_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_THUMB",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_Small_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_NORMAL",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_2col_F_1.jpg"
+        },
+        {
+          "assetType": "IMAGE_LARGE",
+          "index": 1,
+          "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_Zoom_F_1.jpg"
+        }
+      ],
+      "items": [
+        {
+          "sku": "602017001099797",
+          "size": "4",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099798",
+          "size": "6",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099799",
+          "size": "8",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099800",
+          "size": "10",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099801",
+          "size": "12",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099802",
+          "size": "14",
+          "quantity": 10,
+          "selected": false
+        },
+        {
+          "sku": "602017001099803",
+          "size": "16",
+          "quantity": 10,
+          "selected": false
+        }
+      ],
+      "bundleProducts": [],
+      "attributes": {
+        "ECMC_PROD_SIZE_GUIDE_1": "Trousers & leggings",
+        "b_hasImage": "N",
+        "CEThumbnailSuffixes": "",
+        "b_has360": "N",
+        "EmailBackInStock": "N",
+        "BundleType": "Fixed",
+        "b_hasVideo": "N",
+        "STORE_DELIVERY": "true",
+        "hasVideo": "N",
+        "Department": "",
+        "CE3BThumbnailSuffixes": "",
+        "has360": "N",
+        "SearchKeywords": "",
+        "ThresholdMessage": "",
+        "IFSeason": "SS16",
+        "thumbnailImageSuffixes": "_",
+        "ECMC_PROD_COLOUR_1": "",
+        "StyleCode": "0",
+        "COLOUR_CODE": "",
+        "STYLE_CODE": "",
+        "NotifyMe": "N",
+        "countryExclusion": "",
+        "SizeFit": "",
+        "ProductDefaultCopy": "",
+        "shopTheOutfitBundleCode": ""
+      },
+      "colourSwatches": [],
+      "tpmLinks": [],
+      "bundleSlots": [],
+      "ageVerificationRequired": false,
+      "isBundleOrOutfit": true
+    }
+  ],
+  "attributes": {},
+  "colourSwatches": [],
+  "tpmLinks": [],
+  "bundleSlots": [
+    {
+      "slotNumber": 1,
+      "products": [
+        {
+          "productId": 28361263,
+          "grouping": "TS17X01LPCH",
+          "lineNumber": "17X01LPCH",
+          "colour": "PEACH",
+          "name": "Metallic Suit Jacket",
+          "description": "",
+          "wasWasPrice": "69.00",
+          "unitPrice": "45.00",
+          "stockEmail": false,
+          "storeDelivery": false,
+          "stockThreshold": 10,
+          "wcsColourKey": "156889348",
+          "wcsSizeKey": "156889350",
+          "assets": [
+            {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_Thumb_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_Small_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_2col_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS17X01LPCH_Zoom_F_1.jpg"
+            }
+          ],
+          "items": [
+            {
+              "sku": "602017001099932",
+              "size": "4",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099933",
+              "size": "6",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099934",
+              "size": "8",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099935",
+              "size": "10",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099936",
+              "size": "12",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099937",
+              "size": "14",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099938",
+              "size": "16",
+              "quantity": 10,
+              "selected": false
+            }
+          ],
+          "bundleProducts": [],
+          "attributes": {
+            "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+            "b_hasImage": "N",
+            "CEThumbnailSuffixes": "",
+            "b_has360": "N",
+            "EmailBackInStock": "N",
+            "BundleType": "Fixed",
+            "b_hasVideo": "N",
+            "STORE_DELIVERY": "true",
+            "hasVideo": "N",
+            "Department": "",
+            "CE3BThumbnailSuffixes": "",
+            "has360": "N",
+            "SearchKeywords": "",
+            "ThresholdMessage": "",
+            "IFSeason": "SS16",
+            "thumbnailImageSuffixes": "_",
+            "ECMC_PROD_COLOUR_1": "",
+            "StyleCode": "0",
+            "COLOUR_CODE": "",
+            "STYLE_CODE": "",
+            "NotifyMe": "N",
+            "countryExclusion": "",
+            "SizeFit": "",
+            "ProductDefaultCopy": "",
+            "shopTheOutfitBundleCode": ""
+          },
+          "colourSwatches": [],
+          "tpmLinks": [],
+          "bundleSlots": [],
+          "ageVerificationRequired": false,
+          "isBundleOrOutfit": true
+        }
+      ]
+    },
+    {
+      "slotNumber": 2,
+      "products": [
+        {
+          "productId": 28359754,
+          "grouping": "TS36X01LPCH",
+          "lineNumber": "36X01LPCH",
+          "colour": "PEACH",
+          "name": "Metallic Suit Trousers",
+          "description": "",
+          "wasWasPrice": "45.00",
+          "unitPrice": "15.00",
+          "stockEmail": false,
+          "storeDelivery": false,
+          "stockThreshold": 10,
+          "wcsColourKey": "156872440",
+          "wcsSizeKey": "156872441",
+          "assets": [
+            {
+              "assetType": "IMAGE_SMALL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_Thumb_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_THUMB",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_Small_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_NORMAL",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_2col_F_1.jpg"
+            },
+            {
+              "assetType": "IMAGE_LARGE",
+              "index": 1,
+              "url": "http://media.topshop.com/wcsstore/TopShop/images/catalog/TS36X01LPCH_Zoom_F_1.jpg"
+            }
+          ],
+          "items": [
+            {
+              "sku": "602017001099797",
+              "size": "4",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099798",
+              "size": "6",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099799",
+              "size": "8",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099800",
+              "size": "10",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099801",
+              "size": "12",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099802",
+              "size": "14",
+              "quantity": 10,
+              "selected": false
+            },
+            {
+              "sku": "602017001099803",
+              "size": "16",
+              "quantity": 10,
+              "selected": false
+            }
+          ],
+          "bundleProducts": [],
+          "attributes": {
+            "ECMC_PROD_SIZE_GUIDE_1": "Trousers & leggings",
+            "b_hasImage": "N",
+            "CEThumbnailSuffixes": "",
+            "b_has360": "N",
+            "EmailBackInStock": "N",
+            "BundleType": "Fixed",
+            "b_hasVideo": "N",
+            "STORE_DELIVERY": "true",
+            "hasVideo": "N",
+            "Department": "",
+            "CE3BThumbnailSuffixes": "",
+            "has360": "N",
+            "SearchKeywords": "",
+            "ThresholdMessage": "",
+            "IFSeason": "SS16",
+            "thumbnailImageSuffixes": "_",
+            "ECMC_PROD_COLOUR_1": "",
+            "StyleCode": "0",
+            "COLOUR_CODE": "",
+            "STYLE_CODE": "",
+            "NotifyMe": "N",
+            "countryExclusion": "",
+            "SizeFit": "",
+            "ProductDefaultCopy": "",
+            "shopTheOutfitBundleCode": ""
+          },
+          "colourSwatches": [],
+          "tpmLinks": [],
+          "bundleSlots": [],
+          "ageVerificationRequired": false,
+          "isBundleOrOutfit": true
+        }
+      ]
+    }
+  ],
+  "sourceUrl": "http://ts.stage.arcadiagroup.ltd.uk/en/tsuk/product/metallic-suit-jacket-and-trousers-6573630",
+  "ageVerificationRequired": false,
+  "isBundleOrOutfit": true,
+  "bundleType": "Fixed",
+  "version": "1.6"
+}

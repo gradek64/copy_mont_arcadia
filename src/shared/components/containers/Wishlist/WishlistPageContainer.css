@@ -1,0 +1,41 @@
+/** @define WishlistPageContainer */
+.WishlistPageContainer {
+  width: 100%;
+  max-width: 1199px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  text-align: center;
+
+  &-title {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  &-itemCount {
+    display: block;
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.WishlistPageContainer .fade-enter {
+  opacity: 0.1;
+}
+
+/* postcss-bem-linter: ignore */
+.WishlistPageContainer .fade-enter-active {
+  opacity: 1;
+  transition: all 400ms ease-out;
+}
+
+/* postcss-bem-linter: ignore */
+.WishlistPageContainer .fade-exit-active {
+  opacity: 1;
+}
+
+/* postcss-bem-linter: ignore */
+.WishlistPageContainer .fade-exit {
+  opacity: 0.01;
+  transition: opacity 400ms ease-in;
+}
+
+

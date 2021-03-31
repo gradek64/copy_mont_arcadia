@@ -1,0 +1,122 @@
+/** @define GridSelector */
+.GridSelector {
+  display: flex;
+
+  &-buttonContainer {
+    flex: 1;
+    margin-right: 10%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &-buttonContainer.is-active &-buttonItem {
+    background: $plp-filters-grid-selector-item-color-active;
+  }
+
+  &-button {
+    display: block;
+    height: $plp-filters-grid-selector-button-height;
+    overflow: hidden;
+    padding-bottom: $plp-filters-grid-selector-button-padding;
+    width: 100%;
+  }
+
+  &-buttonItemsWrapper {
+    display: $plp-filters-grid-selector-wrapper-display;
+    flex-wrap: $plp-filters-grid-selector-wrapper-flex-wrap;
+  }
+
+  &-buttonItem {
+    background-color: $plp-filters-grid-selector-item-color;
+    display: $plp-filters-grid-selector-item-display;
+    float: $plp-filters-grid-selector-item-float;
+    margin: 2px;
+    padding-bottom: $plp-filters-grid-selector-item-padding;;
+  }
+
+  &-buttonItem1 {
+    width: calc(100% - $plp-filters-grid-selector-item-spacing);
+  }
+
+  /*
+   * Jira:DES-4674
+   *
+   * Edge's implementation of calc() appears to be more accurate and rounds up.
+   * 
+   * When displaying two or more columns the browser is trying to place spans
+   * with sub-pixel accuracy, so it needs some wiggle room.
+   */
+  &-buttonItem2 {
+    width: calc(49% - $plp-filters-grid-selector-item-spacing);
+  }
+
+  &-buttonItem3 {
+    width: calc(33% - $plp-filters-grid-selector-item-spacing);
+  }
+
+  &-buttonItem4 {
+    width: calc(24% - $plp-filters-grid-selector-item-spacing);
+  }
+
+  /* necessary for grid layout */
+  &-buttonItem::before {
+    content: '';
+    display: $plp-filters-grid-selector-item-before-display;
+    padding-bottom: $plp-filters-grid-selector-item-before-padding;
+  }
+
+  /* necessary for column layout */
+  &-buttonItem1:nth-child(-n+1),
+  &-buttonItem2:nth-child(-n+2),
+  &-buttonItem3:nth-child(-n+3),
+  &-buttonItem4:nth-child(-n+4) {
+    display: $plp-filters-grid-selector-item-n-display;
+  }
+
+}
+
+/* postcss-bem-linter: ignore */
+.GridSelector.Filters-column {
+  display: flex;
+}
+
+@media $min-tablet {
+  .GridSelector {
+    &-buttonContainer {
+      flex: 0 1 auto;
+      margin-right: 10px;
+      width: $plp-filters-height;
+
+      &:last-child {
+        margin-right: 10px;
+      }
+    }
+
+    &-buttonItem {
+      margin: 1px;
+    }
+
+    &-buttonItem1 {
+      width: calc(100% - $plp-filters-grid-selector-item-spacing-tablet);
+    }
+  
+    &-buttonItem2 {
+      width: calc(49% - $plp-filters-grid-selector-item-spacing-tablet);
+    }
+    
+    &-buttonItem3 {
+      width: calc(33% - $plp-filters-grid-selector-item-spacing-tablet);
+    }
+  
+    &-buttonItem4 {
+      width: calc(24% - $plp-filters-grid-selector-item-spacing-tablet);
+    }
+  }
+
+  /* postcss-bem-linter: ignore */
+  .GridSelector.Filters-column {
+    flex-direction: $plp-filters-grid-selector-flex-direction;
+  }
+}

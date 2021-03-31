@@ -1,0 +1,65 @@
+{
+  "exists": true,
+  "email": "testddp@qa.com",
+  "title": "",
+  "firstName": "",
+  "lastName": "",
+  "userTrackingId": 4398181,
+  "subscriptionId": "",
+  "basketItemCount": 1,
+  "creditCard": {
+      "type": "",
+      "cardNumberHash": "",
+      "cardNumberStar": "",
+      "expiryMonth": "",
+      "expiryYear": ""
+  },
+  "deliveryDetails": {
+      "addressDetailsId": -1,
+      "nameAndPhone": {
+          "lastName": "",
+          "telephone": "",
+          "title": "",
+          "firstName": ""
+      },
+      "address": {
+          "address1": "",
+          "address2": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "postcode": ""
+      }
+  },
+  "billingDetails": {
+      "addressDetailsId": -1,
+      "nameAndPhone": {
+          "lastName": "",
+          "telephone": "",
+          "title": "",
+          "firstName": ""
+      },
+      "address": {
+          "address1": "",
+          "address2": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "postcode": ""
+      }
+  },
+  "version": "1.6",
+  "isDDPUser": false,
+  "isDDPRenewable": true,
+  "ddpStartDate": "1 April 2019",
+  "ddpEndDate": "31 March 2020",
+  "wasDDPUser": true,
+  "ddpCurrentOrderCount": null,
+  "ddpPreviousOrderCount": 2,
+  "ddpCurrentSaving": null,
+  "ddpPreviousSaving": "2.05",
+  "ddpStandardPrice": "9.95",
+  "ddpExpressDeliveryPrice": "6.00",
+  "expId1": "bb943125813e66d9f1de309f6c1c4813be7523cf450c1c82bc33ee1fd45c6bc3",
+  "expId2": "8ab76746050992d16e8075e2a9990921be583b894404621d26137824d20342ee"
+}

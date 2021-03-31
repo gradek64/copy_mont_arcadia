@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CmsComponent /> @renders if \`type\` is \`carousel\` if \`data.assets\` prop supplied should render a <Carousel /> 1`] = `
+<div
+  className="CmsComponent CmsComponent--carousel"
+  style={
+    Object {
+      "margin": "10px",
+    }
+  }
+>
+  <Connect(Carousel)
+    assets={Array []}
+    autoplay={false}
+    lazyLoad={true}
+    mode="cmsContent"
+  />
+</div>
+`;
+
+exports[`<CmsComponent /> @renders if \`type\` is \`html\` should render ‘html’ 1`] = `
+<div
+  className="CmsComponent CmsComponent--html"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<html>html content here</html>",
+    }
+  }
+  style={
+    Object {
+      "margin": "10px",
+    }
+  }
+/>
+`;
+
+exports[`<CmsComponent /> @renders if \`type\` is \`iframe\` if \`data.source\` prop supplied should render an <iframe /> 1`] = `
+<iframe
+  className="CmsComponent CmsComponent--iframe"
+  frameBorder="0"
+  height="100px"
+  src="//test.mp4undefined"
+  style={
+    Object {
+      "margin": "10px",
+    }
+  }
+/>
+`;
+
+exports[`<CmsComponent /> @renders if \`type\` is \`imagelist\` should render an ‘imagelist’ 1`] = `
+<div
+  className="CmsComponent CmsComponent--imageList"
+>
+  <Connect(ImageList) />
+</div>
+`;
+
+exports[`<CmsComponent /> @renders if \`type\` is \`video\` if \`data.source\` prop supplied should render a <track /> if \`caption\` prop supplied 1`] = `
+<track
+  kind="subtitles"
+  src="http://cat-captions.com"
+  srcLang="en"
+/>
+`;
+
+exports[`<CmsComponent /> @renders if \`type\` is \`video\` if \`data.source\` prop supplied should render a <video /> 1`] = `
+<div
+  className="CmsComponent CmsComponent--videoContainer"
+  style={
+    Object {
+      "margin": undefined,
+    }
+  }
+>
+  <video
+    className="CmsComponent-video"
+    controls={true}
+    preload="none"
+    src="foo.com"
+  />
+</div>
+`;
+
+exports[`<CmsComponent /> @renders if \`type\` is \`video\` if \`data.youtube\` prop supplied should render an <iframe /> 1`] = `
+<div
+  className="CmsComponent CmsComponent--videoContainer"
+  style={
+    Object {
+      "margin": undefined,
+    }
+  }
+>
+  <iframe
+    allowFullScreen={true}
+    className="CmsComponent-video CmsComponent-youtube"
+    frameBorder="0"
+    src="abc?rel=0&amp;controls=0&amp;showinfo=0"
+  />
+</div>
+`;

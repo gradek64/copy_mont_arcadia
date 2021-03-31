@@ -1,0 +1,42 @@
+/** @define BVReview */
+.BVReview { 
+  max-width: 1199px;
+  margin: 0 auto;
+}
+/* postcss-bem-linter: ignore */
+
+#BVSubmissionContainer .BVRRContainer {
+  padding-top: 0;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRSummaryContainer *:after {
+  content: "";
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRSummaryContainer .BVRRRatingSummary {
+  margin: 0;
+  padding: 0;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRRatingSummaryLinkWriteFirstID {
+  margin: 0;
+  padding: 0;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRSummaryContainer .BVRRRatingSummaryNoReviews {
+  padding: 0;
+  margin: 0;
+}
+
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRPrimarySummary .BVRRRatingSummaryLinks {
+  white-space: nowrap;
+}
+
+:not(.BVRRRatingSummaryNoReview) #BVRRRatingSummaryLinkWriteID  {
+  display: none;
+}

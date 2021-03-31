@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 8.88888889e-05 15.5386667 8.88888889e-05 15.5386667 15.4872 0 15.4872"></polygon>
+    </defs>
+    <g id="Geo-location-detection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-/-Check-store-stock-/-Results-/-Geo-Active-/-Alt" transform="translate(-232.000000, -289.000000)">
+            <g id="Group-6" transform="translate(10.000000, 276.000000)">
+                <g id="Group-3" transform="translate(222.000000, 13.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M9.52711111,15.4874667 L9.52711111,15.4874667 C9.34311111,15.4759111 9.18755556,15.3470222 9.14488889,15.1674667 L7.43822222,8.05635556 L0.327111111,6.34968889 C0.101333333,6.29991111 -0.04,6.07591111 0.00977777778,5.85102222 C0.0408888889,5.71146667 0.140444444,5.59857778 0.273777778,5.54968889 L14.9671111,0.0296888889 C15.1813333,-0.0556444444 15.4248889,0.0492444444 15.5093333,0.264355556 C15.5484444,0.363022222 15.5484444,0.472355556 15.5093333,0.571911111 L9.91822222,15.2199111 C9.856,15.3816889 9.69955556,15.4874667 9.52711111,15.4874667" id="Fill-1" fill="#373636" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

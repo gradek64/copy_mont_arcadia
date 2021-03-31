@@ -1,0 +1,16 @@
+/** @define ImageList */
+
+.ImageList {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  &-link {
+    line-height: 0;
+  }
+
+  &-image {
+    width: 100%;
+    display: block;
+  }
+}

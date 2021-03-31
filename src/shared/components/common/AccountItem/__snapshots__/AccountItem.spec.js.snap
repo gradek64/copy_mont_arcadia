@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountItem /> @renders renders external links with a target 1`] = `
+<li
+  className="AccountItem"
+>
+  <Link
+    className="NoLink AccountItem-link"
+    isExternal={true}
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    target="_blank"
+    to="/homepage"
+  >
+    <h3
+      className="AccountItem-title"
+    >
+      To Home page
+    </h3>
+    <p
+      className="AccountItem-description"
+    >
+      link to homepage
+    </p>
+  </Link>
+</li>
+`;
+
+exports[`<AccountItem /> @renders renders relative links 1`] = `
+<li
+  className="AccountItem"
+>
+  <Link
+    className="NoLink AccountItem-link"
+    isExternal={false}
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    target={null}
+    to="/homepage"
+  >
+    <h3
+      className="AccountItem-title"
+    >
+      To Home page
+    </h3>
+    <p
+      className="AccountItem-description"
+    >
+      link to homepage
+    </p>
+  </Link>
+</li>
+`;

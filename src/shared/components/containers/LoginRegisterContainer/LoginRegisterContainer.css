@@ -1,0 +1,12 @@
+/** @define LoginRegisterContainer */
+
+.LoginRegisterContainer {
+  max-width: 1199px;
+  margin: 0 auto;
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}

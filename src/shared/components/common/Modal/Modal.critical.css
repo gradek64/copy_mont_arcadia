@@ -1,0 +1,6 @@
+/** @define Modal; weak */
+@lost flexbox flex;
+
+.Modal {
+  opacity: 0;
+}

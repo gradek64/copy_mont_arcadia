@@ -1,0 +1,63 @@
+/** @define DeliveryMethod */
+
+.DeliveryMethod {
+  border: $checkout-delivery-method-tile-border;
+  min-height: $checkout-delivery-method-tile-min-height;
+  margin-bottom: $checkout-delivery-method-tile-margin-bottom;
+
+  &-contentContainer {
+    display: flex;
+  }
+
+  &-content {
+    flex: 2;
+    display: grid;
+    text-align: $checkout-delivery-method-tile-text-align;
+  }
+
+  &-label {
+    margin-bottom: $checkout-delivery-method-tile-label-text-margin;
+    font-size: $checkout-delivery-method-tile-title-font-size;
+  }
+
+  &-price {
+    flex: 1;
+    text-align: $checkout-delivery-method-tile-price-align;
+  }
+
+  &-description {
+     font-size: $checkout-delivery-method-description-font-size;
+  }
+
+  &-deliveryMethodButton {
+    width: $checkout-delivery-method-tile-width;
+    padding: $checkout-delivery-method-tile-padding;
+    line-height: unset;
+  }
+
+  &-selected {
+    border: $checkout-delivery-method-selected-tile-border;
+    background-color: $checkout-delivery-method-selected-tile-background;
+    & .DeliveryMethod-price, & .DeliveryMethod-description, & .DeliveryMethod-label {
+      color: black;
+    }
+  }
+
+  &-deliveryOptions {
+    border-bottom: none;
+  }
+
+  &--disabled {
+    & .DeliveryMethod-price, & .DeliveryMethod-description, & .DeliveryMethod-label {
+      color: $radio-input-inactive-label-font-color;
+    }
+  }
+}
+
+@media $min-tablet {
+  .DeliveryMethod {
+    &-price {
+       font-weight: $checkout-delivery-method-price-font-weight;
+    }
+  }
+}

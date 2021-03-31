@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountrySelect /> @render in default state 1`] = `
+<Component
+  GTM_VALIDATION_STATES={
+    Object {
+      "FAILURE": "failure",
+      "SUCCESS": "success",
+    }
+  }
+  ShippingDestinationFlag={[Function]}
+  addressType="deliveryCheckout"
+  id="qubit-delivery-country-select"
+  sendAnalyticsValidationState={[Function]}
+  setCountry={[Function]}
+>
+  <Connect(Select)
+    className="AddressForm-country"
+    errors={Object {}}
+    field="Albania"
+    isRequired={true}
+    label="Delivery country"
+    name="country"
+    noTranslate={true}
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": true,
+          "label": "Please select your country",
+          "value": "",
+        },
+        Object {
+          "label": "Albania",
+          "value": "Albania",
+        },
+        Object {
+          "label": "Andorra",
+          "value": "Andorra",
+        },
+        Object {
+          "label": "Anguilla",
+          "value": "Anguilla",
+        },
+        Object {
+          "label": "Armenia",
+          "value": "Armenia",
+        },
+        Object {
+          "label": "Australia",
+          "value": "Australia",
+        },
+        Object {
+          "label": "Austria",
+          "value": "Austria",
+        },
+        Object {
+          "label": "Azerbaijan",
+          "value": "Azerbaijan",
+        },
+      ]
+    }
+    value="Albania"
+  />
+</Component>
+`;

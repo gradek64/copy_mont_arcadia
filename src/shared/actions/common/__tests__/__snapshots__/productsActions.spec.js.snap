@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`productsActions clearProduct 1`] = `
+Object {
+  "type": "CLEAR_PRODUCT",
+}
+`;
+
+exports[`productsActions hideSizeGuide 1`] = `
+Object {
+  "type": "HIDE_SIZE_GUIDE",
+}
+`;
+
+exports[`productsActions loadingMoreProducts 1`] = `
+Object {
+  "isLoadingMore": false,
+  "type": "LOADING_MORE_PRODUCTS",
+}
+`;
+
+exports[`productsActions loadingProducts 1`] = `
+Object {
+  "loading": "url",
+  "type": "LOADING_PRODUCTS",
+}
+`;
+
+exports[`productsActions removeProducts 1`] = `
+Object {
+  "type": "REMOVE_PRODUCTS",
+}
+`;
+
+exports[`productsActions removeProductsLocation 1`] = `
+Object {
+  "type": "REMOVE_PRODUCTS_LOCATION",
+}
+`;
+
+exports[`productsActions removeProductsLocation 2`] = `
+Object {
+  "type": "REMOVE_PRODUCTS_LOCATION",
+}
+`;
+
+exports[`productsActions resetProductState should return an action to reset product state 1`] = `
+Object {
+  "type": "RESET_PRODUCTS_STATE",
+}
+`;
+
+exports[`productsActions setProductDetail 1`] = `
+Object {
+  "product": Object {
+    "productId": "123",
+  },
+  "type": "SET_PRODUCT",
+}
+`;
+
+exports[`productsActions setProductsLocation 1`] = `
+Object {
+  "location": "location name",
+  "type": "SET_PRODUCTS_LOCATION",
+}
+`;
+
+exports[`productsActions showSizeGuide 1`] = `
+Object {
+  "type": "SHOW_SIZE_GUIDE",
+}
+`;
+
+exports[`productsActions updateActiveItem 1`] = `
+Object {
+  "activeItem": Object {
+    "sku": "123",
+  },
+  "type": "UPDATE_ACTIVE_ITEM",
+}
+`;
+
+exports[`productsActions updateActiveItemQuantity 1`] = `
+Object {
+  "selectedQuantity": 3,
+  "type": "UPDATE_ACTIVE_ITEM_QUANTITY",
+}
+`;
+
+exports[`productsActions updateSelectedOosItem 1`] = `
+Object {
+  "selectedOosItem": Object {
+    "productId": "123",
+  },
+  "type": "UPDATE_SELECTED_OOS_ITEM",
+}
+`;
+
+exports[`productsActions updateShowItemsError 1`] = `
+Object {
+  "showError": Object {
+    "error": "123",
+  },
+  "type": "UPDATE_SHOW_ITEMS_ERROR",
+}
+`;

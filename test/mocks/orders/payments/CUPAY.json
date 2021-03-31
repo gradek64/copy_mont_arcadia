@@ -1,0 +1,25 @@
+{
+  "cardCvv": 123,
+  "creditCard": {
+    "expiryYear": "2017",
+    "cardNumber": "0",
+    "type": "CUPAY",
+    "expiryMonth": "09"
+  },
+  "billingDetails": {
+      "address": {
+          "address1": "Test",
+          "address2": null,
+          "city": "Place",
+          "state": null,
+          "country": "China",
+          "postcode": "12345"
+      },
+      "nameAndPhone": {
+          "title": "Mr",
+          "firstName": "Test",
+          "lastName": "Test",
+          "telephone": "01234123123"
+      }
+  }
+}

@@ -1,0 +1,357 @@
+/** @define FlagIcons */
+
+.FlagIcons{
+    display: inline-block;
+    width: 35px;
+    height: 19px;
+    background-image: url("/assets/common/images/flag_sprite.png");
+    background-position: 0 -1%;
+    background-size: 65px auto;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    vertical-align:bottom;
+
+  &--albania {
+    background-position-y: $header-flag-vertical-position-al;
+  }
+  &--andorra {
+    background-position-y: $header-flag-vertical-position-an;
+  }
+  &--anguilla {
+    background-position-y: $header-flag-vertical-position-ang;
+  }
+  &--armenia {
+    background-position-y: $header-flag-vertical-position-ar;
+  }
+  &--australia {
+    background-position-y: $header-flag-vertical-position-au;
+  }
+  &--austria {
+    background-position-y: $header-flag-vertical-position-ai;
+  }
+  &--azerbaijan {
+    background-position-y: $header-flag-vertical-position-az;
+  }
+  &--bahamas {
+    background-position-y: $header-flag-vertical-position-bh;
+  }
+  &--bangladesh {
+    background-position-y: $header-flag-vertical-position-bg;
+  }
+  &--barbados {
+    background-position-y: $header-flag-vertical-position-bb;
+  }
+  &--belgium {
+    background-position-y: $header-flag-vertical-position-be;
+  }
+  &--bermuda {
+    background-position-y: $header-flag-vertical-position-br;
+  }
+  &--bolivia {
+    background-position-y: $header-flag-vertical-position-bo;
+  }
+  &--bosniaAndHerzegovina {
+    background-position-y: $header-flag-vertical-position-boh;
+  }
+  &--brunei {
+    background-position-y: $header-flag-vertical-position-bru;
+  }
+  &--bulgaria {
+    background-position-y: $header-flag-vertical-position-bu;
+  }
+  &--cambodia {
+    background-position-y: $header-flag-vertical-position-ca;
+  }
+  &--canada {
+    background-position-y: $header-flag-vertical-position-can;
+  }
+  &--caymanIslands {
+    background-position-y: $header-flag-vertical-position-cai;
+  }
+  &--centralAfricanRepublic {
+    background-position-y: $header-flag-vertical-position-car;
+  }
+  &--china {
+    background-position-y: $header-flag-vertical-position-ch;
+  }
+  &--colombia {
+    background-position-y: $header-flag-vertical-position-co;
+  }
+  &--cookIslands {
+    background-position-y: $header-flag-vertical-position-ci;
+  }
+  &--czechRepublic {
+    background-position-y: $header-flag-vertical-position-czr;
+  }
+  &--denmark {
+    background-position-y: $header-flag-vertical-position-dn;
+  }
+  &--djibouti {
+    background-position-y: $header-flag-vertical-position-dj;
+  }
+  &--eritrea {
+    background-position-y: $header-flag-vertical-position-er;
+  }
+  &--estonia {
+    background-position-y: $header-flag-vertical-position-es;
+  }
+  &--falklandIslands {
+    background-position-y: $header-flag-vertical-position-fi;
+  }
+  &--faroeIslands {
+    background-position-y: $header-flag-vertical-position-fri;
+  }
+  &--finland {
+    background-position-y: $header-flag-vertical-position-fin;
+  }
+  &--france {
+    background-position-y: $header-flag-vertical-position-fr;
+  }
+  &--frenchGuiana {
+    background-position-y: $header-flag-vertical-position-frg;
+  }
+  &--gambia {
+    background-position-y: $header-flag-vertical-position-ga;
+  }
+  &--germany {
+    background-position-y: $header-flag-vertical-position-de;
+  }
+  &--greece {
+    background-position-y: $header-flag-vertical-position-gr;
+  }
+  &--greenland {
+    background-position-y: $header-flag-vertical-position-grl;
+  }
+  &--guadeloupe {
+    background-position-y: $header-flag-vertical-position-gdl;
+  }
+  &--guernsey {
+    background-position-y: $header-flag-vertical-position-gsy;
+  }
+  &--guyana {
+    background-position-y: $header-flag-vertical-position-guy;
+  }
+  &--holySee {
+    background-position-y: $header-flag-vertical-position-hs;
+  }
+  &--hongKongSAROfChina {
+    background-position-y: $header-flag-vertical-position-hk;
+  }
+  &--hungary {
+    background-position-y: $header-flag-vertical-position-hu;
+  }
+  &--indonesia {
+    background-position-y: $header-flag-vertical-position-in;
+  }
+  &--ireland {
+    background-position-y: $header-flag-vertical-position-ir;
+  }
+  &--italy {
+    background-position-y: $header-flag-vertical-position-it;
+  }
+  &--jamaica {
+    background-position-y: $header-flag-vertical-position-ja;
+  }
+  &--japan {
+    background-position-y: $header-flag-vertical-position-jap;
+  }
+  &--jersey {
+    background-position-y: $header-flag-vertical-position-je;
+  }
+  &--kazakhstan {
+    background-position-y: $header-flag-vertical-position-ka;
+  }
+  &--kenya {
+    background-position-y: $header-flag-vertical-position-ke;
+  }
+  &--kiribati {
+    background-position-y: $header-flag-vertical-position-ki;
+  }
+  &--koreaSouth {
+    background-position-y: $header-flag-vertical-position-ko;
+  }
+  &--kyrgyzstan {
+    background-position-y: $header-flag-vertical-position-kr;
+  }
+  &--latvia {
+    background-position-y: $header-flag-vertical-position-la;
+  }
+  &--liechtenstein {
+    background-position-y: $header-flag-vertical-position-li;
+  }
+  &--lithuania {
+    background-position-y: $header-flag-vertical-position-lit;
+  }
+  &--luxembourg {
+    background-position-y: $header-flag-vertical-position-lu;
+  }
+  &--macauSAROfChina {
+    background-position-y: $header-flag-vertical-position-ma;
+  }
+  &--madagascar {
+    background-position-y: $header-flag-vertical-position-mad;
+  }
+  &--malaysia {
+    background-position-y: $header-flag-vertical-position-mal;
+  }
+  &--maldives {
+    background-position-y: $header-flag-vertical-position-mald;
+  }
+  &--marshallIslands {
+    background-position-y: $header-flag-vertical-position-mar;
+  }
+  &--mexico {
+    background-position-y: $header-flag-vertical-position-mex;
+  }
+  &--moldova {
+    background-position-y: $header-flag-vertical-position-mo;
+  }
+  &--monaco {
+    background-position-y: $header-flag-vertical-position-mn;
+  }
+  &--montenegro {
+    background-position-y: $header-flag-vertical-position-mg;
+  }
+  &--morocco {
+    background-position-y: $header-flag-vertical-position-mr;
+  }
+  &--nepal {
+    background-position-y: $header-flag-vertical-position-ne;
+  }
+  &--netherlands {
+    background-position-y: $header-flag-vertical-position-net;
+  }
+  &--newCaledonia {
+    background-position-y: $header-flag-vertical-position-nc;
+  }
+  &--newZealand {
+    background-position-y: $header-flag-vertical-position-nz;
+  }
+  &--niger {
+    background-position-y: $header-flag-vertical-position-ng;
+  }
+  &--pakistan {
+    background-position-y: $header-flag-vertical-position-pk;
+  }
+  &--panama {
+    background-position-y: $header-flag-vertical-position-pn;
+  }
+  &--poland {
+    background-position-y: $header-flag-vertical-position-pl;
+  }
+  &--portugal {
+    background-position-y: $header-flag-vertical-position-pr;
+  }
+  &--puertoRico {
+    background-position-y: $header-flag-vertical-position-prc;
+  }
+  &--romania {
+    background-position-y: $header-flag-vertical-position-ro;
+  }
+  &--saintKittsAndNevis {
+    background-position-y: $header-flag-vertical-position-sk;
+  }
+  &--saintLucia {
+    background-position-y: $header-flag-vertical-position-sla;
+  }
+  &--saintPierreAndMiquelon {
+    background-position-y: $header-flag-vertical-position-spr;
+  }
+  &--samoa {
+    background-position-y: $header-flag-vertical-position-sa;
+  }
+  &--sanMarino {
+    background-position-y: $header-flag-vertical-position-sm;
+  }
+  &--saoTomeAndPrincipe {
+    background-position-y: $header-flag-vertical-position-stp;
+  }
+  &--serbia {
+    background-position-y: $header-flag-vertical-position-sr;
+  }
+  &--seychelles {
+    background-position-y: $header-flag-vertical-position-sy;
+  }
+  &--sGeorgiaSSandwichIslands {
+    background-position-y: $header-flag-vertical-position-sg;
+  }
+  &--singapore {
+    background-position-y: $header-flag-vertical-position-sgd;
+  }
+  &--slovakia {
+    background-position-y: $header-flag-vertical-position-sl;
+  }
+  &--solomonIslands {
+    background-position-y: $header-flag-vertical-position-sli;
+  }
+  &--southAfrica {
+    background-position-y: $header-flag-vertical-position-soa;
+  }
+  &--spain {
+    background-position-y: $header-flag-vertical-position-sp;
+  }
+  &--sriLanka {
+    background-position-y: $header-flag-vertical-position-srl;
+  }
+  &--stVincentAndTheGrenadines {
+    background-position-y: $header-flag-vertical-position-stv;
+  }
+  &--suriname {
+    background-position-y: $header-flag-vertical-position-sur;
+  }
+  &--sweden {
+    background-position-y: $header-flag-vertical-position-sw;
+  }
+  &--switzerland {
+    background-position-y: $header-flag-vertical-position-swt;
+  }
+  &--taiwan {
+    background-position-y: $header-flag-vertical-position-ta;
+  }
+  &--thailand {
+    background-position-y: $header-flag-vertical-position-th;
+  }
+  &--togo {
+    background-position-y: $header-flag-vertical-position-to;
+  }
+  &--tunisia {
+    background-position-y: $header-flag-vertical-position-tu;
+  }
+  &--turkey {
+    background-position-y: $header-flag-vertical-position-tr;
+  }
+  &--turkmenistan {
+    background-position-y: $header-flag-vertical-position-trt;
+  }
+  &--tuvalu {
+    background-position-y: $header-flag-vertical-position-tuv;
+  }
+  &--unitedKingdom {
+    background-position-y: $header-flag-vertical-position-uk;
+  }
+  &--unitedStates {
+    background-position-y: $header-flag-vertical-position-us;
+  }
+  &--vanuatu {
+    background-position-y: $header-flag-vertical-position-va;
+  }
+  &--vietnam {
+    background-position-y: $header-flag-vertical-position-vi;
+  }
+  &--virginIslandsBritish {
+    background-position-y: $header-flag-vertical-position-vir;
+  }
+  &--india {
+    background-position-x: $header-flag-second-column-horizontal-position;
+    background-position-y: $header-flag-vertical-position-ind;
+  }
+  &--uruguay {
+    background-position-x: $header-flag-second-column-horizontal-position;
+    background-position-y: $header-flag-vertical-position-uy;
+  }
+  &--europe {
+    background-position-x: $header-flag-second-column-horizontal-position;
+    background-position-y: $header-flag-vertical-position-eu;
+  }
+
+}

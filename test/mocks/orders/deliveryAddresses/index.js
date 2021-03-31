@@ -1,0 +1,8 @@
+export { default as uk } from './uk'
+export { default as us } from './us'
+export { default as fr } from './fr'
+export { default as de } from './de'
+export { default as th } from './th'
+export { default as eu } from './eu'
+export { default as my } from './my'
+export { default as sg } from './sg'

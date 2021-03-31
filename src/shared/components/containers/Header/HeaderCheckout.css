@@ -1,0 +1,87 @@
+/** @define HeaderCheckout; weak */
+
+.HeaderCheckout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: $checkout-header-position;
+  width: $checkout-header-width;
+  height: $checkout-header-height;
+  z-index: $checkout-header-z-index;
+  background-color: $checkout-header-background-color;
+  overflow: hidden;
+  border-bottom: $checkout-header-border-bottom;
+
+  &-buttonContainer {
+    position: absolute;
+    right: 0;
+    padding: $checkout-header-button-container-padding;
+  }
+
+  &-imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  &-titleCopy {
+    font-size: $checkout-header-title-copy-font-size;
+    line-height: $checkout-header-title-copy-line-height;
+    font-weight: $checkout-header-title-copy-font-weight;
+  }
+}
+
+@media $min-tablet {
+  .HeaderCheckout {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin: $checkout-header-tablet-margin;
+    border: $checkout-header-tablet-border;
+    max-width: $laptop-end-width;
+
+    &-buttonContainer {
+      display: inline;
+      position: $checkout-header-tablet-button-container-position;
+      margin: $checkout-header-tablet-button-container-margin;
+
+      .CheckoutCTA{
+        display: inline;
+      }
+    }
+
+    /* postcss-bem-linter: ignore */
+    .BrandLogo {
+      /*postcss-bem-linter: ignore */
+      display: inline-block;
+      &-img{
+        margin: 0 auto;
+      }
+    }
+
+    /* postcss-bem-linter: ignore */
+    &.Header.is-checkoutBig{
+      margin: $checkout-header-tablet-margin;
+    }
+  }
+}
+
+@media $mobile {
+  .HeaderCheckout {
+    padding: 10px 0 10px 0;
+    /*postcss-bem-linter: ignore */
+    .BrandLogo {
+      max-width: $checkout-header-mobile-brand-logo-max-width;
+      margin: $checkout-header-mobile-brand-logo-margin;
+      width: $checkout-header-mobile-brand-logo-width;
+      /* postcss-bem-linter: ignore */
+      &-img {
+        height: $checkout-header-mobile-brand-logo-img-height;
+        width: $checkout-header-mobile-brand-logo-img-width;
+        max-width: $checkout-header-mobile-brand-logo-img-max-width
+      }
+    }
+  }
+}

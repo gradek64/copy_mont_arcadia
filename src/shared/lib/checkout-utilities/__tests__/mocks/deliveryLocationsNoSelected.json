@@ -1,0 +1,47 @@
+{
+  "deliveryLocations": [
+    {
+      "deliveryLocationType": "HOME",
+      "selected": false,
+      "enabled": true,
+      "label": "undefined ",
+      "deliveryMethods": []
+    },
+    {
+      "deliveryLocationType": "STORE",
+      "selected": false,
+      "enabled": true,
+      "label": "undefined ",
+      "deliveryMethods": [
+        {
+          "shipModeId": 45020,
+          "deliveryType": "STORE_EXPRESS",
+          "label": "Collect From Store Express",
+          "additionalDescription": "Collection date Saturday 15 September 2018",
+          "selected": false,
+          "deliveryOptions": [],
+          "enabled": true,
+          "cost": "3.00"
+        },
+        {
+          "shipModeId": 45019,
+          "deliveryType": "STORE_STANDARD",
+          "label": "Collect From Store Standard",
+          "additionalDescription": "Collection date Tuesday 18 September 2018",
+          "selected": false,
+          "deliveryOptions": [],
+          "enabled": true,
+          "cost": "0.00",
+          "shipCode": "Retail Store Standard"
+        }
+      ]
+    },
+    {
+      "deliveryLocationType": "PARCELSHOP",
+      "selected": false,
+      "enabled": true,
+      "label": "undefined ",
+      "deliveryMethods": []
+    }
+  ]
+}

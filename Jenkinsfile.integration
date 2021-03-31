@@ -1,0 +1,65 @@
+def GIT_BUILD = params.GIT_BUILD ?: env.BRANCH_NAME
+
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'GIT_BUILD', defaultValue: '',
+               description: 'Build a specific commit id')
+        choice(name: 'API',    choices: 'STAGE\nMONTYPROD\nEBT\nTOMCATEBT\nPPLIVE\nDEVELOPMENT\nLIVE\nTOMCATPROD\nREDIS\nPPLIVEFFS',
+               description: 'Which API to use')
+    }
+
+    options {
+        // discard old builds: 30 days / 200 bulids
+        buildDiscarder(logRotator(numToKeepStr: '200', artifactNumToKeepStr: '200'))
+
+        timeout(time: 15, unit: 'MINUTES')
+
+        timestamps()
+
+        skipDefaultCheckout()
+    }
+
+    stages {
+        stage("GH") {
+            steps {
+                githubNotify context: 'jenkins integration tests', description: 'Started integration tests',
+                             status: 'PENDING', targetUrl: env.BUILD_URL
+            }
+        }
+        stage("Checkout") {
+            steps {
+                checkout([$class: 'GitSCM',
+                          branches: [[name: GIT_BUILD ]],
+                          userRemoteConfigs: [[credentialsId: 'e9d1eba0-a06c-4f94-b461-1b816971a560', url: 'https://github.com/ag-digital/full-monty.git']]
+                          ])
+                withCredentials([string(credentialsId: 'npm-auth-token',
+                                                       variable: 'NPM_TOKEN')]) {
+                    sh "scripts/build_and_push_ecr.sh monty_tests"
+                }
+            }
+        }
+        stage("Integration tests") {
+            steps {
+                ansiColor('xterm') {
+                    sh "scripts/build_on_demand.sh integration"
+                }
+            }
+            post {
+                always {
+                    junit testResults: 'test/reports/integration.xml'
+                    archiveArtifacts artifacts: 'test/e2e/logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+    }
+    post {
+        success {
+            githubNotify context: 'jenkins integration tests', description: 'Finished integration tests', status: 'SUCCESS', targetUrl: env.BUILD_URL
+        }
+        failure {
+            githubNotify context: 'jenkins integration tests', description: 'Failed integration tests', status: 'FAILURE', targetUrl: env.BUILD_URL
+        }
+    }
+}

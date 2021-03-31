@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderBurton /> @renders in default state 1`] = `
+<div
+  className="HeaderBurton"
+>
+  <div
+    className="HeaderBurton-brand"
+  >
+    <Link
+      className="HeaderBurton-brandLink"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/"
+    >
+      <BrandLogo
+        brandName="burton"
+        isRegionSpecific={true}
+      />
+    </Link>
+  </div>
+  <div
+    className="HeaderBurton-content"
+  >
+    <div
+      className="HeaderBurton-shipping"
+      key="shippingInfo"
+    >
+      <Connect(ShippingDestination)
+        currencySymbolPosition="left"
+        currencySymbolStyle="standard"
+        modifier="burtonHeader"
+      />
+    </div>
+    <div
+      className="HeaderBurton-account"
+      key="accountIcon"
+    >
+      <Connect(AccountIcon)
+        myAccountText="My account"
+        popoverMenu={true}
+        signOutText="Sign out"
+      />
+    </div>
+    <div
+      className="HeaderBurton-wishlist"
+      key="wishlistHeaderLink"
+    >
+      <Connect(WishlistHeaderLink) />
+    </div>
+    <div
+      className="HeaderBurton-shoppingCart"
+      key="shoppingCart"
+    >
+      <Connect(ShoppingCart)
+        modifier="burtonHeader"
+      />
+    </div>
+  </div>
+  <div
+    className="HeaderBurton-navigation"
+  >
+    <Connect(TopNavMenuBig)
+      className="HeaderBurton-topNavMenu"
+    />
+    <div
+      className="HeaderBurton-search"
+    >
+      <Connect(SearchBar)
+        className="HeaderBurton-searchBar"
+        isDesktop={true}
+      />
+    </div>
+  </div>
+</div>
+`;

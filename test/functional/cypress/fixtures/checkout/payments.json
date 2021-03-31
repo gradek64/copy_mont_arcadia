@@ -1,0 +1,138 @@
+[
+    {
+        "value": "VISA",
+        "type": "CARD",
+        "label": "Visa",
+        "description": "Pay with VISA",
+        "icon": "icon_visa_new.svg",
+        "validation": {
+            "cardNumber": {
+                "length": 16,
+                "message": "A 16 digit card number is required"
+            },
+            "cvv": {
+                "length": 3,
+                "message": "3 digits required"
+            },
+            "expiryDate": "MM/YY",
+            "startDate": null
+        }
+    },
+    {
+        "value": "MCARD",
+        "type": "CARD",
+        "label": "MasterCard",
+        "description": "Pay with MasterCard",
+        "icon": "icon_mastercard.svg",
+        "validation": {
+            "cardNumber": {
+                "length": 16,
+                "message": "A 16 digit card number is required"
+            },
+            "cvv": {
+                "length": 3,
+                "message": "3 digits required"
+            },
+            "expiryDate": "MM/YY",
+            "startDate": null
+        }
+    },
+    {
+        "value": "AMEX",
+        "type": "CARD",
+        "label": "American Express",
+        "description": "Pay with American Express",
+        "icon": "icon_amex.svg",
+        "validation": {
+            "cardNumber": {
+                "length": 15,
+                "message": "A 15 digit card number is required"
+            },
+            "cvv": {
+                "length": 4,
+                "message": "4 digits required"
+            },
+            "expiryDate": "MM/YY",
+            "startDate": null
+        }
+    },
+    {
+        "value": "SWTCH",
+        "type": "CARD",
+        "label": "Switch/Maestro",
+        "description": "Pay with Switch / Maestro",
+        "icon": "icon_switch_new.svg",
+        "validation": {
+            "cardNumber": {
+                "length": 16,
+                "message": "A 16 digit card number is required"
+            },
+            "cvv": {
+                "length": 3,
+                "message": "3 digits required"
+            },
+            "expiryDate": "MM/YY",
+            "startDate": null
+        }
+    },
+    {
+        "value": "ACCNT",
+        "type": "OTHER_CARD",
+        "label": "Account Card",
+        "description": "Pay with Account Card",
+        "icon": "icon_account-card.svg",
+        "validation": {
+            "cardNumber": {
+                "length": 16,
+                "message": "A 16 digit card number is required"
+            },
+            "cvv": {
+                "length": 3,
+                "message": "3 digits required"
+            },
+            "expiryDate": "MM/YY",
+            "startDate": null
+        }
+    },
+    {
+        "value": "PYPAL",
+        "type": "OTHER",
+        "label": "PayPal",
+        "description": "Check out with your PayPal account",
+        "icon": "icon_paypal_new.svg"
+    },
+    {
+        "value": "MPASS",
+        "type": "OTHER",
+        "label": "Masterpass",
+        "description": "Check out with your Masterpass account",
+        "icon": "icon_masterpass.svg"
+    },
+    {
+        "value": "ALIPY",
+        "type": "OTHER",
+        "label": "AliPay",
+        "description": "Check out with your AliPay account",
+        "icon": "icon_alipay.svg",
+        "billingCountry": ["China"]
+    },
+    {
+        "value": "CUPAY",
+        "type": "OTHER",
+        "label": "China Union Pay",
+        "description": "Check out with your China Union Pay account",
+        "icon": "icon_cupay.svg",
+        "billingCountry": ["China"]
+    },
+    {
+        "value": "KLRNA",
+        "type": "OTHER",
+        "threshold": 0,
+        "label": "Try before you buy",
+        "description": "Get your goods today and pay 3 months later",
+        "icon": "icon_klarna.svg",
+        "region": "uk",
+        "deliveryCountry": ["United Kingdom"],
+        "billingCountry": ["United Kingdom"]
+    }
+]

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>Custom Coverage Report</title>
+</head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="common/style.css">
+
+<body>
+<div class="container text-center">
+  <h3>Reports</h3>
+
+  <div class="firstPageContent mx-auto">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a href="code-coverage/coverage-reports.html">Code Coverage</a>
+      </li>
+      <li class="list-group-item">
+        <a href="cyclomatic-complexity/cyclomatic-complexity-reports.html">Cyclomatic Complexity</a>
+      </li>
+    </ul>
+
+    <div class="alert alert-warning text-left" role="alert">
+      <p>Run the following commands at the root folder of the project before displaying the reports:</p>
+      <p> > npm run jest:coverage</p>
+      <p> > ./scripts/complexity-reports/generate-reports.sh</p>
+      <p>Run an http server inside scripts/complexity-reports/.</p>
+      <br>
+      <p>Examples of Http Servers:</p>
+      <p>1. <i>npm install http-server -g</i>, run <i>http-server scripts/complexity-report</i> and go to <i>http://localhost:8080</i></p>
+      <p>2. IntelliJ and WebStorm use an HTTP Server out of the box when opening HTML files</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

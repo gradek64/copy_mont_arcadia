@@ -1,0 +1,721 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductSizes @renders has empty array of products 1`] = `""`;
+
+exports[`ProductSizes @renders has hideIfOSS of false and all products are out of stock 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 11"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-11"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        11
+      </span>
+    </button>
+    <button
+      aria-label="Select size 12"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-12"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        12
+      </span>
+    </button>
+    <button
+      aria-label="Select size 13"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-13"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        13
+      </span>
+    </button>
+    <button
+      aria-label="Select size 14"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-14"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        14
+      </span>
+    </button>
+    <button
+      aria-label="Select size 15"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-15"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        15
+      </span>
+    </button>
+    <button
+      aria-label="Select size 16"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-16"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        16
+      </span>
+    </button>
+    <button
+      aria-label="Select size 17"
+      className="ProductSizes-button ProductSizes-item--col7"
+      key="size-button-17"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        17
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders has hideIfOSS of true and all products are out of stock 1`] = `""`;
+
+exports[`ProductSizes @renders has no product items 1`] = `""`;
+
+exports[`ProductSizes @renders has notifyEmail but showOosOnly is false 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list ProductSizes-list--emailStock"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders has productSizeLabelClass 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders in default state 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders set default props 1`] = `
+Object {
+  "activeItem": Object {},
+  "children": undefined,
+  "className": "",
+  "enableDropdownForLongSizes": false,
+  "enableOutOfStockSelectedItems": false,
+  "error": "",
+  "getProductStock": [MockFunction],
+  "items": Array [
+    Object {
+      "quantity": 10,
+      "size": "4",
+      "sku": "608",
+    },
+    Object {
+      "quantity": 0,
+      "size": "6",
+      "sku": "609",
+    },
+  ],
+  "maximumNumberOfSizeTiles": 8,
+  "showLowStockLabel": true,
+  "showOutOfStockLabel": true,
+  "sizeGuideButton": null,
+  "stockThreshold": 3,
+}
+`;
+
+exports[`ProductSizes @renders with 8 items or more 1`] = `
+<div
+  className="ProductSizes ProductSizes--dropdown "
+>
+  <Connect(Select)
+    aria-label="my beautiful label"
+    className="ProductSizes-sizes Select--inlineLabel"
+    firstDisabled="Select size"
+    label="my beautiful label"
+    name="productSizes"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 5: Low stock",
+          "value": "5",
+        },
+        Object {
+          "disabled": true,
+          "label": "Size 6: Out of stock",
+          "value": "6",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 5: Low stock",
+          "value": "5",
+        },
+        Object {
+          "disabled": true,
+          "label": "Size 6: Out of stock",
+          "value": "6",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+      ]
+    }
+    value="4"
+  />
+</div>
+`;
+
+exports[`ProductSizes @renders with activeItem is in list of items 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-active"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with className 1`] = `
+<div
+  className="ProductSizes Super-Classname"
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with enableOutOfStockSelectedItems=true and select mode items should not be disabled 1`] = `
+<div
+  className="ProductSizes ProductSizes--dropdown "
+>
+  <Connect(Select)
+    className="ProductSizes-sizes Select--inlineLabel"
+    firstDisabled="Select size"
+    name="productSizes"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 6: Out of stock",
+          "value": "6",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`ProductSizes @renders with error 1`] = `
+<InputError
+  className="ProductSizes-errorMessage"
+  name="ProductSize"
+>
+  Sample error
+</InputError>
+`;
+
+exports[`ProductSizes @renders with forceToUseSelect=true 1`] = `
+<div
+  className="ProductSizes ProductSizes--dropdown "
+>
+  <Connect(Select)
+    aria-label="my beautiful label"
+    className="ProductSizes-sizes Select--inlineLabel"
+    firstDisabled="Select size"
+    label="my beautiful label"
+    name="productSizes"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": true,
+          "label": "Size 6: Out of stock",
+          "value": "6",
+        },
+      ]
+    }
+    value="4"
+  />
+</div>
+`;
+
+exports[`ProductSizes @renders with label 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with notifyEmail 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list ProductSizes-list--emailStock"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with notifyEmail in forced select mode 1`] = `
+<div
+  className="ProductSizes ProductSizes--dropdown "
+>
+  <Connect(Select)
+    aria-label="my beautiful label"
+    className="ProductSizes-sizes Select--inlineLabel"
+    firstDisabled="Select size"
+    label="my beautiful label"
+    name="productSizes"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": true,
+          "label": "Size 6: E-mail me when back in stock",
+          "value": "6",
+        },
+      ]
+    }
+    value="4"
+  />
+</div>
+`;
+
+exports[`ProductSizes @renders with quickview item available 1`] = `""`;
+
+exports[`ProductSizes @renders with quickview out of stock 1`] = `
+<span
+  className="ProductSizes-item is-outOfStock"
+>
+  Out of stock
+</span>
+`;
+
+exports[`ProductSizes @renders with showLowStockLabel=false 1`] = `
+<div
+  className="ProductSizes Super-Classname"
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 5"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-5"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        5
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with showLowStockLabel=false and select mode 1`] = `
+<div
+  className="ProductSizes ProductSizes--dropdown "
+>
+  <Connect(Select)
+    className="ProductSizes-sizes Select--inlineLabel"
+    firstDisabled="Select size"
+    name="productSizes"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 5",
+          "value": "5",
+        },
+      ]
+    }
+    value="4"
+  />
+</div>
+`;
+
+exports[`ProductSizes @renders with showOosOnly=true 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list ProductSizes-list--oosOnly"
+  >
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col1"
+      key="size-button-6"
+      onClick={[Function]}
+      style={
+        Object {
+          "flexBasis": "100%",
+        }
+      }
+    >
+      <span
+        className="ProductSizes-item is-outOfStock"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with showOutOfStockLabel=false 1`] = `
+<div
+  className="ProductSizes "
+>
+  <div
+    className="ProductSizes-list"
+  >
+    <button
+      aria-label="Select size 4"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-4"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        4
+      </span>
+    </button>
+    <button
+      aria-label="Select size 6"
+      className="ProductSizes-button ProductSizes-item--col2"
+      key="size-button-6"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="ProductSizes-item"
+      >
+        6
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ProductSizes @renders with showOutOfStockLabel=false and select mode with itemOos 1`] = `
+<div
+  className="ProductSizes ProductSizes--dropdown "
+>
+  <Connect(Select)
+    className="ProductSizes-sizes Select--inlineLabel"
+    firstDisabled="Select size"
+    name="productSizes"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size 4",
+          "value": "4",
+        },
+        Object {
+          "disabled": false,
+          "label": "Size 6",
+          "value": "6",
+        },
+      ]
+    }
+    value="4"
+  />
+</div>
+`;

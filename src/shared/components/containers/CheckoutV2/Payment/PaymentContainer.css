@@ -1,0 +1,66 @@
+/** @define PaymentContainer;weak */
+
+.PaymentContainer {
+  padding-top: 0;
+  &--v2 {
+     padding-top: $checkout-separator-height;
+     margin: $checkout-container-margin-vertical $page-padding;
+  }
+
+  &-location {
+    &--options {
+      margin-top: $checkout-elements-margin-top;
+    }
+  }
+  &-checkbox {
+    margin-top: $checkout-elements-margin-top;
+    margin-bottom: $checkout-elements-margin-bottom;
+  }
+
+  &-description {
+    margin: $checkout-elements-margin-top 0;
+    padding: $checkout-description-padding 0;
+  }
+
+  &-content {
+    padding-top: 0;
+  }
+
+  &-espot1 {
+    margin-top: 15px;
+  }
+
+  &-payNowButtonContainer {
+    &--hasError {
+      border: 1px solid $colorError;
+    }
+  }
+
+  &-termsConditionPayBtnWrapper {
+    background-color: $checkout-bag-side-simple-total-background-color;
+    padding: 23px;
+  }
+
+}
+
+@media $min-tablet {
+  .PaymentContainer {
+    &--v2 {
+     padding-top: 1px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .PaymentContainer {
+    &-sectionWrapper {
+      .AddressForm {
+        width: 60%;
+      }
+
+      .AddressFormDetails {
+        width: 60%;
+      }
+    }
+  }
+}

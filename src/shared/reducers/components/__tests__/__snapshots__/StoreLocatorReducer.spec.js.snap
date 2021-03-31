@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreLocator Reducer APPLY_FILTERS when parcel filter is applied it does not disables parcel and others 1`] = `
+Object {
+  "brand": Object {
+    "applied": false,
+    "disabled": false,
+    "selected": false,
+  },
+  "other": Object {
+    "applied": false,
+    "disabled": true,
+    "selected": false,
+  },
+  "parcel": Object {
+    "applied": true,
+    "disabled": true,
+    "selected": true,
+  },
+  "today": Object {
+    "applied": false,
+    "disabled": false,
+    "selected": false,
+  },
+}
+`;
+
+exports[`StoreLocator Reducer APPLY_FILTERS when today filter is applied it disables parcel and others 1`] = `
+Object {
+  "brand": Object {
+    "applied": false,
+    "disabled": false,
+    "selected": false,
+  },
+  "other": Object {
+    "applied": false,
+    "disabled": true,
+    "selected": false,
+  },
+  "parcel": Object {
+    "applied": false,
+    "disabled": true,
+    "selected": false,
+  },
+  "today": Object {
+    "applied": true,
+    "disabled": false,
+    "selected": true,
+  },
+}
+`;
+
+exports[`StoreLocator Reducer RESET_STORE_LOCATOR should persist filters and selectedStore 1`] = `
+Object {
+  "currentLat": 51.515615,
+  "currentLng": -0.1432734,
+  "currentZoom": 14,
+  "filters": Object {
+    "today": Object {
+      "applied": true,
+    },
+  },
+  "loading": false,
+  "mapExpanded": false,
+  "noStoresFound": false,
+  "query": undefined,
+  "selectedStore": Object {
+    "storeId": "TM0007",
+  },
+  "selectedStoreIndex": undefined,
+  "stores": Array [],
+}
+`;
+
+exports[`StoreLocator Reducer SET_FILTERS set filters 1`] = `
+Object {
+  "brand": Object {
+    "applied": false,
+    "disabled": false,
+    "selected": true,
+  },
+  "other": Object {
+    "applied": true,
+    "disabled": false,
+    "selected": true,
+  },
+  "parcel": Object {
+    "applied": false,
+    "disabled": false,
+    "selected": true,
+  },
+  "today": Object {
+    "applied": true,
+    "disabled": false,
+    "selected": true,
+  },
+}
+`;
+
+exports[`StoreLocator Reducer SET_FULFILMENT_STORE_SKU should set selectedStoreSKU 1`] = `
+Object {
+  "currentLat": 51.515615,
+  "currentLng": -0.1432734,
+  "currentZoom": 14,
+  "filters": Object {
+    "brand": Object {
+      "applied": true,
+      "disabled": false,
+      "selected": true,
+    },
+    "other": Object {
+      "applied": true,
+      "disabled": false,
+      "selected": true,
+    },
+    "parcel": Object {
+      "applied": true,
+      "disabled": false,
+      "selected": true,
+    },
+    "today": Object {
+      "applied": true,
+      "disabled": false,
+      "selected": true,
+    },
+  },
+  "loading": false,
+  "mapExpanded": false,
+  "noStoresFound": false,
+  "query": undefined,
+  "selectedStore": Object {},
+  "selectedStoreIndex": undefined,
+  "selectedStoreSKU": "90210",
+  "stores": Array [],
+}
+`;

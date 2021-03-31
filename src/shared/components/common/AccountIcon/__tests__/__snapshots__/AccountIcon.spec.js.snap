@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountIcon /> @renders in default state 1`] = `
+<div
+  className="AccountIcon"
+>
+  <div
+    className="AccountIcon-notLoggedInContainer"
+  >
+    <Link
+      className="AccountIcon-link "
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/login"
+    >
+      <span
+        className="AccountIcon-icon"
+      />
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<AccountIcon /> @renders with className 1`] = `
+<div
+  className="AccountIcon someClassName"
+>
+  <div
+    className="AccountIcon-notLoggedInContainer"
+  >
+    <Link
+      className="AccountIcon-link someClassName--link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/login"
+    >
+      <span
+        className="AccountIcon-icon"
+      />
+    </Link>
+  </div>
+</div>
+`;

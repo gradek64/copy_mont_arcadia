@@ -1,0 +1,29 @@
+/** @define ProductSizes; weak */
+
+@media $min-tablet {
+  .ProductSizes {
+    &--sizeGuideDropdown {
+      width: 75%;
+    }
+    &--pdp {
+      & .ProductSizes {
+        &-button {
+          padding: 0 3px;
+          margin-bottom: 10px;
+        }
+        &-item {
+          border: none;
+          background: #e8e8e8;
+          height: 30px;
+          color: #363636;
+          font-size: 12px;
+          font-weight: normal;
+          &.is-active {
+            border: none;
+            background: #a5a5a5;
+          }
+        }
+      }
+    }
+  }
+}

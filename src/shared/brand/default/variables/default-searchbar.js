@@ -1,0 +1,25 @@
+const colors = require('./default-colors')
+
+module.exports = {
+  'searchbar-height': '44px' /*  this should equal the mobile header height */,
+  'searchbar-background-color': colors.black,
+  'searchbar-input-padding': '0 10px',
+  'searchbar-font-size': '1em',
+  'searchbar-font-weight': 'normal',
+  'searchbar-font-color': colors.white,
+  'searchbar-text-transform': 'none',
+  'searchbar-placeholder-font-color': colors.white,
+  'searchbar-icon-position': '0' /* 0 for left, 1 for right */,
+  'searchbar-big-icon-position': '0' /* 0 for left, 1 for right */,
+  'searchbar-icon-padding': '10px',
+  'searchbar-border-top': 'none',
+  'searchbar-big-border': '1px solid black',
+  'header-big-searchbar-top': '19px',
+  'header-big-searchbar-right': null,
+  'searchbar-big-open-background-color': null,
+  'searchbar-form-background-color': null,
+  'searchbar-big-form-background-color': null,
+  'searchbar-icon-width': null,
+  'searchbar-icon-height': null,
+  'searchbar-icon-margin': '0 0 0 auto',
+}

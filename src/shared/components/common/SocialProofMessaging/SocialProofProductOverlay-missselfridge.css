@@ -1,0 +1,17 @@
+/** @define SocialProofProductOverlay; weak */
+.SocialProofProductOverlay {
+  max-width: 60%;
+
+  @media only screen and (min-width: 992px) {
+    max-width: 40%;
+  }
+}
+/** @define AttributeBannersContainer; weak */
+.AttributeBannersContainer {
+  margin-bottom: 4%;
+}
+/** @define ProductAttributeBanner; weak */
+.ProductAttributeBanner {
+  margin-bottom: 0;
+  max-width: 220px;
+} 

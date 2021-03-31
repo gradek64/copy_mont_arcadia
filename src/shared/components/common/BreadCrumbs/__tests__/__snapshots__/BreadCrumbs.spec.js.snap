@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadCrumbs /> @renders in default state 1`] = `
+<ul
+  className="BreadCrumbs BreadCrumbs--delivery"
+>
+  <li
+    className="BreadCrumbs-item BreadCrumbs-item1"
+  >
+    <span
+      className="BreadCrumbs-number"
+    >
+      1
+    </span>
+    <span
+      className="BreadCrumbs-label"
+    >
+      Delivery
+    </span>
+  </li>
+  <li
+    className="BreadCrumbs-item BreadCrumbs-item2"
+  >
+    <span
+      className="BreadCrumbs-number"
+    >
+      2
+    </span>
+    <span
+      className="BreadCrumbs-label"
+    >
+      Billing
+    </span>
+  </li>
+  <li
+    className="BreadCrumbs-item BreadCrumbs-item3"
+  >
+    <span
+      className="BreadCrumbs-number"
+    >
+      3
+    </span>
+    <span
+      className="BreadCrumbs-label"
+    >
+      Confirm
+    </span>
+  </li>
+</ul>
+`;

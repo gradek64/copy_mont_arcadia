@@ -1,0 +1,11 @@
+/** @define Product */
+.Product {
+  &-link {
+    border-top: $plp-product-border-top;
+  }
+  &:first-child, &--col2:nth-child(2), &--col3:nth-child(2), &--col3:nth-child(3) {
+    & .Product-link {
+      border-top: 0;
+    }
+  }
+}

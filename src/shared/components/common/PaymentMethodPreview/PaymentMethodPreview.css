@@ -1,0 +1,49 @@
+/** @define PaymentMethodPreviewV1 */
+
+.PaymentMethodPreviewV1 {
+  &-body {
+    position: relative;
+    margin: 16px 0 20px 0;
+  }
+
+  &-button {
+    width: auto;
+  }
+
+  &-icon {
+   margin: 3.5px 11px 0 1px;
+   width: 38px;
+   align-self: flex-start;
+  }
+
+  &-detailsCol {
+    margin-bottom: 2px;
+  }
+
+  &-detailsColWrapper {
+     display: flex;
+     flex-direction: column;
+  }
+
+  &-detailsLine {
+    &:first-of-type {
+      margin: 0;
+    }
+  }
+}
+
+@media $min-laptop {
+  .PaymentMethodPreviewV1 {
+    &-body {
+      padding-right: 100px;
+    }
+  }
+}
+
+@media $mobile {
+  .PaymentMethodPreviewV1 {
+    &-body {
+      margin-bottom: 32px
+    }
+  }
+}

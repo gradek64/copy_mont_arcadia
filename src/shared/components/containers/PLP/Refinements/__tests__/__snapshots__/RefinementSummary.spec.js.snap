@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RefinementSummary/> @renders in default state 1`] = `
+<div
+  className="RefinementSummary"
+>
+  <header
+    className="RefinementSummary-header"
+  >
+    <span
+      className="RefinementSummary-headerTitle"
+    >
+      Filter
+    </span>
+    <button
+      className="RefinementSummary-clearRefinementsButton"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Clear all
+    </button>
+  </header>
+  <div
+    className="RefinementSummary-categoryItem"
+  >
+    <span
+      className="RefinementSummary-itemTitle"
+    >
+      Category
+    </span>
+    <span
+      className="RefinementSummary-value"
+    >
+      Dress
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<RefinementSummary/> @renders with activeRefinements 1`] = `
+<div
+  className="RefinementSummary"
+>
+  <header
+    className="RefinementSummary-header"
+  >
+    <span
+      className="RefinementSummary-headerTitle"
+    >
+      Filter
+    </span>
+    <button
+      className="RefinementSummary-clearRefinementsButton"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Clear all
+    </button>
+  </header>
+  <div
+    className="RefinementSummary-categoryItem"
+  >
+    <span
+      className="RefinementSummary-itemTitle"
+    >
+      Category
+    </span>
+    <span
+      className="RefinementSummary-value"
+    >
+      Dress
+    </span>
+  </div>
+  <div
+    className="RefinementSummary-item"
+    key="TOPSHOP_UK_CE3_PRODUCT_TYPE"
+  >
+    <span
+      className="RefinementSummary-itemTitle"
+    >
+      Product Type
+    </span>
+    <div
+      className="RefinementSummary-valuesContainer"
+    >
+      <span
+        className="RefinementSummary-valueWrapper"
+        key="ECMC_PROD_CE3_PRODUCT_TYPE_1_DRESSES"
+      >
+        <span
+          className="RefinementSummary-value RefinementSummary-refinementValue"
+        >
+          <span
+            className="RefinementSummary-valueInner"
+          >
+            dresses
+          </span>
+          <a
+            className="RefinementSummary-removeTextValue"
+            onClick={[Function]}
+            role="button"
+          >
+            X
+          </a>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    className="RefinementSummary-item"
+    key="NOWPRICE"
+  >
+    <span
+      className="RefinementSummary-itemTitle"
+    >
+      Price
+    </span>
+    <div
+      className="RefinementSummary-valuesContainer"
+    >
+      <span
+        className="RefinementSummary-valueWrapper"
+        key="NOWPRICE5.032.0"
+      >
+        <span
+          className="RefinementSummary-value RefinementSummary-refinementValue"
+        >
+          <span
+            className="RefinementSummary-valueInner"
+          >
+            <div>
+              <Price
+                className=""
+                price="5.0"
+              />
+               -
+               
+              <Price
+                className=""
+                price="32.0"
+              />
+            </div>
+          </span>
+          <a
+            className="RefinementSummary-removeTextValue"
+            onClick={[Function]}
+            role="button"
+          >
+            X
+          </a>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;

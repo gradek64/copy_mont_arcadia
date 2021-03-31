@@ -1,0 +1,91 @@
+/** @define DeliveryContainer; weak */
+.DeliveryContainer {
+  $border: 1px solid $accordion-border-color;
+  margin: $checkout-container-margin-vertical $page-padding;
+  &--v2 {
+    padding-top: $checkout-separator-height;
+  }
+  &-location {
+    border: none;
+    padding: 0;
+    padding-bottom: $checkout-separator-height;
+  }
+  &-locationOptions {
+    border-top: $border;
+    margin-top: 0;
+    &:last-child {
+      border-bottom: $border;
+    }
+  }
+  &-locationHeader {
+   height: 35px;
+  }
+  &-locationHeaderText {
+    margin: 0;
+  }
+  &-title {
+    display: none;
+  }
+  &-locationOption {
+    display: flex;
+    align-content: center;
+  }
+  &-locationOptionTitle {
+    margin: 0 0 0 5px;
+    font-weight: $checkout-delivery-title-font-weight;
+  }
+  &-locationOptionHeader {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  &-locationOptionIconMobile {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  &-locationOptionIconTablet {
+    display: none;
+  }
+  &-locationOptionContent {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-contentV2 {
+    padding-top: 0;
+  }
+}
+
+@media $min-tablet {
+  .DeliveryContainer {
+    &--v2 {
+      padding-top: 1px;
+    }
+    &-title {
+      display: block;
+      font-size: 0.85em;
+      font-weight: 100;
+      border-top: $border;
+      padding-top: $checkout-delivery-margin-top;
+    }
+
+    &-locationOption {
+      padding: $checkout-delivery-padding-vertical-min-tablet 0;
+    }
+
+    &-locationOptionIconMobile {
+      display: none;
+    }
+
+    &-locationOptionIconTablet {
+      display: block;
+      padding: 10px 20px 10px 15px;
+      max-width: $checkout-delivery-option-icon-width;
+      height: $checkout-delivery-option-icon-width;
+    }
+
+    &-locationOptionTitle {
+      font-size: 0.95em;
+      margin-left: 0;
+    }
+  }
+}

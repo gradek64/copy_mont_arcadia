@@ -1,0 +1,29 @@
+/** @define ShippingDestination; weak */
+
+.ShippingDestination {
+  height: 21px;
+
+  & > * {
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 21px;
+    font-size: $header-big-shipping-destination-currency-font-size;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &-currencySymbol {
+    font-weight: $header-big-shipping-destination-font-weight;
+    color: $header-big-shipping-destination-color;
+    letter-spacing: $header-big-shipping-destination-letter-spacing;
+  }
+
+}
+
+@media $min-tablet {
+  .ShippingDestination {
+    min-width: 50px;
+  }
+}

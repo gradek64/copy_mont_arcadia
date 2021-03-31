@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingDetailsForm /> @renders in default state 1`] = `
+<Connect(AddressFormDetails)
+  addressType="billingCheckout"
+  label="Billing address"
+  titleHidden={true}
+/>
+`;

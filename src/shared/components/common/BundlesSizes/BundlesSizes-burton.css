@@ -1,0 +1,9 @@
+/** @define BundlesSizes; weak */
+
+@media $min-laptop {
+  .BundlesSizes {
+    & .Select-container  {
+      width: calc(100% - 90px);
+    }
+  }
+}

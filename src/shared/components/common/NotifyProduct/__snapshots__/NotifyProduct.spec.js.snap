@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotifyProduct /> @render default state 1`] = `
+<div
+  className="NotifyProduct"
+>
+  <Button
+    className="NotifyProduct-button"
+    clickHandler={[Function]}
+  >
+    <span
+      className="translate"
+    >
+      Notify me when available
+    </span>
+  </Button>
+</div>
+`;
+
+exports[`<NotifyProduct /> @render notifyMe is false, backInStock is true and not all sizes are in stock 1`] = `
+<div
+  className="NotifyProduct"
+>
+  <Button
+    className="NotifyProduct-button"
+    clickHandler={[Function]}
+  >
+    <span
+      className="translate"
+    >
+      E-mail me when back in stock
+    </span>
+  </Button>
+</div>
+`;
+
+exports[`<NotifyProduct /> @render notifyMe is true, backInStock is false and not all sizes are in stock 1`] = `
+<div
+  className="NotifyProduct"
+>
+  <Button
+    className="NotifyProduct-button"
+    clickHandler={[Function]}
+  >
+    <span
+      className="translate"
+    >
+      Notify me when available
+    </span>
+  </Button>
+</div>
+`;
+
+exports[`<NotifyProduct /> @render sizes are all in stock 1`] = `""`;

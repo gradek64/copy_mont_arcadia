@@ -1,0 +1,31 @@
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentSortID .BVRRSortSelectWidget .BVRRDisplayContentSelect {
+  -moz-appearance: none;
+  -webkit-appearance:none;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRDisplayContentSortID .BVRRSortSelectWidget .BVRRDisplayContentSelect::-ms-expand {
+display: none;
+}
+
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRRatingSummary .BVRROverallRatingContainer,
+.BazaarVoice .BVRRSecondaryRatingsContainer,
+.BazaarVoice .BVRRReviewDisplayStyle5Header .BVRROverallRatingContainer,
+.BazaarVoice .BVRROverallRatingContainer .BVRRRatingContainerStar,
+.BazaarVoice .BVRRCustomColumnWrapper,
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContentSecondary,
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContent,
+.BazaarVoice .BVRRReviewDisplayStyle5BodyContentPrimary,
+.BazaarVoice .BVRRContainer .BVRRRatingSummaryStyle2,
+.BazaarVoice .BVRRRatingOverall .BVRRRatingNormalImage,
+.BazaarVoice .BVRRQuickTakeSummary .BVRRRatingSummary .BVRROverallRatingContainer .BVRRLabel {
+  display: block;
+}
+
+/* postcss-bem-linter: ignore */
+#BVRRSummaryContainer .BVRRRatingSummary.BVRRPrimarySummary .BVRRRatingSummaryStyle2 .BVRRRatingOverall .BVRRRatingNormalOutOf {
+  margin-left: 95px;
+  bottom: 19px;
+}

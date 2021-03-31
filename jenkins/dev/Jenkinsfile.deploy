@@ -1,0 +1,211 @@
+#!/usr/bin/env groovy
+@Library('devops_repo_shared_library')_
+
+def eb_job_path                 = "${EVENT_JOB_PATH}"
+def build_container_job_path    = "Full Monty Development/full_monty_build_ff"
+// These credentials MUST HAVE SSH access to GitHub
+def github_creds                = "31e30b06-b43e-4d4b-92fb-0897fcfb2bb5"
+// The list of current WCS environments is set as a Jenkins global system variable
+def WCS_ACTUALS                 = "${WCS_ENVIRONMENT_LIST}".tokenize(',[]')
+
+pipeline {
+
+  agent {
+    label 'spot||swarm'
+  }
+
+  environment {
+    AWS_ACCOUNT_ID = '623971903498'
+    AWS_REGION = 'eu-west-1'
+    AWS_DEPLOY_ROLE_ARN = "${ARN_DEV_JENKINS_SLAVE}"
+  }
+
+  options {
+      timestamps()
+  }
+
+  parameters {
+    string(name: 'COMMIT_SHA_OR_PR_ID', defaultValue: '',
+           description: 'Enter Commit SHA or PR ID (e.g. PR-1234)')
+    choice(name: 'QUBIT_DISABLED', choices: 'true\nfalse',
+           description: 'Disable all Quqbit experiences/tests')
+    string(name: 'EB_ENVIRONMENT_NAME', defaultValue: '',
+           description: 'The elastic beanstalk environment to deploy to if it exists, or to create and deploy if it doesn\'t. Minimum 4 characters in length.')
+    string(name: 'MONTY_MEMORY_SIZE', defaultValue: '1024',
+           description: 'Size of memory allocated to monty, in MB. The application will fail to start if it cannot be allocated this much memory, so make sure it is available.')
+    choice(name: 'INSTANCE_SIZE', choices: 't2.small\nt2.medium\nc5.large')
+    booleanParam(name: 'USE_SPOT_INSTANCES', defaultValue: true, description: 'use cheaper spot instances')
+    choice(name: 'USE_NEW_HANDLER', choices: 'true\nfalse')
+    choice(name: 'WCS_ENVIRONMENT', choices: "${WCS_ACTUALS.join('\n').toString()}",
+          description: 'WCS JSON environment, Please make sure USE_NEW_HANDLER set to TRUE as well')
+    booleanParam(name: 'CREATE_CACHE_INSTANCE', defaultValue: false, description: 'use individual redis instance for this development environment')
+    string(name: 'BASIC_AUTH_ENABLED', defaultValue: 'true')
+    string(name: 'BASIC_AUTH_USERNAME', defaultValue: 'monty')
+    string(name: 'BASIC_AUTH_PASSWORD', defaultValue: 'monty')
+    string(name: 'DEBUG', defaultValue: 'false')
+    string(name: 'DO_NOT_MOCK_NAV', defaultValue: 'false')
+    string(name: 'API_URL_STORE_LOCATOR', defaultValue: 'https://store.api.arcadiagroup.co.uk/storestock/storestock')
+    string(name: 'API_URL_COUNTRIES', defaultValue: 'https://store.api.arcadiagroup.co.uk/storestock/countries')
+    string(name: 'API_FIND_ADDRESS', defaultValue: 'https://qas.api.arcadiagroup.co.uk/qas/json')
+    string(name: 'API_URL_COUNTRIES_V2', defaultValue: 'http://nonprodstore.api.arcadiagroup.co.uk/storestock/v2/countries')
+    string(name: 'API_URL_STORE_LOCATOR_V2', defaultValue: 'https://nonprodstore.api.arcadiagroup.co.uk/storestock/v2/storestock')
+    choice(name: 'API', choices: 'STAGE\nMONTYPROD\nEBT\nTOMCATEBT\nPPLIVE\nDEVELOPMENT\nLIVE\nTOMCATPROD\nREDIS\nPPLIVEFFS\nPERF',
+           description: 'ScrAPI to use')
+    choice(name: 'LEGACY_CMS_URL', choices: 'showcase-monty-scraper.digital.arcadiagroup.co.uk\nstage-monty-scraper.digital.arcadiagroup.co.uk\nebt-monty-scraper.digital.arcadiagroup.co.uk\ndev-monty-scraper.digital.arcadiagroup.co.uk\nperf-monty-scraper.digital.arcadiagroup.co.uk',
+           description: 'Which Monty Scraper to use')
+    choice(name: 'LOGGING_LEVEL', choices: 'INFO\nTRACE\nDEBUG\nERROR')
+    string(name: 'FEATURE_FLAG_BRANCH', defaultValue: null, description: 'Overrides the feature flag branch in use.')
+    string(name: 'FEATURE_FLAG_BUCKET', defaultValue: 'ag-monty-dynamic-feature-flag', description: 'Bucket to hold the dynamic feature flag configration file.')
+    string(name: 'FEATURE_FLAG_TOPIC_ARN', defaultValue: 'arn:aws:sns:eu-west-1:623971903498:feature-flag-notification-int-topic', description: 'AWS SNS topic to register to get feature flag updates.')
+    string(name: 'FEATURE_FLAG_KEY', defaultValue: 'features.json', description: 'File that holds the feature flag settings.')
+    choice(name: 'MR_CMS_URL', choices: 'cms-showcase.digital.arcadiagroup.co.uk\ncms.digital.arcadiagroup.co.uk\ncms-integration.digital.arcadiagroup.co.uk\ncms-perf.digital.arcadiagroup.co.uk.')
+    string(name: 'MR_CMS_PORT', defaultValue: '443')
+    string(name: 'MR_CMS_PROTOCOL', defaultValue: 'https')
+  }
+
+  stages {
+
+    stage("Pre-Flight") {
+        steps {
+            script {
+                println(ssh_conn.get_ssh_conn())
+            }
+        }
+    }
+
+    stage('Checkout') {
+      steps {
+        script {
+          currentBuild.description = "${params.EB_ENVIRONMENT_NAME} - ${params.COMMIT_SHA_OR_PR_ID}"
+        }
+        dir('pipeline/scripts') {
+          checkout resolveScm(source: [
+            $class: 'GitSCMSource',
+            credentialsId: '31e30b06-b43e-4d4b-92fb-0897fcfb2bb5',
+            remote: 'git@github.com:ag-digital/devops.git',
+              traits: [
+                  [$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'],
+                  [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']
+              ]
+          ], targets: ['master'])
+        }
+      }
+    }
+
+    stage("Feature Flags Non-Prod") {
+
+        when {
+            expression {
+                return ['integration', 'showcase', 'stage', 'perf'].contains(params.EB_ENVIRONMENT_NAME)
+            }
+            expression {
+                "${params.FEATURE_FLAG_BRANCH}"
+            }
+        }
+
+        steps {
+
+            ansiColor('xterm') {
+                checkout changelog: false,
+                    poll: false,
+                    scm: [$class: 'GitSCM',
+                    branches: [[name: EB_ENVIRONMENT_NAME]],
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [[$class: 'RelativeTargetDirectory',
+                    relativeTargetDir: 'packages/monty-feature-flags']],
+                    submoduleCfg: [],
+                    userRemoteConfigs: [
+                        [credentialsId: 'feature-config-deployment', url: 'git@github.com:ag-digital/monty-feature-flags.git']]
+                    ]
+            }
+        }
+    }
+
+    stage("Feature Flags Dev") {
+
+        when {
+            not {
+                expression {
+                    return ['integration', 'showcase', 'stage', 'perf'].contains(params.EB_ENVIRONMENT_NAME)
+                }
+            }
+            expression {
+                "${params.FEATURE_FLAG_BRANCH}"
+            }
+        }
+
+        steps {
+
+            ansiColor('xterm') {
+                sh 'mkdir -p packages/monty-feature-flags'
+                dir('packages/monty-feature-flags') {
+                    checkout resolveScm(source:
+                        [$class: 'GitSCMSource',
+                        credentialsId: "${github_creds}",
+                        remote: 'git@github.com:ag-digital/monty-feature-flags.git',
+                        traits: [
+                            [$class: 'jenkins.plugins.git.traits.BranchDiscoveryTrait'],
+                            [$class: 'jenkins.plugins.git.traits.TagDiscoveryTrait']]
+                        ],targets: [params.FEATURE_FLAG_BRANCH, COMMIT_SHA_OR_PR_ID, 'develop'])
+                }
+            }
+        }
+    }
+
+    stage("Build Container") {
+
+        when {
+            expression {
+                "${params.FEATURE_FLAG_BRANCH}"
+            }
+        }
+
+        steps {
+
+            build job: build_container_job_path, wait: true,
+                parameters: [
+                    string(name: 'FEATURE_FLAG_BRANCH', value: "${params.FEATURE_FLAG_BRANCH}"),
+                    string(name: 'DEPLOY_BRANCH_OR_TAG', value: "${COMMIT_SHA_OR_PR_ID}")
+                ]
+        }
+    }
+
+    stage('Deploy') {
+
+          environment {
+              DEPLOY_BRANCH_OR_TAG_OR_HASH = "${params.COMMIT_SHA_OR_PR_ID}"
+          }
+
+          steps {
+            wrap([$class: 'BuildUser']) {
+                sshagent (credentials: ["${github_creds}"]) {
+                  sh "pipeline/scripts/scripts/full-monty/deploy_wrapper.sh"
+                }
+            }
+          }
+    }
+
+  }
+
+  post {
+
+      success {
+        // Notifying Event Bus
+        build job: eb_job_path, wait: false,
+            parameters: [
+                string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                string(name: 'JOB_STAGE', value: 'finish')
+            ]
+      }
+
+      failure {
+        // Notifying Event Bus
+        build job: eb_job_path, wait: false,
+            parameters: [
+                string(name: 'BUILD_URL_IN', value: "${BUILD_URL}"),
+                string(name: 'JOB_STAGE', value: 'fail')
+            ]
+      }
+  }
+
+}

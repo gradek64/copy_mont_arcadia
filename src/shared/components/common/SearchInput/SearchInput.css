@@ -1,0 +1,40 @@
+/** @define SearchInput; weak */
+
+.SearchInput {
+  &-form {
+    margin: 0 auto 50px;
+    max-width: 500px;
+    position: relative;
+  }
+  &-label {
+    display: block;
+    flex-basis: 100%;
+    padding: 10px;
+  }
+  &-button {
+    border: 1px solid #979797;
+    border-left: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 10px;
+    width: 10%;
+  }
+  &-icon {
+    height: 25px;
+    margin: auto;
+    width: 25px;
+  }
+  &-search {
+    border-right: 0;
+    width: 90%;
+    
+    &::-webkit-search-cancel-button {
+      display: none;
+    }
+  }
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

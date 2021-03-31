@@ -1,0 +1,75 @@
+version: "3.6"
+
+volumes:
+  node_modules:
+    driver: local
+
+services:
+  traefik:
+    container_name: monty_traefik
+    image: traefik
+    command: --configfile=/dev/null --web --docker --docker.exposedbydefault=false --logLevel=DEBUG --entryPoints='Name:https Address::443 TLS:/certs/localhost.crt,/certs/localhost.key' --entryPoints='Name:http Address::80' --defaultEntryPoints='http,https' --healthcheck
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      # sometimes we just have to have https, so we plonk them serlf-signed certs into traefik to allow all frontends to have https
+      - ./certs:/certs
+      - /var/run/docker.sock:/var/run/docker.sock
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:traefik.localhost"
+      - "traefik.port=8080"
+    networks:
+      - montynet
+
+  monty:
+    container_name: monty
+    build:
+      dockerfile: docker/localdev/Dockerfile.build
+      context: ../../
+    env_file:
+      - ../../.env
+    command: ["node","--harmony","index.js"]
+    volumes:
+      - ../../:/monty
+      - node_modules:/monty/node_modules
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=monty_backend"
+#      - "traefik.frontend.rule=HostRegexp:{subdomain:.+}.dorothyperkins.com,{subdomain:.+}.topshop.com,{subdomain:.+}.topman.com,{subdomain:.+}.evansusa.com"
+      - "traefik.frontend.rule=HostRegexp:local.m.{domain:.+}"
+      - "traefik.port=3000"
+      - "traefik.frontend.passHostHeader=true"
+      - "traefik.frontend.priority=10"
+    networks:
+      - montynet
+    ports:
+      - 3000:3000
+    depends_on:
+      - monty_cache
+      - traefik
+
+  monty_cache:
+    container_name: monty_cache
+    image: redis:3-alpine
+    networks:
+      - montynet
+
+  # this is used for getting "real" versions of node_modules on localhost
+  monty_build:
+    container_name: monty_build
+    build:
+      dockerfile: docker/localdev/Dockerfile.build
+      context: ../../
+    env_file:
+      - ../../.env
+    volumes:
+      - ../../:/monty
+    restart: "no"
+    networks:
+      - montynet
+
+networks:
+  montynet:
+    name: montynet

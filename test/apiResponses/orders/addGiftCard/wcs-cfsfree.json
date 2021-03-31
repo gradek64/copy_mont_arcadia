@@ -1,0 +1,292 @@
+{
+  "action": "add",
+  "success": true,
+  "orderId": 2486602,
+  "langId": -1,
+  "message": "Gift card has been added",
+  "message_key": "PPTGC_RES_ADD_SUCCESSFULL",
+  "identifier": "7464548",
+  "cardNo": "XXXX XXXX XXXX 7021",
+  "balance": "494.00",
+  "deposit": "6.00",
+  "totalDeposit": "6.00000",
+  "totalBalance": "494.00",
+  "Basket": {
+    "products": {
+      "Product": [
+        {
+          "partNumber": "602018001230847",
+          "hasExcludedProducts": false,
+          "lineNumber": "09D35NPBL",
+          "name": "Classic Vest",
+          "productId": "31879004",
+          "catEntryId": "31878290",
+          "imageUrl":
+            "https%3A%2F%2Fts.stage.arcadiagroup.ltd.uk%2Fwcsstore%2FTopShop%2Fimages%2Fcatalog%2FTS09D35NPBL_Small_M_1.jpg",
+          "sourceUrl":
+            "http%3A%2F%2Fts.stage.arcadiagroup.ltd.uk%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FProductDisplay%3FlangId%3D-1%26storeId%3D12556%26catalogId%3D33057%26productId%3D31879004%26categoryId%3D277012%26parent_category_rn%3D208491",
+          "productName": "Classic Vest",
+          "unitPrice": 6,
+          "size": "4",
+          "quantity": 1,
+          "itemTotal": 6,
+          "shipModeId": "45019",
+          "orderItemId": "9837527",
+          "color": "PALE BLUE",
+          "freeItem": false
+        }
+      ]
+    },
+    "productDataQuantity": {
+      "item_1": {
+        "partNumber": "602018001230847",
+        "catentryId": 31878290,
+        "inventorys": [
+          {
+            "cutofftime": "2100",
+            "quantity": 8,
+            "ffmcenterId": 12556,
+            "expressdates": ["2018-05-15", "2018-05-16"]
+          }
+        ],
+        "invavls": null
+      }
+    },
+    "promotionCodeContent": "Promotion code(s) and student discount",
+    "PromotionCodeManageForm": {
+      "promotionDetails": []
+    },
+    "orderId": 2486602,
+    "sourcePage": "OrderSubmitForm",
+    "addAddress": "",
+    "isBasketDisplay": true,
+    "isBasketResponse": true,
+    "showDeliveryAddress": "true",
+    "showDeliveryDate": "true",
+    "storeSelected": "Y",
+    "deliveryEstimateWhere": "Where:",
+    "estimatedDeliveryWhenText": "When:",
+    "estimatedDelivery": "No later than&nbsp;Friday 18 May 2018",
+    "nominatedDeliveryDate": "Friday 18 May 2018",
+    "selectedCountry": "United Kingdom",
+    "countrySetInAddress": true,
+    "totalBeforeDiscount": 6,
+    "deliverySectionLabel": "DeliveryCostSection",
+    "deliveryOptions": {
+      "BasketDeliveryOption": [
+        {
+          "selected": true,
+          "enabled": true,
+          "deliveryOptionId": 45019,
+          "deliveryOptionPrice": 0,
+          "deliveryShipCode": "Retail Store Standard",
+          "label": "Free Collect From Store Standard"
+        },
+        {
+          "selected": false,
+          "enabled": true,
+          "deliveryOptionId": 26504,
+          "deliveryOptionPrice": 3.95,
+          "deliveryShipCode": "S",
+          "label": " UK Standard up to 4 days"
+        },
+        {
+          "selected": false,
+          "enabled": true,
+          "deliveryOptionId": 45020,
+          "deliveryOptionPrice": 3,
+          "deliveryShipCode": "Retail Store Express",
+          "label": " Collect From Store Express"
+        },
+        {
+          "selected": false,
+          "enabled": true,
+          "deliveryOptionId": 28004,
+          "deliveryOptionPrice": 6,
+          "deliveryShipCode": "N3",
+          "label": " Express / Nominated Day Delivery "
+        },
+        {
+          "selected": false,
+          "enabled": true,
+          "deliveryOptionId": 47524,
+          "deliveryOptionPrice": 4,
+          "deliveryShipCode": "Retail Store Collection",
+          "label": " Collect from ParcelShop"
+        }
+      ]
+    },
+    "shoppingBagOrderSummary": {
+      "pageAction": "ProcessShoppingBagSummaryDeliverySelection",
+      "formMethod": "POST",
+      "storeId": 12556,
+      "catalogId": 33057,
+      "langId": -1,
+      "orderId": "2486602",
+      "sourcePage": "OrderSubmitForm",
+      "selectedNominatedDate": "2018-05-16",
+      "selectedDeliveryOption": 47524
+    },
+    "noOfGiftCards": 1,
+    "productTotalTxt": "Total cost",
+    "total_product_before_giftcard": 6,
+    "giftCards": [
+      {
+        "giftCardId": "gift_card_7464548",
+        "giftCardNumber": "XXXX XXXX XXXX 7021",
+        "pin": "0620",
+        "remainingBalance": 488,
+        "balance": 6,
+        "amountUsed": 6
+      }
+    ],
+    "giftCardApplyStatus": "true",
+    "total": 0
+  },
+  "selectedShipCode": "Retail Store Standard",
+  "isPUDOUnavailable": "false",
+  "isPUDOEnabled": "true",
+  "isCSRUsr": false,
+  "deliveryLocationTypeForm": {
+    "pageAction": "ProcessDeliveryDetails",
+    "formMethod": "post",
+    "outOrderItemName": "",
+    "actionType": "updateShipping",
+    "sourcePage": "OrderSubmitForm",
+    "page": "account",
+    "storeId": 12556,
+    "catalogId": 33057,
+    "orderId": 2486602,
+    "shipping_country": "United Kingdom",
+    "deliveryCountry": "United Kingdom",
+    "deliveryLocations": [
+      {
+        "deliveryLocationType": "HOME",
+        "enabled": true,
+        "selected": false
+      },
+      {
+        "deliveryLocationType": "STORE",
+        "enabled": true,
+        "selected": true
+      },
+      {
+        "deliveryLocationType": "PARCELSHOP",
+        "parcelShopStore": "hermes",
+        "enabled": true,
+        "selected": false
+      }
+    ]
+  },
+  "storeDeliveryOptionsDetails": {
+    "deliveryoptionsform": {
+      "orderId": 2486602,
+      "status": "P",
+      "outOrderItemName": "",
+      "actionType": "updateOrderItemsOnly",
+      "sourcePage": "OrderSubmitForm",
+      "deliveryOptionType": "S",
+      "field1": "TM8137",
+      "deliveryDetails": {
+        "nameAndPhone": {
+          "title": "-",
+          "firstName": "",
+          "lastName": ""
+        },
+        "address": {
+          "PhyStoreBrandName": "",
+          "PhyStlocAddress1": "",
+          "address1": "c/o Top Shop, 60/64 The Strand",
+          "address2": "Strand",
+          "city": "Strand",
+          "state": "Greater London",
+          "postcode": "WC2N 5LR",
+          "country": "United Kingdom"
+        }
+      },
+      "deliveryMethods": [
+        {
+          "Country": "United Kingdom",
+          "shipModeId": "45020",
+          "storeId": 12556,
+          "shipCode": "Retail Store Express",
+          "selected": false,
+          "enabled": true,
+          "label": "Collect From Store Express",
+          "price": 3,
+          "nominatedDate": "Wednesday 16 May 2018"
+        },
+        {
+          "Country": "United Kingdom",
+          "shipModeId": "45019",
+          "storeId": 12556,
+          "shipCode": "Retail Store Standard",
+          "selected": true,
+          "enabled": true,
+          "label": "Collect From Store Standard",
+          "price": 0,
+          "nominatedDate": "Friday 18 May 2018"
+        }
+      ],
+      "selectedDeliveryOption": "Retail Store Standard",
+      "supportsSMSAlerts": "Y",
+      "smsMobileNumber": "null",
+      "smsAlerts": "",
+      "orderItemShipMode": "45019",
+      "orderItemShipCode": "Retail Store Standard",
+      "trackingType": "N-N-Y"
+    }
+  },
+  "giftCards": {
+    "GiftCardsManagerForm": {
+      "pageAction": "PPTGiftCardsManager",
+      "formMethod": "post",
+      "giftCardTxt": "Gift cards",
+      "giftCards": [
+        {
+          "giftCardId": "gift_card_7464548",
+          "giftCardNumber": "XXXX XXXX XXXX 7021",
+          "pin": "0620",
+          "balance": 6,
+          "amountUsed": 6,
+          "remainingBalance": 488,
+          "lastGiftCardDeposit": 6,
+          "giftCardAddedTxt": "Gift card has been added",
+          "giftCardRemainingTxt": "Remaining gift card balance",
+          "giftCardRemoveTitleTxt": "Remove this gift card",
+          "giftCardNoTxt": "Gift card number",
+          "giftCardRemoveTxt": "giftCardRemoveTxt"
+        }
+      ],
+      "gcNoMoreReq": "You don't need any more gift cards"
+    }
+  },
+  "paymentDetailsDisplay": {
+    "OrderCalculateForm": {
+      "orderId": 2486602,
+      "contentType": "*/*",
+      "notifyShopper": "0",
+      "notifyOrderSubmitted": "0",
+      "billing_address_id": "",
+      "addressId": "3220343",
+      "shipCode": "Retail Store Standard",
+      "nominatedDate": "",
+      "URL": "OrderPrepare?URL=ConfirmAndPay",
+      "billingDetails": {
+        "nameAndPhone": {
+          "title": "",
+          "firstName": "",
+          "lastName": ""
+        },
+        "address": {
+          "address1": "",
+          "address2": "",
+          "city": "",
+          "postcode": "",
+          "country": ""
+        }
+      },
+      "giftCardsEnough": "true"
+    }
+  }
+}

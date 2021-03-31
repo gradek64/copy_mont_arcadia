@@ -1,0 +1,72 @@
+/** @define HeaderTopshop; weak */
+.HeaderTopshop {
+  &-content {
+    opacity: 1;
+  }
+
+  &-search {
+    & .SearchBar--big {
+      left: auto;
+    }
+  }
+  
+  &.is-sticky {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: $header-background;
+    & .HeaderTopshop-search {
+      & .SearchBar--big {
+        & .SearchBar-icon {
+          padding: 0 0 0 4px;
+        }
+        & .SearchBar-queryInput,
+        & .SearchBar-queryInput:focus {
+          width: 63px;
+        }
+      }
+    }
+    & .AccountIcon,
+    & .ShippingDestination,
+    & .WishlistHeaderLink,
+    & .ShoppingCart {
+      margin: 0 0 0 10px;
+    }
+    & .HeaderTopshop-megaNav {
+      margin: 0;
+    }
+    & .HeaderTopshop-content {
+      display: none;
+    }
+    & .HeaderTopshop-brand {
+      display: none;
+    }
+    & .HeaderTopshop-navigation {
+      background-color: $header-background;
+      padding: 0 12px;
+    }
+  }
+}
+@media $min-laptop {
+  .HeaderTopshop {
+    &.is-sticky {
+      & .HeaderTopshop-search {
+        width: 12%;
+        & .SearchBar--big {
+          & .SearchBar-icon {
+            padding: 0 0 0 8px;
+          }
+        }
+      }
+      & .AccountIcon,
+      & .ShippingDestination,
+      & .WishlistHeaderLink,
+      & .ShoppingCart {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+}

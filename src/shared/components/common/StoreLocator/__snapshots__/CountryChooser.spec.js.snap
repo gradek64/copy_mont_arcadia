@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryChooser/> @renders desktop as landingPage 1`] = `
+<Connect(Select)
+  className="CountryChooser  "
+  hideLabel={true}
+  id="CountrySelect"
+  label="Store Locator"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders desktop in default state 1`] = `
+<Connect(Select)
+  className="CountryChooser  "
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders desktop with className 1`] = `
+<Connect(Select)
+  className="CountryChooser  test-countryChooser"
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders desktop with countries 1`] = `
+<Connect(Select)
+  className="CountryChooser  "
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders desktop with name 1`] = `
+<Connect(Select)
+  className="CountryChooser  test-name"
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders desktop with selectedCountry 1`] = `
+<Connect(Select)
+  className="CountryChooser  "
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Gibraltar"
+/>
+`;
+
+exports[`<CountryChooser/> @renders mobile as landingPage 1`] = `
+<Connect(Select)
+  className="CountryChooser Select--link "
+  hideLabel={true}
+  id="CountrySelect"
+  label="Store Locator"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders mobile in default state 1`] = `
+<Connect(Select)
+  className="CountryChooser Select--link "
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders mobile with className 1`] = `
+<Connect(Select)
+  className="CountryChooser Select--link test-countryChooser"
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders mobile with countries 1`] = `
+<Connect(Select)
+  className="CountryChooser Select--link "
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders mobile with name 1`] = `
+<Connect(Select)
+  className="CountryChooser Select--link test-name"
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Choose country"
+/>
+`;
+
+exports[`<CountryChooser/> @renders mobile with selectedCountry 1`] = `
+<Connect(Select)
+  className="CountryChooser Select--link "
+  id="CountrySelect"
+  label="I'm looking for a store in"
+  name="CountrySelect"
+  onChange={[Function]}
+  value="Gibraltar"
+/>
+`;

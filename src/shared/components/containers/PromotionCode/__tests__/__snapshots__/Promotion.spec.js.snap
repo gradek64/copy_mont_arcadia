@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Promotion /> @renders in default state 1`] = `
+<div
+  className="PromotionCode-code"
+  key="WELCOME15"
+>
+  <span
+    className="PromotionCode-codeTitle"
+  >
+     
+    WELCOME15
+     
+  </span>
+  <p
+    className="PromotionCode-codeDescription"
+  >
+    Welcome treat! 15% off
+  </p>
+  <div
+    className="PromotionCode-codeActions"
+  >
+    <a
+      className="PromotionCode-removeText"
+      onClick={[Function]}
+    >
+      Remove
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Promotion /> @renders with add Button 1`] = `
+<div
+  className="PromotionCode-code"
+  key="WELCOME15"
+>
+  <span
+    className="PromotionCode-codeTitle"
+  >
+     
+    WELCOME15
+     
+  </span>
+  <p
+    className="PromotionCode-codeDescription"
+  >
+    Welcome treat! 15% off
+  </p>
+  <div
+    className="PromotionCode-codeActions PromotionCode-codeActionSpace"
+  >
+    <a
+      className="PromotionCode-addText"
+      onClick={[MockFunction]}
+    >
+       
+      Add another
+    </a>
+    <a
+      className="PromotionCode-removeText"
+      onClick={[Function]}
+    >
+      Remove
+    </a>
+  </div>
+</div>
+`;

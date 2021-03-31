@@ -1,0 +1,36 @@
+/** @define DeliveryOptions; weak */
+
+.DeliveryOptions {
+  & .DeliveryOption {
+    margin-bottom: 10px;
+
+    &-content {
+      display: block;
+      cursor: pointer;
+      padding: 15px;
+      border: 1px solid $checkout-divider-color;
+      width: 100%;
+      text-align: left;
+
+      &--selected {
+        border: 2px solid $checkout-delivery-method-button-selected-color;
+      }
+    }
+
+    &-title {
+      display: block;
+      font-weight: $checkout-delivery-title-font-weight;
+      margin-bottom: 10px;
+    }
+
+    &-description {
+      font-weight: $checkout-delivery-option-font-weight;
+      font-size: 12px;
+    },
+    &-additionalDescription {
+      display: block;
+      font-weight: $checkout-delivery-option-font-weight;
+      font-size: 12px;
+    }
+  }
+}

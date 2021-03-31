@@ -1,0 +1,44 @@
+/** @define OrderHistoryDetailsAddress */
+
+.OrderHistoryDetailsAddress {
+  padding: 10px $page-padding 15px;
+  border-top: 1px solid $myaccount-border-color;
+
+  &-title {
+    margin-top: 10px;
+  }
+
+  &-body {
+    display: flex;
+  }
+
+  &-icon {
+    padding: 10px;
+    margin-right: 15px;
+    width: 50px;
+    align-self: flex-start;
+  }
+  &-label {
+    margin-bottom: 10px;
+  }
+
+  &-details {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  &-line {
+    display: block;
+  }
+}
+
+@media $min-tablet {
+  .OrderHistoryDetailsAddress {
+    border-top: none;
+
+    &-title {
+      border-bottom: 1px solid $myaccount-divider-color;
+      padding-bottom: 8px;
+    }
+  }
+}

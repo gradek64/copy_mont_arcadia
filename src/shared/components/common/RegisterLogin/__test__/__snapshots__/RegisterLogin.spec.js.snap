@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegisterLogin /> @renders in default state 1`] = `
+<section
+  className="RegisterLogin"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  />
+  <div
+    className="RegisterLogin-loginSection"
+  >
+    <Connect(Login)
+      className="Login--signin"
+      getNextRoute={[Function]}
+    />
+    <Connect(ForgetPassword)
+      className="ForgetPassword--signin"
+      enableScrollToMessage={true}
+    />
+  </div>
+  <div
+    className="RegisterLogin-registerSection"
+  >
+    <Connect(Register)
+      className="Register--signin"
+      getNextRoute={[Function]}
+      source="TIMEOUT"
+    />
+  </div>
+</section>
+`;
+
+exports[`<RegisterLogin /> @renders should add class names to hide register component and remove margins to login component 1`] = `
+<section
+  className="RegisterLogin"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  />
+  <div
+    className="RegisterLogin-loginSection RegisterLogin-loginSection--noMargin"
+  >
+    <Connect(Login)
+      className="Login--signin"
+      getNextRoute={[Function]}
+    />
+    <Connect(ForgetPassword)
+      className="ForgetPassword--signin"
+      enableScrollToMessage={true}
+    />
+  </div>
+  <div
+    className="RegisterLogin-registerSection RegisterLogin-registerSection--hide"
+  >
+    <Connect(Register)
+      className="Register--signin"
+      getNextRoute={[Function]}
+      source="TIMEOUT"
+    />
+  </div>
+</section>
+`;

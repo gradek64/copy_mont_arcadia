@@ -1,0 +1,5 @@
+{
+    "statusCode": 422,
+    "error": "Unprocessable Entity",
+    "message": "Sorry, the gift card has been declined. Please check gift card number and pin and try again."
+}

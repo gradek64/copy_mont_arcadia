@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BundlesSizes /> @renders in default state 1`] = `
+<div
+  className="BundlesSizes"
+  data-product-id={28665413}
+>
+  <Connect(Select)
+    className="BundlesSizes-size"
+    firstDisabled="Select size"
+    label=""
+    name="bundleSize:28665413"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size XL",
+          "value": "973429581273495",
+        },
+      ]
+    }
+    value="Select size"
+  />
+  <Connect(SizeGuide)
+    items={
+      Array [
+        Object {
+          "size": "XL",
+          "sku": "973429581273495",
+        },
+      ]
+    }
+    openDrawer={true}
+    type="bundles"
+  />
+</div>
+`;
+
+exports[`<BundlesSizes /> @renders in error state 1`] = `
+<div
+  className="BundlesSizes"
+  data-product-id={28665413}
+>
+  <Connect(Select)
+    className="BundlesSizes-size"
+    firstDisabled="Select size"
+    label=""
+    name="bundleSize:28665413"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size XL",
+          "value": "973429581273495",
+        },
+      ]
+    }
+    value="Select size"
+  />
+  <p
+    className="BundlesSizes-error"
+  >
+    fake error message
+  </p>
+  <Connect(SizeGuide)
+    items={
+      Array [
+        Object {
+          "size": "XL",
+          "sku": "973429581273495",
+        },
+      ]
+    }
+    openDrawer={true}
+    type="bundles"
+  />
+</div>
+`;
+
+exports[`<BundlesSizes /> @renders in selected state 1`] = `
+<div
+  className="BundlesSizes"
+  data-product-id={28665413}
+>
+  <Connect(Select)
+    className="BundlesSizes-size"
+    firstDisabled="Select size"
+    label=""
+    name="bundleSize:28665413"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size XL",
+          "value": "973429581273495",
+        },
+      ]
+    }
+    value="973429581273495"
+  />
+  <Connect(SizeGuide)
+    items={
+      Array [
+        Object {
+          "size": "XL",
+          "sku": "973429581273495",
+        },
+      ]
+    }
+    openDrawer={true}
+    type="bundles"
+  />
+</div>
+`;
+
+exports[`<BundlesSizes /> @renders with one sized item (not display size guide) 1`] = `
+<div
+  className="BundlesSizes"
+  data-product-id={28665413}
+>
+  <Connect(Select)
+    className="BundlesSizes-size"
+    firstDisabled="Select size"
+    label=""
+    name="bundleSize:28665413"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size XL",
+          "value": "973429581273495",
+        },
+      ]
+    }
+    value="Select size"
+  />
+  <Connect(SizeGuide)
+    attributes={
+      Object {
+        "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+      }
+    }
+    items={
+      Array [
+        Object {
+          "size": "XL",
+          "sku": "973429581273495",
+        },
+      ]
+    }
+    openDrawer={true}
+    type="bundles"
+  />
+</div>
+`;
+
+exports[`<BundlesSizes /> @renders with size guide 1`] = `
+<div
+  className="BundlesSizes"
+  data-product-id={28665413}
+>
+  <Connect(Select)
+    className="BundlesSizes-size"
+    firstDisabled="Select size"
+    label=""
+    name="bundleSize:28665413"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size XL",
+          "value": "973429581273495",
+        },
+      ]
+    }
+    value="Select size"
+  />
+  <Connect(SizeGuide)
+    attributes={
+      Object {
+        "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+      }
+    }
+    items={
+      Array [
+        Object {
+          "size": "XL",
+          "sku": "973429581273495",
+        },
+      ]
+    }
+    openDrawer={true}
+    type="bundles"
+  />
+</div>
+`;
+
+exports[`<BundlesSizes /> @renders with size guide on desktop 1`] = `
+<div
+  className="BundlesSizes"
+  data-product-id={28665413}
+>
+  <Connect(Select)
+    className="BundlesSizes-size"
+    firstDisabled="Select size"
+    label=""
+    name="bundleSize:28665413"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "Size XL",
+          "value": "973429581273495",
+        },
+      ]
+    }
+    value="Select size"
+  />
+  <Connect(SizeGuide)
+    attributes={
+      Object {
+        "ECMC_PROD_SIZE_GUIDE_1": "Jackets & Coats",
+      }
+    }
+    items={
+      Array [
+        Object {
+          "size": "XL",
+          "sku": "973429581273495",
+        },
+      ]
+    }
+    openDrawer={true}
+    type="bundles"
+  />
+</div>
+`;

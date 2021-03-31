@@ -1,0 +1,7 @@
+/** @define ChangeShippingDestination */
+
+.ChangeShippingDestination {
+  max-width: 1199px;
+  margin: 0 auto;
+  padding: $page-padding;
+}

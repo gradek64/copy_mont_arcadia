@@ -1,0 +1,7 @@
+/** @define DeliveryPaymentContainer */
+
+.DeliveryPaymentContainer {
+  &-wrapper {
+    padding-bottom: $checkout-separator-height;
+  }
+}

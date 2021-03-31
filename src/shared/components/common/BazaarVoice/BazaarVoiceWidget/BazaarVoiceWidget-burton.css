@@ -1,0 +1,26 @@
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRDisplayContentHeader {
+  position: static;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice .BVRRSortSelectWidget {
+  float: none;
+  margin: 0 auto;
+}
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRRootElement .BVRROverallRatingContainer .BVRRRatingNormalImage {
+  padding-left: 0;
+}
+
+/* postcss-bem-linter: ignore */
+.BazaarVoice #BVRRSummaryContainer .BVRRPrimarySummary .BVRRRatingSummaryLinks {
+  top: 0;
+}
+
+
+@media $min-laptop {
+  /* postcss-bem-linter: ignore */
+  #BVRRDisplayContentHeaderID.BVRRDisplayContentHeader {
+    top: 130px !important;
+  }
+}

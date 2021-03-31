@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThirdPartyPaymentIFrame /> @renders with a 3D Secure form 1`] = `
+<iframe
+  className="ThirdPartyPaymentIFrame"
+  name="payment-punchout-iframe"
+  sandbox="allow-forms allow-same-origin allow-scripts"
+  src="about:blank"
+>
+  Iframes are not supported by this browser.
+</iframe>
+`;
+
+exports[`<ThirdPartyPaymentIFrame /> @renders without a 3D Secure form 1`] = `
+<iframe
+  className="ThirdPartyPaymentIFrame"
+  name="payment-punchout-iframe"
+  sandbox="allow-forms allow-same-origin allow-scripts"
+  src="about:blank"
+>
+  Iframes are not supported by this browser.
+</iframe>
+`;

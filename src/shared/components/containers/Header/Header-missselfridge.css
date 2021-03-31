@@ -1,0 +1,72 @@
+/** @define HeaderMissSelfridge; weak */
+
+.HeaderMissSelfridge {
+  &-content {
+   opacity: 1;
+  }
+  &.is-sticky {
+    align-items: center;
+    background-color: $header-background;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    & .HeaderMissSelfridge-search {
+      & .SearchBar--big {
+
+        & .SearchBar-icon {
+          padding: 4px 0 4px 4px;
+        }
+
+        & .SearchBar-queryInput,
+        & .SearchBar-queryInput:focus {
+          width: 63px;
+        }
+      }
+    }
+    & .AccountIcon,
+    & .ShippingDestination,
+    & .WishlistHeaderLink,
+    & .ShoppingCart {
+      margin: 0 0 0 10px;
+    }
+
+    & .HeaderMissSelfridge-megaNav {
+      margin: 0;
+    }
+    & .HeaderMissSelfridge-content {
+      display: none;
+    }
+    & .HeaderMissSelfridge-brand {
+      display: none;
+    }
+    & .HeaderMissSelfridge-navigation {
+      background-color: $header-background;
+      padding: 0 12px;
+    }
+  }
+}
+
+@media $min-laptop {
+  .HeaderMissSelfridge {
+    &.is-sticky {
+      & .HeaderMissSelfridge-search {
+        & .SearchBar--big {
+
+          & .SearchBar-icon {
+            padding: 4px 0 4px 8px;
+          }
+
+        }
+      }
+      & .AccountIcon,
+      & .ShippingDestination,
+      & .WishlistHeaderLink,
+      & .ShoppingCart {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+}

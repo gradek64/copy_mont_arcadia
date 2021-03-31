@@ -1,0 +1,65 @@
+const base = require('./ms-base')
+const colors = require('./ms-colors')
+
+module.exports = {
+  'font-family-body': base['font-family-primary'],
+  'font-family-h1': base['font-family-primary'],
+  'font-family-h2': base['font-family-primary'],
+  'font-family-h3': base['font-family-primary'],
+  'font-family-h4': base['font-family-primary'],
+  'font-family-p': base['font-family-primary'],
+  'font-family-label': base['font-family-primary'],
+  'font-family-input': base['font-family-primary'],
+  'font-family-select': base['font-family-primary'],
+  'font-family-button': base['font-family-primary'],
+
+  'font-size-navigation': '14px',
+  'font-size-button': '16px',
+
+  'font-size-h1': '18px',
+  'font-size-h2': '18px',
+  'font-size-h3': '14px',
+  'font-size-h4': '14px',
+  'font-size-input': '16px',
+  'font-size-label': '14px',
+
+  'font-color-base': colors['dk-gray'],
+  'font-color-h1': colors['dk-gray'],
+  'font-color-h2': colors['dk-gray'],
+  'font-color-h3': colors['dk-gray'],
+  'font-color-h4': colors['dk-gray'],
+  'font-color-p': colors['dk-gray'],
+  'font-color-label': colors['dk-gray'],
+
+  'font-weight-h1': 500,
+  'font-weight-h2': 400,
+  'font-weight-h3': 500,
+  'font-weight-h4': 400,
+  'font-weight-h5': 400,
+  'font-weight-p': 300,
+  'font-weight-label': 400,
+  'font-weight-button': 400,
+  'font-weight-input': 400,
+  'font-weight-link': 300,
+  'font-weight-300': 300,
+  'font-weight-400': 400,
+  'font-weight-500': 500,
+  'font-weight-700': 700,
+
+  'text-transform-h1': 'capitalize',
+  'text-transform-h2': 'capitalize',
+  'text-transform-h3': 'capitalize',
+  'text-transform-h4': 'capitalize',
+
+  'line-height-title': '1.2em',
+
+  'letter-spacing-h1': 'normal',
+  'letter-spacing-h2': 'normal',
+  'letter-spacing-h3': 'normal',
+  'letter-spacing-h4': 'normal',
+  'letter-spacing-p': 'normal',
+  'letter-spacing-title': '0.02em',
+  'letter-spacing-button': 'normal',
+  'letter-spacing-label': 'normal',
+  'letter-spacing-input': 'normal',
+}

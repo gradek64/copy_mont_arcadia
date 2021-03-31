@@ -1,0 +1,59 @@
+{
+  "orderId": 9572052,
+  "subTotal": "49.00",
+  "statusCode": "D",
+  "status": "Your order has been dispatched from our warehouse.",
+  "returnPossible": false,
+  "returnRequested": false,
+  "deliveryMethod": "Collect From Store Express",
+  "deliveryType" : "S",
+  "deliveryDate": "Wednesday 24 July 2019",
+  "deliveryCost": "",
+  "deliveryCarrier": "Retail Store Express",
+  "deliveryPrice": "0.00",
+  "isDDPOrder": false,
+  "totalOrderPrice": "49.00",
+  "totalOrdersDiscount": "",
+  "totalOrdersDiscountLabel": "Discounts",
+  "billingAddress": {
+    "name": "Mr S K",
+    "address1": "Street",
+    "address2": "",
+    "address3": "London",
+    "address4": "BT15BT",
+    "country": "United Kingdom"
+  },
+  "deliveryAddress": {
+    "name": "Mr S K",
+    "address1": "c/o Top Shop, 60/64 The Strand",
+    "address2": "Strand",
+    "address3": "Strand",
+    "address4": "WC2N 5LR",
+    "country": "United Kingdom"
+  },
+  "orderLines": [
+    {
+      "lineNo": "02K73NMDT",
+      "name": "MOTO Jewel Stripe Jamie Jeans",
+      "size": "W2430",
+      "isDDPProduct": false,
+      "colour": "MID STONE",
+      "baseImageUrl": "https://images.topshop.com/i/TopShop/TS02K73NMDT_M_1",
+      "imageUrl": "https://images.topshop.com/i/TopShop/TS02K73NMDT_M_1.jpg?$Small$",
+      "quantity": 1,
+      "unitPrice": "49.00",
+      "total": "49.00",
+      "nonRefundable": false,
+      "discount": "",
+      "trackingAvailable": false
+    }
+  ],
+  "paymentDetails": [
+    {
+      "paymentMethod": "Visa",
+      "cardNumberStar": "************1111",
+      "totalCost": "£49.00"
+    }
+  ],
+  "smsNumber": ""
+}

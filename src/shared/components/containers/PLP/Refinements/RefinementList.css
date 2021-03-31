@@ -1,0 +1,47 @@
+/** @define RefinementList */
+.RefinementList {
+  overflow: auto;
+  flex-grow: 2;
+  position: relative;
+  margin-top: -1px; /* Hide the top Accordion border when user is scrolled to top */
+
+  &-accordionHeader {
+    display: flex;
+    flex-direction: row;
+    font-weight: $refinements-items-header-font-weight;
+  }
+
+  &-label {
+    min-height: $refinements-items-header-height;
+
+    &.is-rating::after {
+      display: $refinements-item-rating-display-selection;
+    }
+  }
+
+  &-selection {
+    margin-left: $refinements-items-selection-margin-left;
+    flex-grow: 1;
+    font-size: $refinements-items-selection-font-size;
+    line-height: $refinements-items-selection-line-height;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.is-rating {
+      display: $refinements-item-rating-display-selection;
+    }
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.RefinementList .Accordion {
+  border-color: $refinements-accordion-border-color;
+}
+
+@media $min-tablet {
+  .RefinementList {
+    overflow: initial;
+  }
+}
+

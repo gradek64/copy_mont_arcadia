@@ -1,0 +1,7 @@
+{
+    "success": true,
+    "action": "create",
+    "message": "Your account has been created",
+    "redirect": "UserRegistrationForm?langId=-1&storeId=12556&catalogId=33057&new=Y&returnPage=",
+    "exists": false
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`desktopNavigation transform should transform navigation data 1`] = `
+Object {
+  "categories": Array [
+    Object {
+      "columns": Array [
+        Object {
+          "subcategories": Array [
+            Object {
+              "test": Array [
+                Object {
+                  "redirectionUrl": "/en/category/redirect",
+                  "url": "/en/category/clothing",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      "redirectionUrl": "/en/category/redirect",
+      "url": "/en/category/clothing",
+    },
+  ],
+  "foo": "bar",
+  "id": 2,
+}
+`;

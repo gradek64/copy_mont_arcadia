@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrivacyNotice /> @renders defaults to no href if there is no brand for a given region, for example burton in de 1`] = `
+<div
+  className="PrivacyNotice"
+>
+  privacyNoticeBeforeLink
+  <Link
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+  >
+    privacyNoticeUrlText
+  </Link>
+  .
+</div>
+`;
+
+exports[`<PrivacyNotice /> @renders in default state 1`] = `
+<div
+  className="PrivacyNotice"
+>
+  privacyNoticeBeforeLink
+  <Link
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="https://missselfridge.com/en/msuk/category/privacy-policy-cookie-policy-7736111/home"
+  >
+    privacyNoticeUrlText
+  </Link>
+  .
+</div>
+`;
+
+exports[`<PrivacyNotice /> @renders renders with a different brand, for example topshop 1`] = `
+<div
+  className="PrivacyNotice"
+>
+  privacyNoticeBeforeLink
+  <Link
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="https://topshop.com/en/tsuk/category/privacy-cookies-157/home#fragment-2"
+  >
+    privacyNoticeUrlText
+  </Link>
+  .
+</div>
+`;
+
+exports[`<PrivacyNotice /> @renders renders with a different region, for example de 1`] = `
+<div
+  className="PrivacyNotice"
+>
+  privacyNoticeBeforeLink
+  <Link
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="https://missselfridge.de/de/msde/kategorie/help-information-5595419/datenschutz-5770115"
+  >
+    privacyNoticeUrlText
+  </Link>
+  .
+</div>
+`;
+
+exports[`<PrivacyNotice /> @renders renders with different a region and brand, for example de and topshop 1`] = `
+<div
+  className="PrivacyNotice"
+>
+  privacyNoticeBeforeLink
+  <Link
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="https://de.topshop.com/de/tsde/kategorie/datenschutzrichtlinie-und-cookies-345316/heimat?cat2=528993#fragment-2"
+  >
+    privacyNoticeUrlText
+  </Link>
+  .
+</div>
+`;
+
+exports[`<PrivacyNotice /> @renders should not render if region is us 1`] = `""`;
+
+exports[`<PrivacyNotice /> @renders should render if region is \`us\` and showPrivacyMessageForUs  1`] = `
+<div
+  className="PrivacyNotice"
+>
+  privacyNoticeBeforeLink
+  <Link
+    onClick={[Function]}
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="https://us.missselfridge.com/en/msus/category/terms-conditions-892930/home"
+  >
+    privacyNoticeUrlText
+  </Link>
+  .
+</div>
+`;

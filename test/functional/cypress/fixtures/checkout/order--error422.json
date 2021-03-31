@@ -1,0 +1,5 @@
+{
+    "statusCode": 422,
+    "error": "Unprocessable Entity",
+    "message": "Your payment cannot be accepted at this time. Please try again later."
+}

@@ -1,0 +1,72 @@
+/** @define LowStock */
+
+.LowStock-container {
+  width: $pdp-product-low-stock-banner-container-width;
+  height: 30px;
+  margin-top: $pdp-product-low-stock-banner-margin-top;
+  order: $pdp-product-low-stock-banner-container-order;
+
+  &:not(.LowStock-container-withQuantity) {
+    transition: $pdp-product-low-stock-banner-container-animation-out;
+   
+  }
+
+  &--show:not(.LowStock-container-withQuantity) {
+    transition: $pdp-product-low-stock-banner-container-animation;
+   
+  }
+}
+
+.LowStock {
+  text-align: center;
+  font-weight: $pdp-product-low-stock-banner-font-weight;
+  display: block;
+  box-sizing: border-box;
+  color: $pdp-product-low-stock-banner-text-color;
+  font-size: $pdp-product-low-stock-banner-font-size;
+  flex: $pdp-product-low-stock-banner-flex;
+  margin-top: 0;
+  margin-bottom: $pdp-product-low-stock-banner-margin-bottom;
+  padding: $pdp-product-low-stock-banner-padding;
+  background-color: $pdp-product-low-stock-banner-bg-color;
+  border: $pdp-product-low-stock-banner-border;
+  line-height: $pdp-product-low-stock-banner-line-height;
+  min-height: $pdp-product-low-stock-banner-min-height;
+  width: 100%;
+}
+
+/* postcss-bem-linter: ignore */
+.LowStock-animation{
+  /* postcss-bem-linter: ignore */
+  &-enter {
+    transition: $pdp-product-low-stock-banner-animation;
+    opacity: 0;
+  }
+  /* postcss-bem-linter: ignore */
+  &-enter-active {
+    transition: $pdp-product-low-stock-banner-animation;
+    opacity: 1;
+  }
+  /* postcss-bem-linter: ignore */
+  &-exit {
+    transition: $pdp-product-low-stock-banner-animation-out;
+    opacity: 1;
+  }
+  /* postcss-bem-linter: ignore */
+  &-exit-active {
+    transition: $pdp-product-low-stock-banner-animation-out;
+    opacity: 0;
+  }
+}
+
+@media $mobile {
+  .LowStock-container {
+    width: $pdp-product-low-stock-banner-container-width-mobile;
+    height: 0px;
+    margin-top: $pdp-product-low-stock-banner-margin-top-mobile;
+    &--show:not(.LowStock-container-withQuantity) {
+      transition: none;
+      height: 30px;
+    }
+  }
+}

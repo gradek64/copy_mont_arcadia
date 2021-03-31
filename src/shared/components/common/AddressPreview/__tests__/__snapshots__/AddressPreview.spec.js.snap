@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressPreview @renders should not render \`AddressPreview-button--rightAligned\` class if rightAlignedButton prop is false 1`] = `
+<div
+  className="AddressPreview"
+>
+  <div
+    className="AddressPreview-col"
+  >
+    <dl
+      className="AddressPreview-details"
+    >
+      <div
+        key="Title"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Title
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          Mr John Doe
+        </dd>
+      </div>
+      <div
+        key="Address Line 1"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Address Line 1
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          Flat 46 Sheppard House
+        </dd>
+      </div>
+      <div
+        key="Address Line 2"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Address Line 2
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          120 Oxford Street
+        </dd>
+      </div>
+      <div
+        key="City"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          City
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          London
+        </dd>
+      </div>
+      <div
+        key="Postcode"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Postcode
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          E2 7AB
+        </dd>
+      </div>
+      <div
+        key="Country"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Country
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          United Kingdom
+        </dd>
+      </div>
+      <div
+        key="State"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          State
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        />
+      </div>
+    </dl>
+    <button
+      className="Button Button--secondary AddressPreview-button"
+      onClick={[MockFunction]}
+    >
+      Change
+    </button>
+  </div>
+</div>
+`;
+
+exports[`AddressPreview @renders should render the address details 1`] = `
+<div
+  className="AddressPreview"
+>
+  <div
+    className="AddressPreview-col"
+  >
+    <dl
+      className="AddressPreview-details"
+    >
+      <div
+        key="Title"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Title
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          Mr John Doe
+        </dd>
+      </div>
+      <div
+        key="Address Line 1"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Address Line 1
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          Flat 46 Sheppard House
+        </dd>
+      </div>
+      <div
+        key="Address Line 2"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Address Line 2
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          120 Oxford Street
+        </dd>
+      </div>
+      <div
+        key="City"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          City
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          London
+        </dd>
+      </div>
+      <div
+        key="Postcode"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Postcode
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          E2 7AB
+        </dd>
+      </div>
+      <div
+        key="Country"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Country
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          United Kingdom
+        </dd>
+      </div>
+      <div
+        key="State"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          State
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        />
+      </div>
+    </dl>
+    <button
+      className="Button Button--secondary AddressPreview-button"
+      onClick={[MockFunction]}
+    >
+      Change
+    </button>
+  </div>
+</div>
+`;
+
+exports[`AddressPreview @renders should render the heading if heading prop is true 1`] = `
+<div
+  className="AddressPreview"
+>
+  <div
+    className="AddressPreview-col"
+  >
+    <h4
+      className="AddressPreview-header"
+    >
+      Billing address
+    </h4>
+    <dl
+      className="AddressPreview-details"
+    >
+      <div
+        key="Title"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Title
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          Mr John Doe
+        </dd>
+      </div>
+      <div
+        key="Address Line 1"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Address Line 1
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          Flat 46 Sheppard House
+        </dd>
+      </div>
+      <div
+        key="Address Line 2"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Address Line 2
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          120 Oxford Street
+        </dd>
+      </div>
+      <div
+        key="City"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          City
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          London
+        </dd>
+      </div>
+      <div
+        key="Postcode"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Postcode
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          E2 7AB
+        </dd>
+      </div>
+      <div
+        key="Country"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          Country
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        >
+          United Kingdom
+        </dd>
+      </div>
+      <div
+        key="State"
+      >
+        <dt
+          className="AddressPreview-detailsTerm"
+        >
+          State
+        </dt>
+        <dd
+          className="AddressPreview-detailsDescription"
+        />
+      </div>
+    </dl>
+    <button
+      className="Button Button--secondary AddressPreview-button"
+      onClick={[MockFunction]}
+    >
+      Change
+    </button>
+  </div>
+</div>
+`;

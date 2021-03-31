@@ -1,0 +1,25 @@
+/** @define EmptyWishlist */
+.EmptyWishlist {
+  padding: 20px 10px;
+
+  &-wishlistIcon {
+    background-image: $wishlist-header-icon;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $wishlist-empty-state-icon-height;
+    width: $wishlist-empty-state-icon-width;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+  }
+
+  &-continueButton {
+    margin: 15px auto;
+    max-width: 250px;
+  }
+
+  &-signInButton {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}

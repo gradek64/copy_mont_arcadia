@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForgotPassword /> @renders in default state 1`] = `
+<section
+  className="RegisterSuccess"
+>
+  <div
+    className="RegisterSuccess-inner"
+  >
+    <LoginRegisterHeader
+      className="RegisterSuccess-header"
+    />
+    <p
+      className="RegisterSuccess-text"
+    />
+    <Button
+      className="RegisterSuccess-button"
+      clickHandler={[Function]}
+    />
+  </div>
+</section>
+`;

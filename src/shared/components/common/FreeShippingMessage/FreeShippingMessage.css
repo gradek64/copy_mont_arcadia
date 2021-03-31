@@ -1,0 +1,77 @@
+/** @define FreeShippingMessage */
+
+.FreeShippingMessage {
+  text-transform: $freeShippingMessage-text-transform;
+  color: $freeShippingMessage-color;
+  font-size: $freeShippingMessage-font-size;
+  text-align: $freeShippingMessage-text-align;
+  border: $freeShippingMessage-border;
+  margin: $freeShippingMessage-margin;
+  background-color: $freeShippingMessage-background-color;
+  line-height: $freeShippingMessage-line-height;
+  
+  &-success {
+    padding: $freeShippingMessage-padding;
+    background: $freeShippingMessage-success-background;
+    background-size: $freeShippingMessage-background-size;
+  }
+  
+  &-info {
+    padding: $freeShippingMessage-padding;
+    background: $freeShippingMessage-info-background;
+    background-size: $freeShippingMessage-background-size;
+  }
+  
+  &--quickview {
+    margin: 10px 0 0 0;
+  }
+  
+  &--pdp {
+    margin: 0 0 15px 0;
+  }
+  
+  &-line1 {
+    text-transform: $line1-text-transform;
+    font-weight: $line1-font-weight;
+    position: $line1-position;
+    padding: $line1-padding;
+    &:before {
+      content: '';
+      display: $line-1-before-display;
+      width: $line-1-before-width;
+      border-color: $line-1-before-border-color;
+      border-style: $line-1-before-border-style;
+      border-width: $line-1-before-border-width;
+      height: $line-1-before-height;
+      top: $line-1-before-top;
+      left: $line-1-before-left;
+      position: $line-1-before-position;
+      transform: $line-1-before-transform;
+    }
+  }
+  &-line2 {
+    display: $line2-displayMobile;
+    font-weight: $line2-font-weight;
+    text-transform: $line2-text-transform;
+    margin: $line2-margin;
+  }
+  &-deliveryText {
+    display: $deliveryText-displayMobile;
+    font-weight: $deliveryText-font-weight;
+  }
+  &-joining {
+    display: $joining-displayMobile;
+    font-weight: $joining-font-weight;
+  }
+  @media only screen and (min-width: 500px) {
+    &-joining {
+      display: $joining-display;
+    }
+    &-deliveryText {
+      display: $deliveryText-display;
+    }
+    &-line2 {
+      display: $line2-display;
+    }
+  }
+}

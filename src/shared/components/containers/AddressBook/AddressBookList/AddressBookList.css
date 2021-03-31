@@ -1,0 +1,66 @@
+/** @define AddressBookList */
+
+.AddressBookList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &-item {
+    align-items: stretch;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+
+   &--onClick {
+      width: 100%;
+      text-align: left;
+    }
+
+    &--selected {
+       border: 2px solid black;
+   }
+  }
+
+  &-itemDetails {
+    flex-grow: 2;
+  }
+
+  &-itemDetailsName {
+    font-weight: normal;
+    margin: 0 0 5px 0;
+  }
+
+  &-itemDetailsAddress {
+    margin: 0;
+    font-weight: $address-book-description-font-weight;
+  }
+
+  &-itemActions {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  &-itemAction {
+    display: block;
+    margin: 10px 0 5px 0;
+    font-size: 12px;
+    border-bottom: $delivery-type-statusIndicatorText-border-bottom;
+    padding-bottom: 4px;
+    height: 23px;
+    text-decoration: none;
+  }
+}
+
+@media $min-laptop {
+  .AddressBookList {
+    &-item {
+       max-width: 60%;
+     }
+  }
+}
+
